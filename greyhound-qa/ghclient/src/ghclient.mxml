@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009"
+			   xmlns:s="library://ns.adobe.com/flex/spark"
+			   xmlns:mx="library://ns.adobe.com/flex/mx"
+			   minWidth="955" minHeight="600" currentState="auto_test">
+	<fx:Script>
+		<![CDATA[
+			import mx.collections.ArrayCollection;
+			import mx.collections.ArrayList;
+			import mx.controls.Alert;
+			
+			import zynga.greyhound.client.test.Bootstrap;
+			
+			[Bindable]
+			public var arr:ArrayCollection = new ArrayCollection();
+			
+			public function init():void
+			{
+				var o1:Bootstrap = new Bootstrap(this.parent.loaderInfo,this.stage);
+				o1.auto_initialize(function ():void {
+					arr = o1.auto_boot_arr;
+					data.dataProvider = arr;
+				});
+			}
+			
+		]]>
+	</fx:Script>
+	<fx:Script>
+		<![CDATA[
+			import flash.utils.setTimeout;
+			
+			import mx.collections.ArrayList;
+			
+			[Bindable]
+			public var blobTypes:Array = ["user", "game-world"];
+			[Bindable]
+			public var deltaTypes:Array = ["gift"];
+			[Bindable]
+			public var deltasData:Array = new Array();
+			private var flag:int = 0;
+			private var boot:Bootstrap = null;
+			
+			public function updateDeltasData(data:Array):void
+			{
+				deltasData = data;
+			}
+			
+			public function start_debugger():void
+			{
+				currentState = 'unit_test';
+				initTabNavigator();
+				var uiControls:Object = {
+					userBlob: {
+						onlineOrOffline: onlineOrOffline,
+						whoseBlobSel: whoseBlobSel,
+						inpZid: inpZid,
+						getBlobBtn: getBlobBtn, 
+						setBlobBtn: setBlobBtn,
+						blobTypeSel: blobTypeSel,
+						displayBlob: displayBlob,
+						displayCAS: displayCAS
+					},
+					userDelta: {
+						getDeltaBtn: getDeltaBtn,
+						deltaTypeSel: deltaTypeSel,
+						deltaTypeAddSel: deltaTypeAddSel,
+						updateDeltasData: updateDeltasData,
+						deltasDataGrid: deltasDataGrid,
+						delDeltaBtn: delDeltaBtn,
+						addDeltaBtn: addDeltaBtn,
+						inpDelta: inpDelta
+					},
+					userMeta: {
+						getMetaBtn: getMetaBtn,
+						displayMeta: displayMeta,
+						setMetaBtn: setMetaBtn
+					},
+					userGraph: {
+						
+						getGraphBtn: getGraphBtn,
+						displayGraph: displayGraph
+					},
+					userQuery: {
+						getQueryBtn: getQueryBtn,
+						displayQuery: displayQuery
+					}
+				};
+				
+				if (flag == 1)
+					boot.teardown();
+				else
+					flag = 1;
+				//getBlobBtn.removeEventListener(MouseEvent.CLICK,
+				//delete(o);	
+				boot = new Bootstrap(this.parent.loaderInfo, this.stage, uiControls);
+				boot.initialize();
+				blobTypes = ExternalInterface.call("Z.auth.getBlobTypes");
+				deltaTypes = ExternalInterface.call("Z.auth.getDeltaTypes");
+				var authToken:String = ExternalInterface.call("Z.auth.getAuthToken");
+				
+				var getZid:Function = function(authToken: String):String {
+					var token:String = authToken.split(/\|/,1)[0];
+					var simple:String = token.split(/\./, 3)[0];
+					var zid:String = "";
+					if(simple.indexOf(":") == -1)
+					{
+						return simple;
+					}
+					return simple.split(/:/,2)[1];	
+				}
+				
+				uiControls.userBlob.inpZid.text = getZid(authToken);
+			}
+			
+			//Initially all tabs of the tab navigator are not available
+			//This causes problems when you want to access some element of inactive tab
+			//This hack will activate each tab one by one so elements from all tabs are available beforehand
+			public function initTabNavigator():void
+			{
+				for (var i:int = 0; i < tabNav.getChildren().length ; i++) 
+				{
+					tabNav.selectedIndex = i;
+					tabNav.validateNow();     
+				}
+				tabNav.selectedIndex = 0;
+			}
+			
+			public function new_zid_func():void
+			{
+				
+				var status:Boolean = false;
+				if (ExternalInterface.call("gen_auth",new_zid.text) === true)
+				{	
+					setTimeout(start_debugger,1200);			
+				}
+				else 
+				{
+					Alert.show("Sorry!!! AuthToken Not Generated!!!");
+					//Alert.show(ExternalInterface.call("Z.auth.getAuthToken"));
+				}				
+				
+			}
+		]]>
+	</fx:Script>
+	
+	<fx:Style>
+		.hide {
+			display:none;
+		}
+	</fx:Style>
+	<s:Panel id="pan" includeIn="auto_test" x="29" y="77" width="898" height="450"
+			 title="CLIENT AUTOMATION SYSTEM!!!">
+		<mx:DataGrid id="data" width="886" height="407" horizontalCenter="-5" initialize="init()"
+					 verticalCenter="0">
+			<!-- now all that is needed here is, to populate the arr (the dataprovider) --> 
+		</mx:DataGrid>
+		<s:Button id="my_btn" includeIn="auto_test" x="821" y="-25" label="DEBUG"
+				  click.auto_test="start_debugger()"/>
+	</s:Panel>
+	<s:Group includeIn="unit_test" horizontalCenter="0" verticalCenter="0"
+			 width="99%" height="100%" top="10">
+		
+		<s:layout >
+			<s:VerticalLayout gap="10" />
+		</s:layout>
+		
+		<mx:TabNavigator includeIn="unit_test" width="100%" height="99%" id="tabNav">
+			<s:NavigatorContent includeIn="unit_test" label="User Blob" width="100%" height="100%">
+				
+				<s:Group includeIn="unit_test" horizontalCenter="0" verticalCenter="0"
+						 width="99%" height="100%" top="10">
+					
+					<s:layout>
+						<s:VerticalLayout gap="10" />
+					</s:layout>
+					
+					<s:Group includeIn="unit_test" width="100%">
+						
+						<s:HGroup includeIn="unit_test" verticalAlign="middle" width="300">
+							<s:CheckBox includeIn="unit_test" label="Online:" id="onlineOrOffline" selected="true" />
+						</s:HGroup>
+						<s:Button id="change_zid" x="601" y="-1" height="25"
+								  label.unit_test="Change User Zid" click.unit_test="new_zid_func()"/>
+						<s:TextInput id="new_zid" x="466" y="-1" width="132" height="25"/>
+					</s:Group>
+					
+					<s:Group includeIn="unit_test" width="100%">
+						<s:HGroup includeIn="unit_test" verticalAlign="middle" width="300">
+							<s:Label includeIn="unit_test">Select Blob Type:</s:Label>
+							<s:DropDownList width="140" id="whoseBlobSel" includeIn="unit_test"
+											dataProvider="{new ArrayList(['My Blob', 'Friend\'s Blob'])}" 
+											requireSelection="true">
+							</s:DropDownList>	
+						</s:HGroup>
+					</s:Group>
+					
+					<s:Group includeIn="unit_test" width="100%">
+						<s:layout>
+							<s:HorizontalLayout gap="10" />
+						</s:layout>
+						<s:HGroup includeIn="unit_test" verticalAlign="middle" width="200">
+							<s:Label includeIn="unit_test">ZID:</s:Label>
+							<s:TextInput includeIn="unit_test" id="inpZid" width="100%" enabled="false"/>
+						</s:HGroup>
+						<s:HGroup includeIn="unit_test" verticalAlign="middle" width="300">
+							<s:Label includeIn="unit_test" >Select Blob Type:</s:Label>
+							<s:DropDownList includeIn="unit_test" width="140" id="blobTypeSel"
+											dataProvider="{new ArrayList(blobTypes)}" 
+											requireSelection="true">
+							</s:DropDownList>
+						</s:HGroup>
+						<s:HGroup includeIn="unit_test" verticalAlign="middle">
+							<s:Button includeIn="unit_test" id="getBlobBtn" label="Show Blob"/>
+						</s:HGroup>
+					</s:Group>
+					
+					<s:Group includeIn="unit_test">
+						<s:layout>
+							<s:HorizontalLayout gap="10" />
+						</s:layout>
+						<s:HGroup includeIn="unit_test" verticalAlign="middle">
+							<s:Label includeIn="unit_test" >CAS:</s:Label>
+							<s:TextInput includeIn="unit_test" id="displayCAS" width="100%" />
+						</s:HGroup>
+					</s:Group>
+					
+					<s:Group includeIn="unit_test" width="100%">
+						
+						<s:TextArea includeIn="unit_test" id="displayBlob" width="100%" />
+					</s:Group>
+					
+					<s:Group includeIn="unit_test">
+						<s:Button includeIn="unit_test" id="setBlobBtn" label="Update"/>
+					</s:Group>
+					
+					<!--
+					<s:DataGrid id="myDataGrid"
+					width="100%" height="100%" top="50" 
+					dataProvider="{new ArrayList(m_dataProvider)}" 
+					editable="true">
+					<s:columns>
+					<s:ArrayList>
+					<s:GridColumn dataField="key" headerText="KEY" editable="false"/>
+					<s:GridColumn dataField="val" headerText="VALUE (Double click to edit)"/>
+					</s:ArrayList>
+					</s:columns>
+					</s:DataGrid>
+					-->
+					
+				</s:Group>
+			</s:NavigatorContent>
+			
+			<s:NavigatorContent includeIn="unit_test" label="User Deltas" width="100%" height="100%">
+				
+				<s:Group includeIn="unit_test" horizontalCenter="0" verticalCenter="0"
+						 width="99%" height="100%" top="10">
+					
+					<s:layout>
+						<s:VerticalLayout gap="10" />
+					</s:layout>
+					
+					<s:Group includeIn="unit_test"  width="100%">
+						<s:layout>
+							<s:HorizontalLayout gap="10" />
+						</s:layout>
+						<!--
+						<s:HGroup verticalAlign="middle" width="200">
+						<s:Label>ZID:</s:Label>
+						<s:TextInput id="inpZID2" text="6217831761" width="100%"/>
+						</s:HGroup>
+						-->
+						<s:HGroup includeIn="unit_test" verticalAlign="middle" width="300">
+							<s:Label includeIn="unit_test" >Select Delta Type:</s:Label>
+							<s:DropDownList includeIn="unit_test" width="140" id="deltaTypeSel"
+											dataProvider="{new ArrayList(deltaTypes)}" 
+											requireSelection="true">
+							</s:DropDownList>
+						</s:HGroup>
+						<s:HGroup includeIn="unit_test" verticalAlign="middle">
+							<s:Button id="getDeltaBtn" label="Show Deltas"/>
+						</s:HGroup>
+					</s:Group>
+					
+					<s:Group includeIn="unit_test" width="100%">
+						<mx:DataGrid includeIn="unit_test" id="deltasDataGrid" dataProvider="{new ArrayList(deltasData)}" 
+									 allowMultipleSelection="true"
+									 width="100%" height="100%">
+							<mx:columns>
+								<mx:DataGridColumn dataField="id"/>
+								<mx:DataGridColumn dataField="expiry"/>
+								<mx:DataGridColumn dataField="value"/>
+							</mx:columns>
+						</mx:DataGrid>
+					</s:Group>
+					
+					<s:Group includeIn="unit_test">
+						<s:layout>
+							<s:HorizontalLayout gap="10" />
+						</s:layout>
+						<s:HGroup includeIn="unit_test" verticalAlign="middle">
+							<s:Button id="delDeltaBtn" label="Delete Selected Deltas"/>
+						</s:HGroup>
+						<s:HGroup includeIn="unit_test" verticalAlign="middle">
+							<s:Label>(Press Ctrl key to select multiple rows)</s:Label>
+						</s:HGroup>
+					</s:Group>
+					
+					<s:Group includeIn="unit_test">
+						<s:layout>
+							<s:HorizontalLayout gap="10" />
+						</s:layout>
+						<s:HGroup includeIn="unit_test" verticalAlign="middle">
+							<s:DropDownList includeIn="unit_test" width="140" id="deltaTypeAddSel"
+											dataProvider="{new ArrayList(deltaTypes)}" 
+											requireSelection="true">
+							</s:DropDownList>
+						</s:HGroup>
+						<s:HGroup includeIn="unit_test" verticalAlign="middle">
+							<s:TextInput id="inpDelta" width="200"/>
+						</s:HGroup>
+						<s:HGroup includeIn="unit_test" verticalAlign="middle">
+							<s:Button id="addDeltaBtn" label="Add Delta"/>
+						</s:HGroup>
+					</s:Group>
+				</s:Group>
+			</s:NavigatorContent>
+			
+			<s:NavigatorContent includeIn="unit_test" label="User Meta" width="100%" height="100%">
+				<s:Group horizontalCenter="0" verticalCenter="0"
+						 width="99%" height="100%" top="10">
+					<s:layout>
+						<s:VerticalLayout gap="10" />
+					</s:layout>
+					<s:Group width="100%">
+						<s:layout>
+							<s:HorizontalLayout gap="10" />
+						</s:layout>
+						<s:HGroup verticalAlign="middle">
+							<s:Button id="getMetaBtn" label="Show Meta"/>
+						</s:HGroup>
+					</s:Group>
+					<s:Group width="100%">
+						<s:TextArea id="displayMeta" width="100%" />
+					</s:Group>
+					<s:Group>
+						<s:Button id="setMetaBtn" label="Update Meta"/>
+					</s:Group>
+				</s:Group>
+			</s:NavigatorContent>
+			
+			<s:NavigatorContent includeIn="unit_test" label="User Graph" width="100%" height="100%">
+				<s:Group horizontalCenter="0" verticalCenter="0"
+						 width="99%" height="100%" top="10">
+					<s:layout>
+						<s:VerticalLayout gap="10" />
+					</s:layout>
+					<s:Group width="100%">
+						<s:layout>
+							<s:HorizontalLayout gap="10" />
+						</s:layout>
+						<s:HGroup verticalAlign="middle">
+							<s:Button id="getGraphBtn" label="Show Graph"/>
+						</s:HGroup>
+					</s:Group>
+					<s:Group width="100%">
+						<s:TextArea id="displayGraph" width="100%" />
+					</s:Group>
+				</s:Group>
+			</s:NavigatorContent>
+			
+			
+			<s:NavigatorContent includeIn="unit_test" label="User Query" width="100%" height="100%">
+				<s:Group horizontalCenter="0" verticalCenter="0"
+						 width="99%" height="100%" top="10">
+					<s:layout>
+						<s:VerticalLayout gap="10" />
+					</s:layout>
+					<s:Group width="100%">
+						<s:layout>
+							<s:HorizontalLayout gap="10" />
+						</s:layout>
+						<s:HGroup verticalAlign="middle">
+							<s:Button id="getQueryBtn" label="Show Query"/>
+						</s:HGroup>
+					</s:Group>
+					<s:Group width="100%">
+						<s:TextArea id="displayQuery" width="100%" />
+					</s:Group>
+				</s:Group>
+			</s:NavigatorContent>
+			
+			
+		</mx:TabNavigator>
+	</s:Group>
+	
+	<s:states>
+		<s:State name="auto_test"/>
+		<s:State name="unit_test"/>
+	</s:states>
+	
+</s:Application>

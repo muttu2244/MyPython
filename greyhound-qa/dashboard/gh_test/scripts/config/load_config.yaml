@@ -1,0 +1,38 @@
+
+storage:
+  url: 'sample.greyhound.zynga.com/services'
+  multi_tendency: true 
+  zid: 100
+  nzid: 3333 
+  invalid_delta: 'invalid_delta'
+  invalid_blob: 'invalid_blob'
+  empty_blob: ' '
+  game_id: 1
+  #secret: '12dc129b7a996a33bbd009a6232fa05cb740c790'
+  secret: 'c58b3bc0c1b0f3ca8e13b388fedc6c73aa36b330'
+  blob_type: 'game-world'
+  blob_type2: 'player'
+  xreferer: null
+  xor_encode: 0 
+  disable_auth: 0 
+  app_namespace: 'sample'
+  delta_type: 'visit'
+  user_query: 'select * from deltas where type = :type'
+  friend_query: 'select * from deltas'
+  invalid_deltaID: 'invalidID'
+  scoreboard_type: 'viral'
+mqs:
+  url: '10.32.196.210/services/'
+  xreferer: 'http://localhost/'
+  disable_auth: null
+  graph_type: 'app-friend'
+internal:
+  url: 'internal.sample.greyhound.zynga.com' 
+  version: 1
+  game_id: 12
+  gh_memsched: 10.32.233.230
+  port: 11213
+  level: 1
+  archive_interval: 6
+admin:
+  url: 'admin.sample.greyhound.zynga.com'

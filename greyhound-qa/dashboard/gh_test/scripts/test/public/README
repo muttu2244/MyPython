@@ -1,0 +1,110 @@
+			 -----------------------------
+			 Running iStorage TCs -how to
+                         ------------------------------
+                            	Version : 1.0
+				Author  : Vijayalaxmi Patil
+				Lat modified: 19/03/2012
+
+
+
+------------------------
+Setting up the test env:
+------------------------
+1. Make sure that you have defined proper urls for the storage and MQS machines in config/load_config.yaml file.
+(load_config.yaml file defines all the variables/attributes required for running th test cases).
+
+2. Verify that app_name space, secret key and game_id in config/load_config.yaml matches to the ones defined in the greyhound.ini of the
+greyhound web server.
+
+
+
+----------------
+How to run:
+----------------
+1. Running individual test suites:
+For the sake of simplicity, test suites are divided into different files.
+Each test suite can be run as below:
+
+$python26 <test-suite name>
+eg: $python26 blob_unit.py
+
+2. Running all the test suites:
+$python26 gh_unit.py
+
+
+
+-----------------------
+Test flow:
+-----------------------
+
+
+
+			      gh_unit.py( main file that calls all individual suites)
+				   |
+				   | 
+				   
+		blob_unit.py/delta_unit.py/scoreboard_unit.py( Individual test suite files) etc..
+				   |
+				  lib
+				   |
+				unit_class
+				   |
+				   |
+		_________________________________________
+		|			|		|
+	     api_constants.py	   gh_api.py	     auth.py
+
+	
+
+
+
+Brief description of each element of test flow:
+-----------------------------------------------
+
+unit_class.py:		Defines test pass/fail crireria for each individual test case.
+
+
+auth.py:		Defines all functions related to user auth token
+			Different tokens are assigned to a zid viz,. readonly,expired,untrusted,impersonated,Invalid and trusted auth tokens.
+
+
+gh_api.py:		All the iStorage APIs are defined in this file (eg: user.blob.get, friend.blob.addDelta, user.scoreboard.create etc)
+			Also holds user defined functions.
+
+
+api_constants.py: 	The constant variables used for testing iStorage framework are  defined in this file.
+
+
+blob_unit.py/		Test cases for each individual test suites are defined in these files. For example all test cases related user blobs are 
+delta_unit.py/		defined in blob_unit.py
+scoreboard_unit.py
+			
+		
+gh_unit.py:		The main file that calls each individual module, by defining them in a suite and running them.
+
+			
+
+Standard python modules used in this test framework:
+-----------------------------------------------
+
+-unittest
+-pycurl
+-urllib
+-urllib2
+-subprocess
+-traceback
+-sys
+-os
+
+
+
+
+----------------------------
+How to contribute new suites
+-----------------------------
+Create new test suites, in new files.
+Define the new suites in gh_unit.py file.
+
+
+
+

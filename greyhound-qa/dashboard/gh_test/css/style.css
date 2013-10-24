@@ -1,0 +1,175 @@
+html,body {
+		margin:0;
+		padding:0;
+		height:100%;
+		overflow:auto;
+}
+
+body {
+
+background-repeat:no-repeat;
+background-attachment:fixed;
+ 
+background-color: #6B6B6B;
+
+font-family:arial;
+font-size:13px;
+
+}
+
+fieldset
+{
+border: 1px solid #0A66AD;
+width:auto;
+}
+
+legend
+{
+font: bold 13px arial, sans-serif;
+color: #000000;
+background: #7AC5CD;
+border: 1px solid #00070E;
+padding: 2px 6px
+}
+
+label
+{
+font: bold 13px arial, sans-serif;
+}
+
+#tile_glass3,#tile_glass1
+{
+background-color: #FFFFFF; 
+background-image: 
+linear-gradient(#eee .1em, transparent .1em);
+background-image:
+-webkit-linear-gradient(#eee .1em, transparent .1em);
+background-size: 100% 1.2em;
+}
+
+#tile_glass3	{	display:none;position:absolute;top:33%;left:10%;width:23%;height:33%;float:left;webkit-border-radius: 0px 0px 20px 20px;-moz-border-radius: 0px 0px 20px 20px;border-radius: 0px 0px 20px 20px;	}
+
+#tile_glass1	{	position:absolute;top:28%;left:10%;width:23%;height:38%;float:left;webkit-border-radius: 21px 20px 20px 20px;-moz-border-radius: 21px 20px 20px 20px;border-radius: 21px 20px 20px 20px;	}
+
+.submit
+{
+color: #444;
+display: block;
+float: left;
+font: bold 12px arial, sans-serif;
+height: 24px;
+margin-right: 6px;
+padding-right: 18px; /* sliding doors padding */
+text-decoration: none;
+}
+
+/* Menu styles */
+ul.menu
+{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    width:auto;
+    position:relative;
+    display:block;
+    height:30px;
+    font-size:12px;
+    font-weight:bold;
+    background:transparent url(images/nav_bg.png) repeat-x top left;
+    font-family:Arial, Helvetica, sans-serif;
+    border-bottom:1px solid #000000;
+    border-top:1px solid #000000;
+}
+ul.menu li
+{
+    display:block;
+    float:left;
+    margin:0;
+    padding:0;
+}
+ul.menu li a
+{
+    display:block;
+    float:left;
+    color:#999999;
+    text-decoration:none;
+    font-weight:bold;
+    padding:8px 20px 0 20px;
+}
+ul.menu li a:hover
+{
+    color:#FFFFFF;
+    height:22px;
+    background:transparent url(images/nav_bg.png) 0px -30px no-repeat;
+}
+ul.menu li a.current
+{
+    display:inline;
+    height:22px;
+    background:transparent url(images/nav_bg.png) 0px -30px no-repeat;
+    float:left;
+    margin:0;
+}
+
+.inline {
+	display:inline-block;
+}
+.content {
+	margin:10px;
+}
+
+/* success/error messages */
+.notice {
+	margin:12px 0;
+	padding:2px 8px;
+}
+.success {
+	border:1px solid GREEN;
+	color:GREEN;
+}
+.error {
+	border:1px solid RED;
+	color:RED;
+}
+.note {
+	margin:10px 0;
+	font-size:13px;
+	font-style:italic;
+}
+
+/* Table style */
+.misty-table table {
+    border:0;
+    border-left:1px solid #458B74;
+    font-size:12px;
+    font-family:arial;
+    margin-bottom:20px;
+}
+.misty-table table tr td:first-child {
+        width:200px;
+}
+.misty-table td {
+    border-right: 1px solid #458B74;
+    border-bottom: 1px solid #458B74;
+    background: white;
+    padding: 6px 6px 6px 12px;
+    color: #2F4F4F;
+}
+.misty-table td.hd {
+    background:#7AC5CD;
+    border-top:1px solid #458B74;
+    text-align:center;
+    font-weight:bold;
+}
+.misty-table table.label,
+.misty-table table.label td {
+    border:0;
+    padding:0;
+    margin:0;
+}
+.misty-table .right {
+    text-align:right !important;
+}
+.misty-table .center {
+    text-align:center !important;
+}

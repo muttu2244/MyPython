@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0014)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"> 
+   
+    <head>
+        <title></title>
+        <meta name="google" value="notranslate" />         
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+       
+	<link rel="stylesheet" type="text/css" href="css/history.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/common.css" />
+	<link rel="stylesheet" type="text/css" href="css/specific.css" />
+	
+	<script type="text/javascript" src="js/history.js"></script>
+	<script type="text/javascript" src="js/jquery-1.4.2.js"></script>
+	<script type="text/javascript" src="js/json2.js"></script>
+	<script type="text/javascript" src="js/swfobject.js"></script>
+        <script type ="text/javascript" src="js/utils.js"></script>
+<!--    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script> -->
+
+        <style type="text/css" media="screen"> 
+            html, body  { margin:0; padding:0; height:100%; }
+            body { overflow:auto; text-align:center; 
+                   background-image: url(css/images/bg.png);
+					background-position: 50% 50%;
+					border:0px;
+					background-repeat:repeat;
+					}   
+		#main_div { 
+						position:relative;
+						top:55%;
+						}
+		#text_div {
+						position:relative; 
+						height: 40px; 
+						float:left;
+						text-align:left;
+						left:36%;
+						top:5px;
+						width:25%;
+						}
+		#btnb_div {
+						float:left;
+						position:absolute; 
+						width: 0px; 
+						left: 64%;
+						text-align:left;
+						border:0px;
+						}
+		#flashContent { display:none; }
+		object:focus { outline:none; }
+		object {position:absolute;top:10%;left:20%;}
+
+        </style>
+    </head>
+    
+    <body>
+        <div id = "ghclient_loading_box"></div>
+        <div id="navigation">
+		<ul class="menu">
+			<li><a class='none' style="visibility:hidden;"></a></li>
+            <li><a class='none' style="visibility:hidden;"></a></li>
+            <li><a class='none' style="visibility:hidden;"></a></li>
+            <li><a class='none' style="visibility:hidden;"></a></li>
+            <li><a class='none' style="visibility:hidden;"></a></li>
+			<li><a class='' href='index.php'>Home</a></li>
+			<li><a class='' href='web.php'>Web</a></li>
+			<li><a class='' href='constants.php'>Constants</a></li>
+			<li><a class='' href='pools.php'>Pools</a></li>
+			<li><a class='current' href='ghclient.html'>Client</a></li>	
+		</ul>
+		</div>
+		
+<div id="panel"></div>
+		
+<div id = "tile_glass2" style="display:none;"></div>
+
+<div id = "tile_glass4" style="display:none;"></div>
+
+<div id="ghweb" style = "display:none;">
+        <div id = "box1" style="position:absolute;top:28%;left:34%;width:15%;height:25%;float:left;webkit-border-radius: 21px 20px 20px 20px;-moz-border-radius: 21px 20px 20px 20px;border-radius: 21px 20px 20px 20px;background-color:#FFFFFF;"></div>
+        <div id = "pic" style="position:absolute;float:left;left:36.5%;top:29.4%;height:19%;width:10%;"><img id="gh_ic" style="position:relative;width:100%;height:100%;" src="css/images/gh_icr.png"/></div>
+        <div id="para1" style="position:absolute;float:left;left:34%;top:44%;height:7%;width:15%;text-align:center;background-color:rgba(0,0,0,0.3);"><p id="display1"></p></div>
+</div>
+
+<div id="constants" style = "display:none;">
+        <div id = "box2a" style="position:absolute;top:54%;left:34%;width:7%;height:12%;float:left;webkit-border-radius: 21px 20px 20px 20px;-moz-border-radius: 21px 20px 20px 20px;border-radius: 21px 20px 20px 20px;background-color:#73B054"></div>
+        <div id = "pic2a" style="position:absolute;float:left;left:36%;top:57%;height:6%;width:3%;"><img id="const_pic" style="position:relative;width:100%;height:100%;" src="css/images/constant_icon.png"/></div>
+</div>
+<div id="pools" style = "display:none;">
+        <div id = "box2b" style="position:absolute;top:54%;left:42%;width:7%;height:12%;float:left;webkit-border-radius: 21px 20px 20px 20px;-moz-border-radius: 21px 20px 20px 20px;border-radius: 21px 20px 20px 20px;background-color:#73B054;"></div>
+        <div id = "pic2b" style="position:absolute;float:left;left:44%;top:57%;height:6%;width:3%;"><img id="pools_pic" style="position:relative;width:100%;height:100%;" src="css/images/mbpool_icon.png"/></div>
+</div>
+<div id ="results" style = "display:none;">
+        <div id = "box2c" style="position:absolute;top:67.45%;left:34%;width:7%;height:12%;float:left;webkit-border-radius: 21px 20px 20px 20px;-moz-border-radius: 21px 20px 20px 20px;border-radius: 21px 20px 20px 20px;background-color:#73B054;"></div>
+        <div id = "pic2c" style="position:absolute;float:left;left:36%;top:70%;height:6%;width:3%;"><img id="results_pic" style="position:relative;width:100%;height:100%;" src="css/images/result_icon.png"/></div>
+</div>
+
+<div id = "box2d" style = "display:none;"></div>
+
+<div id="ghclient_div">
+        	<div id = "box3" style="position:absolute;float:left;left:1%;top:8%;width:12%;height:21%;webkit-border-radius: 21px 20px 20px 20px;-moz-border-radius: 21px 20px 20px 20px;border-radius: 21px 20px 20px 20px;background-color:#9A0000;"></div>
+        	<div id = "pic3" style="position:absolute;float:left;left:2.5%;top:9%;width:9%;height:17%;"><img id="gh_ic2" style="position:relative;width:100%;height:100%;" src="css/images/gh_icr02.png"/></div>
+        	<div id="para3" style="position:absolute;float:left;left:1%;top:22%;width:12%;height:5%;text-align:center;background-color:rgba(255,255,255,0.3);"><p id="display3" style="position:relative;top:0.25%;color:#FFFFFF;"></p></div>
+</div>
+		
+<div id = "test_link" style = "display:none;">
+        <div id = "box4"></div>
+        <div id="pic4"><img id="test_l" src="css/images/testlink.png"/></div>
+</div>
+
+<div id="ghclient_panel" ></div>
+		
+<div id="main_div">
+	<form id="form">
+		<div id="form_div" style="padding-top: 0px; padding-left: 20px;">
+				<div id="text_div" style="padding-left: 0px; padding-bottom: 0px;">
+					<input type="text" id="textb" style="height: 34px; font-size: 20pt; width: 100%;">
+				</div>
+				<div style="border-bottom-width: 0px; padding-top: 0px; padding-right: 0px; padding-left: 0px;" id="btnb_div">
+					<input id = "btnb_btn" type="image" src="css/images/next.png" name="submit" alt="submit" style="padding-left: 0px; padding-bottom: 0px; border-bottom-width: 0px;">
+				</div>
+		</div>
+	</form>
+</div>
+		
+<div id="flashContent" style = "">
+	<p>
+                To view this page ensure that Adobe Flash Player version 
+                11.1.0 or greater is installed. 
+        </p>
+        <script type="text/javascript"> 
+                var pageHost = ((document.location.protocol == "https:") ? "https://" : "http://"); 
+                document.write("<a href='http://www.adobe.com/go/getflashplayer'><img src='" 
+                                + pageHost + "www.adobe.com/images/shared/download_buttons/get_flash_player.gif' alt='Get Adobe Flash player' /></a>" ); 
+        </script> 
+</div>
+        
+	        <script type="text/javascript">
+                        $("form").submit(function() 
+                        {
+                                ghclient_submit();
+                                return false;
+                        });
+                        $("#ghclient_panel").click(function ()
+                        {
+                                ghclient_panel_animation();
+                        });
+                        $(document).ready(function (){
+                                ghclient_get_version();
+                        });
+                </script>
+ 
+        <noscript>
+            <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="100%" height="100%" id="ghclient">
+                <param name="movie" value="ghclient.swf" />
+                <param name="quality" value="high" />
+                <param name="bgcolor" value="#ffffff" />
+                <param name="allowScriptAccess" value="sameDomain" />
+                <param name="allowFullScreen" value="true" />
+                <!--[if !IE]>-->
+                <object type="application/x-shockwave-flash" data="ghclient.swf" width="100%" height="100%">
+                    <param name="quality" value="high" />
+                    <param name="bgcolor" value="#ffffff" />
+                    <param name="allowScriptAccess" value="sameDomain" />
+                    <param name="allowFullScreen" value="true" />
+                <!--<![endif]-->
+                <!--[if gte IE 6]>-->
+                    <p> 
+                        Either scripts and active content are not permitted to run or Adobe Flash Player version
+                        11.1.0 or greater is not installed.
+                    </p>
+                <!--<![endif]-->
+                    <a href="http://www.adobe.com/go/getflashplayer">
+                        <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash Player" />
+                    </a>
+                <!--[if !IE]>-->
+                </object>
+                <!--<![endif]-->
+            </object>
+        </noscript>     
+   </body>
+</html>

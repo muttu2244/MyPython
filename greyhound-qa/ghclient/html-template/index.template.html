@@ -1,0 +1,225 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0014)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"> 
+    <!-- 
+    Smart developers always View Source. 
+    
+    This application was built using Adobe Flex, an open source framework
+    for building rich Internet applications that get delivered via the
+    Flash Player or to desktops via Adobe AIR. 
+    
+    Learn more about Flex at http://flex.org 
+    // -->
+    <head>
+        <title>${title}</title>
+        <meta name="google" value="notranslate" />         
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <!-- Include CSS to eliminate any default margins/padding and set the height of the html element and 
+             the body element to 100%, because Firefox, or any Gecko based browser, interprets percentage as 
+             the percentage of the height of its parent container, which has to be set explicitly.  Fix for
+             Firefox 3.6 focus border issues.  Initially, don't display flashContent div so it won't show 
+             if JavaScript disabled.
+        -->
+        <style type="text/css" media="screen"> 
+            html, body  { margin:0; padding:0; height:100%; }
+            body { overflow:auto; text-align:center; 
+                   background-image: url(bg.png);
+					background-position: 50% 50%;
+					border:0px;
+					}   
+            object:focus { outline:none; }
+			#main_div { 
+						position:relative;
+						top:57%;
+						}
+			#text_div {
+						position:relative; 
+						height: 40px; 
+						float:left;
+						text-align:left;
+						left:36%;
+						top:7px;
+						width:25%;
+						}
+			#btnb_div {
+						float:left;
+						position:absolute; 
+						width: 0px; 
+						left: 64%;
+						text-align:left;
+						border:0px;
+						}
+			#flashContent { display:none; }
+        </style>
+        
+        <!-- Enable Browser History by replacing useBrowserHistory tokens with two hyphens -->
+        <!-- BEGIN Browser History required section ${useBrowserHistory}>
+        <link rel="stylesheet" type="text/css" href="history/history.css" />
+        <script type="text/javascript" src="history/history.js"></script>
+        <!${useBrowserHistory} END Browser History required section -->  
+		
+        <script src="jquery-1.4.2.js"></script>
+		<script src="json2.js"></script>
+		
+		<script type="text/javascript">
+			function remove()
+			{
+				document.getElementById("form_div").style.display = "none";
+				document.getElementById("main_div").style.display = "none";
+				//document.getElementById("main_div").style.position = "relative";
+				//document.getElementById("main_div").style.top = "0";
+				//document.getElementById("btnb").style.display = "none";
+
+				//$('input:text').attr("disabled","disabled");
+				//$('input:submit').attr("disabled","disabled");
+			}
+		</script>
+		
+		<script type="text/javascript" src="swfobject.js"></script>
+        <script type="text/javascript">
+        function run()   
+		{	
+			// For version detection, set to min. required Flash Player version, or 0 (or 0.0.0), for no version detection. 
+            var swfVersionStr = "${version_major}.${version_minor}.${version_revision}";
+            // To use express install, set to playerProductInstall.swf, otherwise the empty string. 
+            var xiSwfUrlStr = "${expressInstallSwf}";
+            var flashvars = {
+                /* change this to your domain */ 
+                greyhound_url: "http://assetstest.sample.greyhound.zynga.com/Greyhound.swf",
+                gh_services_url: "http://sample.greyhound.zynga.com/services/",
+                zcdiff: true,
+                mqs_url: "http://ghcluster-staging-mqs-web-01.zc2.zynga.com/services/",
+            };	
+            var params = {};
+            params.quality = "high";
+            params.bgimage = "bg.png";
+            params.allowscriptaccess = "always";
+            params.allowfullscreen = "true";
+            var attributes = {};
+            attributes.id = "${application}";
+            attributes.name = "${application}";
+            attributes.align = "middle";
+            swfobject.embedSWF(
+                "${swf}.swf", "flashContent", 
+                "${width}", "${height}", 
+                swfVersionStr, xiSwfUrlStr, 
+                flashvars, params, attributes);
+            // JavaScript enabled so display the flashContent div in case it is not replaced with a swf object.
+            swfobject.createCSS("#flashContent", "display:block;text-align:left;");
+			}
+		</script>
+    </head>
+    <body>
+        <!-- SWFObject's dynamic embed method replaces this alternative HTML content with Flash content when enough 
+             JavaScript and Flash plug-in support is available. The div is initially hidden so that it doesn't show
+             when JavaScript is disabled.
+        -->
+		<div id="main_div">
+<!--		<div id ="img_div" style = "position:relative; top:44%;"><img src="gh.png"/></div> -->
+		<form id="form">
+		<div id="form_div" style="padding-top: 40px; padding-left: 20px;">
+				<div id="text_div" style="padding-left: 0px; padding-bottom: 0px;">
+					<input type="text" id="textb" style="height: 34px; font-size: 20pt; width: 100%;">
+				</div>
+				<div style="border-bottom-width: 10px; padding-top: 3px; padding-right: 0px; padding-left: 0px;" id="btnb_div">
+					<input type="image" src="next.png" name="submit" alt="submit" style="padding-left: 0px; padding-bottom: 0px; border-bottom-width: 0px;">
+				</div>
+		</div>
+		</form>
+		</div>
+        
+		<script type="text/javascript">
+			var Z = {};
+			function gen_auth(uid)
+			{
+
+				console.log(uid);
+				var jsobject = {};
+				jsobject.version = 1;
+				jsobject.uid = uid; 
+				
+				//alert();
+						
+				$.post("http://internal.sample.greyhound.zynga.com/services/user.token.issue.php",
+					JSON.stringify(jsobject),
+					function(data){
+						//console.log(data);
+						Z.auth = {
+						/* this is a long lasting auth token for the greyhound-config-sample auth */ 
+						"getAuthToken" : function() { return data.result.userToken; },
+						
+						"getAuthZID" : function() { return jsobject.uid; },
+
+						"getBlobTypes" : function() { return ["player", "game-world"]; },
+
+						"getDeltaTypes" : function() { return ["gift", "visit"]; }
+						};	
+						console.log(Z.auth.getAuthToken());
+						},"json");
+						
+						return true
+			}
+			$("form").submit(function() 
+			{
+					Object.prototype.isInteger = function () 
+					{
+						return (this.toString().search(/^-?[0-9]+$/) == 0 )
+					}
+					var temp = {};
+					temp.uid = $("input:first").val();
+					if (temp.uid != "" && temp.uid.isInteger() == true)
+					{
+						gen_auth(temp.uid)
+						remove();
+						run();
+					}
+					else
+					{
+						alert("Enter Valid Zid");
+					}
+					return false
+			});
+		</script>
+		
+		<div id="flashContent">
+            <p>
+                To view this page ensure that Adobe Flash Player version 
+                ${version_major}.${version_minor}.${version_revision} or greater is installed. 
+            </p>
+            <script type="text/javascript"> 
+                var pageHost = ((document.location.protocol == "https:") ? "https://" : "http://"); 
+                document.write("<a href='http://www.adobe.com/go/getflashplayer'><img src='" 
+                                + pageHost + "www.adobe.com/images/shared/download_buttons/get_flash_player.gif' alt='Get Adobe Flash player' /></a>" ); 
+            </script> 
+        </div>
+        
+        <noscript>
+            <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="${width}" height="${height}" id="${application}">
+                <param name="movie" value="${swf}.swf" />
+                <param name="quality" value="high" />
+                <param name="bgcolor" value="${bgcolor}" />
+                <param name="allowScriptAccess" value="sameDomain" />
+                <param name="allowFullScreen" value="true" />
+                <!--[if !IE]>-->
+                <object type="application/x-shockwave-flash" data="${swf}.swf" width="${width}" height="${height}">
+                    <param name="quality" value="high" />
+                    <param name="bgcolor" value="${bgcolor}" />
+                    <param name="allowScriptAccess" value="sameDomain" />
+                    <param name="allowFullScreen" value="true" />
+                <!--<![endif]-->
+                <!--[if gte IE 6]>-->
+                    <p> 
+                        Either scripts and active content are not permitted to run or Adobe Flash Player version
+                        ${version_major}.${version_minor}.${version_revision} or greater is not installed.
+                    </p>
+                <!--<![endif]-->
+                    <a href="http://www.adobe.com/go/getflashplayer">
+                        <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash Player" />
+                    </a>
+                <!--[if !IE]>-->
+                </object>
+                <!--<![endif]-->
+            </object>
+        </noscript>     
+   </body>
+</html>
