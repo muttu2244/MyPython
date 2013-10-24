@@ -1,0 +1,16 @@
+test_ACL_FUNC_107 (__main__.test_ACL_FUNC_107) ... FAIL
+
+======================================================================
+FAIL: test_ACL_FUNC_107 (__main__.test_ACL_FUNC_107)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ACL_Func_107.py", line 272, in test_ACL_FUNC_107
+    self.tunnelUp()
+  File "ACL_Func_107.py", line 212, in tunnelUp
+    self.failIf("ESTABLISHED" in ssx_show_op["session_state"],"failed to find SA")
+AssertionError: failed to find SA
+
+----------------------------------------------------------------------
+Ran 1 test in 296.362s
+
+FAILED (failures=1)

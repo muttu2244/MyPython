@@ -1,0 +1,20 @@
+rename 
+<<<<help_begin
+STRING  Old file name
+>>>>help_end
+[KStoke[local]#rename[K<!>[Krename z 
+<<<<help_begin
+STRING  New file name
+>>>>help_end
+[KStoke[local]#rename z[K<!>[Krename z z 
+<<<<help_begin
+noconfirm  Do not ask for confirmation if the destination file exists
+<cr>
+>>>>help_end
+[KStoke[local]#rename z z[K<!>[Krename z z noconfirm 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#rename z z noconfirm Stoke[local]#[K<!>[Krename z z noconfirm
+Stoke[local]#<!>[Krename z z
+Destination file already exists; continue? (yes/[no]) <!>  rename z abc ?             <!>  rename z a1b2c3 ?                <!>  rename z xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx ?                                                                                                                                              <!>  rename abc ?           <!>  rename a1b2c3 ?              <!>  rename xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx ?                                                                                                                                            <!>

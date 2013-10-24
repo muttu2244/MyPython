@@ -1,0 +1,16 @@
+test_ACL_Func_064 (__main__.test_ACL_Func_064) ... ERROR
+
+======================================================================
+ERROR: test_ACL_Func_064 (__main__.test_ACL_Func_064)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ACL_Func_064.py", line 334, in test_ACL_Func_064
+    self.befNAftSwitchOver()
+  File "ACL_Func_064.py", line 242, in befNAftSwitchOver
+    self.ssx.config_from_string(script_var['deny_igmp_out'])
+KeyError: 'deny_igmp_out'
+
+----------------------------------------------------------------------
+Ran 1 test in 318.550s
+
+FAILED (errors=1)

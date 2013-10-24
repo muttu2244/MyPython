@@ -1,0 +1,46 @@
+reload 
+<<<<help_begin
+card   Reload a card
+now    Reload without waiting for session termination
+wait   Graceful shutdown with a maximum wait time
+<cr>
+>>>>help_end
+[KStoke[local]#reload[K<!>[Kreload card 
+<<<<help_begin
+SLOT(0..4)  Specify slot
+>>>>help_end
+[KStoke[local]#reload card[K<!>[Kreload card 4 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#reload card 4 Stoke[local]#[K<!>[Kreload card 4
+Stoke[local]#<!>[Kreload card 1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#reload card 1 Stoke[local]#[K<!>[Kreload card 1
+Stoke[local]#<!>[Kreload card 3 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#reload card 3 Stoke[local]#[K<!>[Kreload card 3
+ERROR: Card 3 is not present
+Stoke[local]#<!>[Kreload card 0 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#reload card 0 Stoke[local]#[K<!>[Kreload card 0
+ERROR: Cannot reload self.  Use 'reload' to reset the entire system
+Stoke[local]#<!>[Kreload card 2 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#reload card 2 Stoke[local]#[K<!>[Kreload card 2
+ERROR: Card 2 is not present
+Stoke[local]#<!>[Kreload now 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#reload now[K<!>[Kreload now
+Immediate system reload; Proceed? (yes/[no]) <!>  reload wait ?            <!>  reload
+Stoke[local]#<!>

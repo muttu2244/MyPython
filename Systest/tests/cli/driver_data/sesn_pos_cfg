@@ -1,0 +1,108 @@
+default:
+  string 	   z,abc,a1b2c3,x*132	
+  decimal-uint     55,max,min
+  decimal-int      -10,55,min,max
+  hex-uint         11,min,max
+  ipv4-address     10.1.1.1,255.255.255.255
+  ipv4-mask        8,32
+  ipv6-address     1::1,ffff::ffff
+  ipv6-mask        64
+  slot             0..4
+  slot-port        1..2/0..3
+
+custom:
+ set_community:
+  _line_          1:1$
+  _line_          1:2 local-as
+ :class-map:
+  _line_          10
+ 10_tcp:
+  _line_          any any
+ 10_udp:
+  _line_          any any
+ :ip_access-list:
+  _line_          20
+ :ipv6_access-list:
+  _line_          30
+ 20_permit_tcp:
+  _line_          any any
+ 20_permit_udp:
+  _line_          any any
+ 20_deny_tcp:
+  _line_          any any
+ 20_deny_udp:
+  _line_          any any
+ 30_permit_tcp:
+  _line_          any any ack fin psh rst
+ 30_permit_tcp:
+  _line_          any any gt 1 ack fin psh rst
+ 30_permit_tcp:
+  _line_          any any lt 1 ack fin psh rst
+ 30_permit_tcp:
+  _line_          any any neq 1 ack fin psh rst
+ 30_permit_tcp:
+  _line_          any any established fin psh
+ 30_permit_udp:
+  _line_          any any
+ 30_deny_tcp:
+  _line_          any any ack fin psh rst
+ 30_deny_tcp:
+  _line_          any any gt 1 ack fin psh rst
+ 30_deny_tcp:
+  _line_          any any lt 1 ack fin psh rst
+ 30_deny_tcp:
+  _line_          any any neq 1 ack fin psh rst
+ 30_deny_tcp:
+  _line_          any any established fin psh
+ 30_deny_udp:
+  _line_          any any
+ ipsec_policy_ikev2_phase1_name:
+  _line_          local2
+ ipsec_policy_ikev2_phase2_name:
+  _line_          local2
+ :ip_as-path_access-list:
+  _line_          40
+ :ip_community-list:
+  _line_          50
+ :ip_prefix-list:
+  _line_          60
+ :ipv6_prefix-list:
+  _line_          70
+ map-rule_permit:
+  _line_          10
+ map-rule_deny:
+  _line_          20
+
+ignore:
+#Takes lot of time
+ aaa                
+ cdr        
+ class-map 
+ class-of-service 
+ debug      
+ domain    
+ dhcp
+ end       
+ exit       
+ filter
+ filter-domain
+ filter-list
+ filter-protocol
+ flow-spec 
+ interface
+ ip        
+ ipsec
+ ipv6        
+ logging       
+ no             
+ ntp             
+ police           
+ policy-map        
+ radius             
+ random-early-detect 
+ rmon           
+ route-map       
+ router           
+ router-id         
+ show               
+ user      

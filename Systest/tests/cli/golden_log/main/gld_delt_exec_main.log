@@ -1,0 +1,43 @@
+delet 
+<<<<help_begin
+STRING  File name
+>>>>help_end
+[KStoke[local]#delet[K<!>[Kdelet z 
+<<<<help_begin
+noconfirm  Do not ask for confirmation during wildcard copies
+<cr>
+>>>>help_end
+[KStoke[local]#delet z[K<!>[Kdelet z noconfirm 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#delet z noconfirm Stoke[local]#[K<!>[Kdelet z noconfirm
+ERROR: Path /cfint/z is a directory.
+Stoke[local]#<!>[Kdelet z
+ERROR: Path /cfint/z is a directory.
+Stoke[local]#<!>[Kdelet abc 
+<<<<help_begin
+noconfirm  Do not ask for confirmation during wildcard copies
+<cr>
+>>>>help_end
+[KStoke[local]#delet abc[K<!>[Kdelet abc noconfirm 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#delet abc noconfirm Stoke[local]#[K<!>[Kdelet abc noconfirm
+Stoke[local]#<!>[Kdelet abc
+ERROR: Unable to get information for /cfint/abc: No such file or directory.
+Stoke[local]#<!>[Kdelet a1b2c3 
+<<<<help_begin
+noconfirm  Do not ask for confirmation during wildcard copies
+<cr>
+>>>>help_end
+[KStoke[local]#delet a1b2c3[K<!>[Kdelet a1b2c3 noconfirm 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#delet a1b2c3 noconfirm Stoke[local]#[K<!>[Kdelet a1b2c3 noconfirm
+ERROR: Unable to get information for /cfint/a1b2c3: No such file or directory.
+Stoke[local]#<!>[Kdelet a1b2c3
+ERROR: Unable to get information for /cfint/a1b2c3: No such file or directory.
+Stoke[local]#<!>[Kdelet xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Stoke[local]#[K<!>

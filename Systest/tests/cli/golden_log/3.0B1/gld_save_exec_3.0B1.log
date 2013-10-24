@@ -1,0 +1,122 @@
+save 
+<<<<help_begin
+configuration  Save configuration to a file
+history        Command history
+log            Save event log
+>>>>help_end
+[KStoke[local]#save[K<!>[Ksave configuration 
+<<<<help_begin
+STRING  Save file
+<cr>
+>>>>help_end
+[KStoke[local]#save configuration Stoke[local]#[K<!>[Ksave configuration z 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#save configuration z Stoke[local]#[K<!>[Ksave configuration z
+Stoke[local]#<!>[Ksave configuration abc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#save configuration abc Stoke[local]#[K<!>[Ksave configuration abc
+Stoke[local]#<!>[Ksave configuration a1b2c3 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#save configuration a1b2c3 Stoke[local]#[K<!>[Ksave configuration a1b2c3
+Stoke[local]#<!>[Ksave configuration xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Stoke[local]#[K<!>[Ksave configuration
+ERROR: Could not open /cfint/hd/good for writing.  No such file or directory.
+
+Stoke[local]#<!>[Ksave history 
+<<<<help_begin
+STRING  Destination URL for saving command history
+>>>>help_end
+[KStoke[local]#save history[K<!>[Ksave history z 
+<<<<help_begin
+inactive   Save history prior to last system reload
+noconfirm  Do not ask for confirmation if the destination file exists
+<cr>
+>>>>help_end
+[KStoke[local]#save history z Stoke[local]#[K<!>[Ksave history z inactive 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#save history z inactive Stoke[local]#[K<!>[Ksave history z inactive
+Destination file already exists; continue? (yes/[no]) <!>  save history z noconfirm ?                         <!>  save history z
+Command canceled.
+Stoke[local]#<!>[Ksave history abc 
+<<<<help_begin
+inactive   Save history prior to last system reload
+noconfirm  Do not ask for confirmation if the destination file exists
+<cr>
+>>>>help_end
+[KStoke[local]#save history abc Stoke[local]#[K<!>[Ksave history abc inactive 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#save history abc inactive Stoke[local]#[K<!>[Ksave history abc inactive
+Destination file already exists; continue? (yes/[no]) <!>  save history abc noconfirm ?                           <!>  save history abc
+Command canceled.
+Stoke[local]#<!>[Ksave history a1b2c3 
+<<<<help_begin
+inactive   Save history prior to last system reload
+noconfirm  Do not ask for confirmation if the destination file exists
+<cr>
+>>>>help_end
+[KStoke[local]#save history a1b2c3 Stoke[local]#[K<!>[Ksave history a1b2c3 inactive 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#save history a1b2c3 inactive Stoke[local]#[K<!>[Ksave history a1b2c3 inactive
+Destination file already exists; continue? (yes/[no]) <!>  save history a1b2c3 noconfirm ?                              <!>  save history a1b2c3
+Command canceled.
+Stoke[local]#<!>[Ksave history xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Stoke[local]#[K<!>[Ksave log 
+<<<<help_begin
+STRING  Destination URL for saving log events
+>>>>help_end
+[KStoke[local]#save log[K<!>[Ksave log z 
+<<<<help_begin
+debug-only     Save only DEBUG events
+inactive       Save log prior to last system reload
+noconfirm      Do not ask for confirmation if the destination file exists
+standard-only  Save only INFO, WARN, ERR and CRIT events
+<cr>
+>>>>help_end
+[KStoke[local]#save log z[K<!>[Ksave log z debug-only 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#save log z debug-only Stoke[local]#[K<!>[Ksave log z debug-only
+Destination file already exists; continue? (yes/[no]) <!>  save log z inactive ?                    <!>  save log z noconfirm ?                     <!>  save log z standard-only ?                         <!>  save log z
+Command canceled.
+Stoke[local]#<!>[Ksave log abc 
+<<<<help_begin
+debug-only     Save only DEBUG events
+inactive       Save log prior to last system reload
+noconfirm      Do not ask for confirmation if the destination file exists
+standard-only  Save only INFO, WARN, ERR and CRIT events
+<cr>
+>>>>help_end
+[KStoke[local]#save log abc[K<!>[Ksave log abc debug-only 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#save log abc debug-only Stoke[local]#[K<!>[Ksave log abc debug-only
+Destination file already exists; continue? (yes/[no]) <!>  save log abc inactive ?                      <!>  save log abc noconfirm ?                       <!>  save log abc standard-only ?                           <!>  save log abc
+Command canceled.
+Stoke[local]#<!>[Ksave log a1b2c3 
+<<<<help_begin
+debug-only     Save only DEBUG events
+inactive       Save log prior to last system reload
+noconfirm      Do not ask for confirmation if the destination file exists
+standard-only  Save only INFO, WARN, ERR and CRIT events
+<cr>
+>>>>help_end
+[KStoke[local]#save log a1b2c3 Stoke[local]#[K<!>[Ksave log a1b2c3 debug-only 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#save log a1b2c3 debug-only Stoke[local]#[K<!>[Ksave log a1b2c3 debug-only
+Destination file already exists; continue? (yes/[no]) <!>  save log a1b2c3 inactive ?                         <!>  save log a1b2c3 noconfirm ?                          <!>  save log a1b2c3 standard-only ?                              <!>  save log a1b2c3
+Command canceled.
+Stoke[local]#<!>[Ksave log xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Stoke[local]#[K<!>

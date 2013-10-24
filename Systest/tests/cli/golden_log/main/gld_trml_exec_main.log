@@ -1,0 +1,91 @@
+terminal 
+<<<<help_begin
+length   Terminal display length (rows)
+monitor  Monitor log event messages on this terminal
+width    Terminal display width (columns)
+>>>>help_end
+[KStoke[local]#terminal[K<!>[Kterminal length 
+<<<<help_begin
+8..200    Length value
+infinite  Set terminal display length (rows) to infinite
+>>>>help_end
+[KStoke[local]#terminal length Stoke[local]#[K<!>[Kterminal length 8 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#terminal length 8 Stoke[local]#[K<!>[Kterminal length 8
+Stoke[local]#<!>[Kterminal length 200 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#terminal length 200 Stoke[local]#[K<!>[Kterminal length 200
+Stoke[local]#<!>[Kterminal length 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#terminal length 55 Stoke[local]#[K<!>[Kterminal length 55
+Stoke[local]#<!>[Kterminal length infinite 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#terminal length infinite Stoke[local]#[K<!>[Kterminal length infinite
+Stoke[local]#<!>[Kterminal monitor 
+<<<<help_begin
+filter  Pass all output through a filter
+<cr>
+>>>>help_end
+[KStoke[local]#terminal monitor Stoke[local]#[K<!>[Kterminal monitor filter 
+<<<<help_begin
+STRING(31)  Filter name
+>>>>help_end
+[KStoke[local]#terminal monitor filter Stoke[local]#[K<!>[Kterminal monitor filter z 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#terminal monitor filter z Stoke[local]#[K<!>[Kterminal monitor filter z
+ERROR: Filter not found
+Stoke[local]#<!>[Kterminal monitor filter abc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#terminal monitor filter abc Stoke[local]#[K<!>[Kterminal monitor filter abc
+ERROR: Filter not found
+Stoke[local]#<!>[Kterminal monitor filter a1b2c3 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#terminal monitor filter a1b2c3 Stoke[local]#[K<!>[Kterminal monitor filter a1b2c3
+ERROR: Filter not found
+Stoke[local]#<!>[Kterminal monitor filter xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#terminal monitor filter xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Stoke[local]#[K<!>[Kterminal monitor filter xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ERROR: Filter not found
+Stoke[local]#<!>[Kterminal monitor
+Stoke[local]#<!>[Kterminal width 
+<<<<help_begin
+40..200   Width value
+infinite  Set terminal width (columns) to infinite
+>>>>help_end
+[KStoke[local]#terminal width Stoke[local]#[K<!>[Kterminal width 200 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#terminal width 200 Stoke[local]#[K<!>[Kterminal width 200
+Stoke[local]#<!>[Kterminal width 40 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#terminal width 40 Stoke[local]#[K<!>[Kterminal width 40
+Stoke[local]#<!>[Kterminal width 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#terminal width 55 Stoke[local]#[K<!>[Kterminal width 55
+Stoke[local]#<!>[Kterminal width infinite 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#terminal width infinite Stoke[local]#[K<!>[Kterminal width infinite
+Stoke[local]#<!>

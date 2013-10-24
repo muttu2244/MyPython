@@ -1,0 +1,1796 @@
+ping 
+<<<<help_begin
+STRING           Ping destination hostname
+n.n.n.n          Ping IPv4 destination address
+x:x:x:x:x:x:x:x  Ping IPv6 destination address
+>>>>help_end
+[KStoke[local]#ping[K<!>[Kping z 
+<<<<help_begin
+ip     IPv4 hostname
+ipv6   IPv6 hostname
+<cr>
+>>>>help_end
+[KStoke[local]#ping z[K<!>[Kping z ip 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping z ip[K<!>[Kping z ip
+Trying to resolve: z (in IPV4 domain) 
+Could not resolve: z
+Stoke[local]#<!>[Kping z ipv6 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping z ipv6[K<!>[Kping z ipv6
+Trying to resolve: z (in IPV6 domain) 
+Could not resolve: z
+Stoke[local]#<!>[Kping z
+Trying to resolve: z (in IPV4 domain) 
+Trying to resolve: z (in IPV6 domain) 
+Could not resolve: z
+Stoke[local]#<!>[Kping abc 
+<<<<help_begin
+ip     IPv4 hostname
+ipv6   IPv6 hostname
+<cr>
+>>>>help_end
+[KStoke[local]#ping abc[K<!>[Kping abc ip 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping abc ip[K<!>[Kping abc ip
+Trying to resolve: abc (in IPV4 domain) 
+Could not resolve: abc
+Stoke[local]#<!>[Kping abc ipv6 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping abc ipv6 Stoke[local]#[K<!>[Kping abc ipv6
+Trying to resolve: abc (in IPV6 domain) 
+Could not resolve: abc
+Stoke[local]#<!>[Kping abc
+Trying to resolve: abc (in IPV4 domain) 
+Trying to resolve: abc (in IPV6 domain) 
+Could not resolve: abc
+Stoke[local]#<!>[Kping a1b2c3 
+<<<<help_begin
+ip     IPv4 hostname
+ipv6   IPv6 hostname
+<cr>
+>>>>help_end
+[KStoke[local]#ping a1b2c3[K<!>[Kping a1b2c3 ip 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping a1b2c3 ip Stoke[local]#[K<!>[Kping a1b2c3 ip
+Trying to resolve: a1b2c3 (in IPV4 domain) 
+Could not resolve: a1b2c3
+Stoke[local]#<!>[Kping a1b2c3 ipv6 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping a1b2c3 ipv6 Stoke[local]#[K<!>[Kping a1b2c3 ipv6
+Trying to resolve: a1b2c3 (in IPV6 domain) 
+Could not resolve: a1b2c3
+Stoke[local]#<!>[Kping a1b2c3
+Trying to resolve: a1b2c3 (in IPV4 domain) 
+Trying to resolve: a1b2c3 (in IPV6 domain) 
+Could not resolve: a1b2c3
+Stoke[local]#<!>[Kping xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Stoke[local]#[K<!>[Kping 255.255.255.255 
+<<<<help_begin
+data    Specify data pattern
+df-bit  Enable don't fragment bit in IP header
+repeat  Specify repeat count
+size    Specify ICMP data size
+source  Specify IPv4 source address
+tos     Set packet TOS
+ttl     Packet TTL
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 Stoke[local]#[K<!>[Kping 255.255.255.255 data 
+<<<<help_begin
+0..ffffffff  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff 
+<<<<help_begin
+df-bit  Enable don't fragment bit in IP header
+repeat  Specify repeat count
+size    Specify ICMP data size
+source  Specify IPv4 source address
+tos     Set packet TOS
+ttl     Packet TTL
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit 
+<<<<help_begin
+repeat  Specify repeat count
+size    Specify ICMP data size
+source  Specify IPv4 source address
+tos     Set packet TOS
+ttl     Packet TTL
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 
+<<<<help_begin
+1..4294967295  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 
+<<<<help_begin
+size    Specify ICMP data size
+source  Specify IPv4 source address
+tos     Set packet TOS
+ttl     Packet TTL
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 
+<<<<help_begin
+0..10000  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 
+<<<<help_begin
+source  Specify IPv4 source address
+tos     Set packet TOS
+ttl     Packet TTL
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 
+<<<<help_begin
+n.n.n.n  IPv4 address
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 
+<<<<help_begin
+tos    Set packet TOS
+ttl    Packet TTL
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 
+<<<<help_begin
+0..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 0 
+<<<<help_begin
+ttl    Packet TTL
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 0 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 0 ttl 
+<<<<help_begin
+1..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 0 ttl Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 0 ttl 1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 0 ttl 1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 0 ttl 1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 0 ttl 255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 0 ttl 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 0 ttl 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 0 ttl 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 0 ttl 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 0 ttl 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 0
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 255 
+<<<<help_begin
+ttl    Packet TTL
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 255 ttl 
+<<<<help_begin
+1..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 255 ttl Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 255 ttl 1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 255 ttl 1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 255 ttl 1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 255 ttl 255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 255 ttl 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 255 ttl 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 255 ttl 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 255 ttl 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 255 ttl 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 55 
+<<<<help_begin
+ttl    Packet TTL
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 55 ttl 
+<<<<help_begin
+1..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 55 ttl Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 55 ttl 1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 55 ttl 1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 55 ttl 1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 55 ttl 255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 55 ttl 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 55 ttl 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 55 ttl 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 55 ttl 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 55 ttl 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 tos 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 
+<<<<help_begin
+1..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 1 
+<<<<help_begin
+tos    Set packet TOS
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 1 tos 
+<<<<help_begin
+0..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 1 tos Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 1 tos 0 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 1 tos 0 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 1 tos 0
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 1 tos 255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 1 tos 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 1 tos 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 1 tos 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 1 tos 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 1 tos 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 255 
+<<<<help_begin
+tos    Set packet TOS
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 255 tos 
+<<<<help_begin
+0..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 255 tos Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 255 tos 0 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 255 tos 0 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 255 tos 0
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 255 tos 255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 255 tos 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 255 tos 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 255 tos 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 255 tos 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 255 tos 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 55 
+<<<<help_begin
+tos    Set packet TOS
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 55 tos 
+<<<<help_begin
+0..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 55 tos Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 55 tos 0 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 55 tos 0 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 55 tos 0
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 55 tos 255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 55 tos 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 55 tos 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 55 tos 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 55 tos 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 55 tos 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255 ttl 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 255.255.255.255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 
+<<<<help_begin
+tos    Set packet TOS
+ttl    Packet TTL
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 
+<<<<help_begin
+0..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 0 
+<<<<help_begin
+ttl    Packet TTL
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 0 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 0 ttl 
+<<<<help_begin
+1..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 0 ttl Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 0 ttl 1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 0 ttl 1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 0 ttl 1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 0 ttl 255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 0 ttl 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 0 ttl 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 0 ttl 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 0 ttl 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 0 ttl 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 0
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 255 
+<<<<help_begin
+ttl    Packet TTL
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 255 ttl 
+<<<<help_begin
+1..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 255 ttl Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 255 ttl 1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 255 ttl 1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 255 ttl 1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 255 ttl 255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 255 ttl 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 255 ttl 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 255 ttl 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 255 ttl 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 255 ttl 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 55 
+<<<<help_begin
+ttl    Packet TTL
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 55 ttl 
+<<<<help_begin
+1..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 55 ttl Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 55 ttl 1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 55 ttl 1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 55 ttl 1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 55 ttl 255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 55 ttl 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 55 ttl 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 55 ttl 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 55 ttl 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 55 ttl 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 tos 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 
+<<<<help_begin
+1..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 1 
+<<<<help_begin
+tos    Set packet TOS
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 1 tos 
+<<<<help_begin
+0..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 1 tos Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 1 tos 0 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 1 tos 0 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 1 tos 0
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 1 tos 255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 1 tos 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 1 tos 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 1 tos 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 1 tos 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 1 tos 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 255 
+<<<<help_begin
+tos    Set packet TOS
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 255 tos 
+<<<<help_begin
+0..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 255 tos Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 255 tos 0 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 255 tos 0 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 255 tos 0
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 255 tos 255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 255 tos 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 255 tos 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 255 tos 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 255 tos 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 255 tos 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 55 
+<<<<help_begin
+tos    Set packet TOS
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 55 tos 
+<<<<help_begin
+0..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 55 tos Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 55 tos 0 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 55 tos 0 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 55 tos 0
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 55 tos 255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 55 tos 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 55 tos 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 55 tos 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 55 tos 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 55 tos 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1 ttl 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 source 10.1.1.1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 
+<<<<help_begin
+0..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 
+<<<<help_begin
+source  Specify IPv4 source address
+ttl     Packet TTL
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 source 
+<<<<help_begin
+n.n.n.n  IPv4 address
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 source Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 source 255.255.255.255 
+<<<<help_begin
+ttl    Packet TTL
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 source 255.255.255.255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 source 255.255.255.255 ttl 
+<<<<help_begin
+1..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 source 255.255.255.255 ttl Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 source 255.255.255.255 ttl 1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 source 255.255.255.255 ttl 1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 source 255.255.255.255 ttl 1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 source 255.255.255.255 ttl 255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 source 255.255.255.255 ttl 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 source 255.255.255.255 ttl 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 source 255.255.255.255 ttl 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 source 255.255.255.255 ttl 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 source 255.255.255.255 ttl 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 source 255.255.255.255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 source 10.1.1.1 
+<<<<help_begin
+ttl    Packet TTL
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 source 10.1.1.1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 source 10.1.1.1 ttl 
+<<<<help_begin
+1..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 source 10.1.1.1 ttl Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 source 10.1.1.1 ttl 1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 source 10.1.1.1 ttl 1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 source 10.1.1.1 ttl 1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 source 10.1.1.1 ttl 255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 source 10.1.1.1 ttl 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 source 10.1.1.1 ttl 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 source 10.1.1.1 ttl 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 source 10.1.1.1 ttl 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 source 10.1.1.1 ttl 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 source 10.1.1.1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 ttl 
+<<<<help_begin
+1..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 ttl Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 ttl 1 
+<<<<help_begin
+source  Specify IPv4 source address
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 ttl 1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 ttl 1 source 
+<<<<help_begin
+n.n.n.n  IPv4 address
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 ttl 1 source Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 ttl 1 source 255.255.255.255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 ttl 1 source 255.255.255.255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 ttl 1 source 255.255.255.255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 ttl 1 source 10.1.1.1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 ttl 1 source 10.1.1.1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 ttl 1 source 10.1.1.1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 ttl 1
+Sending 1, 0-byte ICMP Echos to 255.255.255.255, 
+.
+Success rate is 0.00 percent (0/1) 100.0% packet loss 
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 ttl 255 
+<<<<help_begin
+source  Specify IPv4 source address
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 ttl 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 ttl 255 source 
+<<<<help_begin
+n.n.n.n  IPv4 address
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 ttl 255 source Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 ttl 255 source 255.255.255.255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 ttl 255 source 255.255.255.255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 ttl 255 source 255.255.255.255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 ttl 255 source 10.1.1.1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 ttl 255 source 10.1.1.1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 ttl 255 source 10.1.1.1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 ttl 255
+Sending 1, 0-byte ICMP Echos to 255.255.255.255, 
+.
+Success rate is 0.00 percent (0/1) 100.0% packet loss 
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 ttl 55 
+<<<<help_begin
+source  Specify IPv4 source address
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 ttl 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 ttl 55 source 
+<<<<help_begin
+n.n.n.n  IPv4 address
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 ttl 55 source Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 ttl 55 source 255.255.255.255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 ttl 55 source 255.255.255.255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 ttl 55 source 255.255.255.255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 ttl 55 source 10.1.1.1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 ttl 55 source 10.1.1.1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 ttl 55 source 10.1.1.1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0 ttl 55
+Sending 1, 0-byte ICMP Echos to 255.255.255.255, 
+.
+Success rate is 0.00 percent (0/1) 100.0% packet loss 
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 0
+Sending 1, 0-byte ICMP Echos to 255.255.255.255, 
+.
+Success rate is 0.00 percent (0/1) 100.0% packet loss 
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 
+<<<<help_begin
+source  Specify IPv4 source address
+ttl     Packet TTL
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 source 
+<<<<help_begin
+n.n.n.n  IPv4 address
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 source Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 source 255.255.255.255 
+<<<<help_begin
+ttl    Packet TTL
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 source 255.255.255.255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 source 255.255.255.255 ttl 
+<<<<help_begin
+1..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 source 255.255.255.255 ttl Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 source 255.255.255.255 ttl 1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 source 255.255.255.255 ttl 1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 source 255.255.255.255 ttl 1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 source 255.255.255.255 ttl 255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 source 255.255.255.255 ttl 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 source 255.255.255.255 ttl 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 source 255.255.255.255 ttl 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 source 255.255.255.255 ttl 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 source 255.255.255.255 ttl 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 source 255.255.255.255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 source 10.1.1.1 
+<<<<help_begin
+ttl    Packet TTL
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 source 10.1.1.1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 source 10.1.1.1 ttl 
+<<<<help_begin
+1..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 source 10.1.1.1 ttl Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 source 10.1.1.1 ttl 1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 source 10.1.1.1 ttl 1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 source 10.1.1.1 ttl 1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 source 10.1.1.1 ttl 255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 source 10.1.1.1 ttl 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 source 10.1.1.1 ttl 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 source 10.1.1.1 ttl 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 source 10.1.1.1 ttl 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 source 10.1.1.1 ttl 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 source 10.1.1.1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 ttl 
+<<<<help_begin
+1..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 ttl Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 ttl 1 
+<<<<help_begin
+source  Specify IPv4 source address
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 ttl 1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 ttl 1 source 
+<<<<help_begin
+n.n.n.n  IPv4 address
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 ttl 1 source Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 ttl 1 source 255.255.255.255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 ttl 1 source 255.255.255.255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 ttl 1 source 255.255.255.255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 ttl 1 source 10.1.1.1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 ttl 1 source 10.1.1.1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 ttl 1 source 10.1.1.1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 ttl 1
+Sending 1, 0-byte ICMP Echos to 255.255.255.255, 
+.
+Success rate is 0.00 percent (0/1) 100.0% packet loss 
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 ttl 255 
+<<<<help_begin
+source  Specify IPv4 source address
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 ttl 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 ttl 255 source 
+<<<<help_begin
+n.n.n.n  IPv4 address
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 ttl 255 source Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 ttl 255 source 255.255.255.255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 ttl 255 source 255.255.255.255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 ttl 255 source 255.255.255.255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 ttl 255 source 10.1.1.1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 ttl 255 source 10.1.1.1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 ttl 255 source 10.1.1.1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 ttl 255
+Sending 1, 0-byte ICMP Echos to 255.255.255.255, 
+.
+Success rate is 0.00 percent (0/1) 100.0% packet loss 
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 ttl 55 
+<<<<help_begin
+source  Specify IPv4 source address
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 ttl 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 ttl 55 source 
+<<<<help_begin
+n.n.n.n  IPv4 address
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 ttl 55 source Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 ttl 55 source 255.255.255.255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 ttl 55 source 255.255.255.255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 ttl 55 source 255.255.255.255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 ttl 55 source 10.1.1.1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 ttl 55 source 10.1.1.1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 ttl 55 source 10.1.1.1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255 ttl 55
+Sending 1, 0-byte ICMP Echos to 255.255.255.255, 
+.
+Success rate is 0.00 percent (0/1) 100.0% packet loss 
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 255
+Sending 1, 0-byte ICMP Echos to 255.255.255.255, 
+.
+Success rate is 0.00 percent (0/1) 100.0% packet loss 
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 
+<<<<help_begin
+source  Specify IPv4 source address
+ttl     Packet TTL
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 source 
+<<<<help_begin
+n.n.n.n  IPv4 address
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 source Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 source 255.255.255.255 
+<<<<help_begin
+ttl    Packet TTL
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 source 255.255.255.255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 source 255.255.255.255 ttl 
+<<<<help_begin
+1..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 source 255.255.255.255 ttl Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 source 255.255.255.255 ttl 1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 source 255.255.255.255 ttl 1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 source 255.255.255.255 ttl 1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 source 255.255.255.255 ttl 255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 source 255.255.255.255 ttl 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 source 255.255.255.255 ttl 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 source 255.255.255.255 ttl 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 source 255.255.255.255 ttl 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 source 255.255.255.255 ttl 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 source 255.255.255.255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 source 10.1.1.1 
+<<<<help_begin
+ttl    Packet TTL
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 source 10.1.1.1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 source 10.1.1.1 ttl 
+<<<<help_begin
+1..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 source 10.1.1.1 ttl Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 source 10.1.1.1 ttl 1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 source 10.1.1.1 ttl 1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 source 10.1.1.1 ttl 1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 source 10.1.1.1 ttl 255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 source 10.1.1.1 ttl 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 source 10.1.1.1 ttl 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 source 10.1.1.1 ttl 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 source 10.1.1.1 ttl 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 source 10.1.1.1 ttl 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 source 10.1.1.1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 ttl 
+<<<<help_begin
+1..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 ttl Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 ttl 1 
+<<<<help_begin
+source  Specify IPv4 source address
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 ttl 1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 ttl 1 source 
+<<<<help_begin
+n.n.n.n  IPv4 address
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 ttl 1 source Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 ttl 1 source 255.255.255.255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 ttl 1 source 255.255.255.255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 ttl 1 source 255.255.255.255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 ttl 1 source 10.1.1.1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 ttl 1 source 10.1.1.1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 ttl 1 source 10.1.1.1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 ttl 1
+Sending 1, 0-byte ICMP Echos to 255.255.255.255, 
+.
+Success rate is 0.00 percent (0/1) 100.0% packet loss 
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 ttl 255 
+<<<<help_begin
+source  Specify IPv4 source address
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 ttl 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 ttl 255 source 
+<<<<help_begin
+n.n.n.n  IPv4 address
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 ttl 255 source Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 ttl 255 source 255.255.255.255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 ttl 255 source 255.255.255.255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 ttl 255 source 255.255.255.255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 ttl 255 source 10.1.1.1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 ttl 255 source 10.1.1.1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 ttl 255 source 10.1.1.1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 ttl 255
+Sending 1, 0-byte ICMP Echos to 255.255.255.255, 
+.
+Success rate is 0.00 percent (0/1) 100.0% packet loss 
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 ttl 55 
+<<<<help_begin
+source  Specify IPv4 source address
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 ttl 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 ttl 55 source 
+<<<<help_begin
+n.n.n.n  IPv4 address
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 ttl 55 source Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 ttl 55 source 255.255.255.255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 ttl 55 source 255.255.255.255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 ttl 55 source 255.255.255.255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 ttl 55 source 10.1.1.1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 ttl 55 source 10.1.1.1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 ttl 55 source 10.1.1.1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55 ttl 55
+Sending 1, 0-byte ICMP Echos to 255.255.255.255, 
+.
+Success rate is 0.00 percent (0/1) 100.0% packet loss 
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 tos 55
+Sending 1, 0-byte ICMP Echos to 255.255.255.255, 
+.
+Success rate is 0.00 percent (0/1) 100.0% packet loss 
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 
+<<<<help_begin
+1..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 
+<<<<help_begin
+source  Specify IPv4 source address
+tos     Set packet TOS
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 source 
+<<<<help_begin
+n.n.n.n  IPv4 address
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 source Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 source 255.255.255.255 
+<<<<help_begin
+tos    Set packet TOS
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 source 255.255.255.255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 source 255.255.255.255 tos 
+<<<<help_begin
+0..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 source 255.255.255.255 tos Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 source 255.255.255.255 tos 0 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 source 255.255.255.255 tos 0 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 source 255.255.255.255 tos 0
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 source 255.255.255.255 tos 255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 source 255.255.255.255 tos 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 source 255.255.255.255 tos 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 source 255.255.255.255 tos 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 source 255.255.255.255 tos 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 source 255.255.255.255 tos 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 source 255.255.255.255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 source 10.1.1.1 
+<<<<help_begin
+tos    Set packet TOS
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 source 10.1.1.1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 source 10.1.1.1 tos 
+<<<<help_begin
+0..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 source 10.1.1.1 tos Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 source 10.1.1.1 tos 0 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 source 10.1.1.1 tos 0 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 source 10.1.1.1 tos 0
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 source 10.1.1.1 tos 255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 source 10.1.1.1 tos 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 source 10.1.1.1 tos 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 source 10.1.1.1 tos 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 source 10.1.1.1 tos 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 source 10.1.1.1 tos 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 source 10.1.1.1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 tos 
+<<<<help_begin
+0..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 tos Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 tos 0 
+<<<<help_begin
+source  Specify IPv4 source address
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 tos 0 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 tos 0 source 
+<<<<help_begin
+n.n.n.n  IPv4 address
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 tos 0 source Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 tos 0 source 255.255.255.255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 tos 0 source 255.255.255.255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 tos 0 source 255.255.255.255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 tos 0 source 10.1.1.1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 tos 0 source 10.1.1.1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 tos 0 source 10.1.1.1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 tos 0
+Sending 1, 0-byte ICMP Echos to 255.255.255.255, 
+.
+Success rate is 0.00 percent (0/1) 100.0% packet loss 
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 tos 255 
+<<<<help_begin
+source  Specify IPv4 source address
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 tos 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 tos 255 source 
+<<<<help_begin
+n.n.n.n  IPv4 address
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 tos 255 source Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 tos 255 source 255.255.255.255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 tos 255 source 255.255.255.255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 tos 255 source 255.255.255.255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 tos 255 source 10.1.1.1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 tos 255 source 10.1.1.1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 tos 255 source 10.1.1.1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 tos 255
+Sending 1, 0-byte ICMP Echos to 255.255.255.255, 
+.
+Success rate is 0.00 percent (0/1) 100.0% packet loss 
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 tos 55 
+<<<<help_begin
+source  Specify IPv4 source address
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 tos 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 tos 55 source 
+<<<<help_begin
+n.n.n.n  IPv4 address
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 tos 55 source Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 tos 55 source 255.255.255.255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 tos 55 source 255.255.255.255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 tos 55 source 255.255.255.255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 tos 55 source 10.1.1.1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 tos 55 source 10.1.1.1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 tos 55 source 10.1.1.1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1 tos 55
+Sending 1, 0-byte ICMP Echos to 255.255.255.255, 
+.
+Success rate is 0.00 percent (0/1) 100.0% packet loss 
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 1
+Sending 1, 0-byte ICMP Echos to 255.255.255.255, 
+.
+Success rate is 0.00 percent (0/1) 100.0% packet loss 
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 
+<<<<help_begin
+source  Specify IPv4 source address
+tos     Set packet TOS
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 source 
+<<<<help_begin
+n.n.n.n  IPv4 address
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 source Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 source 255.255.255.255 
+<<<<help_begin
+tos    Set packet TOS
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 source 255.255.255.255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 source 255.255.255.255 tos 
+<<<<help_begin
+0..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 source 255.255.255.255 tos Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 source 255.255.255.255 tos 0 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 source 255.255.255.255 tos 0 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 source 255.255.255.255 tos 0
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 source 255.255.255.255 tos 255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 source 255.255.255.255 tos 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 source 255.255.255.255 tos 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 source 255.255.255.255 tos 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 source 255.255.255.255 tos 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 source 255.255.255.255 tos 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 source 255.255.255.255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 source 10.1.1.1 
+<<<<help_begin
+tos    Set packet TOS
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 source 10.1.1.1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 source 10.1.1.1 tos 
+<<<<help_begin
+0..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 source 10.1.1.1 tos Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 source 10.1.1.1 tos 0 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 source 10.1.1.1 tos 0 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 source 10.1.1.1 tos 0
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 source 10.1.1.1 tos 255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 source 10.1.1.1 tos 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 source 10.1.1.1 tos 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 source 10.1.1.1 tos 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 source 10.1.1.1 tos 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 source 10.1.1.1 tos 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 source 10.1.1.1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 tos 
+<<<<help_begin
+0..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 tos Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 tos 0 
+<<<<help_begin
+source  Specify IPv4 source address
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 tos 0 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 tos 0 source 
+<<<<help_begin
+n.n.n.n  IPv4 address
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 tos 0 source Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 tos 0 source 255.255.255.255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 tos 0 source 255.255.255.255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 tos 0 source 255.255.255.255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 tos 0 source 10.1.1.1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 tos 0 source 10.1.1.1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 tos 0 source 10.1.1.1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 tos 0
+Sending 1, 0-byte ICMP Echos to 255.255.255.255, 
+.
+Success rate is 0.00 percent (0/1) 100.0% packet loss 
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 tos 255 
+<<<<help_begin
+source  Specify IPv4 source address
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 tos 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 tos 255 source 
+<<<<help_begin
+n.n.n.n  IPv4 address
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 tos 255 source Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 tos 255 source 255.255.255.255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 tos 255 source 255.255.255.255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 tos 255 source 255.255.255.255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 tos 255 source 10.1.1.1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 tos 255 source 10.1.1.1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 tos 255 source 10.1.1.1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 tos 255
+Sending 1, 0-byte ICMP Echos to 255.255.255.255, 
+.
+Success rate is 0.00 percent (0/1) 100.0% packet loss 
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 tos 55 
+<<<<help_begin
+source  Specify IPv4 source address
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 tos 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 tos 55 source 
+<<<<help_begin
+n.n.n.n  IPv4 address
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 tos 55 source Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 tos 55 source 255.255.255.255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 tos 55 source 255.255.255.255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 tos 55 source 255.255.255.255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 tos 55 source 10.1.1.1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 tos 55 source 10.1.1.1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 tos 55 source 10.1.1.1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255 tos 55
+Sending 1, 0-byte ICMP Echos to 255.255.255.255, 
+.
+Success rate is 0.00 percent (0/1) 100.0% packet loss 
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 255
+Sending 1, 0-byte ICMP Echos to 255.255.255.255, 
+.
+Success rate is 0.00 percent (0/1) 100.0% packet loss 
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 
+<<<<help_begin
+source  Specify IPv4 source address
+tos     Set packet TOS
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 source 
+<<<<help_begin
+n.n.n.n  IPv4 address
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 source Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 source 255.255.255.255 
+<<<<help_begin
+tos    Set packet TOS
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 source 255.255.255.255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 source 255.255.255.255 tos 
+<<<<help_begin
+0..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 source 255.255.255.255 tos Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 source 255.255.255.255 tos 0 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 source 255.255.255.255 tos 0 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 source 255.255.255.255 tos 0
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 source 255.255.255.255 tos 255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 source 255.255.255.255 tos 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 source 255.255.255.255 tos 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 source 255.255.255.255 tos 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 source 255.255.255.255 tos 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 source 255.255.255.255 tos 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 source 255.255.255.255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 source 10.1.1.1 
+<<<<help_begin
+tos    Set packet TOS
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 source 10.1.1.1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 source 10.1.1.1 tos 
+<<<<help_begin
+0..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 source 10.1.1.1 tos Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 source 10.1.1.1 tos 0 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 source 10.1.1.1 tos 0 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 source 10.1.1.1 tos 0
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 source 10.1.1.1 tos 255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 source 10.1.1.1 tos 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 source 10.1.1.1 tos 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 source 10.1.1.1 tos 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 source 10.1.1.1 tos 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 source 10.1.1.1 tos 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 source 10.1.1.1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 tos 
+<<<<help_begin
+0..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 tos Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 tos 0 
+<<<<help_begin
+source  Specify IPv4 source address
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 tos 0 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 tos 0 source 
+<<<<help_begin
+n.n.n.n  IPv4 address
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 tos 0 source Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 tos 0 source 255.255.255.255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 tos 0 source 255.255.255.255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 tos 0 source 255.255.255.255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 tos 0 source 10.1.1.1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 tos 0 source 10.1.1.1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 tos 0 source 10.1.1.1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 tos 0
+Sending 1, 0-byte ICMP Echos to 255.255.255.255, 
+.
+Success rate is 0.00 percent (0/1) 100.0% packet loss 
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 tos 255 
+<<<<help_begin
+source  Specify IPv4 source address
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 tos 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 tos 255 source 
+<<<<help_begin
+n.n.n.n  IPv4 address
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 tos 255 source Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 tos 255 source 255.255.255.255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 tos 255 source 255.255.255.255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 tos 255 source 255.255.255.255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 tos 255 source 10.1.1.1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 tos 255 source 10.1.1.1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 tos 255 source 10.1.1.1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 tos 255
+Sending 1, 0-byte ICMP Echos to 255.255.255.255, 
+.
+Success rate is 0.00 percent (0/1) 100.0% packet loss 
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 tos 55 
+<<<<help_begin
+source  Specify IPv4 source address
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 tos 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 tos 55 source 
+<<<<help_begin
+n.n.n.n  IPv4 address
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 tos 55 source Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 tos 55 source 255.255.255.255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 tos 55 source 255.255.255.255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 tos 55 source 255.255.255.255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 tos 55 source 10.1.1.1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 tos 55 source 10.1.1.1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 tos 55 source 10.1.1.1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55 tos 55
+Sending 1, 0-byte ICMP Echos to 255.255.255.255, 
+.
+Success rate is 0.00 percent (0/1) 100.0% packet loss 
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0 ttl 55
+Sending 1, 0-byte ICMP Echos to 255.255.255.255, 
+.
+Success rate is 0.00 percent (0/1) 100.0% packet loss 
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 0
+Sending 1, 0-byte ICMP Echos to 255.255.255.255, 
+.
+Success rate is 0.00 percent (0/1) 100.0% packet loss 
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 
+<<<<help_begin
+source  Specify IPv4 source address
+tos     Set packet TOS
+ttl     Packet TTL
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 
+<<<<help_begin
+n.n.n.n  IPv4 address
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 
+<<<<help_begin
+tos    Set packet TOS
+ttl    Packet TTL
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 
+<<<<help_begin
+0..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 0 
+<<<<help_begin
+ttl    Packet TTL
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 0 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 0 ttl 
+<<<<help_begin
+1..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 0 ttl Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 0 ttl 1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 0 ttl 1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 0 ttl 1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 0 ttl 255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 0 ttl 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 0 ttl 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 0 ttl 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 0 ttl 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 0 ttl 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 0
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 255 
+<<<<help_begin
+ttl    Packet TTL
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 255 ttl 
+<<<<help_begin
+1..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 255 ttl Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 255 ttl 1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 255 ttl 1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 255 ttl 1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 255 ttl 255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 255 ttl 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 255 ttl 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 255 ttl 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 255 ttl 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 255 ttl 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 55 
+<<<<help_begin
+ttl    Packet TTL
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 55 ttl 
+<<<<help_begin
+1..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 55 ttl Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 55 ttl 1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 55 ttl 1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 55 ttl 1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 55 ttl 255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 55 ttl 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 55 ttl 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 55 ttl 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 55 ttl 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 55 ttl 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 tos 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 
+<<<<help_begin
+1..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 1 
+<<<<help_begin
+tos    Set packet TOS
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 1 tos 
+<<<<help_begin
+0..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 1 tos Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 1 tos 0 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 1 tos 0 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 1 tos 0
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 1 tos 255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 1 tos 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 1 tos 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 1 tos 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 1 tos 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 1 tos 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 255 
+<<<<help_begin
+tos    Set packet TOS
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 255 tos 
+<<<<help_begin
+0..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 255 tos Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 255 tos 0 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 255 tos 0 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 255 tos 0
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 255 tos 255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 255 tos 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 255 tos 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 255 tos 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 255 tos 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 255 tos 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 55 
+<<<<help_begin
+tos    Set packet TOS
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 55 tos 
+<<<<help_begin
+0..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 55 tos Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 55 tos 0 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 55 tos 0 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 55 tos 0
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 55 tos 255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 55 tos 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 55 tos 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 55 tos 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 55 tos 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 55 tos 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255 ttl 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 255.255.255.255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 
+<<<<help_begin
+tos    Set packet TOS
+ttl    Packet TTL
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 
+<<<<help_begin
+0..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 0 
+<<<<help_begin
+ttl    Packet TTL
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 0 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 0 ttl 
+<<<<help_begin
+1..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 0 ttl Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 0 ttl 1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 0 ttl 1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 0 ttl 1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 0 ttl 255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 0 ttl 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 0 ttl 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 0 ttl 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 0 ttl 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 0 ttl 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 0
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 255 
+<<<<help_begin
+ttl    Packet TTL
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 255 ttl 
+<<<<help_begin
+1..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 255 ttl Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 255 ttl 1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 255 ttl 1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 255 ttl 1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 255 ttl 255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 255 ttl 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 255 ttl 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 255 ttl 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 255 ttl 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 255 ttl 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 55 
+<<<<help_begin
+ttl    Packet TTL
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 55 ttl 
+<<<<help_begin
+1..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 55 ttl Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 55 ttl 1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 55 ttl 1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 55 ttl 1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 55 ttl 255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 55 ttl 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 55 ttl 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 55 ttl 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 55 ttl 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 55 ttl 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 tos 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 
+<<<<help_begin
+1..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 1 
+<<<<help_begin
+tos    Set packet TOS
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 1 tos 
+<<<<help_begin
+0..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 1 tos Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 1 tos 0 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 1 tos 0 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 1 tos 0
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 1 tos 255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 1 tos 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 1 tos 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 1 tos 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 1 tos 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 1 tos 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 255 
+<<<<help_begin
+tos    Set packet TOS
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 255 tos 
+<<<<help_begin
+0..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 255 tos Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 255 tos 0 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 255 tos 0 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 255 tos 0
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 255 tos 255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 255 tos 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 255 tos 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 255 tos 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 255 tos 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 255 tos 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 55 
+<<<<help_begin
+tos    Set packet TOS
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 55 tos 
+<<<<help_begin
+0..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 55 tos Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 55 tos 0 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 55 tos 0 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 55 tos 0
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 55 tos 255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 55 tos 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 55 tos 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 55 tos 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 55 tos 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 55 tos 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1 ttl 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 source 10.1.1.1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 
+<<<<help_begin
+0..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 
+<<<<help_begin
+source  Specify IPv4 source address
+ttl     Packet TTL
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 source 
+<<<<help_begin
+n.n.n.n  IPv4 address
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 source Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 source 255.255.255.255 
+<<<<help_begin
+ttl    Packet TTL
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 source 255.255.255.255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 source 255.255.255.255 ttl 
+<<<<help_begin
+1..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 source 255.255.255.255 ttl Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 source 255.255.255.255 ttl 1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 source 255.255.255.255 ttl 1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 source 255.255.255.255 ttl 1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 source 255.255.255.255 ttl 255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 source 255.255.255.255 ttl 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 source 255.255.255.255 ttl 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 source 255.255.255.255 ttl 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 source 255.255.255.255 ttl 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 source 255.255.255.255 ttl 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 source 255.255.255.255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 source 10.1.1.1 
+<<<<help_begin
+ttl    Packet TTL
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 source 10.1.1.1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 source 10.1.1.1 ttl 
+<<<<help_begin
+1..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 source 10.1.1.1 ttl Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 source 10.1.1.1 ttl 1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 source 10.1.1.1 ttl 1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 source 10.1.1.1 ttl 1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 source 10.1.1.1 ttl 255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 source 10.1.1.1 ttl 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 source 10.1.1.1 ttl 255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 source 10.1.1.1 ttl 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 source 10.1.1.1 ttl 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 source 10.1.1.1 ttl 55
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 source 10.1.1.1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 ttl 
+<<<<help_begin
+1..255  Value
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 ttl Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 ttl 1 
+<<<<help_begin
+source  Specify IPv4 source address
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 ttl 1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 ttl 1 source 
+<<<<help_begin
+n.n.n.n  IPv4 address
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 ttl 1 source Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 ttl 1 source 255.255.255.255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 ttl 1 source 255.255.255.255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 ttl 1 source 255.255.255.255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 ttl 1 source 10.1.1.1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 ttl 1 source 10.1.1.1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 ttl 1 source 10.1.1.1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 ttl 1
+Sending 1, 10000-byte ICMP Echos to 255.255.255.255, 
+.
+Success rate is 0.00 percent (0/1) 100.0% packet loss 
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 ttl 255 
+<<<<help_begin
+source  Specify IPv4 source address
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 ttl 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 ttl 255 source 
+<<<<help_begin
+n.n.n.n  IPv4 address
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 ttl 255 source Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 ttl 255 source 255.255.255.255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 ttl 255 source 255.255.255.255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 ttl 255 source 255.255.255.255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 ttl 255 source 10.1.1.1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 ttl 255 source 10.1.1.1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 ttl 255 source 10.1.1.1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 ttl 255
+Sending 1, 10000-byte ICMP Echos to 255.255.255.255, 
+.
+Success rate is 0.00 percent (0/1) 100.0% packet loss 
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 ttl 55 
+<<<<help_begin
+source  Specify IPv4 source address
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 ttl 55 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 ttl 55 source 
+<<<<help_begin
+n.n.n.n  IPv4 address
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 ttl 55 source Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 ttl 55 source 255.255.255.255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 ttl 55 source 255.255.255.255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 ttl 55 source 255.255.255.255
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 ttl 55 source 10.1.1.1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 ttl 55 source 10.1.1.1 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 ttl 55 source 10.1.1.1
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0 ttl 55
+Sending 1, 10000-byte ICMP Echos to 255.255.255.255, 
+.
+Success rate is 0.00 percent (0/1) 100.0% packet loss 
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 0
+Sending 1, 10000-byte ICMP Echos to 255.255.255.255, 
+.
+Success rate is 0.00 percent (0/1) 100.0% packet loss 
+Stoke[local]#<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 255 
+<<<<help_begin
+source  Specify IPv4 source address
+ttl     Packet TTL
+<cr>
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 255 Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 255 source 
+<<<<help_begin
+n.n.n.n  IPv4 address
+>>>>help_end
+[KStoke[local]#ping 255.255.255.255 data ffffffff df-bit repeat 1 size 10000 tos 255 source Stoke[local]#[K<!>[Kping 255.255.255.255 data ffffffff df-bit re

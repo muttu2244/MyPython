@@ -1,0 +1,252 @@
+ 
+<<<<help_begin
+bind         Bind command
+debug        Debug logging
+description  Assign a text description to this port
+enable       Enable a port
+end          Exit configuration mode
+exit         Exit current configuration mode
+no           Remove setting or configuration
+qos          Assign QoS profile to a port
+service      Port Services
+show         Display system information
+>>>>help_end
+[KStoke(cfg-3)#<!>[Kbind 
+<<<<help_begin
+interface  Bind an interface to a context on this port
+>>>>help_end
+[KStoke(cfg-3)#bind[K<!>[Kbind interface 
+<<<<help_begin
+STRING  Interface name
+>>>>help_end
+[KStoke(cfg-3)#bind interface Stoke(cfg-3)#[K<!>[Kbind interface z 
+<<<<help_begin
+STRING(36)  Context name
+>>>>help_end
+[KStoke(cfg-3)#bind interface z Stoke(cfg-3)#[K<!>[Kbind interface z z 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#bind interface z z Stoke(cfg-3)#[K<!>[Kbind interface z z
+ERROR: tunnel interface cannot be bound to a non-tunnel circuit
+Stoke(cfg-3)#<!>[Kno bind interface z z
+ERROR: cct is bound to a different interface
+Stoke(cfg-3)#<!>[Kbind interface z z
+ERROR: tunnel interface cannot be bound to a non-tunnel circuit
+Stoke(cfg-3)#<!>[Kbind interface z abc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#bind interface z abc Stoke(cfg-3)#[K<!>[Kbind interface z abc
+ERROR: context abc does not exist
+Stoke(cfg-3)#<!>[Kno bind interface z abc
+ERROR: context abc does not exist
+Stoke(cfg-3)#<!>[Kbind interface z abc
+ERROR: context abc does not exist
+Stoke(cfg-3)#<!>[Kbind interface z a1b2c3 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#bind interface z a1b2c3 Stoke(cfg-3)#[K<!>[Kbind interface z a1b2c3
+ERROR: context a1b2c3 does not exist
+Stoke(cfg-3)#<!>[Kno bind interface z a1b2c3
+ERROR: context a1b2c3 does not exist
+Stoke(cfg-3)#<!>[Kbind interface z a1b2c3
+ERROR: context a1b2c3 does not exist
+Stoke(cfg-3)#<!>[Kbind interface z xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#bind interface z xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Stoke(cfg-3)#[K<!>[Kbind interface z xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ERROR: context xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx does not exist
+Stoke(cfg-3)#<!>[Kno bind interface z xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ERROR: context xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx does not exist
+Stoke(cfg-3)#<!>[Kbind interface z xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ERROR: context xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx does not exist
+Stoke(cfg-3)#<!>[Kbind interface abc 
+<<<<help_begin
+STRING(36)  Context name
+>>>>help_end
+[KStoke(cfg-3)#bind interface abc Stoke(cfg-3)#[K<!>[Kbind interface abc z 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#bind interface abc z Stoke(cfg-3)#[K<!>[Kbind interface abc z
+ERROR: tunnel interface cannot be bound to a non-tunnel circuit
+Stoke(cfg-3)#<!>[Kno bind interface abc z
+ERROR: cct is bound to a different interface
+Stoke(cfg-3)#<!>[Kbind interface abc z
+ERROR: tunnel interface cannot be bound to a non-tunnel circuit
+Stoke(cfg-3)#<!>[Kbind interface abc abc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#bind interface abc abc Stoke(cfg-3)#[K<!>[Kbind interface abc abc
+ERROR: context abc does not exist
+Stoke(cfg-3)#<!>[Kno bind interface abc abc
+ERROR: context abc does not exist
+Stoke(cfg-3)#<!>[Kbind interface abc abc
+ERROR: context abc does not exist
+Stoke(cfg-3)#<!>[Kbind interface abc a1b2c3 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#bind interface abc a1b2c3 Stoke(cfg-3)#[K<!>[Kbind interface abc a1b2c3
+ERROR: context a1b2c3 does not exist
+Stoke(cfg-3)#<!>[Kno bind interface abc a1b2c3
+ERROR: context a1b2c3 does not exist
+Stoke(cfg-3)#<!>[Kbind interface abc a1b2c3
+ERROR: context a1b2c3 does not exist
+Stoke(cfg-3)#<!>[Kbind interface abc xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#bind interface abc xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Stoke(cfg-3)#[K<!>[Kbind interface abc xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ERROR: context xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx does not exist
+Stoke(cfg-3)#<!>[Kno bind interface abc xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ERROR: context xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx does not exist
+Stoke(cfg-3)#<!>[Kbind interface abc xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ERROR: context xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx does not exist
+Stoke(cfg-3)#<!>[Kbind interface a1b2c3 
+<<<<help_begin
+STRING(36)  Context name
+>>>>help_end
+[KStoke(cfg-3)#bind interface a1b2c3 Stoke(cfg-3)#[K<!>[Kbind interface a1b2c3 z 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#bind interface a1b2c3 z Stoke(cfg-3)#[K<!>[Kbind interface a1b2c3 z
+ERROR: tunnel interface cannot be bound to a non-tunnel circuit
+Stoke(cfg-3)#<!>[Kno bind interface a1b2c3 z
+ERROR: cct is bound to a different interface
+Stoke(cfg-3)#<!>[Kbind interface a1b2c3 z
+ERROR: tunnel interface cannot be bound to a non-tunnel circuit
+Stoke(cfg-3)#<!>[Kbind interface a1b2c3 abc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#bind interface a1b2c3 abc Stoke(cfg-3)#[K<!>[Kbind interface a1b2c3 abc
+ERROR: context abc does not exist
+Stoke(cfg-3)#<!>[Kno bind interface a1b2c3 abc
+ERROR: context abc does not exist
+Stoke(cfg-3)#<!>[Kbind interface a1b2c3 abc
+ERROR: context abc does not exist
+Stoke(cfg-3)#<!>[Kbind interface a1b2c3 a1b2c3 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#bind interface a1b2c3 a1b2c3 Stoke(cfg-3)#[K<!>[Kbind interface a1b2c3 a1b2c3
+ERROR: context a1b2c3 does not exist
+Stoke(cfg-3)#<!>[Kno bind interface a1b2c3 a1b2c3
+ERROR: context a1b2c3 does not exist
+Stoke(cfg-3)#<!>[Kbind interface a1b2c3 a1b2c3
+ERROR: context a1b2c3 does not exist
+Stoke(cfg-3)#<!>[Kbind interface a1b2c3 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#bind interface a1b2c3 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Stoke(cfg-3)#[K<!>[Kbind interface a1b2c3 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ERROR: context xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx does not exist
+Stoke(cfg-3)#<!>[Kno bind interface a1b2c3 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ERROR: context xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx does not exist
+Stoke(cfg-3)#<!>[Kbind interface a1b2c3 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ERROR: context xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx does not exist
+Stoke(cfg-3)#<!>[Kbind interface xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Stoke(cfg-3)#[K<!>[Kdescription 
+<<<<help_begin
+STRING(120)  Text string
+>>>>help_end
+[KStoke(cfg-3)#description[K<!>[Kdescription z 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#description z Stoke(cfg-3)#[K<!>[Kdescription z
+Stoke(cfg-3)#<!>[Kdescription abc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#description abc Stoke(cfg-3)#[K<!>[Kdescription abc
+Stoke(cfg-3)#<!>[Kdescription a1b2c3 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#description a1b2c3 Stoke(cfg-3)#[K<!>[Kdescription a1b2c3
+Stoke(cfg-3)#<!>[Kdescription xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#description xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Stoke(cfg-3)#[K<!>[Kdescription xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Stoke(cfg-3)#<!>[Kenable 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#enable[K<!>[Kenable
+Stoke(cfg-3)#<!>[Kqos 
+<<<<help_begin
+port-profile  Port QoS profile
+>>>>help_end
+[KStoke(cfg-3)#qos[K<!>[Kqos port-profile 
+<<<<help_begin
+STRING(15)  Port profile name
+>>>>help_end
+[KStoke(cfg-3)#qos port-profile Stoke(cfg-3)#[K<!>[Kqos port-profile z 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#qos port-profile z Stoke(cfg-3)#[K<!>[Kqos port-profile z
+ERROR: Invalid QoS port policy name
+Stoke(cfg-3)#<!>[Kno qos port-profile z
+ERROR: No Qos port profile binded to the port
+Stoke(cfg-3)#<!>[Kqos port-profile z
+ERROR: Invalid QoS port policy name
+Stoke(cfg-3)#<!>[Kqos port-profile abc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#qos port-profile abc Stoke(cfg-3)#[K<!>[Kqos port-profile abc
+ERROR: Invalid QoS port policy name
+Stoke(cfg-3)#<!>[Kno qos port-profile abc
+ERROR: No Qos port profile binded to the port
+Stoke(cfg-3)#<!>[Kqos port-profile abc
+ERROR: Invalid QoS port policy name
+Stoke(cfg-3)#<!>[Kqos port-profile a1b2c3 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#qos port-profile a1b2c3 Stoke(cfg-3)#[K<!>[Kqos port-profile a1b2c3
+ERROR: Invalid QoS port policy name
+Stoke(cfg-3)#<!>[Kno qos port-profile a1b2c3
+ERROR: No Qos port profile binded to the port
+Stoke(cfg-3)#<!>[Kqos port-profile a1b2c3
+ERROR: Invalid QoS port policy name
+Stoke(cfg-3)#<!>[Kqos port-profile xxxxxxxxxxxxxxx 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#qos port-profile xxxxxxxxxxxxxxx Stoke(cfg-3)#[K<!>[Kqos port-profile xxxxxxxxxxxxxxx
+ERROR: Invalid QoS port policy name
+Stoke(cfg-3)#<!>[Kno qos port-profile xxxxxxxxxxxxxxx
+ERROR: No Qos port profile binded to the port
+Stoke(cfg-3)#<!>[Kqos port-profile xxxxxxxxxxxxxxx
+ERROR: Invalid QoS port policy name
+Stoke(cfg-3)#<!>[Kservice 
+<<<<help_begin
+ipsec  IPSEC Service
+pppoe  PPPoE Service
+>>>>help_end
+[KStoke(cfg-3)#service[K<!>[Kservice ipsec 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#service ipsec Stoke(cfg-3)#[K<!>[Kservice ipsec
+Stoke(cfg-3)#<!>[Kservice pppoe 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#service pppoe Stoke(cfg-3)#[K<!>[Kservice pppoe
+ERROR: PPPoE can not be enabled if Ipsec is enabled
+Stoke(cfg-3)#<!>[Kno service pppoe
+ERROR: Service not configured
+Stoke(cfg-3)#<!>[Kservice pppoe
+ERROR: PPPoE can not be enabled if Ipsec is enabled
+Stoke(cfg-3)#<!>[Kexit
+Stoke(cfg-2)#<!>

@@ -1,0 +1,85 @@
+03:53:40 : TEST    : ##################################################
+03:53:40 : TEST    : Python Version: Python 2.5
+03:53:40 : TEST    : ##################################################
+03:53:40 : TEST    : ##################################################
+03:53:40 : TEST    : test_setUpCisco
+03:53:40 : TEST    : ##################################################
+03:53:40 : INFO    : 
+#######################################################################
+#
+# Copyright (c) Stoke, Inc.
+# All Rights Reserved.
+#
+# This code is confidential and proprietary to Stoke, Inc. and may only
+# be used under a license from Stoke.
+#
+#######################################################################
+
+DESCRIPTION: This script is used to setup all the cisco interfaces which are used in test topology.
+TEST MATRIX: 
+TEST CASE  : NA
+TOPOLOGY   : GLC-R Setup with IXIA Connectivity
+
+HOW TO RUN : python2.5 setUpCisco.py <route-Y/N>
+AUTHOR     : rajshekar@stoke.com
+REVIEWER   : 
+
+03:53:40 : OUTPUT  : Trying to connect to CISCO host c4900m-15-con 
+03:53:43 : CMD     : terminal length 512
+03:53:43 : CMD     : terminal width 512
+03:53:44 : CMD     : configure term
+03:53:44 : CMD     : no logging console
+03:53:44 : CMD     : end
+03:53:44 : OUTPUT  : 
+**********Setting up the cisco device used in test**************
+
+03:53:44 : INFO    : 
+Setting up Cisco
+
+03:53:44 : INFO    : Enable routing at Cisco
+03:53:44 : CMD     : conf t
+03:53:44 : CMD     : ip routing
+03:53:45 : CMD     : exit
+03:53:45 : INFO    : Creating the required vrfs
+03:53:45 : CMD     : configure terminal
+03:53:45 : CMD     : no ip vrf card3
+03:53:45 : CMD     : ip vrf card3
+03:53:46 : CMD     : rd 2:3
+03:53:46 : CMD     : exit
+03:53:46 : CMD     : no ip vrf card2
+03:53:46 : CMD     : ip vrf card2
+03:53:46 : CMD     : rd 2:9
+03:53:47 : CMD     : exit
+03:53:47 : INFO    : Adding required vlans to database
+03:53:47 : CMD     : vlan database
+03:53:47 : CMD     : vlan 520
+03:53:48 : CMD     : vlan 540
+03:53:48 : CMD     : vlan 531
+03:53:48 : CMD     : vlan 542
+03:53:48 : CMD     : vlan 530
+03:53:49 : CMD     : vlan 541
+03:53:49 : CMD     : vlan 521
+03:53:50 : CMD     : vlan 543
+03:53:50 : CMD     : vlan 620
+03:53:50 : CMD     : vlan 630
+03:53:50 : CMD     : exit
+03:53:51 : CMD     : exit
+04:00:19 : CMD     : sh ip interface brief | inc 2/1
+04:00:22 : CMD     : config t
+04:00:23 : CMD     : interface GigabitEthernet 2/1
+04:00:23 : CMD     : no ip address
+04:00:23 : CMD     : exit
+04:03:43 : ERROR   : ##################################################
+04:03:43 : ERROR   : test_setUpCisco errored out.
+04:03:43 : ERROR   : ##################################################
+04:03:43 : ERROR   : 
+
+Traceback (most recent call last):
+  File "/.amd/netapp2/vol/vol1/home2/smath/systest/tests/glcr/ha_imc/setUpCisco.py", line 114, in test_setUpCisco
+    self.cisco.configure_ipv4_vlan_interface(ip_addr=haimc_var['cisco_active_slot2_ip_mask'],intf=haimc_var['port_cisco_active_4slot2'],vlan=haimc_var['vlan4slot2'],vrf=haimc_var['vrf_name2'])
+  File "../../lib/py/CISCO.py", line 340, in configure_ipv4_vlan_interface
+    self.cmd("exit")
+  File "../../lib/py/CISCO.py", line 182, in cmd
+    raise misc.TestError("pexpect timeout")
+TestError: 'pexpect timeout'
+

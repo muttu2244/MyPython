@@ -1,0 +1,10 @@
+AutoPR:
+Reviewer:
+Tested:
+Description:
+
+CVS: Add the PR numbers affected by this checkin after 'AutoPR:' below and
+CVS: the cvs server will replace the line with summaries of each bug.
+CVS: Reviewer - list the individual who reviewed this commit, if any.
+CVS: Tested - a brief summary of steps taken to test changes.
+CVS: Description - Summary of what changed and why.

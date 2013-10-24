@@ -1,0 +1,16 @@
+test_ACL_Func_060 (__main__.test_ACL_Func_060) ... FAIL
+
+======================================================================
+FAIL: test_ACL_Func_060 (__main__.test_ACL_Func_060)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ACL_Func_060.py", line 302, in test_ACL_Func_060
+    self.befNAftSwitchOver()
+  File "ACL_Func_060.py", line 254, in befNAftSwitchOver
+    self.failIf(acl_cntrs != True , "Acl counters are failing ")
+AssertionError: Acl counters are failing 
+
+----------------------------------------------------------------------
+Ran 1 test in 329.591s
+
+FAILED (failures=1)

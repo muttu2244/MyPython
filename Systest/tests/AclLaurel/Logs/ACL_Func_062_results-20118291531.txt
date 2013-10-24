@@ -1,0 +1,16 @@
+test_ACL_Func_062 (__main__.test_ACL_Func_062) ... FAIL
+
+======================================================================
+FAIL: test_ACL_Func_062 (__main__.test_ACL_Func_062)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ACL_Func_062.py", line 302, in test_ACL_Func_062
+    self.befNAftSwitchOver()
+  File "ACL_Func_062.py", line 251, in befNAftSwitchOver
+    self.failIfEqual(op_ping,True,"Ping through tunnel must fail after acl is applied!!")
+AssertionError: Ping through tunnel must fail after acl is applied!!
+
+----------------------------------------------------------------------
+Ran 1 test in 320.934s
+
+FAILED (failures=1)

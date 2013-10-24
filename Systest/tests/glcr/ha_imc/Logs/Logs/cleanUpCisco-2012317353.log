@@ -1,0 +1,122 @@
+03:53:09 : TEST    : ##################################################
+03:53:09 : TEST    : Python Version: Python 2.5
+03:53:09 : TEST    : ##################################################
+03:53:09 : TEST    : ##################################################
+03:53:09 : TEST    : test_cleanUpCisco
+03:53:09 : TEST    : ##################################################
+03:53:09 : INFO    : 
+#######################################################################
+#
+# Copyright (c) Stoke, Inc.
+# All Rights Reserved.
+#
+# This code is confidential and proprietary to Stoke, Inc. and may only
+# be used under a license from Stoke.
+#
+#######################################################################
+
+DESCRIPTION: This script is used to cleanup all the cisco interfaces which are used in test topology.
+TEST MATRIX: 
+TEST CASE  : NA
+TOPOLOGY   : GLC-R Setup with host connected behind Initiator.
+
+HOW TO RUN : python2.5 cleanUpCisco.py
+AUTHOR     : rajshekar@stoke.com
+REVIEWER   : 
+
+03:53:09 : OUTPUT  : Trying to connect to CISCO host c4900m-15-con 
+03:53:12 : CMD     : terminal length 512
+03:53:13 : CMD     : terminal width 512
+03:53:13 : CMD     : configure term
+03:53:13 : CMD     : no logging console
+03:53:13 : CMD     : end
+03:53:14 : OUTPUT  : 
+**********Cleaning the cisco Interfaces used in test**************
+
+03:53:14 : INFO    : Cleaning up Phy ports
+03:53:14 : CMD     : sh ip interface brief | inc 2/1
+03:53:15 : CMD     : show running interface GigabitEthernet 2/1
+03:53:15 : CMD     : conf t
+03:53:15 : CMD     : interface GigabitEthernet 2/1
+03:53:16 : CMD     : end
+03:53:16 : CMD     : sh ip interface brief | inc 2/14
+03:53:16 : CMD     : show running interface GigabitEthernet 2/14
+03:53:17 : CMD     : conf t
+03:53:17 : CMD     : interface GigabitEthernet 2/14
+03:53:17 : CMD     : end
+03:53:17 : CMD     : sh ip interface brief | inc 2/2
+03:53:18 : CMD     : show running interface GigabitEthernet 2/2
+03:53:18 : CMD     : conf t
+03:53:18 : CMD     : interface GigabitEthernet 2/2
+03:53:19 : CMD     : end
+03:53:19 : CMD     : sh ip interface brief | inc 2/15
+03:53:19 : CMD     : show running interface GigabitEthernet 2/15
+03:53:19 : CMD     : conf t
+03:53:20 : CMD     : interface GigabitEthernet 2/15
+03:53:20 : CMD     : end
+03:53:20 : CMD     : sh ip interface brief | inc 2/13
+03:53:21 : CMD     : show running interface GigabitEthernet 2/13
+03:53:21 : CMD     : conf t
+03:53:21 : CMD     : interface GigabitEthernet 2/13
+03:53:21 : CMD     : end
+03:53:22 : CMD     : sh ip interface brief | inc 2/4
+03:53:22 : CMD     : show running interface GigabitEthernet 2/4
+03:53:22 : CMD     : conf t
+03:53:23 : CMD     : interface GigabitEthernet 2/4
+03:53:23 : CMD     : end
+03:53:23 : CMD     : sh ip interface brief | inc 2/19
+03:53:23 : CMD     : show running interface GigabitEthernet 2/19
+03:53:24 : CMD     : conf t
+03:53:24 : CMD     : interface GigabitEthernet 2/19
+03:53:24 : CMD     : end
+03:53:24 : CMD     : sh ip interface brief | inc 2/18
+03:53:25 : CMD     : show running interface GigabitEthernet 2/18
+03:53:25 : CMD     : conf t
+03:53:25 : CMD     : interface GigabitEthernet 2/18
+03:53:26 : CMD     : end
+03:53:26 : CMD     : sh ip interface brief | inc 1/2
+03:53:26 : CMD     : show running interface TenGigabitEthernet 1/2
+03:53:27 : CMD     : conf t
+03:53:27 : CMD     : interface TenGigabitEthernet 1/2
+03:53:27 : CMD     : end
+03:53:28 : CMD     : sh ip interface brief | inc 1/4
+03:53:28 : CMD     : show running interface TenGigabitEthernet 1/4
+03:53:28 : CMD     : conf t
+03:53:29 : CMD     : interface TenGigabitEthernet 1/4
+03:53:29 : CMD     : end
+03:53:29 : CMD     : sh ip interface brief | inc 2/7
+03:53:29 : CMD     : show running interface GigabitEthernet 2/7
+03:53:30 : CMD     : conf t
+03:53:30 : CMD     : interface GigabitEthernet 2/7
+03:53:30 : CMD     : end
+03:53:31 : CMD     : sh ip interface brief | inc 2/8
+03:53:31 : CMD     : show running interface GigabitEthernet 2/8
+03:53:31 : CMD     : conf t
+03:53:32 : CMD     : interface GigabitEthernet 2/8
+03:53:32 : CMD     : end
+03:53:32 : CMD     : sh ip interface brief | inc 2/5
+03:53:33 : CMD     : show running interface GigabitEthernet 2/5
+03:53:33 : CMD     : conf t
+03:53:33 : CMD     : interface GigabitEthernet 2/5
+03:53:33 : CMD     : end
+03:53:34 : CMD     : sh ip interface brief | inc 2/5
+03:53:34 : CMD     : show running interface GigabitEthernet 2/5
+03:53:34 : CMD     : conf t
+03:53:35 : CMD     : interface GigabitEthernet 2/5
+03:53:35 : CMD     : end
+03:53:35 : INFO    : Cleaning up Vlan interfaces
+03:53:35 : CMD     : conf t
+03:53:35 : CMD     : no interface vlan 520
+03:53:36 : CMD     : no interface vlan 540
+03:53:36 : CMD     : no interface vlan 531
+03:53:36 : CMD     : no interface vlan 542
+03:53:37 : CMD     : no interface vlan 530
+03:53:37 : CMD     : no interface vlan 541
+03:53:38 : CMD     : no interface vlan 521
+03:53:38 : CMD     : no interface vlan 543
+03:53:38 : CMD     : no interface vlan 620
+03:53:39 : CMD     : no interface vlan 630
+03:53:39 : CMD     : end
+03:53:39 : RESULT  : ##################################################
+03:53:39 : RESULT  : test_cleanUpCisco: PASS
+03:53:39 : RESULT  : ##################################################

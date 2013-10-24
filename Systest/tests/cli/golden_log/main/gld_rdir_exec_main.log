@@ -1,0 +1,21 @@
+rmdir 
+<<<<help_begin
+STRING  Directory name
+>>>>help_end
+[KStoke[local]#rmdir[K<!>[Krmdir z 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#rmdir z[K<!>[Krmdir z
+ERROR: Unable to remove directory /cfint/z: Directory not empty.
+Stoke[local]#<!>[Krmdir abc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#rmdir abc[K<!>[Krmdir abc
+Stoke[local]#<!>[Krmdir a1b2c3 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#rmdir a1b2c3[K<!>[Krmdir a1b2c3
+Stoke[local]#<!>[Krmdir xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Stoke[local]#[K<!>

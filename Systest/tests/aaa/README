@@ -1,0 +1,108 @@
+TOPOLOGY DIAGRAM:
+
+    (Linux,IKEv2)                        (SSX)                               (Linux,Radius_primary)
+    -------                             --------                          --------------
+   |Takama | -----------------------4/0|        |2/1---------------------| qa-svr4      |
+    -------                            |        |                         --------------
+                                       |        |
+                                       |Lihue-mc|
+  (Netscreen,IKEv1)                    |        |                            (Linux,Radius_secondary)
+    ------                             |        |                          --------------
+   |qa-ns1 | -----------------------2/0|        |3/1----------------------| qa-svr3      |
+    ------                             |        |                          --------------
+                                        --------
+
+
+#########################################################################################
+- TO RUN ALL AAA CLI TESTS RUN THE FOLLWOING FILE
+
+- aaa_cli.py (python aaa_cli.py)
+
+- TO RUN ALL THE AAA FUNCTIONAL SCRIPTS AT ONCE, RUN THE FOLLOWING  SUITE FILE.
+
+- aaa_fun_suite.py  (python aaa_fun_suite.py).
+
+- TO RUN ALL THE AAA NEGETIVE SCRIPTS AT ONCE, RUN THE FOLLOWING  SUITE FILE.
+
+- aaa_neg_suite.py  (python aaa_neg_suite.py).
+
+#########################################################################################
+- TO RUN ALL RADIUS CLI TESTS RUN THE FOLLWOING FILE
+
+-radius_cli.py  (python radius_cli.py)
+
+- TO RUN ALL THE RADIUS FUNCTIONAL SCRIPTS AT ONCE, RUN THE FOLLOWING  SUITE FILE.
+
+- rad_fun_suite.py  (python aaa_fun_suite.py).
+
+- TO RUN ALL THE RADIUS NEGETIVE SCRIPTS AT ONCE, RUN THE FOLLOWING  SUITE FILE.
+
+- rad_neg_suite.py  (python aaa_neg_suite.py).
+
+#########################################################################################
+
+
+- TO GET UPDATED RESULTS, USE THIS COMMAND IN ANOTHER TERMINAL.
+
+- "tail -f  <log file of suite> | grep RESULT".
+
+- (e.g: tail -f suite-200744101.log | grep RESULT).
+
+
+
+- GET THE RESULTS AND ERRORS FOR FAIL CASES FROM RESULT FILE OF SUITE.
+
+  (e.g: aaa_fun_suite_results-200744941.txt).
+
+
+
+- THE TEST SETUP TOPOLOGY IS DESCRIBED IN topo.py
+
+- ALL THE CONFIGS ARE PRESENT IN aaa_config.py
+
+- To see any specific config (say common_ssx config):
+
+  go to python interpreter, import config, and print the required config.
+
+  e.g:-
+////////////////////////////////////////////////////////////////////////////////////
+  [mahesh@build4 aaa]$ python
+  Python 2.5 (r25:51908, Mar 22 2007, 16:57:27)
+  [GCC 3.4.3 20050227 (Red Hat 3.4.3-22.fc3)] on linux2
+  Type "help", "copyright", "credits" or "license" for more information.
+  >>> import config
+  >>>
+  >>>
+  >>> print config.script_var['common_ssx']
+  context india-test
+  ip pool 7.7.2.1 5
+  interface untrust
+  arp arpa
+  ip address 17.1.1.250/16
+  exit
+  interface radius
+  arp arpa
+  ip address 10.3.7.101/24
+  exit
+  interface vpn session loopback
+  ip session-default
+  ip address 4.4.4.4/32
+  exit
+  ip route 0.0.0.0/0 17.1.1.1
+  ip route 172.21.0.0/16 10.3.7.1
+  ip route 10.3.5.0/24 10.3.7.1
+  exit
+  port ethernet 3/0
+  bind interface radius india-test
+  exit
+  enable
+  exit
+  port ethernet 4/0
+  bind interface untrust india-test
+  exit
+  exit
+  >>>
+////////////////////////////////////////////////////////////////////////////////////////
+[mahesh@build4 aaa]$
+
+

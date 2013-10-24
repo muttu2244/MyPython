@@ -1,0 +1,26 @@
+test_HA_FUN_04 (__main__.test_HA_FUN_04) ... ERROR
+
+======================================================================
+ERROR: test_HA_FUN_04 (__main__.test_HA_FUN_04)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "HA_FUN_04.py", line 83, in setUp
+    self.Resp.telnet()
+  File "/.amd/netapp2/vol/vol1/home2/smath/systest/tests/l2l-v2-fir/../../lib/py/SSX/device.py", line 103, in telnet
+    self._init_vars(self.host)
+  File "/.amd/netapp2/vol/vol1/home2/smath/systest/tests/l2l-v2-fir/../../lib/py/SSX/device.py", line 1485, in _init_vars
+    self.cmd("terminal length infinite")
+  File "/.amd/netapp2/vol/vol1/home2/smath/systest/tests/l2l-v2-fir/../../lib/py/SSX/device.py", line 545, in cmd
+    self._get_to_exec()
+  File "/.amd/netapp2/vol/vol1/home2/smath/systest/tests/l2l-v2-fir/../../lib/py/SSX/device.py", line 1550, in _get_to_exec
+    self.ses.sendline()
+  File "../../lib/py/pexpect.py", line 961, in sendline
+    n = self.send(s)
+  File "../../lib/py/pexpect.py", line 953, in send
+    c = os.write(self.child_fd, s)
+OSError: [Errno 9] Bad file descriptor
+
+----------------------------------------------------------------------
+Ran 1 test in 66.665s
+
+FAILED (errors=1)

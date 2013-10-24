@@ -1,0 +1,6 @@
+test_cleanUpCisco (__main__.test_cleanUpCisco) ... PASS
+
+----------------------------------------------------------------------
+Ran 1 test in 30.433s
+
+OK

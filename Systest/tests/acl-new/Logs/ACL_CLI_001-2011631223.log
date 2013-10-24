@@ -1,0 +1,148 @@
+12:23:15 : TEST    : ##################################################
+12:23:15 : TEST    : Python Version: Python 2.5
+12:23:15 : TEST    : ##################################################
+12:23:15 : TEST    : ##################################################
+12:23:15 : TEST    : test_ACL_CLI_001
+12:23:15 : TEST    : ##################################################
+12:23:15 : OUTPUT  : SSX object for host bahamas-mc-con created.
+12:23:15 : DEBUG   : Trying to connect to host bahamas-mc-con
+12:23:17 : OUTPUT  : bahamas-mc-con: 
+12:23:17 : OUTPUT  : bahamas-mc-con: Connected to bahamas-mc-con.stoke.com (172.16.8.74).
+12:23:17 : OUTPUT  : bahamas-mc-con: Escape character is 'off'.
+12:23:17 : INFO    : Connected to host bahamas-mc-con
+12:23:21 : INFO    : Memory Snap for all Slots before starting the TEST
+12:23:36 : INFO    : 
+----------------------------------------------------------------------------------------------------
+       Slot 0              Slot 2              Slot 3              Slot 4       
+Process   Mem(B)    Process   Mem(B)    Process   Mem(B)    Process   Mem(B)    
+----------------------------------------------------------------------------------------------------
+Fpd       1310720   IpLc      7602176   IpLc      8388608   IpLc      8388608   
+Fabric    1310720   Fpd       1318912   Fpd       1318912   Fpd       1318912   
+Bgp4      1441792   NseMgr    20971520  NseMgr    20971520  NseMgr    20971520  
+Dfn       2359296   Evl       2359296   Evl       1310720   Evl       1310720   
+Qosd      1310720   NSM       8388608   NSM       8388608   NSM       8388608   
+PPPdMc    1310720   Inspectd  5701632   Inspectd  5701632   Inspectd  5701632   
+DHCPdMC   2363392   Count     22020096  Count     1310720   Count     42991616  
+Cli       2523136   PPPd      2359296   PPPd      2359296   PPPd      2359296   
+NSM       37748736  DHCPdLC   1310720   DHCPdLC   1310720   DHCPdLC   1310720   
+Ntp       1310720   Evt       1310720   Evt       1310720   Evt       1310720   
+MIPd      1310720   PPPoE     1310720   PPPoE     1310720   PPPoE     1310720   
+Inets     1310720   Iked      11534336  Iked      14680064  Iked      15728640  
+Smid      9437184   
+Logind    1310720   
+Evl       4456448   
+Fsync     1310720   
+TunMgr    3407872   
+IkedMc    7405568   
+Evt       2359296   
+SLA       1314816   
+CtxMgr    2359296   
+Ospf      4620288   
+Ip        10485760  
+EvlColl   2359296   
+PPPoEMC   1310720   
+Rip       1310720   
+Aaad      8388608   
+CDR       1323008   
+Snmpd     1310720   
+
+12:23:38 : INFO    : ##################################################
+12:23:38 : INFO    : SSX VERSION DETAILS:
+12:23:38 : INFO    : {'build': '2011053113', 'branch': '4.6B2'}
+12:23:38 : INFO    : ##################################################
+12:23:40 : DEBUG   : Trying to connect to host cali
+12:23:43 : CMD     : cali      : login:  regress
+12:23:44 : CMD     : cali      : Password: gleep7
+12:23:45 : DEBUG   : Changing the prompt from default to the name of the host.
+12:23:47 : OUTPUT  : cali      : 
+12:23:47 : INFO    : Connected to host cali
+12:23:47 : DEBUG   : Clearing the config.
+12:23:54 : INFO    : Clearing the health stats
+12:23:58 : INFO    : Clearing the core files
+
+12:24:13 : CMD     : bahamas-mc-con: Stoke(cfg)# 
+12:24:14 : CMD     : bahamas-mc-con: Stoke(cfg)# context acl
+12:24:15 : CMD     : bahamas-mc-con: Stoke(cfg-ctx)# interface to_linux
+12:24:16 : CMD     : bahamas-mc-con: Stoke(cfg-intfv4)# arp arpa
+12:24:18 : CMD     : bahamas-mc-con: Stoke(cfg-intfv4)# ip address 17.1.1.2/24
+12:24:19 : CMD     : bahamas-mc-con: Stoke(cfg-intfv4)# exit
+12:24:20 : CMD     : bahamas-mc-con: Stoke(cfg-ctx)# ip access-list subacl
+12:24:21 : CMD     : bahamas-mc-con: Stoke(cfg-v4acl)# permit tcp any any precedence 0 tos 0
+12:24:22 : CMD     : bahamas-mc-con: Stoke(cfg-v4acl)# deny icmp any any
+12:24:25 : CMD     : bahamas-mc-con: Stoke(cfg-v4acl)# permit udp any any
+12:24:26 : CMD     : bahamas-mc-con: Stoke(cfg-v4acl)# deny igmp any any
+12:24:27 : CMD     : bahamas-mc-con: Stoke(cfg-v4acl)# exit
+12:24:29 : CMD     : bahamas-mc-con: Stoke(cfg-ctx)# exit
+12:24:29 : CMD     : bahamas-mc-con: Stoke(cfg)# port ethernet 2/2
+12:24:30 : CMD     : bahamas-mc-con: Stoke(cfg-port)# bind interface to_linux acl
+12:24:32 : CMD     : bahamas-mc-con: Stoke(cfg-bindv4)# ip access-group in name subacl
+12:24:33 : CMD     : bahamas-mc-con: Stoke(cfg-bindv4)# exit
+12:24:34 : CMD     : bahamas-mc-con: Stoke(cfg-port)# service ipsec
+12:24:35 : CMD     : bahamas-mc-con: Stoke(cfg-port)# enable
+12:24:36 : CMD     : bahamas-mc-con: Stoke(cfg-port)# exit 
+12:24:37 : CMD     : bahamas-mc-con: Stoke(cfg)# show configuration
+12:24:39 : OUTPUT  : bahamas-mc-con: context local
+12:24:39 : OUTPUT  : bahamas-mc-con:  exit
+12:24:39 : OUTPUT  : bahamas-mc-con: context acl
+12:24:39 : OUTPUT  : bahamas-mc-con:  interface to_linux
+12:24:39 : OUTPUT  : bahamas-mc-con:   arp arpa
+12:24:39 : OUTPUT  : bahamas-mc-con:   ip address 17.1.1.2/24
+12:24:39 : OUTPUT  : bahamas-mc-con:   exit
+12:24:39 : OUTPUT  : bahamas-mc-con:  ip access-list subacl
+12:24:39 : OUTPUT  : bahamas-mc-con:   10 permit tcp any any precedence 0 tos 0
+12:24:39 : OUTPUT  : bahamas-mc-con:   20 deny icmp any any
+12:24:39 : OUTPUT  : bahamas-mc-con:   30 permit udp any any
+12:24:39 : OUTPUT  : bahamas-mc-con:   40 deny igmp any any
+12:24:39 : OUTPUT  : bahamas-mc-con:   exit
+12:24:39 : OUTPUT  : bahamas-mc-con:  exit
+12:24:39 : OUTPUT  : bahamas-mc-con: port ethernet 2/2
+12:24:39 : OUTPUT  : bahamas-mc-con:  bind interface to_linux acl
+12:24:39 : OUTPUT  : bahamas-mc-con:   ip access-group in name subacl
+12:24:39 : OUTPUT  : bahamas-mc-con:   exit
+12:24:39 : OUTPUT  : bahamas-mc-con:  service ipsec
+12:24:39 : OUTPUT  : bahamas-mc-con:  enable
+12:24:39 : OUTPUT  : bahamas-mc-con:  exit
+12:24:39 : INFO    : Getting health stats
+12:24:40 : CMD     : bahamas-mc-con: Stoke(cfg)# end
+12:24:51 : INFO    : No core file is generated 
+
+12:25:05 : INFO    : 
+----------------------------------------------------------------------------------------------------
+       Slot 0              Slot 2              Slot 3              Slot 4       
+Process   Mem(B)    Process   Mem(B)    Process   Mem(B)    Process   Mem(B)    
+----------------------------------------------------------------------------------------------------
+Fpd       1310720   IpLc      7602176   IpLc      8388608   IpLc      8388608   
+Fabric    1310720   Fpd       1318912   Fpd       1318912   Fpd       1318912   
+Bgp4      1441792   NseMgr    20971520  NseMgr    20971520  NseMgr    20971520  
+Dfn       2359296   Evl       2359296   Evl       1310720   Evl       1310720   
+Qosd      1310720   NSM       8388608   NSM       8388608   NSM       8388608   
+PPPdMc    1310720   Inspectd  5701632   Inspectd  5701632   Inspectd  5701632   
+DHCPdMC   2363392   Count     22020096  Count     1310720   Count     42991616  
+Cli       2523136   PPPd      2359296   PPPd      2359296   PPPd      2359296   
+NSM       37748736  DHCPdLC   1310720   DHCPdLC   1310720   DHCPdLC   1310720   
+Ntp       1310720   Evt       1310720   Evt       1310720   Evt       1310720   
+MIPd      1310720   PPPoE     1310720   PPPoE     1310720   PPPoE     1310720   
+Inets     1310720   Iked      11534336  Iked      14680064  Iked      15728640  
+Smid      9437184   
+Logind    1310720   
+Evl       4456448   
+Fsync     1310720   
+TunMgr    3407872   
+IkedMc    7405568   
+Evt       2359296   
+SLA       1314816   
+CtxMgr    2359296   
+Ospf      4620288   
+Ip        10485760  
+EvlColl   2359296   
+PPPoEMC   1310720   
+Rip       1310720   
+Aaad      8388608   
+CDR       1323008   
+Snmpd     1310720   
+
+12:25:05 : DEBUG   : Closing down the session to host bahamas-mc-con.
+12:25:05 : DEBUG   : Closing down the session to host cali.
+12:25:05 : RESULT  : ##################################################
+12:25:05 : RESULT  : test_ACL_CLI_001: PASS
+12:25:05 : RESULT  : ##################################################

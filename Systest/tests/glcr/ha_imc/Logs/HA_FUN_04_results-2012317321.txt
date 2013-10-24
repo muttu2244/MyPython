@@ -1,0 +1,28 @@
+test_HA_FUN_04 (__main__.test_HA_FUN_04) ... ERROR
+
+======================================================================
+ERROR: test_HA_FUN_04 (__main__.test_HA_FUN_04)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "HA_FUN_04.py", line 141, in test_HA_FUN_04
+    set_device_to_glcr(self.Resp)
+  File "../../../lib/py/glcr.py", line 66, in set_device_to_glcr
+    self.reload_device(timeout)
+  File "/.amd/netapp2/vol/vol1/home2/smath/systest/tests/l2l-v2-fir/../../lib/py/SSX/device.py", line 806, in reload_device
+    self.telnet()
+  File "/.amd/netapp2/vol/vol1/home2/smath/systest/tests/l2l-v2-fir/../../lib/py/SSX/device.py", line 103, in telnet
+    self._init_vars(self.host)
+  File "/.amd/netapp2/vol/vol1/home2/smath/systest/tests/l2l-v2-fir/../../lib/py/SSX/device.py", line 1485, in _init_vars
+    self.cmd("terminal length infinite")
+  File "/.amd/netapp2/vol/vol1/home2/smath/systest/tests/l2l-v2-fir/../../lib/py/SSX/device.py", line 549, in cmd
+    self.ses.sendline(command)
+  File "../../lib/py/pexpect.py", line 961, in sendline
+    n = self.send(s)
+  File "../../lib/py/pexpect.py", line 953, in send
+    c = os.write(self.child_fd, s)
+OSError: [Errno 9] Bad file descriptor
+
+----------------------------------------------------------------------
+Ran 1 test in 550.350s
+
+FAILED (errors=1)

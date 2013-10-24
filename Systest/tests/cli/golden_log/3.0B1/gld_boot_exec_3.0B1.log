@@ -1,0 +1,723 @@
+boot 
+<<<<help_begin
+configuration  Specify boot configuration file
+image          Specify boot image
+>>>>help_end
+[KStoke[local]#boot[K<!>[Kboot configuration 
+<<<<help_begin
+file  Local file
+>>>>help_end
+[KStoke[local]#boot configuration Stoke[local]#[K<!>[Kboot configuration file 
+<<<<help_begin
+STRING  Filename
+>>>>help_end
+[KStoke[local]#boot configuration file Stoke[local]#[K<!>[Kboot configuration file xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Stoke[local]#[K<!>[Kboot image 
+<<<<help_begin
+file  Local file
+tftp  TFTP file
+>>>>help_end
+[KStoke[local]#boot image[K<!>[Kboot image file 
+<<<<help_begin
+STRING  Filename
+>>>>help_end
+[KStoke[local]#boot image file Stoke[local]#[K<!>[Kboot image file z 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#boot image file z Stoke[local]#[K<!>[Kboot image file z
+Validating image file /cfint/z...
+Failed.
+Stoke[local]#<!>[Kboot image file abc 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#boot image file abc Stoke[local]#[K<!>[Kboot image file abc
+Validating image file /cfint/abc...
+Failed.
+Stoke[local]#<!>[Kboot image file a1b2c3 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#boot image file a1b2c3 Stoke[local]#[K<!>[Kboot image file a1b2c3
+Validating image file /cfint/a1b2c3...
+Failed.
+Stoke[local]#<!>[Kboot image file xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Stoke[local]#[K<!>[Kboot image tftp 
+<<<<help_begin
+STRING  Filename
+>>>>help_end
+[KStoke[local]#boot image tftp Stoke[local]#[K<!>[Kboot image tftp z 
+<<<<help_begin
+server  Specify TFTP server
+>>>>help_end
+[KStoke[local]#boot image tftp z Stoke[local]#[K<!>[Kboot image tftp z server 
+<<<<help_begin
+n.n.n.n  Server IPv4 Address
+>>>>help_end
+[KStoke[local]#boot image tftp z server Stoke[local]#[K<!>[Kboot image tftp z server 255.255.255.255 
+<<<<help_begin
+host-primary  Specify Primary Host IP Address
+>>>>help_end
+[KStoke[local]#boot image tftp z server 255.255.255.255 Stoke[local]#[K<!>[Kboot image tftp z server 255.255.255.255 host-primary 
+<<<<help_begin
+n.n.n.n  Primary Host IPv4 Address
+>>>>help_end
+[KStoke[local]#boot image tftp z server 255.255.255.255 host-primary Stoke[local]#[K<!>[Kboot image tftp z server 255.255.255.255 host-primary 255.255.255.255 
+<<<<help_begin
+gateway         Specify Gateway
+host-secondary  Specify Secondary Host IP Address
+>>>>help_end
+[KStoke[local]#boot image tftp z server 255.255.255.255 host-primary 255.255.255.255 Stoke[local]#[K<!>[Kboot image tftp z server 255.255.255.255 host-primary 255.255.255.255 gateway 
+<<<<help_begin
+n.n.n.n/n  IPv4 Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp z server 255.255.255.255 host-primary 255.255.255.255 gateway Stoke[local]#[K<!>[Kboot image tftp z server 255.255.255.255 host-primary 255.255.255.255 gateway 1.1.1.1/24 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#boot image tftp z server 255.255.255.255 host-primary 255.255.255.255 gateway 1.1.1.1/24 Stoke[local]#[K<!>[Kboot image tftp z server 255.255.255.255 host-primary 255.255.255.255 gateway 1.1.1.1/24
+Host-primary: gateway unreachable
+Stoke[local]#<!>[Kboot image tftp z server 255.255.255.255 host-primary 255.255.255.255 host-secondary 
+<<<<help_begin
+n.n.n.n  Secondary Host IPv4 Address
+>>>>help_end
+[KStoke[local]#boot image tftp z server 255.255.255.255 host-primary 255.255.255.255 host-secondary Stoke[local]#[K<!>[Kboot image tftp z server 255.255.255.255 host-primary 255.255.255.255 host-secondary 255.255.255.255 
+<<<<help_begin
+gateway  Specify Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp z server 255.255.255.255 host-primary 255.255.255.255 host-secondary 255.255.255.255 Stoke[local]#[K<!>[Kboot image tftp z server 255.255.255.255 host-primary 255.255.255.255 host-secondary 255.255.255.255 gateway 
+<<<<help_begin
+n.n.n.n/n  IPv4 Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp z server 255.255.255.255 host-primary 255.255.255.255 host-secondary 255.255.255.255 gateway Stoke[local]#[K<!>[Kboot image tftp z server 255.255.255.255 host-primary 255.255.255.255 host-secondary 255.255.255.255 gateway 1.1.1.1/24 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#boot image tftp z server 255.255.255.255 host-primary 255.255.255.255 host-secondary 255.255.255.255 gateway 1.1.1.1/24 Stoke[local]#[K<!>[Kboot image tftp z server 255.255.255.255 host-primary 255.255.255.255 host-secondary 255.255.255.255 gateway 1.1.1.1/24
+Host-primary: gateway unreachable
+Stoke[local]#<!>[Kboot image tftp z server 255.255.255.255 host-primary 255.255.255.255 host-secondary 10.1.1.1 
+<<<<help_begin
+gateway  Specify Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp z server 255.255.255.255 host-primary 255.255.255.255 host-secondary 10.1.1.1 Stoke[local]#[K<!>[Kboot image tftp z server 255.255.255.255 host-primary 255.255.255.255 host-secondary 10.1.1.1 gateway 
+<<<<help_begin
+n.n.n.n/n  IPv4 Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp z server 255.255.255.255 host-primary 255.255.255.255 host-secondary 10.1.1.1 gateway Stoke[local]#[K<!>[Kboot image tftp z server 255.255.255.255 host-primary 255.255.255.255 host-secondary 10.1.1.1 gateway 1.1.1.1/24 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#boot image tftp z server 255.255.255.255 host-primary 255.255.255.255 host-secondary 10.1.1.1 gateway 1.1.1.1/24 Stoke[local]#[K<!>[Kboot image tftp z server 255.255.255.255 host-primary 255.255.255.255 host-secondary 10.1.1.1 gateway 1.1.1.1/24
+Host-primary: gateway unreachable
+Stoke[local]#<!>[Kboot image tftp z server 255.255.255.255 host-primary 10.1.1.1 
+<<<<help_begin
+gateway         Specify Gateway
+host-secondary  Specify Secondary Host IP Address
+>>>>help_end
+[KStoke[local]#boot image tftp z server 255.255.255.255 host-primary 10.1.1.1 Stoke[local]#[K<!>[Kboot image tftp z server 255.255.255.255 host-primary 10.1.1.1 gateway 
+<<<<help_begin
+n.n.n.n/n  IPv4 Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp z server 255.255.255.255 host-primary 10.1.1.1 gateway Stoke[local]#[K<!>[Kboot image tftp z server 255.255.255.255 host-primary 10.1.1.1 gateway 1.1.1.1/24 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#boot image tftp z server 255.255.255.255 host-primary 10.1.1.1 gateway 1.1.1.1/24 Stoke[local]#[K<!>[Kboot image tftp z server 255.255.255.255 host-primary 10.1.1.1 gateway 1.1.1.1/24
+Host-primary: gateway unreachable
+Stoke[local]#<!>[Kboot image tftp z server 255.255.255.255 host-primary 10.1.1.1 host-secondary 
+<<<<help_begin
+n.n.n.n  Secondary Host IPv4 Address
+>>>>help_end
+[KStoke[local]#boot image tftp z server 255.255.255.255 host-primary 10.1.1.1 host-secondary Stoke[local]#[K<!>[Kboot image tftp z server 255.255.255.255 host-primary 10.1.1.1 host-secondary 255.255.255.255 
+<<<<help_begin
+gateway  Specify Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp z server 255.255.255.255 host-primary 10.1.1.1 host-secondary 255.255.255.255 Stoke[local]#[K<!>[Kboot image tftp z server 255.255.255.255 host-primary 10.1.1.1 host-secondary 255.255.255.255 gateway 
+<<<<help_begin
+n.n.n.n/n  IPv4 Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp z server 255.255.255.255 host-primary 10.1.1.1 host-secondary 255.255.255.255 gateway Stoke[local]#[K<!>[Kboot image tftp z server 255.255.255.255 host-primary 10.1.1.1 host-secondary 255.255.255.255 gateway 1.1.1.1/24 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#boot image tftp z server 255.255.255.255 host-primary 10.1.1.1 host-secondary 255.255.255.255 gateway 1.1.1.1/24 Stoke[local]#[K<!>[Kboot image tftp z server 255.255.255.255 host-primary 10.1.1.1 host-secondary 255.255.255.255 gateway 1.1.1.1/24
+Host-primary: gateway unreachable
+Stoke[local]#<!>[Kboot image tftp z server 255.255.255.255 host-primary 10.1.1.1 host-secondary 10.1.1.1 
+<<<<help_begin
+gateway  Specify Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp z server 255.255.255.255 host-primary 10.1.1.1 host-secondary 10.1.1.1 Stoke[local]#[K<!>[Kboot image tftp z server 255.255.255.255 host-primary 10.1.1.1 host-secondary 10.1.1.1 gateway 
+<<<<help_begin
+n.n.n.n/n  IPv4 Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp z server 255.255.255.255 host-primary 10.1.1.1 host-secondary 10.1.1.1 gateway Stoke[local]#[K<!>[Kboot image tftp z server 255.255.255.255 host-primary 10.1.1.1 host-secondary 10.1.1.1 gateway 1.1.1.1/24 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#boot image tftp z server 255.255.255.255 host-primary 10.1.1.1 host-secondary 10.1.1.1 gateway 1.1.1.1/24 Stoke[local]#[K<!>[Kboot image tftp z server 255.255.255.255 host-primary 10.1.1.1 host-secondary 10.1.1.1 gateway 1.1.1.1/24
+Host-primary: gateway unreachable
+Stoke[local]#<!>[Kboot image tftp z server 10.1.1.1 
+<<<<help_begin
+host-primary  Specify Primary Host IP Address
+>>>>help_end
+[KStoke[local]#boot image tftp z server 10.1.1.1 Stoke[local]#[K<!>[Kboot image tftp z server 10.1.1.1 host-primary 
+<<<<help_begin
+n.n.n.n  Primary Host IPv4 Address
+>>>>help_end
+[KStoke[local]#boot image tftp z server 10.1.1.1 host-primary Stoke[local]#[K<!>[Kboot image tftp z server 10.1.1.1 host-primary 255.255.255.255 
+<<<<help_begin
+gateway         Specify Gateway
+host-secondary  Specify Secondary Host IP Address
+>>>>help_end
+[KStoke[local]#boot image tftp z server 10.1.1.1 host-primary 255.255.255.255 Stoke[local]#[K<!>[Kboot image tftp z server 10.1.1.1 host-primary 255.255.255.255 gateway 
+<<<<help_begin
+n.n.n.n/n  IPv4 Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp z server 10.1.1.1 host-primary 255.255.255.255 gateway Stoke[local]#[K<!>[Kboot image tftp z server 10.1.1.1 host-primary 255.255.255.255 gateway 1.1.1.1/24 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#boot image tftp z server 10.1.1.1 host-primary 255.255.255.255 gateway 1.1.1.1/24 Stoke[local]#[K<!>[Kboot image tftp z server 10.1.1.1 host-primary 255.255.255.255 gateway 1.1.1.1/24
+Host-primary: gateway unreachable
+Stoke[local]#<!>[Kboot image tftp z server 10.1.1.1 host-primary 255.255.255.255 host-secondary 
+<<<<help_begin
+n.n.n.n  Secondary Host IPv4 Address
+>>>>help_end
+[KStoke[local]#boot image tftp z server 10.1.1.1 host-primary 255.255.255.255 host-secondary Stoke[local]#[K<!>[Kboot image tftp z server 10.1.1.1 host-primary 255.255.255.255 host-secondary 255.255.255.255 
+<<<<help_begin
+gateway  Specify Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp z server 10.1.1.1 host-primary 255.255.255.255 host-secondary 255.255.255.255 Stoke[local]#[K<!>[Kboot image tftp z server 10.1.1.1 host-primary 255.255.255.255 host-secondary 255.255.255.255 gateway 
+<<<<help_begin
+n.n.n.n/n  IPv4 Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp z server 10.1.1.1 host-primary 255.255.255.255 host-secondary 255.255.255.255 gateway Stoke[local]#[K<!>[Kboot image tftp z server 10.1.1.1 host-primary 255.255.255.255 host-secondary 255.255.255.255 gateway 1.1.1.1/24 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#boot image tftp z server 10.1.1.1 host-primary 255.255.255.255 host-secondary 255.255.255.255 gateway 1.1.1.1/24 Stoke[local]#[K<!>[Kboot image tftp z server 10.1.1.1 host-primary 255.255.255.255 host-secondary 255.255.255.255 gateway 1.1.1.1/24
+Host-primary: gateway unreachable
+Stoke[local]#<!>[Kboot image tftp z server 10.1.1.1 host-primary 255.255.255.255 host-secondary 10.1.1.1 
+<<<<help_begin
+gateway  Specify Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp z server 10.1.1.1 host-primary 255.255.255.255 host-secondary 10.1.1.1 Stoke[local]#[K<!>[Kboot image tftp z server 10.1.1.1 host-primary 255.255.255.255 host-secondary 10.1.1.1 gateway 
+<<<<help_begin
+n.n.n.n/n  IPv4 Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp z server 10.1.1.1 host-primary 255.255.255.255 host-secondary 10.1.1.1 gateway Stoke[local]#[K<!>[Kboot image tftp z server 10.1.1.1 host-primary 255.255.255.255 host-secondary 10.1.1.1 gateway 1.1.1.1/24 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#boot image tftp z server 10.1.1.1 host-primary 255.255.255.255 host-secondary 10.1.1.1 gateway 1.1.1.1/24 Stoke[local]#[K<!>[Kboot image tftp z server 10.1.1.1 host-primary 255.255.255.255 host-secondary 10.1.1.1 gateway 1.1.1.1/24
+Host-primary: gateway unreachable
+Stoke[local]#<!>[Kboot image tftp z server 10.1.1.1 host-primary 10.1.1.1 
+<<<<help_begin
+gateway         Specify Gateway
+host-secondary  Specify Secondary Host IP Address
+>>>>help_end
+[KStoke[local]#boot image tftp z server 10.1.1.1 host-primary 10.1.1.1 Stoke[local]#[K<!>[Kboot image tftp z server 10.1.1.1 host-primary 10.1.1.1 gateway 
+<<<<help_begin
+n.n.n.n/n  IPv4 Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp z server 10.1.1.1 host-primary 10.1.1.1 gateway Stoke[local]#[K<!>[Kboot image tftp z server 10.1.1.1 host-primary 10.1.1.1 gateway 1.1.1.1/24 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#boot image tftp z server 10.1.1.1 host-primary 10.1.1.1 gateway 1.1.1.1/24 Stoke[local]#[K<!>[Kboot image tftp z server 10.1.1.1 host-primary 10.1.1.1 gateway 1.1.1.1/24
+Host-primary: gateway unreachable
+Stoke[local]#<!>[Kboot image tftp z server 10.1.1.1 host-primary 10.1.1.1 host-secondary 
+<<<<help_begin
+n.n.n.n  Secondary Host IPv4 Address
+>>>>help_end
+[KStoke[local]#boot image tftp z server 10.1.1.1 host-primary 10.1.1.1 host-secondary Stoke[local]#[K<!>[Kboot image tftp z server 10.1.1.1 host-primary 10.1.1.1 host-secondary 255.255.255.255 
+<<<<help_begin
+gateway  Specify Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp z server 10.1.1.1 host-primary 10.1.1.1 host-secondary 255.255.255.255 Stoke[local]#[K<!>[Kboot image tftp z server 10.1.1.1 host-primary 10.1.1.1 host-secondary 255.255.255.255 gateway 
+<<<<help_begin
+n.n.n.n/n  IPv4 Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp z server 10.1.1.1 host-primary 10.1.1.1 host-secondary 255.255.255.255 gateway Stoke[local]#[K<!>[Kboot image tftp z server 10.1.1.1 host-primary 10.1.1.1 host-secondary 255.255.255.255 gateway 1.1.1.1/24 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#boot image tftp z server 10.1.1.1 host-primary 10.1.1.1 host-secondary 255.255.255.255 gateway 1.1.1.1/24 Stoke[local]#[K<!>[Kboot image tftp z server 10.1.1.1 host-primary 10.1.1.1 host-secondary 255.255.255.255 gateway 1.1.1.1/24
+Host-primary: gateway unreachable
+Stoke[local]#<!>[Kboot image tftp z server 10.1.1.1 host-primary 10.1.1.1 host-secondary 10.1.1.1 
+<<<<help_begin
+gateway  Specify Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp z server 10.1.1.1 host-primary 10.1.1.1 host-secondary 10.1.1.1 Stoke[local]#[K<!>[Kboot image tftp z server 10.1.1.1 host-primary 10.1.1.1 host-secondary 10.1.1.1 gateway 
+<<<<help_begin
+n.n.n.n/n  IPv4 Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp z server 10.1.1.1 host-primary 10.1.1.1 host-secondary 10.1.1.1 gateway Stoke[local]#[K<!>[Kboot image tftp z server 10.1.1.1 host-primary 10.1.1.1 host-secondary 10.1.1.1 gateway 1.1.1.1/24 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#boot image tftp z server 10.1.1.1 host-primary 10.1.1.1 host-secondary 10.1.1.1 gateway 1.1.1.1/24 Stoke[local]#[K<!>[Kboot image tftp z server 10.1.1.1 host-primary 10.1.1.1 host-secondary 10.1.1.1 gateway 1.1.1.1/24
+Host-primary: gateway unreachable
+Stoke[local]#<!>[Kboot image tftp abc 
+<<<<help_begin
+server  Specify TFTP server
+>>>>help_end
+[KStoke[local]#boot image tftp abc Stoke[local]#[K<!>[Kboot image tftp abc server 
+<<<<help_begin
+n.n.n.n  Server IPv4 Address
+>>>>help_end
+[KStoke[local]#boot image tftp abc server Stoke[local]#[K<!>[Kboot image tftp abc server 255.255.255.255 
+<<<<help_begin
+host-primary  Specify Primary Host IP Address
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 255.255.255.255 Stoke[local]#[K<!>[Kboot image tftp abc server 255.255.255.255 host-primary 
+<<<<help_begin
+n.n.n.n  Primary Host IPv4 Address
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 255.255.255.255 host-primary Stoke[local]#[K<!>[Kboot image tftp abc server 255.255.255.255 host-primary 255.255.255.255 
+<<<<help_begin
+gateway         Specify Gateway
+host-secondary  Specify Secondary Host IP Address
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 255.255.255.255 host-primary 255.255.255.255 Stoke[local]#[K<!>[Kboot image tftp abc server 255.255.255.255 host-primary 255.255.255.255 gateway 
+<<<<help_begin
+n.n.n.n/n  IPv4 Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 255.255.255.255 host-primary 255.255.255.255 gateway Stoke[local]#[K<!>[Kboot image tftp abc server 255.255.255.255 host-primary 255.255.255.255 gateway 1.1.1.1/24 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 255.255.255.255 host-primary 255.255.255.255 gateway 1.1.1.1/24 Stoke[local]#[K<!>[Kboot image tftp abc server 255.255.255.255 host-primary 255.255.255.255 gateway 1.1.1.1/24
+Host-primary: gateway unreachable
+Stoke[local]#<!>[Kboot image tftp abc server 255.255.255.255 host-primary 255.255.255.255 host-secondary 
+<<<<help_begin
+n.n.n.n  Secondary Host IPv4 Address
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 255.255.255.255 host-primary 255.255.255.255 host-secondary Stoke[local]#[K<!>[Kboot image tftp abc server 255.255.255.255 host-primary 255.255.255.255 host-secondary 255.255.255.255 
+<<<<help_begin
+gateway  Specify Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 255.255.255.255 host-primary 255.255.255.255 host-secondary 255.255.255.255 Stoke[local]#[K<!>[Kboot image tftp abc server 255.255.255.255 host-primary 255.255.255.255 host-secondary 255.255.255.255 gateway 
+<<<<help_begin
+n.n.n.n/n  IPv4 Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 255.255.255.255 host-primary 255.255.255.255 host-secondary 255.255.255.255 gateway Stoke[local]#[K<!>[Kboot image tftp abc server 255.255.255.255 host-primary 255.255.255.255 host-secondary 255.255.255.255 gateway 1.1.1.1/24 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 255.255.255.255 host-primary 255.255.255.255 host-secondary 255.255.255.255 gateway 1.1.1.1/24 Stoke[local]#[K<!>[Kboot image tftp abc server 255.255.255.255 host-primary 255.255.255.255 host-secondary 255.255.255.255 gateway 1.1.1.1/24
+Host-primary: gateway unreachable
+Stoke[local]#<!>[Kboot image tftp abc server 255.255.255.255 host-primary 255.255.255.255 host-secondary 10.1.1.1 
+<<<<help_begin
+gateway  Specify Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 255.255.255.255 host-primary 255.255.255.255 host-secondary 10.1.1.1 Stoke[local]#[K<!>[Kboot image tftp abc server 255.255.255.255 host-primary 255.255.255.255 host-secondary 10.1.1.1 gateway 
+<<<<help_begin
+n.n.n.n/n  IPv4 Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 255.255.255.255 host-primary 255.255.255.255 host-secondary 10.1.1.1 gateway Stoke[local]#[K<!>[Kboot image tftp abc server 255.255.255.255 host-primary 255.255.255.255 host-secondary 10.1.1.1 gateway 1.1.1.1/24 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 255.255.255.255 host-primary 255.255.255.255 host-secondary 10.1.1.1 gateway 1.1.1.1/24 Stoke[local]#[K<!>[Kboot image tftp abc server 255.255.255.255 host-primary 255.255.255.255 host-secondary 10.1.1.1 gateway 1.1.1.1/24
+Host-primary: gateway unreachable
+Stoke[local]#<!>[Kboot image tftp abc server 255.255.255.255 host-primary 10.1.1.1 
+<<<<help_begin
+gateway         Specify Gateway
+host-secondary  Specify Secondary Host IP Address
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 255.255.255.255 host-primary 10.1.1.1 Stoke[local]#[K<!>[Kboot image tftp abc server 255.255.255.255 host-primary 10.1.1.1 gateway 
+<<<<help_begin
+n.n.n.n/n  IPv4 Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 255.255.255.255 host-primary 10.1.1.1 gateway Stoke[local]#[K<!>[Kboot image tftp abc server 255.255.255.255 host-primary 10.1.1.1 gateway 1.1.1.1/24 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 255.255.255.255 host-primary 10.1.1.1 gateway 1.1.1.1/24 Stoke[local]#[K<!>[Kboot image tftp abc server 255.255.255.255 host-primary 10.1.1.1 gateway 1.1.1.1/24
+Host-primary: gateway unreachable
+Stoke[local]#<!>[Kboot image tftp abc server 255.255.255.255 host-primary 10.1.1.1 host-secondary 
+<<<<help_begin
+n.n.n.n  Secondary Host IPv4 Address
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 255.255.255.255 host-primary 10.1.1.1 host-secondary Stoke[local]#[K<!>[Kboot image tftp abc server 255.255.255.255 host-primary 10.1.1.1 host-secondary 255.255.255.255 
+<<<<help_begin
+gateway  Specify Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 255.255.255.255 host-primary 10.1.1.1 host-secondary 255.255.255.255 Stoke[local]#[K<!>[Kboot image tftp abc server 255.255.255.255 host-primary 10.1.1.1 host-secondary 255.255.255.255 gateway 
+<<<<help_begin
+n.n.n.n/n  IPv4 Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 255.255.255.255 host-primary 10.1.1.1 host-secondary 255.255.255.255 gateway Stoke[local]#[K<!>[Kboot image tftp abc server 255.255.255.255 host-primary 10.1.1.1 host-secondary 255.255.255.255 gateway 1.1.1.1/24 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 255.255.255.255 host-primary 10.1.1.1 host-secondary 255.255.255.255 gateway 1.1.1.1/24 Stoke[local]#[K<!>[Kboot image tftp abc server 255.255.255.255 host-primary 10.1.1.1 host-secondary 255.255.255.255 gateway 1.1.1.1/24
+Host-primary: gateway unreachable
+Stoke[local]#<!>[Kboot image tftp abc server 255.255.255.255 host-primary 10.1.1.1 host-secondary 10.1.1.1 
+<<<<help_begin
+gateway  Specify Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 255.255.255.255 host-primary 10.1.1.1 host-secondary 10.1.1.1 Stoke[local]#[K<!>[Kboot image tftp abc server 255.255.255.255 host-primary 10.1.1.1 host-secondary 10.1.1.1 gateway 
+<<<<help_begin
+n.n.n.n/n  IPv4 Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 255.255.255.255 host-primary 10.1.1.1 host-secondary 10.1.1.1 gateway Stoke[local]#[K<!>[Kboot image tftp abc server 255.255.255.255 host-primary 10.1.1.1 host-secondary 10.1.1.1 gateway 1.1.1.1/24 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 255.255.255.255 host-primary 10.1.1.1 host-secondary 10.1.1.1 gateway 1.1.1.1/24 Stoke[local]#[K<!>[Kboot image tftp abc server 255.255.255.255 host-primary 10.1.1.1 host-secondary 10.1.1.1 gateway 1.1.1.1/24
+Host-primary: gateway unreachable
+Stoke[local]#<!>[Kboot image tftp abc server 10.1.1.1 
+<<<<help_begin
+host-primary  Specify Primary Host IP Address
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 10.1.1.1 Stoke[local]#[K<!>[Kboot image tftp abc server 10.1.1.1 host-primary 
+<<<<help_begin
+n.n.n.n  Primary Host IPv4 Address
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 10.1.1.1 host-primary Stoke[local]#[K<!>[Kboot image tftp abc server 10.1.1.1 host-primary 255.255.255.255 
+<<<<help_begin
+gateway         Specify Gateway
+host-secondary  Specify Secondary Host IP Address
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 10.1.1.1 host-primary 255.255.255.255 Stoke[local]#[K<!>[Kboot image tftp abc server 10.1.1.1 host-primary 255.255.255.255 gateway 
+<<<<help_begin
+n.n.n.n/n  IPv4 Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 10.1.1.1 host-primary 255.255.255.255 gateway Stoke[local]#[K<!>[Kboot image tftp abc server 10.1.1.1 host-primary 255.255.255.255 gateway 1.1.1.1/24 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 10.1.1.1 host-primary 255.255.255.255 gateway 1.1.1.1/24 Stoke[local]#[K<!>[Kboot image tftp abc server 10.1.1.1 host-primary 255.255.255.255 gateway 1.1.1.1/24
+Host-primary: gateway unreachable
+Stoke[local]#<!>[Kboot image tftp abc server 10.1.1.1 host-primary 255.255.255.255 host-secondary 
+<<<<help_begin
+n.n.n.n  Secondary Host IPv4 Address
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 10.1.1.1 host-primary 255.255.255.255 host-secondary Stoke[local]#[K<!>[Kboot image tftp abc server 10.1.1.1 host-primary 255.255.255.255 host-secondary 255.255.255.255 
+<<<<help_begin
+gateway  Specify Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 10.1.1.1 host-primary 255.255.255.255 host-secondary 255.255.255.255 Stoke[local]#[K<!>[Kboot image tftp abc server 10.1.1.1 host-primary 255.255.255.255 host-secondary 255.255.255.255 gateway 
+<<<<help_begin
+n.n.n.n/n  IPv4 Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 10.1.1.1 host-primary 255.255.255.255 host-secondary 255.255.255.255 gateway Stoke[local]#[K<!>[Kboot image tftp abc server 10.1.1.1 host-primary 255.255.255.255 host-secondary 255.255.255.255 gateway 1.1.1.1/24 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 10.1.1.1 host-primary 255.255.255.255 host-secondary 255.255.255.255 gateway 1.1.1.1/24 Stoke[local]#[K<!>[Kboot image tftp abc server 10.1.1.1 host-primary 255.255.255.255 host-secondary 255.255.255.255 gateway 1.1.1.1/24
+Host-primary: gateway unreachable
+Stoke[local]#<!>[Kboot image tftp abc server 10.1.1.1 host-primary 255.255.255.255 host-secondary 10.1.1.1 
+<<<<help_begin
+gateway  Specify Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 10.1.1.1 host-primary 255.255.255.255 host-secondary 10.1.1.1 Stoke[local]#[K<!>[Kboot image tftp abc server 10.1.1.1 host-primary 255.255.255.255 host-secondary 10.1.1.1 gateway 
+<<<<help_begin
+n.n.n.n/n  IPv4 Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 10.1.1.1 host-primary 255.255.255.255 host-secondary 10.1.1.1 gateway Stoke[local]#[K<!>[Kboot image tftp abc server 10.1.1.1 host-primary 255.255.255.255 host-secondary 10.1.1.1 gateway 1.1.1.1/24 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 10.1.1.1 host-primary 255.255.255.255 host-secondary 10.1.1.1 gateway 1.1.1.1/24 Stoke[local]#[K<!>[Kboot image tftp abc server 10.1.1.1 host-primary 255.255.255.255 host-secondary 10.1.1.1 gateway 1.1.1.1/24
+Host-primary: gateway unreachable
+Stoke[local]#<!>[Kboot image tftp abc server 10.1.1.1 host-primary 10.1.1.1 
+<<<<help_begin
+gateway         Specify Gateway
+host-secondary  Specify Secondary Host IP Address
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 10.1.1.1 host-primary 10.1.1.1 Stoke[local]#[K<!>[Kboot image tftp abc server 10.1.1.1 host-primary 10.1.1.1 gateway 
+<<<<help_begin
+n.n.n.n/n  IPv4 Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 10.1.1.1 host-primary 10.1.1.1 gateway Stoke[local]#[K<!>[Kboot image tftp abc server 10.1.1.1 host-primary 10.1.1.1 gateway 1.1.1.1/24 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 10.1.1.1 host-primary 10.1.1.1 gateway 1.1.1.1/24 Stoke[local]#[K<!>[Kboot image tftp abc server 10.1.1.1 host-primary 10.1.1.1 gateway 1.1.1.1/24
+Host-primary: gateway unreachable
+Stoke[local]#<!>[Kboot image tftp abc server 10.1.1.1 host-primary 10.1.1.1 host-secondary 
+<<<<help_begin
+n.n.n.n  Secondary Host IPv4 Address
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 10.1.1.1 host-primary 10.1.1.1 host-secondary Stoke[local]#[K<!>[Kboot image tftp abc server 10.1.1.1 host-primary 10.1.1.1 host-secondary 255.255.255.255 
+<<<<help_begin
+gateway  Specify Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 10.1.1.1 host-primary 10.1.1.1 host-secondary 255.255.255.255 Stoke[local]#[K<!>[Kboot image tftp abc server 10.1.1.1 host-primary 10.1.1.1 host-secondary 255.255.255.255 gateway 
+<<<<help_begin
+n.n.n.n/n  IPv4 Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 10.1.1.1 host-primary 10.1.1.1 host-secondary 255.255.255.255 gateway Stoke[local]#[K<!>[Kboot image tftp abc server 10.1.1.1 host-primary 10.1.1.1 host-secondary 255.255.255.255 gateway 1.1.1.1/24 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 10.1.1.1 host-primary 10.1.1.1 host-secondary 255.255.255.255 gateway 1.1.1.1/24 Stoke[local]#[K<!>[Kboot image tftp abc server 10.1.1.1 host-primary 10.1.1.1 host-secondary 255.255.255.255 gateway 1.1.1.1/24
+Host-primary: gateway unreachable
+Stoke[local]#<!>[Kboot image tftp abc server 10.1.1.1 host-primary 10.1.1.1 host-secondary 10.1.1.1 
+<<<<help_begin
+gateway  Specify Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 10.1.1.1 host-primary 10.1.1.1 host-secondary 10.1.1.1 Stoke[local]#[K<!>[Kboot image tftp abc server 10.1.1.1 host-primary 10.1.1.1 host-secondary 10.1.1.1 gateway 
+<<<<help_begin
+n.n.n.n/n  IPv4 Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 10.1.1.1 host-primary 10.1.1.1 host-secondary 10.1.1.1 gateway Stoke[local]#[K<!>[Kboot image tftp abc server 10.1.1.1 host-primary 10.1.1.1 host-secondary 10.1.1.1 gateway 1.1.1.1/24 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#boot image tftp abc server 10.1.1.1 host-primary 10.1.1.1 host-secondary 10.1.1.1 gateway 1.1.1.1/24 Stoke[local]#[K<!>[Kboot image tftp abc server 10.1.1.1 host-primary 10.1.1.1 host-secondary 10.1.1.1 gateway 1.1.1.1/24
+Host-primary: gateway unreachable
+Stoke[local]#<!>[Kboot image tftp a1b2c3 
+<<<<help_begin
+server  Specify TFTP server
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 
+<<<<help_begin
+n.n.n.n  Server IPv4 Address
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 255.255.255.255 
+<<<<help_begin
+host-primary  Specify Primary Host IP Address
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 255.255.255.255 Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 255.255.255.255 host-primary 
+<<<<help_begin
+n.n.n.n  Primary Host IPv4 Address
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 255.255.255.255 host-primary Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 255.255.255.255 host-primary 255.255.255.255 
+<<<<help_begin
+gateway         Specify Gateway
+host-secondary  Specify Secondary Host IP Address
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 255.255.255.255 host-primary 255.255.255.255 Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 255.255.255.255 host-primary 255.255.255.255 gateway 
+<<<<help_begin
+n.n.n.n/n  IPv4 Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 255.255.255.255 host-primary 255.255.255.255 gateway Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 255.255.255.255 host-primary 255.255.255.255 gateway 1.1.1.1/24 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 255.255.255.255 host-primary 255.255.255.255 gateway 1.1.1.1/24 Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 255.255.255.255 host-primary 255.255.255.255 gateway 1.1.1.1/24
+Host-primary: gateway unreachable
+Stoke[local]#<!>[Kboot image tftp a1b2c3 server 255.255.255.255 host-primary 255.255.255.255 host-secondary 
+<<<<help_begin
+n.n.n.n  Secondary Host IPv4 Address
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 255.255.255.255 host-primary 255.255.255.255 host-secondary Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 255.255.255.255 host-primary 255.255.255.255 host-secondary 255.255.255.255 
+<<<<help_begin
+gateway  Specify Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 255.255.255.255 host-primary 255.255.255.255 host-secondary 255.255.255.255 Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 255.255.255.255 host-primary 255.255.255.255 host-secondary 255.255.255.255 gateway 
+<<<<help_begin
+n.n.n.n/n  IPv4 Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 255.255.255.255 host-primary 255.255.255.255 host-secondary 255.255.255.255 gateway Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 255.255.255.255 host-primary 255.255.255.255 host-secondary 255.255.255.255 gateway 1.1.1.1/24 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 255.255.255.255 host-primary 255.255.255.255 host-secondary 255.255.255.255 gateway 1.1.1.1/24 Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 255.255.255.255 host-primary 255.255.255.255 host-secondary 255.255.255.255 gateway 1.1.1.1/24
+Host-primary: gateway unreachable
+Stoke[local]#<!>[Kboot image tftp a1b2c3 server 255.255.255.255 host-primary 255.255.255.255 host-secondary 10.1.1.1 
+<<<<help_begin
+gateway  Specify Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 255.255.255.255 host-primary 255.255.255.255 host-secondary 10.1.1.1 Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 255.255.255.255 host-primary 255.255.255.255 host-secondary 10.1.1.1 gateway 
+<<<<help_begin
+n.n.n.n/n  IPv4 Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 255.255.255.255 host-primary 255.255.255.255 host-secondary 10.1.1.1 gateway Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 255.255.255.255 host-primary 255.255.255.255 host-secondary 10.1.1.1 gateway 1.1.1.1/24 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 255.255.255.255 host-primary 255.255.255.255 host-secondary 10.1.1.1 gateway 1.1.1.1/24 Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 255.255.255.255 host-primary 255.255.255.255 host-secondary 10.1.1.1 gateway 1.1.1.1/24
+Host-primary: gateway unreachable
+Stoke[local]#<!>[Kboot image tftp a1b2c3 server 255.255.255.255 host-primary 10.1.1.1 
+<<<<help_begin
+gateway         Specify Gateway
+host-secondary  Specify Secondary Host IP Address
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 255.255.255.255 host-primary 10.1.1.1 Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 255.255.255.255 host-primary 10.1.1.1 gateway 
+<<<<help_begin
+n.n.n.n/n  IPv4 Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 255.255.255.255 host-primary 10.1.1.1 gateway Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 255.255.255.255 host-primary 10.1.1.1 gateway 1.1.1.1/24 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 255.255.255.255 host-primary 10.1.1.1 gateway 1.1.1.1/24 Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 255.255.255.255 host-primary 10.1.1.1 gateway 1.1.1.1/24
+Host-primary: gateway unreachable
+Stoke[local]#<!>[Kboot image tftp a1b2c3 server 255.255.255.255 host-primary 10.1.1.1 host-secondary 
+<<<<help_begin
+n.n.n.n  Secondary Host IPv4 Address
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 255.255.255.255 host-primary 10.1.1.1 host-secondary Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 255.255.255.255 host-primary 10.1.1.1 host-secondary 255.255.255.255 
+<<<<help_begin
+gateway  Specify Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 255.255.255.255 host-primary 10.1.1.1 host-secondary 255.255.255.255 Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 255.255.255.255 host-primary 10.1.1.1 host-secondary 255.255.255.255 gateway 
+<<<<help_begin
+n.n.n.n/n  IPv4 Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 255.255.255.255 host-primary 10.1.1.1 host-secondary 255.255.255.255 gateway Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 255.255.255.255 host-primary 10.1.1.1 host-secondary 255.255.255.255 gateway 1.1.1.1/24 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 255.255.255.255 host-primary 10.1.1.1 host-secondary 255.255.255.255 gateway 1.1.1.1/24 Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 255.255.255.255 host-primary 10.1.1.1 host-secondary 255.255.255.255 gateway 1.1.1.1/24
+Host-primary: gateway unreachable
+Stoke[local]#<!>[Kboot image tftp a1b2c3 server 255.255.255.255 host-primary 10.1.1.1 host-secondary 10.1.1.1 
+<<<<help_begin
+gateway  Specify Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 255.255.255.255 host-primary 10.1.1.1 host-secondary 10.1.1.1 Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 255.255.255.255 host-primary 10.1.1.1 host-secondary 10.1.1.1 gateway 
+<<<<help_begin
+n.n.n.n/n  IPv4 Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 255.255.255.255 host-primary 10.1.1.1 host-secondary 10.1.1.1 gateway Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 255.255.255.255 host-primary 10.1.1.1 host-secondary 10.1.1.1 gateway 1.1.1.1/24 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 255.255.255.255 host-primary 10.1.1.1 host-secondary 10.1.1.1 gateway 1.1.1.1/24 Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 255.255.255.255 host-primary 10.1.1.1 host-secondary 10.1.1.1 gateway 1.1.1.1/24
+Host-primary: gateway unreachable
+Stoke[local]#<!>[Kboot image tftp a1b2c3 server 10.1.1.1 
+<<<<help_begin
+host-primary  Specify Primary Host IP Address
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 10.1.1.1 Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 10.1.1.1 host-primary 
+<<<<help_begin
+n.n.n.n  Primary Host IPv4 Address
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 10.1.1.1 host-primary Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 10.1.1.1 host-primary 255.255.255.255 
+<<<<help_begin
+gateway         Specify Gateway
+host-secondary  Specify Secondary Host IP Address
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 10.1.1.1 host-primary 255.255.255.255 Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 10.1.1.1 host-primary 255.255.255.255 gateway 
+<<<<help_begin
+n.n.n.n/n  IPv4 Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 10.1.1.1 host-primary 255.255.255.255 gateway Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 10.1.1.1 host-primary 255.255.255.255 gateway 1.1.1.1/24 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 10.1.1.1 host-primary 255.255.255.255 gateway 1.1.1.1/24 Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 10.1.1.1 host-primary 255.255.255.255 gateway 1.1.1.1/24
+Host-primary: gateway unreachable
+Stoke[local]#<!>[Kboot image tftp a1b2c3 server 10.1.1.1 host-primary 255.255.255.255 host-secondary 
+<<<<help_begin
+n.n.n.n  Secondary Host IPv4 Address
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 10.1.1.1 host-primary 255.255.255.255 host-secondary Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 10.1.1.1 host-primary 255.255.255.255 host-secondary 255.255.255.255 
+<<<<help_begin
+gateway  Specify Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 10.1.1.1 host-primary 255.255.255.255 host-secondary 255.255.255.255 Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 10.1.1.1 host-primary 255.255.255.255 host-secondary 255.255.255.255 gateway 
+<<<<help_begin
+n.n.n.n/n  IPv4 Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 10.1.1.1 host-primary 255.255.255.255 host-secondary 255.255.255.255 gateway Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 10.1.1.1 host-primary 255.255.255.255 host-secondary 255.255.255.255 gateway 1.1.1.1/24 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 10.1.1.1 host-primary 255.255.255.255 host-secondary 255.255.255.255 gateway 1.1.1.1/24 Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 10.1.1.1 host-primary 255.255.255.255 host-secondary 255.255.255.255 gateway 1.1.1.1/24
+Host-primary: gateway unreachable
+Stoke[local]#<!>[Kboot image tftp a1b2c3 server 10.1.1.1 host-primary 255.255.255.255 host-secondary 10.1.1.1 
+<<<<help_begin
+gateway  Specify Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 10.1.1.1 host-primary 255.255.255.255 host-secondary 10.1.1.1 Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 10.1.1.1 host-primary 255.255.255.255 host-secondary 10.1.1.1 gateway 
+<<<<help_begin
+n.n.n.n/n  IPv4 Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 10.1.1.1 host-primary 255.255.255.255 host-secondary 10.1.1.1 gateway Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 10.1.1.1 host-primary 255.255.255.255 host-secondary 10.1.1.1 gateway 1.1.1.1/24 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 10.1.1.1 host-primary 255.255.255.255 host-secondary 10.1.1.1 gateway 1.1.1.1/24 Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 10.1.1.1 host-primary 255.255.255.255 host-secondary 10.1.1.1 gateway 1.1.1.1/24
+Host-primary: gateway unreachable
+Stoke[local]#<!>[Kboot image tftp a1b2c3 server 10.1.1.1 host-primary 10.1.1.1 
+<<<<help_begin
+gateway         Specify Gateway
+host-secondary  Specify Secondary Host IP Address
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 10.1.1.1 host-primary 10.1.1.1 Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 10.1.1.1 host-primary 10.1.1.1 gateway 
+<<<<help_begin
+n.n.n.n/n  IPv4 Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 10.1.1.1 host-primary 10.1.1.1 gateway Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 10.1.1.1 host-primary 10.1.1.1 gateway 1.1.1.1/24 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 10.1.1.1 host-primary 10.1.1.1 gateway 1.1.1.1/24 Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 10.1.1.1 host-primary 10.1.1.1 gateway 1.1.1.1/24
+Host-primary: gateway unreachable
+Stoke[local]#<!>[Kboot image tftp a1b2c3 server 10.1.1.1 host-primary 10.1.1.1 host-secondary 
+<<<<help_begin
+n.n.n.n  Secondary Host IPv4 Address
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 10.1.1.1 host-primary 10.1.1.1 host-secondary Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 10.1.1.1 host-primary 10.1.1.1 host-secondary 255.255.255.255 
+<<<<help_begin
+gateway  Specify Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 10.1.1.1 host-primary 10.1.1.1 host-secondary 255.255.255.255 Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 10.1.1.1 host-primary 10.1.1.1 host-secondary 255.255.255.255 gateway 
+<<<<help_begin
+n.n.n.n/n  IPv4 Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 10.1.1.1 host-primary 10.1.1.1 host-secondary 255.255.255.255 gateway Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 10.1.1.1 host-primary 10.1.1.1 host-secondary 255.255.255.255 gateway 1.1.1.1/24 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 10.1.1.1 host-primary 10.1.1.1 host-secondary 255.255.255.255 gateway 1.1.1.1/24 Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 10.1.1.1 host-primary 10.1.1.1 host-secondary 255.255.255.255 gateway 1.1.1.1/24
+Host-primary: gateway unreachable
+Stoke[local]#<!>[Kboot image tftp a1b2c3 server 10.1.1.1 host-primary 10.1.1.1 host-secondary 10.1.1.1 
+<<<<help_begin
+gateway  Specify Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 10.1.1.1 host-primary 10.1.1.1 host-secondary 10.1.1.1 Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 10.1.1.1 host-primary 10.1.1.1 host-secondary 10.1.1.1 gateway 
+<<<<help_begin
+n.n.n.n/n  IPv4 Gateway
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 10.1.1.1 host-primary 10.1.1.1 host-secondary 10.1.1.1 gateway Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 10.1.1.1 host-primary 10.1.1.1 host-secondary 10.1.1.1 gateway 1.1.1.1/24 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#boot image tftp a1b2c3 server 10.1.1.1 host-primary 10.1.1.1 host-secondary 10.1.1.1 gateway 1.1.1.1/24 Stoke[local]#[K<!>[Kboot image tftp a1b2c3 server 10.1.1.1 host-primary 10.1.1.1 host-secondary 10.1.1.1 gateway 1.1.1.1/24
+Host-primary: gateway unreachable
+Stoke[local]#<!>[Kboot image tftp xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Stoke[local]#[K<!>

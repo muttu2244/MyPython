@@ -1,0 +1,352 @@
+ 
+<<<<help_begin
+allow-replays          Switch off replay protection
+commit-bit             Commit bit processing
+debug                  Debug logging
+dpd                    DPD
+end                    Exit configuration mode
+exit                   Exit current configuration mode
+ikev2-cookie-required  IKEv2 Cookie Required setting
+no                     Remove setting or configuration
+retransmit             Retransmit parameters
+session-remove-timer   Session remove timer parameters
+show                   Display system information
+>>>>help_end
+[KStoke(cfg-3)#<!>[Kallow-replays 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#allow-replays Stoke(cfg-3)#[K<!>[Kallow-replays
+Stoke(cfg-3)#<!>[Kcommit-bit 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#commit-bit[K<!>[Kcommit-bit
+Stoke(cfg-3)#<!>[Kdpd 
+<<<<help_begin
+interval  DPD interval
+>>>>help_end
+[KStoke(cfg-3)#dpd[K<!>[Kdpd interval 
+<<<<help_begin
+10..4294967295  DPD interval in seconds
+>>>>help_end
+[KStoke(cfg-3)#dpd interval[K<!>[Kdpd interval 4294967295 
+<<<<help_begin
+retry-interval  DPD retry interval
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 4294967295 Stoke(cfg-3)#[K<!>[Kdpd interval 4294967295 retry-interval 
+<<<<help_begin
+10..4294967295  DPD retry interval in seconds
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 4294967295 retry-interval Stoke(cfg-3)#[K<!>[Kdpd interval 4294967295 retry-interval 4294967295 
+<<<<help_begin
+maximum-retries  DPD maximum retries
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 4294967295 retry-interval 4294967295 Stoke(cfg-3)#[K<!>[Kdpd interval 4294967295 retry-interval 4294967295 maximum-retries 
+<<<<help_begin
+1..5  DPD maximum retries
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 4294967295 retry-interval 4294967295 maximum-retries Stoke(cfg-3)#[K<!>[Kdpd interval 4294967295 retry-interval 4294967295 maximum-retries 1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 4294967295 retry-interval 4294967295 maximum-retries 1 Stoke(cfg-3)#[K<!>[Kdpd interval 4294967295 retry-interval 4294967295 maximum-retries 1
+Stoke(cfg-3)#<!>[Kdpd interval 4294967295 retry-interval 4294967295 maximum-retries 5 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 4294967295 retry-interval 4294967295 maximum-retries 5 Stoke(cfg-3)#[K<!>[Kdpd interval 4294967295 retry-interval 4294967295 maximum-retries 5
+Stoke(cfg-3)#<!>[Kdpd interval 4294967295 retry-interval 10 
+<<<<help_begin
+maximum-retries  DPD maximum retries
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 4294967295 retry-interval 10 Stoke(cfg-3)#[K<!>[Kdpd interval 4294967295 retry-interval 10 maximum-retries 
+<<<<help_begin
+1..5  DPD maximum retries
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 4294967295 retry-interval 10 maximum-retries Stoke(cfg-3)#[K<!>[Kdpd interval 4294967295 retry-interval 10 maximum-retries 1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 4294967295 retry-interval 10 maximum-retries 1 Stoke(cfg-3)#[K<!>[Kdpd interval 4294967295 retry-interval 10 maximum-retries 1
+Stoke(cfg-3)#<!>[Kdpd interval 4294967295 retry-interval 10 maximum-retries 5 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 4294967295 retry-interval 10 maximum-retries 5 Stoke(cfg-3)#[K<!>[Kdpd interval 4294967295 retry-interval 10 maximum-retries 5
+Stoke(cfg-3)#<!>[Kdpd interval 4294967295 retry-interval 55 
+<<<<help_begin
+maximum-retries  DPD maximum retries
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 4294967295 retry-interval 55 Stoke(cfg-3)#[K<!>[Kdpd interval 4294967295 retry-interval 55 maximum-retries 
+<<<<help_begin
+1..5  DPD maximum retries
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 4294967295 retry-interval 55 maximum-retries Stoke(cfg-3)#[K<!>[Kdpd interval 4294967295 retry-interval 55 maximum-retries 1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 4294967295 retry-interval 55 maximum-retries 1 Stoke(cfg-3)#[K<!>[Kdpd interval 4294967295 retry-interval 55 maximum-retries 1
+Stoke(cfg-3)#<!>[Kdpd interval 4294967295 retry-interval 55 maximum-retries 5 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 4294967295 retry-interval 55 maximum-retries 5 Stoke(cfg-3)#[K<!>[Kdpd interval 4294967295 retry-interval 55 maximum-retries 5
+Stoke(cfg-3)#<!>[Kdpd interval 10 
+<<<<help_begin
+retry-interval  DPD retry interval
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 10 Stoke(cfg-3)#[K<!>[Kdpd interval 10 retry-interval 
+<<<<help_begin
+10..4294967295  DPD retry interval in seconds
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 10 retry-interval Stoke(cfg-3)#[K<!>[Kdpd interval 10 retry-interval 4294967295 
+<<<<help_begin
+maximum-retries  DPD maximum retries
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 10 retry-interval 4294967295 Stoke(cfg-3)#[K<!>[Kdpd interval 10 retry-interval 4294967295 maximum-retries 
+<<<<help_begin
+1..5  DPD maximum retries
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 10 retry-interval 4294967295 maximum-retries Stoke(cfg-3)#[K<!>[Kdpd interval 10 retry-interval 4294967295 maximum-retries 1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 10 retry-interval 4294967295 maximum-retries 1 Stoke(cfg-3)#[K<!>[Kdpd interval 10 retry-interval 4294967295 maximum-retries 1
+Stoke(cfg-3)#<!>[Kdpd interval 10 retry-interval 4294967295 maximum-retries 5 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 10 retry-interval 4294967295 maximum-retries 5 Stoke(cfg-3)#[K<!>[Kdpd interval 10 retry-interval 4294967295 maximum-retries 5
+Stoke(cfg-3)#<!>[Kdpd interval 10 retry-interval 10 
+<<<<help_begin
+maximum-retries  DPD maximum retries
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 10 retry-interval 10 Stoke(cfg-3)#[K<!>[Kdpd interval 10 retry-interval 10 maximum-retries 
+<<<<help_begin
+1..5  DPD maximum retries
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 10 retry-interval 10 maximum-retries Stoke(cfg-3)#[K<!>[Kdpd interval 10 retry-interval 10 maximum-retries 1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 10 retry-interval 10 maximum-retries 1 Stoke(cfg-3)#[K<!>[Kdpd interval 10 retry-interval 10 maximum-retries 1
+Stoke(cfg-3)#<!>[Kdpd interval 10 retry-interval 10 maximum-retries 5 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 10 retry-interval 10 maximum-retries 5 Stoke(cfg-3)#[K<!>[Kdpd interval 10 retry-interval 10 maximum-retries 5
+Stoke(cfg-3)#<!>[Kdpd interval 10 retry-interval 55 
+<<<<help_begin
+maximum-retries  DPD maximum retries
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 10 retry-interval 55 Stoke(cfg-3)#[K<!>[Kdpd interval 10 retry-interval 55 maximum-retries 
+<<<<help_begin
+1..5  DPD maximum retries
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 10 retry-interval 55 maximum-retries Stoke(cfg-3)#[K<!>[Kdpd interval 10 retry-interval 55 maximum-retries 1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 10 retry-interval 55 maximum-retries 1 Stoke(cfg-3)#[K<!>[Kdpd interval 10 retry-interval 55 maximum-retries 1
+Stoke(cfg-3)#<!>[Kdpd interval 10 retry-interval 55 maximum-retries 5 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 10 retry-interval 55 maximum-retries 5 Stoke(cfg-3)#[K<!>[Kdpd interval 10 retry-interval 55 maximum-retries 5
+Stoke(cfg-3)#<!>[Kdpd interval 55 
+<<<<help_begin
+retry-interval  DPD retry interval
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 55 Stoke(cfg-3)#[K<!>[Kdpd interval 55 retry-interval 
+<<<<help_begin
+10..4294967295  DPD retry interval in seconds
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 55 retry-interval Stoke(cfg-3)#[K<!>[Kdpd interval 55 retry-interval 4294967295 
+<<<<help_begin
+maximum-retries  DPD maximum retries
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 55 retry-interval 4294967295 Stoke(cfg-3)#[K<!>[Kdpd interval 55 retry-interval 4294967295 maximum-retries 
+<<<<help_begin
+1..5  DPD maximum retries
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 55 retry-interval 4294967295 maximum-retries Stoke(cfg-3)#[K<!>[Kdpd interval 55 retry-interval 4294967295 maximum-retries 1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 55 retry-interval 4294967295 maximum-retries 1 Stoke(cfg-3)#[K<!>[Kdpd interval 55 retry-interval 4294967295 maximum-retries 1
+Stoke(cfg-3)#<!>[Kdpd interval 55 retry-interval 4294967295 maximum-retries 5 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 55 retry-interval 4294967295 maximum-retries 5 Stoke(cfg-3)#[K<!>[Kdpd interval 55 retry-interval 4294967295 maximum-retries 5
+Stoke(cfg-3)#<!>[Kdpd interval 55 retry-interval 10 
+<<<<help_begin
+maximum-retries  DPD maximum retries
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 55 retry-interval 10 Stoke(cfg-3)#[K<!>[Kdpd interval 55 retry-interval 10 maximum-retries 
+<<<<help_begin
+1..5  DPD maximum retries
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 55 retry-interval 10 maximum-retries Stoke(cfg-3)#[K<!>[Kdpd interval 55 retry-interval 10 maximum-retries 1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 55 retry-interval 10 maximum-retries 1 Stoke(cfg-3)#[K<!>[Kdpd interval 55 retry-interval 10 maximum-retries 1
+Stoke(cfg-3)#<!>[Kdpd interval 55 retry-interval 10 maximum-retries 5 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 55 retry-interval 10 maximum-retries 5 Stoke(cfg-3)#[K<!>[Kdpd interval 55 retry-interval 10 maximum-retries 5
+Stoke(cfg-3)#<!>[Kdpd interval 55 retry-interval 55 
+<<<<help_begin
+maximum-retries  DPD maximum retries
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 55 retry-interval 55 Stoke(cfg-3)#[K<!>[Kdpd interval 55 retry-interval 55 maximum-retries 
+<<<<help_begin
+1..5  DPD maximum retries
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 55 retry-interval 55 maximum-retries Stoke(cfg-3)#[K<!>[Kdpd interval 55 retry-interval 55 maximum-retries 1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 55 retry-interval 55 maximum-retries 1 Stoke(cfg-3)#[K<!>[Kdpd interval 55 retry-interval 55 maximum-retries 1
+Stoke(cfg-3)#<!>[Kdpd interval 55 retry-interval 55 maximum-retries 5 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#dpd interval 55 retry-interval 55 maximum-retries 5 Stoke(cfg-3)#[K<!>[Kdpd interval 55 retry-interval 55 maximum-retries 5
+Stoke(cfg-3)#<!>[Kikev2-cookie-required 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#ikev2-cookie-required Stoke(cfg-3)#[K<!>[Kikev2-cookie-required
+Stoke(cfg-3)#<!>[Kretransmit 
+<<<<help_begin
+interval  Retransmit interval
+>>>>help_end
+[KStoke(cfg-3)#retransmit[K<!>[Kretransmit interval 
+<<<<help_begin
+3..4294967295  Retransmit interval in seconds
+>>>>help_end
+[KStoke(cfg-3)#retransmit interval Stoke(cfg-3)#[K<!>[Kretransmit interval 4294967295 
+<<<<help_begin
+maximum-retries  Retransmit maximum retries
+>>>>help_end
+[KStoke(cfg-3)#retransmit interval 4294967295 Stoke(cfg-3)#[K<!>[Kretransmit interval 4294967295 maximum-retries 
+<<<<help_begin
+1..5  Retransmit maximum retries
+>>>>help_end
+[KStoke(cfg-3)#retransmit interval 4294967295 maximum-retries Stoke(cfg-3)#[K<!>[Kretransmit interval 4294967295 maximum-retries 1 
+<<<<help_begin
+send-retransmit-response  Send immediate response to the received retransmit
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#retransmit interval 4294967295 maximum-retries 1 Stoke(cfg-3)#[K<!>[Kretransmit interval 4294967295 maximum-retries 1 send-retransmit-response 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#retransmit interval 4294967295 maximum-retries 1 send-retransmit-response Stoke(cfg-3)#[K<!>[Kretransmit interval 4294967295 maximum-retries 1 send-retransmit-response
+Stoke(cfg-3)#<!>[Kretransmit interval 4294967295 maximum-retries 1
+Stoke(cfg-3)#<!>[Kretransmit interval 4294967295 maximum-retries 5 
+<<<<help_begin
+send-retransmit-response  Send immediate response to the received retransmit
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#retransmit interval 4294967295 maximum-retries 5 Stoke(cfg-3)#[K<!>[Kretransmit interval 4294967295 maximum-retries 5 send-retransmit-response 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#retransmit interval 4294967295 maximum-retries 5 send-retransmit-response Stoke(cfg-3)#[K<!>[Kretransmit interval 4294967295 maximum-retries 5 send-retransmit-response
+Stoke(cfg-3)#<!>[Kretransmit interval 4294967295 maximum-retries 5
+Stoke(cfg-3)#<!>[Kretransmit interval 3 
+<<<<help_begin
+maximum-retries  Retransmit maximum retries
+>>>>help_end
+[KStoke(cfg-3)#retransmit interval 3 Stoke(cfg-3)#[K<!>[Kretransmit interval 3 maximum-retries 
+<<<<help_begin
+1..5  Retransmit maximum retries
+>>>>help_end
+[KStoke(cfg-3)#retransmit interval 3 maximum-retries Stoke(cfg-3)#[K<!>[Kretransmit interval 3 maximum-retries 1 
+<<<<help_begin
+send-retransmit-response  Send immediate response to the received retransmit
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#retransmit interval 3 maximum-retries 1 Stoke(cfg-3)#[K<!>[Kretransmit interval 3 maximum-retries 1 send-retransmit-response 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#retransmit interval 3 maximum-retries 1 send-retransmit-response Stoke(cfg-3)#[K<!>[Kretransmit interval 3 maximum-retries 1 send-retransmit-response
+Stoke(cfg-3)#<!>[Kretransmit interval 3 maximum-retries 1
+Stoke(cfg-3)#<!>[Kretransmit interval 3 maximum-retries 5 
+<<<<help_begin
+send-retransmit-response  Send immediate response to the received retransmit
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#retransmit interval 3 maximum-retries 5 Stoke(cfg-3)#[K<!>[Kretransmit interval 3 maximum-retries 5 send-retransmit-response 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#retransmit interval 3 maximum-retries 5 send-retransmit-response Stoke(cfg-3)#[K<!>[Kretransmit interval 3 maximum-retries 5 send-retransmit-response
+Stoke(cfg-3)#<!>[Kretransmit interval 3 maximum-retries 5
+Stoke(cfg-3)#<!>[Kretransmit interval 55 
+<<<<help_begin
+maximum-retries  Retransmit maximum retries
+>>>>help_end
+[KStoke(cfg-3)#retransmit interval 55 Stoke(cfg-3)#[K<!>[Kretransmit interval 55 maximum-retries 
+<<<<help_begin
+1..5  Retransmit maximum retries
+>>>>help_end
+[KStoke(cfg-3)#retransmit interval 55 maximum-retries Stoke(cfg-3)#[K<!>[Kretransmit interval 55 maximum-retries 1 
+<<<<help_begin
+send-retransmit-response  Send immediate response to the received retransmit
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#retransmit interval 55 maximum-retries 1 Stoke(cfg-3)#[K<!>[Kretransmit interval 55 maximum-retries 1 send-retransmit-response 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#retransmit interval 55 maximum-retries 1 send-retransmit-response Stoke(cfg-3)#[K<!>[Kretransmit interval 55 maximum-retries 1 send-retransmit-response
+Stoke(cfg-3)#<!>[Kretransmit interval 55 maximum-retries 1
+Stoke(cfg-3)#<!>[Kretransmit interval 55 maximum-retries 5 
+<<<<help_begin
+send-retransmit-response  Send immediate response to the received retransmit
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#retransmit interval 55 maximum-retries 5 Stoke(cfg-3)#[K<!>[Kretransmit interval 55 maximum-retries 5 send-retransmit-response 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#retransmit interval 55 maximum-retries 5 send-retransmit-response Stoke(cfg-3)#[K<!>[Kretransmit interval 55 maximum-retries 5 send-retransmit-response
+Stoke(cfg-3)#<!>[Kretransmit interval 55 maximum-retries 5
+Stoke(cfg-3)#<!>[Ksession-remove-timer 
+<<<<help_begin
+interval  Session remove  timer interval
+>>>>help_end
+[KStoke(cfg-3)#session-remove-timer Stoke(cfg-3)#[K<!>[Ksession-remove-timer interval 
+<<<<help_begin
+1..4294967295  Session remove timer interval in seconds
+>>>>help_end
+[KStoke(cfg-3)#session-remove-timer interval Stoke(cfg-3)#[K<!>[Ksession-remove-timer interval 1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#session-remove-timer interval 1 Stoke(cfg-3)#[K<!>[Ksession-remove-timer interval 1
+Stoke(cfg-3)#<!>[Ksession-remove-timer interval 4294967295 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#session-remove-timer interval 4294967295 Stoke(cfg-3)#[K<!>[Ksession-remove-timer interval 4294967295
+ERROR: conflicting session-removal interval already configured
+Stoke(cfg-3)#<!>[Kno session-remove-timer interval 4294967295
+Stoke(cfg-3)#<!>[Ksession-remove-timer interval 4294967295
+Stoke(cfg-3)#<!>[Ksession-remove-timer interval 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#session-remove-timer interval 55 Stoke(cfg-3)#[K<!>[Ksession-remove-timer interval 55
+ERROR: conflicting session-removal interval already configured
+Stoke(cfg-3)#<!>[Kno session-remove-timer interval 55
+Stoke(cfg-3)#<!>[Ksession-remove-timer interval 55
+Stoke(cfg-3)#<!>[Kexit
+Stoke(cfg-2)#<!>

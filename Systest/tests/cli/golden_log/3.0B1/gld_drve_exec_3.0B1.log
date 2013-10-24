@@ -1,0 +1,18 @@
+drive 
+<<<<help_begin
+mount    Make file system available
+unmount  Make file system unavailable (prepare for removal)
+>>>>help_end
+[KStoke[local]#drive[K<!>[Kdrive mount 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#drive mount[K<!>[Kdrive mount
+ERROR: Drive is not present
+Stoke[local]#<!>[Kdrive unmount 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#drive unmount Stoke[local]#[K<!>[Kdrive unmount
+ERROR: Drive is not present
+Stoke[local]#<!>

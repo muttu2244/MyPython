@@ -1,0 +1,77 @@
+test_ACL_Func_091 (__main__.test_ACL_Func_091) ... FAIL
+ERROR
+
+======================================================================
+ERROR: test_ACL_Func_091 (__main__.test_ACL_Func_091)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ACL_Func_091.py", line 88, in tearDown
+    self.linux.cmd("exit")
+  File "../../../lib/py/Host.py", line 211, in cmd
+    return self._cmd(line, send, timeout)
+  File "../../../lib/py/Host.py", line 271, in _cmd
+    result = self.ses.expect(keys, timeout)
+  File "../../../lib/py/pexpect.py", line 1311, in expect
+    return self.expect_list(compiled_pattern_list, timeout, searchwindowsize)
+  File "../../../lib/py/pexpect.py", line 1325, in expect_list
+    return self.expect_loop(searcher_re(pattern_list), timeout, searchwindowsize)
+  File "../../../lib/py/pexpect.py", line 1398, in expect_loop
+    raise EOF (str(e) + '\n' + str(self))
+EOF: End Of File (EOF) in read_nonblocking(). Exception style platform.
+<pexpect.spawn object at 0x8638b8c>
+version: 2.3 ($Revision: 1.4 $)
+command: /usr/kerberos/bin/telnet
+args: ['/usr/kerberos/bin/telnet', '-E', '-8', 'ganga']
+searcher: searcher_re:
+    0: re.compile("[Pp]assword:")
+    1: re.compile("[
+]NG40.sgsn>\s")
+    2: re.compile("[
+]NG40.rnc>\s")
+    3: re.compile("--- more ---")
+    4: re.compile("([
+]vpn>\s|[
+]%\s)")
+    5: re.compile("[Uu]sername: $")
+    6: re.compile("linux\-test#\s$")
+    7: re.compile("[
+]Press c and <enter> to continue and stop the previous test or any other input and <enter> to terminate:")
+buffer (last 100 chars): 
+before (last 100 chars): exit
+logout
+[H[2JConnection closed by foreign host.
+
+after: <class 'pexpect.EOF'>
+match: None
+match_index: None
+exitstatus: 1
+flag_eof: True
+pid: 5405
+child_fd: 7
+closed: False
+timeout: 10
+delimiter: <class 'pexpect.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.1
+delayafterclose: 0.1
+delayafterterminate: 0.1
+
+======================================================================
+FAIL: test_ACL_Func_091 (__main__.test_ACL_Func_091)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ACL_Func_091.py", line 331, in test_ACL_Func_091
+    self.befNAftSwitchOver()
+  File "ACL_Func_091.py", line 260, in befNAftSwitchOver
+    self.failUnless(op_ping2,"Ping through session failed")
+AssertionError: Ping through session failed
+
+----------------------------------------------------------------------
+Ran 1 test in 359.606s
+
+FAILED (failures=1, errors=1)

@@ -1,0 +1,16 @@
+ 
+<<<<help_begin
+debug     Debug logging
+end       Exit configuration mode
+exit      Exit current configuration mode
+no        Remove setting or configuration
+show      Display system information
+slewonly  Configure NTP to never step time
+>>>>help_end
+[KStoke(cfg-3)#<!>[Kslewonly 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#slewonly[K<!>[Kslewonly
+Stoke(cfg-3)#<!>[Kexit
+Stoke(cfg-2)#<!>

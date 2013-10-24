@@ -1,0 +1,134 @@
+rename 
+<<<<help_begin
+STRING  Old file name
+>>>>help_end
+[KStoke[local]#rename[K<!>[Krename z 
+<<<<help_begin
+STRING  New file name
+>>>>help_end
+[KStoke[local]#rename z[K<!>[Krename z z 
+<<<<help_begin
+noconfirm  Do not ask for confirmation if the destination file exists
+<cr>
+>>>>help_end
+[KStoke[local]#rename z z[K<!>[Krename z z noconfirm 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#rename z z noconfirm Stoke[local]#[K<!>[Krename z z noconfirm
+ERROR: Unable to rename /cfint/z: No such file or directory.
+Stoke[local]#<!>[Krename z z
+ERROR: Unable to rename /cfint/z: No such file or directory.
+Stoke[local]#<!>[Krename z abc 
+<<<<help_begin
+noconfirm  Do not ask for confirmation if the destination file exists
+<cr>
+>>>>help_end
+[KStoke[local]#rename z abc[K<!>[Krename z abc noconfirm 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#rename z abc noconfirm Stoke[local]#[K<!>[Krename z abc noconfirm
+ERROR: Unable to rename /cfint/z: No such file or directory.
+Stoke[local]#<!>[Krename z abc
+ERROR: Unable to rename /cfint/z: No such file or directory.
+Stoke[local]#<!>[Krename z a1b2c3 
+<<<<help_begin
+noconfirm  Do not ask for confirmation if the destination file exists
+<cr>
+>>>>help_end
+[KStoke[local]#rename z a1b2c3 Stoke[local]#[K<!>[Krename z a1b2c3 noconfirm 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#rename z a1b2c3 noconfirm Stoke[local]#[K<!>[Krename z a1b2c3 noconfirm
+ERROR: Unable to rename /cfint/z: No such file or directory.
+Stoke[local]#<!>[Krename z a1b2c3
+ERROR: Unable to rename /cfint/z: No such file or directory.
+Stoke[local]#<!>[Krename z xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Stoke[local]#[K<!>[Krename abc 
+<<<<help_begin
+STRING  New file name
+>>>>help_end
+[KStoke[local]#rename abc[K<!>[Krename abc z 
+<<<<help_begin
+noconfirm  Do not ask for confirmation if the destination file exists
+<cr>
+>>>>help_end
+[KStoke[local]#rename abc z[K<!>[Krename abc z noconfirm 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#rename abc z noconfirm Stoke[local]#[K<!>[Krename abc z noconfirm
+ERROR: Unable to rename /cfint/abc: No such file or directory.
+Stoke[local]#<!>[Krename abc z
+ERROR: Unable to rename /cfint/abc: No such file or directory.
+Stoke[local]#<!>[Krename abc abc 
+<<<<help_begin
+noconfirm  Do not ask for confirmation if the destination file exists
+<cr>
+>>>>help_end
+[KStoke[local]#rename abc abc Stoke[local]#[K<!>[Krename abc abc noconfirm 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#rename abc abc noconfirm Stoke[local]#[K<!>[Krename abc abc noconfirm
+ERROR: Unable to rename /cfint/abc: No such file or directory.
+Stoke[local]#<!>[Krename abc abc
+ERROR: Unable to rename /cfint/abc: No such file or directory.
+Stoke[local]#<!>[Krename abc a1b2c3 
+<<<<help_begin
+noconfirm  Do not ask for confirmation if the destination file exists
+<cr>
+>>>>help_end
+[KStoke[local]#rename abc a1b2c3 Stoke[local]#[K<!>[Krename abc a1b2c3 noconfirm 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#rename abc a1b2c3 noconfirm Stoke[local]#[K<!>[Krename abc a1b2c3 noconfirm
+ERROR: Unable to rename /cfint/abc: No such file or directory.
+Stoke[local]#<!>[Krename abc a1b2c3
+ERROR: Unable to rename /cfint/abc: No such file or directory.
+Stoke[local]#<!>[Krename abc xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Stoke[local]#[K<!>[Krename a1b2c3 
+<<<<help_begin
+STRING  New file name
+>>>>help_end
+[KStoke[local]#rename a1b2c3 Stoke[local]#[K<!>[Krename a1b2c3 z 
+<<<<help_begin
+noconfirm  Do not ask for confirmation if the destination file exists
+<cr>
+>>>>help_end
+[KStoke[local]#rename a1b2c3 z Stoke[local]#[K<!>[Krename a1b2c3 z noconfirm 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#rename a1b2c3 z noconfirm Stoke[local]#[K<!>[Krename a1b2c3 z noconfirm
+ERROR: Unable to rename /cfint/a1b2c3: No such file or directory.
+Stoke[local]#<!>[Krename a1b2c3 z
+ERROR: Unable to rename /cfint/a1b2c3: No such file or directory.
+Stoke[local]#<!>[Krename a1b2c3 abc 
+<<<<help_begin
+noconfirm  Do not ask for confirmation if the destination file exists
+<cr>
+>>>>help_end
+[KStoke[local]#rename a1b2c3 abc Stoke[local]#[K<!>[Krename a1b2c3 abc noconfirm 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#rename a1b2c3 abc noconfirm Stoke[local]#[K<!>[Krename a1b2c3 abc noconfirm
+ERROR: Unable to rename /cfint/a1b2c3: No such file or directory.
+Stoke[local]#<!>[Krename a1b2c3 abc
+ERROR: Unable to rename /cfint/a1b2c3: No such file or directory.
+Stoke[local]#<!>[Krename a1b2c3 a1b2c3 
+<<<<help_begin
+noconfirm  Do not ask for confirmation if the destination file exists
+<cr>
+>>>>help_end
+[KStoke[local]#rename a1b2c3 a1b2c3 Stoke[local]#[K<!>[Krename a1b2c3 a1b2c3 noconfirm 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#rename a1b2c3 a1b2c3 noconfirm Stoke[local]#[K<!>[Krename a1b2c3 a1b2c3 noconfirm
+ERROR: Unable to rename /cfint/a1b2c3: No such file or directory.
+Stoke[local]#<!>[Krename a1b2c3 a1b2c3
+ERROR: Unable to rename /cfint/a1b2c3: No such file or directory.
+Stoke[local]#<!>[Krename a1b2c3 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Stoke[local]#[K<!>[Krename xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Stoke[local]#[K<!>

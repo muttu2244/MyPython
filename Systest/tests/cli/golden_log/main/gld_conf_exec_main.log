@@ -1,0 +1,14 @@
+configuration 
+<<<<help_begin
+terminal  Enter configuration from terminal
+<cr>
+>>>>help_end
+[KStoke[local]#configuration Stoke[local]#[K<!>[Kconfiguration terminal 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#configuration terminal Stoke[local]#[K<!>[Kconfiguration terminal
+Stoke(cfg-2)#<!>[Kconfiguration
+             ^
+ERROR: unexpected input
+Stoke(cfg-2)#<!>

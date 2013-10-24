@@ -1,0 +1,148 @@
+default:
+
+#================================================================================
+custom:
+
+#SNMP
+ :user_local:
+  _line_ 	sec-model_usm_auth-proto_md5_auth-passw_local_priv-proto_des_priv-passw_local_group_local
+ :target-parameters:
+  _line_	name_local_sec-name_local_sec-model_v1
+ :notify-target:
+  _line_	name_local_1.1.1.1_port_1_tags_local_parameters_local
+
+#DEBUG
+
+ :exclude:
+ _line_	        level_list_crit_debug_err_info_warn
+ _line_		level_list_crit_warn_err_info_debug
+ _line_		level_list_err_crit_info_warn_debug
+ _line_		level_minimum_crit
+
+ :include:
+ _line_	        level_list_crit_debug_err_info_warn
+ _line_		level_list_crit_warn_err_info_debug
+ _line_		level_list_err_crit_info_warn_debug
+ _line_		level_minimum_crit
+
+# Access-list
+
+ :ip_access-list_local:
+ _line_		1_deny_icmp_host_1.1.1.1_any_1
+ _line_ 	1_deny_icmp_host_1.1.1.1_any_1_1_precedence_1_tos 1
+
+ :ip_community-list_expanded_local:
+ _line_		1_deny_icmp_host_1.1.1.1_any_1
+ _line_ 	1_deny_icmp_host_1.1.1.1_any_1_1_precedence_1_tos 1
+ 
+ :ip_community-list_standard_local:
+ _line_		1_deny_icmp_host_1.1.1.1_any_1
+ _line_ 	1_deny_icmp_host_1.1.1.1_any_1_1_precedence_1_tos 1
+
+#IPSEC
+ :ipsec_policy_ikev1_phase1_name_local:
+ _line_		custom_aes128_md5_group2_psk_xauth-chap_1_secs_1 hours
+ _line_		custom_aes128_sha-1_group2_psk_xauth-chap_1_secs_1 hours 
+ _line_		custom_aes192_md5_group2_psk_xauth-chap_1_secs_1 hours
+ _line_		custom_aes256_md5_group2_psk_xauth-chap_1_secs_1 hours
+ _line_		custom_triple-des_md5_group2_psk_xauth-chap_1_secs_1 hours
+ _line_ 	delay-expiry
+ _line_		mode-cfg
+ _line_ 	rekey
+ _line_		suite1_psk_xauth-chap_1_hours_1 hours
+ _line_		suite1_psk_xauth-generic_1_hours_1 hours
+ _line_		suite1_psk_xauth-negotiate_1_hours_1 hours
+ _line_		suite2_psk_xauth-chap_1_hours_1 hours
+ _line_		suite2_psk_xauth-generic_1_hours_1 hours
+ _line_		suite2_psk_xauth-negotiate_1_hours_1 hours
+ _line_		suite3_psk_xauth-chap_1_hours_1 hours
+ _line_		suite3_psk_xauth-generic_1_hours_1 hours
+ _line_		suite3_psk_xauth-negotiate_1_hours_1 hours
+ _line_		suite4_psk_xauth-chap_1_hours_1 hours
+ _line_		suite4_psk_xauth-generic_1_hours_1 hours
+ _line_		suite4_psk_xauth-negotiate_1_hours_1 hours
+
+ :ipsec_policy_ikev1_phase2_name_local:
+ _line_		custom_aes128_sha-1_group2_psk_xauth-chap_1_secs_1 hours
+
+ :ipsec_policy_ikev2_phase1_name_local:
+ _line_		custom_aes128_md5_group2_1_secs_1 hours
+
+ :ipsec_policy_ikev2_phase2_name_local:
+ _line_		custom_aes128_md5_group2_1_secs_1 hours
+ _line_		custom_aes128_sha-1_group21_secs_1 hours 
+ _line_		custom_aes192_md5_group2_1_secs_1 hours
+ _line_		custom_aes256_md5_group2_1_secs_1 hours
+ _line_ 	delay-expiry
+ _line_		suite1_1_hours_1 hours
+ _line_		suite1_1_secs_1 secs
+ _line_		suite2_1_hours_1 hours
+ _line_		suite2_1_secs_1 secs
+ _line_		suite3_1_hours_1 hours
+ _line_		suite3_1_secs_1 secs
+ _line_		suite4_1_hours_1 hours
+ _line_		suite4_1_secs_1 secs
+
+  rmon_alarm_1_local_10_absolute_rising-threshold_1_1_falling-threshold:
+ _line_		1_owner_local
+
+ :ntp_profile:
+ _line_		server_1.1.1.1_key_0_prefer_source 1.1.1.1
+ _line_		server_1.1.1.1_key_0_source 1.1.1.1
+ _line_		server_1.1.1.1_key_0_version 1
+ _line_ 	server_1::1_key_0_prefer_source_1::1_version 1
+ _line_ 	server_1::1_prefer_key_0_source_1::1_version 1
+
+ set:
+ _line_ 	community_1:1_1:1_1:1_1:1_1:1_1:1_1:1_1:1_1:1_1:1_1:1_1:1_1:1_1:1_1:1_1:1_1:1_no-export internet
+ _line_	 	as-path_prepend_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1
+
+ redistribute:
+ _line_		bgp_metric_1_tag_1_route-map_local
+ _line_		connected_metric_1_tag_1 route_map
+ _line_		ospf_route-map_local_tag 1
+ _line_		static_tag_1_metric_1_route-map_local	
+ _line_		subscriber-host_metric_1_tag_1_route-map_local
+ 
+ :ip prefix-list local:
+ _line_		1_permit_1.1.1.1/24_le_1
+ _line_		deny_1.1.1.1/24_ge_1_le 1
+ _line_		permit_1.1.1.1/24_ge_1 le
+
+#route-map_local --> map_rule_deny --> match
+ match:
+ _line_		community_exact-match_local_local_local_local_local_local_local_local_local
+ _line_		as-path_local_local_local_local_local_local_local_local
+ _line_		ip_address_prefix-list_local_local_local_local_local_local_local_local
+ _line_		ip_next-hop_prefix-list_local_local_local_local local_local_local_local_local
+ _line_		metric_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1
+ _line_		origin_egp
+ _line_		route-type_external type-1
+ _line_		route-type_internal type-1
+ _line_		tag_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1	
+
+
+#================================================================================
+ignore:
+ boot_configuration_file local 
+ boot_image_tftp_local_server_1.1.1.1_host-primary_1.1.1.1_host-secondary
+
+#Takes around 30 sec
+ debug_module
+# Show 
+ show_log
+ show_history
+ show_process
+ show_tech-support
+
+# System
+ system_console-port_baud-rate
+ clock
+ logging console
+
+# For Management port
+ disable telnet
+ port ethernet 0/0
+
+# Crash with main image
+ dhcp 

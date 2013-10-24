@@ -1,0 +1,84 @@
+ 
+<<<<help_begin
+custom-profile  Configure customer-specific customization
+debug           Debug logging
+default-domain  Configure AAA default-domain
+end             Exit configuration mode
+exit            Exit current configuration mode
+no              Remove setting or configuration
+show            Display system information
+>>>>help_end
+[KStoke(cfg-3)#<!>[Kcustom-profile 
+<<<<help_begin
+0..4294967295  Customer code
+>>>>help_end
+[KStoke(cfg-3)#custom-profile Stoke(cfg-3)#[K<!>[Kcustom-profile 4294967295 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#custom-profile 4294967295 Stoke(cfg-3)#[K<!>[Kcustom-profile 4294967295
+Stoke(cfg-3)#<!>[Kcustom-profile 0 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#custom-profile 0 Stoke(cfg-3)#[K<!>[Kcustom-profile 0
+Stoke(cfg-3)#<!>[Kcustom-profile 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#custom-profile 55 Stoke(cfg-3)#[K<!>[Kcustom-profile 55
+Stoke(cfg-3)#<!>[Kdefault-domain 
+<<<<help_begin
+authentication  Configure default-domain for session authentication
+authorization   Configure default-domain for session authorization
+>>>>help_end
+[KStoke(cfg-3)#default-domain Stoke(cfg-3)#[K<!>[Kdefault-domain authentication 
+<<<<help_begin
+STRING(35)  Name of context
+>>>>help_end
+[KStoke(cfg-3)#default-domain authentication Stoke(cfg-3)#[K<!>[Kdefault-domain authentication z 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#default-domain authentication z Stoke(cfg-3)#[K<!>[Kdefault-domain authentication z
+Stoke(cfg-3)#<!>[Kdefault-domain authentication abc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#default-domain authentication abc Stoke(cfg-3)#[K<!>[Kdefault-domain authentication abc
+Stoke(cfg-3)#<!>[Kdefault-domain authentication a1b2c3 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#default-domain authentication a1b2c3 Stoke(cfg-3)#[K<!>[Kdefault-domain authentication a1b2c3
+Stoke(cfg-3)#<!>[Kdefault-domain authentication xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#default-domain authentication xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Stoke(cfg-3)#[K<!>[Kdefault-domain authentication xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Stoke(cfg-3)#<!>[Kdefault-domain authorization 
+<<<<help_begin
+STRING(35)  Name of context
+>>>>help_end
+[KStoke(cfg-3)#default-domain authorization Stoke(cfg-3)#[K<!>[Kdefault-domain authorization z 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#default-domain authorization z Stoke(cfg-3)#[K<!>[Kdefault-domain authorization z
+Stoke(cfg-3)#<!>[Kdefault-domain authorization abc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#default-domain authorization abc Stoke(cfg-3)#[K<!>[Kdefault-domain authorization abc
+Stoke(cfg-3)#<!>[Kdefault-domain authorization a1b2c3 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#default-domain authorization a1b2c3 Stoke(cfg-3)#[K<!>[Kdefault-domain authorization a1b2c3
+Stoke(cfg-3)#<!>[Kdefault-domain authorization xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#default-domain authorization xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Stoke(cfg-3)#[K<!>[Kdefault-domain authorization xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Stoke(cfg-3)#<!>[Kexit
+Stoke(cfg-2)#<!>

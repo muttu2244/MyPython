@@ -1,0 +1,25 @@
+
+======================================================================================================================================================
+
+Total test time: 00 Hours 00 Minutes 00 seconds
+
+Test Pass/Fail/Error summary:
+	Total Test Case Run:              1
+	Total Test Case Passed:           0
+	Total Test Case Failed:           0
+	Total Test Case Errored:          1
+	Test pass percentage:           0.0%
+	Execution logs:               /.amd/netapp2/vol/vol1/home2/smath/systest/tests/glcr/ha_imc/Logs/HA_FUN_02-2012317258.log
+
+	Build Tested:                      
+	Python Version:                Python 2.5
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+                   Individual Test Results Summary
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Test Name                          	Test Summary                                                                    		Exec.Time   	P/F/E
+
+HA_FUN_02                          	Create many tunnels on a GLC and produce coredump on restartable process        		00:00:00    	E    
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------

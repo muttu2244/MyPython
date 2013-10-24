@@ -1,0 +1,577 @@
+14:07:27 : TEST    : ##################################################
+14:07:27 : TEST    : Python Version: Python 2.5
+14:07:27 : TEST    : ##################################################
+14:07:27 : TEST    : ##################################################
+14:07:27 : TEST    : test_ACL_Func_076
+14:07:27 : TEST    : ##################################################
+14:07:27 : OUTPUT  : SSX object for host nandi created.
+14:07:27 : DEBUG   : Trying to connect to host nandi
+14:07:31 : INFO    : Connected to host nandi
+14:07:32 : CMD     : nandi     : terminal length infinite 
+14:07:32 : CMD     : nandi     : terminal width infinite 
+14:07:32 : CMD     : nandi     : no terminal monitor 
+14:07:32 : INFO    : Memory Snap for all Slots before starting the TEST
+14:07:33 : CMD     : nandi     : show process mem slot 0 | grep -v "Process Name" 
+------------- ------- ------- ------- ------- ------- ------- ------- ------- 
+NSM            593928 12KB    8192    7696KB  1292KB  152KB   37MB    180MB
+Smid           610328 200KB   16KB    11MB    3544KB  96KB    3360KB  17MB
+Ip             610332 4096    4096    8MB     2124KB  172KB   8MB     266MB
+CtxMgr         610331 28KB    8192    6752KB  932KB   68KB    2304KB  17MB
+Fpd            610330 84KB    12KB    6864KB  976KB   96KB    1280KB  243MB
+Aaad           610336 364KB   20KB    10MB    1532KB  172KB   10MB    25MB
+Cli           5398575 40KB    16KB    11MB    3568KB  84KB    2432KB  17MB
+Cli           1390187 40KB    16KB    11MB    3568KB  80KB    2336KB  17MB
+Cli           1393054 40KB    16KB    11MB    3568KB  88KB    2464KB  17MB
+Snmpd          610338 632KB   72KB    7012KB  1020KB  64KB    2304KB  18MB
+Inets          610337 32KB    8192    8MB     1256KB  100KB   1280KB  17MB
+Logind         610329 16KB    8192    6808KB  960KB   60KB    1280KB  17MB
+Logind        1390187 16KB    8192    6808KB  960KB   60KB    1280KB  17MB
+Logind        1393054 16KB    8192    6808KB  960KB   72KB    1280KB  17MB
+Ospf           610333 308KB   12KB    7204KB  1052KB  72KB    4416KB  34MB
+Bgp4           610334 308KB   12KB    7224KB  1064KB  88KB    7808KB  34MB
+Evl            610325 92KB    8192    7040KB  996KB   84KB    4352KB  17MB
+EvlColl        610326 20KB    8192    6768KB  940KB   60KB    1280KB  17MB
+Qosd           610335 168KB   8192    7000KB  1016KB  68KB    1280KB  23MB
+IkedMc         610339 152KB   4096    8136KB  1224KB  72KB    2852KB  17MB
+Ntp           1098960 4096    4096    7268KB  1268KB  100KB   1280KB  17MB
+Rip            610341 92KB    8192    6988KB  1016KB  76KB    3328KB  34MB
+Evt            610324 28KB    8192    6752KB  932KB   68KB    2304KB  17MB
+Fabric         610347 12KB    8192    6776KB  940KB   56KB    1280KB  17MB
+Fsync          610327 16KB    8192    6752KB  932KB   56KB    1280KB  17MB
+TunMgr         610342 108KB   12KB    6788KB  948KB   64KB    2304KB  19MB
+PPPoEMC        610343 16KB    4096    6792KB  944KB   60KB    1280KB  17MB
+PPPdMc         610344 16KB    4096    6784KB  940KB   60KB    1280KB  17MB
+CDR            610345 88KB    20KB    8MB     1160KB  104KB   1280KB  17MB
+DHCPdMC        610346 48KB    4096    6844KB  980KB   68KB    2308KB  17MB
+MIPd           610348 172KB   1096KB  7016KB  2024KB  84KB    1280KB  17MB
+SLA            610349 28KB    4096    6916KB  972KB   60KB    1284KB  17MB
+Dfn            610350 1240KB  11MB    8MB     1204KB  80KB    2304KB  17MB
+14:07:33 : CMD     : nandi     : show process mem slot 1 | grep -v "Process Name" 
+ERROR: Card 1 not ready
+14:07:34 : CMD     : nandi     : show process mem slot 2 | grep -v "Process Name" 
+------------- ------- ------- ------- ------- ------- ------- ------- ------- 
+NSM            925699 12KB    4096    6668KB  1148KB  116KB   8MB     340MB
+IpLc           946200 8192    4096    6880KB  1164KB  104KB   14MB    343MB
+Fpd            946199 84KB    4096    6176KB  888KB   88KB    1288KB  238MB
+Iked           946201 1124KB  1000KB  7896KB  1392KB  204KB   13MB    351MB
+Evl            946197 48KB    8192    6080KB  852KB   60KB    1280KB  12MB
+Evt            946195 28KB    8192    6064KB  844KB   56KB    1280KB  12MB
+NseMgr         946207 40KB    8192    8000KB  976KB   52KB    1280KB  12MB
+PPPoE          946202 44KB    8192    6900KB  1176KB  72KB    1280KB  338MB
+PPPd           946203 104KB   12KB    6220KB  912KB   72KB    2304KB  238MB
+DHCPdLC        946204 36KB    1028KB  6888KB  1172KB  68KB    1280KB  238MB
+Inspectd       946205 28KB    1032KB  8MB     992KB   84KB    5568KB  464MB
+Count          946206 100KB   8192    6120KB  860KB   64KB    21MB    116MB
+14:07:34 : CMD     : nandi     : show process mem slot 3 | grep -v "Process Name" 
+------------- ------- ------- ------- ------- ------- ------- ------- ------- 
+NSM            925699 12KB    4096    6668KB  1148KB  116KB   8MB     340MB
+IpLc           946200 8192    4096    6880KB  1164KB  104KB   10MB    343MB
+Fpd            946199 84KB    4096    6176KB  888KB   88KB    1288KB  238MB
+Iked           946201 1124KB  1000KB  7896KB  1392KB  200KB   12MB    351MB
+Evl            946198 48KB    8192    6080KB  852KB   60KB    1280KB  12MB
+Evt            946195 28KB    8192    6064KB  844KB   56KB    1280KB  12MB
+NseMgr         946207 40KB    8192    8000KB  976KB   52KB    1280KB  12MB
+PPPoE          946202 44KB    8192    6900KB  1176KB  72KB    1280KB  338MB
+PPPd           946203 104KB   12KB    6220KB  912KB   72KB    2304KB  238MB
+DHCPdLC        946204 36KB    1028KB  6888KB  1172KB  68KB    1280KB  238MB
+Inspectd       946205 28KB    1032KB  8MB     992KB   84KB    5568KB  464MB
+Count          946206 100KB   8192    6120KB  860KB   64KB    21MB    116MB
+14:07:35 : CMD     : nandi     : show process mem slot 4 | grep -v "Process Name" 
+------------- ------- ------- ------- ------- ------- ------- ------- ------- 
+NSM           2498581 12KB    4096    6668KB  1148KB  116KB   8MB     340MB
+IpLc          2519066 8192    4096    6880KB  1164KB  104KB   3328KB  344MB
+Fpd           2519065 84KB    4096    6176KB  888KB   88KB    1288KB  238MB
+Iked          2519067 1124KB  1000KB  7896KB  1392KB  188KB   12MB    351MB
+Evl           2519064 48KB    8192    6080KB  852KB   60KB    1280KB  12MB
+Evt           2519063 28KB    8192    6064KB  844KB   56KB    1280KB  12MB
+NseMgr        2519073 40KB    8192    8000KB  976KB   52KB    20MB    112MB
+PPPoE         2519068 44KB    8192    6900KB  1176KB  72KB    1280KB  338MB
+PPPd          2519069 104KB   12KB    6220KB  912KB   72KB    2304KB  238MB
+DHCPdLC       2519070 36KB    1028KB  6888KB  1172KB  68KB    1280KB  238MB
+Inspectd      2519071 28KB    1032KB  8MB     992KB   88KB    5568KB  464MB
+Count         2519072 100KB   8192    6120KB  860KB   64KB    41MB    118MB
+14:07:35 : INFO    : 
+----------------------------------------------------------------------------------------------------
+       Slot 0              Slot 2              Slot 3              Slot 4       
+Process   Mem(B)    Process   Mem(B)    Process   Mem(B)    Process   Mem(B)    
+----------------------------------------------------------------------------------------------------
+Fpd       1310720   IpLc      14680064  IpLc      10485760  IpLc      3407872   
+Fabric    1310720   Fpd       1318912   Fpd       1318912   Fpd       1318912   
+Bgp4      7995392   NseMgr    1310720   NseMgr    1310720   NseMgr    20971520  
+Dfn       2359296   Evl       1310720   Evl       1310720   Evl       1310720   
+Qosd      1310720   NSM       8388608   NSM       8388608   NSM       8388608   
+PPPdMc    1310720   Inspectd  5701632   Inspectd  5701632   Inspectd  5701632   
+DHCPdMC   2363392   Count     22020096  Count     22020096  Count     42991616  
+Cli       2523136   PPPd      2359296   PPPd      2359296   PPPd      2359296   
+NSM       38797312  DHCPdLC   1310720   DHCPdLC   1310720   DHCPdLC   1310720   
+Ntp       1310720   Evt       1310720   Evt       1310720   Evt       1310720   
+MIPd      1310720   PPPoE     1310720   PPPoE     1310720   PPPoE     1310720   
+Inets     1310720   Iked      13631488  Iked      12582912  Iked      12582912  
+Smid      3440640   
+Logind    1310720   
+Evl       4456448   
+Fsync     1310720   
+TunMgr    2359296   
+IkedMc    2920448   
+Evt       2359296   
+SLA       1314816   
+CtxMgr    2359296   
+Ospf      4521984   
+Ip        8388608   
+EvlColl   1310720   
+PPPoEMC   1310720   
+Rip       3407872   
+Aaad      10485760  
+CDR       1310720   
+Snmpd     2359296   
+
+14:07:35 : CMD     : nandi     : show version 
+Slot 0 Information (IMC1):
+----------------------------------------------------------------------------
+StokeOS Release 4.6B2 (2011061321).
+Built Mon Jun 13 22:46:33 PDT 2011 by builder.
+
+Stoke uptime is 6 weeks, 6 days, 14 hours, 47 minutes
+Card uptime is 6 weeks, 6 days, 14 hours, 47 minutes
+
+System restart at Wed Jul 13 17:50:15 UTC 2011
+Card restart at Wed Jul 13 17:50:15 UTC 2011
+Restart by software
+
+Firmware Version: v91
+
+Stoke-Boot Version
+  *Booted Primary: StokeBoot Release 4.2 (2009120817).
+   Booted Backup:  StokeBoot Release 4.2 (2009120817).
+Stoke-Bloader Version
+  *Booted Primary: Stoke Bootloader Release 4.6B2 (2011010618).
+   Booted Backup:  Stoke Bootloader Release 4.6B2 (2011010618).
+14:07:35 : INFO    : ##################################################
+14:07:35 : INFO    : SSX VERSION DETAILS:
+14:07:35 : INFO    : {'build': '2011061321', 'branch': '4.6B2'}
+14:07:35 : INFO    : ##################################################
+14:07:35 : CMD     : nandi     : context local 
+14:07:36 : CMD     : nandi     : dir /dump 
+ERROR: Path "/dump": Directory does not exist
+14:07:36 : DEBUG   : Trying to connect to host ganga
+14:07:36 : CMD     : ganga     : login:  regress
+14:07:36 : CMD     : ganga     : Password: gleep7
+14:07:36 : DEBUG   : Changing the prompt from default to the name of the host.
+14:07:36 : OUTPUT  : ganga     : ]0;regress@ganga:~
+14:07:36 : INFO    : Connected to host ganga
+14:07:36 : DEBUG   : Trying to connect to host godavari
+14:07:37 : CMD     : godavari  : login:  regress
+14:07:37 : CMD     : godavari  : Password: gleep7
+14:07:37 : DEBUG   : Changing the prompt from default to the name of the host.
+14:07:37 : OUTPUT  : godavari  : ]0;regress@godavari:~
+14:07:37 : INFO    : Connected to host godavari
+14:07:37 : DEBUG   : Trying to connect to host krishna
+14:07:38 : CMD     : krishna   : login:  regress
+14:07:38 : CMD     : krishna   : Password: gleep7
+14:07:38 : DEBUG   : Changing the prompt from default to the name of the host.
+14:07:38 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:38 : INFO    : Connected to host krishna
+14:07:38 : INFO    : Connecting to the cisco 
+14:07:38 : DEBUG   : has the IP of: 10.10.10.120
+14:07:40 : CMD     : terminal length 512
+14:07:40 : CMD     : terminal width 512
+14:07:40 : CMD     : configure term
+14:07:40 : CMD     : no logging console
+14:07:40 : CMD     : end
+14:07:41 : CMD     : nandi     : show card  | grep GLC 
+    2 GLC1    Running                  0110323060000077 4x1000Base-X     02.07
+    3 GLC1    Running                  0110323060000099 4x1000Base-X     02.07
+    4 GLC2    Running                  0131001021000020 4x1000Base-X     10.01
+14:07:41 : INFO    : Clearing the health stats
+14:07:41 : CMD     : nandi     : show clock 
+Wed Aug 31 2011 08:37:39 UTC
+14:07:42 : CMD     : nandi     : clear syscount 
+14:07:42 : INFO    : Clearing the core files
+
+14:07:42 : CMD     : nandi     : copy /hd/dump/slot0/*.core.gz /hd/dump 
+0 files copied.
+14:07:43 : CMD     : nandi     : delete /hd/dump/slot0/*.core.gz noconfirm 
+0 files deleted.
+14:07:43 : CMD     : nandi     : copy /hd/dump/slot1/*.core.gz /hd/dump 
+0 files copied.
+14:07:43 : CMD     : nandi     : delete /hd/dump/slot1/*.core.gz noconfirm 
+0 files deleted.
+14:07:44 : CMD     : nandi     : copy /hd/dump/slot2/*.core.gz /hd/dump 
+0 files copied.
+14:07:44 : CMD     : nandi     : delete /hd/dump/slot2/*.core.gz noconfirm 
+0 files deleted.
+14:07:44 : CMD     : nandi     : copy /hd/dump/slot3/*.core.gz /hd/dump 
+0 files copied.
+14:07:44 : CMD     : nandi     : delete /hd/dump/slot3/*.core.gz noconfirm 
+0 files deleted.
+14:07:45 : CMD     : nandi     : copy /hd/dump/slot4/*.core.gz /hd/dump 
+0 files copied.
+14:07:45 : CMD     : nandi     : delete /hd/dump/slot4/*.core.gz noconfirm 
+0 files deleted.
+14:07:45 : CMD     : krishna   : linux-test#  sudo ls /xpm/autoexec.cfg
+14:07:46 : CMD     : krishna   : Password: gleep7
+14:07:46 : OUTPUT  : krishna   : /xpm/autoexec.cfg
+14:07:46 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:46 : CMD     : krishna   : linux-test#  sudo rm /xpm/autoexec.cfg
+14:07:46 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:46 : ERROR   : invalide option w
+14:07:46 : CMD     : krishna   : linux-test#  sudo touch /xpm/autoexec.cfg
+14:07:46 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:46 : CMD     : krishna   : linux-test#  sudo chmod a+rwx /xpm/autoexec.cfg 
+14:07:46 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:46 : CMD     : krishna   : linux-test#  sudo echo '' >> /xpm/autoexec.cfg
+14:07:46 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:47 : CMD     : krishna   : linux-test#  sudo echo 'ike log            stdout off' >> /xpm/autoexec.cfg
+14:07:47 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:47 : CMD     : krishna   : linux-test#  sudo echo 'alias AUTH         eap' >> /xpm/autoexec.cfg
+14:07:47 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:47 : CMD     : krishna   : linux-test#  sudo echo 'ike listen any  500' >> /xpm/autoexec.cfg
+14:07:47 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:47 : CMD     : krishna   : linux-test#  sudo echo 'ipsec addr add 33.33.33.33 255.255.255.0 1' >> /xpm/autoexec.cfg
+14:07:47 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:47 : CMD     : krishna   : linux-test#  sudo echo 'ipsec addr show' >> /xpm/autoexec.cfg
+14:07:47 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:48 : CMD     : krishna   : linux-test#  sudo echo 'ike eap sim tripletfile simtriplets.txt' >> /xpm/autoexec.cfg
+14:07:48 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:48 : CMD     : krishna   : linux-test#  sudo echo '' >> /xpm/autoexec.cfg
+14:07:48 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:48 : CMD     : krishna   : linux-test#  sudo echo '' >> /xpm/autoexec.cfg
+14:07:48 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:48 : CMD     : krishna   : linux-test#  sudo echo '#test multiclient set remote           4.4.4.4 500' >> /xpm/autoexec.cfg
+14:07:48 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:49 : CMD     : krishna   : linux-test#  sudo echo 'test multiclient set remote           96.1.1.1 500' >> /xpm/autoexec.cfg
+14:07:49 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:49 : CMD     : krishna   : linux-test#  sudo echo 'test multiclient set local            33.33.33.33  500' >> /xpm/autoexec.cfg
+14:07:49 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:49 : CMD     : krishna   : linux-test#  sudo echo 'test multiclient set numclients       1' >> /xpm/autoexec.cfg
+14:07:49 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:49 : CMD     : krishna   : linux-test#  sudo echo '#test multiclient set numclients        100' >> /xpm/autoexec.cfg
+14:07:49 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:49 : CMD     : krishna   : linux-test#  sudo echo 'test multiclient set ph1 exchange      ikev2' >> /xpm/autoexec.cfg
+14:07:49 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:50 : CMD     : krishna   : linux-test#  sudo echo 'test multiclient set ph1 auth          eap' >> /xpm/autoexec.cfg
+14:07:50 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:50 : CMD     : krishna   : linux-test#  sudo echo 'test multiclient set ph1 encr          aes-128' >> /xpm/autoexec.cfg
+14:07:50 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:50 : CMD     : krishna   : linux-test#  sudo echo 'test multiclient set ph1 hash          sha1' >> /xpm/autoexec.cfg
+14:07:50 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:50 : CMD     : krishna   : linux-test#  sudo echo 'test multiclient set ph1 dh            5' >> /xpm/autoexec.cfg
+14:07:50 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:50 : CMD     : krishna   : linux-test#  sudo echo 'test multiclient set ph1 life          12000' >> /xpm/autoexec.cfg
+14:07:50 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:51 : CMD     : krishna   : linux-test#  sudo echo 'test multiclient set ph1 psk           12345' >> /xpm/autoexec.cfg
+14:07:51 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:51 : CMD     : krishna   : linux-test#  sudo echo '#test multiclient set ph1 myid          userfqdn 165012345@stoke1' >> /xpm/autoexec.cfg
+14:07:51 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:51 : CMD     : krishna   : linux-test#  sudo echo 'test multiclient set ph1 myid          userfqdn 16502102800650210@stoke1' >> /xpm/autoexec.cfg
+14:07:51 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:51 : CMD     : krishna   : linux-test#  sudo echo '#test multiclient set max-concurrent    1' >> /xpm/autoexec.cfg
+14:07:51 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:51 : CMD     : krishna   : linux-test#  sudo echo 'test multiclient set max-concurrent    10' >> /xpm/autoexec.cfg
+14:07:52 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:52 : CMD     : krishna   : linux-test#  sudo echo 'test multiclient set incr-ph1-life     1' >> /xpm/autoexec.cfg
+14:07:52 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:52 : CMD     : krishna   : linux-test#  sudo echo 'test multiclient set incr-local-addr    1' >> /xpm/autoexec.cfg
+14:07:52 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:52 : CMD     : krishna   : linux-test#  sudo echo 'test multiclient set incr-remote-addr   0' >> /xpm/autoexec.cfg
+14:07:52 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:52 : CMD     : krishna   : linux-test#  sudo echo 'test multiclient set ph2 proto         esp' >> /xpm/autoexec.cfg
+14:07:52 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:53 : CMD     : krishna   : linux-test#  sudo echo 'test multiclient set ph2 encap         tunnel' >> /xpm/autoexec.cfg
+14:07:53 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:53 : CMD     : krishna   : linux-test#  sudo echo 'test multiclient set ph2 encr          aes-128' >> /xpm/autoexec.cfg
+14:07:53 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:53 : CMD     : krishna   : linux-test#  sudo echo 'test multiclient set ph2 hash          sha1' >> /xpm/autoexec.cfg
+14:07:53 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:53 : CMD     : krishna   : linux-test#  sudo echo 'test  multiclient set ph2 dh           2' >> /xpm/autoexec.cfg
+14:07:53 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:53 : CMD     : krishna   : linux-test#  sudo echo 'test multiclient set ph2 life          12000' >> /xpm/autoexec.cfg
+14:07:53 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:54 : CMD     : krishna   : linux-test#  sudo echo 'test multiclient set ph2-wild' >> /xpm/autoexec.cfg
+14:07:54 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:54 : CMD     : krishna   : linux-test#  sudo echo 'test multiclient set delay 200' >> /xpm/autoexec.cfg
+14:07:54 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:54 : CMD     : krishna   : linux-test#  sudo echo 'test multiclient configure' >> /xpm/autoexec.cfg
+14:07:54 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:54 : CMD     : krishna   : linux-test#  sudo echo 'ike start' >> /xpm/autoexec.cfg
+14:07:54 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:54 : CMD     : krishna   : linux-test#  sudo echo 'test multiclient connect' >> /xpm/autoexec.cfg
+14:07:54 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:55 : CMD     : krishna   : linux-test#  sudo echo '' >> /xpm/autoexec.cfg
+14:07:55 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:55 : CMD     : krishna   : linux-test#  sudo echo '' >> /xpm/autoexec.cfg
+14:07:55 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:55 : CMD     : krishna   : linux-test#  sudo echo '' >> /xpm/autoexec.cfg
+14:07:55 : OUTPUT  : krishna   : ]0;regress@krishna:~
+14:07:55 : CMD     : godavari  : linux-test#  sudo ls /a/radius1/etc/raddb/users
+14:07:56 : CMD     : godavari  : Password: gleep7
+14:07:56 : OUTPUT  : godavari  : /a/radius1/etc/raddb/users
+14:07:56 : OUTPUT  : godavari  : ]0;regress@godavari:~
+14:07:56 : CMD     : godavari  : linux-test#  sudo rm /a/radius1/etc/raddb/users
+14:07:56 : OUTPUT  : godavari  : ]0;regress@godavari:~
+14:07:56 : ERROR   : invalide option w
+14:07:56 : CMD     : godavari  : linux-test#  sudo touch /a/radius1/etc/raddb/users
+14:07:56 : OUTPUT  : godavari  : ]0;regress@godavari:~
+14:07:56 : CMD     : godavari  : linux-test#  sudo chmod a+rwx /a/radius1/etc/raddb/users 
+14:07:56 : OUTPUT  : godavari  : ]0;regress@godavari:~
+14:07:56 : CMD     : godavari  : linux-test#  sudo echo '' >> /a/radius1/etc/raddb/users
+14:07:56 : OUTPUT  : godavari  : ]0;regress@godavari:~
+14:07:57 : CMD     : godavari  : linux-test#  sudo echo 'DEFAULT User-Name =~ "1650[0-9]*@stoke1",Auth-Type := EAP,EAP-Type := SIM' >> /a/radius1/etc/raddb/users
+14:07:57 : OUTPUT  : godavari  : ]0;regress@godavari:~
+14:07:57 : CMD     : godavari  : linux-test#  sudo echo '        EAP-Sim-Rand1 = 0x8552dae4911cf762dd2455253f408647,' >> /a/radius1/etc/raddb/users
+14:07:57 : OUTPUT  : godavari  : ]0;regress@godavari:~
+14:07:57 : CMD     : godavari  : linux-test#  sudo echo '        EAP-Sim-SRES1 = 0x8543f8d7,' >> /a/radius1/etc/raddb/users
+14:07:57 : OUTPUT  : godavari  : ]0;regress@godavari:~
+14:07:57 : CMD     : godavari  : linux-test#  sudo echo '        EAP-Sim-KC1 = 0xd549911555bdff9e,' >> /a/radius1/etc/raddb/users
+14:07:57 : OUTPUT  : godavari  : ]0;regress@godavari:~
+14:07:57 : CMD     : godavari  : linux-test#  sudo echo '        EAP-Sim-Rand2 = 0x8f4833e2712070145c1899a9af279675,' >> /a/radius1/etc/raddb/users
+14:07:57 : OUTPUT  : godavari  : ]0;regress@godavari:~
+14:07:58 : CMD     : godavari  : linux-test#  sudo echo '        EAP-Sim-SRES2 = 0x8f5911d1,' >> /a/radius1/etc/raddb/users
+14:07:58 : OUTPUT  : godavari  : ]0;regress@godavari:~
+14:07:58 : CMD     : godavari  : linux-test#  sudo echo '        EAP-Sim-KC2 = 0x35751663d4813312,' >> /a/radius1/etc/raddb/users
+14:07:58 : OUTPUT  : godavari  : ]0;regress@godavari:~
+14:07:58 : CMD     : godavari  : linux-test#  sudo echo '        EAP-Sim-Rand3 = 0x9640c3e106cec1365b107102a56bf7e9,' >> /a/radius1/etc/raddb/users
+14:07:58 : OUTPUT  : godavari  : ]0;regress@godavari:~
+14:07:58 : CMD     : godavari  : linux-test#  sudo echo '        EAP-Sim-SRES3 = 0x9651e1d2,' >> /a/radius1/etc/raddb/users
+14:07:58 : OUTPUT  : godavari  : ]0;regress@godavari:~
+14:07:58 : CMD     : godavari  : linux-test#  sudo echo '        EAP-Sim-KC3 = 0x429ba741d389dbb9,' >> /a/radius1/etc/raddb/users
+14:07:59 : OUTPUT  : godavari  : ]0;regress@godavari:~
+14:07:59 : CMD     : godavari  : linux-test#  sudo echo '        Stoke-ACL-In = session_acl,' >> /a/radius1/etc/raddb/users
+14:07:59 : OUTPUT  : godavari  : ]0;regress@godavari:~
+14:07:59 : CMD     : godavari  : linux-test#  sudo echo '        Stoke-ACL-Out = session_acl,' >> /a/radius1/etc/raddb/users
+14:07:59 : OUTPUT  : godavari  : ]0;regress@godavari:~
+14:07:59 : CMD     : godavari  : linux-test#  sudo echo '        Framed-IP-Address = 255.255.255.254,' >> /a/radius1/etc/raddb/users
+14:07:59 : OUTPUT  : godavari  : ]0;regress@godavari:~
+14:07:59 : CMD     : godavari  : linux-test#  sudo echo '        Framed-IP-Netmask = 255.255.255.255' >> /a/radius1/etc/raddb/users
+14:07:59 : OUTPUT  : godavari  : ]0;regress@godavari:~
+14:08:00 : CMD     : godavari  : linux-test#  sudo echo '' >> /a/radius1/etc/raddb/users
+14:08:00 : OUTPUT  : godavari  : ]0;regress@godavari:~
+14:08:00 : CMD     : godavari  : linux-test#  sudo echo '' >> /a/radius1/etc/raddb/users
+14:08:00 : OUTPUT  : godavari  : ]0;regress@godavari:~
+14:08:00 : CMD     : godavari  : linux-test#  cd /a/radius1/sbin/
+14:08:00 : OUTPUT  : godavari  : ]0;regress@godavari:/a/radius1/sbin
+14:08:10 : CMD     : krishna   : linux-test#  cd /xpm
+14:08:10 : OUTPUT  : krishna   : ]0;regress@krishna:/xpm
+14:08:10 : CMD     : krishna   : linux-test#  sudo /sbin/rmmod xpressvpn.ko
+14:08:10 : OUTPUT  : krishna   : ]0;regress@krishna:/xpm
+14:08:11 : CMD     : krishna   : linux-test#  sudo /sbin/insmod xpressvpn.ko
+14:08:11 : OUTPUT  : krishna   : ]0;regress@krishna:/xpm
+14:08:11 : CMD     : krishna   : linux-test#  sudo ./start_ike
+14:08:12 : OUTPUT  : krishna   : 08-31-2011 20:16:00.345 INFO sdb_sock.c:128 Bound IPSEC Management API Socket (fd=3) to Port 5003
+14:08:12 : OUTPUT  : krishna   : 08-31-2011 20:16:00.345 INFO main.c:85 XpressVPN 4.10.4 (build 5) Fri Feb  8 08:18:47 PST 2008
+14:08:12 : OUTPUT  : krishna   : 08-31-2011 20:16:00.347 INFO sdb_sock.c:110 Bound IPSEC Management Event Socket (fd=4) to Port 5004
+14:08:12 : OUTPUT  : krishna   : 08-31-2011 20:16:00.347 INFO admin.c:73 Admin Listener started on 0.0.0.0[5555] (fd=5)
+14:08:12 : OUTPUT  : krishna   : ike log            stdout off
+14:08:12 : OUTPUT  : krishna   : alias AUTH         eap
+14:08:12 : OUTPUT  : krishna   : ike listen any  500
+14:08:12 : OUTPUT  : krishna   : ipsec addr add 33.33.33.33 255.255.255.0 1
+14:08:12 : OUTPUT  : krishna   : ipsec addr show
+14:08:12 : OUTPUT  : krishna   :  1   33.33.33.33      255.255.255.0     default
+14:08:12 : OUTPUT  : krishna   : ike eap sim tripletfile simtriplets.txt
+14:08:12 : OUTPUT  : krishna   : test multiclient set remote           96.1.1.1 500
+14:08:12 : OUTPUT  : krishna   : test multiclient set local            33.33.33.33  500
+14:08:12 : OUTPUT  : krishna   : test multiclient set numclients       1
+14:08:12 : OUTPUT  : krishna   : test multiclient set ph1 exchange      ikev2
+14:08:12 : OUTPUT  : krishna   : test multiclient set ph1 auth          eap
+14:08:12 : OUTPUT  : krishna   : test multiclient set ph1 encr          aes-128
+14:08:12 : OUTPUT  : krishna   : test multiclient set ph1 hash          sha1
+14:08:12 : OUTPUT  : krishna   : test multiclient set ph1 dh            5
+14:08:12 : OUTPUT  : krishna   : test multiclient set ph1 life          12000
+14:08:12 : OUTPUT  : krishna   : test multiclient set ph1 psk           12345
+14:08:12 : OUTPUT  : krishna   : test multiclient set ph1 myid          userfqdn 16502102800650210@stoke1
+14:08:12 : OUTPUT  : krishna   : test multiclient set max-concurrent    10
+14:08:12 : OUTPUT  : krishna   : test multiclient set incr-ph1-life     1
+14:08:12 : OUTPUT  : krishna   : test multiclient set incr-local-addr    1
+14:08:12 : OUTPUT  : krishna   : test multiclient set incr-remote-addr   0
+14:08:12 : OUTPUT  : krishna   : test multiclient set ph2 proto         esp
+14:08:12 : OUTPUT  : krishna   : test multiclient set ph2 encap         tunnel
+14:08:12 : OUTPUT  : krishna   : test multiclient set ph2 encr          aes-128
+14:08:12 : OUTPUT  : krishna   : test multiclient set ph2 hash          sha1
+14:08:12 : OUTPUT  : krishna   : test  multiclient set ph2 dh           2
+14:08:12 : OUTPUT  : krishna   : test multiclient set ph2 life          12000
+14:08:12 : OUTPUT  : krishna   : test multiclient set ph2-wild
+14:08:12 : OUTPUT  : krishna   : test multiclient set delay 200
+14:08:12 : OUTPUT  : krishna   : test multiclient configure
+14:08:12 : OUTPUT  : krishna   : ike start
+14:08:12 : OUTPUT  : krishna   : Starting IKE Task
+14:08:12 : OUTPUT  : krishna   : test multiclient connect
+14:08:12 : OUTPUT  : krishna   : Initiating 1 client session
+14:08:12 : OUTPUT  : krishna   : Intersession delay is 200 msecs
+14:08:12 : OUTPUT  : krishna   : Max concurrent sessions in progress 10
+14:08:12 : OUTPUT  : krishna   : This may take a while. Please wait
+14:08:12 : OUTPUT  : krishna   : Begin IKEv2 Phase1 as Initiator from 33.33.33.33 to 96.1.1.1
+14:08:23 : CMD     : nandi     : show ike-session detail remote 33.33.33.33 
+Wed Aug 31 08:38:20 UTC 2011.
+
+-------------------------------------------------------------------------------
+SLOT                          : 2
+Session handle                : fc44021c
+IKE Version                   : 2
+Nat Status                    : Permitted
+Remote tunnel end point       : 33.33.33.33 Port: 500
+Local tunnel end point        : 96.1.1.1 Port: 500
+Tunnel Setup Role             : Responder-Only
+Active Session Role           : Responder
+Cookie-pair                   : 9eba1baeadcae97d:a0c94583ecf3c143
+IKE-SA IDi                    : 16502102800650210@stoke1, USER_FQDN
+IKE-SA IDr                    : none
+IKE-SA gw-auth method         : pre-shared key
+IKE-SA peer-auth method       : eap
+IKE-SA sec policy             : AES128, SHA-1, D-H group 5
+IKE-SA PRF                    : SHA-1
+IKE-SA time established       : none
+IKE-SA life time              : 3600 secs
+IKE-SA time remaining         : 1189 secs
+IKE-SA Negotiation Count      : 0
+IP config assigned : IP addr  : none
+                   : Netmask  : none
+                   : Pri DNS  : none
+                   : Sec DNS  : none
+TSi       : IP addr range     :  - 
+            Port range        : 0 - 0
+TSr       : IP addr range     :  - 
+            Port range        : 0 - 0
+Child-SA sec policy           : none, none
+Child-SA time established     : none
+Child-SA life time            : none
+Child-SA time remaining       : none
+Child-SA Negotiation Count    : 0
+Out SPI                       : 0x0
+DPD Status                    : Enabled
+DPD ack received at           : none
+DPD Retries                   : 0
+Session State                 : IKE-SA EAP SENT TO SRVR, CHILD-SA IDLING
+Protocol                      : none
+IPSec Mode                    : none
+-------------------------------------------------------------------------------
+14:08:23 : RESULT  : ##################################################
+14:08:23 : RESULT  : test_ACL_Func_076: FAIL
+14:08:23 : RESULT  : ##################################################
+14:08:23 : RESULT  : 
+
+Traceback (most recent call last):
+  File "ACL_Func_076.py", line 317, in test_ACL_Func_076
+    self.tunnelUp()
+  File "ACL_Func_076.py", line 242, in tunnelUp
+    self.failUnless("ESTABLISHED" in ssx_show_op2["session_state"],"failed to find SA in Session")
+AssertionError: failed to find SA in Session
+
+14:08:23 : CMD     : ganga     : linux-test#  ike reset
+14:08:23 : OUTPUT  : ganga     : -bash: ike: command not found
+14:08:23 : OUTPUT  : ganga     : ]0;regress@ganga:~
+14:08:33 : CMD     : ganga     : linux-test#  exit
+14:08:33 : ERROR   : Line failed to run: exit
+Traceback (most recent call last):
+  File "../../../lib/py/Host.py", line 271, in _cmd
+    result = self.ses.expect(keys, timeout)
+  File "../../../lib/py/pexpect.py", line 1311, in expect
+    return self.expect_list(compiled_pattern_list, timeout, searchwindowsize)
+  File "../../../lib/py/pexpect.py", line 1325, in expect_list
+    return self.expect_loop(searcher_re(pattern_list), timeout, searchwindowsize)
+  File "../../../lib/py/pexpect.py", line 1398, in expect_loop
+    raise EOF (str(e) + '\n' + str(self))
+EOF: End Of File (EOF) in read_nonblocking(). Exception style platform.
+<pexpect.spawn object at 0xa418aec>
+version: 2.3 ($Revision: 1.4 $)
+command: /usr/kerberos/bin/telnet
+args: ['/usr/kerberos/bin/telnet', '-E', '-8', 'ganga']
+searcher: searcher_re:
+    0: re.compile("[Pp]assword:")
+    1: re.compile("[
+]NG40.sgsn>\s")
+    2: re.compile("[
+]NG40.rnc>\s")
+    3: re.compile("--- more ---")
+    4: re.compile("([
+]vpn>\s|[
+]%\s)")
+    5: re.compile("[Uu]sername: $")
+    6: re.compile("linux\-test#\s$")
+    7: re.compile("[
+]Press c and <enter> to continue and stop the previous test or any other input and <enter> to terminate:")
+buffer (last 100 chars): 
+before (last 100 chars): exit
+logout
+[H[2JConnection closed by foreign host.
+
+after: <class 'pexpect.EOF'>
+match: None
+match_index: None
+exitstatus: 1
+flag_eof: True
+pid: 5335
+child_fd: 7
+closed: False
+timeout: 10
+delimiter: <class 'pexpect.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.1
+delayafterclose: 0.1
+delayafterterminate: 0.1
+14:08:33 : ERROR   : ##################################################
+14:08:33 : ERROR   : test_ACL_Func_076 errored out.
+14:08:33 : ERROR   : ##################################################
+14:08:33 : ERROR   : 
+
+Traceback (most recent call last):
+  File "ACL_Func_076.py", line 88, in tearDown
+    self.linux.cmd("exit")
+  File "../../../lib/py/Host.py", line 211, in cmd
+    return self._cmd(line, send, timeout)
+  File "../../../lib/py/Host.py", line 271, in _cmd
+    result = self.ses.expect(keys, timeout)
+  File "../../../lib/py/pexpect.py", line 1311, in expect
+    return self.expect_list(compiled_pattern_list, timeout, searchwindowsize)
+  File "../../../lib/py/pexpect.py", line 1325, in expect_list
+    return self.expect_loop(searcher_re(pattern_list), timeout, searchwindowsize)
+  File "../../../lib/py/pexpect.py", line 1398, in expect_loop
+    raise EOF (str(e) + '\n' + str(self))
+EOF: End Of File (EOF) in read_nonblocking(). Exception style platform.
+<pexpect.spawn object at 0xa418aec>
+version: 2.3 ($Revision: 1.4 $)
+command: /usr/kerberos/bin/telnet
+args: ['/usr/kerberos/bin/telnet', '-E', '-8', 'ganga']
+searcher: searcher_re:
+    0: re.compile("[Pp]assword:")
+    1: re.compile("[
+]NG40.sgsn>\s")
+    2: re.compile("[
+]NG40.rnc>\s")
+    3: re.compile("--- more ---")
+    4: re.compile("([
+]vpn>\s|[
+]%\s)")
+    5: re.compile("[Uu]sername: $")
+    6: re.compile("linux\-test#\s$")
+    7: re.compile("[
+]Press c and <enter> to continue and stop the previous test or any other input and <enter> to terminate:")
+buffer (last 100 chars): 
+before (last 100 chars): exit
+logout
+[H[2JConnection closed by foreign host.
+
+after: <class 'pexpect.EOF'>
+match: None
+match_index: None
+exitstatus: 1
+flag_eof: True
+pid: 5335
+child_fd: 7
+closed: False
+timeout: 10
+delimiter: <class 'pexpect.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.1
+delayafterclose: 0.1
+delayafterterminate: 0.1
+

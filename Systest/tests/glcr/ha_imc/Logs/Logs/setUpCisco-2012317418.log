@@ -1,0 +1,52 @@
+04:18:29 : TEST    : ##################################################
+04:18:29 : TEST    : Python Version: Python 2.5
+04:18:29 : TEST    : ##################################################
+04:18:29 : TEST    : ##################################################
+04:18:29 : TEST    : test_setUpCisco
+04:18:29 : TEST    : ##################################################
+04:18:29 : INFO    : 
+#######################################################################
+#
+# Copyright (c) Stoke, Inc.
+# All Rights Reserved.
+#
+# This code is confidential and proprietary to Stoke, Inc. and may only
+# be used under a license from Stoke.
+#
+#######################################################################
+
+DESCRIPTION: This script is used to setup all the cisco interfaces which are used in test topology.
+TEST MATRIX: 
+TEST CASE  : NA
+TOPOLOGY   : GLC-R Setup with IXIA Connectivity
+
+HOW TO RUN : python2.5 setUpCisco.py <route-Y/N>
+AUTHOR     : rajshekar@stoke.com
+REVIEWER   : 
+
+04:18:29 : OUTPUT  : Trying to connect to CISCO host c4900m-15-con 
+04:18:32 : CMD     : terminal length 512
+04:18:32 : CMD     : terminal width 512
+04:18:32 : CMD     : configure term
+04:18:33 : CMD     : no logging console
+04:18:33 : CMD     : end
+04:18:33 : OUTPUT  : 
+**********Setting up the cisco device used in test**************
+
+04:18:33 : INFO    : 
+Setting up Cisco
+
+04:18:33 : INFO    : Enable routing at Cisco
+04:18:33 : CMD     : conf t
+04:18:33 : CMD     : ip routing
+04:18:33 : CMD     : exit
+04:18:34 : INFO    : Creating the required vrfs
+04:18:34 : CMD     : configure terminal
+04:18:34 : CMD     : no ip vrf card3
+04:18:34 : CMD     : ip vrf card3
+04:18:35 : CMD     : rd 2:3
+04:18:35 : CMD     : exit
+04:18:35 : CMD     : no ip vrf card2
+04:18:36 : CMD     : ip vrf card2
+04:18:36 : CMD     : rd 2:9
+04:18:36 : CMD     : exit

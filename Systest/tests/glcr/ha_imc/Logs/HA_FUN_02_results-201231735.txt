@@ -1,0 +1,14 @@
+test_HA_FUN_02 (__main__.test_HA_FUN_02) ... ERROR
+
+======================================================================
+ERROR: test_HA_FUN_02 (__main__.test_HA_FUN_02)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "HA_FUN_02.py", line 80, in setUp
+    self.cisco = CISCO(cisco["ip_addr"])
+TypeError: 'module' object is not callable
+
+----------------------------------------------------------------------
+Ran 1 test in 0.240s
+
+FAILED (errors=1)

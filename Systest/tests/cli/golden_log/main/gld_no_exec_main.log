@@ -1,0 +1,3217 @@
+no 
+<<<<help_begin
+debug     Debug logging
+terminal  Terminal settings
+>>>>help_end
+[KStoke[local]#no[K<!>[Kno debug 
+<<<<help_begin
+all              Disable all log debugging
+check            Determine how the various selections are applied
+circuit-session  Circuit/session handle debugging
+context          Context debugging
+module           Module debugging
+next-session     Next session bring-up debugging
+process-module   Process module debugging
+slot             Slot debugging
+>>>>help_end
+[KStoke[local]#no debug[K<!>[Kno debug all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug all[K<!>[Kno debug all
+Stoke[local]#<!>[Kno debug check 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug check Stoke[local]#[K<!>[Kno debug check
+Stoke[local]#<!>[Kno debug circuit-session 
+<<<<help_begin
+0..ffffffff  Circuit or session handle
+>>>>help_end
+[KStoke[local]#no debug circuit-session Stoke[local]#[K<!>[Kno debug circuit-session ffffffff 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug circuit-session ffffffff Stoke[local]#[K<!>[Kno debug circuit-session ffffffff
+Stoke[local]#<!>[Kno debug circuit-session 11 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug circuit-session 11 Stoke[local]#[K<!>[Kno debug circuit-session 11
+Stoke[local]#<!>[Kno debug circuit-session 0 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug circuit-session 0 Stoke[local]#[K<!>[Kno debug circuit-session 0
+Stoke[local]#<!>[Kno debug context 
+<<<<help_begin
+0..4294967295  Context index
+>>>>help_end
+[KStoke[local]#no debug context Stoke[local]#[K<!>[Kno debug context 4294967295 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug context 4294967295 Stoke[local]#[K<!>[Kno debug context 4294967295
+Stoke[local]#<!>[Kno debug context 0 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug context 0 Stoke[local]#[K<!>[Kno debug context 0
+Stoke[local]#<!>[Kno debug context 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug context 55 Stoke[local]#[K<!>[Kno debug context 55
+Stoke[local]#<!>[Kno debug module 
+<<<<help_begin
+aaad      Module aaad logging
+aaadlc    Module aaadlc logging
+acllc     Module acllc logging
+adm1029   Module adm1029 logging
+bc        Module bc logging
+bgp4      Module bgp4 logging
+cardagt   Module cardagt logging
+cardmgr   Module cardmgr logging
+cctlc     Module cctlc logging
+cctmc     Module cctmc logging
+cdrlib    Module cdrlib logging
+cdrproc   Module cdrproc logging
+cdrtest   Module cdrtest logging
+clock     Module clock logging
+cmoagent  Module cmoagent logging
+crh       Module crh logging
+ctxmgr    Module ctxmgr logging
+dhcpdlc   Module dhcpdlc logging
+dhcpdmc   Module dhcpdmc logging
+dns       Module dns logging
+envmon    Module envmon logging
+evt       Module evt logging
+fabric    Module fabric logging
+fpd       Module fpd logging
+fsync     Module fsync logging
+fuinit    Module fuinit logging
+ha        Module ha logging
+iked      Module iked logging
+imcas     Module imcas logging
+inets     Module inets logging
+ip4       Module ip4 logging
+ip46      Module ip46 logging
+ip6       Module ip6 logging
+ipacl     Module ipacl logging
+iplc      Module iplc logging
+ixplib    Module ixplib logging
+l2tpdlc   Module l2tpdlc logging
+l2tpdmc   Module l2tpdmc logging
+libl2tp   Module libl2tp logging
+libppp    Module libppp logging
+logind    Module logind logging
+macif     Module macif logging
+mbc       Module mbc logging
+mbccgw    Module mbccgw logging
+mbcrtpd   Module mbcrtpd logging
+mbcsip    Module mbcsip logging
+mbcss7    Module mbcss7 logging
+mbcugw    Module mbcugw logging
+mbcureg   Module mbcureg logging
+n2        Module n2 logging
+nsemgr    Module nsemgr logging
+nsm       Module nsm logging
+ntp       Module ntp logging
+ospf      Module ospf logging
+pppd      Module pppd logging
+pppdmc    Module pppdmc logging
+pppoe     Module pppoe logging
+pppoedmc  Module pppoedmc logging
+procagt   Module procagt logging
+procmgr   Module procmgr logging
+qos       Module qos logging
+qoslc     Module qoslc logging
+rip       Module rip logging
+rtpolicy  Module rtpolicy logging
+smid      Module smid logging
+snmpd     Module snmpd logging
+storaged  Module storaged logging
+tunmgr    Module tunmgr logging
+>>>>help_end
+[KStoke[local]#no debug module Stoke[local]#[K<!>[Kno debug module aaad 
+<<<<help_begin
+all                           All debugging for this module
+authorization                 AAAd authorization debugging
+configuration                 AAAd configuration debugging
+exception                     AAAd exception debugging
+general                       AAAd general debugging
+ha                            AAAd high availability
+initialization                AAAd initialization debugging
+radius-dynamic-authorization  Radius Dynamic Authorization
+radius-exception              Radius exception debugging
+radius-packet                 Radius packet debugging
+radius-server                 Radius server debugging
+ses-provisioning              AAAd session provisioning debugging
+session                       AAAd session debugging
+>>>>help_end
+[KStoke[local]#no debug module aaad Stoke[local]#[K<!>[Kno debug module aaad all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module aaad all Stoke[local]#[K<!>[Kno debug module aaad all
+Stoke[local]#<!>[Kno debug module aaad authorization 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module aaad authorization Stoke[local]#[K<!>[Kno debug module aaad authorization
+Stoke[local]#<!>[Kno debug module aaad configuration 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module aaad configuration Stoke[local]#[K<!>[Kno debug module aaad configuration
+Stoke[local]#<!>[Kno debug module aaad exception 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module aaad exception Stoke[local]#[K<!>[Kno debug module aaad exception
+Stoke[local]#<!>[Kno debug module aaad general 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module aaad general Stoke[local]#[K<!>[Kno debug module aaad general
+Stoke[local]#<!>[Kno debug module aaad ha 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module aaad ha Stoke[local]#[K<!>[Kno debug module aaad ha
+Stoke[local]#<!>[Kno debug module aaad initialization 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module aaad initialization Stoke[local]#[K<!>[Kno debug module aaad initialization
+Stoke[local]#<!>[Kno debug module aaad radius-dynamic-authorization 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module aaad radius-dynamic-authorization Stoke[local]#[K<!>[Kno debug module aaad radius-dynamic-authorization
+Stoke[local]#<!>[Kno debug module aaad radius-exception 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module aaad radius-exception Stoke[local]#[K<!>[Kno debug module aaad radius-exception
+Stoke[local]#<!>[Kno debug module aaad radius-packet 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module aaad radius-packet Stoke[local]#[K<!>[Kno debug module aaad radius-packet
+Stoke[local]#<!>[Kno debug module aaad radius-server 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module aaad radius-server Stoke[local]#[K<!>[Kno debug module aaad radius-server
+Stoke[local]#<!>[Kno debug module aaad ses-provisioning 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module aaad ses-provisioning Stoke[local]#[K<!>[Kno debug module aaad ses-provisioning
+Stoke[local]#<!>[Kno debug module aaad session 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module aaad session Stoke[local]#[K<!>[Kno debug module aaad session
+Stoke[local]#<!>[Kno debug module aaadlc 
+<<<<help_begin
+all  All debugging for this module
+>>>>help_end
+[KStoke[local]#no debug module aaadlc Stoke[local]#[K<!>[Kno debug module aaadlc all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module aaadlc all Stoke[local]#[K<!>[Kno debug module aaadlc all
+Stoke[local]#<!>[Kno debug module acllc 
+<<<<help_begin
+all  All debugging for this module
+>>>>help_end
+[KStoke[local]#no debug module acllc Stoke[local]#[K<!>[Kno debug module acllc all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module acllc all Stoke[local]#[K<!>[Kno debug module acllc all
+Stoke[local]#<!>[Kno debug module adm1029 
+<<<<help_begin
+all  All debugging for this module
+>>>>help_end
+[KStoke[local]#no debug module adm1029 Stoke[local]#[K<!>[Kno debug module adm1029 all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module adm1029 all Stoke[local]#[K<!>[Kno debug module adm1029 all
+Stoke[local]#<!>[Kno debug module bc 
+<<<<help_begin
+all  All debugging for this module
+>>>>help_end
+[KStoke[local]#no debug module bc Stoke[local]#[K<!>[Kno debug module bc all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module bc all Stoke[local]#[K<!>[Kno debug module bc all
+Stoke[local]#<!>[Kno debug module bgp4 
+<<<<help_begin
+aggregation             BGP route aggregation events
+all                     All debugging for this module
+connection              TCP Connection related events
+dynamic-capability-in   Inbound dynamic capability
+dynamic-capability-out  Outbound dynamic capability
+fsm                     Neighbor state machine
+interface               BGP interface cache events
+ip-routing-table        IP routing table events
+keepalive-in            Inbound keepalive
+keepalive-out           Outbound keepalive
+msg-in                  Inbound message
+msg-in-detail           Inbound message detailed
+msg-out                 Outbound message
+msg-out-detail          Outbound message detailed
+nexthop                 Nexthop synchronization events
+notify-in               Inbound notification
+notify-out              Outbound notification
+open-in                 Inbound open
+open-in-detail          Inbound open detailed
+open-out                Outbound open
+open-out-detail         Outbound open detailed
+policy                  Policy events
+profile                 BGP profile events
+redistribute            Redistribute events
+refresh-in              Inbound route refresh
+refresh-out             Outbound route refresh
+rib-sync                BGP IP4 RIB synchronization events
+route-selection         BGP route selection events
+routing-table           Routing table events
+state-transitions       BGP Neighbor state transitions
+timers                  Timer events
+update-in               Inbound update
+update-in-detail        Inbound update detailed
+update-out              Outbound update
+update-out-detail       Outbound update detailed
+>>>>help_end
+[KStoke[local]#no debug module bgp4 Stoke[local]#[K<!>[Kno debug module bgp4 aggregation 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module bgp4 aggregation Stoke[local]#[K<!>[Kno debug module bgp4 aggregation
+Stoke[local]#<!>[Kno debug module bgp4 all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module bgp4 all Stoke[local]#[K<!>[Kno debug module bgp4 all
+Stoke[local]#<!>[Kno debug module bgp4 connection 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module bgp4 connection Stoke[local]#[K<!>[Kno debug module bgp4 connection
+Stoke[local]#<!>[Kno debug module bgp4 dynamic-capability-in 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module bgp4 dynamic-capability-in Stoke[local]#[K<!>[Kno debug module bgp4 dynamic-capability-in
+Stoke[local]#<!>[Kno debug module bgp4 dynamic-capability-out 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module bgp4 dynamic-capability-out Stoke[local]#[K<!>[Kno debug module bgp4 dynamic-capability-out
+Stoke[local]#<!>[Kno debug module bgp4 fsm 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module bgp4 fsm Stoke[local]#[K<!>[Kno debug module bgp4 fsm
+Stoke[local]#<!>[Kno debug module bgp4 interface 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module bgp4 interface Stoke[local]#[K<!>[Kno debug module bgp4 interface
+Stoke[local]#<!>[Kno debug module bgp4 ip-routing-table 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module bgp4 ip-routing-table Stoke[local]#[K<!>[Kno debug module bgp4 ip-routing-table
+Stoke[local]#<!>[Kno debug module bgp4 keepalive-in 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module bgp4 keepalive-in Stoke[local]#[K<!>[Kno debug module bgp4 keepalive-in
+Stoke[local]#<!>[Kno debug module bgp4 keepalive-out 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module bgp4 keepalive-out Stoke[local]#[K<!>[Kno debug module bgp4 keepalive-out
+Stoke[local]#<!>[Kno debug module bgp4 msg-in 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module bgp4 msg-in Stoke[local]#[K<!>[Kno debug module bgp4 msg-in
+Stoke[local]#<!>[Kno debug module bgp4 msg-in-detail 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module bgp4 msg-in-detail Stoke[local]#[K<!>[Kno debug module bgp4 msg-in-detail
+Stoke[local]#<!>[Kno debug module bgp4 msg-out 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module bgp4 msg-out Stoke[local]#[K<!>[Kno debug module bgp4 msg-out
+Stoke[local]#<!>[Kno debug module bgp4 msg-out-detail 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module bgp4 msg-out-detail Stoke[local]#[K<!>[Kno debug module bgp4 msg-out-detail
+Stoke[local]#<!>[Kno debug module bgp4 nexthop 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module bgp4 nexthop Stoke[local]#[K<!>[Kno debug module bgp4 nexthop
+Stoke[local]#<!>[Kno debug module bgp4 notify-in 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module bgp4 notify-in Stoke[local]#[K<!>[Kno debug module bgp4 notify-in
+Stoke[local]#<!>[Kno debug module bgp4 notify-out 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module bgp4 notify-out Stoke[local]#[K<!>[Kno debug module bgp4 notify-out
+Stoke[local]#<!>[Kno debug module bgp4 open-in 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module bgp4 open-in Stoke[local]#[K<!>[Kno debug module bgp4 open-in
+Stoke[local]#<!>[Kno debug module bgp4 open-in-detail 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module bgp4 open-in-detail Stoke[local]#[K<!>[Kno debug module bgp4 open-in-detail
+Stoke[local]#<!>[Kno debug module bgp4 open-out 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module bgp4 open-out Stoke[local]#[K<!>[Kno debug module bgp4 open-out
+Stoke[local]#<!>[Kno debug module bgp4 open-out-detail 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module bgp4 open-out-detail Stoke[local]#[K<!>[Kno debug module bgp4 open-out-detail
+Stoke[local]#<!>[Kno debug module bgp4 policy 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module bgp4 policy Stoke[local]#[K<!>[Kno debug module bgp4 policy
+Stoke[local]#<!>[Kno debug module bgp4 profile 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module bgp4 profile Stoke[local]#[K<!>[Kno debug module bgp4 profile
+Stoke[local]#<!>[Kno debug module bgp4 redistribute 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module bgp4 redistribute Stoke[local]#[K<!>[Kno debug module bgp4 redistribute
+Stoke[local]#<!>[Kno debug module bgp4 refresh-in 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module bgp4 refresh-in Stoke[local]#[K<!>[Kno debug module bgp4 refresh-in
+Stoke[local]#<!>[Kno debug module bgp4 refresh-out 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module bgp4 refresh-out Stoke[local]#[K<!>[Kno debug module bgp4 refresh-out
+Stoke[local]#<!>[Kno debug module bgp4 rib-sync 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module bgp4 rib-sync Stoke[local]#[K<!>[Kno debug module bgp4 rib-sync
+Stoke[local]#<!>[Kno debug module bgp4 route-selection 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module bgp4 route-selection Stoke[local]#[K<!>[Kno debug module bgp4 route-selection
+Stoke[local]#<!>[Kno debug module bgp4 routing-table 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module bgp4 routing-table Stoke[local]#[K<!>[Kno debug module bgp4 routing-table
+Stoke[local]#<!>[Kno debug module bgp4 state-transitions 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module bgp4 state-transitions Stoke[local]#[K<!>[Kno debug module bgp4 state-transitions
+Stoke[local]#<!>[Kno debug module bgp4 timers 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module bgp4 timers Stoke[local]#[K<!>[Kno debug module bgp4 timers
+Stoke[local]#<!>[Kno debug module bgp4 update-in 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module bgp4 update-in Stoke[local]#[K<!>[Kno debug module bgp4 update-in
+Stoke[local]#<!>[Kno debug module bgp4 update-in-detail 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module bgp4 update-in-detail Stoke[local]#[K<!>[Kno debug module bgp4 update-in-detail
+Stoke[local]#<!>[Kno debug module bgp4 update-out 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module bgp4 update-out Stoke[local]#[K<!>[Kno debug module bgp4 update-out
+Stoke[local]#<!>[Kno debug module bgp4 update-out-detail 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module bgp4 update-out-detail Stoke[local]#[K<!>[Kno debug module bgp4 update-out-detail
+Stoke[local]#<!>[Kno debug module cardagt 
+<<<<help_begin
+all  All debugging for this module
+>>>>help_end
+[KStoke[local]#no debug module cardagt Stoke[local]#[K<!>[Kno debug module cardagt all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module cardagt all Stoke[local]#[K<!>[Kno debug module cardagt all
+Stoke[local]#<!>[Kno debug module cardmgr 
+<<<<help_begin
+all  All debugging for this module
+>>>>help_end
+[KStoke[local]#no debug module cardmgr Stoke[local]#[K<!>[Kno debug module cardmgr all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module cardmgr all Stoke[local]#[K<!>[Kno debug module cardmgr all
+Stoke[local]#<!>[Kno debug module cctlc 
+<<<<help_begin
+all  All debugging for this module
+ha   High availability events
+>>>>help_end
+[KStoke[local]#no debug module cctlc Stoke[local]#[K<!>[Kno debug module cctlc all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module cctlc all Stoke[local]#[K<!>[Kno debug module cctlc all
+Stoke[local]#<!>[Kno debug module cctlc ha 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module cctlc ha Stoke[local]#[K<!>[Kno debug module cctlc ha
+Stoke[local]#<!>[Kno debug module cctmc 
+<<<<help_begin
+all  All debugging for this module
+>>>>help_end
+[KStoke[local]#no debug module cctmc Stoke[local]#[K<!>[Kno debug module cctmc all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module cctmc all Stoke[local]#[K<!>[Kno debug module cctmc all
+Stoke[local]#<!>[Kno debug module cdrlib 
+<<<<help_begin
+all      All debugging for this module
+appdata  Application Data receive events
+cdrbuf   CDR Buffer Tracking events
+cdrmsg   CDR Msg related events
+error    Error events
+ha       HA related events
+hexdump  Hex Dump of CDR messages
+>>>>help_end
+[KStoke[local]#no debug module cdrlib Stoke[local]#[K<!>[Kno debug module cdrlib all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module cdrlib all Stoke[local]#[K<!>[Kno debug module cdrlib all
+Stoke[local]#<!>[Kno debug module cdrlib appdata 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module cdrlib appdata Stoke[local]#[K<!>[Kno debug module cdrlib appdata
+Stoke[local]#<!>[Kno debug module cdrlib cdrbuf 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module cdrlib cdrbuf Stoke[local]#[K<!>[Kno debug module cdrlib cdrbuf
+Stoke[local]#<!>[Kno debug module cdrlib cdrmsg 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module cdrlib cdrmsg Stoke[local]#[K<!>[Kno debug module cdrlib cdrmsg
+Stoke[local]#<!>[Kno debug module cdrlib error 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module cdrlib error Stoke[local]#[K<!>[Kno debug module cdrlib error
+Stoke[local]#<!>[Kno debug module cdrlib ha 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module cdrlib ha Stoke[local]#[K<!>[Kno debug module cdrlib ha
+Stoke[local]#<!>[Kno debug module cdrlib hexdump 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module cdrlib hexdump Stoke[local]#[K<!>[Kno debug module cdrlib hexdump
+Stoke[local]#<!>[Kno debug module cdrproc 
+<<<<help_begin
+all     All debugging for this module
+cdrbuf  CDR Buffer Tracking events
+cdrmsg  CDR Msg events
+conf    Configuration events
+ctxmgr  CDR Context Manager events
+error   Error events
+file    File events
+ha      HA events
+timer   Timer events
+upload  File upload
+>>>>help_end
+[KStoke[local]#no debug module cdrproc Stoke[local]#[K<!>[Kno debug module cdrproc all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module cdrproc all Stoke[local]#[K<!>[Kno debug module cdrproc all
+Stoke[local]#<!>[Kno debug module cdrproc cdrbuf 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module cdrproc cdrbuf Stoke[local]#[K<!>[Kno debug module cdrproc cdrbuf
+Stoke[local]#<!>[Kno debug module cdrproc cdrmsg 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module cdrproc cdrmsg Stoke[local]#[K<!>[Kno debug module cdrproc cdrmsg
+Stoke[local]#<!>[Kno debug module cdrproc conf 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module cdrproc conf Stoke[local]#[K<!>[Kno debug module cdrproc conf
+Stoke[local]#<!>[Kno debug module cdrproc ctxmgr 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module cdrproc ctxmgr Stoke[local]#[K<!>[Kno debug module cdrproc ctxmgr
+Stoke[local]#<!>[Kno debug module cdrproc error 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module cdrproc error Stoke[local]#[K<!>[Kno debug module cdrproc error
+Stoke[local]#<!>[Kno debug module cdrproc file 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module cdrproc file Stoke[local]#[K<!>[Kno debug module cdrproc file
+Stoke[local]#<!>[Kno debug module cdrproc ha 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module cdrproc ha Stoke[local]#[K<!>[Kno debug module cdrproc ha
+Stoke[local]#<!>[Kno debug module cdrproc timer 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module cdrproc timer Stoke[local]#[K<!>[Kno debug module cdrproc timer
+Stoke[local]#<!>[Kno debug module cdrproc upload 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module cdrproc upload Stoke[local]#[K<!>[Kno debug module cdrproc upload
+Stoke[local]#<!>[Kno debug module cdrtest 
+<<<<help_begin
+all  All debugging for this module
+>>>>help_end
+[KStoke[local]#no debug module cdrtest Stoke[local]#[K<!>[Kno debug module cdrtest all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module cdrtest all Stoke[local]#[K<!>[Kno debug module cdrtest all
+Stoke[local]#<!>[Kno debug module clock 
+<<<<help_begin
+all  All debugging for this module
+>>>>help_end
+[KStoke[local]#no debug module clock Stoke[local]#[K<!>[Kno debug module clock all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module clock all Stoke[local]#[K<!>[Kno debug module clock all
+Stoke[local]#<!>[Kno debug module cmoagent 
+<<<<help_begin
+all  All debugging for this module
+>>>>help_end
+[KStoke[local]#no debug module cmoagent Stoke[local]#[K<!>[Kno debug module cmoagent all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module cmoagent all Stoke[local]#[K<!>[Kno debug module cmoagent all
+Stoke[local]#<!>[Kno debug module crh 
+<<<<help_begin
+all  All debugging for this module
+>>>>help_end
+[KStoke[local]#no debug module crh Stoke[local]#[K<!>[Kno debug module crh all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module crh all Stoke[local]#[K<!>[Kno debug module crh all
+Stoke[local]#<!>[Kno debug module ctxmgr 
+<<<<help_begin
+all  All debugging for this module
+>>>>help_end
+[KStoke[local]#no debug module ctxmgr Stoke[local]#[K<!>[Kno debug module ctxmgr all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ctxmgr all Stoke[local]#[K<!>[Kno debug module ctxmgr all
+Stoke[local]#<!>[Kno debug module dhcpdlc 
+<<<<help_begin
+all             All debugging for this module
+config          Configuration events
+context         Context events
+init            Initialization events
+ipc             Inter-process communication events
+management-ipc  Management-card IPC
+>>>>help_end
+[KStoke[local]#no debug module dhcpdlc Stoke[local]#[K<!>[Kno debug module dhcpdlc all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module dhcpdlc all Stoke[local]#[K<!>[Kno debug module dhcpdlc all
+Stoke[local]#<!>[Kno debug module dhcpdlc config 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module dhcpdlc config Stoke[local]#[K<!>[Kno debug module dhcpdlc config
+Stoke[local]#<!>[Kno debug module dhcpdlc context 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module dhcpdlc context Stoke[local]#[K<!>[Kno debug module dhcpdlc context
+Stoke[local]#<!>[Kno debug module dhcpdlc init 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module dhcpdlc init Stoke[local]#[K<!>[Kno debug module dhcpdlc init
+Stoke[local]#<!>[Kno debug module dhcpdlc ipc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module dhcpdlc ipc Stoke[local]#[K<!>[Kno debug module dhcpdlc ipc
+Stoke[local]#<!>[Kno debug module dhcpdlc management-ipc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module dhcpdlc management-ipc Stoke[local]#[K<!>[Kno debug module dhcpdlc management-ipc
+Stoke[local]#<!>[Kno debug module dhcpdmc 
+<<<<help_begin
+all           All debugging for this module
+config        Configuration events
+context       Context events
+init          Initialization events
+interface     Interface events
+ipc           Inter-process communication events
+linecard-ipc  Linecard-IPC events
+>>>>help_end
+[KStoke[local]#no debug module dhcpdmc Stoke[local]#[K<!>[Kno debug module dhcpdmc all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module dhcpdmc all Stoke[local]#[K<!>[Kno debug module dhcpdmc all
+Stoke[local]#<!>[Kno debug module dhcpdmc config 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module dhcpdmc config Stoke[local]#[K<!>[Kno debug module dhcpdmc config
+Stoke[local]#<!>[Kno debug module dhcpdmc context 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module dhcpdmc context Stoke[local]#[K<!>[Kno debug module dhcpdmc context
+Stoke[local]#<!>[Kno debug module dhcpdmc init 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module dhcpdmc init Stoke[local]#[K<!>[Kno debug module dhcpdmc init
+Stoke[local]#<!>[Kno debug module dhcpdmc interface 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module dhcpdmc interface Stoke[local]#[K<!>[Kno debug module dhcpdmc interface
+Stoke[local]#<!>[Kno debug module dhcpdmc ipc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module dhcpdmc ipc Stoke[local]#[K<!>[Kno debug module dhcpdmc ipc
+Stoke[local]#<!>[Kno debug module dhcpdmc linecard-ipc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module dhcpdmc linecard-ipc Stoke[local]#[K<!>[Kno debug module dhcpdmc linecard-ipc
+Stoke[local]#<!>[Kno debug module dns 
+<<<<help_begin
+all  All debugging for this module
+>>>>help_end
+[KStoke[local]#no debug module dns Stoke[local]#[K<!>[Kno debug module dns all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module dns all Stoke[local]#[K<!>[Kno debug module dns all
+Stoke[local]#<!>[Kno debug module envmon 
+<<<<help_begin
+all  All debugging for this module
+>>>>help_end
+[KStoke[local]#no debug module envmon Stoke[local]#[K<!>[Kno debug module envmon all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module envmon all Stoke[local]#[K<!>[Kno debug module envmon all
+Stoke[local]#<!>[Kno debug module evt 
+<<<<help_begin
+all       All debugging for this module
+client    Client events
+ipc       IPC events
+misc      Miscellaneous
+notify    Notify events
+peer-reg  Peer registration events
+reg       Local registration events
+>>>>help_end
+[KStoke[local]#no debug module evt Stoke[local]#[K<!>[Kno debug module evt all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module evt all Stoke[local]#[K<!>[Kno debug module evt all
+Stoke[local]#<!>[Kno debug module evt client 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module evt client Stoke[local]#[K<!>[Kno debug module evt client
+Stoke[local]#<!>[Kno debug module evt ipc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module evt ipc Stoke[local]#[K<!>[Kno debug module evt ipc
+Stoke[local]#<!>[Kno debug module evt misc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module evt misc Stoke[local]#[K<!>[Kno debug module evt misc
+Stoke[local]#<!>[Kno debug module evt notify 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module evt notify Stoke[local]#[K<!>[Kno debug module evt notify
+Stoke[local]#<!>[Kno debug module evt peer-reg 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module evt peer-reg Stoke[local]#[K<!>[Kno debug module evt peer-reg
+Stoke[local]#<!>[Kno debug module evt reg 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module evt reg Stoke[local]#[K<!>[Kno debug module evt reg
+Stoke[local]#<!>[Kno debug module fabric 
+<<<<help_begin
+all  All debugging for this module
+>>>>help_end
+[KStoke[local]#no debug module fabric Stoke[local]#[K<!>[Kno debug module fabric all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module fabric all Stoke[local]#[K<!>[Kno debug module fabric all
+Stoke[local]#<!>[Kno debug module fpd 
+<<<<help_begin
+all        All debugging for this module
+exception  FPD exception events
+info       FPD informational debug events
+ipmc       Packets for IP MC
+packet     Print RX/TX packets
+>>>>help_end
+[KStoke[local]#no debug module fpd Stoke[local]#[K<!>[Kno debug module fpd all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module fpd all Stoke[local]#[K<!>[Kno debug module fpd all
+Stoke[local]#<!>[Kno debug module fpd exception 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module fpd exception Stoke[local]#[K<!>[Kno debug module fpd exception
+Stoke[local]#<!>[Kno debug module fpd info 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module fpd info Stoke[local]#[K<!>[Kno debug module fpd info
+Stoke[local]#<!>[Kno debug module fpd ipmc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module fpd ipmc Stoke[local]#[K<!>[Kno debug module fpd ipmc
+Stoke[local]#<!>[Kno debug module fpd packet 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module fpd packet Stoke[local]#[K<!>[Kno debug module fpd packet
+Stoke[local]#<!>[Kno debug module fsync 
+<<<<help_begin
+all  All debugging for this module
+>>>>help_end
+[KStoke[local]#no debug module fsync Stoke[local]#[K<!>[Kno debug module fsync all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module fsync all Stoke[local]#[K<!>[Kno debug module fsync all
+Stoke[local]#<!>[Kno debug module fuinit 
+<<<<help_begin
+all  All debugging for this module
+>>>>help_end
+[KStoke[local]#no debug module fuinit Stoke[local]#[K<!>[Kno debug module fuinit all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module fuinit all Stoke[local]#[K<!>[Kno debug module fuinit all
+Stoke[local]#<!>[Kno debug module ha 
+<<<<help_begin
+all     All debugging for this module
+bc      Replicated Buffer Create Events
+bd      Replicated Buffer Delete Events
+bu      Replicated Buffer Update Events
+buffer  Replicated Buffer Events
+glob    Replicated Global Data Events
+minor   Replicated Minor Events
+pool    Replicated Pool Events
+status  Replicated Status Events
+>>>>help_end
+[KStoke[local]#no debug module ha Stoke[local]#[K<!>[Kno debug module ha all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ha all Stoke[local]#[K<!>[Kno debug module ha all
+Stoke[local]#<!>[Kno debug module ha bc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ha bc Stoke[local]#[K<!>[Kno debug module ha bc
+Stoke[local]#<!>[Kno debug module ha bd 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ha bd Stoke[local]#[K<!>[Kno debug module ha bd
+Stoke[local]#<!>[Kno debug module ha bu 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ha bu Stoke[local]#[K<!>[Kno debug module ha bu
+Stoke[local]#<!>[Kno debug module ha buffer 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ha buffer Stoke[local]#[K<!>[Kno debug module ha buffer
+Stoke[local]#<!>[Kno debug module ha glob 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ha glob Stoke[local]#[K<!>[Kno debug module ha glob
+Stoke[local]#<!>[Kno debug module ha minor 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ha minor Stoke[local]#[K<!>[Kno debug module ha minor
+Stoke[local]#<!>[Kno debug module ha pool 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ha pool Stoke[local]#[K<!>[Kno debug module ha pool
+Stoke[local]#<!>[Kno debug module ha status 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ha status Stoke[local]#[K<!>[Kno debug module ha status
+Stoke[local]#<!>[Kno debug module iked 
+<<<<help_begin
+aaad-comm     AAAD communication
+all           All debugging for this module
+cav-comm      Cavium communication
+detail        Detailed error log messages
+exception     IKEd exception debugging
+ext-module    External module communication
+ike-messages  IKE message types
+ike-packet    IKE Packet events; send/receive
+int-error     Internal errors
+int-module    Internal module communication
+iplc-comm     IP_LC communication
+mobike        IKEv2 MOBIKE events
+no-proposal   No proposal chosen verbose
+rng           RNG Pool
+sa            Security Association events; Add/delete
+ses-idd       Session IDd functionality related events
+sess-mgmt     Session management events
+session       Session events
+state         States related events
+timer         Timer
+tunmgr-comm   TUNMGR communication
+>>>>help_end
+[KStoke[local]#no debug module iked Stoke[local]#[K<!>[Kno debug module iked aaad-comm 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iked aaad-comm Stoke[local]#[K<!>[Kno debug module iked aaad-comm
+Stoke[local]#<!>[Kno debug module iked all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iked all Stoke[local]#[K<!>[Kno debug module iked all
+Stoke[local]#<!>[Kno debug module iked cav-comm 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iked cav-comm Stoke[local]#[K<!>[Kno debug module iked cav-comm
+Stoke[local]#<!>[Kno debug module iked detail 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iked detail Stoke[local]#[K<!>[Kno debug module iked detail
+Stoke[local]#<!>[Kno debug module iked exception 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iked exception Stoke[local]#[K<!>[Kno debug module iked exception
+Stoke[local]#<!>[Kno debug module iked ext-module 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iked ext-module Stoke[local]#[K<!>[Kno debug module iked ext-module
+Stoke[local]#<!>[Kno debug module iked ike-messages 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iked ike-messages Stoke[local]#[K<!>[Kno debug module iked ike-messages
+Stoke[local]#<!>[Kno debug module iked ike-packet 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iked ike-packet Stoke[local]#[K<!>[Kno debug module iked ike-packet
+Stoke[local]#<!>[Kno debug module iked int-error 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iked int-error Stoke[local]#[K<!>[Kno debug module iked int-error
+Stoke[local]#<!>[Kno debug module iked int-module 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iked int-module Stoke[local]#[K<!>[Kno debug module iked int-module
+Stoke[local]#<!>[Kno debug module iked iplc-comm 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iked iplc-comm Stoke[local]#[K<!>[Kno debug module iked iplc-comm
+Stoke[local]#<!>[Kno debug module iked mobike 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iked mobike Stoke[local]#[K<!>[Kno debug module iked mobike
+Stoke[local]#<!>[Kno debug module iked no-proposal 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iked no-proposal Stoke[local]#[K<!>[Kno debug module iked no-proposal
+Stoke[local]#<!>[Kno debug module iked rng 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iked rng Stoke[local]#[K<!>[Kno debug module iked rng
+Stoke[local]#<!>[Kno debug module iked sa 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iked sa Stoke[local]#[K<!>[Kno debug module iked sa
+Stoke[local]#<!>[Kno debug module iked ses-idd 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iked ses-idd Stoke[local]#[K<!>[Kno debug module iked ses-idd
+Stoke[local]#<!>[Kno debug module iked sess-mgmt 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iked sess-mgmt Stoke[local]#[K<!>[Kno debug module iked sess-mgmt
+Stoke[local]#<!>[Kno debug module iked session 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iked session Stoke[local]#[K<!>[Kno debug module iked session
+Stoke[local]#<!>[Kno debug module iked state 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iked state Stoke[local]#[K<!>[Kno debug module iked state
+Stoke[local]#<!>[Kno debug module iked timer 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iked timer Stoke[local]#[K<!>[Kno debug module iked timer
+Stoke[local]#<!>[Kno debug module iked tunmgr-comm 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iked tunmgr-comm Stoke[local]#[K<!>[Kno debug module iked tunmgr-comm
+Stoke[local]#<!>[Kno debug module imcas 
+<<<<help_begin
+all  All debugging for this module
+>>>>help_end
+[KStoke[local]#no debug module imcas Stoke[local]#[K<!>[Kno debug module imcas all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module imcas all Stoke[local]#[K<!>[Kno debug module imcas all
+Stoke[local]#<!>[Kno debug module inets 
+<<<<help_begin
+all  All debugging for this module
+>>>>help_end
+[KStoke[local]#no debug module inets Stoke[local]#[K<!>[Kno debug module inets all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module inets all Stoke[local]#[K<!>[Kno debug module inets all
+Stoke[local]#<!>[Kno debug module ip4 
+<<<<help_begin
+all        All debugging for this module
+arp        IPv4 arp changes
+arp-timer  IPv4 timers
+circuit    IPv4 circuit changes
+ha         High availablity events
+host       IPv4 host changes
+interface  IPv4 interface changes
+linecard   IPv4 MC-LC commands
+message    IPv4 messages
+packet     IPv4 and ARP packets
+route      IPv4 route changes
+session    IPv4 session changes
+tunnel     IPv4 tunnels
+>>>>help_end
+[KStoke[local]#no debug module ip4 Stoke[local]#[K<!>[Kno debug module ip4 all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip4 all Stoke[local]#[K<!>[Kno debug module ip4 all
+Stoke[local]#<!>[Kno debug module ip4 arp 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip4 arp Stoke[local]#[K<!>[Kno debug module ip4 arp
+Stoke[local]#<!>[Kno debug module ip4 arp-timer 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip4 arp-timer Stoke[local]#[K<!>[Kno debug module ip4 arp-timer
+Stoke[local]#<!>[Kno debug module ip4 circuit 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip4 circuit Stoke[local]#[K<!>[Kno debug module ip4 circuit
+Stoke[local]#<!>[Kno debug module ip4 ha 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip4 ha Stoke[local]#[K<!>[Kno debug module ip4 ha
+Stoke[local]#<!>[Kno debug module ip4 host 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip4 host Stoke[local]#[K<!>[Kno debug module ip4 host
+Stoke[local]#<!>[Kno debug module ip4 interface 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip4 interface Stoke[local]#[K<!>[Kno debug module ip4 interface
+Stoke[local]#<!>[Kno debug module ip4 linecard 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip4 linecard Stoke[local]#[K<!>[Kno debug module ip4 linecard
+Stoke[local]#<!>[Kno debug module ip4 message 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip4 message Stoke[local]#[K<!>[Kno debug module ip4 message
+Stoke[local]#<!>[Kno debug module ip4 packet 
+<<<<help_begin
+arp       ARP packets
+ip        IPv4 packets
+receive   Received packets
+transmit  Transmitted packets
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip4 packet Stoke[local]#[K<!>[Kno debug module ip4 packet arp 
+<<<<help_begin
+receive   Received packets
+transmit  Transmitted packets
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip4 packet arp Stoke[local]#[K<!>[Kno debug module ip4 packet arp receive 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip4 packet arp receive Stoke[local]#[K<!>[Kno debug module ip4 packet arp receive
+Stoke[local]#<!>[Kno debug module ip4 packet arp transmit 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip4 packet arp transmit Stoke[local]#[K<!>[Kno debug module ip4 packet arp transmit
+Stoke[local]#<!>[Kno debug module ip4 packet arp
+Stoke[local]#<!>[Kno debug module ip4 packet ip 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip4 packet ip Stoke[local]#[K<!>[Kno debug module ip4 packet ip
+Stoke[local]#<!>[Kno debug module ip4 packet receive 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip4 packet receive Stoke[local]#[K<!>[Kno debug module ip4 packet receive
+Stoke[local]#<!>[Kno debug module ip4 packet transmit 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip4 packet transmit Stoke[local]#[K<!>[Kno debug module ip4 packet transmit
+Stoke[local]#<!>[Kno debug module ip4 packet
+Stoke[local]#<!>[Kno debug module ip4 route 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip4 route Stoke[local]#[K<!>[Kno debug module ip4 route
+Stoke[local]#<!>[Kno debug module ip4 session 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip4 session Stoke[local]#[K<!>[Kno debug module ip4 session
+Stoke[local]#<!>[Kno debug module ip4 tunnel 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip4 tunnel Stoke[local]#[K<!>[Kno debug module ip4 tunnel
+Stoke[local]#<!>[Kno debug module ip46 
+<<<<help_begin
+all        All debugging for this module
+fpd        Fpd
+ha         High availability events
+packet     Packets
+packet-rx  Rx packets
+packet-tx  Tx packets
+>>>>help_end
+[KStoke[local]#no debug module ip46 Stoke[local]#[K<!>[Kno debug module ip46 all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip46 all Stoke[local]#[K<!>[Kno debug module ip46 all
+Stoke[local]#<!>[Kno debug module ip46 fpd 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip46 fpd Stoke[local]#[K<!>[Kno debug module ip46 fpd
+Stoke[local]#<!>[Kno debug module ip46 ha 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip46 ha Stoke[local]#[K<!>[Kno debug module ip46 ha
+Stoke[local]#<!>[Kno debug module ip46 packet 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip46 packet Stoke[local]#[K<!>[Kno debug module ip46 packet
+Stoke[local]#<!>[Kno debug module ip46 packet-rx 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip46 packet-rx Stoke[local]#[K<!>[Kno debug module ip46 packet-rx
+Stoke[local]#<!>[Kno debug module ip46 packet-tx 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip46 packet-tx Stoke[local]#[K<!>[Kno debug module ip46 packet-tx
+Stoke[local]#<!>[Kno debug module ip6 
+<<<<help_begin
+all            All debugging for this module
+circuit        Circuit events
+circuit-ipc    Circuit IPC events
+config         Configuration events
+config-ipc     Configuration IPC events
+context        Context events
+global         Global events
+host           Host events
+interface      Interface events
+interface-ipc  Interface IPC events
+ipc            Inter-process communication
+linecard-ipc   Linecard IPC events
+nd             Neighbor-discovery events
+neighbor       Neighbor events
+neighbor-ipc   Neighbor and Host IPC events
+packet         All packets
+packet-ipc     Packet IPC events
+route          Route events
+route-ipc      Route IPC events
+tunnel         Tunnel events
+tunnel-ipc     Tunnel IPC events
+>>>>help_end
+[KStoke[local]#no debug module ip6 Stoke[local]#[K<!>[Kno debug module ip6 all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip6 all Stoke[local]#[K<!>[Kno debug module ip6 all
+Stoke[local]#<!>[Kno debug module ip6 circuit 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip6 circuit Stoke[local]#[K<!>[Kno debug module ip6 circuit
+Stoke[local]#<!>[Kno debug module ip6 circuit-ipc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip6 circuit-ipc Stoke[local]#[K<!>[Kno debug module ip6 circuit-ipc
+Stoke[local]#<!>[Kno debug module ip6 config 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip6 config Stoke[local]#[K<!>[Kno debug module ip6 config
+Stoke[local]#<!>[Kno debug module ip6 config-ipc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip6 config-ipc Stoke[local]#[K<!>[Kno debug module ip6 config-ipc
+Stoke[local]#<!>[Kno debug module ip6 context 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip6 context Stoke[local]#[K<!>[Kno debug module ip6 context
+Stoke[local]#<!>[Kno debug module ip6 global 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip6 global Stoke[local]#[K<!>[Kno debug module ip6 global
+Stoke[local]#<!>[Kno debug module ip6 host 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip6 host Stoke[local]#[K<!>[Kno debug module ip6 host
+Stoke[local]#<!>[Kno debug module ip6 interface 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip6 interface Stoke[local]#[K<!>[Kno debug module ip6 interface
+Stoke[local]#<!>[Kno debug module ip6 interface-ipc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip6 interface-ipc Stoke[local]#[K<!>[Kno debug module ip6 interface-ipc
+Stoke[local]#<!>[Kno debug module ip6 ipc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip6 ipc Stoke[local]#[K<!>[Kno debug module ip6 ipc
+Stoke[local]#<!>[Kno debug module ip6 linecard-ipc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip6 linecard-ipc Stoke[local]#[K<!>[Kno debug module ip6 linecard-ipc
+Stoke[local]#<!>[Kno debug module ip6 nd 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip6 nd Stoke[local]#[K<!>[Kno debug module ip6 nd
+Stoke[local]#<!>[Kno debug module ip6 neighbor 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip6 neighbor Stoke[local]#[K<!>[Kno debug module ip6 neighbor
+Stoke[local]#<!>[Kno debug module ip6 neighbor-ipc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip6 neighbor-ipc Stoke[local]#[K<!>[Kno debug module ip6 neighbor-ipc
+Stoke[local]#<!>[Kno debug module ip6 packet 
+<<<<help_begin
+error                   Error packets
+icmp                    ICMP packets
+neighbor-advertisement  Neighbor-advertisement packets
+neighbor-solicitation   Neighbor-solicitation packets
+receive                 Received packets
+router-advertisement    Router-advertisement packets
+router-solicitation     Router-solicitation packets
+transmit                Transmitted packets
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip6 packet Stoke[local]#[K<!>[Kno debug module ip6 packet error 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip6 packet error Stoke[local]#[K<!>[Kno debug module ip6 packet error
+Stoke[local]#<!>[Kno debug module ip6 packet icmp 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip6 packet icmp Stoke[local]#[K<!>[Kno debug module ip6 packet icmp
+Stoke[local]#<!>[Kno debug module ip6 packet neighbor-advertisement 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip6 packet neighbor-advertisement Stoke[local]#[K<!>[Kno debug module ip6 packet neighbor-advertisement
+Stoke[local]#<!>[Kno debug module ip6 packet neighbor-solicitation 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip6 packet neighbor-solicitation Stoke[local]#[K<!>[Kno debug module ip6 packet neighbor-solicitation
+Stoke[local]#<!>[Kno debug module ip6 packet receive 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip6 packet receive Stoke[local]#[K<!>[Kno debug module ip6 packet receive
+Stoke[local]#<!>[Kno debug module ip6 packet router-advertisement 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip6 packet router-advertisement Stoke[local]#[K<!>[Kno debug module ip6 packet router-advertisement
+Stoke[local]#<!>[Kno debug module ip6 packet router-solicitation 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip6 packet router-solicitation Stoke[local]#[K<!>[Kno debug module ip6 packet router-solicitation
+Stoke[local]#<!>[Kno debug module ip6 packet transmit 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip6 packet transmit Stoke[local]#[K<!>[Kno debug module ip6 packet transmit
+Stoke[local]#<!>[Kno debug module ip6 packet
+Stoke[local]#<!>[Kno debug module ip6 packet-ipc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip6 packet-ipc Stoke[local]#[K<!>[Kno debug module ip6 packet-ipc
+Stoke[local]#<!>[Kno debug module ip6 route 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip6 route Stoke[local]#[K<!>[Kno debug module ip6 route
+Stoke[local]#<!>[Kno debug module ip6 route-ipc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip6 route-ipc Stoke[local]#[K<!>[Kno debug module ip6 route-ipc
+Stoke[local]#<!>[Kno debug module ip6 tunnel 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip6 tunnel Stoke[local]#[K<!>[Kno debug module ip6 tunnel
+Stoke[local]#<!>[Kno debug module ip6 tunnel-ipc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ip6 tunnel-ipc Stoke[local]#[K<!>[Kno debug module ip6 tunnel-ipc
+Stoke[local]#<!>[Kno debug module ipacl 
+<<<<help_begin
+all  All debugging for this module
+>>>>help_end
+[KStoke[local]#no debug module ipacl Stoke[local]#[K<!>[Kno debug module ipacl all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ipacl all Stoke[local]#[K<!>[Kno debug module ipacl all
+Stoke[local]#<!>[Kno debug module iplc 
+<<<<help_begin
+adjacency      Adjacency events
+all            All debugging for this module
+arp            ARP events
+arp-packet-rx  ARP packet receive
+arp-packet-tx  ARP packet send
+fpd-packet-rx  Fabric packet receive
+fpd-packet-tx  Fabric packet send
+ha             High availability events
+host           Host events
+interface      Interface events
+ipv4-packet    IPv4 packets
+ipv6-nd        IPv6 ND events
+ipv6-packet    IPv6 packets
+messages       IPC messages
+nsemgr-msg     Messages send to nsemgr
+packet-all     All Packet debugs
+packet-drop    Packet drops
+routes         Route updates
+session        Session events
+tables         SRAM table updates
+>>>>help_end
+[KStoke[local]#no debug module iplc Stoke[local]#[K<!>[Kno debug module iplc adjacency 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc adjacency Stoke[local]#[K<!>[Kno debug module iplc adjacency
+Stoke[local]#<!>[Kno debug module iplc all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc all Stoke[local]#[K<!>[Kno debug module iplc all
+Stoke[local]#<!>[Kno debug module iplc arp 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc arp Stoke[local]#[K<!>[Kno debug module iplc arp
+Stoke[local]#<!>[Kno debug module iplc arp-packet-rx 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc arp-packet-rx Stoke[local]#[K<!>[Kno debug module iplc arp-packet-rx
+Stoke[local]#<!>[Kno debug module iplc arp-packet-tx 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc arp-packet-tx Stoke[local]#[K<!>[Kno debug module iplc arp-packet-tx
+Stoke[local]#<!>[Kno debug module iplc fpd-packet-rx 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc fpd-packet-rx Stoke[local]#[K<!>[Kno debug module iplc fpd-packet-rx
+Stoke[local]#<!>[Kno debug module iplc fpd-packet-tx 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc fpd-packet-tx Stoke[local]#[K<!>[Kno debug module iplc fpd-packet-tx
+Stoke[local]#<!>[Kno debug module iplc ha 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ha Stoke[local]#[K<!>[Kno debug module iplc ha
+Stoke[local]#<!>[Kno debug module iplc host 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc host Stoke[local]#[K<!>[Kno debug module iplc host
+Stoke[local]#<!>[Kno debug module iplc interface 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc interface Stoke[local]#[K<!>[Kno debug module iplc interface
+Stoke[local]#<!>[Kno debug module iplc ipv4-packet 
+<<<<help_begin
+bgp      Debug BGP packets
+icmp     Debug ICMP packets
+ike      Debug IKE packets
+ospf     Debug OSPF packets
+receive  Debug incoming IPv4 packets
+rip      Debug RIP packets
+send     Debug outgoing IPv4 packets
+tcp      Debug TCP packets
+udp      Debug UDP packets
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ipv4-packet Stoke[local]#[K<!>[Kno debug module iplc ipv4-packet bgp 
+<<<<help_begin
+receive  Debug incoming packets
+send     Debug outgoing packets
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ipv4-packet bgp Stoke[local]#[K<!>[Kno debug module iplc ipv4-packet bgp receive 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ipv4-packet bgp receive Stoke[local]#[K<!>[Kno debug module iplc ipv4-packet bgp receive
+Stoke[local]#<!>[Kno debug module iplc ipv4-packet bgp send 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ipv4-packet bgp send Stoke[local]#[K<!>[Kno debug module iplc ipv4-packet bgp send
+Stoke[local]#<!>[Kno debug module iplc ipv4-packet bgp
+Stoke[local]#<!>[Kno debug module iplc ipv4-packet icmp 
+<<<<help_begin
+receive  Debug incoming packets
+send     Debug outgoing packets
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ipv4-packet icmp Stoke[local]#[K<!>[Kno debug module iplc ipv4-packet icmp receive 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ipv4-packet icmp receive Stoke[local]#[K<!>[Kno debug module iplc ipv4-packet icmp receive
+Stoke[local]#<!>[Kno debug module iplc ipv4-packet icmp send 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ipv4-packet icmp send Stoke[local]#[K<!>[Kno debug module iplc ipv4-packet icmp send
+Stoke[local]#<!>[Kno debug module iplc ipv4-packet icmp
+Stoke[local]#<!>[Kno debug module iplc ipv4-packet ike 
+<<<<help_begin
+receive  Debug incoming packets
+send     Debug outgoing packets
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ipv4-packet ike Stoke[local]#[K<!>[Kno debug module iplc ipv4-packet ike receive 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ipv4-packet ike receive Stoke[local]#[K<!>[Kno debug module iplc ipv4-packet ike receive
+Stoke[local]#<!>[Kno debug module iplc ipv4-packet ike send 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ipv4-packet ike send Stoke[local]#[K<!>[Kno debug module iplc ipv4-packet ike send
+Stoke[local]#<!>[Kno debug module iplc ipv4-packet ike
+Stoke[local]#<!>[Kno debug module iplc ipv4-packet ospf 
+<<<<help_begin
+receive  Debug incoming packets
+send     Debug outgoing packets
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ipv4-packet ospf Stoke[local]#[K<!>[Kno debug module iplc ipv4-packet ospf receive 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ipv4-packet ospf receive Stoke[local]#[K<!>[Kno debug module iplc ipv4-packet ospf receive
+Stoke[local]#<!>[Kno debug module iplc ipv4-packet ospf send 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ipv4-packet ospf send Stoke[local]#[K<!>[Kno debug module iplc ipv4-packet ospf send
+Stoke[local]#<!>[Kno debug module iplc ipv4-packet ospf
+Stoke[local]#<!>[Kno debug module iplc ipv4-packet receive 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ipv4-packet receive Stoke[local]#[K<!>[Kno debug module iplc ipv4-packet receive
+Stoke[local]#<!>[Kno debug module iplc ipv4-packet rip 
+<<<<help_begin
+receive  Debug incoming packets
+send     Debug outgoing packets
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ipv4-packet rip Stoke[local]#[K<!>[Kno debug module iplc ipv4-packet rip receive 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ipv4-packet rip receive Stoke[local]#[K<!>[Kno debug module iplc ipv4-packet rip receive
+Stoke[local]#<!>[Kno debug module iplc ipv4-packet rip send 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ipv4-packet rip send Stoke[local]#[K<!>[Kno debug module iplc ipv4-packet rip send
+Stoke[local]#<!>[Kno debug module iplc ipv4-packet rip
+Stoke[local]#<!>[Kno debug module iplc ipv4-packet send 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ipv4-packet send Stoke[local]#[K<!>[Kno debug module iplc ipv4-packet send
+Stoke[local]#<!>[Kno debug module iplc ipv4-packet tcp 
+<<<<help_begin
+receive  Debug incoming packets
+send     Debug outgoing packets
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ipv4-packet tcp Stoke[local]#[K<!>[Kno debug module iplc ipv4-packet tcp receive 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ipv4-packet tcp receive Stoke[local]#[K<!>[Kno debug module iplc ipv4-packet tcp receive
+Stoke[local]#<!>[Kno debug module iplc ipv4-packet tcp send 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ipv4-packet tcp send Stoke[local]#[K<!>[Kno debug module iplc ipv4-packet tcp send
+Stoke[local]#<!>[Kno debug module iplc ipv4-packet tcp
+Stoke[local]#<!>[Kno debug module iplc ipv4-packet udp 
+<<<<help_begin
+receive  Debug incoming packets
+send     Debug outgoing packets
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ipv4-packet udp Stoke[local]#[K<!>[Kno debug module iplc ipv4-packet udp receive 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ipv4-packet udp receive Stoke[local]#[K<!>[Kno debug module iplc ipv4-packet udp receive
+Stoke[local]#<!>[Kno debug module iplc ipv4-packet udp send 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ipv4-packet udp send Stoke[local]#[K<!>[Kno debug module iplc ipv4-packet udp send
+Stoke[local]#<!>[Kno debug module iplc ipv4-packet udp
+Stoke[local]#<!>[Kno debug module iplc ipv4-packet
+Stoke[local]#<!>[Kno debug module iplc ipv6-nd 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ipv6-nd Stoke[local]#[K<!>[Kno debug module iplc ipv6-nd
+Stoke[local]#<!>[Kno debug module iplc ipv6-packet 
+<<<<help_begin
+icmp     Debug ICMP packets
+ike      Debug IKE packets
+receive  Debug incoming IPv6 packets
+send     Debug outgoing IPv6 packets
+tcp      Debug TCP packets
+udp      Debug UDP packets
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ipv6-packet Stoke[local]#[K<!>[Kno debug module iplc ipv6-packet icmp 
+<<<<help_begin
+receive  Debug incoming packets
+send     Debug outgoing packets
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ipv6-packet icmp Stoke[local]#[K<!>[Kno debug module iplc ipv6-packet icmp receive 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ipv6-packet icmp receive Stoke[local]#[K<!>[Kno debug module iplc ipv6-packet icmp receive
+Stoke[local]#<!>[Kno debug module iplc ipv6-packet icmp send 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ipv6-packet icmp send Stoke[local]#[K<!>[Kno debug module iplc ipv6-packet icmp send
+Stoke[local]#<!>[Kno debug module iplc ipv6-packet icmp
+Stoke[local]#<!>[Kno debug module iplc ipv6-packet ike 
+<<<<help_begin
+receive  Debug incoming packets
+send     Debug outgoing packets
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ipv6-packet ike Stoke[local]#[K<!>[Kno debug module iplc ipv6-packet ike receive 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ipv6-packet ike receive Stoke[local]#[K<!>[Kno debug module iplc ipv6-packet ike receive
+Stoke[local]#<!>[Kno debug module iplc ipv6-packet ike send 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ipv6-packet ike send Stoke[local]#[K<!>[Kno debug module iplc ipv6-packet ike send
+Stoke[local]#<!>[Kno debug module iplc ipv6-packet ike
+Stoke[local]#<!>[Kno debug module iplc ipv6-packet receive 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ipv6-packet receive Stoke[local]#[K<!>[Kno debug module iplc ipv6-packet receive
+Stoke[local]#<!>[Kno debug module iplc ipv6-packet send 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ipv6-packet send Stoke[local]#[K<!>[Kno debug module iplc ipv6-packet send
+Stoke[local]#<!>[Kno debug module iplc ipv6-packet tcp 
+<<<<help_begin
+receive  Debug incoming packets
+send     Debug outgoing packets
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ipv6-packet tcp Stoke[local]#[K<!>[Kno debug module iplc ipv6-packet tcp receive 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ipv6-packet tcp receive Stoke[local]#[K<!>[Kno debug module iplc ipv6-packet tcp receive
+Stoke[local]#<!>[Kno debug module iplc ipv6-packet tcp send 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ipv6-packet tcp send Stoke[local]#[K<!>[Kno debug module iplc ipv6-packet tcp send
+Stoke[local]#<!>[Kno debug module iplc ipv6-packet tcp
+Stoke[local]#<!>[Kno debug module iplc ipv6-packet udp 
+<<<<help_begin
+receive  Debug incoming packets
+send     Debug outgoing packets
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ipv6-packet udp Stoke[local]#[K<!>[Kno debug module iplc ipv6-packet udp receive 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ipv6-packet udp receive Stoke[local]#[K<!>[Kno debug module iplc ipv6-packet udp receive
+Stoke[local]#<!>[Kno debug module iplc ipv6-packet udp send 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc ipv6-packet udp send Stoke[local]#[K<!>[Kno debug module iplc ipv6-packet udp send
+Stoke[local]#<!>[Kno debug module iplc ipv6-packet udp
+Stoke[local]#<!>[Kno debug module iplc ipv6-packet
+Stoke[local]#<!>[Kno debug module iplc messages 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc messages Stoke[local]#[K<!>[Kno debug module iplc messages
+Stoke[local]#<!>[Kno debug module iplc nsemgr-msg 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc nsemgr-msg Stoke[local]#[K<!>[Kno debug module iplc nsemgr-msg
+Stoke[local]#<!>[Kno debug module iplc packet-all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc packet-all Stoke[local]#[K<!>[Kno debug module iplc packet-all
+Stoke[local]#<!>[Kno debug module iplc packet-drop 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc packet-drop Stoke[local]#[K<!>[Kno debug module iplc packet-drop
+Stoke[local]#<!>[Kno debug module iplc routes 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc routes Stoke[local]#[K<!>[Kno debug module iplc routes
+Stoke[local]#<!>[Kno debug module iplc session 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc session Stoke[local]#[K<!>[Kno debug module iplc session
+Stoke[local]#<!>[Kno debug module iplc tables 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module iplc tables Stoke[local]#[K<!>[Kno debug module iplc tables
+Stoke[local]#<!>[Kno debug module ixplib 
+<<<<help_begin
+all  All debugging for this module
+>>>>help_end
+[KStoke[local]#no debug module ixplib Stoke[local]#[K<!>[Kno debug module ixplib all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ixplib all Stoke[local]#[K<!>[Kno debug module ixplib all
+Stoke[local]#<!>[Kno debug module l2tpdlc 
+<<<<help_begin
+all    All debugging for this module
+glue   L2TPD_MC<->L2TPD_LC communication
+trace  Internal trace events
+>>>>help_end
+[KStoke[local]#no debug module l2tpdlc Stoke[local]#[K<!>[Kno debug module l2tpdlc all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module l2tpdlc all Stoke[local]#[K<!>[Kno debug module l2tpdlc all
+Stoke[local]#<!>[Kno debug module l2tpdlc glue 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module l2tpdlc glue Stoke[local]#[K<!>[Kno debug module l2tpdlc glue
+Stoke[local]#<!>[Kno debug module l2tpdlc trace 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module l2tpdlc trace Stoke[local]#[K<!>[Kno debug module l2tpdlc trace
+Stoke[local]#<!>[Kno debug module l2tpdmc 
+<<<<help_begin
+all        All debugging for this module
+cardstate  Card state events
+ctx        Context events
+glue       L2TPD_MC<->L2TPD_LC communication
+tunnel     Tunnel events
+>>>>help_end
+[KStoke[local]#no debug module l2tpdmc Stoke[local]#[K<!>[Kno debug module l2tpdmc all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module l2tpdmc all Stoke[local]#[K<!>[Kno debug module l2tpdmc all
+Stoke[local]#<!>[Kno debug module l2tpdmc cardstate 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module l2tpdmc cardstate Stoke[local]#[K<!>[Kno debug module l2tpdmc cardstate
+Stoke[local]#<!>[Kno debug module l2tpdmc ctx 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module l2tpdmc ctx Stoke[local]#[K<!>[Kno debug module l2tpdmc ctx
+Stoke[local]#<!>[Kno debug module l2tpdmc glue 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module l2tpdmc glue Stoke[local]#[K<!>[Kno debug module l2tpdmc glue
+Stoke[local]#<!>[Kno debug module l2tpdmc tunnel 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module l2tpdmc tunnel Stoke[local]#[K<!>[Kno debug module l2tpdmc tunnel
+Stoke[local]#<!>[Kno debug module libl2tp 
+<<<<help_begin
+all  All debugging for this module
+>>>>help_end
+[KStoke[local]#no debug module libl2tp Stoke[local]#[K<!>[Kno debug module libl2tp all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module libl2tp all Stoke[local]#[K<!>[Kno debug module libl2tp all
+Stoke[local]#<!>[Kno debug module libppp 
+<<<<help_begin
+all  All debugging for this module
+>>>>help_end
+[KStoke[local]#no debug module libppp Stoke[local]#[K<!>[Kno debug module libppp all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module libppp all Stoke[local]#[K<!>[Kno debug module libppp all
+Stoke[local]#<!>[Kno debug module logind 
+<<<<help_begin
+all  All debugging for this module
+>>>>help_end
+[KStoke[local]#no debug module logind Stoke[local]#[K<!>[Kno debug module logind all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module logind all Stoke[local]#[K<!>[Kno debug module logind all
+Stoke[local]#<!>[Kno debug module macif 
+<<<<help_begin
+all  All debugging for this module
+>>>>help_end
+[KStoke[local]#no debug module macif Stoke[local]#[K<!>[Kno debug module macif all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module macif all Stoke[local]#[K<!>[Kno debug module macif all
+Stoke[local]#<!>[Kno debug module mbc 
+<<<<help_begin
+all       All debugging for this module
+bssap     BSSAP stack debugging
+general   MBC general debugging
+ss7stack  SS7 stack debugging
+umastack  UMA stack debugging
+>>>>help_end
+[KStoke[local]#no debug module mbc Stoke[local]#[K<!>[Kno debug module mbc all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module mbc all Stoke[local]#[K<!>[Kno debug module mbc all
+Stoke[local]#<!>[Kno debug module mbc bssap 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module mbc bssap Stoke[local]#[K<!>[Kno debug module mbc bssap
+Stoke[local]#<!>[Kno debug module mbc general 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module mbc general Stoke[local]#[K<!>[Kno debug module mbc general
+Stoke[local]#<!>[Kno debug module mbc ss7stack 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module mbc ss7stack Stoke[local]#[K<!>[Kno debug module mbc ss7stack
+Stoke[local]#<!>[Kno debug module mbc umastack 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module mbc umastack Stoke[local]#[K<!>[Kno debug module mbc umastack
+Stoke[local]#<!>[Kno debug module mbccgw 
+<<<<help_begin
+all      All debugging for this module
+call     CGW all call debugging
+ciss     CGW all CISS debugging
+general  CGW general debugging
+hohi     CGW all handovers debugging
+locupd   CGW all location registration debugging
+sms      CGW all sms debugging
+>>>>help_end
+[KStoke[local]#no debug module mbccgw Stoke[local]#[K<!>[Kno debug module mbccgw all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module mbccgw all Stoke[local]#[K<!>[Kno debug module mbccgw all
+Stoke[local]#<!>[Kno debug module mbccgw call 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module mbccgw call Stoke[local]#[K<!>[Kno debug module mbccgw call
+Stoke[local]#<!>[Kno debug module mbccgw ciss 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module mbccgw ciss Stoke[local]#[K<!>[Kno debug module mbccgw ciss
+Stoke[local]#<!>[Kno debug module mbccgw general 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module mbccgw general Stoke[local]#[K<!>[Kno debug module mbccgw general
+Stoke[local]#<!>[Kno debug module mbccgw hohi 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module mbccgw hohi Stoke[local]#[K<!>[Kno debug module mbccgw hohi
+Stoke[local]#<!>[Kno debug module mbccgw locupd 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module mbccgw locupd Stoke[local]#[K<!>[Kno debug module mbccgw locupd
+Stoke[local]#<!>[Kno debug module mbccgw sms 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module mbccgw sms Stoke[local]#[K<!>[Kno debug module mbccgw sms
+Stoke[local]#<!>[Kno debug module mbcrtpd 
+<<<<help_begin
+all      All debugging for this module
+general  MBC RTPD general debugging
+>>>>help_end
+[KStoke[local]#no debug module mbcrtpd Stoke[local]#[K<!>[Kno debug module mbcrtpd all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module mbcrtpd all Stoke[local]#[K<!>[Kno debug module mbcrtpd all
+Stoke[local]#<!>[Kno debug module mbcrtpd general 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module mbcrtpd general Stoke[local]#[K<!>[Kno debug module mbcrtpd general
+Stoke[local]#<!>[Kno debug module mbcsip 
+<<<<help_begin
+all       All debugging for this module
+general   SIP general debugging
+sipcall   SIP call debugging
+sipdb     SIP DB module debugging
+sipreg    SIP registrar debugging
+sipstack  SIP stack debugging
+umacall   UMA call debugging
+umastack  UMA stack debugging
+>>>>help_end
+[KStoke[local]#no debug module mbcsip Stoke[local]#[K<!>[Kno debug module mbcsip all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module mbcsip all Stoke[local]#[K<!>[Kno debug module mbcsip all
+Stoke[local]#<!>[Kno debug module mbcsip general 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module mbcsip general Stoke[local]#[K<!>[Kno debug module mbcsip general
+Stoke[local]#<!>[Kno debug module mbcsip sipcall 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module mbcsip sipcall Stoke[local]#[K<!>[Kno debug module mbcsip sipcall
+Stoke[local]#<!>[Kno debug module mbcsip sipdb 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module mbcsip sipdb Stoke[local]#[K<!>[Kno debug module mbcsip sipdb
+Stoke[local]#<!>[Kno debug module mbcsip sipreg 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module mbcsip sipreg Stoke[local]#[K<!>[Kno debug module mbcsip sipreg
+Stoke[local]#<!>[Kno debug module mbcsip sipstack 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module mbcsip sipstack Stoke[local]#[K<!>[Kno debug module mbcsip sipstack
+Stoke[local]#<!>[Kno debug module mbcsip umacall 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module mbcsip umacall Stoke[local]#[K<!>[Kno debug module mbcsip umacall
+Stoke[local]#<!>[Kno debug module mbcsip umastack 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module mbcsip umastack Stoke[local]#[K<!>[Kno debug module mbcsip umastack
+Stoke[local]#<!>[Kno debug module mbcss7 
+<<<<help_begin
+all    All debugging for this module
+basic  Basic debugging
+>>>>help_end
+[KStoke[local]#no debug module mbcss7 Stoke[local]#[K<!>[Kno debug module mbcss7 all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module mbcss7 all Stoke[local]#[K<!>[Kno debug module mbcss7 all
+Stoke[local]#<!>[Kno debug module mbcss7 basic 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module mbcss7 basic Stoke[local]#[K<!>[Kno debug module mbcss7 basic
+Stoke[local]#<!>[Kno debug module mbcugw 
+<<<<help_begin
+all     All debugging for this module
+conn    Connection debugging
+detail  Detail debugging
+dump    Message dump
+ipc     IPC message flow debugging
+uma     UMA message flow debugging
+>>>>help_end
+[KStoke[local]#no debug module mbcugw Stoke[local]#[K<!>[Kno debug module mbcugw all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module mbcugw all Stoke[local]#[K<!>[Kno debug module mbcugw all
+Stoke[local]#<!>[Kno debug module mbcugw conn 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module mbcugw conn Stoke[local]#[K<!>[Kno debug module mbcugw conn
+Stoke[local]#<!>[Kno debug module mbcugw detail 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module mbcugw detail Stoke[local]#[K<!>[Kno debug module mbcugw detail
+Stoke[local]#<!>[Kno debug module mbcugw dump 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module mbcugw dump Stoke[local]#[K<!>[Kno debug module mbcugw dump
+Stoke[local]#<!>[Kno debug module mbcugw ipc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module mbcugw ipc Stoke[local]#[K<!>[Kno debug module mbcugw ipc
+Stoke[local]#<!>[Kno debug module mbcugw uma 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module mbcugw uma Stoke[local]#[K<!>[Kno debug module mbcugw uma
+Stoke[local]#<!>[Kno debug module mbcureg 
+<<<<help_begin
+all    All debugging for this module
+basic  Basic debugging
+>>>>help_end
+[KStoke[local]#no debug module mbcureg Stoke[local]#[K<!>[Kno debug module mbcureg all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module mbcureg all Stoke[local]#[K<!>[Kno debug module mbcureg all
+Stoke[local]#<!>[Kno debug module mbcureg basic 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module mbcureg basic Stoke[local]#[K<!>[Kno debug module mbcureg basic
+Stoke[local]#<!>[Kno debug module n2 
+<<<<help_begin
+all   All debugging for this module
+cmd   N2 command
+intr  N2 interrupt
+perf  N2 performance
+>>>>help_end
+[KStoke[local]#no debug module n2 Stoke[local]#[K<!>[Kno debug module n2 all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module n2 all Stoke[local]#[K<!>[Kno debug module n2 all
+Stoke[local]#<!>[Kno debug module n2 cmd 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module n2 cmd Stoke[local]#[K<!>[Kno debug module n2 cmd
+Stoke[local]#<!>[Kno debug module n2 intr 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module n2 intr Stoke[local]#[K<!>[Kno debug module n2 intr
+Stoke[local]#<!>[Kno debug module n2 perf 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module n2 perf Stoke[local]#[K<!>[Kno debug module n2 perf
+Stoke[local]#<!>[Kno debug module nsemgr 
+<<<<help_begin
+all     All debugging for this module
+routes  Route updates
+tunnel  Tunnel info table updates
+>>>>help_end
+[KStoke[local]#no debug module nsemgr Stoke[local]#[K<!>[Kno debug module nsemgr all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module nsemgr all Stoke[local]#[K<!>[Kno debug module nsemgr all
+Stoke[local]#<!>[Kno debug module nsemgr routes 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module nsemgr routes Stoke[local]#[K<!>[Kno debug module nsemgr routes
+Stoke[local]#<!>[Kno debug module nsemgr tunnel 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module nsemgr tunnel Stoke[local]#[K<!>[Kno debug module nsemgr tunnel
+Stoke[local]#<!>[Kno debug module nsm 
+<<<<help_begin
+all      All debugging for this module
+bootcfg  Bootcfg lib messages
+>>>>help_end
+[KStoke[local]#no debug module nsm Stoke[local]#[K<!>[Kno debug module nsm all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module nsm all Stoke[local]#[K<!>[Kno debug module nsm all
+Stoke[local]#<!>[Kno debug module nsm bootcfg 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module nsm bootcfg Stoke[local]#[K<!>[Kno debug module nsm bootcfg
+Stoke[local]#<!>[Kno debug module ntp 
+<<<<help_begin
+all  All debugging for this module
+>>>>help_end
+[KStoke[local]#no debug module ntp Stoke[local]#[K<!>[Kno debug module ntp all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ntp all Stoke[local]#[K<!>[Kno debug module ntp all
+Stoke[local]#<!>[Kno debug module ospf 
+<<<<help_begin
+all               All debugging for this module
+events            Events
+interface         Interface debug all
+interface-events  Interface events
+interface-status  Interface state changes
+interface-timers  Interface timers
+lsa               LSA information
+lsa-flooding      LSA flooding
+lsa-install       LSA install information
+lsa-maxage        LSA maximum aged
+lsa-originate     LSA originate information
+lsa-refresh       LSA refresh information
+neighbor          Neighbor debug all
+neighbor-events   Neighbor events
+neighbor-status   Neighbor state changes
+neighbor-timers   Neighbor timers
+nssa-events       NSSA Events
+packet            Packets
+redistribute      Redistribute events
+restart           Graceful Restart
+restart-helper    Graceful Restart Helper
+route             Route calculation and installation
+route-calc-ase    Route calculation, External routes
+route-calc-ia     Route calculation, Inter Area routes
+route-calc-spf    Route calculation, SPF (intra area)
+route-install     Route installation in RIB
+>>>>help_end
+[KStoke[local]#no debug module ospf Stoke[local]#[K<!>[Kno debug module ospf all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf all Stoke[local]#[K<!>[Kno debug module ospf all
+Stoke[local]#<!>[Kno debug module ospf events 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf events Stoke[local]#[K<!>[Kno debug module ospf events
+Stoke[local]#<!>[Kno debug module ospf interface 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf interface Stoke[local]#[K<!>[Kno debug module ospf interface
+Stoke[local]#<!>[Kno debug module ospf interface-events 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf interface-events Stoke[local]#[K<!>[Kno debug module ospf interface-events
+Stoke[local]#<!>[Kno debug module ospf interface-status 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf interface-status Stoke[local]#[K<!>[Kno debug module ospf interface-status
+Stoke[local]#<!>[Kno debug module ospf interface-timers 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf interface-timers Stoke[local]#[K<!>[Kno debug module ospf interface-timers
+Stoke[local]#<!>[Kno debug module ospf lsa 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf lsa Stoke[local]#[K<!>[Kno debug module ospf lsa
+Stoke[local]#<!>[Kno debug module ospf lsa-flooding 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf lsa-flooding Stoke[local]#[K<!>[Kno debug module ospf lsa-flooding
+Stoke[local]#<!>[Kno debug module ospf lsa-install 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf lsa-install Stoke[local]#[K<!>[Kno debug module ospf lsa-install
+Stoke[local]#<!>[Kno debug module ospf lsa-maxage 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf lsa-maxage Stoke[local]#[K<!>[Kno debug module ospf lsa-maxage
+Stoke[local]#<!>[Kno debug module ospf lsa-originate 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf lsa-originate Stoke[local]#[K<!>[Kno debug module ospf lsa-originate
+Stoke[local]#<!>[Kno debug module ospf lsa-refresh 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf lsa-refresh Stoke[local]#[K<!>[Kno debug module ospf lsa-refresh
+Stoke[local]#<!>[Kno debug module ospf neighbor 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf neighbor Stoke[local]#[K<!>[Kno debug module ospf neighbor
+Stoke[local]#<!>[Kno debug module ospf neighbor-events 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf neighbor-events Stoke[local]#[K<!>[Kno debug module ospf neighbor-events
+Stoke[local]#<!>[Kno debug module ospf neighbor-status 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf neighbor-status Stoke[local]#[K<!>[Kno debug module ospf neighbor-status
+Stoke[local]#<!>[Kno debug module ospf neighbor-timers 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf neighbor-timers Stoke[local]#[K<!>[Kno debug module ospf neighbor-timers
+Stoke[local]#<!>[Kno debug module ospf nssa-events 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf nssa-events Stoke[local]#[K<!>[Kno debug module ospf nssa-events
+Stoke[local]#<!>[Kno debug module ospf packet 
+<<<<help_begin
+ack      Debug Link State Acknowledgment packets
+dd       Debug Database Description packets
+detail   Print detailed information of the packets
+hello    Debug Hello packets
+lsr      Debug Link State Request packets
+lsu      Debug Link State Update packets
+receive  Debug incoming packets
+send     Debug outgoing packets
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf packet Stoke[local]#[K<!>[Kno debug module ospf packet ack 
+<<<<help_begin
+receive  Debug incoming packets
+send     Debug outgoing packets
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf packet ack Stoke[local]#[K<!>[Kno debug module ospf packet ack receive 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf packet ack receive Stoke[local]#[K<!>[Kno debug module ospf packet ack receive
+Stoke[local]#<!>[Kno debug module ospf packet ack send 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf packet ack send Stoke[local]#[K<!>[Kno debug module ospf packet ack send
+Stoke[local]#<!>[Kno debug module ospf packet ack
+Stoke[local]#<!>[Kno debug module ospf packet dd 
+<<<<help_begin
+receive  Debug incoming packets
+send     Debug outgoing packets
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf packet dd Stoke[local]#[K<!>[Kno debug module ospf packet dd receive 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf packet dd receive Stoke[local]#[K<!>[Kno debug module ospf packet dd receive
+Stoke[local]#<!>[Kno debug module ospf packet dd send 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf packet dd send Stoke[local]#[K<!>[Kno debug module ospf packet dd send
+Stoke[local]#<!>[Kno debug module ospf packet dd
+Stoke[local]#<!>[Kno debug module ospf packet detail 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf packet detail Stoke[local]#[K<!>[Kno debug module ospf packet detail
+Stoke[local]#<!>[Kno debug module ospf packet hello 
+<<<<help_begin
+receive  Debug incoming packets
+send     Debug outgoing packets
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf packet hello Stoke[local]#[K<!>[Kno debug module ospf packet hello receive 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf packet hello receive Stoke[local]#[K<!>[Kno debug module ospf packet hello receive
+Stoke[local]#<!>[Kno debug module ospf packet hello send 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf packet hello send Stoke[local]#[K<!>[Kno debug module ospf packet hello send
+Stoke[local]#<!>[Kno debug module ospf packet hello
+Stoke[local]#<!>[Kno debug module ospf packet lsr 
+<<<<help_begin
+receive  Debug incoming packets
+send     Debug outgoing packets
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf packet lsr Stoke[local]#[K<!>[Kno debug module ospf packet lsr receive 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf packet lsr receive Stoke[local]#[K<!>[Kno debug module ospf packet lsr receive
+Stoke[local]#<!>[Kno debug module ospf packet lsr send 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf packet lsr send Stoke[local]#[K<!>[Kno debug module ospf packet lsr send
+Stoke[local]#<!>[Kno debug module ospf packet lsr
+Stoke[local]#<!>[Kno debug module ospf packet lsu 
+<<<<help_begin
+receive  Debug incoming packets
+send     Debug outgoing packets
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf packet lsu Stoke[local]#[K<!>[Kno debug module ospf packet lsu receive 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf packet lsu receive Stoke[local]#[K<!>[Kno debug module ospf packet lsu receive
+Stoke[local]#<!>[Kno debug module ospf packet lsu send 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf packet lsu send Stoke[local]#[K<!>[Kno debug module ospf packet lsu send
+Stoke[local]#<!>[Kno debug module ospf packet lsu
+Stoke[local]#<!>[Kno debug module ospf packet receive 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf packet receive Stoke[local]#[K<!>[Kno debug module ospf packet receive
+Stoke[local]#<!>[Kno debug module ospf packet send 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf packet send Stoke[local]#[K<!>[Kno debug module ospf packet send
+Stoke[local]#<!>[Kno debug module ospf packet
+Stoke[local]#<!>[Kno debug module ospf redistribute 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf redistribute Stoke[local]#[K<!>[Kno debug module ospf redistribute
+Stoke[local]#<!>[Kno debug module ospf restart 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf restart Stoke[local]#[K<!>[Kno debug module ospf restart
+Stoke[local]#<!>[Kno debug module ospf restart-helper 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf restart-helper Stoke[local]#[K<!>[Kno debug module ospf restart-helper
+Stoke[local]#<!>[Kno debug module ospf route 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf route Stoke[local]#[K<!>[Kno debug module ospf route
+Stoke[local]#<!>[Kno debug module ospf route-calc-ase 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf route-calc-ase Stoke[local]#[K<!>[Kno debug module ospf route-calc-ase
+Stoke[local]#<!>[Kno debug module ospf route-calc-ia 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf route-calc-ia Stoke[local]#[K<!>[Kno debug module ospf route-calc-ia
+Stoke[local]#<!>[Kno debug module ospf route-calc-spf 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf route-calc-spf Stoke[local]#[K<!>[Kno debug module ospf route-calc-spf
+Stoke[local]#<!>[Kno debug module ospf route-install 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module ospf route-install Stoke[local]#[K<!>[Kno debug module ospf route-install
+Stoke[local]#<!>[Kno debug module pppd 
+<<<<help_begin
+aaad      AAAD communication
+all       All debugging for this module
+authen    Authen events; pap and chap
+chap      CHAP events
+fsm       PPP state machine
+ipcp      IPCP events
+lcp       LCP events
+mc2lc     MC to LC communication
+packet    Packet events; send/receive
+pap       PAP events
+pppoe     PPPoE communication
+protocol  Protocol events; lcp, ipcp and authen
+session   Session events
+timer     Timer events
+>>>>help_end
+[KStoke[local]#no debug module pppd Stoke[local]#[K<!>[Kno debug module pppd aaad 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module pppd aaad Stoke[local]#[K<!>[Kno debug module pppd aaad
+Stoke[local]#<!>[Kno debug module pppd all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module pppd all Stoke[local]#[K<!>[Kno debug module pppd all
+Stoke[local]#<!>[Kno debug module pppd authen 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module pppd authen Stoke[local]#[K<!>[Kno debug module pppd authen
+Stoke[local]#<!>[Kno debug module pppd chap 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module pppd chap Stoke[local]#[K<!>[Kno debug module pppd chap
+Stoke[local]#<!>[Kno debug module pppd fsm 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module pppd fsm Stoke[local]#[K<!>[Kno debug module pppd fsm
+Stoke[local]#<!>[Kno debug module pppd ipcp 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module pppd ipcp Stoke[local]#[K<!>[Kno debug module pppd ipcp
+Stoke[local]#<!>[Kno debug module pppd lcp 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module pppd lcp Stoke[local]#[K<!>[Kno debug module pppd lcp
+Stoke[local]#<!>[Kno debug module pppd mc2lc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module pppd mc2lc Stoke[local]#[K<!>[Kno debug module pppd mc2lc
+Stoke[local]#<!>[Kno debug module pppd packet 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module pppd packet Stoke[local]#[K<!>[Kno debug module pppd packet
+Stoke[local]#<!>[Kno debug module pppd pap 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module pppd pap Stoke[local]#[K<!>[Kno debug module pppd pap
+Stoke[local]#<!>[Kno debug module pppd pppoe 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module pppd pppoe Stoke[local]#[K<!>[Kno debug module pppd pppoe
+Stoke[local]#<!>[Kno debug module pppd protocol 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module pppd protocol Stoke[local]#[K<!>[Kno debug module pppd protocol
+Stoke[local]#<!>[Kno debug module pppd session 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module pppd session Stoke[local]#[K<!>[Kno debug module pppd session
+Stoke[local]#<!>[Kno debug module pppd timer 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module pppd timer Stoke[local]#[K<!>[Kno debug module pppd timer
+Stoke[local]#<!>[Kno debug module pppdmc 
+<<<<help_begin
+all  All debugging for this module
+>>>>help_end
+[KStoke[local]#no debug module pppdmc Stoke[local]#[K<!>[Kno debug module pppdmc all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module pppdmc all Stoke[local]#[K<!>[Kno debug module pppdmc all
+Stoke[local]#<!>[Kno debug module pppoe 
+<<<<help_begin
+all     All debugging for this module
+cct     CCT events
+ipcp    IPCP events
+packet  PPPoE packets
+ppp     PPP commands
+>>>>help_end
+[KStoke[local]#no debug module pppoe Stoke[local]#[K<!>[Kno debug module pppoe all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module pppoe all Stoke[local]#[K<!>[Kno debug module pppoe all
+Stoke[local]#<!>[Kno debug module pppoe cct 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module pppoe cct Stoke[local]#[K<!>[Kno debug module pppoe cct
+Stoke[local]#<!>[Kno debug module pppoe ipcp 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module pppoe ipcp Stoke[local]#[K<!>[Kno debug module pppoe ipcp
+Stoke[local]#<!>[Kno debug module pppoe packet 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module pppoe packet Stoke[local]#[K<!>[Kno debug module pppoe packet
+Stoke[local]#<!>[Kno debug module pppoe ppp 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module pppoe ppp Stoke[local]#[K<!>[Kno debug module pppoe ppp
+Stoke[local]#<!>[Kno debug module pppoedmc 
+<<<<help_begin
+all  All debugging for this module
+>>>>help_end
+[KStoke[local]#no debug module pppoedmc Stoke[local]#[K<!>[Kno debug module pppoedmc all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module pppoedmc all Stoke[local]#[K<!>[Kno debug module pppoedmc all
+Stoke[local]#<!>[Kno debug module procagt 
+<<<<help_begin
+all  All debugging for this module
+>>>>help_end
+[KStoke[local]#no debug module procagt Stoke[local]#[K<!>[Kno debug module procagt all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module procagt all Stoke[local]#[K<!>[Kno debug module procagt all
+Stoke[local]#<!>[Kno debug module procmgr 
+<<<<help_begin
+all    All debugging for this module
+misc   Miscellaneous process events
+queue  ProcMgr queue events
+spawn  Process spawn events
+state  ProcMgr state events
+term   Process termination events
+>>>>help_end
+[KStoke[local]#no debug module procmgr Stoke[local]#[K<!>[Kno debug module procmgr all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module procmgr all Stoke[local]#[K<!>[Kno debug module procmgr all
+Stoke[local]#<!>[Kno debug module procmgr misc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module procmgr misc Stoke[local]#[K<!>[Kno debug module procmgr misc
+Stoke[local]#<!>[Kno debug module procmgr queue 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module procmgr queue Stoke[local]#[K<!>[Kno debug module procmgr queue
+Stoke[local]#<!>[Kno debug module procmgr spawn 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module procmgr spawn Stoke[local]#[K<!>[Kno debug module procmgr spawn
+Stoke[local]#<!>[Kno debug module procmgr state 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module procmgr state Stoke[local]#[K<!>[Kno debug module procmgr state
+Stoke[local]#<!>[Kno debug module procmgr term 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module procmgr term Stoke[local]#[K<!>[Kno debug module procmgr term
+Stoke[local]#<!>[Kno debug module qos 
+<<<<help_begin
+all  All debugging for this module
+>>>>help_end
+[KStoke[local]#no debug module qos Stoke[local]#[K<!>[Kno debug module qos all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module qos all Stoke[local]#[K<!>[Kno debug module qos all
+Stoke[local]#<!>[Kno debug module qoslc 
+<<<<help_begin
+all     All debugging for this module
+config  Qos-lc config
+tcam    Tcam interface
+tcammm  Tcam mm interface
+>>>>help_end
+[KStoke[local]#no debug module qoslc Stoke[local]#[K<!>[Kno debug module qoslc all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module qoslc all Stoke[local]#[K<!>[Kno debug module qoslc all
+Stoke[local]#<!>[Kno debug module qoslc config 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module qoslc config Stoke[local]#[K<!>[Kno debug module qoslc config
+Stoke[local]#<!>[Kno debug module qoslc tcam 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module qoslc tcam Stoke[local]#[K<!>[Kno debug module qoslc tcam
+Stoke[local]#<!>[Kno debug module qoslc tcammm 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module qoslc tcammm Stoke[local]#[K<!>[Kno debug module qoslc tcammm
+Stoke[local]#<!>[Kno debug module rip 
+<<<<help_begin
+all               All debugging for this module
+interface         IP interface events
+ip-routing-table  IP routing table events
+packet-in         Inbound packets
+packet-out        Outbound packets
+policy            Routing policy events
+redistribute      Redistribute events
+request-in        Inbound request
+request-out       Outbound request
+routing-table     Routing table events
+timer             Timer events
+update-in         Inbound update
+update-out        Outbound update
+>>>>help_end
+[KStoke[local]#no debug module rip Stoke[local]#[K<!>[Kno debug module rip all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module rip all Stoke[local]#[K<!>[Kno debug module rip all
+Stoke[local]#<!>[Kno debug module rip interface 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module rip interface Stoke[local]#[K<!>[Kno debug module rip interface
+Stoke[local]#<!>[Kno debug module rip ip-routing-table 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module rip ip-routing-table Stoke[local]#[K<!>[Kno debug module rip ip-routing-table
+Stoke[local]#<!>[Kno debug module rip packet-in 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module rip packet-in Stoke[local]#[K<!>[Kno debug module rip packet-in
+Stoke[local]#<!>[Kno debug module rip packet-out 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module rip packet-out Stoke[local]#[K<!>[Kno debug module rip packet-out
+Stoke[local]#<!>[Kno debug module rip policy 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module rip policy Stoke[local]#[K<!>[Kno debug module rip policy
+Stoke[local]#<!>[Kno debug module rip redistribute 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module rip redistribute Stoke[local]#[K<!>[Kno debug module rip redistribute
+Stoke[local]#<!>[Kno debug module rip request-in 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module rip request-in Stoke[local]#[K<!>[Kno debug module rip request-in
+Stoke[local]#<!>[Kno debug module rip request-out 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module rip request-out Stoke[local]#[K<!>[Kno debug module rip request-out
+Stoke[local]#<!>[Kno debug module rip routing-table 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module rip routing-table Stoke[local]#[K<!>[Kno debug module rip routing-table
+Stoke[local]#<!>[Kno debug module rip timer 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module rip timer Stoke[local]#[K<!>[Kno debug module rip timer
+Stoke[local]#<!>[Kno debug module rip update-in 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module rip update-in Stoke[local]#[K<!>[Kno debug module rip update-in
+Stoke[local]#<!>[Kno debug module rip update-out 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module rip update-out Stoke[local]#[K<!>[Kno debug module rip update-out
+Stoke[local]#<!>[Kno debug module rtpolicy 
+<<<<help_begin
+all  All debugging for this module
+>>>>help_end
+[KStoke[local]#no debug module rtpolicy Stoke[local]#[K<!>[Kno debug module rtpolicy all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module rtpolicy all Stoke[local]#[K<!>[Kno debug module rtpolicy all
+Stoke[local]#<!>[Kno debug module smid 
+<<<<help_begin
+all   All debugging for this module
+peer  Peer events
+>>>>help_end
+[KStoke[local]#no debug module smid Stoke[local]#[K<!>[Kno debug module smid all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module smid all Stoke[local]#[K<!>[Kno debug module smid all
+Stoke[local]#<!>[Kno debug module smid peer 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module smid peer Stoke[local]#[K<!>[Kno debug module smid peer
+Stoke[local]#<!>[Kno debug module snmpd 
+<<<<help_begin
+all      All debugging for this module
+config   Configuration events
+context  Context events
+notify   Notification events
+packet   SR appacket
+rmon     RMON alarm
+trace    SR aptrace
+>>>>help_end
+[KStoke[local]#no debug module snmpd Stoke[local]#[K<!>[Kno debug module snmpd all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module snmpd all Stoke[local]#[K<!>[Kno debug module snmpd all
+Stoke[local]#<!>[Kno debug module snmpd config 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module snmpd config Stoke[local]#[K<!>[Kno debug module snmpd config
+Stoke[local]#<!>[Kno debug module snmpd context 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module snmpd context Stoke[local]#[K<!>[Kno debug module snmpd context
+Stoke[local]#<!>[Kno debug module snmpd notify 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module snmpd notify Stoke[local]#[K<!>[Kno debug module snmpd notify
+Stoke[local]#<!>[Kno debug module snmpd packet 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module snmpd packet Stoke[local]#[K<!>[Kno debug module snmpd packet
+Stoke[local]#<!>[Kno debug module snmpd rmon 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module snmpd rmon Stoke[local]#[K<!>[Kno debug module snmpd rmon
+Stoke[local]#<!>[Kno debug module snmpd trace 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module snmpd trace Stoke[local]#[K<!>[Kno debug module snmpd trace
+Stoke[local]#<!>[Kno debug module storaged 
+<<<<help_begin
+all  All debugging for this module
+>>>>help_end
+[KStoke[local]#no debug module storaged Stoke[local]#[K<!>[Kno debug module storaged all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module storaged all Stoke[local]#[K<!>[Kno debug module storaged all
+Stoke[local]#<!>[Kno debug module tunmgr 
+<<<<help_begin
+all               All debugging for this module
+card              Card events
+fsm               Tunnel FSM events
+general           Card events
+route             Tunnel routing events
+service           Tunnel service events
+signal            Tunnel signaling events
+state-transition  Tunnel State transitions
+timer             Timer events
+transport         Tunnel transport events
+>>>>help_end
+[KStoke[local]#no debug module tunmgr Stoke[local]#[K<!>[Kno debug module tunmgr all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module tunmgr all Stoke[local]#[K<!>[Kno debug module tunmgr all
+Stoke[local]#<!>[Kno debug module tunmgr card 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module tunmgr card Stoke[local]#[K<!>[Kno debug module tunmgr card
+Stoke[local]#<!>[Kno debug module tunmgr fsm 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module tunmgr fsm Stoke[local]#[K<!>[Kno debug module tunmgr fsm
+Stoke[local]#<!>[Kno debug module tunmgr general 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module tunmgr general Stoke[local]#[K<!>[Kno debug module tunmgr general
+Stoke[local]#<!>[Kno debug module tunmgr route 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module tunmgr route Stoke[local]#[K<!>[Kno debug module tunmgr route
+Stoke[local]#<!>[Kno debug module tunmgr service 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module tunmgr service Stoke[local]#[K<!>[Kno debug module tunmgr service
+Stoke[local]#<!>[Kno debug module tunmgr signal 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module tunmgr signal Stoke[local]#[K<!>[Kno debug module tunmgr signal
+Stoke[local]#<!>[Kno debug module tunmgr state-transition 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module tunmgr state-transition Stoke[local]#[K<!>[Kno debug module tunmgr state-transition
+Stoke[local]#<!>[Kno debug module tunmgr timer 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module tunmgr timer Stoke[local]#[K<!>[Kno debug module tunmgr timer
+Stoke[local]#<!>[Kno debug module tunmgr transport 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug module tunmgr transport Stoke[local]#[K<!>[Kno debug module tunmgr transport
+Stoke[local]#<!>[Kno debug next-session 
+<<<<help_begin
+0..4294967295  Number of sessions to debug (default 1)
+<cr>
+>>>>help_end
+[KStoke[local]#no debug next-session Stoke[local]#[K<!>[Kno debug next-session 4294967295 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug next-session 4294967295 Stoke[local]#[K<!>[Kno debug next-session 4294967295
+Stoke[local]#<!>[Kno debug next-session 0 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug next-session 0 Stoke[local]#[K<!>[Kno debug next-session 0
+Stoke[local]#<!>[Kno debug next-session 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug next-session 55 Stoke[local]#[K<!>[Kno debug next-session 55
+Stoke[local]#<!>[Kno debug next-session
+Stoke[local]#<!>[Kno debug process-module 
+<<<<help_begin
+aaad
+basechannel
+bgp4
+cctmc
+cdr
+cgw
+cli
+ctxmgr
+dhcpdlc
+dhcpdmc
+evl
+evlcoll
+evt
+fabric
+fpd
+fsync
+iked
+ikedmc
+inets
+ip
+ipctest
+ipctest2
+iplc
+l2tpdlc
+l2tpdmc
+logind
+macif
+nsm
+ntp
+ospf
+pppd
+pppdmc
+pppoe
+pppoemc
+qosd
+rip
+sip
+smid
+snmpd
+ss7
+storaged
+tunmgr
+ugw
+ureg
+>>>>help_end
+[KStoke[local]#no debug process-module Stoke[local]#[K<!>[Kno debug process-module aaad 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module aaad Stoke[local]#[K<!>[Kno debug process-module aaad
+Stoke[local]#<!>[Kno debug process-module basechannel 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module basechannel Stoke[local]#[K<!>[Kno debug process-module basechannel
+Stoke[local]#<!>[Kno debug process-module bgp4 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module bgp4 Stoke[local]#[K<!>[Kno debug process-module bgp4
+Stoke[local]#<!>[Kno debug process-module cctmc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module cctmc Stoke[local]#[K<!>[Kno debug process-module cctmc
+Stoke[local]#<!>[Kno debug process-module cdr 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module cdr Stoke[local]#[K<!>[Kno debug process-module cdr
+Stoke[local]#<!>[Kno debug process-module cgw 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module cgw Stoke[local]#[K<!>[Kno debug process-module cgw
+Stoke[local]#<!>[Kno debug process-module cli 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module cli Stoke[local]#[K<!>[Kno debug process-module cli
+Stoke[local]#<!>[Kno debug process-module ctxmgr 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module ctxmgr Stoke[local]#[K<!>[Kno debug process-module ctxmgr
+Stoke[local]#<!>[Kno debug process-module dhcpdlc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module dhcpdlc Stoke[local]#[K<!>[Kno debug process-module dhcpdlc
+Stoke[local]#<!>[Kno debug process-module dhcpdmc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module dhcpdmc Stoke[local]#[K<!>[Kno debug process-module dhcpdmc
+Stoke[local]#<!>[Kno debug process-module evl 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module evl Stoke[local]#[K<!>[Kno debug process-module evl
+Stoke[local]#<!>[Kno debug process-module evlcoll 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module evlcoll Stoke[local]#[K<!>[Kno debug process-module evlcoll
+Stoke[local]#<!>[Kno debug process-module evt 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module evt Stoke[local]#[K<!>[Kno debug process-module evt
+Stoke[local]#<!>[Kno debug process-module fabric 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module fabric Stoke[local]#[K<!>[Kno debug process-module fabric
+Stoke[local]#<!>[Kno debug process-module fpd 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module fpd Stoke[local]#[K<!>[Kno debug process-module fpd
+Stoke[local]#<!>[Kno debug process-module fsync 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module fsync Stoke[local]#[K<!>[Kno debug process-module fsync
+Stoke[local]#<!>[Kno debug process-module iked 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module iked Stoke[local]#[K<!>[Kno debug process-module iked
+Stoke[local]#<!>[Kno debug process-module ikedmc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module ikedmc Stoke[local]#[K<!>[Kno debug process-module ikedmc
+Stoke[local]#<!>[Kno debug process-module inets 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module inets Stoke[local]#[K<!>[Kno debug process-module inets
+Stoke[local]#<!>[Kno debug process-module ip 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module ip Stoke[local]#[K<!>[Kno debug process-module ip
+Stoke[local]#<!>[Kno debug process-module ipctest 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module ipctest Stoke[local]#[K<!>[Kno debug process-module ipctest
+Stoke[local]#<!>[Kno debug process-module ipctest2 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module ipctest2 Stoke[local]#[K<!>[Kno debug process-module ipctest2
+Stoke[local]#<!>[Kno debug process-module iplc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module iplc Stoke[local]#[K<!>[Kno debug process-module iplc
+Stoke[local]#<!>[Kno debug process-module l2tpdlc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module l2tpdlc Stoke[local]#[K<!>[Kno debug process-module l2tpdlc
+Stoke[local]#<!>[Kno debug process-module l2tpdmc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module l2tpdmc Stoke[local]#[K<!>[Kno debug process-module l2tpdmc
+Stoke[local]#<!>[Kno debug process-module logind 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module logind Stoke[local]#[K<!>[Kno debug process-module logind
+Stoke[local]#<!>[Kno debug process-module macif 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module macif Stoke[local]#[K<!>[Kno debug process-module macif
+Stoke[local]#<!>[Kno debug process-module nsm 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module nsm Stoke[local]#[K<!>[Kno debug process-module nsm
+Stoke[local]#<!>[Kno debug process-module ntp 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module ntp Stoke[local]#[K<!>[Kno debug process-module ntp
+Stoke[local]#<!>[Kno debug process-module ospf 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module ospf Stoke[local]#[K<!>[Kno debug process-module ospf
+Stoke[local]#<!>[Kno debug process-module pppd 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module pppd Stoke[local]#[K<!>[Kno debug process-module pppd
+Stoke[local]#<!>[Kno debug process-module pppdmc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module pppdmc Stoke[local]#[K<!>[Kno debug process-module pppdmc
+Stoke[local]#<!>[Kno debug process-module pppoe 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module pppoe Stoke[local]#[K<!>[Kno debug process-module pppoe
+Stoke[local]#<!>[Kno debug process-module pppoemc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module pppoemc Stoke[local]#[K<!>[Kno debug process-module pppoemc
+Stoke[local]#<!>[Kno debug process-module qosd 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module qosd Stoke[local]#[K<!>[Kno debug process-module qosd
+Stoke[local]#<!>[Kno debug process-module rip 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module rip Stoke[local]#[K<!>[Kno debug process-module rip
+Stoke[local]#<!>[Kno debug process-module sip 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module sip Stoke[local]#[K<!>[Kno debug process-module sip
+Stoke[local]#<!>[Kno debug process-module smid 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module smid Stoke[local]#[K<!>[Kno debug process-module smid
+Stoke[local]#<!>[Kno debug process-module snmpd 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module snmpd Stoke[local]#[K<!>[Kno debug process-module snmpd
+Stoke[local]#<!>[Kno debug process-module ss7 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module ss7 Stoke[local]#[K<!>[Kno debug process-module ss7
+Stoke[local]#<!>[Kno debug process-module storaged 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module storaged Stoke[local]#[K<!>[Kno debug process-module storaged
+Stoke[local]#<!>[Kno debug process-module tunmgr 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module tunmgr Stoke[local]#[K<!>[Kno debug process-module tunmgr
+Stoke[local]#<!>[Kno debug process-module ugw 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module ugw Stoke[local]#[K<!>[Kno debug process-module ugw
+Stoke[local]#<!>[Kno debug process-module ureg 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug process-module ureg Stoke[local]#[K<!>[Kno debug process-module ureg
+Stoke[local]#<!>[Kno debug slot 
+<<<<help_begin
+SLOT(0..4)  Slot number
+>>>>help_end
+[KStoke[local]#no debug slot Stoke[local]#[K<!>[Kno debug slot 4 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug slot 4 Stoke[local]#[K<!>[Kno debug slot 4
+Stoke[local]#<!>[Kno debug slot 1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug slot 1 Stoke[local]#[K<!>[Kno debug slot 1
+Stoke[local]#<!>[Kno debug slot 3 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug slot 3 Stoke[local]#[K<!>[Kno debug slot 3
+Stoke[local]#<!>[Kno debug slot 0 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug slot 0 Stoke[local]#[K<!>[Kno debug slot 0
+Stoke[local]#<!>[Kno debug slot 2 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no debug slot 2 Stoke[local]#[K<!>[Kno debug slot 2
+Stoke[local]#<!>[Kno terminal 
+<<<<help_begin
+length   Terminal display length (rows)
+monitor  Monitor log event messages on this terminal
+width    Terminal display width (columns)
+>>>>help_end
+[KStoke[local]#no terminal[K<!>[Kno terminal length 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no terminal length Stoke[local]#[K<!>[Kno terminal length
+Stoke[local]#<!>[Kno terminal monitor 
+<<<<help_begin
+filter  Pass all output through a filter
+<cr>
+>>>>help_end
+[KStoke[local]#no terminal monitor Stoke[local]#[K<!>[Kno terminal monitor filter 
+<<<<help_begin
+STRING(31)  Filter name
+>>>>help_end
+[KStoke[local]#no terminal monitor filter Stoke[local]#[K<!>[Kno terminal monitor filter z 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no terminal monitor filter z Stoke[local]#[K<!>[Kno terminal monitor filter z
+Stoke[local]#<!>[Kno terminal monitor filter abc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no terminal monitor filter abc Stoke[local]#[K<!>[Kno terminal monitor filter abc
+Stoke[local]#<!>[Kno terminal monitor filter a1b2c3 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no terminal monitor filter a1b2c3 Stoke[local]#[K<!>[Kno terminal monitor filter a1b2c3
+Stoke[local]#<!>[Kno terminal monitor filter xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no terminal monitor filter xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Stoke[local]#[K<!>[Kno terminal monitor filter xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Stoke[local]#<!>[Kno terminal monitor
+Stoke[local]#<!>[Kno terminal width 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#no terminal width Stoke[local]#[K<!>[Kno terminal width
+Stoke[local]#<!>

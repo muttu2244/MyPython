@@ -1,0 +1,29 @@
+context 
+<<<<help_begin
+STRING(36)  Context name
+>>>>help_end
+[KStoke[local]#context[K<!>[Kcontext z 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#context z[K<!>[Kcontext z
+ERROR: Context z not found
+Stoke[local]#<!>[Kcontext abc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#context abc[K<!>[Kcontext abc
+ERROR: Context abc not found
+Stoke[local]#<!>[Kcontext a1b2c3 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#context a1b2c3 Stoke[local]#[K<!>[Kcontext a1b2c3
+ERROR: Context a1b2c3 not found
+Stoke[local]#<!>[Kcontext xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#context xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Stoke[local]#[K<!>[Kcontext xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ERROR: Context xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx not found
+Stoke[local]#<!>

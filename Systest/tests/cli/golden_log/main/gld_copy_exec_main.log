@@ -1,0 +1,20 @@
+copy 
+<<<<help_begin
+STRING  Source URL
+>>>>help_end
+[KStoke[local]#copy[K<!>[Kcopy z 
+<<<<help_begin
+STRING  Destination URL
+>>>>help_end
+[KStoke[local]#copy z[K<!>[Kcopy z z 
+<<<<help_begin
+noconfirm  Do not ask for confirmation if the destination file exists
+<cr>
+>>>>help_end
+[KStoke[local]#copy z z[K<!>[Kcopy z z noconfirm 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#copy z z noconfirm Stoke[local]#[K<!>[Kcopy z z noconfirm
+Stoke[local]#<!>[Kcopy z z
+/cfint/z/z already exists; overwrite? (yes/[no]) <!>  copy z abc ?           <!>  copy z a1b2c3 ?              <!>  copy z xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx ?                                                                                                                                            <!>  copy abc ?         <!>  copy a1b2c3 ?            <!>  copy xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx ?                                                                                                                                          <!>

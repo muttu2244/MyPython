@@ -1,0 +1,39 @@
+02:58:47 : TEST    : ##################################################
+02:58:47 : TEST    : Python Version: Python 2.5
+02:58:47 : TEST    : ##################################################
+02:58:47 : TEST    : ##################################################
+02:58:47 : TEST    : test_HA_FUN_02
+02:58:47 : TEST    : ##################################################
+02:58:47 : INFO    : 
+#######################################################################
+#
+# Copyright (c) Stoke, Inc.
+# All Rights Reserved.
+#
+# This code is confidential and proprietary to Stoke, Inc. and may only
+# be used under a license from Stoke.
+#
+#######################################################################
+
+DESCRIPTION: Create many tunnels on a GLC and produce coredump on restartable process
+TEST MATRIX: 4.6B2_HA-IMC.xls
+TEST CASE  : HA_FUN_02
+TOPOLOGY   : GLC-R Setup 
+
+HOW TO RUN : python2.5 HA_FUN_02.py
+AUTHOR     : rajshekar@stoke.com
+REVIEWER   : 
+
+
+02:58:47 : OUTPUT  : SSX object for host kenya-mc-con created.
+02:58:47 : OUTPUT  : SSX object for host yemen created.
+02:58:47 : ERROR   : ##################################################
+02:58:47 : ERROR   : test_HA_FUN_02 errored out.
+02:58:47 : ERROR   : ##################################################
+02:58:47 : ERROR   : 
+
+Traceback (most recent call last):
+  File "HA_FUN_02.py", line 80, in setUp
+    self.cisco = CISCO(cisco["ip_addr"])
+TypeError: 'module' object is not callable
+

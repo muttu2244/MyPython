@@ -1,0 +1,25 @@
+
+======================================================================================================================================================
+
+Total test time: 00 Hours 10 Minutes 03 seconds
+
+Test Pass/Fail/Error summary:
+	Total Test Case Run:              1
+	Total Test Case Passed:           0
+	Total Test Case Failed:           0
+	Total Test Case Errored:          1
+	Test pass percentage:           0.0%
+	Execution logs:               /.amd/netapp2/vol/vol1/home2/smath/systest/tests/glcr/ha_imc/Logs/Logs/setUpCisco-2012317353.log
+
+	Build Tested:                      
+	Python Version:                Python 2.5
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+                   Individual Test Results Summary
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Test Name                          	Test Summary                                                                    		Exec.Time   	P/F/E
+
+setUpCisco                         	/.amd/netapp2/vol/vol1/home2/smath/systest/tests/glcr/ha_imc/Logs//.amd/netapp2/		00:10:03    	E    
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------

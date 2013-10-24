@@ -1,0 +1,27 @@
+load 
+<<<<help_begin
+configuration  Load configuration from a file
+>>>>help_end
+[KStoke[local]#load[K<!>[Kload configuration 
+<<<<help_begin
+STRING  File to load
+>>>>help_end
+[KStoke[local]#load configuration Stoke[local]#[K<!>[Kload configuration z 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#load configuration z Stoke[local]#[K<!>[Kload configuration z
+ERROR: Could not open /cfint/z for reading: No such file or directory.
+Stoke[local]#<!>[Kload configuration abc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#load configuration abc Stoke[local]#[K<!>[Kload configuration abc
+ERROR: Could not open /cfint/abc for reading: No such file or directory.
+Stoke[local]#<!>[Kload configuration a1b2c3 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#load configuration a1b2c3 Stoke[local]#[K<!>[Kload configuration a1b2c3
+ERROR: Could not open /cfint/a1b2c3 for reading: No such file or directory.
+Stoke[local]#<!>[Kload configuration xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Stoke[local]#[K<!>

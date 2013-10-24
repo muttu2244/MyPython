@@ -1,0 +1,5 @@
+test_cleanUpCisco (__main__.test_cleanUpCisco) ... 
+----------------------------------------------------------------------
+Ran 1 test in 31.477s
+
+OK

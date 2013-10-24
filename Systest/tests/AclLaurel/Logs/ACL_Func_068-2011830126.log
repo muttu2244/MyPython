@@ -1,0 +1,977 @@
+12:06:08 : TEST    : ##################################################
+12:06:08 : TEST    : Python Version: Python 2.5
+12:06:08 : TEST    : ##################################################
+12:06:08 : TEST    : ##################################################
+12:06:08 : TEST    : test_ACL_Func_068
+12:06:08 : TEST    : ##################################################
+12:06:08 : OUTPUT  : SSX object for host nandi created.
+12:06:08 : DEBUG   : Trying to connect to host nandi
+12:06:12 : INFO    : Connected to host nandi
+12:06:13 : CMD     : nandi     : terminal length infinite 
+12:06:13 : CMD     : nandi     : terminal width infinite 
+12:06:14 : CMD     : nandi     : no terminal monitor 
+12:06:14 : INFO    : Memory Snap for all Slots before starting the TEST
+12:06:14 : CMD     : nandi     : show process mem slot 0 | grep -v "Process Name" 
+------------- ------- ------- ------- ------- ------- ------- ------- ------- 
+NSM            593928 12KB    8192    7696KB  1292KB  152KB   37MB    180MB
+Smid           610328 200KB   16KB    11MB    3544KB  96KB    2336KB  17MB
+Ip             610332 4096    4096    8MB     2124KB  172KB   8MB     266MB
+CtxMgr         610331 28KB    8192    6752KB  932KB   68KB    2304KB  17MB
+Fpd            610330 84KB    12KB    6864KB  976KB   96KB    1280KB  243MB
+Aaad           610336 364KB   20KB    10MB    1532KB  172KB   9MB     25MB
+Cli           5398575 40KB    16KB    11MB    3568KB  84KB    2432KB  17MB
+Cli           1379128 40KB    16KB    11MB    3568KB  88KB    2464KB  17MB
+Snmpd          610338 632KB   72KB    7012KB  1020KB  64KB    2304KB  18MB
+Inets          610337 32KB    8192    8MB     1256KB  100KB   1280KB  17MB
+Logind         610329 16KB    8192    6808KB  960KB   60KB    1280KB  17MB
+Logind        1379128 16KB    8192    6808KB  960KB   72KB    1280KB  17MB
+Ospf           610333 308KB   12KB    7204KB  1052KB  72KB    4416KB  34MB
+Bgp4           610334 308KB   12KB    7224KB  1064KB  88KB    7808KB  34MB
+Evl            610325 92KB    8192    7040KB  996KB   84KB    4352KB  17MB
+EvlColl        610326 20KB    8192    6768KB  940KB   60KB    1280KB  17MB
+Qosd           610335 168KB   8192    7000KB  1016KB  68KB    1280KB  23MB
+IkedMc         610339 152KB   4096    8136KB  1224KB  72KB    2852KB  17MB
+Ntp           1098960 4096    4096    7268KB  1268KB  100KB   1280KB  17MB
+Rip            610341 92KB    8192    6988KB  1016KB  76KB    3328KB  34MB
+Evt            610324 28KB    8192    6752KB  932KB   68KB    2304KB  17MB
+Fabric         610347 12KB    8192    6776KB  940KB   56KB    1280KB  17MB
+Fsync          610327 16KB    8192    6752KB  932KB   56KB    1280KB  17MB
+TunMgr         610342 108KB   12KB    6788KB  948KB   64KB    2304KB  19MB
+PPPoEMC        610343 16KB    4096    6792KB  944KB   60KB    1280KB  17MB
+PPPdMc         610344 16KB    4096    6784KB  940KB   60KB    1280KB  17MB
+CDR            610345 88KB    20KB    8MB     1160KB  104KB   1280KB  17MB
+DHCPdMC        610346 48KB    4096    6844KB  980KB   68KB    2308KB  17MB
+MIPd           610348 172KB   1096KB  7016KB  2024KB  84KB    1280KB  17MB
+SLA            610349 28KB    4096    6916KB  972KB   60KB    1284KB  17MB
+Dfn            610350 1240KB  11MB    8MB     1204KB  80KB    2304KB  17MB
+12:06:15 : CMD     : nandi     : show process mem slot 1 | grep -v "Process Name" 
+ERROR: Card 1 not ready
+12:06:15 : CMD     : nandi     : show process mem slot 2 | grep -v "Process Name" 
+------------- ------- ------- ------- ------- ------- ------- ------- ------- 
+NSM            925699 12KB    4096    6668KB  1148KB  116KB   8MB     340MB
+IpLc           946200 8192    4096    6880KB  1164KB  104KB   14MB    343MB
+Fpd            946199 84KB    4096    6176KB  888KB   88KB    1288KB  238MB
+Iked           946201 1124KB  1000KB  7896KB  1392KB  204KB   13MB    351MB
+Evl            946197 48KB    8192    6080KB  852KB   60KB    1280KB  12MB
+Evt            946195 28KB    8192    6064KB  844KB   56KB    1280KB  12MB
+NseMgr         946207 40KB    8192    8000KB  976KB   52KB    1280KB  12MB
+PPPoE          946202 44KB    8192    6900KB  1176KB  72KB    1280KB  338MB
+PPPd           946203 104KB   12KB    6220KB  912KB   72KB    2304KB  238MB
+DHCPdLC        946204 36KB    1028KB  6888KB  1172KB  68KB    1280KB  238MB
+Inspectd       946205 28KB    1032KB  8MB     992KB   84KB    5568KB  464MB
+Count          946206 100KB   8192    6120KB  860KB   64KB    21MB    116MB
+12:06:16 : CMD     : nandi     : show process mem slot 3 | grep -v "Process Name" 
+------------- ------- ------- ------- ------- ------- ------- ------- ------- 
+NSM            925699 12KB    4096    6668KB  1148KB  116KB   8MB     340MB
+IpLc           946200 8192    4096    6880KB  1164KB  104KB   10MB    343MB
+Fpd            946199 84KB    4096    6176KB  888KB   88KB    1288KB  238MB
+Iked           946201 1124KB  1000KB  7896KB  1392KB  200KB   12MB    351MB
+Evl            946198 48KB    8192    6080KB  852KB   60KB    1280KB  12MB
+Evt            946195 28KB    8192    6064KB  844KB   56KB    1280KB  12MB
+NseMgr         946207 40KB    8192    8000KB  976KB   52KB    1280KB  12MB
+PPPoE          946202 44KB    8192    6900KB  1176KB  72KB    1280KB  338MB
+PPPd           946203 104KB   12KB    6220KB  912KB   72KB    2304KB  238MB
+DHCPdLC        946204 36KB    1028KB  6888KB  1172KB  68KB    1280KB  238MB
+Inspectd       946205 28KB    1032KB  8MB     992KB   84KB    5568KB  464MB
+Count          946206 100KB   8192    6120KB  860KB   64KB    21MB    116MB
+12:06:16 : CMD     : nandi     : show process mem slot 4 | grep -v "Process Name" 
+------------- ------- ------- ------- ------- ------- ------- ------- ------- 
+NSM           2498581 12KB    4096    6668KB  1148KB  116KB   8MB     340MB
+IpLc          2519066 8192    4096    6880KB  1164KB  104KB   3328KB  344MB
+Fpd           2519065 84KB    4096    6176KB  888KB   88KB    1288KB  238MB
+Iked          2519067 1124KB  1000KB  7896KB  1392KB  188KB   12MB    351MB
+Evl           2519064 48KB    8192    6080KB  852KB   60KB    1280KB  12MB
+Evt           2519063 28KB    8192    6064KB  844KB   56KB    1280KB  12MB
+NseMgr        2519073 40KB    8192    8000KB  976KB   52KB    20MB    112MB
+PPPoE         2519068 44KB    8192    6900KB  1176KB  72KB    1280KB  338MB
+PPPd          2519069 104KB   12KB    6220KB  912KB   72KB    2304KB  238MB
+DHCPdLC       2519070 36KB    1028KB  6888KB  1172KB  68KB    1280KB  238MB
+Inspectd      2519071 28KB    1032KB  8MB     992KB   88KB    5568KB  464MB
+Count         2519072 100KB   8192    6120KB  860KB   64KB    41MB    118MB
+12:06:16 : INFO    : 
+----------------------------------------------------------------------------------------------------
+       Slot 0              Slot 2              Slot 3              Slot 4       
+Process   Mem(B)    Process   Mem(B)    Process   Mem(B)    Process   Mem(B)    
+----------------------------------------------------------------------------------------------------
+Fpd       1310720   IpLc      14680064  IpLc      10485760  IpLc      3407872   
+Fabric    1310720   Fpd       1318912   Fpd       1318912   Fpd       1318912   
+Bgp4      7995392   NseMgr    1310720   NseMgr    1310720   NseMgr    20971520  
+Dfn       2359296   Evl       1310720   Evl       1310720   Evl       1310720   
+Qosd      1310720   NSM       8388608   NSM       8388608   NSM       8388608   
+PPPdMc    1310720   Inspectd  5701632   Inspectd  5701632   Inspectd  5701632   
+DHCPdMC   2363392   Count     22020096  Count     22020096  Count     42991616  
+Cli       2523136   PPPd      2359296   PPPd      2359296   PPPd      2359296   
+NSM       38797312  DHCPdLC   1310720   DHCPdLC   1310720   DHCPdLC   1310720   
+Ntp       1310720   Evt       1310720   Evt       1310720   Evt       1310720   
+MIPd      1310720   PPPoE     1310720   PPPoE     1310720   PPPoE     1310720   
+Inets     1310720   Iked      13631488  Iked      12582912  Iked      12582912  
+Smid      2392064   
+Logind    1310720   
+Evl       4456448   
+Fsync     1310720   
+TunMgr    2359296   
+IkedMc    2920448   
+Evt       2359296   
+SLA       1314816   
+CtxMgr    2359296   
+Ospf      4521984   
+Ip        8388608   
+EvlColl   1310720   
+PPPoEMC   1310720   
+Rip       3407872   
+Aaad      9437184   
+CDR       1310720   
+Snmpd     2359296   
+
+12:06:16 : CMD     : nandi     : show version 
+Slot 0 Information (IMC1):
+----------------------------------------------------------------------------
+StokeOS Release 4.6B2 (2011061321).
+Built Mon Jun 13 22:46:33 PDT 2011 by builder.
+
+Stoke uptime is 6 weeks, 5 days, 12 hours, 46 minutes
+Card uptime is 6 weeks, 5 days, 12 hours, 46 minutes
+
+System restart at Wed Jul 13 17:50:12 UTC 2011
+Card restart at Wed Jul 13 17:50:12 UTC 2011
+Restart by software
+
+Firmware Version: v91
+
+Stoke-Boot Version
+  *Booted Primary: StokeBoot Release 4.2 (2009120817).
+   Booted Backup:  StokeBoot Release 4.2 (2009120817).
+Stoke-Bloader Version
+  *Booted Primary: Stoke Bootloader Release 4.6B2 (2011010618).
+   Booted Backup:  Stoke Bootloader Release 4.6B2 (2011010618).
+12:06:16 : INFO    : ##################################################
+12:06:16 : INFO    : SSX VERSION DETAILS:
+12:06:16 : INFO    : {'build': '2011061321', 'branch': '4.6B2'}
+12:06:16 : INFO    : ##################################################
+12:06:17 : CMD     : nandi     : context local 
+12:06:17 : CMD     : nandi     : dir /dump 
+ERROR: Path "/dump": Directory does not exist
+12:06:17 : DEBUG   : Trying to connect to host ganga
+12:06:18 : CMD     : ganga     : login:  regress
+12:06:18 : CMD     : ganga     : Password: gleep7
+12:06:18 : DEBUG   : Changing the prompt from default to the name of the host.
+12:06:18 : OUTPUT  : ganga     : ]0;regress@ganga:~
+12:06:18 : INFO    : Connected to host ganga
+12:06:18 : DEBUG   : Trying to connect to host godavari
+12:06:18 : CMD     : godavari  : login:  regress
+12:06:19 : CMD     : godavari  : Password: gleep7
+12:06:19 : DEBUG   : Changing the prompt from default to the name of the host.
+12:06:19 : OUTPUT  : godavari  : ]0;regress@godavari:~
+12:06:19 : INFO    : Connected to host godavari
+12:06:19 : DEBUG   : Clearing the config.
+12:06:19 : CMD     : nandi     : context local 
+12:06:19 : DEBUG   : Connection not through console. Will clear port configuraiton ONLY
+12:06:19 : DEBUG   : Clearing the config on ports
+12:06:19 : CMD     : nandi     : sh card 1 | grep IMC 
+ERROR: Card 1 not present
+12:06:20 : CMD     : nandi     : Nandi(cfg)# no port eth  2/0
+12:06:20 : CMD     : nandi     : Nandi(cfg)# no port eth  2/1
+12:06:20 : OUTPUT  : nandi     : ERROR: Port 2/1 not configured
+12:06:21 : CMD     : nandi     : Nandi(cfg)# no port eth  2/2
+12:06:21 : OUTPUT  : nandi     : ERROR: Port 2/2 not configured
+12:06:21 : CMD     : nandi     : Nandi(cfg)# no port eth  2/3
+12:06:21 : OUTPUT  : nandi     : ERROR: Port 2/3 not configured
+12:06:21 : CMD     : nandi     : Nandi(cfg)# no port eth  3/0
+12:06:21 : OUTPUT  : nandi     : ERROR: Port 3/0 not configured
+12:06:21 : CMD     : nandi     : Nandi(cfg)# no port eth  3/1
+12:06:21 : OUTPUT  : nandi     : ERROR: Port 3/1 not configured
+12:06:22 : CMD     : nandi     : Nandi(cfg)# no port eth  3/2
+12:06:22 : CMD     : nandi     : Nandi(cfg)# no port eth  3/3
+12:06:22 : OUTPUT  : nandi     : ERROR: Port 3/3 not configured
+12:06:22 : CMD     : nandi     : Nandi(cfg)# no port eth  4/0
+12:06:22 : CMD     : nandi     : Nandi(cfg)# no port eth  4/1
+12:06:22 : OUTPUT  : nandi     : ERROR: Port 4/1 not configured
+12:06:23 : CMD     : nandi     : Nandi(cfg)# no port eth  4/2
+12:06:23 : OUTPUT  : nandi     : ERROR: Port 4/2 not configured
+12:06:23 : CMD     : nandi     : Nandi(cfg)# no port eth  4/3
+12:06:23 : INFO    : Cleared configuration on all ports except management port
+12:06:23 : CMD     : nandi     : Nandi(cfg)# end
+12:06:24 : CMD     : nandi     : context local 
+12:06:24 : CMD     : nandi     : show context all | grep -v local 
+Context                          Index      Domain(s)                           
+-------------------------------- ---------- ------------------------------------
+stoke1                                   24 
+12:06:24 : DEBUG   : Clearing the configuration of all contexts except 'context local'
+12:06:24 : CMD     : nandi     : config 
+12:06:25 : CMD     : nandi     : no context stoke1 
+12:06:25 : CMD     : nandi     : end 
+12:06:26 : CMD     : nandi     : show context all 
+Context                          Index      Domain(s)                           
+-------------------------------- ---------- ------------------------------------
+local                                     1 
+12:06:26 : DEBUG   : Contexts Info aftetr clearing the contexts: 
+Context                          Index      Domain(s)                           
+-------------------------------- ---------- ------------------------------------
+local                                     1 
+12:06:26 : INFO    : Connecting to the cisco 
+12:06:26 : DEBUG   : has the IP of: 10.10.10.120
+12:06:27 : CMD     : terminal length 512
+12:06:28 : CMD     : terminal width 512
+12:06:28 : CMD     : configure term
+12:06:28 : CMD     : no logging console
+12:06:28 : CMD     : end
+12:06:28 : CMD     : nandi     : show card  | grep GLC 
+    2 GLC1    Running                  0110323060000077 4x1000Base-X     02.07
+    3 GLC1    Running                  0110323060000099 4x1000Base-X     02.07
+    4 GLC2    Running                  0131001021000020 4x1000Base-X     10.01
+12:06:28 : INFO    : Clearing the health stats
+12:06:29 : CMD     : nandi     : show clock 
+Tue Aug 30 2011 06:36:27 UTC
+12:06:30 : CMD     : nandi     : clear syscount 
+12:06:30 : INFO    : Clearing the core files
+
+12:06:31 : CMD     : nandi     : copy /hd/dump/slot0/*.core.gz /hd/dump 
+0 files copied.
+12:06:31 : CMD     : nandi     : delete /hd/dump/slot0/*.core.gz noconfirm 
+0 files deleted.
+12:06:31 : CMD     : nandi     : copy /hd/dump/slot1/*.core.gz /hd/dump 
+0 files copied.
+12:06:32 : CMD     : nandi     : delete /hd/dump/slot1/*.core.gz noconfirm 
+0 files deleted.
+12:06:32 : CMD     : nandi     : copy /hd/dump/slot2/*.core.gz /hd/dump 
+0 files copied.
+12:06:32 : CMD     : nandi     : delete /hd/dump/slot2/*.core.gz noconfirm 
+0 files deleted.
+12:06:33 : CMD     : nandi     : copy /hd/dump/slot3/*.core.gz /hd/dump 
+0 files copied.
+12:06:33 : CMD     : nandi     : delete /hd/dump/slot3/*.core.gz noconfirm 
+0 files deleted.
+12:06:33 : CMD     : nandi     : copy /hd/dump/slot4/*.core.gz /hd/dump 
+0 files copied.
+12:06:34 : CMD     : nandi     : delete /hd/dump/slot4/*.core.gz noconfirm 
+0 files deleted.
+12:06:34 : OUTPUT  : 
+**********start the test**************
+
+12:06:34 : CMD     : nandi     : show glc-redundancy 
+Tue Aug 30 06:36:32 UTC 2011.
+
+Redundancy Group 1 Status:  Redundant
+
+   Logical Slot 100: Switchovers 16, Switchbacks 16
+     Last Switchback: Thu Aug 25 2011 05:00:43 UTC
+   Logical Slot 101: Switchovers 4, Switchbacks 4
+     Last Switchback: Mon Aug 29 2011 09:08:18 UTC
+
+Phys       Slot     Logical   Port Admin/Link Status
+Slot  Grp  Status   Slot(s)   0           1           2           3
+----- ---- -------- --------- ----------- ----------- ----------- ----------- 
+    2    1 Active   100       Unconf/Down Unconf/Down Unconf/Down Unconf/Down
+    3    1 Active   101       Unconf/Down Unconf/Down Unconf/Down Unconf/Down
+    4    1 Standby  100 101   Unconf/Down Unconf/Down Unconf/Down Unconf/Down
+12:06:34 : INFO    : Get the GLCR Status
+12:06:34 : CMD     : nandi     : show card  | grep GLC 
+    2 GLC1    Running                  0110323060000077 4x1000Base-X     02.07
+    3 GLC1    Running                  0110323060000099 4x1000Base-X     02.07
+    4 GLC2    Running                  0131001021000020 4x1000Base-X     10.01
+12:06:35 : CMD     : nandi     : sh glc-redundancy | begin -i "Active" 
+    2    1 Active   100       Unconf/Down Unconf/Down Unconf/Down Unconf/Down
+    3    1 Active   101       Unconf/Down Unconf/Down Unconf/Down Unconf/Down
+    4    1 Standby  100 101   Unconf/Down Unconf/Down Unconf/Down Unconf/Down
+12:06:35 : CMD     : nandi     : sh glc-redundancy | grep -i "Active" 
+    2    1 Active   100       Unconf/Down Unconf/Down Unconf/Down Unconf/Down
+    3    1 Active   101       Unconf/Down Unconf/Down Unconf/Down Unconf/Down
+12:06:35 : CMD     : nandi     : sh glc-redundancy | grep -i "Standby" 
+    4    1 Standby  100 101   Unconf/Down Unconf/Down Unconf/Down Unconf/Down
+12:06:35 : INFO    : ***************** Clear and Enable Logs ***********************
+12:06:36 : CMD     : nandi     : no debug all 
+12:06:36 : CMD     : nandi     : clear log debug 
+12:06:36 : CMD     : nandi     : debug module countd all 
+                          ^
+ERROR: unexpected input
+12:06:37 : CMD     : nandi     : debug module iked all 
+12:06:37 : CMD     : nandi     : debug module aaad all 
+12:06:37 : CMD     : nandi     : debug module tunmgr all 
+12:06:38 : CMD     : nandi     : end 
+             ^
+ERROR: unexpected input
+12:06:38 : OUTPUT  : 
+********** Configuring SSX Responder **************
+
+12:06:38 : CMD     : nandi     : Nandi(cfg)# 
+12:06:38 : CMD     : nandi     : Nandi(cfg)# ipsec global profile
+12:06:39 : CMD     : nandi     : Nandi(cfg-ipsec-global-profile)# dpd interval 60 retry-interval 30 maximum-retries 3
+12:06:39 : CMD     : nandi     : Nandi(cfg-ipsec-global-profile)# retransmit interval 15 maximum-retries 5 send-retransmit-response
+12:06:39 : CMD     : nandi     : Nandi(cfg-ipsec-global-profile)# 
+12:06:39 : CMD     : nandi     : Nandi(cfg-ipsec-global-profile)# session-remove-timer interval 1200
+12:06:40 : CMD     : nandi     : Nandi(cfg-ipsec-global-profile)# exit
+12:06:40 : CMD     : nandi     : Nandi(cfg)# context stoke1
+12:06:40 : CMD     : nandi     : Nandi(cfg-ctx)# interface active
+12:06:41 : CMD     : nandi     : Nandi(cfg-intfv4)# arp arpa
+12:06:41 : CMD     : nandi     : Nandi(cfg-intfv4)# ip address 17.1.1.2/24
+12:06:41 : CMD     : nandi     : Nandi(cfg-intfv4)# exit
+12:06:41 : CMD     : nandi     : Nandi(cfg-ctx)# interface service
+12:06:41 : CMD     : nandi     : Nandi(cfg-intfv4)# arp arpa
+12:06:42 : CMD     : nandi     : Nandi(cfg-intfv4)# ip address 18.1.1.2/24
+12:06:42 : CMD     : nandi     : Nandi(cfg-intfv4)# exit
+12:06:42 : CMD     : nandi     : Nandi(cfg-ctx)# interface service_standby
+12:06:42 : CMD     : nandi     : Nandi(cfg-intfv4)# arp arpa
+12:06:42 : CMD     : nandi     : Nandi(cfg-intfv4)# ip address 28.1.1.2/24
+12:06:43 : CMD     : nandi     : Nandi(cfg-intfv4)# exit
+12:06:43 : CMD     : nandi     : Nandi(cfg-ctx)# interface standby
+12:06:43 : CMD     : nandi     : Nandi(cfg-intfv4)# arp arpa
+12:06:43 : CMD     : nandi     : Nandi(cfg-intfv4)# ip address 27.1.1.2/24
+12:06:43 : CMD     : nandi     : Nandi(cfg-intfv4)# exit
+12:06:44 : CMD     : nandi     : Nandi(cfg-ctx)# interface tun_lp loopback
+12:06:44 : CMD     : nandi     : Nandi(cfg-intfv4)# ip address 4.4.4.4/32
+12:06:44 : CMD     : nandi     : Nandi(cfg-intfv4)# exit
+12:06:44 : CMD     : nandi     : Nandi(cfg-ctx)# interface tun_iface tunnel
+12:06:44 : CMD     : nandi     : Nandi(cfg-intfv4)# ip address 120.1.1.1/32
+12:06:45 : CMD     : nandi     : Nandi(cfg-intfv4)# exit
+12:06:45 : CMD     : nandi     : Nandi(cfg-ctx)# ip route 11.11.11.0/24 17.1.1.1
+12:06:45 : CMD     : nandi     : Nandi(cfg-ctx)# ip route 11.11.11.0/24 27.1.1.1 admin-distance 10
+12:06:45 : CMD     : nandi     : Nandi(cfg-ctx)# ip route 22.22.22.0/24 18.1.1.1
+12:06:45 : CMD     : nandi     : Nandi(cfg-ctx)# ip route 22.22.22.0/24 28.1.1.1 admin-distance 10
+12:06:46 : CMD     : nandi     : Nandi(cfg-ctx)# ipsec policy ikev2 phase1 name 1p1
+12:06:46 : CMD     : nandi     : Nandi(cfg-ipsec-ikev2-phase1)# suite1
+12:06:47 : CMD     : nandi     : Nandi(cfg-ipsec-ikev2-phase1-suite1)# gw-authentication psk 1234567890
+12:06:47 : CMD     : nandi     : Nandi(cfg-ipsec-ikev2-phase1-suite1)# peer-authentication psk
+12:06:47 : CMD     : nandi     : Nandi(cfg-ipsec-ikev2-phase1-suite1)# hard-lifetime 460 secs
+12:06:47 : CMD     : nandi     : Nandi(cfg-ipsec-ikev2-phase1-suite1)# soft-lifetime 160 secs
+12:06:48 : CMD     : nandi     : Nandi(cfg-ipsec-ikev2-phase1-suite1)# exit
+12:06:48 : CMD     : nandi     : Nandi(cfg-ipsec-ikev2-phase1)# exit
+12:06:48 : CMD     : nandi     : Nandi(cfg-ctx)# ipsec policy ikev2 phase2 name 1p2
+12:06:48 : CMD     : nandi     : Nandi(cfg-ipsec-ikev2-phase2)# suite1
+12:06:48 : CMD     : nandi     : Nandi(cfg-ipsec-ikev2-phase2-suite1)# hard-lifetime 360 secs
+12:06:49 : CMD     : nandi     : Nandi(cfg-ipsec-ikev2-phase2-suite1)# soft-lifetime 60 secs
+12:06:49 : CMD     : nandi     : Nandi(cfg-ipsec-ikev2-phase2-suite1)# exit
+12:06:49 : CMD     : nandi     : Nandi(cfg-ipsec-ikev2-phase2)# exit
+12:06:49 : CMD     : nandi     : Nandi(cfg-ctx)# exit
+12:06:49 : CMD     : nandi     : Nandi(cfg)# admin-access global profile
+12:06:50 : CMD     : nandi     : Nandi(cfg-admin-access-profile)# exit
+12:06:50 : CMD     : nandi     : Nandi(cfg)# session-home slot 100 loopback interface tun_lp stoke1
+12:06:50 : CMD     : nandi     : Nandi(cfg-session-home)# ipsec session context name stoke1
+12:06:50 : CMD     : nandi     : Nandi(cfg-session-home)# ipsec policy ikev2 phase1 name 1p1
+12:06:50 : CMD     : nandi     : Nandi(cfg-session-home)# ipsec policy ikev2 phase2 name 1p2
+12:06:51 : CMD     : nandi     : Nandi(cfg-session-home)# exit
+12:06:51 : CMD     : nandi     : Nandi(cfg)# no port ethernet 2/0 dot1q
+12:06:51 : OUTPUT  : nandi     : ERROR: Port 2/0 not configured
+12:06:51 : CMD     : nandi     : Nandi(cfg)# port ethernet 2/0 dot1q
+12:06:51 : CMD     : nandi     : Nandi(cfg-dot1q)# vlan 1000
+12:06:52 : CMD     : nandi     : Nandi(cfg-dot1q-vlan)# bind interface active stoke1
+12:06:52 : CMD     : nandi     : Nandi(cfg-dot1q-bindv4)# exit
+12:06:52 : CMD     : nandi     : Nandi(cfg-dot1q-vlan)# service ipsec
+12:06:52 : CMD     : nandi     : Nandi(cfg-dot1q-vlan)# exit
+12:06:52 : CMD     : nandi     : Nandi(cfg-dot1q)# enable
+12:06:53 : CMD     : nandi     : Nandi(cfg-dot1q)# exit
+12:06:53 : CMD     : nandi     : Nandi(cfg)# no port ethernet 3/2
+12:06:53 : OUTPUT  : nandi     : ERROR: Port 3/2 not configured
+12:06:53 : CMD     : nandi     : Nandi(cfg)# port ethernet 3/2
+12:06:53 : CMD     : nandi     : Nandi(cfg-port)# bind interface service stoke1
+12:06:54 : CMD     : nandi     : Nandi(cfg-bindv4)# exit
+12:06:54 : CMD     : nandi     : Nandi(cfg-port)# enable
+12:06:54 : CMD     : nandi     : Nandi(cfg-port)# exit
+12:06:54 : CMD     : nandi     : Nandi(cfg)# no port ethernet 4/0 dot1q
+12:06:54 : OUTPUT  : nandi     : ERROR: Port 4/0 not configured
+12:06:54 : CMD     : nandi     : Nandi(cfg)# port ethernet 4/0 dot1q
+12:06:55 : CMD     : nandi     : Nandi(cfg-dot1q)# vlan 1001
+12:06:55 : CMD     : nandi     : Nandi(cfg-dot1q-vlan)# bind interface standby stoke1
+12:06:55 : CMD     : nandi     : Nandi(cfg-dot1q-bindv4)# exit
+12:06:55 : CMD     : nandi     : Nandi(cfg-dot1q-vlan)# service ipsec
+12:06:55 : CMD     : nandi     : Nandi(cfg-dot1q-vlan)# exit
+12:06:56 : CMD     : nandi     : Nandi(cfg-dot1q)# enable
+12:06:56 : CMD     : nandi     : Nandi(cfg-dot1q)# exit
+12:06:56 : CMD     : nandi     : Nandi(cfg)# no port ethernet 4/3
+12:06:56 : OUTPUT  : nandi     : ERROR: Port 4/3 not configured
+12:06:56 : CMD     : nandi     : Nandi(cfg)# port ethernet 4/3
+12:06:57 : CMD     : nandi     : Nandi(cfg-port)# bind interface service_standby stoke1
+12:06:57 : CMD     : nandi     : Nandi(cfg-bindv4)# exit
+12:06:57 : CMD     : nandi     : Nandi(cfg-port)# enable
+12:06:57 : CMD     : nandi     : Nandi(cfg-port)# exit
+12:06:57 : CMD     : nandi     : Nandi(cfg)# tunnel tun0_1 type ipsec protocol ip44 context stoke1
+12:06:58 : CMD     : nandi     : Nandi(cfg-tunnel)# enable
+12:06:58 : CMD     : nandi     : Nandi(cfg-tunnel)# ip local 4.4.4.4 remote 11.11.11.11
+12:06:58 : CMD     : nandi     : Nandi(cfg-tunnel)# bind interface tun_iface stoke1
+12:06:58 : CMD     : nandi     : Nandi(cfg-tunnel-bindv4)# ip route 2.2.2.2/32
+12:06:58 : CMD     : nandi     : Nandi(cfg-tunnel-bindv4)# ip route 11.11.11.11/32
+12:06:59 : CMD     : nandi     : Nandi(cfg-tunnel-bindv4)# exit
+12:06:59 : CMD     : nandi     : Nandi(cfg-tunnel)# ipsec policy ikev2 phase2 name 1p2
+12:06:59 : CMD     : nandi     : Nandi(cfg-tunnel)# ipsec policy ikev2 phase1 name 1p1
+12:06:59 : CMD     : nandi     : Nandi(cfg-tunnel-ipsec-ikev2-phase1)# psk 1234567890
+12:06:59 : CMD     : nandi     : Nandi(cfg-tunnel-ipsec-ikev2-phase1)# exit
+12:07:00 : CMD     : nandi     : Nandi(cfg-tunnel)# exit
+12:07:00 : INFO    : 
+ Clearing CISCO interface configurations 
+
+12:07:00 : CMD     : show running interface gigabit 0/44
+12:07:00 : CMD     : conf t
+12:07:00 : CMD     : interface gigabit 0/44
+12:07:00 : CMD     : no  ip address 11.11.11.12 255.255.255.0
+12:07:00 : CMD     : end
+12:07:01 : CMD     : show running interface gigabit 0/43
+12:07:12 : CMD     : conf t
+12:07:12 : CMD     : interface gigabit 0/43
+12:07:12 : CMD     : no  ip address 22.22.22.23 255.255.255.0
+12:07:12 : CMD     : no  ip vrf forwarding service
+12:07:12 : CMD     : end
+12:07:13 : CMD     : show running interface gigabit 0/25
+12:07:23 : CMD     : conf t
+12:07:23 : CMD     : interface gigabit 0/25
+12:07:23 : CMD     : end
+12:07:24 : CMD     : show running interface gigabit 0/20
+12:07:34 : CMD     : conf t
+12:07:34 : CMD     : interface gigabit 0/20
+12:07:34 : CMD     : end
+12:07:35 : CMD     : show running interface gigabit 0/19
+12:07:45 : CMD     : conf t
+12:07:45 : CMD     : interface gigabit 0/19
+12:07:45 : CMD     : end
+12:07:46 : CMD     : show running interface gigabit 0/20
+12:07:56 : CMD     : conf t
+12:07:56 : CMD     : interface gigabit 0/20
+12:07:56 : CMD     : end
+12:07:57 : CMD     : show running interface gigabit 0/17
+12:08:07 : CMD     : conf t
+12:08:07 : CMD     : interface gigabit 0/17
+12:08:08 : CMD     : no  switchport mode trunk
+12:08:08 : CMD     : no  switchport trunk allowed vlan 1000
+12:08:08 : CMD     : no  switchport trunk encapsulation dot1q
+12:08:09 : CMD     : no  switchport access vlan 1000
+12:08:09 : CMD     : end
+12:08:09 : CMD     : show running interface gigabit 0/16
+12:08:22 : CMD     : conf t
+12:08:22 : CMD     : interface gigabit 0/16
+12:08:23 : CMD     : no  switchport mode trunk
+12:08:23 : CMD     : no  switchport trunk allowed vlan 1001
+12:08:23 : CMD     : no  switchport trunk encapsulation dot1q
+12:08:24 : CMD     : no  switchport access vlan 1001
+12:08:24 : CMD     : end
+12:08:24 : CMD     : show running interface gigabit 0/29
+12:08:35 : CMD     : conf t
+12:08:35 : CMD     : interface gigabit 0/29
+12:08:35 : CMD     : no  ip address 18.1.1.1 255.255.255.0
+12:08:35 : CMD     : no  ip vrf forwarding service
+12:08:35 : CMD     : end
+12:08:36 : CMD     : show running interface gigabit 0/22
+12:08:46 : CMD     : conf t
+12:08:46 : CMD     : interface gigabit 0/22
+12:08:46 : CMD     : no  ip address 28.1.1.1 255.255.255.0
+12:08:47 : CMD     : no  ip vrf forwarding service
+12:08:47 : CMD     : end
+12:08:47 : INFO    : Configuring Cisco Ports which are On DUT Slot2&4 side
+12:08:47 : CMD     : config t
+12:08:49 : CMD     : interface gigabit 0/17
+12:08:54 : CMD     : no ip address
+12:08:57 : CMD     : exit
+12:08:57 : CMD     : interface vlan 1000
+12:08:58 : CMD     : no ip address
+12:08:58 : CMD     : end
+12:08:58 : CMD     : show ip interface brief | inc 17\.1\.1
+12:09:07 : CMD     : config t
+12:09:08 : CMD     : interface vlan 1000
+12:09:09 : CMD     : no shutdown
+12:09:09 : CMD     : ip address 17.1.1.1 255.255.255.0
+12:09:09 : CMD     : exit
+12:09:09 : CMD     : interface gigabit 0/17
+12:09:09 : CMD     : no shutdown
+12:09:09 : CMD     : switchport
+12:09:09 : CMD     : switchport access vlan 1000
+12:09:10 : CMD     : switchport trunk encapsulation dot1q
+12:09:10 : CMD     : switchport trunk allowed vlan 1000
+12:09:10 : CMD     : switchport mode trunk
+12:09:11 : CMD     : end
+12:09:11 : CMD     : config t
+12:09:13 : CMD     : interface gigabit 0/16
+12:09:18 : CMD     : no ip address
+12:09:21 : CMD     : exit
+12:09:22 : CMD     : interface vlan 1001
+12:09:22 : CMD     : no ip address
+12:09:22 : CMD     : end
+12:09:22 : CMD     : show ip interface brief | inc 27\.1\.1
+12:09:31 : CMD     : config t
+12:09:33 : CMD     : interface vlan 1001
+12:09:33 : CMD     : no shutdown
+12:09:33 : CMD     : ip address 27.1.1.1 255.255.255.0
+12:09:33 : CMD     : exit
+12:09:33 : CMD     : interface gigabit 0/16
+12:09:34 : CMD     : no shutdown
+12:09:34 : CMD     : switchport
+12:09:34 : CMD     : switchport access vlan 1001
+12:09:34 : CMD     : switchport trunk encapsulation dot1q
+12:09:34 : CMD     : switchport trunk allowed vlan 1001
+12:09:35 : CMD     : switchport mode trunk
+12:09:35 : CMD     : end
+12:09:35 : CMD     : config t
+12:09:40 : CMD     : interface gigabit 0/29
+12:09:46 : CMD     : no ip address
+12:09:48 : CMD     : end
+12:09:49 : CMD     : show ip interface brief | inc 18\.1\.1
+12:09:49 : CMD     : config t
+12:09:49 : CMD     : interface gigabit 0/29
+12:09:49 : CMD     : no shutdown
+12:09:50 : CMD     : no switchport
+12:09:50 : CMD     : ip vrf forwarding service
+12:09:50 : CMD     : ip address 18.1.1.1 255.255.255.0
+12:09:50 : CMD     : end
+12:09:50 : CMD     : config t
+12:09:52 : CMD     : interface gigabit 0/22
+12:09:57 : CMD     : no ip address
+12:10:00 : CMD     : end
+12:10:01 : CMD     : show ip interface brief | inc 28\.1\.1
+12:10:01 : CMD     : config t
+12:10:01 : CMD     : interface gigabit 0/22
+12:10:01 : CMD     : no shutdown
+12:10:01 : CMD     : no switchport
+12:10:02 : CMD     : ip vrf forwarding service
+12:10:02 : CMD     : ip address 28.1.1.1 255.255.255.0
+12:10:02 : CMD     : end
+12:10:02 : CMD     : config t
+12:10:04 : CMD     : interface gigabit 0/44
+12:10:09 : CMD     : no ip address
+12:10:11 : CMD     : end
+12:10:12 : CMD     : show ip interface brief | inc 11\.11\.11
+12:10:13 : CMD     : config t
+12:10:13 : CMD     : interface gigabit 0/44
+12:10:13 : CMD     : no shutdown
+12:10:13 : CMD     : no switchport
+12:10:14 : CMD     : ip address 11.11.11.12  255.255.255.0
+12:10:14 : CMD     : end
+12:10:14 : CMD     : config t
+12:10:16 : CMD     : interface gigabit 0/43
+12:10:21 : CMD     : no ip address
+12:10:24 : CMD     : end
+12:10:25 : CMD     : show ip interface brief | inc 22\.22\.22
+12:10:25 : CMD     : config t
+12:10:25 : CMD     : interface gigabit 0/43
+12:10:25 : CMD     : no shutdown
+12:10:25 : CMD     : no switchport
+12:10:25 : CMD     : ip vrf forwarding service
+12:10:26 : CMD     : ip address 22.22.22.23 255.255.255.0
+12:10:26 : CMD     : end
+12:10:26 : OUTPUT  : 
+**********Configuring Linux Interfaces***********
+
+12:10:26 : CMD     : ganga     : linux-test#  sudo /sbin/ifconfig eth3 11.11.11.11/24
+12:10:26 : CMD     : ganga     : Password: gleep7
+12:10:26 : OUTPUT  : ganga     : ]0;regress@ganga:~
+12:10:26 : OUTPUT  : 
+**********Adding Routes On Linux***********
+
+12:10:27 : CMD     : ganga     : linux-test#  sudo /sbin/route add -net 4.4.4.0/24 gw 11.11.11.12
+12:10:27 : OUTPUT  : ganga     : SIOCADDRT: File exists
+12:10:27 : OUTPUT  : ganga     : ]0;regress@ganga:~
+12:10:27 : CMD     : ganga     : linux-test#  sudo /sbin/route add -net 120.1.1.0/24 gw 11.11.11.12
+12:10:27 : OUTPUT  : ganga     : SIOCADDRT: File exists
+12:10:27 : OUTPUT  : ganga     : ]0;regress@ganga:~
+12:10:27 : CMD     : godavari  : linux-test#  sudo /sbin/ifconfig eth1 22.22.22.22/24
+12:10:27 : CMD     : godavari  : Password: gleep7
+12:10:27 : OUTPUT  : godavari  : ]0;regress@godavari:~
+12:10:27 : OUTPUT  : 
+**********Adding Routes On Linux***********
+
+12:10:27 : CMD     : godavari  : linux-test#  sudo /sbin/route add -net 11.11.11.0/24 gw 22.22.22.23
+12:10:27 : OUTPUT  : godavari  : SIOCADDRT: File exists
+12:10:27 : OUTPUT  : godavari  : ]0;regress@godavari:~
+12:10:27 : INFO    : **************** End Of Linux configuration **********
+12:10:27 : INFO    : Configuring Cisco with routes
+12:10:27 : CMD     : config ter
+12:10:30 : CMD     : ip route 4.4.4.4 255.255.255.255 17.1.1.2 10
+12:10:36 : CMD     : ip route 4.4.4.4 255.255.255.255 27.1.1.2 20
+12:10:37 : CMD     : ip route 120.1.1.1 255.255.255.255 17.1.1.2 10
+12:10:37 : CMD     : ip route 120.1.1.1 255.255.255.255 27.1.1.2 20
+12:10:37 : CMD     : ip route vrf service 11.11.11.11 255.255.255.0 18.1.1.2 10
+12:10:37 : CMD     : ip route vrf service 11.11.11.11 255.255.255.0 28.1.1.2 20
+12:10:37 : CMD     : ip route vrf service 2.2.2.2 255.255.255.255 18.1.1.2 10
+12:10:37 : CMD     : ip route vrf service 2.2.2.2 255.255.255.255 28.1.1.2 20
+12:10:38 : INFO    : **************** End Of CISCO configuration*************
+12:10:38 : CMD     : ganga     : linux-test#  sudo ls /xpm/autoexec.cfg
+12:10:38 : OUTPUT  : ganga     : /xpm/autoexec.cfg
+12:10:38 : OUTPUT  : ganga     : ]0;regress@ganga:~
+12:10:38 : CMD     : ganga     : linux-test#  sudo rm /xpm/autoexec.cfg
+12:10:38 : OUTPUT  : ganga     : ]0;regress@ganga:~
+12:10:38 : ERROR   : invalide option w
+12:10:38 : CMD     : ganga     : linux-test#  sudo touch /xpm/autoexec.cfg
+12:10:38 : OUTPUT  : ganga     : ]0;regress@ganga:~
+12:10:38 : CMD     : ganga     : linux-test#  sudo chmod a+rwx /xpm/autoexec.cfg 
+12:10:39 : OUTPUT  : ganga     : ]0;regress@ganga:~
+12:10:39 : CMD     : ganga     : linux-test#  sudo echo '' >> /xpm/autoexec.cfg
+12:10:39 : OUTPUT  : ganga     : ]0;regress@ganga:~
+12:10:39 : CMD     : ganga     : linux-test#  sudo echo '### this is the new configuration format.' >> /xpm/autoexec.cfg
+12:10:39 : OUTPUT  : ganga     : ]0;regress@ganga:~
+12:10:39 : CMD     : ganga     : linux-test#  sudo echo 'ike listen 11.11.11.11   500' >> /xpm/autoexec.cfg
+12:10:39 : OUTPUT  : ganga     : ]0;regress@ganga:~
+12:10:39 : CMD     : ganga     : linux-test#  sudo echo 'ike listen 11.11.11.11  4500' >> /xpm/autoexec.cfg
+12:10:39 : OUTPUT  : ganga     : ]0;regress@ganga:~
+12:10:40 : CMD     : ganga     : linux-test#  sudo echo 'ike start' >> /xpm/autoexec.cfg
+12:10:40 : OUTPUT  : ganga     : ]0;regress@ganga:~
+12:10:40 : CMD     : ganga     : linux-test#  sudo echo '' >> /xpm/autoexec.cfg
+12:10:40 : OUTPUT  : ganga     : ]0;regress@ganga:~
+12:10:40 : CMD     : ganga     : linux-test#  sudo echo '### IKE debugging' >> /xpm/autoexec.cfg
+12:10:40 : OUTPUT  : ganga     : ]0;regress@ganga:~
+12:10:40 : CMD     : ganga     : linux-test#  sudo echo 'ike log                 stdout off' >> /xpm/autoexec.cfg
+12:10:40 : OUTPUT  : ganga     : ]0;regress@ganga:~
+12:10:40 : CMD     : ganga     : linux-test#  sudo echo 'ike log                 file off' >> /xpm/autoexec.cfg
+12:10:40 : OUTPUT  : ganga     : ]0;regress@ganga:~
+12:10:41 : CMD     : ganga     : linux-test#  sudo echo 'ike log                 filename xpressvpn.log' >> /xpm/autoexec.cfg
+12:10:41 : OUTPUT  : ganga     : ]0;regress@ganga:~
+12:10:41 : CMD     : ganga     : linux-test#  sudo echo 'ike decode              full' >> /xpm/autoexec.cfg
+12:10:41 : OUTPUT  : ganga     : ]0;regress@ganga:~
+12:10:41 : CMD     : ganga     : linux-test#  sudo echo 'ike debug               off' >> /xpm/autoexec.cfg
+12:10:41 : OUTPUT  : ganga     : ]0;regress@ganga:~
+12:10:41 : CMD     : ganga     : linux-test#  sudo echo '' >> /xpm/autoexec.cfg
+12:10:41 : OUTPUT  : ganga     : ]0;regress@ganga:~
+12:10:41 : CMD     : ganga     : linux-test#  sudo echo '### IPSec debugging' >> /xpm/autoexec.cfg
+12:10:41 : OUTPUT  : ganga     : ]0;regress@ganga:~
+12:10:42 : CMD     : ganga     : linux-test#  sudo echo '#ipsec pktdump           error full' >> /xpm/autoexec.cfg
+12:10:42 : OUTPUT  : ganga     : ]0;regress@ganga:~
+12:10:42 : CMD     : ganga     : linux-test#  sudo echo '#ipsec log               debug' >> /xpm/autoexec.cfg
+12:10:42 : OUTPUT  : ganga     : ]0;regress@ganga:~
+12:10:42 : CMD     : ganga     : linux-test#  sudo echo '' >> /xpm/autoexec.cfg
+12:10:42 : OUTPUT  : ganga     : ]0;regress@ganga:~
+12:10:42 : CMD     : ganga     : linux-test#  sudo echo '' >> /xpm/autoexec.cfg
+12:10:42 : OUTPUT  : ganga     : ]0;regress@ganga:~
+12:10:43 : CMD     : ganga     : linux-test#  sudo echo 'alias LHOST 11.11.11.11                           #this is the physical IP of the XpressVPN client PC' >> /xpm/autoexec.cfg
+12:10:43 : OUTPUT  : ganga     : ]0;regress@ganga:~
+12:10:43 : CMD     : ganga     : linux-test#  sudo echo 'alias RHOST 4.4.4.4                          #this is the physical IP of the SSX' >> /xpm/autoexec.cfg
+12:10:43 : OUTPUT  : ganga     : ]0;regress@ganga:~
+12:10:43 : CMD     : ganga     : linux-test#  sudo echo 'alias IKE_SEL ${LHOST},${RHOST}' >> /xpm/autoexec.cfg
+12:10:43 : OUTPUT  : ganga     : ]0;regress@ganga:~
+12:10:43 : CMD     : ganga     : linux-test#  sudo echo 'ike ph1 addx    IKE_SEL  main psk 1234567890 aes-128 sha1 2 160 v2' >> /xpm/autoexec.cfg
+12:10:43 : OUTPUT  : ganga     : ]0;regress@ganga:~
+12:10:43 : CMD     : ganga     : linux-test#  sudo echo '#ike ph1 options IKE_SEL  mode-cfg-client' >> /xpm/autoexec.cfg
+12:10:43 : OUTPUT  : ganga     : ]0;regress@ganga:~
+12:10:44 : CMD     : ganga     : linux-test#  sudo echo '#ike ph1 options IKE_SEL  initial-contact' >> /xpm/autoexec.cfg
+12:10:44 : OUTPUT  : ganga     : ]0;regress@ganga:~
+12:10:44 : CMD     : ganga     : linux-test#  sudo echo '#ike ph1 myid    IKE_SEL  userfqdn test-session@stoke' >> /xpm/autoexec.cfg
+12:10:44 : OUTPUT  : ganga     : ]0;regress@ganga:~
+12:10:44 : CMD     : ganga     : linux-test#  sudo echo 'ike ph2 addx    11.11.11.11/32 0.0.0.0/0 0 IKE_SEL esp tunnel aes-128 sha1 2 60' >> /xpm/autoexec.cfg
+12:10:44 : OUTPUT  : ganga     : ]0;regress@ganga:~
+12:10:44 : CMD     : ganga     : linux-test#  sudo echo 'ike connect any' >> /xpm/autoexec.cfg
+12:10:44 : OUTPUT  : ganga     : ]0;regress@ganga:~
+12:10:44 : CMD     : ganga     : linux-test#  sudo echo '' >> /xpm/autoexec.cfg
+12:10:44 : OUTPUT  : ganga     : ]0;regress@ganga:~
+12:10:45 : CMD     : ganga     : linux-test#  sudo echo '' >> /xpm/autoexec.cfg
+12:10:45 : OUTPUT  : ganga     : ]0;regress@ganga:~
+12:10:45 : CMD     : ganga     : linux-test#  cd /xpm
+12:10:45 : OUTPUT  : ganga     : ]0;regress@ganga:/xpm
+12:10:45 : CMD     : ganga     : linux-test#  sudo /sbin/rmmod xpressvpn.ko
+12:10:45 : OUTPUT  : ganga     : ]0;regress@ganga:/xpm
+12:10:45 : CMD     : ganga     : linux-test#  sudo /sbin/insmod xpressvpn.ko
+12:10:45 : OUTPUT  : ganga     : ]0;regress@ganga:/xpm
+12:10:46 : CMD     : ganga     : linux-test#  sudo ./start_ike
+12:10:46 : OUTPUT  : ganga     : 05-11-2008 00:49:45.924 INFO sdb_sock.c:128 Bound IPSEC Management API Socket (fd=3) to Port 5003
+12:10:46 : OUTPUT  : ganga     : 05-11-2008 00:49:45.925 INFO main.c:85 XpressVPN 4.10.4 (build 5) Fri Feb  8 08:18:47 PST 2008
+12:10:46 : OUTPUT  : ganga     : 05-11-2008 00:49:45.926 INFO sdb_sock.c:110 Bound IPSEC Management Event Socket (fd=4) to Port 5004
+12:10:46 : OUTPUT  : ganga     : 05-11-2008 00:49:45.926 INFO admin.c:73 Admin Listener started on 0.0.0.0[5555] (fd=5)
+12:10:46 : OUTPUT  : ganga     : ike listen 11.11.11.11   500
+12:10:46 : OUTPUT  : ganga     : 05-11-2008 00:49:46.000 INFO ikemgmtapi.c:66 IKE listening on 11.11.11.11[500]
+12:10:46 : OUTPUT  : ganga     : ike listen 11.11.11.11  4500
+12:10:46 : OUTPUT  : ganga     : 05-11-2008 00:49:46.000 INFO ikemgmtapi.c:66 IKE listening on 11.11.11.11[4500]
+12:10:46 : OUTPUT  : ganga     : ike start
+12:10:46 : OUTPUT  : ganga     : 05-11-2008 00:49:46.000 INFO isakmp.c:389 socket fd 7 opened for 11.11.11.11[4500]
+12:10:46 : OUTPUT  : ganga     : 05-11-2008 00:49:46.000 INFO isakmp.c:389 socket fd 8 opened for 11.11.11.11[500]
+12:10:46 : OUTPUT  : ganga     : Starting IKE Task
+12:10:46 : OUTPUT  : ganga     : ike log                 stdout off
+12:10:46 : OUTPUT  : ganga     : ike log                 file off
+12:10:46 : OUTPUT  : ganga     : ike log                 filename xpressvpn.log
+12:10:46 : OUTPUT  : ganga     : ike decode              full
+12:10:46 : OUTPUT  : ganga     : ike debug               off
+12:10:46 : OUTPUT  : ganga     : alias LHOST 11.11.11.11                           
+12:10:46 : OUTPUT  : ganga     : alias RHOST 4.4.4.4                          
+12:10:46 : OUTPUT  : ganga     : alias IKE_SEL ${LHOST},${RHOST}
+12:10:46 : OUTPUT  : ganga     : ike ph1 addx    IKE_SEL  main psk 1234567890 aes-128 sha1 2 160 v2
+12:10:46 : OUTPUT  : ganga     : ike ph2 addx    11.11.11.11/32 0.0.0.0/0 0 IKE_SEL esp tunnel aes-128 sha1 2 60
+12:10:46 : OUTPUT  : ganga     : ike connect any
+12:10:46 : OUTPUT  : ganga     : Begin IKEv2 Phase1 as Initiator from 11.11.11.11 to 4.4.4.4
+12:10:56 : CMD     : nandi     : Nandi(cfg)# end
+12:10:57 : CMD     : nandi     : show ike-session detail remote 11.11.11.11 
+Tue Aug 30 06:40:55 UTC 2011.
+
+-------------------------------------------------------------------------------
+SLOT                          : 2
+Session handle                : f4440212
+IKE Version                   : 2 <LAN<->LAN>
+Nat Status                    : Permitted
+Remote tunnel end point       : 11.11.11.11 Port: 500
+Local tunnel end point        : 4.4.4.4 Port: 500
+Tunnel Setup Role             : Responder-Only
+Active Session Role           : Responder
+Cookie-pair                   : daeb82d7c5a0755d:1b7c45471859f6ba
+IKE-SA IDi                    : 11.11.11.11, IPV4
+IKE-SA IDr                    : none
+IKE-SA gw-auth method         : pre-shared key
+IKE-SA peer-auth method       : pre-shared key
+IKE-SA sec policy             : AES128, SHA-1, D-H group 2
+IKE-SA PRF                    : SHA-1
+IKE-SA time established       : Tue Aug 30 06:40:44 2011
+IKE-SA life time              : 460 secs
+IKE-SA time remaining         : 157 secs
+IKE-SA Negotiation Count      : 1
+TSi       : IP addr range     : 11.11.11.11 - 11.11.11.11
+            Port range        : 0 - 65535
+TSr       : IP addr range     : 0.0.0.0 - 255.255.255.255
+            Port range        : 0 - 65535
+Child-SA sec policy           : AES128, SHA-1
+Child-SA time established     : Tue Aug 30 06:40:44 2011
+Child-SA life time            : 360 secs
+Child-SA time remaining       : 55 secs
+Child-SA Message Id           : 1
+Child-SA Negotiation Count    : 1
+In SPI                        : 0x70001090
+Out SPI                       : 0xc8878000
+DPD Status                    : Enabled
+Next DPD check after          : 49 secs
+DPD ack received at           : none
+DPD Retries                   : 0
+Session State                 : IPSEC-ESTABLISHED, IKE-SA DONE, CHILD-SA MATURE
+Protocol                      : ESP
+IPSec Mode                    : Tunnel
+-------------------------------------------------------------------------------
+12:10:57 : CMD     : ganga     : vpn>  !ping -I 11.11.11.11 4.4.4.4 -s 500 -c 4 
+12:11:00 : OUTPUT  : ganga     : !ping -I 11.11.11.11 4.4.4.4 -s 500 -c 4 
+12:11:00 : OUTPUT  : ganga     : PING 4.4.4.4 (4.4.4.4) from 11.11.11.11 : 500(528) bytes of data.
+12:11:00 : OUTPUT  : ganga     : 508 bytes from 4.4.4.4: icmp_seq=1 ttl=255 time=0.413 ms
+12:11:00 : OUTPUT  : ganga     : 508 bytes from 4.4.4.4: icmp_seq=2 ttl=255 time=0.407 ms
+12:11:00 : OUTPUT  : ganga     : 508 bytes from 4.4.4.4: icmp_seq=3 ttl=255 time=0.384 ms
+12:11:00 : OUTPUT  : ganga     : 508 bytes from 4.4.4.4: icmp_seq=4 ttl=255 time=0.711 ms
+12:11:00 : OUTPUT  : ganga     : 
+12:11:00 : OUTPUT  : ganga     : --- 4.4.4.4 ping statistics ---
+12:11:00 : OUTPUT  : ganga     : 4 packets transmitted, 4 received, 0% packet loss, time 2999ms
+12:11:00 : OUTPUT  : ganga     : rtt min/avg/max/mdev = 0.384/0.478/0.711/0.137 ms
+12:11:00 : INFO    : 
+Step1: Checking tunnel state and ping traffic after bringup tunnel
+
+12:11:00 : CMD     : nandi     : show tunnel | grep tun0_1 | grep up | count 
+Count: 1
+12:11:01 : CMD     : nandi     : context stoke1 
+12:11:01 : CMD     : nandi     : clear tunnel counters 
+12:11:06 : CMD     : ganga     : vpn>  !ping -c 5 22.22.22.22
+12:11:11 : OUTPUT  : ganga     : PING 22.22.22.22 (22.22.22.22) 56(84) bytes of data.
+12:11:11 : OUTPUT  : ganga     : 64 bytes from 22.22.22.22: icmp_seq=2 ttl=62 time=0.204 ms
+12:11:11 : OUTPUT  : ganga     : 64 bytes from 22.22.22.22: icmp_seq=3 ttl=62 time=0.182 ms
+12:11:11 : OUTPUT  : ganga     : 64 bytes from 22.22.22.22: icmp_seq=4 ttl=62 time=0.209 ms
+12:11:11 : OUTPUT  : ganga     : 64 bytes from 22.22.22.22: icmp_seq=5 ttl=62 time=0.192 ms
+12:11:11 : OUTPUT  : ganga     : 
+12:11:11 : OUTPUT  : ganga     : --- 22.22.22.22 ping statistics ---
+12:11:11 : OUTPUT  : ganga     : 5 packets transmitted, 4 received, 20% packet loss, time 3999ms
+12:11:11 : OUTPUT  : ganga     : rtt min/avg/max/mdev = 0.182/0.196/0.209/0.020 ms
+12:11:12 : CMD     : ganga     : vpn>  !ping -I 11.11.11.11 22.22.22.22 -s 500 -c 4 
+12:11:15 : OUTPUT  : ganga     : PING 22.22.22.22 (22.22.22.22) from 11.11.11.11 : 500(528) bytes of data.
+12:11:15 : OUTPUT  : ganga     : 508 bytes from 22.22.22.22: icmp_seq=1 ttl=62 time=0.290 ms
+12:11:15 : OUTPUT  : ganga     : 508 bytes from 22.22.22.22: icmp_seq=2 ttl=62 time=0.264 ms
+12:11:15 : OUTPUT  : ganga     : 508 bytes from 22.22.22.22: icmp_seq=3 ttl=62 time=0.296 ms
+12:11:15 : OUTPUT  : ganga     : 508 bytes from 22.22.22.22: icmp_seq=4 ttl=62 time=0.270 ms
+12:11:15 : OUTPUT  : ganga     : 
+12:11:15 : OUTPUT  : ganga     : --- 22.22.22.22 ping statistics ---
+12:11:15 : OUTPUT  : ganga     : 4 packets transmitted, 4 received, 0% packet loss, time 3000ms
+12:11:15 : OUTPUT  : ganga     : rtt min/avg/max/mdev = 0.264/0.280/0.296/0.013 ms
+12:11:20 : CMD     : nandi     :  show tunnel counters | grep -v "---" | grep -v "UTC"  
+Name                            CircHdl  InPkts   OutPkts  InBytes    OutBytes
+tun0_1                         ce00004b       10        8       3060       2448
+1 objects displayed.
+12:11:25 : CMD     : nandi     : show card 
+Slot  Type    State                    Serial Number    Model Name       HW Rev
+----- ------- ------------------------ ---------------- ---------------- ------ 
+    0 IMC1    Running(Active)          0020905420820041 Stoke IMC1       09.05
+    2 GLC1    Running                  0110323060000077 4x1000Base-X     02.07
+    3 GLC1    Running                  0110323060000099 4x1000Base-X     02.07
+    4 GLC2    Running                  0131001021000020 4x1000Base-X     10.01
+12:11:26 : CMD     : nandi     : Nandi(cfg)# 
+12:11:26 : CMD     : nandi     : Nandi(cfg)# context stoke1
+12:11:26 : CMD     : nandi     : Nandi(cfg-ctx)# ip access-list stoke1ACL
+12:11:27 : CMD     : nandi     : Nandi(cfg-v4acl)# 10 deny tcp any any
+12:11:27 : CMD     : nandi     : Nandi(cfg-v4acl)# exit
+12:11:27 : CMD     : nandi     : Nandi(cfg-ctx)# exit
+12:11:27 : CMD     : nandi     : Nandi(cfg)# tunnel tun0_1 type ipsec protocol ip44 context stoke1
+12:11:27 : CMD     : nandi     : Nandi(cfg-tunnel)# enable
+12:11:28 : CMD     : nandi     : Nandi(cfg-tunnel)# ip local 4.4.4.4 remote 11.11.11.11
+12:11:28 : CMD     : nandi     : Nandi(cfg-tunnel)# bind interface tun_iface stoke1
+12:11:28 : CMD     : nandi     : Nandi(cfg-tunnel-bindv4)# ip access-group out name stoke1ACL
+12:11:28 : CMD     : nandi     : Nandi(cfg-tunnel-bindv4)# end
+12:11:39 : CMD     : nandi     : context stoke1 
+12:11:39 : CMD     : nandi     : clear ip access-list name stoke1ACL counters 
+12:11:44 : CMD     : ganga     : vpn>  !sudo /usr/local/bin/nemesis tcp -S 11.11.11.11 -D 22.22.22.22
+12:11:44 : OUTPUT  : ganga     : IPSEC SA LOADED
+12:11:44 : OUTPUT  : ganga     : !sudo /usr/local/bin/nemesis tcp -S 11.11.11.11 -D 22.22.22.22
+12:11:44 : OUTPUT  : ganga     : 
+12:11:44 : OUTPUT  : ganga     : TCP Packet Injected
+12:11:50 : CMD     : nandi     : show ip access-list name stoke1ACL counters 
+permit(in)   deny(in)   redirect(in)   permit(out)  deny(out)
+       0         0           0            0          1  
+12:11:50 : CMD     : nandi     : Nandi(cfg)# 
+12:11:51 : CMD     : nandi     : Nandi(cfg)# context stoke1
+12:11:51 : CMD     : nandi     : Nandi(cfg-ctx)# ip access-list stoke1ACL
+12:11:51 : CMD     : nandi     : Nandi(cfg-v4acl)# 10 permit tcp any any
+12:11:51 : CMD     : nandi     : Nandi(cfg-v4acl)# exit
+12:11:52 : CMD     : nandi     : Nandi(cfg-ctx)# exit
+12:11:52 : CMD     : nandi     : Nandi(cfg)# tunnel tun0_1 type ipsec protocol ip44 context stoke1
+12:11:52 : CMD     : nandi     : Nandi(cfg-tunnel)# enable
+12:11:52 : CMD     : nandi     : Nandi(cfg-tunnel)# ip local 4.4.4.4 remote 11.11.11.11
+12:11:52 : CMD     : nandi     : Nandi(cfg-tunnel)# bind interface tun_iface stoke1
+12:11:53 : CMD     : nandi     : Nandi(cfg-tunnel-bindv4)# ip access-group in name stoke1ACL
+12:11:53 : CMD     : nandi     : Nandi(cfg-tunnel-bindv4)# end
+12:11:53 : CMD     : nandi     : clear ip access-list name stoke1ACL counters 
+12:11:59 : CMD     : ganga     : vpn>  !sudo /usr/local/bin/nemesis tcp -S 11.11.11.11 -D 22.22.22.22
+12:11:59 : OUTPUT  : ganga     : 
+12:11:59 : OUTPUT  : ganga     : TCP Packet Injected
+12:11:59 : CMD     : nandi     : show ip access-list name stoke1ACL counters 
+permit(in)   deny(in)   redirect(in)   permit(out)  deny(out)
+       1         0           0            1          0  
+12:11:59 : CMD     : nandi     : clear ip access-list name stoke1ACL counters 
+12:12:00 : CMD     : nandi     : context stoke1 
+12:12:00 : CMD     : nandi     : no ip access-list stoke1ACL 
+                 ^
+ERROR: unexpected input
+12:12:00 : CMD     : nandi     : config 
+12:12:01 : CMD     : nandi     : context stoke1 
+12:12:01 : CMD     : nandi     : no ip access-list stoke1ACL 
+12:12:01 : CMD     : nandi     : end 
+12:12:01 : CMD     : ganga     : vpn>  !ping -I 11.11.11.11 22.22.22.22 -s 500 -c 4 
+12:12:04 : OUTPUT  : ganga     : PING 22.22.22.22 (22.22.22.22) from 11.11.11.11 : 500(528) bytes of data.
+12:12:04 : OUTPUT  : ganga     : 508 bytes from 22.22.22.22: icmp_seq=1 ttl=62 time=0.305 ms
+12:12:04 : OUTPUT  : ganga     : 508 bytes from 22.22.22.22: icmp_seq=2 ttl=62 time=0.299 ms
+12:12:04 : OUTPUT  : ganga     : 508 bytes from 22.22.22.22: icmp_seq=3 ttl=62 time=0.276 ms
+12:12:04 : OUTPUT  : ganga     : 508 bytes from 22.22.22.22: icmp_seq=4 ttl=62 time=0.254 ms
+12:12:04 : OUTPUT  : ganga     : 
+12:12:04 : OUTPUT  : ganga     : --- 22.22.22.22 ping statistics ---
+12:12:04 : OUTPUT  : ganga     : 4 packets transmitted, 4 received, 0% packet loss, time 3000ms
+12:12:04 : OUTPUT  : ganga     : rtt min/avg/max/mdev = 0.254/0.283/0.305/0.026 ms
+12:12:04 : INFO    : Getting health stats
+12:12:05 : CMD     : nandi     : show clock 
+Tue Aug 30 2011 06:42:03 UTC
+12:12:06 : CMD     : nandi     : show syscount 
+Tue Aug 30 06:42:04 UTC 2011.
+System Counters:
+  IMC Switchover:       0
+  Card Reset:           0
+  Card Restart:         0
+  Process Core:         0
+  Process Exit:         0
+  Process Restart:      0
+  CRIT Event:           0
+  ERR Event:            0
+  WARN Event:           0
+12:12:06 : CMD     : nandi     : dir /hd/dump/slot0 | grep core.gz 
+12:12:06 : CMD     : nandi     : dir /hd/dump/slot1 | grep core.gz 
+12:12:07 : CMD     : nandi     : dir /hd/dump/slot2 | grep core.gz 
+12:12:07 : CMD     : nandi     : dir /hd/dump/slot3 | grep core.gz 
+12:12:07 : CMD     : nandi     : dir /hd/dump/slot4 | grep core.gz 
+12:12:07 : INFO    : No core file is generated 
+
+12:12:07 : CMD     : ganga     : vpn>  ike reset
+12:12:18 : CMD     : ganga     : vpn>  exit
+12:12:18 : OUTPUT  : ganga     : exit
+12:12:18 : OUTPUT  : ganga     : ]0;regress@ganga:/xpm
+12:12:18 : CMD     : nandi     : show process mem slot 0 | grep -v "Process Name" 
+------------- ------- ------- ------- ------- ------- ------- ------- ------- 
+NSM            593928 12KB    8192    7696KB  1292KB  148KB   37MB    180MB
+Smid           610328 200KB   16KB    11MB    3544KB  92KB    2336KB  17MB
+Ip             610332 4096    4096    8MB     2124KB  172KB   8MB     266MB
+CtxMgr         610331 28KB    8192    6752KB  932KB   64KB    2304KB  17MB
+Fpd            610330 84KB    12KB    6864KB  976KB   96KB    1280KB  243MB
+Aaad           610336 364KB   20KB    10MB    1532KB  172KB   9MB     25MB
+Cli           5398575 40KB    16KB    11MB    3568KB  84KB    2432KB  17MB
+Cli           1379128 40KB    16KB    11MB    3568KB  80KB    2464KB  17MB
+Snmpd          610338 632KB   72KB    7012KB  1020KB  64KB    2304KB  18MB
+Inets          610337 32KB    8192    8MB     1256KB  96KB    1280KB  17MB
+Logind         610329 16KB    8192    6808KB  960KB   60KB    1280KB  17MB
+Logind        1379128 16KB    8192    6808KB  960KB   60KB    1280KB  17MB
+Ospf           610333 308KB   12KB    7204KB  1052KB  72KB    4416KB  34MB
+Bgp4           610334 308KB   12KB    7224KB  1064KB  88KB    7808KB  34MB
+Evl            610325 92KB    8192    7040KB  996KB   80KB    4352KB  17MB
+EvlColl        610326 20KB    8192    6768KB  940KB   60KB    1280KB  17MB
+Qosd           610335 168KB   8192    7000KB  1016KB  68KB    1280KB  23MB
+IkedMc         610339 152KB   4096    8136KB  1224KB  72KB    2852KB  17MB
+Ntp           1098960 4096    4096    7268KB  1268KB  100KB   1280KB  17MB
+Rip            610341 92KB    8192    6988KB  1016KB  76KB    3328KB  34MB
+Evt            610324 28KB    8192    6752KB  932KB   60KB    2304KB  17MB
+Fabric         610347 12KB    8192    6776KB  940KB   56KB    1280KB  17MB
+Fsync          610327 16KB    8192    6752KB  932KB   56KB    1280KB  17MB
+TunMgr         610342 108KB   12KB    6788KB  948KB   64KB    2304KB  19MB
+PPPoEMC        610343 16KB    4096    6792KB  944KB   60KB    1280KB  17MB
+PPPdMc         610344 16KB    4096    6784KB  940KB   60KB    1280KB  17MB
+CDR            610345 88KB    20KB    8MB     1160KB  104KB   1280KB  17MB
+DHCPdMC        610346 48KB    4096    6844KB  980KB   68KB    2308KB  17MB
+MIPd           610348 172KB   1096KB  7016KB  2024KB  84KB    1280KB  17MB
+SLA            610349 28KB    4096    6916KB  972KB   60KB    1284KB  17MB
+Dfn            610350 1240KB  11MB    8MB     1204KB  80KB    2304KB  17MB
+12:12:19 : CMD     : nandi     : show process mem slot 1 | grep -v "Process Name" 
+ERROR: Card 1 not ready
+12:12:19 : CMD     : nandi     : show process mem slot 2 | grep -v "Process Name" 
+------------- ------- ------- ------- ------- ------- ------- ------- ------- 
+NSM            925699 12KB    4096    6668KB  1148KB  116KB   8MB     340MB
+IpLc           946200 8192    4096    6880KB  1164KB  104KB   14MB    343MB
+Fpd            946199 84KB    4096    6176KB  888KB   88KB    1288KB  238MB
+Iked           946201 1124KB  1000KB  7896KB  1392KB  204KB   13MB    351MB
+Evl            946197 48KB    8192    6080KB  852KB   60KB    1280KB  12MB
+Evt            946195 28KB    8192    6064KB  844KB   56KB    1280KB  12MB
+NseMgr         946207 40KB    8192    8000KB  976KB   52KB    1280KB  12MB
+PPPoE          946202 44KB    8192    6900KB  1176KB  72KB    1280KB  338MB
+PPPd           946203 104KB   12KB    6220KB  912KB   72KB    2304KB  238MB
+DHCPdLC        946204 36KB    1028KB  6888KB  1172KB  68KB    1280KB  238MB
+Inspectd       946205 28KB    1032KB  8MB     992KB   84KB    5568KB  464MB
+Count          946206 100KB   8192    6120KB  860KB   64KB    21MB    116MB
+12:12:20 : CMD     : nandi     : show process mem slot 3 | grep -v "Process Name" 
+------------- ------- ------- ------- ------- ------- ------- ------- ------- 
+NSM            925699 12KB    4096    6668KB  1148KB  116KB   8MB     340MB
+IpLc           946200 8192    4096    6880KB  1164KB  104KB   10MB    343MB
+Fpd            946199 84KB    4096    6176KB  888KB   88KB    1288KB  238MB
+Iked           946201 1124KB  1000KB  7896KB  1392KB  200KB   12MB    351MB
+Evl            946198 48KB    8192    6080KB  852KB   60KB    1280KB  12MB
+Evt            946195 28KB    8192    6064KB  844KB   56KB    1280KB  12MB
+NseMgr         946207 40KB    8192    8000KB  976KB   52KB    1280KB  12MB
+PPPoE          946202 44KB    8192    6900KB  1176KB  72KB    1280KB  338MB
+PPPd           946203 104KB   12KB    6220KB  912KB   72KB    2304KB  238MB
+DHCPdLC        946204 36KB    1028KB  6888KB  1172KB  68KB    1280KB  238MB
+Inspectd       946205 28KB    1032KB  8MB     992KB   84KB    5568KB  464MB
+Count          946206 100KB   8192    6120KB  860KB   64KB    21MB    116MB
+12:12:20 : CMD     : nandi     : show process mem slot 4 | grep -v "Process Name" 
+------------- ------- ------- ------- ------- ------- ------- ------- ------- 
+NSM           2498581 12KB    4096    6668KB  1148KB  116KB   8MB     340MB
+IpLc          2519066 8192    4096    6880KB  1164KB  104KB   3328KB  344MB
+Fpd           2519065 84KB    4096    6176KB  888KB   88KB    1288KB  238MB
+Iked          2519067 1124KB  1000KB  7896KB  1392KB  188KB   12MB    351MB
+Evl           2519064 48KB    8192    6080KB  852KB   60KB    1280KB  12MB
+Evt           2519063 28KB    8192    6064KB  844KB   56KB    1280KB  12MB
+NseMgr        2519073 40KB    8192    8000KB  976KB   52KB    20MB    112MB
+PPPoE         2519068 44KB    8192    6900KB  1176KB  72KB    1280KB  338MB
+PPPd          2519069 104KB   12KB    6220KB  912KB   72KB    2304KB  238MB
+DHCPdLC       2519070 36KB    1028KB  6888KB  1172KB  68KB    1280KB  238MB
+Inspectd      2519071 28KB    1032KB  8MB     992KB   88KB    5568KB  464MB
+Count         2519072 100KB   8192    6120KB  860KB   64KB    41MB    118MB
+12:12:20 : INFO    : 
+----------------------------------------------------------------------------------------------------
+       Slot 0              Slot 2              Slot 3              Slot 4       
+Process   Mem(B)    Process   Mem(B)    Process   Mem(B)    Process   Mem(B)    
+----------------------------------------------------------------------------------------------------
+Fpd       1310720   IpLc      14680064  IpLc      10485760  IpLc      3407872   
+Fabric    1310720   Fpd       1318912   Fpd       1318912   Fpd       1318912   
+Bgp4      7995392   NseMgr    1310720   NseMgr    1310720   NseMgr    20971520  
+Dfn       2359296   Evl       1310720   Evl       1310720   Evl       1310720   
+Qosd      1310720   NSM       8388608   NSM       8388608   NSM       8388608   
+PPPdMc    1310720   Inspectd  5701632   Inspectd  5701632   Inspectd  5701632   
+DHCPdMC   2363392   Count     22020096  Count     22020096  Count     42991616  
+Cli       2523136   PPPd      2359296   PPPd      2359296   PPPd      2359296   
+NSM       38797312  DHCPdLC   1310720   DHCPdLC   1310720   DHCPdLC   1310720   
+Ntp       1310720   Evt       1310720   Evt       1310720   Evt       1310720   
+MIPd      1310720   PPPoE     1310720   PPPoE     1310720   PPPoE     1310720   
+Inets     1310720   Iked      13631488  Iked      12582912  Iked      12582912  
+Smid      2392064   
+Logind    1310720   
+Evl       4456448   
+Fsync     1310720   
+TunMgr    2359296   
+IkedMc    2920448   
+Evt       2359296   
+SLA       1314816   
+CtxMgr    2359296   
+Ospf      4521984   
+Ip        8388608   
+EvlColl   1310720   
+PPPoEMC   1310720   
+Rip       3407872   
+Aaad      9437184   
+CDR       1310720   
+Snmpd     2359296   
+
+12:12:20 : DEBUG   : Closing down the session to host nandi.
+12:12:20 : DEBUG   : Closing down the session to host ganga.
+12:12:20 : DEBUG   : Closing down the session to host godavari.
+12:12:20 : RESULT  : ##################################################
+12:12:20 : RESULT  : test_ACL_Func_068: PASS
+12:12:20 : RESULT  : ##################################################

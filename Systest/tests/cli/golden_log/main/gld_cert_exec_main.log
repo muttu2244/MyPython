@@ -1,0 +1,215 @@
+certificate 
+<<<<help_begin
+device-certificate  Device Certificate (PKCS12)
+request             Certificate Request
+>>>>help_end
+[KStoke[local]#certificate[K<!>[Kcertificate device-certificate 
+<<<<help_begin
+delete   Delete Device Certificate
+display  Display Device Certificate
+new      New Pkcs Certificate Generate
+>>>>help_end
+[KStoke[local]#certificate device-certificate Stoke[local]#[K<!>[Kcertificate device-certificate delete 
+<<<<help_begin
+all   Delete all certificates
+name  Device Certificate Name
+>>>>help_end
+[KStoke[local]#certificate device-certificate delete Stoke[local]#[K<!>[Kcertificate device-certificate delete all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#certificate device-certificate delete all Stoke[local]#[K<!>[Kcertificate device-certificate delete all
+ERROR: Certificates do not exist
+Stoke[local]#<!>[Kcertificate device-certificate delete name 
+<<<<help_begin
+STRING(20)  Name of the device certificate
+>>>>help_end
+[KStoke[local]#certificate device-certificate delete name Stoke[local]#[K<!>[Kcertificate device-certificate delete name z 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#certificate device-certificate delete name z Stoke[local]#[K<!>[Kcertificate device-certificate delete name z
+ERROR: Device certificate (z) does not exist
+Stoke[local]#<!>[Kcertificate device-certificate delete name abc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#certificate device-certificate delete name abc Stoke[local]#[K<!>[Kcertificate device-certificate delete name abc
+ERROR: Device certificate (abc) does not exist
+Stoke[local]#<!>[Kcertificate device-certificate delete name a1b2c3 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#certificate device-certificate delete name a1b2c3 Stoke[local]#[K<!>[Kcertificate device-certificate delete name a1b2c3
+ERROR: Device certificate (a1b2c3) does not exist
+Stoke[local]#<!>[Kcertificate device-certificate delete name xxxxxxxxxxxxxxxxxxxx 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#certificate device-certificate delete name xxxxxxxxxxxxxxxxxxxx Stoke[local]#[K<!>[Kcertificate device-certificate delete name xxxxxxxxxxxxxxxxxxxx
+ERROR: Device certificate (xxxxxxxxxxxxxxxxxxxx) does not exist
+Stoke[local]#<!>[Kcertificate device-certificate display 
+<<<<help_begin
+all   Display all certificates
+name  Device Certificate
+>>>>help_end
+[KStoke[local]#certificate device-certificate display Stoke[local]#[K<!>[Kcertificate device-certificate display all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#certificate device-certificate display all Stoke[local]#[K<!>[Kcertificate device-certificate display all
+Stoke[local]#<!>[Kcertificate device-certificate display name 
+<<<<help_begin
+STRING(20)  Name of the device certificate
+>>>>help_end
+[KStoke[local]#certificate device-certificate display name Stoke[local]#[K<!>[Kcertificate device-certificate display name z 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#certificate device-certificate display name z Stoke[local]#[K<!>[Kcertificate device-certificate display name z
+Stoke[local]#<!>[Kcertificate device-certificate display name abc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#certificate device-certificate display name abc Stoke[local]#[K<!>[Kcertificate device-certificate display name abc
+Stoke[local]#<!>[Kcertificate device-certificate display name a1b2c3 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#certificate device-certificate display name a1b2c3 Stoke[local]#[K<!>[Kcertificate device-certificate display name a1b2c3
+Stoke[local]#<!>[Kcertificate device-certificate display name xxxxxxxxxxxxxxxxxxxx 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#certificate device-certificate display name xxxxxxxxxxxxxxxxxxxx Stoke[local]#[K<!>[Kcertificate device-certificate display name xxxxxxxxxxxxxxxxxxxx
+Stoke[local]#<!>[Kcertificate device-certificate new 
+<<<<help_begin
+name  Device certificate name
+>>>>help_end
+[KStoke[local]#certificate device-certificate new Stoke[local]#[K<!>[Kcertificate device-certificate new name 
+<<<<help_begin
+STRING(1024)  Name of Device certificate
+>>>>help_end
+[KStoke[local]#certificate device-certificate new name Stoke[local]#[K<!>[Kcertificate device-certificate new name z 
+<<<<help_begin
+ca-certificate  CA certificate name
+>>>>help_end
+[KStoke[local]#certificate device-certificate new name z Stoke[local]#[K<!>[Kcertificate device-certificate new name z ca-certificate 
+<<<<help_begin
+STRING(1024)  Name of CA certificate (Please specify path if not default)
+terminal      Cut/Paste the PEM formatted certificate on screen
+>>>>help_end
+[KStoke[local]#certificate device-certificate new name z ca-certificate Stoke[local]#[K<!>[Kcertificate device-certificate new name z ca-certificate z 
+<<<<help_begin
+format  Format - DER or PEM
+>>>>help_end
+[KStoke[local]#certificate device-certificate new name z ca-certificate z Stoke[local]#[K<!>[Kcertificate device-certificate new name z ca-certificate z format 
+<<<<help_begin
+der  ASN.1 Distinguished Encoding Rules (DER)
+pem  Privacy Enhanced Mail (PEM) 
+>>>>help_end
+[KStoke[local]#certificate device-certificate new name z ca-certificate z format Stoke[local]#[K<!>[Kcertificate device-certificate new name z ca-certificate z format der 
+<<<<help_begin
+signed-certificate  Signed certificate (PEM format) approved by CA
+>>>>help_end
+[KStoke[local]#certificate device-certificate new name z ca-certificate z format der Stoke[local]#[K<!>[Kcertificate device-certificate new name z ca-certificate z format der signed-certificate 
+<<<<help_begin
+STRING(1024)  Signed certificate approved by CA (Please specify the path if not default)
+terminal      Cut/Paste the PEM formatted certificate on screen
+>>>>help_end
+[KStoke[local]#certificate device-certificate new name z ca-certificate z format der signed-certificate Stoke[local]#[K<!>[Kcertificate device-certificate new name z ca-certificate z format der signed-certificate z 
+<<<<help_begin
+format  Format - DER or PEM
+>>>>help_end
+[KStoke[local]#certificate device-certificate new name z ca-certificate z format der signed-certificate z Stoke[local]#[K<!>[Kcertificate device-certificate new name z ca-certificate z format der signed-certificate z format 
+<<<<help_begin
+der  ASN.1 Distinguished Encoding Rules (DER)
+pem  Privacy Enhanced Mail (PEM) 
+>>>>help_end
+[KStoke[local]#certificate device-certificate new name z ca-certificate z format der signed-certificate z format Stoke[local]#[K<!>[Kcertificate device-certificate new name z ca-certificate z format der signed-certificate z format der 
+<<<<help_begin
+private-key  Private Key
+<cr>
+>>>>help_end
+[KStoke[local]#certificate device-certificate new name z ca-certificate z format der signed-certificate z format der Stoke[local]#[K<!>[Kcertificate device-certificate new name z ca-certificate z format der signed-certificate z format der private-key 
+<<<<help_begin
+STRING(1024)  Name of Certificate Request
+terminal      Cut/Paste the PEM formatted private key on screen
+>>>>help_end
+[KStoke[local]#certificate device-certificate new name z ca-certificate z format der signed-certificate z format der private-key Stoke[local]#[K<!>[Kcertificate device-certificate new name z ca-certificate z format der signed-certificate z format der private-key z 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#certificate device-certificate new name z ca-certificate z format der signed-certificate z format der private-key z Stoke[local]#[K<!>[Kcertificate device-certificate new name z ca-certificate z format der signed-certificate z format der private-key z
+ERROR: Incomplete certificate/Incorrect format specified for certificate (z)
+Stoke[local]#<!>[Kcertificate device-certificate new name z ca-certificate z format der signed-certificate z format der private-key abc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#certificate device-certificate new name z ca-certificate z format der signed-certificate z format der private-key abc Stoke[local]#[K<!>[Kcertificate device-certificate new name z ca-certificate z format der signed-certificate z format der private-key abc
+ERROR: Incomplete certificate/Incorrect format specified for certificate (z)
+Stoke[local]#<!>[Kcertificate device-certificate new name z ca-certificate z format der signed-certificate z format der private-key a1b2c3 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#certificate device-certificate new name z ca-certificate z format der signed-certificate z format der private-key a1b2c3 Stoke[local]#[K<!>[Kcertificate device-certificate new name z ca-certificate z format der signed-certificate z format der private-key a1b2c3
+ERROR:  Private key (/cfint/a1b2c3) does not exist
+Stoke[local]#<!>[Kcertificate device-certificate new name z ca-certificate z format der signed-certificate z format der private-key xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+<<<<help_begin
+<cr>
+>>>>help_end
+[A[KStoke[local]#certificate device-certificate new name z ca-certificate z format der signed-certificate z format der private-key xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx[K[AStoke[local]#certificate device-certificate new name z ca-certificate z format der signed-certificate z format der private-key xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx [AStoke[local]#[K                                                                                                                                                                                           x[K[AStoke[local]#<!>[Kcertificate device-certificate new name z ca-certificate z format der signed-certificate z format der private-key xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ERROR:  Private key (/cfint/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx) does not exist
+Stoke[local]#<!>[Kcertificate device-certificate new name z ca-certificate z format der signed-certificate z format der private-key terminal 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#certificate device-certificate new name z ca-certificate z format der signed-certificate z format der private-key terminal Stoke[local]#[K<!>[Kcertificate device-certificate new name z ca-certificate z format der signed-certificate z format der private-key terminal
+ Certificate (/hdp/cert/key/z_$10113) exists. Please use a different certificate name
+Stoke[local]#<!>[Kcertificate device-certificate new name z ca-certificate z format der signed-certificate z format der
+ERROR: Incomplete certificate/Incorrect format specified for certificate (z)
+Stoke[local]#<!>[Kcertificate device-certificate new name z ca-certificate z format der signed-certificate z format pem 
+<<<<help_begin
+private-key  Private Key
+<cr>
+>>>>help_end
+[KStoke[local]#certificate device-certificate new name z ca-certificate z format der signed-certificate z format pem Stoke[local]#[K<!>[Kcertificate device-certificate new name z ca-certificate z format der signed-certificate z format pem private-key 
+<<<<help_begin
+STRING(1024)  Name of Certificate Request
+terminal      Cut/Paste the PEM formatted private key on screen
+>>>>help_end
+[KStoke[local]#certificate device-certificate new name z ca-certificate z format der signed-certificate z format pem private-key Stoke[local]#[K<!>[Kcertificate device-certificate new name z ca-certificate z format der signed-certificate z format pem private-key z 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#certificate device-certificate new name z ca-certificate z format der signed-certificate z format pem private-key z Stoke[local]#[K<!>[Kcertificate device-certificate new name z ca-certificate z format der signed-certificate z format pem private-key z
+ERROR: Incomplete certificate/Incorrect format specified for certificate (z)
+Stoke[local]#<!>[Kcertificate device-certificate new name z ca-certificate z format der signed-certificate z format pem private-key abc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#certificate device-certificate new name z ca-certificate z format der signed-certificate z format pem private-key abc Stoke[local]#[K<!>[Kcertificate device-certificate new name z ca-certificate z format der signed-certificate z format pem private-key abc
+ERROR: Incomplete certificate/Incorrect format specified for certificate (z)
+Stoke[local]#<!>[Kcertificate device-certificate new name z ca-certificate z format der signed-certificate z format pem private-key a1b2c3 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#certificate device-certificate new name z ca-certificate z format der signed-certificate z format pem private-key a1b2c3 Stoke[local]#[K<!>[Kcertificate device-certificate new name z ca-certificate z format der signed-certificate z format pem private-key a1b2c3
+ERROR:  Private key (/cfint/a1b2c3) does not exist
+Stoke[local]#<!>[Kcertificate device-certificate new name z ca-certificate z format der signed-certificate z format pem private-key xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+<<<<help_begin
+<cr>
+>>>>help_end
+[A[KStoke[local]#certificate device-certificate new name z ca-certificate z format der signed-certificate z format pem private-key xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx[K[AStoke[local]#certificate device-certificate new name z ca-certificate z format der signed-certificate z format pem private-key xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx [AStoke[local]#[K                                                                                                                                                                                           x[K[AStoke[local]#<!>[Kcertificate device-certificate new name z ca-certificate z format der signed-certificate z format pem private-key xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ERROR:  Private key (/cfint/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx) does not exist
+Stoke[local]#<!>[Kcertificate device-certificate new name z ca-certificate z format der signed-certificate z format pem private-key terminal 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#certificate device-certificate new name z ca-certificate z format der signed-certificate z format pem private-key terminal Stoke[local]#[K<!>[Kcertificate device-certificate new name z ca-certificate z format der signed-certificate z format pem private-key terminal
+
+Enter PEM formatted Private Key: 
+End with a blank line or the word 'quit' on a line by itself
+
+<!>  certificate device-certificate new name z ca-certificate z format der signed-certificate z format pem
+<!>  certificate device-certificate new name z ca-certificate z format der signed-certificate abc ?                                                                                             <!>  certificate device-certificate new name z ca-certificate z format der signed-certificate a1b2c3 ?                                                                                                <!>  certificate device-certificate new name z ca-certificate z format der signed-certificate xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx ?                                                                                                                                                                                                                              <!>  certificate device-certificate new name z ca-certificate z format der signed-certificate terminal ?                                                                                                  <!>  certificate device-certificate new name z ca-certificate z format pem ?                                                                      <!>  certificate device-certificate new name z ca-certificate abc ?                                                             <!>  certificate device-certificate new name z ca-certificate a1b2c3 ?                                                                <!>  certificate device-certificate new name z ca-certificate xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx ?                                                                                                                                                                                              <!>  certificate device-certificate new name z ca-certificate terminal ?                                                                  <!>  certificate device-certificate new name abc ?                                            <!>  certificate device-certificate new name a1b2c3 ?                                               <!>  certificate device-certificate new name xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx ?                                                                                                                                                                             <!>  certificate request ?                    <!>

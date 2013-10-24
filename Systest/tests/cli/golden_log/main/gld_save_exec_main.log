@@ -1,0 +1,73 @@
+save 
+<<<<help_begin
+configuration  Save configuration to a file
+history        Command history
+log            Save event log
+>>>>help_end
+[KStoke[local]#save[K<!>[Ksave configuration 
+<<<<help_begin
+STRING  Save file
+<cr>
+>>>>help_end
+[KStoke[local]#save configuration Stoke[local]#[K<!>[Ksave configuration z 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#save configuration z Stoke[local]#[K<!>[Ksave configuration z
+Destination file (/cfint/z) already exists; continue? (yes/[no]) <!>  save configuration abc ?                       <!>  save configuration a1b2c3 ?                          <!>  save configuration xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx ?                                                                                                                                                        <!>  save configuration
+Command cancelled.
+Stoke[local]#<!>[Ksave history 
+<<<<help_begin
+STRING  Destination URL for saving command history
+>>>>help_end
+[KStoke[local]#save history[K<!>[Ksave history z 
+<<<<help_begin
+inactive   Save history prior to last system reload
+noconfirm  Do not ask for confirmation if the destination file exists
+<cr>
+>>>>help_end
+[KStoke[local]#save history z Stoke[local]#[K<!>[Ksave history z inactive 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#save history z inactive Stoke[local]#[K<!>[Ksave history z inactive
+Unable to access /cfint/z: Is a directory
+Stoke[local]#<!>[Ksave history z noconfirm 
+<<<<help_begin
+inactive  Save history prior to last system reload
+<cr>
+>>>>help_end
+[KStoke[local]#save history z noconfirm Stoke[local]#[K<!>[Ksave history z noconfirm inactive 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#save history z noconfirm inactive Stoke[local]#[K<!>[Ksave history z noconfirm inactive
+Unable to access /cfint/z: Is a directory
+Stoke[local]#<!>[Ksave history z noconfirm
+Unable to access /cfint/z: Is a directory
+Stoke[local]#<!>[Ksave history z
+Unable to access /cfint/z: Is a directory
+Stoke[local]#<!>[Ksave history abc 
+<<<<help_begin
+inactive   Save history prior to last system reload
+noconfirm  Do not ask for confirmation if the destination file exists
+<cr>
+>>>>help_end
+[KStoke[local]#save history abc Stoke[local]#[K<!>[Ksave history abc inactive 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#save history abc inactive Stoke[local]#[K<!>[Ksave history abc inactive
+Stoke[local]#<!>[Ksave history abc noconfirm 
+<<<<help_begin
+inactive  Save history prior to last system reload
+<cr>
+>>>>help_end
+[KStoke[local]#save history abc noconfirm Stoke[local]#[K<!>[Ksave history abc noconfirm inactive 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#save history abc noconfirm inactive Stoke[local]#[K<!>[Ksave history abc noconfirm inactive
+Stoke[local]#<!>[Ksave history abc noconfirm
+Stoke[local]#<!>[Ksave history abc
+Destination file already exists; continue? (yes/[no]) <!>  save history a1b2c3 ?                    <!>  save history xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx ?                                                                                                                                                  <!>  save log ?         <!>

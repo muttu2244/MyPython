@@ -1,0 +1,138 @@
+03:20:03 : TEST    : ##################################################
+03:20:03 : TEST    : Python Version: Python 2.5
+03:20:03 : TEST    : ##################################################
+03:20:03 : TEST    : ##################################################
+03:20:03 : TEST    : test_HA_FUN_04
+03:20:03 : TEST    : ##################################################
+03:20:03 : INFO    : 
+#######################################################################
+#
+# Copyright (c) Stoke, Inc.
+# All Rights Reserved.
+#
+# This code is confidential and proprietary to Stoke, Inc. and may only
+# be used under a license from Stoke.
+#
+#######################################################################
+
+DESCRIPTION: Create many tunnels on a GLC and produce coredump on restartable process
+TEST MATRIX: 4.6B2_HA-IMC.xls
+TEST CASE  : HA_FUN_04
+TOPOLOGY   : GLC-R Setup 
+
+HOW TO RUN : python2.5 HA_FUN_04.py
+AUTHOR     : rajshekar@stoke.com
+REVIEWER   : 
+
+
+03:20:03 : OUTPUT  : SSX object for host kenya-mc-con created.
+03:20:03 : OUTPUT  : SSX object for host yemen created.
+03:20:03 : OUTPUT  : Ixia object for host 10.1.10.13 created.
+03:20:03 : DEBUG   : Trying to connect to host kenya-mc-con
+03:20:04 : WARNING : Someone else is using console on kenya-mc-con
+03:20:04 : CMD     : kenya-mc-con: Enter your option : 1
+03:20:04 : OUTPUT  : kenya-mc-con: 1 - Initiate a regular session
+03:20:04 : OUTPUT  : kenya-mc-con: 2 - Initiate a sniff session
+03:20:04 : OUTPUT  : kenya-mc-con: 3 - Send messages to another user
+03:20:04 : OUTPUT  : kenya-mc-con: 4 - Kill session(s)
+03:20:04 : OUTPUT  : kenya-mc-con: 5 - Quit
+03:20:04 : OUTPUT  : kenya-mc-con: 
+Enter your option : 
+03:20:04 : OUTPUT  : kenya-mc-con: 1 - Initiate a regular session
+03:20:04 : OUTPUT  : kenya-mc-con: 2 - Initiate a sniff session
+03:20:04 : OUTPUT  : kenya-mc-con: 3 - Send messages to another user
+03:20:04 : OUTPUT  : kenya-mc-con: 4 - Kill session(s)
+03:20:04 : OUTPUT  : kenya-mc-con: 5 - Quit
+03:20:04 : OUTPUT  : kenya-mc-con: 
+Enter your option : 
+03:20:04 : INFO    : Connected to host kenya-mc-con
+03:20:04 : CMD     : kenya-mc-con: kenya(cfg-tunnel)# end
+03:20:05 : CMD     : kenya-mc-con: kenya[local]# terminal length infinite
+03:20:06 : CMD     : kenya-mc-con: kenya[local]# terminal width infinite
+03:20:06 : CMD     : kenya-mc-con: kenya[local]# no terminal monitor
+03:20:06 : INFO    : Memory Snap for all Slots before starting the TEST
+03:20:07 : CMD     : kenya-mc-con: kenya[local]# show version
+03:20:07 : OUTPUT  : 
+Slot 0 Information (IMC1):
+----------------------------------------------------------------------------
+StokeOS Release 6.0 (2012022501).
+Built Sat Feb 25 03:19:18 PST 2012 by builder.
+
+Stoke uptime is 2 weeks, 1 day, 23 hours, 48 minutes
+Card uptime is 2 weeks, 1 day, 23 hours, 48 minutes
+
+System restart at Thu Mar 01 10:31:10 UTC 2012
+Card restart at Thu Mar 01 10:31:10 UTC 2012
+Restart by software
+
+Firmware Version: v91
+
+Stoke-Boot Version
+  *Booted Primary: StokeBoot Release 6.0 (2012013111).
+   Booted Backup:  StokeBoot Release 6.0 (2012013111).
+Stoke-Bloader Version
+  *Booted Primary: Stoke Bootloader Release 6.0 (2012022501).
+   Booted Backup:  Stoke Bootloader Release 6.0 (2012022501).
+03:20:07 : INFO    : ##################################################
+03:20:07 : INFO    : SSX VERSION DETAILS:
+03:20:07 : INFO    : {'build': '2012022501', 'branch': '6.0'}
+03:20:07 : INFO    : ##################################################
+03:20:08 : CMD     : kenya-mc-con: kenya[local]# context local
+03:20:08 : CMD     : kenya-mc-con: kenya[local]# dir /dump
+03:20:08 : OUTPUT  : 
+ERROR: Path "/dump": Directory does not exist
+03:20:08 : DEBUG   : Trying to connect to host yemen
+03:21:09 : ERROR   : Failed to connect to host yemen in telnet_mgmt
+Traceback (most recent call last):
+  File "/.amd/netapp2/vol/vol1/home2/smath/systest/tests/l2l-v2-fir/../../lib/py/SSX/device.py", line 115, in telnet_mgmt
+    ret = self._handle_mgmt_login()
+  File "/.amd/netapp2/vol/vol1/home2/smath/systest/tests/l2l-v2-fir/../../lib/py/SSX/device.py", line 335, in _handle_mgmt_login
+    which = self.ses.expect([login_prompt_regex, login_mgmt_prompt_regex], timeout=timeout)
+  File "../../lib/py/pexpect.py", line 1311, in expect
+    return self.expect_list(compiled_pattern_list, timeout, searchwindowsize)
+  File "../../lib/py/pexpect.py", line 1325, in expect_list
+    return self.expect_loop(searcher_re(pattern_list), timeout, searchwindowsize)
+  File "../../lib/py/pexpect.py", line 1379, in expect_loop
+    c = self.read_nonblocking (self.maxread, timeout)
+  File "../../lib/py/pexpect.py", line 815, in read_nonblocking
+    r,w,e = self.__select([self.child_fd], [], [], timeout)
+  File "../../lib/py/pexpect.py", line 1550, in __select
+    return select.select (iwtd, owtd, ewtd, timeout)
+KeyboardInterrupt
+03:21:10 : ERROR   : Failed to connect to host yemen in telnet
+Traceback (most recent call last):
+  File "/.amd/netapp2/vol/vol1/home2/smath/systest/tests/l2l-v2-fir/../../lib/py/SSX/device.py", line 103, in telnet
+    self._init_vars(self.host)
+  File "/.amd/netapp2/vol/vol1/home2/smath/systest/tests/l2l-v2-fir/../../lib/py/SSX/device.py", line 1485, in _init_vars
+    self.cmd("terminal length infinite")
+  File "/.amd/netapp2/vol/vol1/home2/smath/systest/tests/l2l-v2-fir/../../lib/py/SSX/device.py", line 545, in cmd
+    self._get_to_exec()
+  File "/.amd/netapp2/vol/vol1/home2/smath/systest/tests/l2l-v2-fir/../../lib/py/SSX/device.py", line 1550, in _get_to_exec
+    self.ses.sendline()
+  File "../../lib/py/pexpect.py", line 961, in sendline
+    n = self.send(s)
+  File "../../lib/py/pexpect.py", line 953, in send
+    c = os.write(self.child_fd, s)
+OSError: [Errno 9] Bad file descriptor
+03:21:10 : ERROR   : ##################################################
+03:21:10 : ERROR   : test_HA_FUN_04 errored out.
+03:21:10 : ERROR   : ##################################################
+03:21:10 : ERROR   : 
+
+Traceback (most recent call last):
+  File "HA_FUN_04.py", line 83, in setUp
+    self.Resp.telnet()
+  File "/.amd/netapp2/vol/vol1/home2/smath/systest/tests/l2l-v2-fir/../../lib/py/SSX/device.py", line 103, in telnet
+    self._init_vars(self.host)
+  File "/.amd/netapp2/vol/vol1/home2/smath/systest/tests/l2l-v2-fir/../../lib/py/SSX/device.py", line 1485, in _init_vars
+    self.cmd("terminal length infinite")
+  File "/.amd/netapp2/vol/vol1/home2/smath/systest/tests/l2l-v2-fir/../../lib/py/SSX/device.py", line 545, in cmd
+    self._get_to_exec()
+  File "/.amd/netapp2/vol/vol1/home2/smath/systest/tests/l2l-v2-fir/../../lib/py/SSX/device.py", line 1550, in _get_to_exec
+    self.ses.sendline()
+  File "../../lib/py/pexpect.py", line 961, in sendline
+    n = self.send(s)
+  File "../../lib/py/pexpect.py", line 953, in send
+    c = os.write(self.child_fd, s)
+OSError: [Errno 9] Bad file descriptor
+

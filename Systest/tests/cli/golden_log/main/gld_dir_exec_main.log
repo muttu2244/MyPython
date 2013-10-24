@@ -1,0 +1,8 @@
+dir 
+<<<<help_begin
+/       List available top-level directories
+STRING  Name of directory
+|       Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#dir[K<!>

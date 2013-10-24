@@ -1,0 +1,97 @@
+default:
+  string 	   z,x*132	
+  decimal-uint     max,min
+  decimal-int      min,max
+  hex-uint         min,max
+  ipv4-address     10.1.1.1,255.255.255.255
+  ipv4-mask        8,32
+  ipv6-address     1::1,ffff::ffff
+  ipv6-mask        64
+  slot             0..4
+  slot-port        1..2/0..3
+
+custom:
+ set_community:
+  _line_	0:65535 65535:0 0:0 65535:65535 0:65535 65535:0 0:0 65535:65535 0:65535 65535:0 0:0 65535:65535 65535:65535 0:65535 65535:0 0:0 65535:65535 65535:65535 0:65535 65535:0 0:0 65535:65535
+  _line_	1 4294967295 1 4294967295 1 4294967295 1 4294967295 0:65535 65535:0 0:0 65535:65535 0:65535 65535:0 0:0 65535:65535 0:65535 65535:0 0:0 65535:65535 	
+ set_as-path_prepend:
+  _line_	10 65535 0 65535 0 65535 0 65535 0 65535 0 65535 0 65535
+ extra_rule:
+  _line_	1 1
+
+ :map-rule deny:
+  _line_ 		10
+ match_as-path:	
+  _line_  	local local local local local local
+ match_community:
+  _line_ 	local local local local local local
+ match_community_exact-match:
+  _line_        local local local local local local 
+ match_ip_address_prefix-list:
+  _line_        local local local local local local 
+ match_ip_next-hop_prefix-list:
+  _line_        local local local local local local 
+ match_metric:
+  _line_	5 5 5 5 5 5 5 5 0 0 0 4294967295 4294967295 0 0 	
+ match_tag:
+  _line_	5 5 5 5 5 5 5 5 0 0 0 4294967295 4294967295 0 0
+ Extra_rule:
+  _line_ 	1 1
+
+ 
+ :map-rule permit:
+  _line_                10
+ match_as-path:
+  _line_                local local local local local local
+ match_community:
+  _line_                local local local local local local
+ match_community_exact-match:
+  _line_                local local local local local local
+ match_ip_address_prefix-list:
+  _line_                local local local local local local
+ match_ip_next-hop_prefix-list:
+  _line_                local local local local local local
+ match_metric:
+  _line_		5 5 5 5 5 5 5 5 0 0 0 4294967295 4294967295 0 0 
+ match_tag:
+  _line_		5 5 5 5 5 5 5 5 0 0 0 4294967295 4294967295 0 0  	
+
+ set_as-path_prepend:
+  _line_                0 65535 0 65535 0 65535 0 65535 0 65535 0 65535 0 65535
+# set_community:
+#  _line_                0:65535 65535:0 0:0 65535:65535 0:65535 65535:0 0:0 65535:65535 0:65535 65535:0 0:0 65535:65535
+#  _line_                1 4294967295 1 4294967295 1 4294967295 1 4294967295 0:65535 65535:0 0:0 65535:65535
+
+
+ignore:
+#Takes lot of time
+ aaa                
+ cdr        
+ class-of-service
+ class-map  
+ debug      
+ domain    
+ end       
+ exit       
+ filter
+ filter-domain
+ filter-list
+ filter-protocol
+ flow-spec
+ interface
+ ip        
+ ipsec
+ ipv6         
+ logging       
+ no             
+ ntp             
+ police           
+ policy-map        
+ radius            
+ rmon 
+ random-early-detect 
+ router           
+ router-id         
+ session             
+ show               
+ user      

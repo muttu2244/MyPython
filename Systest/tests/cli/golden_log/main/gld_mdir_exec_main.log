@@ -1,0 +1,21 @@
+mkdir 
+<<<<help_begin
+STRING  Directory name
+>>>>help_end
+[KStoke[local]#mkdir[K<!>[Kmkdir z 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#mkdir z[K<!>[Kmkdir z
+ERROR: Unable to create directory /cfint/z: File exists.
+Stoke[local]#<!>[Kmkdir abc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#mkdir abc[K<!>[Kmkdir abc
+Stoke[local]#<!>[Kmkdir a1b2c3 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#mkdir a1b2c3[K<!>[Kmkdir a1b2c3
+Stoke[local]#<!>[Kmkdir xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Stoke[local]#[K<!>

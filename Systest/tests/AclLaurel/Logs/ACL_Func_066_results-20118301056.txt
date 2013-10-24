@@ -1,0 +1,16 @@
+test_ACL_Func_066 (__main__.test_ACL_Func_066) ... FAIL
+
+======================================================================
+FAIL: test_ACL_Func_066 (__main__.test_ACL_Func_066)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ACL_Func_066.py", line 334, in test_ACL_Func_066
+    self.befNAftSwitchOver()
+  File "ACL_Func_066.py", line 268, in befNAftSwitchOver
+    self.failIf(acl_cntrs != True, "Acl counters are not incrementing ")
+AssertionError: Acl counters are not incrementing 
+
+----------------------------------------------------------------------
+Ran 1 test in 347.427s
+
+FAILED (failures=1)

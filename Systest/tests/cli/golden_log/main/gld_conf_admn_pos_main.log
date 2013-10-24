@@ -1,0 +1,26 @@
+ 
+<<<<help_begin
+debug    Debug logging
+disable  Disable internet access
+end      Exit configuration mode
+exit     Exit current configuration mode
+no       Remove setting or configuration
+show     Display system information
+>>>>help_end
+[KStoke(cfg-3)#<!>[Kdisable 
+<<<<help_begin
+telnet       Disable ipv4 telnet access
+telnet-ipv6  Disable IPv6 telnet access
+>>>>help_end
+[KStoke(cfg-3)#disable[K<!>[Kdisable telnet 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#disable telnet Stoke(cfg-3)#[K<!>[Kdisable telnet
+Stoke(cfg-3)#<!>[Kdisable telnet-ipv6 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke(cfg-3)#disable telnet-ipv6 Stoke(cfg-3)#[K<!>[Kdisable telnet-ipv6
+Stoke(cfg-3)#<!>[Kexit
+Stoke(cfg-2)#<!>

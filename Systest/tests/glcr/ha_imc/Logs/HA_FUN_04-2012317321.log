@@ -1,0 +1,473 @@
+03:21:16 : TEST    : ##################################################
+03:21:16 : TEST    : Python Version: Python 2.5
+03:21:16 : TEST    : ##################################################
+03:21:16 : TEST    : ##################################################
+03:21:16 : TEST    : test_HA_FUN_04
+03:21:16 : TEST    : ##################################################
+03:21:16 : INFO    : 
+#######################################################################
+#
+# Copyright (c) Stoke, Inc.
+# All Rights Reserved.
+#
+# This code is confidential and proprietary to Stoke, Inc. and may only
+# be used under a license from Stoke.
+#
+#######################################################################
+
+DESCRIPTION: Create many tunnels on a GLC and produce coredump on restartable process
+TEST MATRIX: 4.6B2_HA-IMC.xls
+TEST CASE  : HA_FUN_04
+TOPOLOGY   : GLC-R Setup 
+
+HOW TO RUN : python2.5 HA_FUN_04.py
+AUTHOR     : rajshekar@stoke.com
+REVIEWER   : 
+
+
+03:21:16 : OUTPUT  : SSX object for host kenya-mc-con created.
+03:21:16 : OUTPUT  : SSX object for host yemen created.
+03:21:16 : OUTPUT  : Ixia object for host 10.1.10.13 created.
+03:21:16 : DEBUG   : Trying to connect to host kenya-mc-con
+03:21:16 : WARNING : Someone else is using console on kenya-mc-con
+03:21:16 : CMD     : kenya-mc-con: Enter your option : 1
+03:21:16 : OUTPUT  : kenya-mc-con: 1 - Initiate a regular session
+03:21:16 : OUTPUT  : kenya-mc-con: 2 - Initiate a sniff session
+03:21:16 : OUTPUT  : kenya-mc-con: 3 - Send messages to another user
+03:21:16 : OUTPUT  : kenya-mc-con: 4 - Kill session(s)
+03:21:16 : OUTPUT  : kenya-mc-con: 5 - Quit
+03:21:16 : OUTPUT  : kenya-mc-con: 
+Enter your option : 
+03:21:16 : OUTPUT  : kenya-mc-con: 1 - Initiate a regular session
+03:21:16 : OUTPUT  : kenya-mc-con: 2 - Initiate a sniff session
+03:21:16 : OUTPUT  : kenya-mc-con: 3 - Send messages to another user
+03:21:16 : OUTPUT  : kenya-mc-con: 4 - Kill session(s)
+03:21:16 : OUTPUT  : kenya-mc-con: 5 - Quit
+03:21:16 : OUTPUT  : kenya-mc-con: 
+Enter your option : 
+03:21:16 : INFO    : Connected to host kenya-mc-con
+03:21:17 : CMD     : kenya-mc-con: kenya[local]# terminal length infinite
+03:21:18 : CMD     : kenya-mc-con: kenya[local]# terminal width infinite
+03:21:18 : CMD     : kenya-mc-con: kenya[local]# no terminal monitor
+03:21:18 : INFO    : Memory Snap for all Slots before starting the TEST
+03:21:19 : CMD     : kenya-mc-con: kenya[local]# show version
+03:21:19 : OUTPUT  : 
+Slot 0 Information (IMC1):
+----------------------------------------------------------------------------
+StokeOS Release 6.0 (2012022501).
+Built Sat Feb 25 03:19:18 PST 2012 by builder.
+
+Stoke uptime is 2 weeks, 1 day, 23 hours, 49 minutes
+Card uptime is 2 weeks, 1 day, 23 hours, 49 minutes
+
+System restart at Thu Mar 01 10:31:10 UTC 2012
+Card restart at Thu Mar 01 10:31:10 UTC 2012
+Restart by software
+
+Firmware Version: v91
+
+Stoke-Boot Version
+  *Booted Primary: StokeBoot Release 6.0 (2012013111).
+   Booted Backup:  StokeBoot Release 6.0 (2012013111).
+Stoke-Bloader Version
+  *Booted Primary: Stoke Bootloader Release 6.0 (2012022501).
+   Booted Backup:  Stoke Bootloader Release 6.0 (2012022501).
+03:21:19 : INFO    : ##################################################
+03:21:19 : INFO    : SSX VERSION DETAILS:
+03:21:19 : INFO    : {'build': '2012022501', 'branch': '6.0'}
+03:21:19 : INFO    : ##################################################
+03:21:20 : CMD     : kenya-mc-con: kenya[local]# context local
+03:21:20 : CMD     : kenya-mc-con: kenya[local]# dir /dump
+03:21:20 : OUTPUT  : 
+ERROR: Path "/dump": Directory does not exist
+03:21:20 : DEBUG   : Trying to connect to host yemen
+03:21:23 : INFO    : 
+03:21:23 : INFO    : joe@local
+
+03:21:23 : INFO    : joe@local
+joe@local
+
+03:21:25 : INFO    : Login Details: 
+
+Welcome to Stoke's Command Line Interface.
+03:21:25 : INFO    : Connected to host yemen
+03:21:25 : CMD     : yemen     : yemen[local]# terminal length infinite
+03:21:26 : CMD     : yemen     : yemen[local]# terminal width infinite
+03:21:26 : CMD     : yemen     : yemen[local]# no terminal monitor
+03:21:26 : INFO    : Memory Snap for all Slots before starting the TEST
+03:21:26 : CMD     : yemen     : yemen[local]# show version
+03:21:26 : OUTPUT  : 
+Slot 0 Information (IMC1):
+----------------------------------------------------------------------------
+StokeOS Release 4.6B1S6 (2012030922).
+Built Fri Mar 9 23:15:44 PST 2012 by builder.
+
+Stoke uptime is 4 hours, 34 minutes
+Card uptime is 4 hours, 34 minutes
+
+System restart at Fri Mar 16 21:47:00 PDT 2012
+Card restart at Fri Mar 16 21:47:00 PDT 2012
+Restart by software
+
+Firmware Version: v91
+
+Stoke-Boot Version
+  *Booted Primary: StokeBoot Release 4.2 (2009120817).
+   Booted Backup:  StokeBoot Release 4.2 (2009120817).
+Stoke-Bloader Version
+  *Booted Primary: Stoke Bootloader Release 4.6B1S6 (2012030922).
+   Booted Backup:  Stoke Bootloader Release 4.6B1S6 (2012030922).
+03:21:26 : INFO    : ##################################################
+03:21:26 : INFO    : SSX VERSION DETAILS:
+03:21:26 : INFO    : {'build': '2012030922', 'branch': '4.6B1S6'}
+03:21:26 : INFO    : ##################################################
+03:21:27 : CMD     : yemen     : yemen[local]# context local
+03:21:27 : CMD     : yemen     : yemen[local]# dir /dump
+03:21:27 : OUTPUT  : 
+ERROR: Path "/dump": Directory does not exist
+03:21:27 : DEBUG   : Trying to connect to host 10.1.10.13
+03:21:27 : OUTPUT  : 10.1.10.13: Connected to 10.1.10.13.
+03:21:27 : OUTPUT  : 10.1.10.13: Escape character is 'off'.
+03:21:27 : OUTPUT  : 10.1.10.13: 
+03:21:27 : OUTPUT  : 10.1.10.13: Welcome to the Ixia Socket/Serial TCL Server
+03:21:27 : OUTPUT  : 10.1.10.13: Press Ctrl-C to reset Tcl Session
+03:21:27 : INFO    : Connected to host 10.1.10.13
+03:21:27 : INFO    : Load mimimum configuration on  SSX .
+03:21:28 : CMD     : kenya-mc-con: kenya[local]# show card | grep IMC
+03:21:28 : OUTPUT  : 
+    0 IMC1    Running(Active)          0021402321100088 Stoke IMC1       14.02
+    1 IMC1    Running(Standby)         0021402321100056 Stoke IMC1       14.02
+03:21:29 : CMD     : kenya-mc-con: kenya(cfg)# context local
+03:21:29 : CMD     : kenya-mc-con: kenya(cfg-ctx)# aaa profile
+03:21:30 : CMD     : kenya-mc-con: kenya(cfg-aaa-profile)# user authentication none
+03:21:30 : CMD     : kenya-mc-con: kenya(cfg-aaa-profile)# service authorization none
+03:21:30 : CMD     : kenya-mc-con: kenya(cfg-aaa-profile)# exit
+03:21:30 : CMD     : kenya-mc-con: kenya(cfg-ctx)# user name joe
+03:21:31 : CMD     : kenya-mc-con: kenya(cfg-user-db)# password joe
+03:21:31 : CMD     : kenya-mc-con: kenya(cfg-user-db)# priv-level administrator
+03:21:31 : CMD     : kenya-mc-con: kenya(cfg-user-db)# exit
+03:21:32 : CMD     : kenya-mc-con: kenya(cfg-ctx)# interface mgt4 management
+03:21:32 : CMD     : kenya-mc-con: kenya(cfg-intfv4)# arp arpa
+03:21:32 : CMD     : kenya-mc-con: kenya(cfg-intfv4)# ip address 10.3.255.123/24
+03:21:33 : CMD     : kenya-mc-con: kenya(cfg-intfv4)# exit
+03:21:33 : CMD     : kenya-mc-con: kenya(cfg-ctx)# ip route 0.0.0.0/0 10.3.255.1
+03:21:33 : CMD     : kenya-mc-con: kenya(cfg-ctx)# exit
+03:21:34 : CMD     : kenya-mc-con: kenya(cfg)# port ethernet 0/0
+03:21:34 : CMD     : kenya-mc-con: kenya(cfg-port)# bind interface mgt4 local
+03:21:34 : CMD     : kenya-mc-con: kenya(cfg-bindv4)# exit
+03:21:35 : CMD     : kenya-mc-con: kenya(cfg-port)# enable
+03:21:35 : CMD     : kenya-mc-con: kenya(cfg-port)# end
+03:21:37 : CMD     : kenya-mc-con: kenya(cfg)# config
+03:21:37 : OUTPUT  : kenya-mc-con:            ^
+03:21:37 : OUTPUT  : kenya-mc-con: ERROR: unexpected input
+03:21:37 : CMD     : kenya-mc-con: kenya(cfg)# port ethernet 1/0
+03:21:37 : CMD     : kenya-mc-con: kenya(cfg-port)# bind interface mgt4 local
+03:21:38 : CMD     : kenya-mc-con: kenya(cfg-bindv4)# exit
+03:21:38 : CMD     : kenya-mc-con: kenya(cfg-port)# enable
+03:21:38 : CMD     : kenya-mc-con: kenya(cfg-port)# end
+03:21:39 : INFO    : Load mimimum configuration on  SSX .
+03:21:39 : CMD     : yemen     : yemen[local]# show card | grep IMC
+03:21:39 : OUTPUT  : 
+    0 IMC1    Running(Active)          0021402321100150 Stoke IMC1       14.02
+    1 IMC1    Running(Standby)         0021402321100103 Stoke IMC1       14.02
+03:21:40 : CMD     : yemen     : yemen(cfg)# context local
+03:21:40 : CMD     : yemen     : yemen(cfg-ctx)# aaa profile
+03:21:41 : CMD     : yemen     : yemen(cfg-aaa-profile)# user authentication none
+03:21:41 : CMD     : yemen     : yemen(cfg-aaa-profile)# service authorization none
+03:21:41 : CMD     : yemen     : yemen(cfg-aaa-profile)# exit
+03:21:41 : CMD     : yemen     : yemen(cfg-ctx)# user name joe
+03:21:41 : CMD     : yemen     : yemen(cfg-user-db)# password joe
+03:21:42 : CMD     : yemen     : yemen(cfg-user-db)# priv-level administrator
+03:21:42 : CMD     : yemen     : yemen(cfg-user-db)# exit
+03:21:42 : CMD     : yemen     : yemen(cfg-ctx)# interface mgt4 management
+03:21:42 : CMD     : yemen     : yemen(cfg-intfv4)# arp arpa
+03:21:42 : CMD     : yemen     : yemen(cfg-intfv4)# ip address 10.3.255.121/24
+03:21:42 : OUTPUT  : yemen     : ERROR: Address is already configured on another interface mgmt
+03:21:43 : CMD     : yemen     : yemen(cfg-intfv4)# exit
+03:21:43 : CMD     : yemen     : yemen(cfg-ctx)# ip route 0.0.0.0/0 10.3.255.1
+03:21:43 : CMD     : yemen     : yemen(cfg-ctx)# exit
+03:21:43 : CMD     : yemen     : yemen(cfg)# port ethernet 0/0
+03:21:43 : CMD     : yemen     : yemen(cfg-port)# bind interface mgt4 local
+03:21:43 : OUTPUT  : yemen     : ERROR: failed to bind, interface has no ip4 service
+03:21:44 : CMD     : yemen     : yemen(cfg-port)# exit
+03:21:44 : CMD     : yemen     : yemen(cfg)# enable
+03:21:44 : OUTPUT  : yemen     :            ^
+03:21:44 : OUTPUT  : yemen     : ERROR: unexpected input
+03:21:44 : CMD     : yemen     : yemen(cfg)# end
+03:21:45 : CMD     : yemen     : yemen(cfg)# config
+03:21:45 : OUTPUT  : yemen     :            ^
+03:21:45 : OUTPUT  : yemen     : ERROR: unexpected input
+03:21:45 : CMD     : yemen     : yemen(cfg)# port ethernet 1/0
+03:21:45 : CMD     : yemen     : yemen(cfg-port)# bind interface mgt4 local
+03:21:45 : OUTPUT  : yemen     : ERROR: failed to bind, interface has no ip4 service
+03:21:46 : CMD     : yemen     : yemen(cfg-port)# exit
+03:21:46 : CMD     : yemen     : yemen(cfg)# enable
+03:21:46 : OUTPUT  : yemen     :            ^
+03:21:46 : OUTPUT  : yemen     : ERROR: unexpected input
+03:21:46 : CMD     : yemen     : yemen(cfg)# end
+03:21:46 : DEBUG   : Clearing the config on ports
+03:21:47 : CMD     : yemen     : yemen[local]# sh card 1 | grep IMC
+03:21:47 : OUTPUT  : 
+    1 IMC1    Running(Standby)         0021402321100103 Stoke IMC1       14.02
+03:21:47 : CMD     : yemen     : yemen(cfg)# no port eth  2/0
+03:21:47 : OUTPUT  : yemen     : ERROR: Port 2/0 not configured
+03:21:48 : CMD     : yemen     : yemen(cfg)# no port eth  2/1
+03:21:48 : OUTPUT  : yemen     : ERROR: Port 2/1 not configured
+03:21:48 : CMD     : yemen     : yemen(cfg)# no port eth  2/2
+03:21:48 : OUTPUT  : yemen     : ERROR: Port 2/2 not configured
+03:21:48 : CMD     : yemen     : yemen(cfg)# no port eth  2/3
+03:21:48 : OUTPUT  : yemen     : ERROR: Port 2/3 not configured
+03:21:48 : CMD     : yemen     : yemen(cfg)# no port eth  3/0
+03:21:48 : OUTPUT  : yemen     : ERROR: Port 3/0 not configured
+03:21:49 : CMD     : yemen     : yemen(cfg)# no port eth  3/1
+03:21:49 : OUTPUT  : yemen     : ERROR: Port 3/1 not configured
+03:21:49 : CMD     : yemen     : yemen(cfg)# no port eth  3/2
+03:21:49 : OUTPUT  : yemen     : ERROR: Port 3/2 not configured
+03:21:49 : CMD     : yemen     : yemen(cfg)# no port eth  3/3
+03:21:49 : OUTPUT  : yemen     : ERROR: Port 3/3 not configured
+03:21:49 : CMD     : yemen     : yemen(cfg)# no port eth  4/0
+03:21:49 : OUTPUT  : yemen     : ERROR: Port 4/0 not configured
+03:21:49 : CMD     : yemen     : yemen(cfg)# no port eth  4/1
+03:21:49 : OUTPUT  : yemen     : ERROR: Port 4/1 not configured
+03:21:50 : CMD     : yemen     : yemen(cfg)# no port eth  4/2
+03:21:50 : OUTPUT  : yemen     : ERROR: Port 4/2 not configured
+03:21:50 : CMD     : yemen     : yemen(cfg)# no port eth  4/3
+03:21:50 : OUTPUT  : yemen     : ERROR: Port 4/3 not configured
+03:21:50 : INFO    : Cleared configuration on all ports except management port
+03:21:50 : DEBUG   : Clearing the config on ports
+03:21:50 : CMD     : kenya-mc-con: kenya[local]# sh card 1 | grep IMC
+03:21:50 : OUTPUT  : 
+    1 IMC1    Running(Standby)         0021402321100056 Stoke IMC1       14.02
+03:21:51 : CMD     : kenya-mc-con: kenya(cfg)# no port eth  2/0
+03:21:51 : OUTPUT  : kenya-mc-con: ERROR: Port 2/0 not configured
+03:21:52 : CMD     : kenya-mc-con: kenya(cfg)# no port eth  2/1
+03:21:52 : OUTPUT  : kenya-mc-con: ERROR: Port 2/1 not configured
+03:21:52 : CMD     : kenya-mc-con: kenya(cfg)# no port eth  2/2
+03:21:52 : OUTPUT  : kenya-mc-con: ERROR: Port 2/2 not configured
+03:21:52 : CMD     : kenya-mc-con: kenya(cfg)# no port eth  2/3
+03:21:52 : OUTPUT  : kenya-mc-con: ERROR: Port 2/3 not configured
+03:21:53 : CMD     : kenya-mc-con: kenya(cfg)# no port eth  3/0
+03:21:53 : OUTPUT  : kenya-mc-con: ERROR: Port 3/0 not configured
+03:21:53 : CMD     : kenya-mc-con: kenya(cfg)# no port eth  3/1
+03:21:53 : OUTPUT  : kenya-mc-con: ERROR: Port 3/1 not configured
+03:21:53 : CMD     : kenya-mc-con: kenya(cfg)# no port eth  3/2
+03:21:53 : OUTPUT  : kenya-mc-con: ERROR: Port 3/2 not configured
+03:21:54 : CMD     : kenya-mc-con: kenya(cfg)# no port eth  3/3
+03:21:54 : OUTPUT  : kenya-mc-con: ERROR: Port 3/3 not configured
+03:21:54 : CMD     : kenya-mc-con: kenya(cfg)# no port eth  4/0
+03:21:54 : OUTPUT  : kenya-mc-con: ERROR: Port 4/0 not configured
+03:21:54 : CMD     : kenya-mc-con: kenya(cfg)# no port eth  4/1
+03:21:54 : OUTPUT  : kenya-mc-con: ERROR: Port 4/1 not configured
+03:21:55 : CMD     : kenya-mc-con: kenya(cfg)# no port eth  4/2
+03:21:55 : OUTPUT  : kenya-mc-con: ERROR: Port 4/2 not configured
+03:21:55 : CMD     : kenya-mc-con: kenya(cfg)# no port eth  4/3
+03:21:55 : OUTPUT  : kenya-mc-con: ERROR: Port 4/3 not configured
+03:21:55 : INFO    : Cleared configuration on all ports except management port
+03:21:56 : CMD     : yemen     : yemen(cfg)# end
+03:21:56 : CMD     : yemen     : yemen[local]# context local
+03:21:56 : CMD     : yemen     : yemen[local]# show context all | grep -v local
+03:21:56 : OUTPUT  : 
+Context                          Index      Domain(s)                           
+-------------------------------- ---------- ------------------------------------
+03:21:56 : DEBUG   : Clearing the configuration of all contexts except 'context local'
+03:21:56 : INFO    : No other context except local
+03:21:57 : CMD     : yemen     : yemen[local]# show context all
+03:21:57 : OUTPUT  : 
+Context                          Index      Domain(s)                           
+-------------------------------- ---------- ------------------------------------
+local                                     1 
+03:21:57 : DEBUG   : Contexts Info aftetr clearing the contexts: 
+Context                          Index      Domain(s)                           
+-------------------------------- ---------- ------------------------------------
+local                                     1 
+03:21:57 : CMD     : kenya-mc-con: kenya(cfg)# end
+03:21:58 : CMD     : kenya-mc-con: kenya[local]# context local
+03:21:58 : CMD     : kenya-mc-con: kenya[local]# show context all | grep -v local
+03:21:58 : OUTPUT  : 
+Context                          Index      Domain(s)                           
+-------------------------------- ---------- ------------------------------------
+Initiator                               144 
+03:21:58 : DEBUG   : Clearing the configuration of all contexts except 'context local'
+03:21:59 : CMD     : kenya-mc-con: kenya(cfg)# config
+03:21:59 : CMD     : kenya-mc-con: kenya(cfg)# no context Initiator
+03:22:00 : CMD     : kenya-mc-con: kenya[local]# end
+03:22:01 : CMD     : kenya-mc-con: kenya[local]# show context all
+03:22:01 : OUTPUT  : 
+Context                          Index      Domain(s)                           
+-------------------------------- ---------- ------------------------------------
+local                                     1 
+03:22:01 : DEBUG   : Contexts Info aftetr clearing the contexts: 
+Context                          Index      Domain(s)                           
+-------------------------------- ---------- ------------------------------------
+local                                     1 
+03:22:01 : INFO    : Clearing the health stats
+03:22:01 : CMD     : kenya-mc-con: kenya[local]# show clock
+03:22:01 : OUTPUT  : 
+Sat Mar 17 2012 10:21:29 UTC
+03:22:02 : CMD     : kenya-mc-con: kenya[local]# clear syscount
+03:22:02 : INFO    : Clearing the core files
+
+03:22:03 : CMD     : kenya-mc-con: kenya[local]# show card 0 | grep XGLC1
+03:22:03 : CMD     : kenya-mc-con: kenya[local]# show card 1 | grep XGLC1
+03:22:04 : CMD     : kenya-mc-con: kenya[local]# show card 2 | grep XGLC1
+03:22:04 : OUTPUT  : 
+    2 XGLC1   Running                  0210401311100010 4x10GBase-R      03.01
+03:22:04 : INFO    : xlp cores
+03:22:04 : CMD     : kenya-mc-con: kenya[local]# show card 3 | grep XGLC1
+03:22:04 : OUTPUT  : 
+    3 XGLC1   Running                  0210401311100006 4x10GBase-R      03.01
+03:22:04 : INFO    : xlp cores
+03:22:05 : CMD     : kenya-mc-con: kenya[local]# show card 4 | grep XGLC1
+03:22:05 : OUTPUT  : 
+    4 XGLC1   Running                  0210401331100012 4x10GBase-R      03.01
+03:22:05 : INFO    : xlp cores
+03:22:05 : CMD     : kenya-mc-con: kenya[local]# show card  | grep GLC
+03:22:05 : OUTPUT  : 
+    2 XGLC1   Running                  0210401311100010 4x10GBase-R      03.01
+    3 XGLC1   Running                  0210401311100006 4x10GBase-R      03.01
+    4 XGLC1   Running                  0210401331100012 4x10GBase-R      03.01
+03:22:05 : INFO    : Clearing the health stats
+03:22:06 : CMD     : yemen     : yemen[local]# show clock
+03:22:06 : OUTPUT  : 
+Sat Mar 17 2012 02:21:51 PDT
+03:22:07 : CMD     : yemen     : yemen[local]# clear syscount
+03:22:07 : INFO    : Clearing the core files
+
+03:22:07 : CMD     : yemen     : yemen[local]# show card 0 | grep XGLC1
+03:22:07 : CMD     : yemen     : yemen[local]# show card 1 | grep XGLC1
+03:22:07 : CMD     : yemen     : yemen[local]# show card 2 | grep XGLC1
+03:22:08 : CMD     : yemen     : yemen[local]# show card 3 | grep XGLC1
+03:22:08 : CMD     : yemen     : yemen[local]# show card 4 | grep XGLC1
+03:22:08 : CMD     : yemen     : yemen[local]# show card  | grep GLC
+03:22:08 : OUTPUT  : 
+    2 GLC2    Running                  0131401241100016 4x1000Base-X     14.01
+    3 GLC2    Running                  0131401241100010 4x1000Base-X     14.01
+    4 GLC2    Running                  0131402331100005 4x1000Base-X     14.02
+03:22:08 : OUTPUT  : 
+**********starting the test**************
+
+03:22:08 : INFO    : 
+
+###### Verifying the SSX has DUAL IMC 
+
+03:22:09 : CMD     : yemen     : yemen[local]# show card | grep IMC
+03:22:09 : OUTPUT  : 
+    0 IMC1    Running(Active)          0021402321100150 Stoke IMC1       14.02
+    1 IMC1    Running(Standby)         0021402321100103 Stoke IMC1       14.02
+03:22:09 : INFO    : Verifying the SSX, GLC-R enabled or not
+03:22:09 : CMD     : yemen     : yemen[local]# show card  | grep GLC
+03:22:09 : OUTPUT  : 
+    2 GLC2    Running                  0131401241100016 4x1000Base-X     14.01
+    3 GLC2    Running                  0131401241100010 4x1000Base-X     14.01
+    4 GLC2    Running                  0131402331100005 4x1000Base-X     14.02
+03:22:09 : CMD     : yemen     : yemen[local]# show glc-redundancy
+03:22:09 : OUTPUT  : 
+Sat Mar 17 02:21:55 PDT 2012.
+
+Redundancy Group Status: No GLC redundancy group configured
+03:22:09 : OUTPUT  : Device[Responder] is not configured for GLC Redundancy
+Configuring the System for GLC-R, needs reboot
+
+03:22:10 : CMD     : yemen     : yemen[local]# show card  | grep GLC
+03:22:10 : OUTPUT  : 
+    2 GLC2    Running                  0131401241100016 4x1000Base-X     14.01
+    3 GLC2    Running                  0131401241100010 4x1000Base-X     14.01
+    4 GLC2    Running                  0131402331100005 4x1000Base-X     14.02
+03:22:10 : CMD     : yemen     : yemen[local]# show glc-redundancy
+03:22:10 : OUTPUT  : 
+Sat Mar 17 02:21:55 PDT 2012.
+
+Redundancy Group Status: No GLC redundancy group configured
+03:22:10 : DEBUG   : To configure the Device to GLC-R, needs full system reload
+03:22:11 : CMD     : yemen     : yemen[local]# system glc-redundancy
+03:22:11 : OUTPUT  : 
+GLC redundancy group 1 set.
+These settings will take affect on the next full system reload.
+03:22:11 : INFO    : Reloading the SSX.
+03:27:12 : DEBUG   : Trying to connect to host yemen
+03:30:21 : ERROR   : Failed to connect to host yemen in telnet_mgmt
+Traceback (most recent call last):
+  File "/.amd/netapp2/vol/vol1/home2/smath/systest/tests/l2l-v2-fir/../../lib/py/SSX/device.py", line 115, in telnet_mgmt
+    ret = self._handle_mgmt_login()
+  File "/.amd/netapp2/vol/vol1/home2/smath/systest/tests/l2l-v2-fir/../../lib/py/SSX/device.py", line 335, in _handle_mgmt_login
+    which = self.ses.expect([login_prompt_regex, login_mgmt_prompt_regex], timeout=timeout)
+  File "../../lib/py/pexpect.py", line 1311, in expect
+    return self.expect_list(compiled_pattern_list, timeout, searchwindowsize)
+  File "../../lib/py/pexpect.py", line 1325, in expect_list
+    return self.expect_loop(searcher_re(pattern_list), timeout, searchwindowsize)
+  File "../../lib/py/pexpect.py", line 1397, in expect_loop
+    raise EOF (str(e) + '\n' + str(self))
+EOF: End Of File (EOF) in read_nonblocking(). Exception style platform.
+<pexpect.spawn object at 0x853d84c>
+version: 2.3 ($Revision: 1.9 $)
+command: /usr/bin/telnet
+args: ['/usr/bin/telnet', '-E', '-8', 'yemen']
+searcher: searcher_re:
+    0: re.compile(".*[
+]+Username: $")
+    1: re.compile("login:")
+buffer (last 100 chars): 
+before (last 100 chars): Trying 10.3.255.121...
+telnet: connect to address 10.3.255.121: Connection timed out
+
+after: <class 'pexpect.EOF'>
+match: None
+match_index: None
+exitstatus: 1
+flag_eof: True
+pid: 5594
+child_fd: 9
+closed: False
+timeout: 60
+delimiter: <class 'pexpect.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: 2000000
+delaybeforesend: 0.1
+delayafterclose: 0.1
+delayafterterminate: 0.1
+03:30:21 : ERROR   : Failed to connect to host yemen in telnet
+Traceback (most recent call last):
+  File "/.amd/netapp2/vol/vol1/home2/smath/systest/tests/l2l-v2-fir/../../lib/py/SSX/device.py", line 103, in telnet
+    self._init_vars(self.host)
+  File "/.amd/netapp2/vol/vol1/home2/smath/systest/tests/l2l-v2-fir/../../lib/py/SSX/device.py", line 1485, in _init_vars
+    self.cmd("terminal length infinite")
+  File "/.amd/netapp2/vol/vol1/home2/smath/systest/tests/l2l-v2-fir/../../lib/py/SSX/device.py", line 549, in cmd
+    self.ses.sendline(command)
+  File "../../lib/py/pexpect.py", line 961, in sendline
+    n = self.send(s)
+  File "../../lib/py/pexpect.py", line 953, in send
+    c = os.write(self.child_fd, s)
+OSError: [Errno 9] Bad file descriptor
+03:30:22 : ERROR   : ##################################################
+03:30:22 : ERROR   : test_HA_FUN_04 errored out.
+03:30:22 : ERROR   : ##################################################
+03:30:22 : ERROR   : 
+
+Traceback (most recent call last):
+  File "HA_FUN_04.py", line 141, in test_HA_FUN_04
+    set_device_to_glcr(self.Resp)
+  File "../../../lib/py/glcr.py", line 66, in set_device_to_glcr
+    self.reload_device(timeout)
+  File "/.amd/netapp2/vol/vol1/home2/smath/systest/tests/l2l-v2-fir/../../lib/py/SSX/device.py", line 806, in reload_device
+    self.telnet()
+  File "/.amd/netapp2/vol/vol1/home2/smath/systest/tests/l2l-v2-fir/../../lib/py/SSX/device.py", line 103, in telnet
+    self._init_vars(self.host)
+  File "/.amd/netapp2/vol/vol1/home2/smath/systest/tests/l2l-v2-fir/../../lib/py/SSX/device.py", line 1485, in _init_vars
+    self.cmd("terminal length infinite")
+  File "/.amd/netapp2/vol/vol1/home2/smath/systest/tests/l2l-v2-fir/../../lib/py/SSX/device.py", line 549, in cmd
+    self.ses.sendline(command)
+  File "../../lib/py/pexpect.py", line 961, in sendline
+    n = self.send(s)
+  File "../../lib/py/pexpect.py", line 953, in send
+    c = os.write(self.child_fd, s)
+OSError: [Errno 9] Bad file descriptor
+
+03:30:22 : DEBUG   : Closing down the session to host kenya-mc-con.
+03:30:22 : DEBUG   : Closing down the session to host yemen.
+03:30:22 : CMD     : ixLogout
+03:30:23 : CMD     : cleanUp
+03:30:26 : DEBUG   : Closing down the session to host 10.1.10.13.

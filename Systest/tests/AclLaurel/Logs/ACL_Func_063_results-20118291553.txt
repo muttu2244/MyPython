@@ -1,0 +1,16 @@
+test_ACL_Func_063 (__main__.test_ACL_Func_063) ... FAIL
+
+======================================================================
+FAIL: test_ACL_Func_063 (__main__.test_ACL_Func_063)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ACL_Func_063.py", line 294, in test_ACL_Func_063
+    self.tunnelUp()
+  File "ACL_Func_063.py", line 220, in tunnelUp
+    self.failUnless(op_ping,"Ping through tunnel failed")
+AssertionError: Ping through tunnel failed
+
+----------------------------------------------------------------------
+Ran 1 test in 62.981s
+
+FAILED (failures=1)

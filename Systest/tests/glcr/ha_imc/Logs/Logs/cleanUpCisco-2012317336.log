@@ -1,0 +1,141 @@
+03:36:25 : TEST    : ##################################################
+03:36:25 : TEST    : Python Version: Python 2.5
+03:36:25 : TEST    : ##################################################
+03:36:25 : TEST    : ##################################################
+03:36:25 : TEST    : test_cleanUpCisco
+03:36:25 : TEST    : ##################################################
+03:36:25 : INFO    : 
+#######################################################################
+#
+# Copyright (c) Stoke, Inc.
+# All Rights Reserved.
+#
+# This code is confidential and proprietary to Stoke, Inc. and may only
+# be used under a license from Stoke.
+#
+#######################################################################
+
+DESCRIPTION: This script is used to cleanup all the cisco interfaces which are used in test topology.
+TEST MATRIX: 
+TEST CASE  : NA
+TOPOLOGY   : GLC-R Setup with host connected behind Initiator.
+
+HOW TO RUN : python2.5 cleanUpCisco.py
+AUTHOR     : rajshekar@stoke.com
+REVIEWER   : 
+
+03:36:25 : OUTPUT  : Trying to connect to CISCO host c4900m-15-con 
+03:36:28 : CMD     : terminal length 512
+03:36:28 : CMD     : terminal width 512
+03:36:29 : CMD     : configure term
+03:36:29 : CMD     : no logging console
+03:36:29 : CMD     : end
+03:36:30 : OUTPUT  : 
+**********Cleaning the cisco Interfaces used in test**************
+
+03:36:30 : INFO    : Cleaning up Phy ports
+03:36:30 : CMD     : sh ip interface brief | inc 2/1
+03:36:31 : CMD     : show running interface GigabitEthernet 2/1
+03:36:31 : CMD     : conf t
+03:36:31 : CMD     : interface GigabitEthernet 2/1
+03:36:32 : CMD     : end
+03:36:32 : CMD     : sh ip interface brief | inc 2/14
+03:36:32 : CMD     : show running interface GigabitEthernet 2/14
+03:36:33 : CMD     : conf t
+03:36:33 : CMD     : interface GigabitEthernet 2/14
+03:36:33 : CMD     : no  mtu 1900
+03:36:33 : CMD     : no  switchport mode trunk
+03:36:34 : CMD     : no  switchport trunk allowed vlan 270
+03:36:34 : CMD     : no  switchport access vlan 270
+03:36:34 : CMD     : end
+03:36:34 : CMD     : sh ip interface brief | inc 2/2
+03:36:35 : CMD     : show running interface GigabitEthernet 2/2
+03:36:35 : CMD     : conf t
+03:36:35 : CMD     : interface GigabitEthernet 2/2
+03:36:36 : CMD     : no  switchport mode trunk
+03:36:36 : CMD     : no  switchport trunk allowed vlan 923
+03:36:36 : CMD     : no  switchport access vlan 923
+03:36:36 : CMD     : end
+03:36:36 : CMD     : sh ip interface brief | inc 2/15
+03:36:37 : CMD     : show running interface GigabitEthernet 2/15
+03:36:37 : CMD     : conf t
+03:36:38 : CMD     : interface GigabitEthernet 2/15
+03:36:38 : CMD     : no  switchport mode trunk
+03:36:38 : CMD     : no  switchport trunk allowed vlan 470
+03:36:38 : CMD     : no  switchport access vlan 470
+03:36:38 : CMD     : end
+03:36:39 : CMD     : sh ip interface brief | inc 2/13
+03:36:39 : CMD     : show running interface GigabitEthernet 2/13
+03:36:39 : CMD     : conf t
+03:36:40 : CMD     : interface GigabitEthernet 2/13
+03:36:40 : CMD     : end
+03:36:40 : CMD     : sh ip interface brief | inc 2/4
+03:36:40 : CMD     : show running interface GigabitEthernet 2/4
+03:36:41 : CMD     : conf t
+03:36:41 : CMD     : interface GigabitEthernet 2/4
+03:36:41 : CMD     : no  switchport mode trunk
+03:36:42 : CMD     : no  switchport trunk allowed vlan 370
+03:36:42 : CMD     : no  switchport access vlan 370
+03:36:42 : CMD     : end
+03:36:42 : CMD     : sh ip interface brief | inc 2/19
+03:36:43 : CMD     : show running interface GigabitEthernet 2/19
+03:36:43 : CMD     : conf t
+03:36:43 : CMD     : interface GigabitEthernet 2/19
+03:36:44 : CMD     : no  switchport mode trunk
+03:36:44 : CMD     : no  switchport trunk allowed vlan 670
+03:36:44 : CMD     : no  switchport access vlan 670
+03:36:44 : CMD     : end
+03:36:44 : CMD     : sh ip interface brief | inc 2/18
+03:36:45 : CMD     : show running interface GigabitEthernet 2/18
+03:36:45 : CMD     : conf t
+03:36:45 : CMD     : interface GigabitEthernet 2/18
+03:36:46 : CMD     : end
+03:36:46 : CMD     : sh ip interface brief | inc 1/2
+03:36:46 : CMD     : show running interface TenGigabitEthernet 1/2
+03:36:47 : CMD     : conf t
+03:36:47 : CMD     : interface TenGigabitEthernet 1/2
+03:36:47 : CMD     : end
+03:36:47 : CMD     : sh ip interface brief | inc 1/4
+03:36:48 : CMD     : show running interface TenGigabitEthernet 1/4
+03:36:48 : CMD     : conf t
+03:36:49 : CMD     : interface TenGigabitEthernet 1/4
+03:36:49 : CMD     : no  switchport mode trunk
+03:36:49 : CMD     : no  switchport trunk allowed vlan 922
+03:36:49 : CMD     : no  switchport access vlan 922
+03:36:49 : CMD     : end
+03:36:50 : CMD     : sh ip interface brief | inc 2/7
+03:36:50 : CMD     : show running interface GigabitEthernet 2/7
+03:36:50 : CMD     : conf t
+03:36:51 : CMD     : interface GigabitEthernet 2/7
+03:36:51 : CMD     : end
+03:36:51 : CMD     : sh ip interface brief | inc 2/8
+03:36:52 : CMD     : show running interface GigabitEthernet 2/8
+03:36:52 : CMD     : conf t
+03:36:52 : CMD     : interface GigabitEthernet 2/8
+03:36:52 : CMD     : end
+03:36:53 : CMD     : sh ip interface brief | inc 2/5
+03:36:54 : CMD     : show running interface GigabitEthernet 2/5
+03:36:54 : CMD     : conf t
+03:36:54 : CMD     : interface GigabitEthernet 2/5
+03:36:55 : CMD     : end
+03:36:55 : CMD     : sh ip interface brief | inc 2/5
+03:36:55 : CMD     : show running interface GigabitEthernet 2/5
+03:36:56 : CMD     : conf t
+03:36:56 : CMD     : interface GigabitEthernet 2/5
+03:36:56 : CMD     : end
+03:36:56 : INFO    : Cleaning up Vlan interfaces
+03:36:56 : CMD     : conf t
+03:36:57 : CMD     : no interface vlan 520
+03:36:57 : CMD     : no interface vlan 540
+03:36:57 : CMD     : no interface vlan 531
+03:36:58 : CMD     : no interface vlan 542
+03:36:58 : CMD     : no interface vlan 530
+03:36:58 : CMD     : no interface vlan 541
+03:36:59 : CMD     : no interface vlan 521
+03:36:59 : CMD     : no interface vlan 543
+03:36:59 : CMD     : no interface vlan 620
+03:37:00 : CMD     : no interface vlan 630
+03:37:00 : CMD     : end
+03:37:00 : RESULT  : ##################################################
+03:37:00 : RESULT  : test_cleanUpCisco: PASS
+03:37:00 : RESULT  : ##################################################

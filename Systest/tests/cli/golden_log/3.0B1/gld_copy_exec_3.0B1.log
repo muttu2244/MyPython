@@ -1,0 +1,134 @@
+copy 
+<<<<help_begin
+STRING  Source URL
+>>>>help_end
+[KStoke[local]#copy[K<!>[Kcopy z 
+<<<<help_begin
+STRING  Destination URL
+>>>>help_end
+[KStoke[local]#copy z[K<!>[Kcopy z z 
+<<<<help_begin
+noconfirm  Do not ask for confirmation if the destination file exists
+<cr>
+>>>>help_end
+[KStoke[local]#copy z z[K<!>[Kcopy z z noconfirm 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#copy z z noconfirm Stoke[local]#[K<!>[Kcopy z z noconfirm
+ERROR: Source and destination are the same file.
+Stoke[local]#<!>[Kcopy z z
+ERROR: Source and destination are the same file.
+Stoke[local]#<!>[Kcopy z abc 
+<<<<help_begin
+noconfirm  Do not ask for confirmation if the destination file exists
+<cr>
+>>>>help_end
+[KStoke[local]#copy z abc[K<!>[Kcopy z abc noconfirm 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#copy z abc noconfirm Stoke[local]#[K<!>[Kcopy z abc noconfirm
+ERROR: Could not open /cfint/z for reading: No such file or directory.
+Stoke[local]#<!>[Kcopy z abc
+ERROR: Could not open /cfint/z for reading: No such file or directory.
+Stoke[local]#<!>[Kcopy z a1b2c3 
+<<<<help_begin
+noconfirm  Do not ask for confirmation if the destination file exists
+<cr>
+>>>>help_end
+[KStoke[local]#copy z a1b2c3 Stoke[local]#[K<!>[Kcopy z a1b2c3 noconfirm 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#copy z a1b2c3 noconfirm Stoke[local]#[K<!>[Kcopy z a1b2c3 noconfirm
+ERROR: Could not open /cfint/z for reading: No such file or directory.
+Stoke[local]#<!>[Kcopy z a1b2c3
+ERROR: Could not open /cfint/z for reading: No such file or directory.
+Stoke[local]#<!>[Kcopy z xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Stoke[local]#[K<!>[Kcopy abc 
+<<<<help_begin
+STRING  Destination URL
+>>>>help_end
+[KStoke[local]#copy abc[K<!>[Kcopy abc z 
+<<<<help_begin
+noconfirm  Do not ask for confirmation if the destination file exists
+<cr>
+>>>>help_end
+[KStoke[local]#copy abc z[K<!>[Kcopy abc z noconfirm 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#copy abc z noconfirm Stoke[local]#[K<!>[Kcopy abc z noconfirm
+ERROR: Could not open /cfint/abc for reading: No such file or directory.
+Stoke[local]#<!>[Kcopy abc z
+ERROR: Could not open /cfint/abc for reading: No such file or directory.
+Stoke[local]#<!>[Kcopy abc abc 
+<<<<help_begin
+noconfirm  Do not ask for confirmation if the destination file exists
+<cr>
+>>>>help_end
+[KStoke[local]#copy abc abc[K<!>[Kcopy abc abc noconfirm 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#copy abc abc noconfirm Stoke[local]#[K<!>[Kcopy abc abc noconfirm
+ERROR: Source and destination are the same file.
+Stoke[local]#<!>[Kcopy abc abc
+ERROR: Source and destination are the same file.
+Stoke[local]#<!>[Kcopy abc a1b2c3 
+<<<<help_begin
+noconfirm  Do not ask for confirmation if the destination file exists
+<cr>
+>>>>help_end
+[KStoke[local]#copy abc a1b2c3 Stoke[local]#[K<!>[Kcopy abc a1b2c3 noconfirm 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#copy abc a1b2c3 noconfirm Stoke[local]#[K<!>[Kcopy abc a1b2c3 noconfirm
+ERROR: Could not open /cfint/abc for reading: No such file or directory.
+Stoke[local]#<!>[Kcopy abc a1b2c3
+ERROR: Could not open /cfint/abc for reading: No such file or directory.
+Stoke[local]#<!>[Kcopy abc xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Stoke[local]#[K<!>[Kcopy a1b2c3 
+<<<<help_begin
+STRING  Destination URL
+>>>>help_end
+[KStoke[local]#copy a1b2c3[K<!>[Kcopy a1b2c3 z 
+<<<<help_begin
+noconfirm  Do not ask for confirmation if the destination file exists
+<cr>
+>>>>help_end
+[KStoke[local]#copy a1b2c3 z Stoke[local]#[K<!>[Kcopy a1b2c3 z noconfirm 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#copy a1b2c3 z noconfirm Stoke[local]#[K<!>[Kcopy a1b2c3 z noconfirm
+ERROR: Could not open /cfint/a1b2c3 for reading: No such file or directory.
+Stoke[local]#<!>[Kcopy a1b2c3 z
+ERROR: Could not open /cfint/a1b2c3 for reading: No such file or directory.
+Stoke[local]#<!>[Kcopy a1b2c3 abc 
+<<<<help_begin
+noconfirm  Do not ask for confirmation if the destination file exists
+<cr>
+>>>>help_end
+[KStoke[local]#copy a1b2c3 abc Stoke[local]#[K<!>[Kcopy a1b2c3 abc noconfirm 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#copy a1b2c3 abc noconfirm Stoke[local]#[K<!>[Kcopy a1b2c3 abc noconfirm
+ERROR: Could not open /cfint/a1b2c3 for reading: No such file or directory.
+Stoke[local]#<!>[Kcopy a1b2c3 abc
+ERROR: Could not open /cfint/a1b2c3 for reading: No such file or directory.
+Stoke[local]#<!>[Kcopy a1b2c3 a1b2c3 
+<<<<help_begin
+noconfirm  Do not ask for confirmation if the destination file exists
+<cr>
+>>>>help_end
+[KStoke[local]#copy a1b2c3 a1b2c3 Stoke[local]#[K<!>[Kcopy a1b2c3 a1b2c3 noconfirm 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#copy a1b2c3 a1b2c3 noconfirm Stoke[local]#[K<!>[Kcopy a1b2c3 a1b2c3 noconfirm
+ERROR: Source and destination are the same file.
+Stoke[local]#<!>[Kcopy a1b2c3 a1b2c3
+ERROR: Source and destination are the same file.
+Stoke[local]#<!>[Kcopy a1b2c3 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Stoke[local]#[K<!>[Kcopy xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Stoke[local]#[K<!>

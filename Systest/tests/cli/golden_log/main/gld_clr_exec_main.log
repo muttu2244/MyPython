@@ -1,0 +1,2274 @@
+clear 
+<<<<help_begin
+cdr            Clear cdr related data (purge)
+configuration  Clear current running configuration
+environmental  System environmental settings
+ike-session    Clear IKE session information
+ip             Clear IPv4 information
+ipv6           Clear IPv6 information
+log            Clear an event log
+port           Clear port information
+ppp            PPP information
+pppoe          PPPoE information
+session        Clear active sessions
+tunnel         Clear active tunnels
+user           Clear active telnet/ssh users
+vlan           Clear vlan information
+xfic-ixf       Clear XFIC IXF counters
+>>>>help_end
+[KStoke[local]#clear[K<!>[Kclear cdr 
+<<<<help_begin
+statistics  Clear cdr statistics
+>>>>help_end
+[KStoke[local]#clear cdr[K<!>[Kclear cdr statistics 
+<<<<help_begin
+all                       Clear all statistics data
+total-files-disk-written  Clear total count of files written to disk
+total-files-removed       Clear total count of files removed from disk
+total-files-renamed       Clear total count of files renamed
+total-files-uploaded      Clear total count of files uploaded to cdrserver
+>>>>help_end
+[KStoke[local]#clear cdr statistics Stoke[local]#[K<!>[Kclear cdr statistics all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear cdr statistics all Stoke[local]#[K<!>[Kclear cdr statistics all
+Stoke[local]#<!>[Kclear cdr statistics total-files-disk-written 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear cdr statistics total-files-disk-written Stoke[local]#[K<!>[Kclear cdr statistics total-files-disk-written
+Stoke[local]#<!>[Kclear cdr statistics total-files-removed 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear cdr statistics total-files-removed Stoke[local]#[K<!>[Kclear cdr statistics total-files-removed
+Stoke[local]#<!>[Kclear cdr statistics total-files-renamed 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear cdr statistics total-files-renamed Stoke[local]#[K<!>[Kclear cdr statistics total-files-renamed
+Stoke[local]#<!>[Kclear cdr statistics total-files-uploaded 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear cdr statistics total-files-uploaded Stoke[local]#[K<!>[Kclear cdr statistics total-files-uploaded
+Stoke[local]#<!>[Kclear environmental 
+<<<<help_begin
+alarms  Clear environmental alarms and cut-off switch
+>>>>help_end
+[KStoke[local]#clear environmental Stoke[local]#[K<!>[Kclear environmental alarms 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear environmental alarms Stoke[local]#[K<!>[Kclear environmental alarms
+Stoke[local]#<!>[Kclear ike-session 
+<<<<help_begin
+SLOT(0..4)  Specify slot for it's counters
+counters    Clear cumulative session counters
+>>>>help_end
+[KStoke[local]#clear ike-session Stoke[local]#[K<!>[Kclear ike-session 4 
+<<<<help_begin
+counters  Clear cumulative session counters
+>>>>help_end
+[KStoke[local]#clear ike-session 4 Stoke[local]#[K<!>[Kclear ike-session 4 counters 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ike-session 4 counters Stoke[local]#[K<!>[Kclear ike-session 4 counters
+Stoke[local]#<!>[Kclear ike-session 1 
+<<<<help_begin
+counters  Clear cumulative session counters
+>>>>help_end
+[KStoke[local]#clear ike-session 1 Stoke[local]#[K<!>[Kclear ike-session 1 counters 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ike-session 1 counters Stoke[local]#[K<!>[Kclear ike-session 1 counters
+Stoke[local]#<!>[Kclear ike-session 3 
+<<<<help_begin
+counters  Clear cumulative session counters
+>>>>help_end
+[KStoke[local]#clear ike-session 3 Stoke[local]#[K<!>[Kclear ike-session 3 counters 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ike-session 3 counters Stoke[local]#[K<!>[Kclear ike-session 3 counters
+Stoke[local]#<!>[Kclear ike-session 0 
+<<<<help_begin
+counters  Clear cumulative session counters
+>>>>help_end
+[KStoke[local]#clear ike-session 0 Stoke[local]#[K<!>[Kclear ike-session 0 counters 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ike-session 0 counters Stoke[local]#[K<!>[Kclear ike-session 0 counters
+Stoke[local]#<!>[Kclear ike-session 2 
+<<<<help_begin
+counters  Clear cumulative session counters
+>>>>help_end
+[KStoke[local]#clear ike-session 2 Stoke[local]#[K<!>[Kclear ike-session 2 counters 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ike-session 2 counters Stoke[local]#[K<!>[Kclear ike-session 2 counters
+Stoke[local]#<!>[Kclear ike-session counters 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ike-session counters Stoke[local]#[K<!>[Kclear ike-session counters
+Stoke[local]#<!>[Kclear ip 
+<<<<help_begin
+access-list  Clear access-list counters
+arp          Clear arp cache
+bgp          Clear BGP4 Information
+counters     Clear Traffic statistics
+ospf         OSPF clear commands
+prefix-list  Clear prefix-list counters
+rip          Clear RIP Information
+session      Clear session-related info
+>>>>help_end
+[KStoke[local]#clear ip[K<!>[Kclear ip access-list 
+<<<<help_begin
+counters  Clear access-list counters
+name      Access-list name
+>>>>help_end
+[KStoke[local]#clear ip access-list Stoke[local]#[K<!>[Kclear ip access-list counters 
+<<<<help_begin
+slot   Specify slot (default is all)
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip access-list counters Stoke[local]#[K<!>[Kclear ip access-list counters slot 
+<<<<help_begin
+0..15  Slot ID
+>>>>help_end
+[KStoke[local]#clear ip access-list counters slot Stoke[local]#[K<!>[Kclear ip access-list counters slot 0 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip access-list counters slot 0 Stoke[local]#[K<!>[Kclear ip access-list counters slot 0
+ERROR: Slot 0 is not a GLC
+Stoke[local]#<!>[Kclear ip access-list counters slot 15 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip access-list counters slot 15 Stoke[local]#[K<!>[Kclear ip access-list counters slot 15
+ERROR: Slot 15 is down
+Stoke[local]#<!>[Kclear ip access-list counters
+Stoke[local]#<!>[Kclear ip access-list name 
+<<<<help_begin
+STRING  Name of the access-list
+>>>>help_end
+[KStoke[local]#clear ip access-list name Stoke[local]#[K<!>[Kclear ip access-list name z 
+<<<<help_begin
+counters  Clear access-list counters
+>>>>help_end
+[KStoke[local]#clear ip access-list name z Stoke[local]#[K<!>[Kclear ip access-list name z counters 
+<<<<help_begin
+slot   Specify slot (default is all)
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip access-list name z counters Stoke[local]#[K<!>[Kclear ip access-list name z counters slot 
+<<<<help_begin
+0..15  Slot ID
+>>>>help_end
+[KStoke[local]#clear ip access-list name z counters slot Stoke[local]#[K<!>[Kclear ip access-list name z counters slot 0 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip access-list name z counters slot 0 Stoke[local]#[K<!>[Kclear ip access-list name z counters slot 0
+ERROR: Slot 0 is not a GLC
+Stoke[local]#<!>[Kclear ip access-list name z counters slot 15 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip access-list name z counters slot 15 Stoke[local]#[K<!>[Kclear ip access-list name z counters slot 15
+ERROR: Slot 15 is down
+Stoke[local]#<!>[Kclear ip access-list name z counters
+ERROR: Access list z not found
+Stoke[local]#<!>[Kclear ip access-list name abc 
+<<<<help_begin
+counters  Clear access-list counters
+>>>>help_end
+[KStoke[local]#clear ip access-list name abc Stoke[local]#[K<!>[Kclear ip access-list name abc counters 
+<<<<help_begin
+slot   Specify slot (default is all)
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip access-list name abc counters Stoke[local]#[K<!>[Kclear ip access-list name abc counters slot 
+<<<<help_begin
+0..15  Slot ID
+>>>>help_end
+[KStoke[local]#clear ip access-list name abc counters slot Stoke[local]#[K<!>[Kclear ip access-list name abc counters slot 0 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip access-list name abc counters slot 0 Stoke[local]#[K<!>[Kclear ip access-list name abc counters slot 0
+ERROR: Slot 0 is not a GLC
+Stoke[local]#<!>[Kclear ip access-list name abc counters slot 15 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip access-list name abc counters slot 15 Stoke[local]#[K<!>[Kclear ip access-list name abc counters slot 15
+ERROR: Slot 15 is down
+Stoke[local]#<!>[Kclear ip access-list name abc counters
+ERROR: Access list abc not found
+Stoke[local]#<!>[Kclear ip access-list name a1b2c3 
+<<<<help_begin
+counters  Clear access-list counters
+>>>>help_end
+[KStoke[local]#clear ip access-list name a1b2c3 Stoke[local]#[K<!>[Kclear ip access-list name a1b2c3 counters 
+<<<<help_begin
+slot   Specify slot (default is all)
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip access-list name a1b2c3 counters Stoke[local]#[K<!>[Kclear ip access-list name a1b2c3 counters slot 
+<<<<help_begin
+0..15  Slot ID
+>>>>help_end
+[KStoke[local]#clear ip access-list name a1b2c3 counters slot Stoke[local]#[K<!>[Kclear ip access-list name a1b2c3 counters slot 0 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip access-list name a1b2c3 counters slot 0 Stoke[local]#[K<!>[Kclear ip access-list name a1b2c3 counters slot 0
+ERROR: Slot 0 is not a GLC
+Stoke[local]#<!>[Kclear ip access-list name a1b2c3 counters slot 15 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip access-list name a1b2c3 counters slot 15 Stoke[local]#[K<!>[Kclear ip access-list name a1b2c3 counters slot 15
+ERROR: Slot 15 is down
+Stoke[local]#<!>[Kclear ip access-list name a1b2c3 counters
+ERROR: Access list a1b2c3 not found
+Stoke[local]#<!>[Kclear ip access-list name xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Stoke[local]#[K<!>[Kclear ip arp 
+<<<<help_begin
+all      All entries
+n.n.n.n  Host address
+>>>>help_end
+[KStoke[local]#clear ip arp[K<!>[Kclear ip arp all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip arp all Stoke[local]#[K<!>[Kclear ip arp all
+Stoke[local]#<!>[Kclear ip arp 255.255.255.255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip arp 255.255.255.255 Stoke[local]#[K<!>[Kclear ip arp 255.255.255.255
+ERROR: No such arp entry exists
+Stoke[local]#<!>[Kclear ip arp 10.1.1.1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip arp 10.1.1.1 Stoke[local]#[K<!>[Kclear ip arp 10.1.1.1
+ERROR: No such arp entry exists
+Stoke[local]#<!>[Kclear ip bgp 
+<<<<help_begin
+*             Clear BGP4 Information
+1..65535      Clear peers with the AS number
+external      Clear all external peers
+n.n.n.n       BGP neighbor address to clear
+peer-group    Clear all members of peer-group
+redistribute  Refresh route redistribution
+>>>>help_end
+[KStoke[local]#clear ip bgp[K<!>[Kclear ip bgp * 
+<<<<help_begin
+soft   Soft reconfig
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp * Stoke[local]#[K<!>[Kclear ip bgp * soft 
+<<<<help_begin
+in     Soft reconfig inbound update
+out    Soft reconfig outbound update
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp * soft Stoke[local]#[K<!>[Kclear ip bgp * soft in 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp * soft in Stoke[local]#[K<!>[Kclear ip bgp * soft in
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp * soft out 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp * soft out Stoke[local]#[K<!>[Kclear ip bgp * soft out
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp * soft
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp *
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp 1 
+<<<<help_begin
+soft   Soft reconfig
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp 1 Stoke[local]#[K<!>[Kclear ip bgp 1 soft 
+<<<<help_begin
+in     Soft reconfig inbound update
+out    Soft reconfig outbound update
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp 1 soft Stoke[local]#[K<!>[Kclear ip bgp 1 soft in 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp 1 soft in Stoke[local]#[K<!>[Kclear ip bgp 1 soft in
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp 1 soft out 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp 1 soft out Stoke[local]#[K<!>[Kclear ip bgp 1 soft out
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp 1 soft
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp 1
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp 65535 
+<<<<help_begin
+soft   Soft reconfig
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp 65535 Stoke[local]#[K<!>[Kclear ip bgp 65535 soft 
+<<<<help_begin
+in     Soft reconfig inbound update
+out    Soft reconfig outbound update
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp 65535 soft Stoke[local]#[K<!>[Kclear ip bgp 65535 soft in 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp 65535 soft in Stoke[local]#[K<!>[Kclear ip bgp 65535 soft in
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp 65535 soft out 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp 65535 soft out Stoke[local]#[K<!>[Kclear ip bgp 65535 soft out
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp 65535 soft
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp 65535
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp 55 
+<<<<help_begin
+soft   Soft reconfig
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp 55 Stoke[local]#[K<!>[Kclear ip bgp 55 soft 
+<<<<help_begin
+in     Soft reconfig inbound update
+out    Soft reconfig outbound update
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp 55 soft Stoke[local]#[K<!>[Kclear ip bgp 55 soft in 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp 55 soft in Stoke[local]#[K<!>[Kclear ip bgp 55 soft in
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp 55 soft out 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp 55 soft out Stoke[local]#[K<!>[Kclear ip bgp 55 soft out
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp 55 soft
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp 55
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp external 
+<<<<help_begin
+soft   Soft reconfig
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp external Stoke[local]#[K<!>[Kclear ip bgp external soft 
+<<<<help_begin
+in     Soft reconfig inbound update
+out    Soft reconfig outbound update
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp external soft Stoke[local]#[K<!>[Kclear ip bgp external soft in 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp external soft in Stoke[local]#[K<!>[Kclear ip bgp external soft in
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp external soft out 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp external soft out Stoke[local]#[K<!>[Kclear ip bgp external soft out
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp external soft
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp external
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp 255.255.255.255 
+<<<<help_begin
+soft   Soft reconfig
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp 255.255.255.255 Stoke[local]#[K<!>[Kclear ip bgp 255.255.255.255 soft 
+<<<<help_begin
+in     Soft reconfig inbound update
+out    Soft reconfig outbound update
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp 255.255.255.255 soft Stoke[local]#[K<!>[Kclear ip bgp 255.255.255.255 soft in 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp 255.255.255.255 soft in Stoke[local]#[K<!>[Kclear ip bgp 255.255.255.255 soft in
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp 255.255.255.255 soft out 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp 255.255.255.255 soft out Stoke[local]#[K<!>[Kclear ip bgp 255.255.255.255 soft out
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp 255.255.255.255 soft
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp 255.255.255.255
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp 10.1.1.1 
+<<<<help_begin
+soft   Soft reconfig
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp 10.1.1.1 Stoke[local]#[K<!>[Kclear ip bgp 10.1.1.1 soft 
+<<<<help_begin
+in     Soft reconfig inbound update
+out    Soft reconfig outbound update
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp 10.1.1.1 soft Stoke[local]#[K<!>[Kclear ip bgp 10.1.1.1 soft in 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp 10.1.1.1 soft in Stoke[local]#[K<!>[Kclear ip bgp 10.1.1.1 soft in
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp 10.1.1.1 soft out 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp 10.1.1.1 soft out Stoke[local]#[K<!>[Kclear ip bgp 10.1.1.1 soft out
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp 10.1.1.1 soft
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp 10.1.1.1
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp peer-group 
+<<<<help_begin
+STRING  Peer group name
+>>>>help_end
+[KStoke[local]#clear ip bgp peer-group Stoke[local]#[K<!>[Kclear ip bgp peer-group z 
+<<<<help_begin
+soft   Soft reconfig
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp peer-group z Stoke[local]#[K<!>[Kclear ip bgp peer-group z soft 
+<<<<help_begin
+in     Soft reconfig inbound update
+out    Soft reconfig outbound update
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp peer-group z soft Stoke[local]#[K<!>[Kclear ip bgp peer-group z soft in 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp peer-group z soft in Stoke[local]#[K<!>[Kclear ip bgp peer-group z soft in
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp peer-group z soft out 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp peer-group z soft out Stoke[local]#[K<!>[Kclear ip bgp peer-group z soft out
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp peer-group z soft
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp peer-group z
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp peer-group abc 
+<<<<help_begin
+soft   Soft reconfig
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp peer-group abc Stoke[local]#[K<!>[Kclear ip bgp peer-group abc soft 
+<<<<help_begin
+in     Soft reconfig inbound update
+out    Soft reconfig outbound update
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp peer-group abc soft Stoke[local]#[K<!>[Kclear ip bgp peer-group abc soft in 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp peer-group abc soft in Stoke[local]#[K<!>[Kclear ip bgp peer-group abc soft in
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp peer-group abc soft out 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp peer-group abc soft out Stoke[local]#[K<!>[Kclear ip bgp peer-group abc soft out
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp peer-group abc soft
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp peer-group abc
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp peer-group a1b2c3 
+<<<<help_begin
+soft   Soft reconfig
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp peer-group a1b2c3 Stoke[local]#[K<!>[Kclear ip bgp peer-group a1b2c3 soft 
+<<<<help_begin
+in     Soft reconfig inbound update
+out    Soft reconfig outbound update
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp peer-group a1b2c3 soft Stoke[local]#[K<!>[Kclear ip bgp peer-group a1b2c3 soft in 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp peer-group a1b2c3 soft in Stoke[local]#[K<!>[Kclear ip bgp peer-group a1b2c3 soft in
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp peer-group a1b2c3 soft out 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp peer-group a1b2c3 soft out Stoke[local]#[K<!>[Kclear ip bgp peer-group a1b2c3 soft out
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp peer-group a1b2c3 soft
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp peer-group a1b2c3
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp peer-group xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Stoke[local]#[K<!>[Kclear ip bgp redistribute 
+<<<<help_begin
+connected        Directly connected interface routes
+ospf             Open Shortest Path First protocol(OSPF)
+rip              Routing Information Protocol(RIP)
+static           Static routes
+subscriber-host  Subscriber host routes
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp redistribute Stoke[local]#[K<!>[Kclear ip bgp redistribute connected 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp redistribute connected Stoke[local]#[K<!>[Kclear ip bgp redistribute connected
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp redistribute ospf 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp redistribute ospf Stoke[local]#[K<!>[Kclear ip bgp redistribute ospf
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp redistribute rip 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp redistribute rip Stoke[local]#[K<!>[Kclear ip bgp redistribute rip
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp redistribute static 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp redistribute static Stoke[local]#[K<!>[Kclear ip bgp redistribute static
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp redistribute subscriber-host 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip bgp redistribute subscriber-host Stoke[local]#[K<!>[Kclear ip bgp redistribute subscriber-host
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip bgp redistribute
+ERROR: BGP Instance does not exist
+Stoke[local]#<!>[Kclear ip counters 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip counters Stoke[local]#[K<!>[Kclear ip counters
+Stoke[local]#<!>[Kclear ip ospf 
+<<<<help_begin
+interface       Clears the neighbors on the interface
+process         Clears the process state
+redistribution  Clear OSPF route redistribution
+>>>>help_end
+[KStoke[local]#clear ip ospf Stoke[local]#[K<!>[Kclear ip ospf interface 
+<<<<help_begin
+STRING  Interface name
+>>>>help_end
+[KStoke[local]#clear ip ospf interface Stoke[local]#[K<!>[Kclear ip ospf interface z 
+<<<<help_begin
+n.n.n.n  Clear specific Neighbor with ID
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip ospf interface z Stoke[local]#[K<!>[Kclear ip ospf interface z 255.255.255.255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip ospf interface z 255.255.255.255 Stoke[local]#[K<!>[Kclear ip ospf interface z 255.255.255.255
+ERROR: OSPF is not running in this context
+Stoke[local]#<!>[Kclear ip ospf interface z 10.1.1.1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip ospf interface z 10.1.1.1 Stoke[local]#[K<!>[Kclear ip ospf interface z 10.1.1.1
+ERROR: OSPF is not running in this context
+Stoke[local]#<!>[Kclear ip ospf interface z
+ERROR: OSPF is not running in this context
+Stoke[local]#<!>[Kclear ip ospf interface abc 
+<<<<help_begin
+n.n.n.n  Clear specific Neighbor with ID
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip ospf interface abc Stoke[local]#[K<!>[Kclear ip ospf interface abc 255.255.255.255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip ospf interface abc 255.255.255.255 Stoke[local]#[K<!>[Kclear ip ospf interface abc 255.255.255.255
+ERROR: OSPF is not running in this context
+Stoke[local]#<!>[Kclear ip ospf interface abc 10.1.1.1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip ospf interface abc 10.1.1.1 Stoke[local]#[K<!>[Kclear ip ospf interface abc 10.1.1.1
+ERROR: OSPF is not running in this context
+Stoke[local]#<!>[Kclear ip ospf interface abc
+ERROR: OSPF is not running in this context
+Stoke[local]#<!>[Kclear ip ospf interface a1b2c3 
+<<<<help_begin
+n.n.n.n  Clear specific Neighbor with ID
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip ospf interface a1b2c3 Stoke[local]#[K<!>[Kclear ip ospf interface a1b2c3 255.255.255.255 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip ospf interface a1b2c3 255.255.255.255 Stoke[local]#[K<!>[Kclear ip ospf interface a1b2c3 255.255.255.255
+ERROR: OSPF is not running in this context
+Stoke[local]#<!>[Kclear ip ospf interface a1b2c3 10.1.1.1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip ospf interface a1b2c3 10.1.1.1 Stoke[local]#[K<!>[Kclear ip ospf interface a1b2c3 10.1.1.1
+ERROR: OSPF is not running in this context
+Stoke[local]#<!>[Kclear ip ospf interface a1b2c3
+ERROR: OSPF is not running in this context
+Stoke[local]#<!>[Kclear ip ospf interface xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Stoke[local]#[K<!>[Kclear ip ospf process 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip ospf process Stoke[local]#[K<!>[Kclear ip ospf process
+ERROR: OSPF is not running in this context
+Stoke[local]#<!>[Kclear ip ospf redistribution 
+<<<<help_begin
+bgp              BGP routes
+connected        Connected routes
+rip              RIP routes
+static           Static routes
+subscriber-host  Connected routes
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip ospf redistribution Stoke[local]#[K<!>[Kclear ip ospf redistribution bgp 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip ospf redistribution bgp Stoke[local]#[K<!>[Kclear ip ospf redistribution bgp
+ERROR: OSPF is not running in this context
+Stoke[local]#<!>[Kclear ip ospf redistribution connected 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip ospf redistribution connected Stoke[local]#[K<!>[Kclear ip ospf redistribution connected
+ERROR: OSPF is not running in this context
+Stoke[local]#<!>[Kclear ip ospf redistribution rip 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip ospf redistribution rip Stoke[local]#[K<!>[Kclear ip ospf redistribution rip
+ERROR: OSPF is not running in this context
+Stoke[local]#<!>[Kclear ip ospf redistribution static 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip ospf redistribution static Stoke[local]#[K<!>[Kclear ip ospf redistribution static
+ERROR: OSPF is not running in this context
+Stoke[local]#<!>[Kclear ip ospf redistribution subscriber-host 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip ospf redistribution subscriber-host Stoke[local]#[K<!>[Kclear ip ospf redistribution subscriber-host
+ERROR: OSPF is not running in this context
+Stoke[local]#<!>[Kclear ip ospf redistribution
+ERROR: OSPF is not running in this context
+Stoke[local]#<!>[Kclear ip prefix-list 
+<<<<help_begin
+STRING  Name of the prefix-list
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip prefix-list Stoke[local]#[K<!>[Kclear ip prefix-list z 
+<<<<help_begin
+n.n.n.n/n  Network prefix
+seq        Selects the sequence to clear
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip prefix-list z Stoke[local]#[K<!>[Kclear ip prefix-list z 1.1.1.1/24 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip prefix-list z 1.1.1.1/24 Stoke[local]#[K<!>[Kclear ip prefix-list z 1.1.1.1/24
+ERROR: Cannot find prefix-list z
+Stoke[local]#<!>[Kclear ip prefix-list z seq 
+<<<<help_begin
+1..65530  Sequence number
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip prefix-list z seq Stoke[local]#[K<!>[Kclear ip prefix-list z seq 1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip prefix-list z seq 1 Stoke[local]#[K<!>[Kclear ip prefix-list z seq 1
+ERROR: Cannot find prefix-list z
+Stoke[local]#<!>[Kclear ip prefix-list z seq 65530 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip prefix-list z seq 65530 Stoke[local]#[K<!>[Kclear ip prefix-list z seq 65530
+ERROR: Cannot find prefix-list z
+Stoke[local]#<!>[Kclear ip prefix-list z seq 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip prefix-list z seq 55 Stoke[local]#[K<!>[Kclear ip prefix-list z seq 55
+ERROR: Cannot find prefix-list z
+Stoke[local]#<!>[Kclear ip prefix-list z seq
+ERROR: Cannot find prefix-list z
+Stoke[local]#<!>[Kclear ip prefix-list z
+ERROR: Cannot find prefix-list z
+Stoke[local]#<!>[Kclear ip prefix-list abc 
+<<<<help_begin
+n.n.n.n/n  Network prefix
+seq        Selects the sequence to clear
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip prefix-list abc Stoke[local]#[K<!>[Kclear ip prefix-list abc 1.1.1.1/24 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip prefix-list abc 1.1.1.1/24 Stoke[local]#[K<!>[Kclear ip prefix-list abc 1.1.1.1/24
+ERROR: Cannot find prefix-list abc
+Stoke[local]#<!>[Kclear ip prefix-list abc seq 
+<<<<help_begin
+1..65530  Sequence number
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip prefix-list abc seq Stoke[local]#[K<!>[Kclear ip prefix-list abc seq 1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip prefix-list abc seq 1 Stoke[local]#[K<!>[Kclear ip prefix-list abc seq 1
+ERROR: Cannot find prefix-list abc
+Stoke[local]#<!>[Kclear ip prefix-list abc seq 65530 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip prefix-list abc seq 65530 Stoke[local]#[K<!>[Kclear ip prefix-list abc seq 65530
+ERROR: Cannot find prefix-list abc
+Stoke[local]#<!>[Kclear ip prefix-list abc seq 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip prefix-list abc seq 55 Stoke[local]#[K<!>[Kclear ip prefix-list abc seq 55
+ERROR: Cannot find prefix-list abc
+Stoke[local]#<!>[Kclear ip prefix-list abc seq
+ERROR: Cannot find prefix-list abc
+Stoke[local]#<!>[Kclear ip prefix-list abc
+ERROR: Cannot find prefix-list abc
+Stoke[local]#<!>[Kclear ip prefix-list a1b2c3 
+<<<<help_begin
+n.n.n.n/n  Network prefix
+seq        Selects the sequence to clear
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip prefix-list a1b2c3 Stoke[local]#[K<!>[Kclear ip prefix-list a1b2c3 1.1.1.1/24 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip prefix-list a1b2c3 1.1.1.1/24 Stoke[local]#[K<!>[Kclear ip prefix-list a1b2c3 1.1.1.1/24
+ERROR: Cannot find prefix-list a1b2c3
+Stoke[local]#<!>[Kclear ip prefix-list a1b2c3 seq 
+<<<<help_begin
+1..65530  Sequence number
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip prefix-list a1b2c3 seq Stoke[local]#[K<!>[Kclear ip prefix-list a1b2c3 seq 1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip prefix-list a1b2c3 seq 1 Stoke[local]#[K<!>[Kclear ip prefix-list a1b2c3 seq 1
+ERROR: Cannot find prefix-list a1b2c3
+Stoke[local]#<!>[Kclear ip prefix-list a1b2c3 seq 65530 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip prefix-list a1b2c3 seq 65530 Stoke[local]#[K<!>[Kclear ip prefix-list a1b2c3 seq 65530
+ERROR: Cannot find prefix-list a1b2c3
+Stoke[local]#<!>[Kclear ip prefix-list a1b2c3 seq 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip prefix-list a1b2c3 seq 55 Stoke[local]#[K<!>[Kclear ip prefix-list a1b2c3 seq 55
+ERROR: Cannot find prefix-list a1b2c3
+Stoke[local]#<!>[Kclear ip prefix-list a1b2c3 seq
+ERROR: Cannot find prefix-list a1b2c3
+Stoke[local]#<!>[Kclear ip prefix-list a1b2c3
+ERROR: Cannot find prefix-list a1b2c3
+Stoke[local]#<!>[Kclear ip prefix-list xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Stoke[local]#[K<!>[Kclear ip prefix-list
+ERROR: No prefix list configured in this context
+Stoke[local]#<!>[Kclear ip rip 
+<<<<help_begin
+redistribute  Refresh route redistribution
+>>>>help_end
+[KStoke[local]#clear ip rip[K<!>[Kclear ip rip redistribute 
+<<<<help_begin
+bgp              Border Gateway Protocol(BGP)
+connected        Directly connected interface routes
+ospf             Open Shortest Path First protocol(OSPF)
+static           Static routes
+subscriber-host  Subscriber host routes
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip rip redistribute Stoke[local]#[K<!>[Kclear ip rip redistribute bgp 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip rip redistribute bgp Stoke[local]#[K<!>[Kclear ip rip redistribute bgp
+ERROR: RIP is not running in this context
+Stoke[local]#<!>[Kclear ip rip redistribute connected 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip rip redistribute connected Stoke[local]#[K<!>[Kclear ip rip redistribute connected
+ERROR: RIP is not running in this context
+Stoke[local]#<!>[Kclear ip rip redistribute ospf 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip rip redistribute ospf Stoke[local]#[K<!>[Kclear ip rip redistribute ospf
+ERROR: RIP is not running in this context
+Stoke[local]#<!>[Kclear ip rip redistribute static 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip rip redistribute static Stoke[local]#[K<!>[Kclear ip rip redistribute static
+ERROR: RIP is not running in this context
+Stoke[local]#<!>[Kclear ip rip redistribute subscriber-host 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip rip redistribute subscriber-host Stoke[local]#[K<!>[Kclear ip rip redistribute subscriber-host
+ERROR: RIP is not running in this context
+Stoke[local]#<!>[Kclear ip rip redistribute
+ERROR: RIP is not running in this context
+Stoke[local]#<!>[Kclear ip session 
+<<<<help_begin
+statistics  Session stats
+>>>>help_end
+[KStoke[local]#clear ip session Stoke[local]#[K<!>[Kclear ip session statistics 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ip session statistics Stoke[local]#[K<!>[Kclear ip session statistics
+Stoke[local]#<!>[Kclear ipv6 
+<<<<help_begin
+autoconfig   Clear IPv6 autoconfiguration information
+counters     Clear Traffic statistics
+neighbor     Clear cache of neighbors learned via address-resolution
+prefix-list  Clear prefix-list counters
+tunnel       Clear tunnel information
+>>>>help_end
+[KStoke[local]#clear ipv6[K<!>[Kclear ipv6 autoconfig 
+<<<<help_begin
+default-route  Clear ipv6 autoconfigured default-routes
+interface      Clear autoconfiguration information for interface
+prefix         Clear IPv6 autoconfigured prefixes
+<cr>
+>>>>help_end
+[KStoke[local]#clear ipv6 autoconfig Stoke[local]#[K<!>[Kclear ipv6 autoconfig default-route 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ipv6 autoconfig default-route Stoke[local]#[K<!>[Kclear ipv6 autoconfig default-route
+Stoke[local]#<!>[Kclear ipv6 autoconfig interface 
+<<<<help_begin
+STRING  Interface name
+>>>>help_end
+[KStoke[local]#clear ipv6 autoconfig interface Stoke[local]#[K<!>[Kclear ipv6 autoconfig interface z 
+<<<<help_begin
+default-route  Clear ipv6 autoconfigured default-routes
+prefix         Clear IPv6 autoconfigured prefixes
+<cr>
+>>>>help_end
+[KStoke[local]#clear ipv6 autoconfig interface z Stoke[local]#[K<!>[Kclear ipv6 autoconfig interface z default-route 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ipv6 autoconfig interface z default-route Stoke[local]#[K<!>[Kclear ipv6 autoconfig interface z default-route
+Stoke[local]#<!>[Kclear ipv6 autoconfig interface z prefix 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ipv6 autoconfig interface z prefix Stoke[local]#[K<!>[Kclear ipv6 autoconfig interface z prefix
+Stoke[local]#<!>[Kclear ipv6 autoconfig interface z
+Stoke[local]#<!>[Kclear ipv6 autoconfig interface abc 
+<<<<help_begin
+default-route  Clear ipv6 autoconfigured default-routes
+prefix         Clear IPv6 autoconfigured prefixes
+<cr>
+>>>>help_end
+[KStoke[local]#clear ipv6 autoconfig interface abc Stoke[local]#[K<!>[Kclear ipv6 autoconfig interface abc default-route 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ipv6 autoconfig interface abc default-route Stoke[local]#[K<!>[Kclear ipv6 autoconfig interface abc default-route
+Stoke[local]#<!>[Kclear ipv6 autoconfig interface abc prefix 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ipv6 autoconfig interface abc prefix Stoke[local]#[K<!>[Kclear ipv6 autoconfig interface abc prefix
+Stoke[local]#<!>[Kclear ipv6 autoconfig interface abc
+Stoke[local]#<!>[Kclear ipv6 autoconfig interface a1b2c3 
+<<<<help_begin
+default-route  Clear ipv6 autoconfigured default-routes
+prefix         Clear IPv6 autoconfigured prefixes
+<cr>
+>>>>help_end
+[KStoke[local]#clear ipv6 autoconfig interface a1b2c3 Stoke[local]#[K<!>[Kclear ipv6 autoconfig interface a1b2c3 default-route 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ipv6 autoconfig interface a1b2c3 default-route Stoke[local]#[K<!>[Kclear ipv6 autoconfig interface a1b2c3 default-route
+Stoke[local]#<!>[Kclear ipv6 autoconfig interface a1b2c3 prefix 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ipv6 autoconfig interface a1b2c3 prefix Stoke[local]#[K<!>[Kclear ipv6 autoconfig interface a1b2c3 prefix
+Stoke[local]#<!>[Kclear ipv6 autoconfig interface a1b2c3
+Stoke[local]#<!>[Kclear ipv6 autoconfig interface xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Stoke[local]#[K<!>[Kclear ipv6 autoconfig prefix 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ipv6 autoconfig prefix Stoke[local]#[K<!>[Kclear ipv6 autoconfig prefix
+Stoke[local]#<!>[Kclear ipv6 autoconfig
+Stoke[local]#<!>[Kclear ipv6 counters 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ipv6 counters Stoke[local]#[K<!>[Kclear ipv6 counters
+Stoke[local]#<!>[Kclear ipv6 neighbor 
+<<<<help_begin
+all              All address-resolved neighbor entries
+x:x:x:x:x:x:x:x  Neighbor address
+>>>>help_end
+[KStoke[local]#clear ipv6 neighbor Stoke[local]#[K<!>[Kclear ipv6 neighbor all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ipv6 neighbor all Stoke[local]#[K<!>[Kclear ipv6 neighbor all
+Stoke[local]#<!>[Kclear ipv6 neighbor 1::1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ipv6 neighbor 1::1 Stoke[local]#[K<!>[Kclear ipv6 neighbor 1::1
+ERROR: IPv6: invalid neighbor
+Stoke[local]#<!>[Kclear ipv6 neighbor ffff::ffff 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ipv6 neighbor ffff::ffff Stoke[local]#[K<!>[Kclear ipv6 neighbor ffff::ffff
+ERROR: IPv6: invalid neighbor
+Stoke[local]#<!>[Kclear ipv6 prefix-list 
+<<<<help_begin
+STRING  Name of the prefix-list
+<cr>
+>>>>help_end
+[KStoke[local]#clear ipv6 prefix-list Stoke[local]#[K<!>[Kclear ipv6 prefix-list z 
+<<<<help_begin
+seq                Selects the sequence to clear
+x:x:x:x:x:x:x:x/n  Network prefix
+<cr>
+>>>>help_end
+[KStoke[local]#clear ipv6 prefix-list z Stoke[local]#[K<!>[Kclear ipv6 prefix-list z seq 
+<<<<help_begin
+1..65530  Sequence number
+<cr>
+>>>>help_end
+[KStoke[local]#clear ipv6 prefix-list z seq Stoke[local]#[K<!>[Kclear ipv6 prefix-list z seq 1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ipv6 prefix-list z seq 1 Stoke[local]#[K<!>[Kclear ipv6 prefix-list z seq 1
+ERROR: Cannot find prefix-list z
+Stoke[local]#<!>[Kclear ipv6 prefix-list z seq 65530 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ipv6 prefix-list z seq 65530 Stoke[local]#[K<!>[Kclear ipv6 prefix-list z seq 65530
+ERROR: Cannot find prefix-list z
+Stoke[local]#<!>[Kclear ipv6 prefix-list z seq 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ipv6 prefix-list z seq 55 Stoke[local]#[K<!>[Kclear ipv6 prefix-list z seq 55
+ERROR: Cannot find prefix-list z
+Stoke[local]#<!>[Kclear ipv6 prefix-list z seq
+ERROR: Cannot find prefix-list z
+Stoke[local]#<!>[Kclear ipv6 prefix-list z 1::1/64 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ipv6 prefix-list z 1::1/64 Stoke[local]#[K<!>[Kclear ipv6 prefix-list z 1::1/64
+ERROR: Cannot find prefix-list z
+Stoke[local]#<!>[Kclear ipv6 prefix-list z
+ERROR: Cannot find prefix-list z
+Stoke[local]#<!>[Kclear ipv6 prefix-list abc 
+<<<<help_begin
+seq                Selects the sequence to clear
+x:x:x:x:x:x:x:x/n  Network prefix
+<cr>
+>>>>help_end
+[KStoke[local]#clear ipv6 prefix-list abc Stoke[local]#[K<!>[Kclear ipv6 prefix-list abc seq 
+<<<<help_begin
+1..65530  Sequence number
+<cr>
+>>>>help_end
+[KStoke[local]#clear ipv6 prefix-list abc seq Stoke[local]#[K<!>[Kclear ipv6 prefix-list abc seq 1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ipv6 prefix-list abc seq 1 Stoke[local]#[K<!>[Kclear ipv6 prefix-list abc seq 1
+ERROR: Cannot find prefix-list abc
+Stoke[local]#<!>[Kclear ipv6 prefix-list abc seq 65530 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ipv6 prefix-list abc seq 65530 Stoke[local]#[K<!>[Kclear ipv6 prefix-list abc seq 65530
+ERROR: Cannot find prefix-list abc
+Stoke[local]#<!>[Kclear ipv6 prefix-list abc seq 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ipv6 prefix-list abc seq 55 Stoke[local]#[K<!>[Kclear ipv6 prefix-list abc seq 55
+ERROR: Cannot find prefix-list abc
+Stoke[local]#<!>[Kclear ipv6 prefix-list abc seq
+ERROR: Cannot find prefix-list abc
+Stoke[local]#<!>[Kclear ipv6 prefix-list abc 1::1/64 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ipv6 prefix-list abc 1::1/64 Stoke[local]#[K<!>[Kclear ipv6 prefix-list abc 1::1/64
+ERROR: Cannot find prefix-list abc
+Stoke[local]#<!>[Kclear ipv6 prefix-list abc
+ERROR: Cannot find prefix-list abc
+Stoke[local]#<!>[Kclear ipv6 prefix-list a1b2c3 
+<<<<help_begin
+seq                Selects the sequence to clear
+x:x:x:x:x:x:x:x/n  Network prefix
+<cr>
+>>>>help_end
+[KStoke[local]#clear ipv6 prefix-list a1b2c3 Stoke[local]#[K<!>[Kclear ipv6 prefix-list a1b2c3 seq 
+<<<<help_begin
+1..65530  Sequence number
+<cr>
+>>>>help_end
+[KStoke[local]#clear ipv6 prefix-list a1b2c3 seq Stoke[local]#[K<!>[Kclear ipv6 prefix-list a1b2c3 seq 1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ipv6 prefix-list a1b2c3 seq 1 Stoke[local]#[K<!>[Kclear ipv6 prefix-list a1b2c3 seq 1
+ERROR: Cannot find prefix-list a1b2c3
+Stoke[local]#<!>[Kclear ipv6 prefix-list a1b2c3 seq 65530 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ipv6 prefix-list a1b2c3 seq 65530 Stoke[local]#[K<!>[Kclear ipv6 prefix-list a1b2c3 seq 65530
+ERROR: Cannot find prefix-list a1b2c3
+Stoke[local]#<!>[Kclear ipv6 prefix-list a1b2c3 seq 55 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ipv6 prefix-list a1b2c3 seq 55 Stoke[local]#[K<!>[Kclear ipv6 prefix-list a1b2c3 seq 55
+ERROR: Cannot find prefix-list a1b2c3
+Stoke[local]#<!>[Kclear ipv6 prefix-list a1b2c3 seq
+ERROR: Cannot find prefix-list a1b2c3
+Stoke[local]#<!>[Kclear ipv6 prefix-list a1b2c3 1::1/64 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ipv6 prefix-list a1b2c3 1::1/64 Stoke[local]#[K<!>[Kclear ipv6 prefix-list a1b2c3 1::1/64
+ERROR: Cannot find prefix-list a1b2c3
+Stoke[local]#<!>[Kclear ipv6 prefix-list a1b2c3
+ERROR: Cannot find prefix-list a1b2c3
+Stoke[local]#<!>[Kclear ipv6 prefix-list xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Stoke[local]#[K<!>[Kclear ipv6 prefix-list
+ERROR: No prefix list configured in this context
+Stoke[local]#<!>[Kclear ipv6 tunnel 
+<<<<help_begin
+ipv4-session  IPv4-session tunnels
+>>>>help_end
+[KStoke[local]#clear ipv6 tunnel Stoke[local]#[K<!>[Kclear ipv6 tunnel ipv4-session 
+<<<<help_begin
+statistics  IPv4-session tunnel statistics
+>>>>help_end
+[KStoke[local]#clear ipv6 tunnel ipv4-session Stoke[local]#[K<!>[Kclear ipv6 tunnel ipv4-session statistics 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ipv6 tunnel ipv4-session statistics Stoke[local]#[K<!>[Kclear ipv6 tunnel ipv4-session statistics
+Stoke[local]#<!>[Kclear log 
+<<<<help_begin
+debug  Clear the debug memory log
+>>>>help_end
+[KStoke[local]#clear log[K<!>[Kclear log debug 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear log debug Stoke[local]#[K<!>[Kclear log debug
+Stoke[local]#<!>[Kclear ppp 
+<<<<help_begin
+session  Clear PPP session information
+>>>>help_end
+[KStoke[local]#clear ppp[K<!>[Kclear ppp session 
+<<<<help_begin
+counters  Clear cumulative session counters
+slot      Clear a slot's PPP session information
+>>>>help_end
+[KStoke[local]#clear ppp session Stoke[local]#[K<!>[Kclear ppp session counters 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ppp session counters Stoke[local]#[K<!>[Kclear ppp session counters
+Stoke[local]#<!>[Kclear ppp session slot 
+<<<<help_begin
+SLOT(0..4)  Specify slot for it's counters
+counters    Clear cumulative session counters
+>>>>help_end
+[KStoke[local]#clear ppp session slot Stoke[local]#[K<!>[Kclear ppp session slot 4 
+<<<<help_begin
+counters  Clear cumulative session counters
+>>>>help_end
+[KStoke[local]#clear ppp session slot 4 Stoke[local]#[K<!>[Kclear ppp session slot 4 counters 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ppp session slot 4 counters Stoke[local]#[K<!>[Kclear ppp session slot 4 counters
+Stoke[local]#<!>[Kclear ppp session slot 1 
+<<<<help_begin
+counters  Clear cumulative session counters
+>>>>help_end
+[KStoke[local]#clear ppp session slot 1 Stoke[local]#[K<!>[Kclear ppp session slot 1 counters 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ppp session slot 1 counters Stoke[local]#[K<!>[Kclear ppp session slot 1 counters
+Stoke[local]#<!>[Kclear ppp session slot 3 
+<<<<help_begin
+counters  Clear cumulative session counters
+>>>>help_end
+[KStoke[local]#clear ppp session slot 3 Stoke[local]#[K<!>[Kclear ppp session slot 3 counters 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ppp session slot 3 counters Stoke[local]#[K<!>[Kclear ppp session slot 3 counters
+Stoke[local]#<!>[Kclear ppp session slot 0 
+<<<<help_begin
+counters  Clear cumulative session counters
+>>>>help_end
+[KStoke[local]#clear ppp session slot 0 Stoke[local]#[K<!>[Kclear ppp session slot 0 counters 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ppp session slot 0 counters Stoke[local]#[K<!>[Kclear ppp session slot 0 counters
+Stoke[local]#<!>[Kclear ppp session slot 2 
+<<<<help_begin
+counters  Clear cumulative session counters
+>>>>help_end
+[KStoke[local]#clear ppp session slot 2 Stoke[local]#[K<!>[Kclear ppp session slot 2 counters 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ppp session slot 2 counters Stoke[local]#[K<!>[Kclear ppp session slot 2 counters
+Stoke[local]#<!>[Kclear ppp session slot counters 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear ppp session slot counters Stoke[local]#[K<!>[Kclear ppp session slot counters
+Stoke[local]#<!>[Kclear pppoe 
+<<<<help_begin
+session  Clear PPPoE session information
+>>>>help_end
+[KStoke[local]#clear pppoe[K<!>[Kclear pppoe session 
+<<<<help_begin
+counters  Clear cumulative session counters
+slot      Clear a slot's PPPoE session information
+>>>>help_end
+[KStoke[local]#clear pppoe session Stoke[local]#[K<!>[Kclear pppoe session counters 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear pppoe session counters Stoke[local]#[K<!>[Kclear pppoe session counters
+Stoke[local]#<!>[Kclear pppoe session slot 
+<<<<help_begin
+SLOT(0..4)  Specify slot for it's counters
+counters    Clear cumulative session counters
+>>>>help_end
+[KStoke[local]#clear pppoe session slot Stoke[local]#[K<!>[Kclear pppoe session slot 4 
+<<<<help_begin
+counters  Clear cumulative session counters
+>>>>help_end
+[KStoke[local]#clear pppoe session slot 4 Stoke[local]#[K<!>[Kclear pppoe session slot 4 counters 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear pppoe session slot 4 counters Stoke[local]#[K<!>[Kclear pppoe session slot 4 counters
+Stoke[local]#<!>[Kclear pppoe session slot 1 
+<<<<help_begin
+counters  Clear cumulative session counters
+>>>>help_end
+[KStoke[local]#clear pppoe session slot 1 Stoke[local]#[K<!>[Kclear pppoe session slot 1 counters 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear pppoe session slot 1 counters Stoke[local]#[K<!>[Kclear pppoe session slot 1 counters
+Stoke[local]#<!>[Kclear pppoe session slot 3 
+<<<<help_begin
+counters  Clear cumulative session counters
+>>>>help_end
+[KStoke[local]#clear pppoe session slot 3 Stoke[local]#[K<!>[Kclear pppoe session slot 3 counters 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear pppoe session slot 3 counters Stoke[local]#[K<!>[Kclear pppoe session slot 3 counters
+Stoke[local]#<!>[Kclear pppoe session slot 0 
+<<<<help_begin
+counters  Clear cumulative session counters
+>>>>help_end
+[KStoke[local]#clear pppoe session slot 0 Stoke[local]#[K<!>[Kclear pppoe session slot 0 counters 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear pppoe session slot 0 counters Stoke[local]#[K<!>[Kclear pppoe session slot 0 counters
+Stoke[local]#<!>[Kclear pppoe session slot 2 
+<<<<help_begin
+counters  Clear cumulative session counters
+>>>>help_end
+[KStoke[local]#clear pppoe session slot 2 Stoke[local]#[K<!>[Kclear pppoe session slot 2 counters 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear pppoe session slot 2 counters Stoke[local]#[K<!>[Kclear pppoe session slot 2 counters
+Stoke[local]#<!>[Kclear pppoe session slot counters 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear pppoe session slot counters Stoke[local]#[K<!>[Kclear pppoe session slot counters
+Stoke[local]#<!>[Kclear session 
+<<<<help_begin
+all         Clear all sessions within this context
+handle      Clear specific session by handle
+username    Clear session by username
+v6-address  Clear specific session by remote v6-address
+>>>>help_end
+[KStoke[local]#clear session Stoke[local]#[K<!>[Kclear session all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear session all Stoke[local]#[K<!>[Kclear session all
+ERROR: Session does not exist
+Stoke[local]#<!>[Kclear session handle 
+<<<<help_begin
+0..ffffffff  Session handle
+>>>>help_end
+[KStoke[local]#clear session handle Stoke[local]#[K<!>[Kclear session handle ffffffff 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear session handle ffffffff Stoke[local]#[K<!>[Kclear session handle ffffffff
+ERROR: Session does not exist
+Stoke[local]#<!>[Kclear session handle 11 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear session handle 11 Stoke[local]#[K<!>[Kclear session handle 11
+ERROR: Session does not exist
+Stoke[local]#<!>[Kclear session handle 0 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear session handle 0 Stoke[local]#[K<!>[Kclear session handle 0
+ERROR: Session does not exist
+Stoke[local]#<!>[Kclear session username 
+<<<<help_begin
+STRING(132)  Session username
+>>>>help_end
+[KStoke[local]#clear session username Stoke[local]#[K<!>[Kclear session username z 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear session username z Stoke[local]#[K<!>[Kclear session username z
+ERROR: Session does not exist
+Stoke[local]#<!>[Kclear session username abc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear session username abc Stoke[local]#[K<!>[Kclear session username abc
+ERROR: Session does not exist
+Stoke[local]#<!>[Kclear session username a1b2c3 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear session username a1b2c3 Stoke[local]#[K<!>[Kclear session username a1b2c3
+ERROR: Session does not exist
+Stoke[local]#<!>[Kclear session username xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear session username xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Stoke[local]#[K<!>[Kclear session username xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ERROR: Session does not exist
+Stoke[local]#<!>[Kclear session v6-address 
+<<<<help_begin
+x:x:x:x:x:x:x:x  Remote IPv6 address
+>>>>help_end
+[KStoke[local]#clear session v6-address Stoke[local]#[K<!>[Kclear session v6-address 1::1 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear session v6-address 1::1 Stoke[local]#[K<!>[Kclear session v6-address 1::1
+ERROR: IPv6 address does not exist
+Stoke[local]#<!>[Kclear session v6-address ffff::ffff 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear session v6-address ffff::ffff Stoke[local]#[K<!>[Kclear session v6-address ffff::ffff
+ERROR: IPv6 address does not exist
+Stoke[local]#<!>[Kclear tunnel 
+<<<<help_begin
+*           All active tunnels
+STRING(60)  Tunnel Name
+all         All active tunnels
+counters    Clear counters
+<cr>
+>>>>help_end
+[KStoke[local]#clear tunnel[K<!>[Kclear tunnel * 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear tunnel * Stoke[local]#[K<!>[Kclear tunnel *
+Stoke[local]#<!>[Kclear tunnel z 
+<<<<help_begin
+counters  Clear counters
+<cr>
+>>>>help_end
+[KStoke[local]#clear tunnel z Stoke[local]#[K<!>[Kclear tunnel z counters 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear tunnel z counters Stoke[local]#[K<!>[Kclear tunnel z counters
+Stoke[local]#<!>[Kclear tunnel z
+Stoke[local]#<!>[Kclear tunnel abc 
+<<<<help_begin
+counters  Clear counters
+<cr>
+>>>>help_end
+[KStoke[local]#clear tunnel abc Stoke[local]#[K<!>[Kclear tunnel abc counters 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear tunnel abc counters Stoke[local]#[K<!>[Kclear tunnel abc counters
+Stoke[local]#<!>[Kclear tunnel abc
+Stoke[local]#<!>[Kclear tunnel a1b2c3 
+<<<<help_begin
+counters  Clear counters
+<cr>
+>>>>help_end
+[KStoke[local]#clear tunnel a1b2c3 Stoke[local]#[K<!>[Kclear tunnel a1b2c3 counters 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear tunnel a1b2c3 counters Stoke[local]#[K<!>[Kclear tunnel a1b2c3 counters
+Stoke[local]#<!>[Kclear tunnel a1b2c3
+Stoke[local]#<!>[Kclear tunnel xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+<<<<help_begin
+counters  Clear counters
+<cr>
+>>>>help_end
+[KStoke[local]#clear tunnel xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Stoke[local]#[K<!>[Kclear tunnel xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx counters 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear tunnel xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx counters Stoke[local]#[K<!>[Kclear tunnel xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx counters
+Stoke[local]#<!>[Kclear tunnel xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Stoke[local]#<!>[Kclear tunnel all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear tunnel all Stoke[local]#[K<!>[Kclear tunnel all
+Stoke[local]#<!>[Kclear tunnel counters 
+<<<<help_begin
+*           All active tunnels
+STRING(60)  Tunnel Name
+all         All active tunnels
+<cr>
+>>>>help_end
+[KStoke[local]#clear tunnel counters Stoke[local]#[K<!>[Kclear tunnel counters * 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear tunnel counters * Stoke[local]#[K<!>[Kclear tunnel counters *
+Stoke[local]#<!>[Kclear tunnel counters z 
+<<<<help_begin
+counters  Clear counters
+<cr>
+>>>>help_end
+[KStoke[local]#clear tunnel counters z Stoke[local]#[K<!>[Kclear tunnel counters z counters 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear tunnel counters z counters Stoke[local]#[K<!>[Kclear tunnel counters z counters
+Stoke[local]#<!>[Kclear tunnel counters z
+Stoke[local]#<!>[Kclear tunnel counters abc 
+<<<<help_begin
+counters  Clear counters
+<cr>
+>>>>help_end
+[KStoke[local]#clear tunnel counters abc Stoke[local]#[K<!>[Kclear tunnel counters abc counters 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear tunnel counters abc counters Stoke[local]#[K<!>[Kclear tunnel counters abc counters
+Stoke[local]#<!>[Kclear tunnel counters abc
+Stoke[local]#<!>[Kclear tunnel counters a1b2c3 
+<<<<help_begin
+counters  Clear counters
+<cr>
+>>>>help_end
+[KStoke[local]#clear tunnel counters a1b2c3 Stoke[local]#[K<!>[Kclear tunnel counters a1b2c3 counters 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear tunnel counters a1b2c3 counters Stoke[local]#[K<!>[Kclear tunnel counters a1b2c3 counters
+Stoke[local]#<!>[Kclear tunnel counters a1b2c3
+Stoke[local]#<!>[Kclear tunnel counters xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+<<<<help_begin
+counters  Clear counters
+<cr>
+>>>>help_end
+[KStoke[local]#clear tunnel counters xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Stoke[local]#[K<!>[Kclear tunnel counters xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx counters 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear tunnel counters xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx counters Stoke[local]#[K<!>[Kclear tunnel counters xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx counters
+Stoke[local]#<!>[Kclear tunnel counters xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Stoke[local]#<!>[Kclear tunnel counters all 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear tunnel counters all Stoke[local]#[K<!>[Kclear tunnel counters all
+Stoke[local]#<!>[Kclear tunnel counters
+Stoke[local]#<!>[Kclear tunnel
+Stoke[local]#<!>[Kclear user 
+<<<<help_begin
+handle    Clear specific user by handle
+username  Clear user by username
+>>>>help_end
+[KStoke[local]#clear user[K<!>[Kclear user handle 
+<<<<help_begin
+0..ffffffff  Telnet handle
+>>>>help_end
+[KStoke[local]#clear user handle Stoke[local]#[K<!>[Kclear user handle ffffffff 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear user handle ffffffff Stoke[local]#[K<!>[Kclear user handle ffffffff
+ERROR: Session does not exist
+Stoke[local]#<!>[Kclear user handle 11 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear user handle 11 Stoke[local]#[K<!>[Kclear user handle 11
+ERROR: Session does not exist
+Stoke[local]#<!>[Kclear user handle 0 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear user handle 0 Stoke[local]#[K<!>[Kclear user handle 0
+ERROR: Session does not exist
+Stoke[local]#<!>[Kclear user username 
+<<<<help_begin
+STRING(132)  User username
+>>>>help_end
+[KStoke[local]#clear user username Stoke[local]#[K<!>[Kclear user username z 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear user username z Stoke[local]#[K<!>[Kclear user username z
+ERROR: Session does not exist
+Stoke[local]#<!>[Kclear user username abc 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear user username abc Stoke[local]#[K<!>[Kclear user username abc
+ERROR: Session does not exist
+Stoke[local]#<!>[Kclear user username a1b2c3 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear user username a1b2c3 Stoke[local]#[K<!>[Kclear user username a1b2c3
+ERROR: Session does not exist
+Stoke[local]#<!>[Kclear user username xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear user username xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Stoke[local]#[K<!>[Kclear user username xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ERROR: Session does not exist
+Stoke[local]#<!>[Kclear vlan 
+<<<<help_begin
+SLOTPORT(1..4/0..3)  Clear vlan information for a specified port
+counters             Clear all vlan counters
+>>>>help_end
+[KStoke[local]#clear vlan[K<!>[Kclear vlan 2/0 
+<<<<help_begin
+0..4094   Clear information for a specific vlan
+counters  Clear all vlan counters for specified port
+>>>>help_end
+[KStoke[local]#clear vlan 2/0 Stoke[local]#[K<!>[Kclear vlan 2/0 0 
+<<<<help_begin
+counters  Clear counters for specified vlan
+>>>>help_end
+[KStoke[local]#clear vlan 2/0 0 Stoke[local]#[K<!>[Kclear vlan 2/0 0 counters 
+<<<<help_begin
+qos    Clear vlan qos counters for specified vlan
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 2/0 0 counters Stoke[local]#[K<!>[Kclear vlan 2/0 0 counters qos 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 2/0 0 counters qos Stoke[local]#[K<!>[Kclear vlan 2/0 0 counters qos
+Stoke[local]#<!>[Kclear vlan 2/0 0 counters
+Stoke[local]#<!>[Kclear vlan 2/0 4094 
+<<<<help_begin
+counters  Clear counters for specified vlan
+>>>>help_end
+[KStoke[local]#clear vlan 2/0 4094 Stoke[local]#[K<!>[Kclear vlan 2/0 4094 counters 
+<<<<help_begin
+qos    Clear vlan qos counters for specified vlan
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 2/0 4094 counters Stoke[local]#[K<!>[Kclear vlan 2/0 4094 counters qos 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 2/0 4094 counters qos Stoke[local]#[K<!>[Kclear vlan 2/0 4094 counters qos
+Stoke[local]#<!>[Kclear vlan 2/0 4094 counters
+Stoke[local]#<!>[Kclear vlan 2/0 55 
+<<<<help_begin
+counters  Clear counters for specified vlan
+>>>>help_end
+[KStoke[local]#clear vlan 2/0 55 Stoke[local]#[K<!>[Kclear vlan 2/0 55 counters 
+<<<<help_begin
+qos    Clear vlan qos counters for specified vlan
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 2/0 55 counters Stoke[local]#[K<!>[Kclear vlan 2/0 55 counters qos 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 2/0 55 counters qos Stoke[local]#[K<!>[Kclear vlan 2/0 55 counters qos
+Stoke[local]#<!>[Kclear vlan 2/0 55 counters
+Stoke[local]#<!>[Kclear vlan 2/0 counters 
+<<<<help_begin
+qos    Clear all vlan qos counters for specified port
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 2/0 counters Stoke[local]#[K<!>[Kclear vlan 2/0 counters qos 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 2/0 counters qos Stoke[local]#[K<!>[Kclear vlan 2/0 counters qos
+Stoke[local]#<!>[Kclear vlan 2/0 counters
+Stoke[local]#<!>[Kclear vlan 1/2 
+<<<<help_begin
+0..4094   Clear information for a specific vlan
+counters  Clear all vlan counters for specified port
+>>>>help_end
+[KStoke[local]#clear vlan 1/2 Stoke[local]#[K<!>[Kclear vlan 1/2 0 
+<<<<help_begin
+counters  Clear counters for specified vlan
+>>>>help_end
+[KStoke[local]#clear vlan 1/2 0 Stoke[local]#[K<!>[Kclear vlan 1/2 0 counters 
+<<<<help_begin
+qos    Clear vlan qos counters for specified vlan
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 1/2 0 counters Stoke[local]#[K<!>[Kclear vlan 1/2 0 counters qos 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 1/2 0 counters qos Stoke[local]#[K<!>[Kclear vlan 1/2 0 counters qos
+Stoke[local]#<!>[Kclear vlan 1/2 0 counters
+Stoke[local]#<!>[Kclear vlan 1/2 4094 
+<<<<help_begin
+counters  Clear counters for specified vlan
+>>>>help_end
+[KStoke[local]#clear vlan 1/2 4094 Stoke[local]#[K<!>[Kclear vlan 1/2 4094 counters 
+<<<<help_begin
+qos    Clear vlan qos counters for specified vlan
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 1/2 4094 counters Stoke[local]#[K<!>[Kclear vlan 1/2 4094 counters qos 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 1/2 4094 counters qos Stoke[local]#[K<!>[Kclear vlan 1/2 4094 counters qos
+Stoke[local]#<!>[Kclear vlan 1/2 4094 counters
+Stoke[local]#<!>[Kclear vlan 1/2 55 
+<<<<help_begin
+counters  Clear counters for specified vlan
+>>>>help_end
+[KStoke[local]#clear vlan 1/2 55 Stoke[local]#[K<!>[Kclear vlan 1/2 55 counters 
+<<<<help_begin
+qos    Clear vlan qos counters for specified vlan
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 1/2 55 counters Stoke[local]#[K<!>[Kclear vlan 1/2 55 counters qos 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 1/2 55 counters qos Stoke[local]#[K<!>[Kclear vlan 1/2 55 counters qos
+Stoke[local]#<!>[Kclear vlan 1/2 55 counters
+Stoke[local]#<!>[Kclear vlan 1/2 counters 
+<<<<help_begin
+qos    Clear all vlan qos counters for specified port
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 1/2 counters Stoke[local]#[K<!>[Kclear vlan 1/2 counters qos 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 1/2 counters qos Stoke[local]#[K<!>[Kclear vlan 1/2 counters qos
+Stoke[local]#<!>[Kclear vlan 1/2 counters
+Stoke[local]#<!>[Kclear vlan 2/1 
+<<<<help_begin
+0..4094   Clear information for a specific vlan
+counters  Clear all vlan counters for specified port
+>>>>help_end
+[KStoke[local]#clear vlan 2/1 Stoke[local]#[K<!>[Kclear vlan 2/1 0 
+<<<<help_begin
+counters  Clear counters for specified vlan
+>>>>help_end
+[KStoke[local]#clear vlan 2/1 0 Stoke[local]#[K<!>[Kclear vlan 2/1 0 counters 
+<<<<help_begin
+qos    Clear vlan qos counters for specified vlan
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 2/1 0 counters Stoke[local]#[K<!>[Kclear vlan 2/1 0 counters qos 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 2/1 0 counters qos Stoke[local]#[K<!>[Kclear vlan 2/1 0 counters qos
+Stoke[local]#<!>[Kclear vlan 2/1 0 counters
+Stoke[local]#<!>[Kclear vlan 2/1 4094 
+<<<<help_begin
+counters  Clear counters for specified vlan
+>>>>help_end
+[KStoke[local]#clear vlan 2/1 4094 Stoke[local]#[K<!>[Kclear vlan 2/1 4094 counters 
+<<<<help_begin
+qos    Clear vlan qos counters for specified vlan
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 2/1 4094 counters Stoke[local]#[K<!>[Kclear vlan 2/1 4094 counters qos 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 2/1 4094 counters qos Stoke[local]#[K<!>[Kclear vlan 2/1 4094 counters qos
+Stoke[local]#<!>[Kclear vlan 2/1 4094 counters
+Stoke[local]#<!>[Kclear vlan 2/1 55 
+<<<<help_begin
+counters  Clear counters for specified vlan
+>>>>help_end
+[KStoke[local]#clear vlan 2/1 55 Stoke[local]#[K<!>[Kclear vlan 2/1 55 counters 
+<<<<help_begin
+qos    Clear vlan qos counters for specified vlan
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 2/1 55 counters Stoke[local]#[K<!>[Kclear vlan 2/1 55 counters qos 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 2/1 55 counters qos Stoke[local]#[K<!>[Kclear vlan 2/1 55 counters qos
+Stoke[local]#<!>[Kclear vlan 2/1 55 counters
+Stoke[local]#<!>[Kclear vlan 2/1 counters 
+<<<<help_begin
+qos    Clear all vlan qos counters for specified port
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 2/1 counters Stoke[local]#[K<!>[Kclear vlan 2/1 counters qos 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 2/1 counters qos Stoke[local]#[K<!>[Kclear vlan 2/1 counters qos
+Stoke[local]#<!>[Kclear vlan 2/1 counters
+Stoke[local]#<!>[Kclear vlan 1/1 
+<<<<help_begin
+0..4094   Clear information for a specific vlan
+counters  Clear all vlan counters for specified port
+>>>>help_end
+[KStoke[local]#clear vlan 1/1 Stoke[local]#[K<!>[Kclear vlan 1/1 0 
+<<<<help_begin
+counters  Clear counters for specified vlan
+>>>>help_end
+[KStoke[local]#clear vlan 1/1 0 Stoke[local]#[K<!>[Kclear vlan 1/1 0 counters 
+<<<<help_begin
+qos    Clear vlan qos counters for specified vlan
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 1/1 0 counters Stoke[local]#[K<!>[Kclear vlan 1/1 0 counters qos 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 1/1 0 counters qos Stoke[local]#[K<!>[Kclear vlan 1/1 0 counters qos
+Stoke[local]#<!>[Kclear vlan 1/1 0 counters
+Stoke[local]#<!>[Kclear vlan 1/1 4094 
+<<<<help_begin
+counters  Clear counters for specified vlan
+>>>>help_end
+[KStoke[local]#clear vlan 1/1 4094 Stoke[local]#[K<!>[Kclear vlan 1/1 4094 counters 
+<<<<help_begin
+qos    Clear vlan qos counters for specified vlan
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 1/1 4094 counters Stoke[local]#[K<!>[Kclear vlan 1/1 4094 counters qos 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 1/1 4094 counters qos Stoke[local]#[K<!>[Kclear vlan 1/1 4094 counters qos
+Stoke[local]#<!>[Kclear vlan 1/1 4094 counters
+Stoke[local]#<!>[Kclear vlan 1/1 55 
+<<<<help_begin
+counters  Clear counters for specified vlan
+>>>>help_end
+[KStoke[local]#clear vlan 1/1 55 Stoke[local]#[K<!>[Kclear vlan 1/1 55 counters 
+<<<<help_begin
+qos    Clear vlan qos counters for specified vlan
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 1/1 55 counters Stoke[local]#[K<!>[Kclear vlan 1/1 55 counters qos 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 1/1 55 counters qos Stoke[local]#[K<!>[Kclear vlan 1/1 55 counters qos
+Stoke[local]#<!>[Kclear vlan 1/1 55 counters
+Stoke[local]#<!>[Kclear vlan 1/1 counters 
+<<<<help_begin
+qos    Clear all vlan qos counters for specified port
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 1/1 counters Stoke[local]#[K<!>[Kclear vlan 1/1 counters qos 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 1/1 counters qos Stoke[local]#[K<!>[Kclear vlan 1/1 counters qos
+Stoke[local]#<!>[Kclear vlan 1/1 counters
+Stoke[local]#<!>[Kclear vlan 1/3 
+<<<<help_begin
+0..4094   Clear information for a specific vlan
+counters  Clear all vlan counters for specified port
+>>>>help_end
+[KStoke[local]#clear vlan 1/3 Stoke[local]#[K<!>[Kclear vlan 1/3 0 
+<<<<help_begin
+counters  Clear counters for specified vlan
+>>>>help_end
+[KStoke[local]#clear vlan 1/3 0 Stoke[local]#[K<!>[Kclear vlan 1/3 0 counters 
+<<<<help_begin
+qos    Clear vlan qos counters for specified vlan
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 1/3 0 counters Stoke[local]#[K<!>[Kclear vlan 1/3 0 counters qos 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 1/3 0 counters qos Stoke[local]#[K<!>[Kclear vlan 1/3 0 counters qos
+Stoke[local]#<!>[Kclear vlan 1/3 0 counters
+Stoke[local]#<!>[Kclear vlan 1/3 4094 
+<<<<help_begin
+counters  Clear counters for specified vlan
+>>>>help_end
+[KStoke[local]#clear vlan 1/3 4094 Stoke[local]#[K<!>[Kclear vlan 1/3 4094 counters 
+<<<<help_begin
+qos    Clear vlan qos counters for specified vlan
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 1/3 4094 counters Stoke[local]#[K<!>[Kclear vlan 1/3 4094 counters qos 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 1/3 4094 counters qos Stoke[local]#[K<!>[Kclear vlan 1/3 4094 counters qos
+Stoke[local]#<!>[Kclear vlan 1/3 4094 counters
+Stoke[local]#<!>[Kclear vlan 1/3 55 
+<<<<help_begin
+counters  Clear counters for specified vlan
+>>>>help_end
+[KStoke[local]#clear vlan 1/3 55 Stoke[local]#[K<!>[Kclear vlan 1/3 55 counters 
+<<<<help_begin
+qos    Clear vlan qos counters for specified vlan
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 1/3 55 counters Stoke[local]#[K<!>[Kclear vlan 1/3 55 counters qos 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 1/3 55 counters qos Stoke[local]#[K<!>[Kclear vlan 1/3 55 counters qos
+Stoke[local]#<!>[Kclear vlan 1/3 55 counters
+Stoke[local]#<!>[Kclear vlan 1/3 counters 
+<<<<help_begin
+qos    Clear all vlan qos counters for specified port
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 1/3 counters Stoke[local]#[K<!>[Kclear vlan 1/3 counters qos 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 1/3 counters qos Stoke[local]#[K<!>[Kclear vlan 1/3 counters qos
+Stoke[local]#<!>[Kclear vlan 1/3 counters
+Stoke[local]#<!>[Kclear vlan 2/2 
+<<<<help_begin
+0..4094   Clear information for a specific vlan
+counters  Clear all vlan counters for specified port
+>>>>help_end
+[KStoke[local]#clear vlan 2/2 Stoke[local]#[K<!>[Kclear vlan 2/2 0 
+<<<<help_begin
+counters  Clear counters for specified vlan
+>>>>help_end
+[KStoke[local]#clear vlan 2/2 0 Stoke[local]#[K<!>[Kclear vlan 2/2 0 counters 
+<<<<help_begin
+qos    Clear vlan qos counters for specified vlan
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 2/2 0 counters Stoke[local]#[K<!>[Kclear vlan 2/2 0 counters qos 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 2/2 0 counters qos Stoke[local]#[K<!>[Kclear vlan 2/2 0 counters qos
+Stoke[local]#<!>[Kclear vlan 2/2 0 counters
+Stoke[local]#<!>[Kclear vlan 2/2 4094 
+<<<<help_begin
+counters  Clear counters for specified vlan
+>>>>help_end
+[KStoke[local]#clear vlan 2/2 4094 Stoke[local]#[K<!>[Kclear vlan 2/2 4094 counters 
+<<<<help_begin
+qos    Clear vlan qos counters for specified vlan
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 2/2 4094 counters Stoke[local]#[K<!>[Kclear vlan 2/2 4094 counters qos 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 2/2 4094 counters qos Stoke[local]#[K<!>[Kclear vlan 2/2 4094 counters qos
+Stoke[local]#<!>[Kclear vlan 2/2 4094 counters
+Stoke[local]#<!>[Kclear vlan 2/2 55 
+<<<<help_begin
+counters  Clear counters for specified vlan
+>>>>help_end
+[KStoke[local]#clear vlan 2/2 55 Stoke[local]#[K<!>[Kclear vlan 2/2 55 counters 
+<<<<help_begin
+qos    Clear vlan qos counters for specified vlan
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 2/2 55 counters Stoke[local]#[K<!>[Kclear vlan 2/2 55 counters qos 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 2/2 55 counters qos Stoke[local]#[K<!>[Kclear vlan 2/2 55 counters qos
+Stoke[local]#<!>[Kclear vlan 2/2 55 counters
+Stoke[local]#<!>[Kclear vlan 2/2 counters 
+<<<<help_begin
+qos    Clear all vlan qos counters for specified port
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 2/2 counters Stoke[local]#[K<!>[Kclear vlan 2/2 counters qos 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 2/2 counters qos Stoke[local]#[K<!>[Kclear vlan 2/2 counters qos
+Stoke[local]#<!>[Kclear vlan 2/2 counters
+Stoke[local]#<!>[Kclear vlan 1/0 
+<<<<help_begin
+0..4094   Clear information for a specific vlan
+counters  Clear all vlan counters for specified port
+>>>>help_end
+[KStoke[local]#clear vlan 1/0 Stoke[local]#[K<!>[Kclear vlan 1/0 0 
+<<<<help_begin
+counters  Clear counters for specified vlan
+>>>>help_end
+[KStoke[local]#clear vlan 1/0 0 Stoke[local]#[K<!>[Kclear vlan 1/0 0 counters 
+<<<<help_begin
+qos    Clear vlan qos counters for specified vlan
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 1/0 0 counters Stoke[local]#[K<!>[Kclear vlan 1/0 0 counters qos 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 1/0 0 counters qos Stoke[local]#[K<!>[Kclear vlan 1/0 0 counters qos
+Stoke[local]#<!>[Kclear vlan 1/0 0 counters
+Stoke[local]#<!>[Kclear vlan 1/0 4094 
+<<<<help_begin
+counters  Clear counters for specified vlan
+>>>>help_end
+[KStoke[local]#clear vlan 1/0 4094 Stoke[local]#[K<!>[Kclear vlan 1/0 4094 counters 
+<<<<help_begin
+qos    Clear vlan qos counters for specified vlan
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 1/0 4094 counters Stoke[local]#[K<!>[Kclear vlan 1/0 4094 counters qos 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 1/0 4094 counters qos Stoke[local]#[K<!>[Kclear vlan 1/0 4094 counters qos
+Stoke[local]#<!>[Kclear vlan 1/0 4094 counters
+Stoke[local]#<!>[Kclear vlan 1/0 55 
+<<<<help_begin
+counters  Clear counters for specified vlan
+>>>>help_end
+[KStoke[local]#clear vlan 1/0 55 Stoke[local]#[K<!>[Kclear vlan 1/0 55 counters 
+<<<<help_begin
+qos    Clear vlan qos counters for specified vlan
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 1/0 55 counters Stoke[local]#[K<!>[Kclear vlan 1/0 55 counters qos 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 1/0 55 counters qos Stoke[local]#[K<!>[Kclear vlan 1/0 55 counters qos
+Stoke[local]#<!>[Kclear vlan 1/0 55 counters
+Stoke[local]#<!>[Kclear vlan 1/0 counters 
+<<<<help_begin
+qos    Clear all vlan qos counters for specified port
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 1/0 counters Stoke[local]#[K<!>[Kclear vlan 1/0 counters qos 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 1/0 counters qos Stoke[local]#[K<!>[Kclear vlan 1/0 counters qos
+Stoke[local]#<!>[Kclear vlan 1/0 counters
+Stoke[local]#<!>[Kclear vlan 2/3 
+<<<<help_begin
+0..4094   Clear information for a specific vlan
+counters  Clear all vlan counters for specified port
+>>>>help_end
+[KStoke[local]#clear vlan 2/3 Stoke[local]#[K<!>[Kclear vlan 2/3 0 
+<<<<help_begin
+counters  Clear counters for specified vlan
+>>>>help_end
+[KStoke[local]#clear vlan 2/3 0 Stoke[local]#[K<!>[Kclear vlan 2/3 0 counters 
+<<<<help_begin
+qos    Clear vlan qos counters for specified vlan
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 2/3 0 counters Stoke[local]#[K<!>[Kclear vlan 2/3 0 counters qos 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 2/3 0 counters qos Stoke[local]#[K<!>[Kclear vlan 2/3 0 counters qos
+Stoke[local]#<!>[Kclear vlan 2/3 0 counters
+Stoke[local]#<!>[Kclear vlan 2/3 4094 
+<<<<help_begin
+counters  Clear counters for specified vlan
+>>>>help_end
+[KStoke[local]#clear vlan 2/3 4094 Stoke[local]#[K<!>[Kclear vlan 2/3 4094 counters 
+<<<<help_begin
+qos    Clear vlan qos counters for specified vlan
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 2/3 4094 counters Stoke[local]#[K<!>[Kclear vlan 2/3 4094 counters qos 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 2/3 4094 counters qos Stoke[local]#[K<!>[Kclear vlan 2/3 4094 counters qos
+Stoke[local]#<!>[Kclear vlan 2/3 4094 counters
+Stoke[local]#<!>[Kclear vlan 2/3 55 
+<<<<help_begin
+counters  Clear counters for specified vlan
+>>>>help_end
+[KStoke[local]#clear vlan 2/3 55 Stoke[local]#[K<!>[Kclear vlan 2/3 55 counters 
+<<<<help_begin
+qos    Clear vlan qos counters for specified vlan
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 2/3 55 counters Stoke[local]#[K<!>[Kclear vlan 2/3 55 counters qos 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 2/3 55 counters qos Stoke[local]#[K<!>[Kclear vlan 2/3 55 counters qos
+Stoke[local]#<!>[Kclear vlan 2/3 55 counters
+Stoke[local]#<!>[Kclear vlan 2/3 counters 
+<<<<help_begin
+qos    Clear all vlan qos counters for specified port
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 2/3 counters Stoke[local]#[K<!>[Kclear vlan 2/3 counters qos 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan 2/3 counters qos Stoke[local]#[K<!>[Kclear vlan 2/3 counters qos
+Stoke[local]#<!>[Kclear vlan 2/3 counters
+Stoke[local]#<!>[Kclear vlan counters 
+<<<<help_begin
+qos    Clear all vlan qos counters
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan counters Stoke[local]#[K<!>[Kclear vlan counters qos 
+<<<<help_begin
+<cr>
+>>>>help_end
+[KStoke[local]#clear vlan counters qos Stoke[local]#[K<!>[Kclear vlan counters qos
+Stoke[local]#<!>[Kclear vlan counters
+Stoke[local]#<!>[Kclear xfic-ixf 
+<<<<help_begin
+counters  Clear XFIC IXF counters
+port      Clear port counters for a port
+slot      Clear for only 1 slot
+>>>>help_end
+[KStoke[local]#clear xfic-ixf Stoke[local]#[K<!>[Kclear xfic-ixf counters 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#clear xfic-ixf counters Stoke[local]#[K<!>[Kclear xfic-ixf counters
+Counters cleared
+Stoke[local]#<!>[Kclear xfic-ixf port 
+<<<<help_begin
+0..9  Port for which to clear counters
+>>>>help_end
+[KStoke[local]#clear xfic-ixf port Stoke[local]#[K<!>[Kclear xfic-ixf port 0 
+<<<<help_begin
+counters  Clear XFIC IXF counters
+>>>>help_end
+[KStoke[local]#clear xfic-ixf port 0 Stoke[local]#[K<!>[Kclear xfic-ixf port 0 counters 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#clear xfic-ixf port 0 counters Stoke[local]#[K<!>[Kclear xfic-ixf port 0 counters
+Counters cleared
+Stoke[local]#<!>[Kclear xfic-ixf port 9 
+<<<<help_begin
+counters  Clear XFIC IXF counters
+>>>>help_end
+[KStoke[local]#clear xfic-ixf port 9 Stoke[local]#[K<!>[Kclear xfic-ixf port 9 counters 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#clear xfic-ixf port 9 counters Stoke[local]#[K<!>[Kclear xfic-ixf port 9 counters
+Counters cleared
+Stoke[local]#<!>[Kclear xfic-ixf slot 
+<<<<help_begin
+SLOT(0..4)  Slot number
+>>>>help_end
+[KStoke[local]#clear xfic-ixf slot Stoke[local]#[K<!>[Kclear xfic-ixf slot 4 
+<<<<help_begin
+counters  Clear XFIC IXF counters
+port      Clear port counters for a port
+>>>>help_end
+[KStoke[local]#clear xfic-ixf slot 4 Stoke[local]#[K<!>[Kclear xfic-ixf slot 4 counters 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#clear xfic-ixf slot 4 counters Stoke[local]#[K<!>[Kclear xfic-ixf slot 4 counters
+Counters cleared
+Stoke[local]#<!>[Kclear xfic-ixf slot 4 port 
+<<<<help_begin
+0..9  Port for which to clear counters
+>>>>help_end
+[KStoke[local]#clear xfic-ixf slot 4 port Stoke[local]#[K<!>[Kclear xfic-ixf slot 4 port 0 
+<<<<help_begin
+counters  Clear XFIC IXF counters
+>>>>help_end
+[KStoke[local]#clear xfic-ixf slot 4 port 0 Stoke[local]#[K<!>[Kclear xfic-ixf slot 4 port 0 counters 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#clear xfic-ixf slot 4 port 0 counters Stoke[local]#[K<!>[Kclear xfic-ixf slot 4 port 0 counters
+Counters cleared
+Stoke[local]#<!>[Kclear xfic-ixf slot 4 port 9 
+<<<<help_begin
+counters  Clear XFIC IXF counters
+>>>>help_end
+[KStoke[local]#clear xfic-ixf slot 4 port 9 Stoke[local]#[K<!>[Kclear xfic-ixf slot 4 port 9 counters 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#clear xfic-ixf slot 4 port 9 counters Stoke[local]#[K<!>[Kclear xfic-ixf slot 4 port 9 counters
+Counters cleared
+Stoke[local]#<!>[Kclear xfic-ixf slot 1 
+<<<<help_begin
+counters  Clear XFIC IXF counters
+port      Clear port counters for a port
+>>>>help_end
+[KStoke[local]#clear xfic-ixf slot 1 Stoke[local]#[K<!>[Kclear xfic-ixf slot 1 counters 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#clear xfic-ixf slot 1 counters Stoke[local]#[K<!>[Kclear xfic-ixf slot 1 counters
+Counters cleared
+Stoke[local]#<!>[Kclear xfic-ixf slot 1 port 
+<<<<help_begin
+0..9  Port for which to clear counters
+>>>>help_end
+[KStoke[local]#clear xfic-ixf slot 1 port Stoke[local]#[K<!>[Kclear xfic-ixf slot 1 port 0 
+<<<<help_begin
+counters  Clear XFIC IXF counters
+>>>>help_end
+[KStoke[local]#clear xfic-ixf slot 1 port 0 Stoke[local]#[K<!>[Kclear xfic-ixf slot 1 port 0 counters 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#clear xfic-ixf slot 1 port 0 counters Stoke[local]#[K<!>[Kclear xfic-ixf slot 1 port 0 counters
+Counters cleared
+Stoke[local]#<!>[Kclear xfic-ixf slot 1 port 9 
+<<<<help_begin
+counters  Clear XFIC IXF counters
+>>>>help_end
+[KStoke[local]#clear xfic-ixf slot 1 port 9 Stoke[local]#[K<!>[Kclear xfic-ixf slot 1 port 9 counters 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#clear xfic-ixf slot 1 port 9 counters Stoke[local]#[K<!>[Kclear xfic-ixf slot 1 port 9 counters
+Counters cleared
+Stoke[local]#<!>[Kclear xfic-ixf slot 3 
+<<<<help_begin
+counters  Clear XFIC IXF counters
+port      Clear port counters for a port
+>>>>help_end
+[KStoke[local]#clear xfic-ixf slot 3 Stoke[local]#[K<!>[Kclear xfic-ixf slot 3 counters 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#clear xfic-ixf slot 3 counters Stoke[local]#[K<!>[Kclear xfic-ixf slot 3 counters
+Counters cleared
+Stoke[local]#<!>[Kclear xfic-ixf slot 3 port 
+<<<<help_begin
+0..9  Port for which to clear counters
+>>>>help_end
+[KStoke[local]#clear xfic-ixf slot 3 port Stoke[local]#[K<!>[Kclear xfic-ixf slot 3 port 0 
+<<<<help_begin
+counters  Clear XFIC IXF counters
+>>>>help_end
+[KStoke[local]#clear xfic-ixf slot 3 port 0 Stoke[local]#[K<!>[Kclear xfic-ixf slot 3 port 0 counters 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#clear xfic-ixf slot 3 port 0 counters Stoke[local]#[K<!>[Kclear xfic-ixf slot 3 port 0 counters
+Counters cleared
+Stoke[local]#<!>[Kclear xfic-ixf slot 3 port 9 
+<<<<help_begin
+counters  Clear XFIC IXF counters
+>>>>help_end
+[KStoke[local]#clear xfic-ixf slot 3 port 9 Stoke[local]#[K<!>[Kclear xfic-ixf slot 3 port 9 counters 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#clear xfic-ixf slot 3 port 9 counters Stoke[local]#[K<!>[Kclear xfic-ixf slot 3 port 9 counters
+Counters cleared
+Stoke[local]#<!>[Kclear xfic-ixf slot 0 
+<<<<help_begin
+counters  Clear XFIC IXF counters
+port      Clear port counters for a port
+>>>>help_end
+[KStoke[local]#clear xfic-ixf slot 0 Stoke[local]#[K<!>[Kclear xfic-ixf slot 0 counters 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#clear xfic-ixf slot 0 counters Stoke[local]#[K<!>[Kclear xfic-ixf slot 0 counters
+Counters cleared
+Stoke[local]#<!>[Kclear xfic-ixf slot 0 port 
+<<<<help_begin
+0..9  Port for which to clear counters
+>>>>help_end
+[KStoke[local]#clear xfic-ixf slot 0 port Stoke[local]#[K<!>[Kclear xfic-ixf slot 0 port 0 
+<<<<help_begin
+counters  Clear XFIC IXF counters
+>>>>help_end
+[KStoke[local]#clear xfic-ixf slot 0 port 0 Stoke[local]#[K<!>[Kclear xfic-ixf slot 0 port 0 counters 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#clear xfic-ixf slot 0 port 0 counters Stoke[local]#[K<!>[Kclear xfic-ixf slot 0 port 0 counters
+Counters cleared
+Stoke[local]#<!>[Kclear xfic-ixf slot 0 port 9 
+<<<<help_begin
+counters  Clear XFIC IXF counters
+>>>>help_end
+[KStoke[local]#clear xfic-ixf slot 0 port 9 Stoke[local]#[K<!>[Kclear xfic-ixf slot 0 port 9 counters 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#clear xfic-ixf slot 0 port 9 counters Stoke[local]#[K<!>[Kclear xfic-ixf slot 0 port 9 counters
+Counters cleared
+Stoke[local]#<!>[Kclear xfic-ixf slot 2 
+<<<<help_begin
+counters  Clear XFIC IXF counters
+port      Clear port counters for a port
+>>>>help_end
+[KStoke[local]#clear xfic-ixf slot 2 Stoke[local]#[K<!>[Kclear xfic-ixf slot 2 counters 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#clear xfic-ixf slot 2 counters Stoke[local]#[K<!>[Kclear xfic-ixf slot 2 counters
+Counters cleared
+Stoke[local]#<!>[Kclear xfic-ixf slot 2 port 
+<<<<help_begin
+0..9  Port for which to clear counters
+>>>>help_end
+[KStoke[local]#clear xfic-ixf slot 2 port Stoke[local]#[K<!>[Kclear xfic-ixf slot 2 port 0 
+<<<<help_begin
+counters  Clear XFIC IXF counters
+>>>>help_end
+[KStoke[local]#clear xfic-ixf slot 2 port 0 Stoke[local]#[K<!>[Kclear xfic-ixf slot 2 port 0 counters 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#clear xfic-ixf slot 2 port 0 counters Stoke[local]#[K<!>[Kclear xfic-ixf slot 2 port 0 counters
+Counters cleared
+Stoke[local]#<!>[Kclear xfic-ixf slot 2 port 9 
+<<<<help_begin
+counters  Clear XFIC IXF counters
+>>>>help_end
+[KStoke[local]#clear xfic-ixf slot 2 port 9 Stoke[local]#[K<!>[Kclear xfic-ixf slot 2 port 9 counters 
+<<<<help_begin
+|      Command output filtering and redirection
+<cr>
+>>>>help_end
+[KStoke[local]#clear xfic-ixf slot 2 port 9 counters Stoke[local]#[K<!>[Kclear xfic-ixf slot 2 port 9 counters
+Counters cleared
+Stoke[local]#<!>

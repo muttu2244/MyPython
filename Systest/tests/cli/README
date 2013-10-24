@@ -1,0 +1,94 @@
+
+#######################################################################
+#
+# Copyright (c) Stoke, Inc.
+# All Rights Reserved.
+#
+# This code is confidential and proprietary to Stoke, Inc. and may only
+# be used under a license from Stoke.
+#
+#######################################################################
+
+INTRODUCTION
+
+This readme file explains the Folder structure, Naming conventions, Execution method, Coverage and known issues of SSX-CLI 
+Automation scripts
+
+ASSUMPTIONS
+
+ 1. cli-driver.pl script should be available
+ 2. Golden folder should contain a folder named as the ssx version being tested
+
+
+Folder Structure
+
+ CVS path => systest/test/cli
+ New folders(inside cli folder) 
+      golden_log   --> Contains golden log files with which the test logs will be compared
+                       This folder contains subfolders according to the SSX version. e.g. 3.0R1, 3.0B1, main 
+      cli_test_log --> Contains test log after execution of the cli commands
+      driver_data  --> Contains driver data files containing inputs for cli-drievr.pl script
+ 
+NAMING CONVENTION
+
+ All python scripts for CLI exec commands are named as cli_exec_<command_name>.py
+ All python scripts for CLI conf commnads are anmed as cli_conf_<command_name>.py
+ All python scripts for CLI commnads available inside a context are named as cli_cntx_<command_name>.py
+
+ A typical conf and context script has following sub-modules
+       <command>_001_pos --> Only enters the configuration to SSX 
+       <command>_002_rae --> First Removes and then Enters the configuration (-n)
+       <command>_003_ere --> Enter-remove-enter the configuration (-a)
+       <command>_004_rm2 --> remove the configuartion twice (-a -2)
+       <command>_005_all --> With all available options     (-n -a -2)
+
+
+DRIVER-DATA FILE
+
+ 1. "all_pos_cfg"  --> General driver data file most of the commands
+     This file contains min, maximum and a middle value for each 
+ 2. "clk_pos_cfg"  --> For clock command in config mode
+ 3. "intf_pos_cfg" --> For interface command in config::context mode
+  Other driver files are ip_pos_cfg, ipsc_pos_cfg, ipv6_pos_cfg, log_pos_cfg,rdis_pos_cfg,rmon_pos_cfg,rotr_pos_cfg,sesn_pos_cfg, sytm_pos_cfg 
+
+SUITE FILES
+
+ 1. suite_cli_exec.py --> executing all CLI exec commands
+ 2. suite_cli_conf.py --> executing all CLI conf commnads
+ 3. suite_cli_cntx.py --> executing all CLI context related commands
+
+ golden files 
+
+ 1. cli_exec_all_gld.py --> Script for executing exec command golden files
+ 2. cli_conf_all_gld.py --> Script for executing conf command golden files
+     
+
+EXECUTION METHOD
+
+ 1. Execute "python cli_exec_all_gld.py"
+ 2. This will create required golden log files in the golden_log folder
+ 3. Verify the golden files manually in the golden_log folders
+ 4. Execute "python suite_cli_exec.py"
+ 5. Check the result file
+
+Follow the same procedure for execution of conf  commands
+For context related commands directly execute "python suite_cli_cntx.py" (No golden log generation as most of  the commands  generating heavy log files
+
+P.S: Not for all commands we are generating golden logs . Commands whose output is more than 1 MB, we are not generating golden log files
+
+
+AUTOMATION COVERAGE
+
+ 1. Out of 25 exec commands all 25 has been automated  
+ 2. Out of 19 conf commands 14 have been automated, commands such as 'end','exit','no','debug' and 'show' have not been autom    ated
+ 3. Out of 25 context commands 19 has been automated
+
+SSX-CLI Commands vary from version to version
+
+
+
+NOTE
+
+ 1. Commands such as clock, context, snmp takes more than one hour for execution
+ 2. class-map, ip access-list modes generates log files more than 30 MB
+ 

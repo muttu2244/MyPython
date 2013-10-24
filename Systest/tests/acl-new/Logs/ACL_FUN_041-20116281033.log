@@ -1,0 +1,202 @@
+10:33:53 : TEST    : ##################################################
+10:33:53 : TEST    : Python Version: Python 2.5
+10:33:53 : TEST    : ##################################################
+10:33:53 : TEST    : ##################################################
+10:33:53 : TEST    : test_ACL_FUN_041
+10:33:53 : TEST    : ##################################################
+10:33:53 : OUTPUT  : SSX object for host bahamas-mc-con created.
+10:33:53 : DEBUG   : Trying to connect to host bahamas-mc-con
+10:33:57 : OUTPUT  : bahamas-mc-con: 
+10:33:57 : OUTPUT  : bahamas-mc-con: Connected to bahamas-mc-con.stoke.com (172.16.8.74).
+10:33:57 : OUTPUT  : bahamas-mc-con: Escape character is 'off'.
+10:33:57 : INFO    : Connected to host bahamas-mc-con
+10:34:01 : INFO    : Memory Snap for all Slots before starting the TEST
+10:34:15 : INFO    : 
+----------------------------------------------------------------------------------------------------
+       Slot 0              Slot 1              Slot 2              Slot 3              Slot 4       
+Process   Mem(B)    Process   Mem(B)    Process   Mem(B)    Process   Mem(B)    Process   Mem(B)    
+----------------------------------------------------------------------------------------------------
+Fpd       1310720   Fpd       1310720   IpLc      3407872   IpLc      3407872   IpLc      3407872   
+Fabric    1310720   Fabric    1310720   Fpd       1318912   Fpd       1318912   Fpd       1318912   
+Bgp4      1441792   Bgp4      1441792   NseMgr    20971520  NseMgr    20971520  NseMgr    20971520  
+Dfn       2359296   Dfn       2359296   Evl       1310720   Evl       1310720   Evl       1310720   
+Qosd      1310720   Qosd      1310720   NSM       8388608   NSM       8388608   NSM       8388608   
+PPPdMc    1310720   PPPdMc    1310720   Inspectd  6754304   Inspectd  6754304   Inspectd  6754304   
+DHCPdMC   2363392   DHCPdMC   2363392   Count     1310720   Count     1310720   Count     42991616  
+Cli       2523136   Smid      2392064   PPPd      2359296   PPPd      2359296   PPPd      2359296   
+NSM       47185920  NSM       37748736  DHCPdLC   1310720   DHCPdLC   1310720   DHCPdLC   1310720   
+Ntp       1310720   Ntp       1310720   Evt       1310720   Evt       1310720   Evt       1310720   
+MIPd      1310720   MIPd      1310720   PPPoE     1310720   PPPoE     1310720   PPPoE     1310720   
+Inets     1310720   Inets     1310720   Iked      10485760  Iked      10485760  Iked      10485760  
+Smid      2392064   Logind    1310720   
+Logind    1310720   Evl       1310720   
+Evl       1310720   Fsync     1310720   
+Fsync     1310720   TunMgr    1310720   
+TunMgr    1310720   IkedMc    1310720   
+IkedMc    1310720   Evt       1310720   
+Evt       2359296   SLA       1314816   
+SLA       1314816   CtxMgr    1314816   
+CtxMgr    1314816   Ospf      1310720   
+Ospf      1310720   Ip        5132288   
+Ip        5136384   EvlColl   1310720   
+EvlColl   1310720   PPPoEMC   1310720   
+PPPoEMC   1310720   Rip       1310720   
+Rip       1310720   Aaad      6553600   
+Aaad      6553600   CDR       1323008   
+CDR       1323008   Snmpd     1314816   
+Snmpd     1314816   
+
+10:34:17 : INFO    : ##################################################
+10:34:17 : INFO    : SSX VERSION DETAILS:
+10:34:17 : INFO    : {'build': '2011061319', 'branch': '4.6B1S4'}
+10:34:17 : INFO    : ##################################################
+10:34:19 : DEBUG   : Trying to connect to host cali
+10:34:21 : CMD     : cali      : login:  regress
+10:34:22 : CMD     : cali      : Password: gleep7
+10:34:23 : DEBUG   : Changing the prompt from default to the name of the host.
+10:34:24 : OUTPUT  : cali      : 
+10:34:24 : INFO    : Connected to host cali
+10:34:24 : DEBUG   : Clearing the config.
+10:34:30 : INFO    : Clearing the health stats
+10:34:33 : INFO    : Clearing the core files
+
+10:34:44 : CMD     : cali      : linux-test#  sudo /sbin/ip addr flush dev eth2
+10:34:45 : CMD     : cali      : Password: gleep7
+10:34:46 : OUTPUT  : cali      : 
+10:34:46 : CMD     : cali      : linux-test#  sudo /sbin/ip addr add dev eth2 local 17.1.1.1/24
+10:34:47 : OUTPUT  : cali      : 
+10:34:47 : CMD     : cali      : linux-test#  sudo /sbin/ip link set up eth2
+10:34:48 : OUTPUT  : cali      : 
+10:34:48 : OUTPUT  : ==================Starting The Test====================
+10:34:50 : CMD     : bahamas-mc-con: Stoke(cfg)# 
+10:34:50 : CMD     : bahamas-mc-con: Stoke(cfg)# context acl
+10:34:51 : CMD     : bahamas-mc-con: Stoke(cfg-ctx)# interface to_linux
+10:34:52 : CMD     : bahamas-mc-con: Stoke(cfg-intfv4)# arp arpa
+10:34:53 : CMD     : bahamas-mc-con: Stoke(cfg-intfv4)# ip address 17.1.1.2/24
+10:34:54 : CMD     : bahamas-mc-con: Stoke(cfg-intfv4)# exit
+10:34:55 : CMD     : bahamas-mc-con: Stoke(cfg-ctx)# ip access-list subacl
+10:34:56 : CMD     : bahamas-mc-con: Stoke(cfg-v4acl)# 10 permit tcp any any established
+10:34:57 : CMD     : bahamas-mc-con: Stoke(cfg-v4acl)# exit
+10:34:58 : CMD     : bahamas-mc-con: Stoke(cfg-ctx)# exit
+10:34:59 : CMD     : bahamas-mc-con: Stoke(cfg)# port ethernet 2/2
+10:35:00 : CMD     : bahamas-mc-con: Stoke(cfg-port)# bind interface to_linux acl
+10:35:01 : CMD     : bahamas-mc-con: Stoke(cfg-bindv4)# ip access-group in name subacl
+10:35:01 : CMD     : bahamas-mc-con: Stoke(cfg-bindv4)# exit
+10:35:02 : CMD     : bahamas-mc-con: Stoke(cfg-port)# service ipsec
+10:35:03 : CMD     : bahamas-mc-con: Stoke(cfg-port)# enable
+10:35:04 : CMD     : bahamas-mc-con: Stoke(cfg-port)# exit
+10:35:06 : CMD     : bahamas-mc-con: Stoke(cfg)# end
+10:35:13 : CMD     : cali      : linux-test#  sudo /usr/local/bin/nemesis tcp -S 17.1.1.1 -D 17.1.1.2 -d eth2 -fSA -vv
+10:35:14 : OUTPUT  : cali      : 
+10:35:14 : OUTPUT  : cali      : TCP Packet Injection -=- The NEMESIS Project Version 1.4 (Build 26)
+10:35:14 : OUTPUT  : cali      : 
+10:35:14 : OUTPUT  : cali      :                [MAC] 00:0E:0C:82:9A:D7 > FF:FF:FF:FF:FF:FF
+10:35:14 : OUTPUT  : cali      :      [Ethernet type] IP (0x0800)
+10:35:14 : OUTPUT  : cali      : 
+10:35:14 : OUTPUT  : cali      :                 [IP] 17.1.1.1 > 17.1.1.2
+10:35:14 : OUTPUT  : cali      :              [IP ID] 18500
+10:35:14 : OUTPUT  : cali      :           [IP Proto] TCP (6)
+10:35:14 : OUTPUT  : cali      :             [IP TTL] 255
+10:35:14 : OUTPUT  : cali      :             [IP TOS] 0x00
+10:35:14 : OUTPUT  : cali      :     [IP Frag offset] 0x0000
+10:35:14 : OUTPUT  : cali      :      [IP Frag flags] 
+10:35:14 : OUTPUT  : cali      :          [TCP Ports] 52003 > 5505
+10:35:14 : OUTPUT  : cali      :          [TCP Flags] SYN ACK 
+10:35:14 : OUTPUT  : cali      : [TCP Urgent Pointer] 0
+10:35:14 : OUTPUT  : cali      :    [TCP Window Size] 4096
+10:35:14 : OUTPUT  : cali      :     [TCP Ack number] 1764376879
+10:35:14 : OUTPUT  : cali      :     [TCP Seq number] 1035441386
+10:35:14 : OUTPUT  : cali      : 
+10:35:14 : OUTPUT  : cali      : 
+10:35:14 : OUTPUT  : cali      : [Hexdump]
+10:35:14 : OUTPUT  : cali      : FF FF FF FF FF FF 00 0E 0C 82 9A D7 08 00 45 00  ..............E.
+10:35:14 : OUTPUT  : cali      : 00 28 48 44 00 00 FF 06 4F 87 11 01 01 01 11 01  .(HD....O.......
+10:35:14 : OUTPUT  : cali      : 01 02 CB 23 15 81 3D B7 94 EA 69 2A 41 2F 50 12  ...#..=...i*A/P.
+10:35:14 : OUTPUT  : cali      : 10 00 1E 2E 00 00                                ......
+10:35:14 : OUTPUT  : cali      : 
+10:35:14 : OUTPUT  : cali      : Wrote 54 byte TCP packet through linktype DLT_EN10MB.
+10:35:14 : OUTPUT  : cali      : 
+10:35:14 : OUTPUT  : cali      : TCP Packet Injected
+10:35:14 : OUTPUT  : cali      : 
+10:35:17 : CMD     : bahamas-mc-con: Stoke(cfg)# 
+10:35:18 : CMD     : bahamas-mc-con: Stoke(cfg)# context acl
+10:35:19 : CMD     : bahamas-mc-con: Stoke(cfg-ctx)# ip access-list subacl
+10:35:19 : CMD     : bahamas-mc-con: Stoke(cfg-v4acl)# 10 deny tcp any any established
+10:35:20 : CMD     : bahamas-mc-con: Stoke(cfg-v4acl)# exit
+10:35:21 : CMD     : bahamas-mc-con: Stoke(cfg-ctx)# exit
+10:35:23 : CMD     : bahamas-mc-con: Stoke(cfg)# end
+10:35:31 : CMD     : cali      : linux-test#  sudo /usr/local/bin/nemesis tcp -S 17.1.1.1 -D 17.1.1.2 -d eth2 -fSA -vv
+10:35:31 : OUTPUT  : cali      : 
+10:35:31 : OUTPUT  : cali      : TCP Packet Injection -=- The NEMESIS Project Version 1.4 (Build 26)
+10:35:31 : OUTPUT  : cali      : 
+10:35:31 : OUTPUT  : cali      :                [MAC] 00:0E:0C:82:9A:D7 > FF:FF:FF:FF:FF:FF
+10:35:31 : OUTPUT  : cali      :      [Ethernet type] IP (0x0800)
+10:35:31 : OUTPUT  : cali      : 
+10:35:31 : OUTPUT  : cali      :                 [IP] 17.1.1.1 > 17.1.1.2
+10:35:31 : OUTPUT  : cali      :              [IP ID] 31393
+10:35:31 : OUTPUT  : cali      :           [IP Proto] TCP (6)
+10:35:31 : OUTPUT  : cali      :             [IP TTL] 255
+10:35:31 : OUTPUT  : cali      :             [IP TOS] 0x00
+10:35:31 : OUTPUT  : cali      :     [IP Frag offset] 0x0000
+10:35:31 : OUTPUT  : cali      :      [IP Frag flags] 
+10:35:31 : OUTPUT  : cali      :          [TCP Ports] 8328 > 18840
+10:35:31 : OUTPUT  : cali      :          [TCP Flags] SYN ACK 
+10:35:31 : OUTPUT  : cali      : [TCP Urgent Pointer] 0
+10:35:31 : OUTPUT  : cali      :    [TCP Window Size] 4096
+10:35:31 : OUTPUT  : cali      :     [TCP Ack number] 1105775343
+10:35:31 : OUTPUT  : cali      :     [TCP Seq number] 703933504
+10:35:31 : OUTPUT  : cali      : 
+10:35:31 : OUTPUT  : cali      : 
+10:35:31 : OUTPUT  : cali      : [Hexdump]
+10:35:31 : OUTPUT  : cali      : FF FF FF FF FF FF 00 0E 0C 82 9A D7 08 00 45 00  ..............E.
+10:35:31 : OUTPUT  : cali      : 00 28 7A A1 00 00 FF 06 1D 2A 11 01 01 01 11 01  .(z......*......
+10:35:31 : OUTPUT  : cali      : 01 02 20 88 49 98 29 F5 2C 40 41 E8 CA EF 50 12  .. .I.).,@A...P.
+10:35:31 : OUTPUT  : cali      : 10 00 AE A0 00 00                                ......
+10:35:31 : OUTPUT  : cali      : 
+10:35:31 : OUTPUT  : cali      : Wrote 54 byte TCP packet through linktype DLT_EN10MB.
+10:35:31 : OUTPUT  : cali      : 
+10:35:31 : OUTPUT  : cali      : TCP Packet Injected
+10:35:31 : OUTPUT  : cali      : 
+10:35:33 : INFO    : Getting health stats
+10:35:42 : INFO    : No core file is generated 
+
+10:35:56 : INFO    : 
+----------------------------------------------------------------------------------------------------
+       Slot 0              Slot 1              Slot 2              Slot 3              Slot 4       
+Process   Mem(B)    Process   Mem(B)    Process   Mem(B)    Process   Mem(B)    Process   Mem(B)    
+----------------------------------------------------------------------------------------------------
+Fpd       1310720   Fpd       1310720   IpLc      3407872   IpLc      3407872   IpLc      3407872   
+Fabric    1310720   Fabric    1310720   Fpd       1318912   Fpd       1318912   Fpd       1318912   
+Bgp4      1441792   Bgp4      1441792   NseMgr    20971520  NseMgr    20971520  NseMgr    20971520  
+Dfn       2359296   Dfn       2359296   Evl       1310720   Evl       1310720   Evl       1310720   
+Qosd      1310720   Qosd      1310720   NSM       8388608   NSM       8388608   NSM       8388608   
+PPPdMc    1310720   PPPdMc    1310720   Inspectd  6754304   Inspectd  6754304   Inspectd  6754304   
+DHCPdMC   2363392   DHCPdMC   2363392   Count     1310720   Count     1310720   Count     42991616  
+Cli       2523136   Smid      2392064   PPPd      2359296   PPPd      2359296   PPPd      2359296   
+NSM       47185920  NSM       37748736  DHCPdLC   1310720   DHCPdLC   1310720   DHCPdLC   1310720   
+Ntp       1310720   Ntp       1310720   Evt       1310720   Evt       1310720   Evt       1310720   
+MIPd      1310720   MIPd      1310720   PPPoE     1310720   PPPoE     1310720   PPPoE     1310720   
+Inets     1310720   Inets     1310720   Iked      10485760  Iked      10485760  Iked      10485760  
+Smid      2392064   Logind    1310720   
+Logind    1310720   Evl       1310720   
+Evl       1310720   Fsync     1310720   
+Fsync     1310720   TunMgr    1310720   
+TunMgr    1310720   IkedMc    1310720   
+IkedMc    1310720   Evt       1310720   
+Evt       2359296   SLA       1314816   
+SLA       1314816   CtxMgr    1314816   
+CtxMgr    1314816   Ospf      1310720   
+Ospf      1310720   Ip        5132288   
+Ip        5136384   EvlColl   1310720   
+EvlColl   1310720   PPPoEMC   1310720   
+PPPoEMC   1310720   Rip       1310720   
+Rip       1310720   Aaad      6553600   
+Aaad      6553600   CDR       1323008   
+CDR       1323008   Snmpd     1314816   
+Snmpd     1314816   
+
+10:35:56 : DEBUG   : Closing down the session to host bahamas-mc-con.
+10:35:56 : DEBUG   : Closing down the session to host cali.
+10:35:56 : RESULT  : ##################################################
+10:35:56 : RESULT  : test_ACL_FUN_041: PASS
+10:35:56 : RESULT  : ##################################################

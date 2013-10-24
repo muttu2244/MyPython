@@ -1,0 +1,427 @@
+15:57:53 : TEST    : ##################################################
+15:57:53 : TEST    : Python Version: Python 2.5
+15:57:53 : TEST    : ##################################################
+15:57:53 : TEST    : ##################################################
+15:57:53 : TEST    : test_ACL_Func_063
+15:57:53 : TEST    : ##################################################
+15:57:53 : OUTPUT  : SSX object for host nandi created.
+15:57:53 : DEBUG   : Trying to connect to host nandi
+15:57:58 : INFO    : Connected to host nandi
+15:57:58 : CMD     : nandi     : terminal length infinite 
+15:57:59 : CMD     : nandi     : terminal width infinite 
+15:57:59 : CMD     : nandi     : no terminal monitor 
+15:57:59 : INFO    : Memory Snap for all Slots before starting the TEST
+15:58:00 : CMD     : nandi     : show process mem slot 0 | grep -v "Process Name" 
+------------- ------- ------- ------- ------- ------- ------- ------- ------- 
+NSM            593928 12KB    8192    7696KB  1292KB  156KB   37MB    180MB
+Smid           610328 200KB   16KB    11MB    3544KB  96KB    2336KB  17MB
+Ip             610332 4096    4096    8MB     2124KB  172KB   8MB     266MB
+CtxMgr         610331 28KB    8192    6752KB  932KB   72KB    2304KB  17MB
+Fpd            610330 84KB    12KB    6864KB  976KB   96KB    1280KB  243MB
+Aaad           610336 364KB   20KB    10MB    1532KB  172KB   9MB     25MB
+Cli           5398575 40KB    16KB    11MB    3568KB  84KB    2432KB  17MB
+Cli           1350456 40KB    16KB    11MB    3568KB  80KB    2336KB  17MB
+Cli           1362744 40KB    16KB    11MB    3568KB  88KB    2464KB  17MB
+Snmpd          610338 632KB   72KB    7012KB  1020KB  64KB    2304KB  18MB
+Inets          610337 32KB    8192    8MB     1256KB  100KB   1280KB  17MB
+Logind         610329 16KB    8192    6808KB  960KB   60KB    1280KB  17MB
+Logind        1350456 16KB    8192    6808KB  960KB   60KB    1280KB  17MB
+Logind        1362744 16KB    8192    6808KB  960KB   72KB    1280KB  17MB
+Ospf           610333 308KB   12KB    7204KB  1052KB  72KB    4416KB  34MB
+Bgp4           610334 308KB   12KB    7224KB  1064KB  88KB    7808KB  34MB
+Evl            610325 92KB    8192    7040KB  996KB   84KB    4352KB  17MB
+EvlColl        610326 20KB    8192    6768KB  940KB   60KB    1280KB  17MB
+Qosd           610335 168KB   8192    7000KB  1016KB  68KB    1280KB  23MB
+IkedMc         610339 152KB   4096    8136KB  1224KB  72KB    2820KB  17MB
+Ntp           1098960 4096    4096    7268KB  1268KB  100KB   1280KB  17MB
+Rip            610341 92KB    8192    6988KB  1016KB  76KB    3328KB  34MB
+Evt            610324 28KB    8192    6752KB  932KB   72KB    2304KB  17MB
+Fabric         610347 12KB    8192    6776KB  940KB   56KB    1280KB  17MB
+Fsync          610327 16KB    8192    6752KB  932KB   56KB    1280KB  17MB
+TunMgr         610342 108KB   12KB    6788KB  948KB   64KB    2304KB  19MB
+PPPoEMC        610343 16KB    4096    6792KB  944KB   60KB    1280KB  17MB
+PPPdMc         610344 16KB    4096    6784KB  940KB   60KB    1280KB  17MB
+CDR            610345 88KB    20KB    8MB     1160KB  104KB   1280KB  17MB
+DHCPdMC        610346 48KB    4096    6844KB  980KB   68KB    2308KB  17MB
+MIPd           610348 172KB   1096KB  7016KB  2024KB  84KB    1280KB  17MB
+SLA            610349 28KB    4096    6916KB  972KB   60KB    1284KB  17MB
+Dfn            610350 1240KB  11MB    8MB     1204KB  80KB    2304KB  17MB
+15:58:00 : CMD     : nandi     : show process mem slot 1 | grep -v "Process Name" 
+ERROR: Card 1 not ready
+15:58:01 : CMD     : nandi     : show process mem slot 2 | grep -v "Process Name" 
+------------- ------- ------- ------- ------- ------- ------- ------- ------- 
+NSM            925699 12KB    4096    6668KB  1148KB  116KB   8MB     340MB
+IpLc           946200 8192    4096    6880KB  1164KB  104KB   14MB    343MB
+Fpd            946199 84KB    4096    6176KB  888KB   88KB    1288KB  238MB
+Iked           946201 1124KB  1000KB  7896KB  1392KB  204KB   13MB    351MB
+Evl            946197 48KB    8192    6080KB  852KB   60KB    1280KB  12MB
+Evt            946195 28KB    8192    6064KB  844KB   56KB    1280KB  12MB
+NseMgr         946207 40KB    8192    8000KB  976KB   52KB    1280KB  12MB
+PPPoE          946202 44KB    8192    6900KB  1176KB  72KB    1280KB  338MB
+PPPd           946203 104KB   12KB    6220KB  912KB   72KB    2304KB  238MB
+DHCPdLC        946204 36KB    1028KB  6888KB  1172KB  68KB    1280KB  238MB
+Inspectd       946205 28KB    1032KB  8MB     992KB   84KB    5568KB  464MB
+Count          946206 100KB   8192    6120KB  860KB   64KB    21MB    116MB
+15:58:01 : CMD     : nandi     : show process mem slot 3 | grep -v "Process Name" 
+------------- ------- ------- ------- ------- ------- ------- ------- ------- 
+NSM            925699 12KB    4096    6668KB  1148KB  116KB   8MB     340MB
+IpLc           946200 8192    4096    6880KB  1164KB  104KB   10MB    343MB
+Fpd            946199 84KB    4096    6176KB  888KB   88KB    1288KB  238MB
+Iked           946201 1124KB  1000KB  7896KB  1392KB  200KB   12MB    351MB
+Evl            946198 48KB    8192    6080KB  852KB   60KB    1280KB  12MB
+Evt            946195 28KB    8192    6064KB  844KB   56KB    1280KB  12MB
+NseMgr         946207 40KB    8192    8000KB  976KB   52KB    1280KB  12MB
+PPPoE          946202 44KB    8192    6900KB  1176KB  72KB    1280KB  338MB
+PPPd           946203 104KB   12KB    6220KB  912KB   72KB    2304KB  238MB
+DHCPdLC        946204 36KB    1028KB  6888KB  1172KB  68KB    1280KB  238MB
+Inspectd       946205 28KB    1032KB  8MB     992KB   84KB    5568KB  464MB
+Count          946206 100KB   8192    6120KB  860KB   64KB    21MB    116MB
+15:58:01 : CMD     : nandi     : show process mem slot 4 | grep -v "Process Name" 
+------------- ------- ------- ------- ------- ------- ------- ------- ------- 
+NSM           2498581 12KB    4096    6668KB  1148KB  116KB   8MB     340MB
+IpLc          2519066 8192    4096    6880KB  1164KB  104KB   3328KB  344MB
+Fpd           2519065 84KB    4096    6176KB  888KB   88KB    1288KB  238MB
+Iked          2519067 1124KB  1000KB  7896KB  1392KB  188KB   12MB    351MB
+Evl           2519064 48KB    8192    6080KB  852KB   60KB    1280KB  12MB
+Evt           2519063 28KB    8192    6064KB  844KB   56KB    1280KB  12MB
+NseMgr        2519073 40KB    8192    8000KB  976KB   52KB    20MB    112MB
+PPPoE         2519068 44KB    8192    6900KB  1176KB  72KB    1280KB  338MB
+PPPd          2519069 104KB   12KB    6220KB  912KB   72KB    2304KB  238MB
+DHCPdLC       2519070 36KB    1028KB  6888KB  1172KB  68KB    1280KB  238MB
+Inspectd      2519071 28KB    1032KB  8MB     992KB   88KB    5568KB  464MB
+Count         2519072 100KB   8192    6120KB  860KB   64KB    41MB    118MB
+15:58:01 : INFO    : 
+----------------------------------------------------------------------------------------------------
+       Slot 0              Slot 2              Slot 3              Slot 4       
+Process   Mem(B)    Process   Mem(B)    Process   Mem(B)    Process   Mem(B)    
+----------------------------------------------------------------------------------------------------
+Fpd       1310720   IpLc      14680064  IpLc      10485760  IpLc      3407872   
+Fabric    1310720   Fpd       1318912   Fpd       1318912   Fpd       1318912   
+Bgp4      7995392   NseMgr    1310720   NseMgr    1310720   NseMgr    20971520  
+Dfn       2359296   Evl       1310720   Evl       1310720   Evl       1310720   
+Qosd      1310720   NSM       8388608   NSM       8388608   NSM       8388608   
+PPPdMc    1310720   Inspectd  5701632   Inspectd  5701632   Inspectd  5701632   
+DHCPdMC   2363392   Count     22020096  Count     22020096  Count     42991616  
+Cli       2523136   PPPd      2359296   PPPd      2359296   PPPd      2359296   
+NSM       38797312  DHCPdLC   1310720   DHCPdLC   1310720   DHCPdLC   1310720   
+Ntp       1310720   Evt       1310720   Evt       1310720   Evt       1310720   
+MIPd      1310720   PPPoE     1310720   PPPoE     1310720   PPPoE     1310720   
+Inets     1310720   Iked      13631488  Iked      12582912  Iked      12582912  
+Smid      2392064   
+Logind    1310720   
+Evl       4456448   
+Fsync     1310720   
+TunMgr    2359296   
+IkedMc    2887680   
+Evt       2359296   
+SLA       1314816   
+CtxMgr    2359296   
+Ospf      4521984   
+Ip        8388608   
+EvlColl   1310720   
+PPPoEMC   1310720   
+Rip       3407872   
+Aaad      9437184   
+CDR       1310720   
+Snmpd     2359296   
+
+15:58:02 : CMD     : nandi     : show version 
+Slot 0 Information (IMC1):
+----------------------------------------------------------------------------
+StokeOS Release 4.6B2 (2011061321).
+Built Mon Jun 13 22:46:33 PDT 2011 by builder.
+
+Stoke uptime is 6 weeks, 4 days, 16 hours, 37 minutes
+Card uptime is 6 weeks, 4 days, 16 hours, 37 minutes
+
+System restart at Wed Jul 13 17:50:09 UTC 2011
+Card restart at Wed Jul 13 17:50:09 UTC 2011
+Restart by software
+
+Firmware Version: v91
+
+Stoke-Boot Version
+  *Booted Primary: StokeBoot Release 4.2 (2009120817).
+   Booted Backup:  StokeBoot Release 4.2 (2009120817).
+Stoke-Bloader Version
+  *Booted Primary: Stoke Bootloader Release 4.6B2 (2011010618).
+   Booted Backup:  Stoke Bootloader Release 4.6B2 (2011010618).
+15:58:02 : INFO    : ##################################################
+15:58:02 : INFO    : SSX VERSION DETAILS:
+15:58:02 : INFO    : {'build': '2011061321', 'branch': '4.6B2'}
+15:58:02 : INFO    : ##################################################
+15:58:02 : CMD     : nandi     : context local 
+15:58:02 : CMD     : nandi     : dir /dump 
+ERROR: Path "/dump": Directory does not exist
+15:58:02 : DEBUG   : Trying to connect to host ganga
+15:58:03 : CMD     : ganga     : login:  regress
+15:58:03 : CMD     : ganga     : Password: gleep7
+15:58:03 : DEBUG   : Changing the prompt from default to the name of the host.
+15:58:03 : OUTPUT  : ganga     : ]0;regress@ganga:~
+15:58:03 : INFO    : Connected to host ganga
+15:58:03 : DEBUG   : Trying to connect to host godavari
+15:58:03 : CMD     : godavari  : login:  regress
+15:58:04 : CMD     : godavari  : Password: gleep7
+15:58:04 : DEBUG   : Changing the prompt from default to the name of the host.
+15:58:04 : OUTPUT  : godavari  : ]0;regress@godavari:~
+15:58:04 : INFO    : Connected to host godavari
+15:58:04 : DEBUG   : Clearing the config.
+15:58:04 : CMD     : nandi     : context local 
+15:58:04 : DEBUG   : Connection not through console. Will clear port configuraiton ONLY
+15:58:04 : DEBUG   : Clearing the config on ports
+15:58:05 : CMD     : nandi     : sh card 1 | grep IMC 
+ERROR: Card 1 not present
+15:58:05 : CMD     : nandi     : Nandi(cfg)# no port eth  2/0
+15:58:06 : CMD     : nandi     : Nandi(cfg)# no port eth  2/1
+15:58:06 : CMD     : nandi     : Nandi(cfg)# no port eth  2/2
+15:58:06 : OUTPUT  : nandi     : ERROR: Port 2/2 not configured
+15:58:06 : CMD     : nandi     : Nandi(cfg)# no port eth  2/3
+15:58:06 : OUTPUT  : nandi     : ERROR: Port 2/3 not configured
+15:58:06 : CMD     : nandi     : Nandi(cfg)# no port eth  3/0
+15:58:06 : OUTPUT  : nandi     : ERROR: Port 3/0 not configured
+15:58:06 : CMD     : nandi     : Nandi(cfg)# no port eth  3/1
+15:58:06 : OUTPUT  : nandi     : ERROR: Port 3/1 not configured
+15:58:07 : CMD     : nandi     : Nandi(cfg)# no port eth  3/2
+15:58:07 : CMD     : nandi     : Nandi(cfg)# no port eth  3/3
+15:58:07 : OUTPUT  : nandi     : ERROR: Port 3/3 not configured
+15:58:07 : CMD     : nandi     : Nandi(cfg)# no port eth  4/0
+15:58:08 : CMD     : nandi     : Nandi(cfg)# no port eth  4/1
+15:58:08 : OUTPUT  : nandi     : ERROR: Port 4/1 not configured
+15:58:08 : CMD     : nandi     : Nandi(cfg)# no port eth  4/2
+15:58:08 : OUTPUT  : nandi     : ERROR: Port 4/2 not configured
+15:58:08 : CMD     : nandi     : Nandi(cfg)# no port eth  4/3
+15:58:08 : INFO    : Cleared configuration on all ports except management port
+15:58:09 : CMD     : nandi     : Nandi(cfg)# end
+15:58:09 : CMD     : nandi     : context local 
+15:58:09 : CMD     : nandi     : show context all | grep -v local 
+Context                          Index      Domain(s)                           
+-------------------------------- ---------- ------------------------------------
+stoke1                                   20 
+15:58:09 : DEBUG   : Clearing the configuration of all contexts except 'context local'
+15:58:10 : CMD     : nandi     : config 
+15:58:10 : CMD     : nandi     : no context stoke1 
+15:58:10 : CMD     : nandi     : end 
+15:58:11 : CMD     : nandi     : show context all 
+Context                          Index      Domain(s)                           
+-------------------------------- ---------- ------------------------------------
+local                                     1 
+15:58:11 : DEBUG   : Contexts Info aftetr clearing the contexts: 
+Context                          Index      Domain(s)                           
+-------------------------------- ---------- ------------------------------------
+local                                     1 
+15:58:11 : INFO    : Connecting to the cisco 
+15:58:11 : DEBUG   : has the IP of: 10.10.10.120
+15:58:12 : CMD     : terminal length 512
+15:58:13 : CMD     : terminal width 512
+15:58:13 : CMD     : configure term
+15:58:13 : CMD     : no logging console
+15:58:13 : CMD     : end
+15:58:14 : CMD     : nandi     : show card  | grep GLC 
+    2 GLC1    Running                  0110323060000077 4x1000Base-X     02.07
+    3 GLC1    Running                  0110323060000099 4x1000Base-X     02.07
+    4 GLC2    Running                  0131001021000020 4x1000Base-X     10.01
+15:58:14 : INFO    : Clearing the health stats
+15:58:14 : CMD     : nandi     : show clock 
+Mon Aug 29 2011 10:28:12 UTC
+15:58:15 : CMD     : nandi     : clear syscount 
+15:58:15 : INFO    : Clearing the core files
+
+15:58:15 : CMD     : nandi     : copy /hd/dump/slot0/*.core.gz /hd/dump 
+0 files copied.
+15:58:15 : CMD     : nandi     : delete /hd/dump/slot0/*.core.gz noconfirm 
+0 files deleted.
+15:58:16 : CMD     : nandi     : copy /hd/dump/slot1/*.core.gz /hd/dump 
+0 files copied.
+15:58:16 : CMD     : nandi     : delete /hd/dump/slot1/*.core.gz noconfirm 
+0 files deleted.
+15:58:16 : CMD     : nandi     : copy /hd/dump/slot2/*.core.gz /hd/dump 
+0 files copied.
+15:58:17 : CMD     : nandi     : delete /hd/dump/slot2/*.core.gz noconfirm 
+0 files deleted.
+15:58:17 : CMD     : nandi     : copy /hd/dump/slot3/*.core.gz /hd/dump 
+0 files copied.
+15:58:17 : CMD     : nandi     : delete /hd/dump/slot3/*.core.gz noconfirm 
+0 files deleted.
+15:58:18 : CMD     : nandi     : copy /hd/dump/slot4/*.core.gz /hd/dump 
+0 files copied.
+15:58:18 : CMD     : nandi     : delete /hd/dump/slot4/*.core.gz noconfirm 
+0 files deleted.
+15:58:18 : OUTPUT  : 
+**********start the test**************
+
+15:58:18 : CMD     : nandi     : show glc-redundancy 
+Mon Aug 29 10:28:17 UTC 2011.
+
+Redundancy Group 1 Status:  Redundant
+
+   Logical Slot 100: Switchovers 16, Switchbacks 16
+     Last Switchback: Thu Aug 25 2011 05:00:43 UTC
+   Logical Slot 101: Switchovers 4, Switchbacks 4
+     Last Switchback: Mon Aug 29 2011 09:08:18 UTC
+
+Phys       Slot     Logical   Port Admin/Link Status
+Slot  Grp  Status   Slot(s)   0           1           2           3
+----- ---- -------- --------- ----------- ----------- ----------- ----------- 
+    2    1 Active   100       Unconf/Down Unconf/Down Unconf/Down Unconf/Down
+    3    1 Active   101       Unconf/Down Unconf/Down Unconf/Down Unconf/Down
+    4    1 Standby  100 101   Unconf/Down Unconf/Down Unconf/Down Unconf/Down
+15:58:18 : INFO    : Get the GLCR Status
+15:58:19 : CMD     : nandi     : show card  | grep GLC 
+    2 GLC1    Running                  0110323060000077 4x1000Base-X     02.07
+    3 GLC1    Running                  0110323060000099 4x1000Base-X     02.07
+    4 GLC2    Running                  0131001021000020 4x1000Base-X     10.01
+15:58:19 : CMD     : nandi     : sh glc-redundancy | begin -i "Active" 
+    2    1 Active   100       Unconf/Down Unconf/Down Unconf/Down Unconf/Down
+    3    1 Active   101       Unconf/Down Unconf/Down Unconf/Down Unconf/Down
+    4    1 Standby  100 101   Unconf/Down Unconf/Down Unconf/Down Unconf/Down
+15:58:19 : CMD     : nandi     : sh glc-redundancy | grep -i "Active" 
+    2    1 Active   100       Unconf/Down Unconf/Down Unconf/Down Unconf/Down
+    3    1 Active   101       Unconf/Down Unconf/Down Unconf/Down Unconf/Down
+15:58:20 : CMD     : nandi     : sh glc-redundancy | grep -i "Standby" 
+    4    1 Standby  100 101   Unconf/Down Unconf/Down Unconf/Down Unconf/Down
+15:58:20 : INFO    : ***************** Clear and Enable Logs ***********************
+15:58:20 : CMD     : nandi     : no debug all 
+15:58:20 : CMD     : nandi     : clear log debug 
+15:58:21 : CMD     : nandi     : debug module countd all 
+                          ^
+ERROR: unexpected input
+15:58:21 : CMD     : nandi     : debug module iked all 
+15:58:21 : CMD     : nandi     : debug module aaad all 
+15:58:21 : CMD     : nandi     : debug module tunmgr all 
+15:58:22 : CMD     : nandi     : end 
+             ^
+ERROR: unexpected input
+15:58:22 : OUTPUT  : 
+********** Configuring SSX Responder **************
+
+15:58:22 : ERROR   : ##################################################
+15:58:22 : ERROR   : test_ACL_Func_063 errored out.
+15:58:22 : ERROR   : ##################################################
+15:58:22 : ERROR   : 
+
+Traceback (most recent call last):
+  File "ACL_Func_063.py", line 291, in test_ACL_Func_063
+    self.cisco_linux_config()
+  File "ACL_Func_063.py", line 129, in cisco_linux_config
+    self.ssx.config_from_string(script_var['test_GRED_ACL_TUN_FUN_001'])
+KeyError: 'test_GRED_ACL_TUN_FUN_001'
+
+15:58:22 : CMD     : ganga     : linux-test#  ike reset
+15:58:22 : OUTPUT  : ganga     : -bash: ike: command not found
+15:58:22 : OUTPUT  : ganga     : ]0;regress@ganga:~
+15:58:32 : CMD     : ganga     : linux-test#  exit
+15:58:32 : ERROR   : Line failed to run: exit
+Traceback (most recent call last):
+  File "../../../lib/py/Host.py", line 271, in _cmd
+    result = self.ses.expect(keys, timeout)
+  File "../../../lib/py/pexpect.py", line 1311, in expect
+    return self.expect_list(compiled_pattern_list, timeout, searchwindowsize)
+  File "../../../lib/py/pexpect.py", line 1325, in expect_list
+    return self.expect_loop(searcher_re(pattern_list), timeout, searchwindowsize)
+  File "../../../lib/py/pexpect.py", line 1398, in expect_loop
+    raise EOF (str(e) + '\n' + str(self))
+EOF: End Of File (EOF) in read_nonblocking(). Exception style platform.
+<pexpect.spawn object at 0x897dfcc>
+version: 2.3 ($Revision: 1.4 $)
+command: /usr/kerberos/bin/telnet
+args: ['/usr/kerberos/bin/telnet', '-E', '-8', 'ganga']
+searcher: searcher_re:
+    0: re.compile("[Pp]assword:")
+    1: re.compile("[
+]NG40.sgsn>\s")
+    2: re.compile("[
+]NG40.rnc>\s")
+    3: re.compile("--- more ---")
+    4: re.compile("([
+]vpn>\s|[
+]%\s)")
+    5: re.compile("[Uu]sername: $")
+    6: re.compile("linux\-test#\s$")
+    7: re.compile("[
+]Press c and <enter> to continue and stop the previous test or any other input and <enter> to terminate:")
+buffer (last 100 chars): 
+before (last 100 chars): exit
+logout
+[H[2JConnection closed by foreign host.
+
+after: <class 'pexpect.EOF'>
+match: None
+match_index: None
+exitstatus: 1
+flag_eof: True
+pid: 15560
+child_fd: 7
+closed: False
+timeout: 10
+delimiter: <class 'pexpect.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.1
+delayafterclose: 0.1
+delayafterterminate: 0.1
+15:58:32 : ERROR   : ##################################################
+15:58:32 : ERROR   : test_ACL_Func_063 errored out.
+15:58:32 : ERROR   : ##################################################
+15:58:32 : ERROR   : 
+
+Traceback (most recent call last):
+  File "ACL_Func_063.py", line 87, in tearDown
+    self.linux.cmd("exit")
+  File "../../../lib/py/Host.py", line 211, in cmd
+    return self._cmd(line, send, timeout)
+  File "../../../lib/py/Host.py", line 271, in _cmd
+    result = self.ses.expect(keys, timeout)
+  File "../../../lib/py/pexpect.py", line 1311, in expect
+    return self.expect_list(compiled_pattern_list, timeout, searchwindowsize)
+  File "../../../lib/py/pexpect.py", line 1325, in expect_list
+    return self.expect_loop(searcher_re(pattern_list), timeout, searchwindowsize)
+  File "../../../lib/py/pexpect.py", line 1398, in expect_loop
+    raise EOF (str(e) + '\n' + str(self))
+EOF: End Of File (EOF) in read_nonblocking(). Exception style platform.
+<pexpect.spawn object at 0x897dfcc>
+version: 2.3 ($Revision: 1.4 $)
+command: /usr/kerberos/bin/telnet
+args: ['/usr/kerberos/bin/telnet', '-E', '-8', 'ganga']
+searcher: searcher_re:
+    0: re.compile("[Pp]assword:")
+    1: re.compile("[
+]NG40.sgsn>\s")
+    2: re.compile("[
+]NG40.rnc>\s")
+    3: re.compile("--- more ---")
+    4: re.compile("([
+]vpn>\s|[
+]%\s)")
+    5: re.compile("[Uu]sername: $")
+    6: re.compile("linux\-test#\s$")
+    7: re.compile("[
+]Press c and <enter> to continue and stop the previous test or any other input and <enter> to terminate:")
+buffer (last 100 chars): 
+before (last 100 chars): exit
+logout
+[H[2JConnection closed by foreign host.
+
+after: <class 'pexpect.EOF'>
+match: None
+match_index: None
+exitstatus: 1
+flag_eof: True
+pid: 15560
+child_fd: 7
+closed: False
+timeout: 10
+delimiter: <class 'pexpect.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.1
+delayafterclose: 0.1
+delayafterterminate: 0.1
+

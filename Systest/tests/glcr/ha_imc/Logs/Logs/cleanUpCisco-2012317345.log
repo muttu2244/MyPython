@@ -1,0 +1,27 @@
+03:45:35 : TEST    : ##################################################
+03:45:35 : TEST    : Python Version: Python 2.5
+03:45:35 : TEST    : ##################################################
+03:45:35 : TEST    : ##################################################
+03:45:35 : TEST    : test_cleanUpCisco
+03:45:35 : TEST    : ##################################################
+03:45:35 : INFO    : 
+#######################################################################
+#
+# Copyright (c) Stoke, Inc.
+# All Rights Reserved.
+#
+# This code is confidential and proprietary to Stoke, Inc. and may only
+# be used under a license from Stoke.
+#
+#######################################################################
+
+DESCRIPTION: This script is used to cleanup all the cisco interfaces which are used in test topology.
+TEST MATRIX: 
+TEST CASE  : NA
+TOPOLOGY   : GLC-R Setup with host connected behind Initiator.
+
+HOW TO RUN : python2.5 cleanUpCisco.py
+AUTHOR     : rajshekar@stoke.com
+REVIEWER   : 
+
+03:45:35 : OUTPUT  : Trying to connect to CISCO host c4900m-15-con 

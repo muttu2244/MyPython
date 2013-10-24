@@ -1,0 +1,27 @@
+04:14:20 : TEST    : ##################################################
+04:14:20 : TEST    : Python Version: Python 2.5
+04:14:20 : TEST    : ##################################################
+04:14:20 : TEST    : ##################################################
+04:14:20 : TEST    : test_setUpCisco
+04:14:20 : TEST    : ##################################################
+04:14:20 : INFO    : 
+#######################################################################
+#
+# Copyright (c) Stoke, Inc.
+# All Rights Reserved.
+#
+# This code is confidential and proprietary to Stoke, Inc. and may only
+# be used under a license from Stoke.
+#
+#######################################################################
+
+DESCRIPTION: This script is used to setup all the cisco interfaces which are used in test topology.
+TEST MATRIX: 
+TEST CASE  : NA
+TOPOLOGY   : GLC-R Setup with IXIA Connectivity
+
+HOW TO RUN : python2.5 setUpCisco.py <route-Y/N>
+AUTHOR     : rajshekar@stoke.com
+REVIEWER   : 
+
+04:14:20 : OUTPUT  : Trying to connect to CISCO host c4900m-15-con 
