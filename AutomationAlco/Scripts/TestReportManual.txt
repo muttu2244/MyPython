@@ -1,0 +1,19 @@
+1) Port Change: Any 5 digit port number is working.. 
+
+2) Changing the ipaddress ---- data is not going , working correctly
+
+2) ADT(Create New Patient), OMG(Create Order), and SIU(Order Schedule ) msg flow is proper between EMR and Gateway
+
+3) ORU msg flow is proper between EMR and Gateway
+
+4) ADT(Modify Patient is working correctly)
+
+5) ADT(Merge Patient is working correctly)
+
+6) TCP Stop Service: Data is not going, working correctly
+
+7) Gateway: Start-Stop-Start TCP ... data not being sent
+
+8) Gateway Configuration: With Old Configuration of port 21213, instead of 21212, the Modify patient data not being generated, Gateways transaction not happening
+
+9) 

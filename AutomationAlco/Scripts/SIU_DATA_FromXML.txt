@@ -1,0 +1,24 @@
+['SIUS12', None, 'MSH', None, 'MSH.1', '|', 'MSH.2', '^~\\&', 'MSH.3', None, 
+
+'EI.1', 'EPIC', 'MSH.4', None, 'EI.1', 'EPICADT', 'MSH.5', None, 'EI.1', 'SMS', 
+
+'MSH.6', None, 'EI.1', 'SMSADT', 'MSH.9', None, 'CM_MSH.1', 'SIU', 'CM_MSH.2', 'S12', 
+
+'MSH.10', '1817457', 'MSH.11', None, 'PT.1', 'D', 'MSH.12', '2.3', 'SCH', None, 'SCH.1', 
+
+None, 'EI.1', '192495352', 'SCH.5', None, 'CE.2', 'EVO17712762', 'SCH.11', None, 
+
+'TQ.4', '20160928120000', 'TQ.5', '20160928062520', 'NTE', None, 'NTE.2', 'NTE Comments', 'SIUS12.PATIENT', None, 
+
+'PID', None, 'PID.1', '12114', 'PID.3', None, 'CX.1', 'PC65480470', 'PID.5', None, 
+
+'XPN.1', 'chopra', 'XPN.2', 'priyanka', 'XPN.3', 't', 'PID.7', '20160808120000', 'PID.8', 'M', 
+
+'PID.11', None,'XAD.1', 'bangalore', 'PID.19', '984487127', 'PV1', None, 'PV1.2', 'O', 
+
+'PV1.7', None, 'XCN.2', 'Kiran', 'XCN.3', 'Madhu', 'PV1.10', 'SUR', 'PV1.14', 'ADM', 
+
+'PV1.15', 'AO', 'SIUS12.RESOURCES', None, 'RGS', None, 'RGS.1', '123', 'SIUS12.LOCATION_RESOURCE', None, 
+
+'AIL', None, 'AIL.6', None, 'SIUS12.PERSONNEL_RESOURCE',
+None, 'AIP', None, 'AIP.6', None]

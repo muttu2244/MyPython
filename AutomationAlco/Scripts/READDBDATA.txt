@@ -1,0 +1,467 @@
+['ORUR01', None, 'MSH', None, 'MSH.1', '|', 'MSH.2', '^~\\&', 'MSH.3', None, 
+
+'EI.1', 'Sending App', 'MSH.4', None, 'EI.1', 'SendingFacility', 'MSH.5', None, 'EI.1', 'Receiving App', 
+
+'MSH.6', None, 'EI.1', 'ReceivingFacility', 'MSH.7', '20161006103325', 'MSH.9', None, 'CM_MSH.1', 'ORU', 
+
+'CM_MSH.2', 'R01', 'MSH.10', '2016100610332533', 'MSH.11', None, 'PT.1', 'P', 'MSH.12', '2.5.1', ----------39
+
+'ORUR01.PATIENT_RESULT', None, 'ORUR01.PATIENT', None, 'PID', None, 'PID.2', None, 'CX.1', 'PC94814658', 
+
+'PID.3', None, 'CX.1', 'PC94814658', 'PID.4', None, 'CX.1', 'PC94814658', 'PID.5',
+
+ None, 'XPN.1', 'priyanka', 'XPN.2', 'chopra', 'PID.7', '19900008', 'PID.8', 'F', 'PID.11', 
+
+None, 'XAD.1', 'bangalore', 'XAD.2', None, 'XAD.3', None,'XAD.4', None, 'XAD.5', --------------------------78
+
+
+'USA', 'ORUR01.ORDER_OBSERVATION', None, 'ORC', None, 'ORC.1', 'NW', 'ORC.2', None, 'EI.1', --------------88
+
+None, 'EI.2', None, 'ORC.12', None, 'XCN.1', None, 'XCN.2', None, 'XCN.3', 	-----------------------98
+
+None, 'XCN.7', None, 'OBR', None, 'OBR.2', None,'EI.1', None, 'EI.2', 
+
+None, 'OBR.4', None, 'CE.1', None, 'CE.2', None, 'CE.3',None, 'OBR.7', ------------------118
+
+'19010001', 'OBR.16', None, 'XCN.1', None, 'XCN.2', None, 'XCN.3', None, 'XCN.7', 
+
+None, 'OBR.25', 'F', 'ORUR01.OBSERVATION', None, 'OBX', None, --------------------------135
+
+
+136
+'OBX.1', '1', 'OBX.2', 
+
+'ST', 'OBX.3', None, 'CE.1', 'Keratometry Type', 'CE.2', 'Keratometry Type', 'CE.3', None, 'OBX.5', -----------148
+
+'Manual Ks', 'OBX.11', 'F', 'OBX', None, ---153
+
+
+154-173
+'OBX.1', '2', 'OBX.2', 'ST', 'OBX.3', 
+
+None, 'CE.1', 'Flat K', 'CE.2', 'Flat K', 'CE.3', None, 'OBX.5', '25', 'OBX.6', 
+
+'mm','OBX.7', '20-80', 'OBX', None, 
+
+174-193
+'OBX.1', '3', 'OBX.2', 'NM', 'OBX.3', 
+
+None, 'CE.1', 'Steep K', 'CE.2', 'Steep K','CE.3', None, 'OBX.5', '25', 'OBX.6', 
+
+'mm', 'OBX.7', '20-80', 'OBX', None, 
+
+
+194-213
+'OBX.1', '4', 'OBX.2', 'NM', 'OBX.3', ----------------------------199
+
+None, 'CE.1', 'Steep Axis', 'CE.2', 'Steep Axis', 'CE.3', None, 'OBX.5', '23', 'OBX.6', 
+
+'mm', 'OBX.7', '0-180', 'OBX', None, 
+
+
+214-233
+'OBX.1', '5', 'OBX.2', 'NM', 'OBX.3', 
+
+None, 'CE.1', 'Target Refraction', 'CE.2', 'Target Refraction', 'CE.3', None, 'OBX.5', '1', 'OBX.6', 
+
+'mm', 'OBX.7', '-5.0 to + 2.0', 'OBX', None, 
+
+
+234-253
+
+'OBX.1', '6', 'OBX.2', 'NM', 'OBX.3', 
+
+None, 'CE.1', 'WhiteTo White', 'CE.2', 'White To White', 'CE.3', None, 'OBX.5', '15', 'OBX.6', -------249
+
+'mm', 'OBX.7', '5.0 to + 2.0', 'OBX', None, 
+
+
+
+
+254-273
+
+'OBX.1', '7','OBX.2', 'NM', 'OBX.3', 
+
+None, 'CE.1', 'Axial Length', 'CE.2', 'Axial Length', 'CE.3', None, 'OBX.5', '18','OBX.6', 
+
+'mm', 'OBX.7', '15.0-40.0', 'OBX', None, 
+
+274-289
+
+'OBX.1', '8', 'OBX.2', 'ST','OBX.3', 
+
+None, 'CE.1', 'Lens ID', 'CE.2', 'Lens ID', 'CE.3', None, 'OBX.5', '89', 'OBX', None, 
+
+
+
+290--305
+'OBX.1', '9', 'OBX.2', 'ST', 'OBX.3', None, 'CE.1', 'Lens Manuf','CE.2', 'Lens Manuf', --------300
+
+'CE.3', None, 'OBX.5', '28', 'OBX', None, 
+
+306--321
+
+'OBX.1', '10','OBX.2', 'ST', 
+
+'OBX.3', None, 'CE.1', 'Lens Model', 'CE.2', 'Lens Model', 'CE.3', None, 'OBX.5', '89', 
+
+'OBX', None, 
+
+
+322-337
+'OBX.1', '11', 'OBX.2', 'ST', 'OBX.3', None,'CE.1', 'IOL power calculation formula', 
+
+'CE.2', 'IOL power calculation formula', 'CE.3',None, 'OBX.5', 'SRK/T', 'OBX', None, 
+
+
+338-353
+'OBX.1', '12', 
+
+'OBX.2', 'ST', 'OBX.3', None, 'CE.1', 'Predicted refraction', 'CE.2', 'Predicted refraction', 'CE.3', None, ----350
+
+'OBX.5', '45', 'OBX', None, 
+
+
+354-369
+
+'OBX.1', '13', 'OBX.2', 'ST', 'OBX.3', None, 
+
+'CE.1', 'REF', 'CE.2', 'REF', 'CE.3', None, 'OBX.5', '56', 'OBX', None, 
+
+
+370-383
+'OBX.1', '14', 'OBX.2', 'ST', 'OBX.3', None, 'CE.1', 'XRAY', 'CE.2', 'XRAY', 'CE.3', None, 'OBX.5', '\\\\d-184003994\\Shared\\5.jpg']
+
+
+
+
+
+['|', '^~\\&', 'Sending App', 'SendingFacility', 'Receiving App', 'ReceivingFacility', '20161006103325', 'ORU', 'R01', '2016100610332533', 'P', 
+
+'2.5.1', None, 'PC94814658', 'PC94814658', 'chopra', 'priyanka', '19900008', 'F', 'bangalore', 'NW',
+
+None, 'None', None, None, None, None, None, '19010001', 'None', 'F', 
+
+'None', 
+
+'1', None, 'Keratometry Type', 'Keratometry Type', 'Manual Ks', 'F', 
+
+'2', 'ST', 'Flat K', 'Flat K', '25', 'None', 
+
+'3', 'NM', 'Steep K', 'Steep K', '25', 'None', 
+
+'4', 'NM', 'Steep Axis', 'Steep Axis', '23', 'None', 
+
+'5', 'NM', 'Target Refraction', 'Target Refraction', '1', 'None', 
+
+'6', 'NM', 'White To White', 'White To White', '15', 'None', 
+
+'7', 'NM', 'Axial Length', 'Axial Length', '18', 'None',
+
+'8', 'ST', 'Lens ID', 'Lens ID', '89', 'None', 
+
+'9', 'ST', 'Lens Manuf', 'Lens Manuf', '28', 'None', 
+
+'10', 'ST', 'Lens Model', 'Lens Model', '89', 'None', 
+
+'11','ST', 'IOL power calculation formula', 'IOL power calculation formula', 'SRK/T','None', 
+
+'12', 'ST', 'Predicted refraction', 'Predicted refraction', '45', 'None', 
+
+'13', 'ST', 'REF', 'REF', '56', 'None', 
+
+'14', 'ST', 'XRAY', 'XRAY', '\\\\d-184003994\\Shared\\5.jpg', 'None']
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+['OMGO19', None, 'MSH', None, 'MSH.1', '|', 'MSH.2', '^~\\&', 'MSH.3', None, 'EI.1', 
+
+'EPIC', 'MSH.4', None, 'EI.1', 'EPICADT', 'MSH.5', None, 'EI.1', 'SMS', 'MSH.6', 
+
+None, 'EI.1', 'SMSADT', 'MSH.9', None, 'CM_MSH.1', 'OMG', 'CM_MSH.2', 'O19', 'MSH.10', 
+
+'2016100404173717', 'MSH.11', None, 'PT.1', 'D', 'MSH.12', '2.3', 'MSH.17', '840', 'OMGO19.PATIENT', 
+
+None, 'PID', None, 'PID.1', '13131', 'PID.2',None, 'CX.1', 'PC81133865', 'PID.3', 
+
+None, 'CX.1', 'PC81133865', 'PID.5', None,'XPN.1', 'chopra', 'XPN.2', 'priyanaka', 'PID.7', 
+
+'19900808120000', 'PID.11', None, 'PID.19', '984487127', 'OMGO19.PATIENT_VISIT', None, 'PV1', None, 'PV1.1', 
+
+'13131', 'PV1.2', 'O', 'PV1.7', None, 'XCN.2', 'Hemalatha', 'XCN.3', 's', 'PV1.10', 
+
+'SUR', 'PV1.14', 'ADM', 'PV1.15', 'AO', 'PV1.44', '20161004041737', 'OMGO19.ORDER', None, 'ORC', 
+
+None, 'ORC.1', 'NW', 'ORC.2', None, 'EI.1', 'JMI35719994', 'ORC.12', None, 'XCN.2', 
+
+'s', 'XCN.3', 'Hemalatha', 'OBR', None, 'OBR.1', '1', 'OBR.2', None, 'EI.1', 
+
+'JMI35719994', 'OBR.4', None, 'CE.1', '101', 'CE.2', 'Visual field Test', 'OBR.6', '20161004000000', 'OBR.7', 
+
+'20160929000000', 'OBR.16', None, 'XCN.2', 's', 'XCN.3', 'Hemalatha']
+
+
+
+
+
+
+
+['SIUS12', None, 'MSH', None, 'MSH.1', '|', 'MSH.2', '^~\\&', 'MSH.3', None, 'EI.1', 
+
+'EPIC', 'MSH.4', None, 'EI.1', 'EPICADT', 'MSH.5', None, 'EI.1', 'SMS', 'MSH.6', 
+
+None, 'EI.1', 'SMSADT', 'MSH.9', None, 'CM_MSH.1', 'SIU', 'CM_MSH.2', 'S12', 'MSH.10', 
+
+'2016100404175917', 'MSH.11', None, 'PT.1', 'D', 'MSH.12', '2.3', 'MSH.17', '840', 'SCH', 
+
+None, 'SCH.1', None, 'EI.1', '55444785', 'SCH.5', None, 'CE.2', 'XOI91904619', 'SCH.11', 
+
+None, 'TQ.4', '20160929120000', 'TQ.5', '20161004054759', 'NTE', None, 'NTE.2', 'NTE Comments', 'SIUS12.PATIENT', 
+
+None, 'PID', None, 'PID.1', '13131', 'PID.3', None, 'CX.1', 'PC81133865', 'PID.5', 
+
+None, 'XPN.1', 'chopra', 'XPN.2', 'priyanaka', 'XPN.3', 't', 'PID.7', '19900808120000', 'PID.8', 
+
+'M', 'PID.11', None, 'XAD.1', 'bangalore', 'PID.19', '984487127', 'PV1', None, 'PV1.2', 
+
+'O', 'PV1.7', None, 'XCN.2', 's', 'XCN.3', 'Hemalatha', 'PV1.10','SUR', 'PV1.14', 
+
+'ADM', 'PV1.15', 'AO', 'SIUS12.RESOURCES', None, 'RGS', None, 'RGS.1', '123', 'SIUS12.LOCATION_RESOURCE', 
+
+None, 'AIL', None, 'AIL.6', None, 'SIUS12.PERSONNEL_RESOURCE', None, 'AIP', None, 'AIP.6', None]
+
+
+
+
+
+
+
+['ADTA01', None, 'MSH', None, 'MSH.1', '|', 'MSH.2', '^~\\&', 'MSH.3', None, 
+
+'EI.1', 'ALCONEMR', 'MSH.4', None, 'EI.1', 'A1044', 'MSH.5', None, 'EI.1', 'GatewayDB', 
+
+'MSH.6', None, 'EI.1', 'GT1234', 'MSH.7', '20161006053800', 'MSH.9', None,'CM_MSH.1', 'ADT', 
+
+'CM_MSH.2', 'A01', 'MSH.10', '2016100605382638', 'MSH.11', None, 'PT.1', 'D', 'MSH.12', '2.5.1', 
+
+'MSH.17', '840', 'EVN', None, 'EVN.1', 'A01', 'EVN.2', '20161006053800', 'EVN.6', '20161006053800', 
+
+'PID', None, 'PID.1', '1', 'PID.3', None, 'CX.1', 'AK13390391', 'PID.5', None, 
+
+'XPN.1', 'Khan', 'XPN.2','Amir', 'XPN.3', 'A', 'PID.7', '19850808120000', 'PID.8', 'M', 
+
+'PID.11', None,'XAD.1', 'chennai', 'PID.19', '673421768', 'PV1', None, 'PV1.1', '13148', 
+
+'PV1.2', 'O', 'PV1.7', None, 'XCN.2', 'John', 'XCN.3', 'Sonia', 'XCN.4', 'S', 
+
+'PV1.10', 'SUR', 'PV1.14', 'ADM', 'PV1.15', 'AO', 'PV1.44', '20161006053800']
+
+
+
+
+['OMGO19', None, 'MSH', None, 'MSH.1', '|', 'MSH.2', '^~\\&', 'MSH.3', None, 
+
+'EI.1', 'ALCONEMR', 'MSH.4', None, 'EI.1', 'A1044', 'MSH.5', None, 'EI.1', 'GatewayDB', 
+
+'MSH.6', None, 'EI.1', 'GT1234', 'MSH.7', '20161006055300', 'MSH.9', None,'CM_MSH.1', 'OMG', 
+
+'CM_MSH.2', 'O19', 'MSH.10', '2016100605530853', 'MSH.11', None, 'PT.1', 'D', 'MSH.12', '2.5.1',
+
+'MSH.17', '840', 'OMGO19.PATIENT', None, 'PID', None, 'PID.1', '1', 'PID.2', None, 
+
+'CX.1', 'AK13390391', 'PID.3', None, 'CX.1', 'AK13390391', 
+
+'PID.5', None, 'XPN.1', 'Khan',
+
+'XPN.2', 'Amir', 'PID.7', '19850808120000', 'PID.11', None, 'PID.19', '673421768', 'OMGO19.PATIENT_VISIT', None, ----------69
+
+'PV1', None, 'PV1.1', '1', 'PV1.2', 'O', 'PV1.7', None, 'XCN.2', 'Alex', 
+
+'XCN.3', 'Roi', 'PV1.10', 'SUR', 'PV1.14', 'ADM', 'PV1.15', 'AO', 'PV1.44', '20161006055308', 
+
+'OMGO19.ORDER', None, 'ORC', None, 'ORC.1', 'NW', 'ORC.2', None, 'EI.1', 'IJX31777853', 
+
+'ORC.12', None, 'XCN.2', 'Roi', 'XCN.3', 'Alex', 'OBR', None,
+'OBR.1', '1', ------------------109
+
+'OBR.2', None, 'EI.1', 'IJX31777853', 'OBR.4', None, 'CE.1', '101', 'CE.2', 'Visual field Test', 
+
+'OBR.6', '20161006000000', 'OBR.7', '20161006000000', 'OBR.16', None, 'XCN.2', 'Roi', 'XCN.3', 'Alex']
+
+
+
+
+
+['|', '^~\\&', 'ALCONEMR', 'A1044', 'GatewayDB', 'GT1234', '20161006055300', 'OMG', 'O19', '2016100605530853', 
+
+'D', '2.5.1', '1', 'AK13390391', 'AK13390391', 'Khan', 'Amir', '19850808120000', 'None', 'None', 
+
+'NW', 'IJX31777853', 'None', 'Roi', 'Alex', 'IJX31777853', '101', 'Visual field Test', '20161006000000', 'None',
+
+ 'None', 'None', '1', 'O', 'Alex', 'Roi', 'None', 'SUR', 'ADM', 'AO', 
+
+'20161006055308', 'None', 'None']
+
+
+
+
+
+
+['SIUS12', None, 'MSH', None, 'MSH.1', '|', 'MSH.2', '^~\\&', 'MSH.3', None, 
+
+'EI.1', 'ALCONEMR', 'MSH.4', None, 'EI.1', 'A1044', 'MSH.5', None, 'EI.1', 'GatewayDB', 
+
+'MSH.6', None, 'EI.1', 'GT1234', 'MSH.7', '20161006055400', 'MSH.9', None,'CM_MSH.1', 'SIU', 
+
+'CM_MSH.2', 'S12', 'MSH.10', '2016100605540054', 'MSH.11', None, 'PT.1', 'D', 'MSH.12', '2.5.1', ------------39
+
+'MSH.17', '840', 'SCH', None, 'SCH.1', None,'EI.1','200763237', 'SCH.5', None, 
+
+'CE.2', 'YAX93134632', 'SCH.11', None, 'TQ.4', '20161006120000', 'TQ.5', '20161006072400', 'NTE', None, 
+
+'NTE.2', 'NTE Comments', 'SIUS12.PATIENT', None, 'PID', None, 'PID.1', '1', 'PID.3', None, 
+
+'CX.1','AK13390391', 'PID.5', None, 'XPN.1', 'Khan', 'XPN.2', 'Amir', 'XPN.3', 'A', 
+
+'PID.7', '19850808120000', 'PID.8', 'M', 'PID.11', None, 'XAD.1', 'chennai', 'PID.19', '673421768', ----89
+
+'PV1', None, 'PV1.2', 'O', 'PV1.7', None, 'XCN.2', 'Roi', 'XCN.3', 
+
+'Alex', 'PV1.10', 'SUR', 'PV1.14', 'ADM', 'PV1.15', 'AO', 'SIUS12.RESOURCES', None, 'RGS', 
+
+None, 'RGS.1', '123', 'SIUS12.LOCATION_RESOURCE', None, 'AIL', None, 'AIL.6', '20161006055400', 'SIUS12.PERSONNEL_RESOURCE', 
+
+None, 'AIP', None, 'AIP.6', '20161006120000']
+
+
+'|', '^~\\&', 'ALCONEMR', 'A1044', 'GatewayDB', 'GT1234', '20161006055400', None, 'SIU', 'S12', 
+
+None, 'D', None, None, 'Khan', 'A', '19850808120000', None, None, None, 
+
+'None', None, '20161006120000', 'None', 'None', None, None, 'Roi', 'None', 'Alex', 
+
+'SUR', 'ADM', 'None', 'None', 'None', 'None', 'None'
+
+
+
+['ORUR01', None, 'MSH', None, 'MSH.1', '|', 'MSH.2', '^~\\&', 'MSH.3', None, 'EI
+.1', 'Sending App', 'MSH.4', None, 'EI.1', 'SendingFacility', 'MSH.5', None, 'EI
+.1', 'Receiving App', 'MSH.6', None, 'EI.1', 'ReceivingFacility', 'MSH.7', '2016
+1008013736', 'MSH.9', None, 'CM_MSH.1', 'ORU', 'CM_MSH.2', 'R01', 'MSH.10', '201
+6100801373637', 'MSH.11', None, 'PT.1', 'P', 'MSH.12', '2.5.1', 'ORUR01.PATIENT_
+RESULT', None, 'ORUR01.PATIENT', None, 'PID', None, 'PID.2', None, 'CX.1', 'YR83719722', 'PID.3',
+
+None, 'CX.1', 'YR83719722', 'PID.4', None, 'CX.1', 'YR83719722
+', 'PID.5', None, 'XPN.1', 'yash', 'XPN.2', 'Rocks', 'PID.7', '19780019', 'PID.8
+', 'M', 'PID.11', None, 'XAD.1', 'kolkatta', 'XAD.2', None, 'XAD.3', None, 'XAD.
+4', None, 'XAD.5', 'USA', 'ORUR01.ORDER_OBSERVATION', None, 'ORC', None, 'ORC.1'
+, 'NW', 'ORC.2', None, 'EI.1', 'MEP47478109', 
+'EI.2', 'MEP47478109', 'ORC.12', N
+one, 'XCN.1', 'KiranRao', 'XCN.2', None, 'XCN.3', None,'XCN.7',
+
+None, 'OBR', None, 'OBR.2', None, 'EI.1', 'MEP47478109', 'EI.2', 'MEP47478109', 'OBR.4', None,
+'CE.1', None, 'CE.2', None, 'CE.3', None, 'OBR.7', '19010001', 'OBR.16', None, '
+XCN.1', 'KiranRao', 'XCN.2', None, 'XCN.3', None, 'XCN.7', None, 'OBR.25', 'F',
+'ORUR01.OBSERVATION', None, 'OBX', None, 'OBX.1', '1', 'OBX.2', 'ST', 'OBX.3', None, 'CE.1', 'Keratometry Type', 'CE.2', 'Keratometry Type', 'CE.3', None, 'OBX.5', 'Manual Ks', 
+
+
+'OBX.11', 'F', 'OBX', None, 'OBX.1', '2', 'OBX.2', 'ST', 'OBX.3
+', None, 'CE.1', 'Flat K', 'CE.2', 'Flat K', 'CE.3', None, 'OBX.5', '25', 'OBX.6
+', 'mm', 'OBX.7', '20-80', 'OBX', None, 'OBX.1', '3', 'OBX.2', 'NM', 'OBX.3', No
+ne, 'CE.1', 'Steep K', 'CE.2', 'Steep K', 'CE.3', None, 'OBX.5', '25', 'OBX.6','mm', 'OBX.7', '20-80', 'OBX', None, 'OBX.1', '4', 'OBX.2', 'NM', 'OBX.3', None,
+
+
+ 'CE.1', 'Steep Axis', 'CE.2', 'Steep Axis', 'CE.3', None, 'OBX.5', '29', 'OBX.6
+', 'mm', 'OBX.7', '0-180', 'OBX', None, 'OBX.1', '5', 'OBX.2', 'NM', 'OBX.3', No
+ne, 'CE.1', 'Target Refraction', 'CE.2', 'Target Refraction', 'CE.3', None, 'OBX
+.5', '1', 'OBX.6', 'mm', 'OBX.7', '-5.0 to + 2.0', 'OBX', None, 'OBX.1', '6', 'O
+BX.2', 'NM', 'OBX.3', None, 'CE.1', 'White To White', 'CE.2', 'White To White',
+'CE.3', None, 'OBX.5', '15', 'OBX.6', 'mm', 'OBX.7', '5.0 to + 2.0', 'OBX', None
+, 'OBX.1', '7', 'OBX.2', 'NM', 'OBX.3', None, 'CE.1', 'Axial Length', 'CE.2', 'A
+xial Length', 'CE.3', None, 'OBX.5', '32', 'OBX.6', 'mm', 'OBX.7', '15.0-40.0',
+'OBX', None, 'OBX.1', '8', 'OBX.2', 'ST', 'OBX.3', None, 'CE.1', 'Lens ID', 'CE.
+2', 'Lens ID', 'CE.3', None, 'OBX.5', '28', 'OBX', None, 'OBX.1', '9', 'OBX.2',
+'ST', 'OBX.3', None, 'CE.1', 'Lens Manuf', 'CE.2', 'Lens Manuf', 'CE.3', None, '
+OBX.5', '91', 'OBX', None, 'OBX.1', '10', 'OBX.2', 'ST', 'OBX.3', None, 'CE.1',
+'Lens Model', 'CE.2', 'Lens Model', 'CE.3', None, 'OBX.5', '178', 'OBX', None, '
+OBX.1', '11', 'OBX.2', 'ST', 'OBX.3', None, 'CE.1', 'IOL power calculation formu
+la', 'CE.2', 'IOL power calculation formula', 'CE.3', None, 'OBX.5', 'Olsen', 'O
+BX', None, 'OBX.1', '12', 'OBX.2', 'ST', 'OBX.3', None, 'CE.1', 'Predicted refra
+ction', 'CE.2', 'Predicted refraction', 'CE.3', None, 'OBX.5', '93', 'OBX', None
+, 'OBX.1', '13', 'OBX.2', 'ST', 'OBX.3', None, 'CE.1', 'REF', 'CE.2', 'REF', 'CE
+.3', None, 'OBX.5', '73', 'OBX', None, 'OBX.1', '14', 'OBX.2', 'ST', 'OBX.3', No
+ne, 'CE.1', 'XRAY', 'CE.2', 'XRAY', 'CE.3', None, 'OBX.5', '\\\\d-184003994\\Sha
+red\\Hl7Sample.jpg']
+
+
+
+['|', '^~\\&', 'Sending App', 'SendingFacility', 'Receiving App', 'ReceivingFaci
+lity', '20161008013736', 'ORU', 'R01', '2016100801373637', 'P', 
+
+'2.5.1', None, '
+YR83719722', 'YR83719722', 'Rocks', 'yash', '19780019', 'M', 'kolkatta', 'NW', 
+
+'
+MEP47478109', 'None', 'KiranRao', None, 'MEP47478109', None, None, '19010001', '
+None', 'F', 'None', 
+
+'1', None, 'Keratometry Type', 'Keratometry Type', 'Manual Ks', 'F', '2', 'ST', 'Flat K', 'Flat K', '25', 'None', '3', 'NM', 'Steep K', 'Ste
+ep K', '25', 'None', '4', 'NM', 'Steep Axis', 'Steep Axis', '29', 'None', '5', '
+NM', 'Target Refraction', 'Target Refraction', '1', 'None', '6', 'NM', 'White To
+ White', 'White To White', '15', 'None', '7', 'NM', 'Axial Length', 'Axial Lengt
+h', '32', 'None', '8', 'ST', 'Lens ID', 'Lens ID', '28', 'None', '9', 'ST', 'Len
+s Manuf', 'Lens Manuf', '91', 'None', '10', 'ST', 'Lens Model', 'Lens Model', '1
+78', 'None', '11', 'ST', 'IOL power calculation formula', 'IOL power calculation
+ formula', 'Olsen', 'None', '12', 'ST', 'Predicted refraction', 'Predicted refra
+ction', '93', 'None', '13', 'ST', 'REF', 'REF', '73', 'None', '14', 'ST', 'XRAY'
+, 'XRAY', '\\\\d-184003994\\Shared\\Hl7Sample.jpg', 'None']
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

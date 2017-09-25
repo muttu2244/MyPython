@@ -1,0 +1,10 @@
+1) Installers Needed:
+	Python Package 2.7.2 : https://www.python.org/downloads/
+	HL7 Python Module: https://pypi.python.org/pypi/hl7 (SitePackages)
+	SQL ServerPy module: https://pypi.python.org/pypi/pyodbc
+(LIB)
+	UI PywinAuto module: (SitePackages)
+https://pypi.python.org/pypi/pywinauto/0.5.4
+
+2) Run test_suite.py 
+	on your command prompt run : python test_suite.py 
