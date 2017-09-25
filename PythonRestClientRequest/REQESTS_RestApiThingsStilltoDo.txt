@@ -1,0 +1,31 @@
+1) api: All rest api test impmentations  (get, put, post, delete)
+2) Authorizations : http basicAuth, httpDigestAuth, httpProxyAuth, 
+3) TransportAdapters: HttpAdapters (Number of connections, max retries for each connection etc)
+4) Certificates: default CA certificate bundle
+5) Compat: Comaptibility with python2 and python3
+6) Cookies: 
+7) exceptions: request exceptions, httpError, ConnectionError, proxyErr, SSLErr, Timeout, missingSchema, InvalidSchema, InvalidUrl
+	Invalid Headers, Encoding err, decoding err, retryErr, 
+8) Models: UrlPath, encodeParmas, paramhttpMethod, paramheaders, paramfiles, paramData, ParamJson, ParamAuth, Paramcookies
+	body, conentLength, 
+9) Sessions: redirects, rebuildauth, rebuildproxies, 
+10)StatusCodes: 
+11) utils: utility funcs, 
+
+
+FEATURES with Requests
+
+International Domains and URLs
+Keep-Alive & Connection Pooling
+Sessions with Cookie Persistence
+Browser-style SSL Verification
+Basic/Digest Authentication
+Elegant Key/Value Cookies
+Automatic Decompression
+Unicode Response Bodies
+Multipart File Uploads
+Connection Timeouts
+.netrc support
+List item
+Python 2.6—3.4
+Thread-safe.

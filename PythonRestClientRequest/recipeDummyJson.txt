@@ -1,0 +1,48 @@
+{"Recipe":
+	{"Steps":
+		[{"Comment":"Comment goes here",
+		  "Criteria1Operator":">=",
+		  "Phase":"0",
+		  "ActionCode":"XV201 Inlet S1.1 Open",
+		  "Label":"1",
+		  "ParameterScope":"",
+		  "Criteria1Value":"0",
+		  "ActionListName":"Valve Control",
+		  "Criteria2Operator":"<=",
+		  "ActionValue":"1",
+		  "StepNumber":"2",
+		  "Criteria2Code":"Total Time",
+		  "ParameterTab":"",
+		  "Criteria2Value":"10",
+		  "Criteria1Code":"Total Time",
+		  "Boolean":"OR"},
+
+	
+		{"Comment":"Comment goes here",
+		"Criteria1Operator":">=",
+		"Phase":"0",
+		"ActionCode":"XV201 Inlet S1.1 Open",
+		"Label":"1",
+		"ParameterScope":"",
+		"Criteria1Value":"0",
+		"ActionListName":"Valve Control",
+		"Criteria2Operator":"<=",
+		"ActionValue":"1",
+		"StepNumber":"3",
+		"Criteria2Code":"Total Time",
+		"ParameterTab":"",
+		"Criteria2Value":"10",
+		"Criteria1Code":"Total Time",
+		"Boolean":"OR"}],
+
+"OperationHeader":
+	{"LastSavedBy":"rre","Comment":"jj_",
+	"Description":"hjfkjfk3",
+	"MachineName":"Mobius Bioreactor",
+	"LastSavedOn":"06\/22\/2016 3:18:47 PM",
+	"ProductIdentification":"Test RRE",
+	"ConfigurationFileName":"Bio_50L_Millipore.cfg"}
+
+}
+
+}

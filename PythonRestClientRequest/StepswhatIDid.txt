@@ -1,0 +1,12 @@
+1) install Python 2.7
+2) install Pycharm
+3) install Python-rest-client
+4) Setup env path for python2.7 
+5) setup env path for python-rest-client
+6) Used the URLs given in the postman for get method
+7) Install PIP
+8) Install requests pkg
+9) Created todo.py and clientCalls.py (test cases)
+10) Run java –jar recipe_services-0.0.1-SNAPSHOT.jar (Web Service) as per Arjun's mail
+11) Was able to access "http://localhost:9010/recipe/recipename" dummy json data (is still getting updated)
+12) installed htmltestrunner for reporting in html and xml formats
