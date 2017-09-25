@@ -1,0 +1,48 @@
+PostMan Setup 
+=============
+Post Man Rest client  - (PostMan - Chrome webstore ) or download chrome app from https://www.getpostman.com/apps
+
+
+PostMan Native App 
+------------------
+Down load the postman navitve app from below URL 
+
+https://www.getpostman.com/apps
+
+
+
+PostMan Features 
+----------------------
+1)REST API service validation
+2)Support JS for test scripts development 
+3)Requests associated with test data can be saved as collections(test suite)
+4)Support collections(test sutie) test run with iterations 
+5)Support exporting of Collections in Json format for external use line CI (Continuos integration)
+6)Support command line execution via NewMan 
+7)console debugging (helpful for crashes debugging ) 
+8)Provides Jenkin support (via NewMan)    
+
+
+
+Request builder 
+------------------
+URL
+
+The URL is the first thing that you would be setting for a request.
+
+Params
+Params button opens up the data editor for entering URL parameters. You can individually add key-value pairs and Postman will combine everything in the query string above
+
+
+Request Body
+
+While constructing requests, you will be working with the request body editor a lot. Postman lets you send almost any kind of HTTP request. The body editor is divided into 4 areas and has different controls depending on the body type
+
+
+Prerequiste
+
+postman.setEnvironmentVariable('timestampheader',newDate());
+
+header - timeStamp  {{timestampheader}}
+
+

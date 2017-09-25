@@ -1,0 +1,25 @@
+1.  US Branching Naming Convention  
+Following format will be followed.
+PI<PI Number>.<Team Name>.<Jama Global ID>-<User Story Name>
+PI Number         : 01 – 99
+Team Name       : Text (32 char)
+Jama Global ID : 0 – 99999
+User Story Name: Text (32 char)
+ 
+Example: PI02.Bhishma.85301-RecipeStepDecomposition
+ 
+No space, only ASCII
+Creation responsibility : Sprint Team Tech Lead.
+Delete (US branch): Sprint Team Tech Lead, with Sprint Team quality feedback.
+ 
+2.              PI Branching Naming Convention
+Following format will be used.
+PI<PI Number>.<Team Name>
+PI Number         : 01 – 99
+Team Name       : Text (32 char)
+ 
+Example: PI02.Bhishma
+ 
+No space, only ASCII
+Creation responsibility : Sprint Team Tech Lead.
+Delete (PI branch): Sprint Team Tech Lead, with Sprint Team quality feedback

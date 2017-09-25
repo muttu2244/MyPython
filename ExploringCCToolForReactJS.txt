@@ -1,0 +1,18 @@
+Searching google with "comparison of code coverage tools for react js jest-enzyme and istambul"
+
+
+Got these results
+
+
+https://ole.michelsen.dk/blog/testing-reactjs-with-coverage-using-mocha-babel-istanbul.html (Mocha + Istambul)
+
+https://github.com/dwyl/learn-react/issues/2 (Jest now includes Istanbul for Test Coverage!)
+
+https://stackoverflow.com/questions/28283371/how-to-get-test-coverage-from-jest-while-testing-react-js-app
+
+https://dzone.com/articles/es2015-code-coverage-and-jest-react-js-unit-testin
+
+
+https://ebaytech.berlin/into-the-great-unknown-migrating-from-mocha-to-jest-3baced083c7e (Important)
+
+https://tech.signavio.com/2017/mocha-jest-config (COmparing Mocha and Jest ------- VERY VERY IMPORTANT)

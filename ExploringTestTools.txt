@@ -1,0 +1,73 @@
+Selenium Webdriver ---- Functional testing of the browsers (Automation of the browser testing)
+		Web Browser Automation
+		Automates browsers
+		End2End testing (Functional)
+		
+
+
+
+Jest ---- 	Java script Unit testing 
+		Tests react native apps
+		Bundled with JSDom to enable DOM testing
+		
+
+
+
+Jest is a testing framework based on Jasmine that adds a few helpful features for testing React-based applications:
+
+A fake DOM
+Support for JSX out of the box
+Auto-mocking of modules
+
+
+
+
+
+
+Enzyme + Mocha is the best combination to test web applications written in ReactJS.
+
+
+
+Functional testing (Unit, Integration, System , Acceptance)
+Non Functional (Performance, security, usability, compatibility)
+
+
+
+
+
+
+Enzyme (http://airbnb.io/enzyme/index.html)
+
+Enzyme is a JavaScript Testing utility for React that makes it easier to assert, manipulate, and traverse your React Components' output.
+
+Enzyme's API is meant to be intuitive and flexible by mimicking jQuery's API for DOM manipulation and traversal.
+
+Enzyme is unopinionated regarding which test runner or assertion library you use, and should be compatible with all major test runners and assertion 
+libraries out there. The documentation and examples for enzyme use mocha and chai, but you should be able to extrapolate to your framework of choice.
+
+If you are interested in using enzyme with custom assertions and convenience functions for testing your React components, you can consider using:
+
+chai-enzyme with Mocha/Chai.
+jasmine-enzyme with Jasmine.
+jest-enzyme with Jest.
+should-enzyme for should.js.
+expect-enzyme for expect.
+
+Jasmine, and QUnit
+
+Karma + Jasmine
+
+
+Enzyme + Mocha is the best combination to test web applications written in ReactJS.
+
+
+Nightwatch.js .... Selenium/Webdriver..... are good for react end to end testing
+
+The main issues are:
+
+how to know when a React based page has finished rendering all its components
+how to know when a React based page a finished re-rerendering some of the components after an update
+how to know AJAX calls are finished (that one I admit might depend on the Ajax library used)
+And all that in a way that is not just about waiting a fixed amount of time hoping everything is ready.
+
+
