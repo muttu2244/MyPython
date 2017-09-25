@@ -1,0 +1,203 @@
+﻿<root>
+    <TargetMainScreen>
+        <trans-unit id="COMM_targetbtn">
+			<english>Target Ranges</english>
+			<german>Zielbereiche</german>
+		</trans-unit>
+        <trans-unit id="COMM_criticalhighbtn">
+			<english>Critical High</english>
+			<german>Kritisch hoch</german>
+		</trans-unit>
+        <trans-unit id="COMM_afterorbtn">
+			<english>After Meal or Overall High</english>
+			<german>Nach dem Essen oder Gesamt hoch</german>
+		</trans-unit>
+		<trans-unit id="COMM_beforefastingmeal">
+			<english>Before Meal or Fasting High</english>
+			<german>Vor dem Essen oder nüchtern hoch</german>
+		</trans-unit>
+		<trans-unit id="COMM_lowbtn">
+			<english>Low</english>
+			<german>Niedrig</german>
+		</trans-unit>
+		<trans-unit id="COMM_criticallowbtn">
+			<english>Critical Low</english>
+			<german>Kritisch niedrig</german>
+		</trans-unit>
+		<trans-unit id="COMM_summarybtn">
+			<english>Summary view</english>
+			<german>Zusammenfassende Ansicht</german>
+		</trans-unit>
+    </TargetMainScreen>
+
+	<TargetRangeSpan>
+		<trans-unit id="COMM_targetbtn">
+			<english>Target Ranges</english>
+			<german>Zielbereiche</german>
+		</trans-unit>
+		<trans-unit id="COMM_targetrangespan">
+			<english>A Target Range is a span of blood sugar values with a lower and upper limit,
+				such as 70 mg/dL to 180 mg/dL. The meter compares your blood sugar results with a
+				target range to let you know if your test result is In, Above or Below your
+				target range.</english>
+			<german>Ein Zielbereich ist ein Bereich von Blutzuckermesswerten mit einem unteren
+				und oberen Grenzwert, z. B. 70 mg/dL bis 180 mg/dL. Das Messgerät vergleicht Ihre
+				Blutzuckermesswerte mit einem Zielbereich und teilt Ihnen mit, ob Ihr Messergebnis im, über dem oder unter Ihrem Zielbereich liegt.</german>
+		</trans-unit>
+	</TargetRangeSpan>
+
+	<TargetRangeSpan1>
+		<trans-unit id="COMM_critihightxt">
+			<english>Your Critical High is the blood sugar value that is dangerously high. You
+				and your healthcare professional can change this value to fit your profile. Note:
+				Your Critical High value must be in the range of 200 mg/dL to 600 mg/dL.</english>
+			<german>Bei „Kritisch hoch“ handelt es sich um den Blutzuckerwert, der gefährlich
+				hoch ist. Sie und Ihr Arzt können diesen Wert entsprechend Ihrem persönlichen Profil ändern. Hinweis: Ihr Wert „Kritisch hoch“ muss im Bereich von 200 mg/dL bis 600 mg/dL liegen.</german>
+		</trans-unit>
+	</TargetRangeSpan1>
+
+	<TargetRangeSpan2>
+		<trans-unit id="COMM_critilowtxt">
+			<english>Your Critical Low is the blood sugar value that is dangerously low. You and
+				your healthcare professional can change this value to fit your profile. Note:
+				Your Critical Low value must be in the range of 20 mg/dL to 70 mg/dL.</english>
+			<german>Bei „Kritisch niedrig“ handelt es sich um den Blutzuckerwert, der gefährlich
+				niedrig ist. Sie und Ihr Arzt können diesen Wert entsprechend Ihrem persönlichen
+				Profil ändern. Hinweis: Ihr Wert „Kritisch niedrig“ muss im Bereich von 20 mg/dL
+				bis 70 mg/dL liegen.</german>
+		</trans-unit>
+	</TargetRangeSpan2>
+
+	<TargetRangeSpan3>
+		<trans-unit id="tooltiptargetranges">
+			<english>Note: There is one Low target value for both Before Meal (&lt;img/&gt;) and
+				After Meal (&lt;img/&gt;) target ranges.</english>
+			<german>Hinweis: Es gibt einen niedrigen Zielwert für die Zielbereiche „Vor dem Essen“
+				(&lt;img/&gt;) und „Nach dem Essen“ (&lt;img/&gt;).</german>
+		</trans-unit>
+	</TargetRangeSpan3>
+
+	<CriticalHigh>
+		<trans-unit id="COMM_criticalhighbtn">
+			<english>Critical High</english>
+			<german>Kritisch hoch</german>
+		</trans-unit>
+	</CriticalHigh>
+
+	<CriticalHighInfo>
+		<trans-unit id="COMM_targetbtn">
+			<english>Target Ranges</english>
+			<german>Zielbereiche</german>
+		</trans-unit>
+		<trans-unit id="COMM_targetrangeselecttxt">
+			<english>When a Target Range is selected, you can tap the (+) to increase the number
+				by 1 mg/dL and tap the (-) to decrease the number by 1 mg/dL.</english>
+			<german>Wenn ein Zielbereich ausgewählt ist, können Sie den Zahlenwert durch Antippen
+				von „+“ um 1 mg/dL anheben und durch Antippen von „-“ um 1 mg/dL senken.</german>
+		</trans-unit>
+		<trans-unit id="tooltipcheckmarkbtn">
+			<english>Once you change a value, an \\\‘X\\\’ and checkmark button appear on the opposite side of the column. Tap the checkmark to save the target value; tap \\\‘X\\\’ to cancel.</english>
+			<german>Sobald Sie einen Wert ändern, erscheinen auf der gegenüberliegenden Seite der Spalte \\\„X\\\“ und ein „Häkchen“. Durch Antippen des Häkchens können Sie den Zielwert speichern; tippen Sie zum Abbrechen auf \\\„X\\\“.</german>
+		</trans-unit>
+	</CriticalHighInfo>
+
+	<OverallHigh>
+		<trans-unit id="COMM_afterorbtn">
+			<english>After Meal or Overall High</english>
+			<german>Nach dem Essen oder Gesamt hoch</german>
+		</trans-unit>
+	</OverallHigh>
+
+	<BeforeMealHigh>
+		<trans-unit id="COMM_beforefastingmeal">
+			<english>Before Meal or Fasting High</english>
+			<german>Vor dem Essen oder nüchtern hoch</german>
+		</trans-unit>
+	</BeforeMealHigh>
+	<AfterMealPopup>
+		<trans-unit id="targetRangePopup2">
+			<english>Your After Meal High and Critical High must be at least 10 mg/dL apart.</english>
+			<german>Einstellungen „Nach dem Essen hoch“ &amp; „Kritisch hoch“ müssen sich um mind. 10 mg/dL	unterscheiden.</german>
+		</trans-unit>
+	</AfterMealPopup>
+	<BeforeMealPopup>
+		<trans-unit id="targetRangePopup1">
+			<english>Your Before Meal High and After Meal High settings are the same.</english>
+			<german>Einstellungen „Vor dem Essen hoch“ &amp; „Nach dem Essen hoch“ sind gleich.</german>
+		</trans-unit>
+	</BeforeMealPopup>
+
+	<Low>
+		<trans-unit id="COMM_lowbtn">
+			<english>Low</english>
+			<german>Niedrig</german>
+		</trans-unit>
+	</Low>
+
+	<LowPopup>
+		<trans-unit id="targetRangePopup31">
+			<english>Your Low and Critical Low must be at least 10 mg/dL apart.</english>
+			<german>Einstellungen für „Niedrig“ &amp; „Kritisch niedrig“ müssen sich um mind. 10 mg/dL unterscheiden.</german>
+		</trans-unit>
+	</LowPopup>
+
+	<CriticalLow>
+		<trans-unit id="COMM_criticallowbtn">
+			<english>Critical Low</english>
+			<german>Kritisch niedrig</german>
+		</trans-unit>
+	</CriticalLow>
+	<SummaryView>
+		<trans-unit id="COMM_summarybtn">
+			<english>Summary view</english>
+			<german>Zusammenfassende Ansicht</german>
+		</trans-unit>
+	</SummaryView>
+
+	<SummarySpan>
+		<trans-unit id="COMM_targetbtn">
+			<english>Target Ranges</english>
+			<german>Zielbereiche</german>
+		</trans-unit>
+		<trans-unit id="COMM_targetrangespan">
+			<english>A Target Range is a span of blood sugar values with a lower and upper limit,
+				such as 70 mg/dL to 180 mg/dL. The meter compares your blood sugar results with a
+				target range to let you know if your test result is In, Above or Below your
+				target range.</english>
+			<german>Ein Zielbereich ist ein Bereich von Blutzuckermesswerten mit einem unteren
+				und oberen Grenzwert, z. B. 70 mg/dL bis 180 mg/dL. Das Messgerät vergleicht Ihre
+				Blutzuckermesswerte mit einem Zielbereich und teilt Ihnen mit, ob Ihr Messergebnis im, über dem oder unter Ihrem Zielbereich liegt.</german>
+		</trans-unit>
+	</SummarySpan>
+
+	<SummarySpan1>
+		<trans-unit id="COMM_critihightxt">
+			<english>Your Critical High is the blood sugar value that is dangerously high. You
+				and your healthcare professional can change this value to fit your profile. Note:
+				Your Critical High value must be in the range of 200 mg/dL to 600 mg/dL.</english>
+			<german>Bei „Kritisch hoch“ handelt es sich um den Blutzuckerwert, der gefährlich
+				hoch ist. Sie und Ihr Arzt können diesen Wert entsprechend Ihrem persönlichen Profil ändern. Hinweis: Ihr Wert „Kritisch hoch“ muss im Bereich von 200 mg/dL bis 600 mg/dL liegen.</german>
+		</trans-unit>
+	</SummarySpan1>
+
+	<SummarySpan2>
+		<trans-unit id="COMM_critilowtxt">
+			<english>Your Critical Low is the blood sugar value that is dangerously low. You and
+				your healthcare professional can change this value to fit your profile. Note:
+				Your Critical Low value must be in the range of 20 mg/dL to 70 mg/dL.</english>
+			<german>Bei „Kritisch niedrig“ handelt es sich um den Blutzuckerwert, der gefährlich
+				niedrig ist. Sie und Ihr Arzt können diesen Wert entsprechend Ihrem persönlichen
+				Profil ändern. Hinweis: Ihr Wert „Kritisch niedrig“ muss im Bereich von 20 mg/dL
+				bis 70 mg/dL liegen.</german>
+		</trans-unit>
+	</SummarySpan2>
+
+	<SummarySpan3>
+		<trans-unit id="tooltiptargetranges">
+			<english>Note: There is one Low target value for both Before Meal (&lt;img/&gt;) and
+				After Meal (&lt;img/&gt;) target ranges.</english>
+			<german>Hinweis: Es gibt einen niedrigen Zielwert für die Zielbereiche „Vor dem Essen“
+				(&lt;img/&gt;) und „Nach dem Essen“ (&lt;img/&gt;).</german>
+		</trans-unit>
+	</SummarySpan3>
+</root>

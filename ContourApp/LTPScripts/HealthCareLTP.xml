@@ -1,0 +1,606 @@
+<root>
+    <HealthCare>
+		<trans-unit id="COMM_healthbtn">
+			<croatian>Zdravstveni tim</croatian>
+			<danish>Diabetesteam</danish>
+			<dutch>Zorgteam</dutch>
+			<english>Healthcare Team</english>
+			<finnish>Hoitotiimi</finnish>
+			<french>Équipe médicale</french>
+			<german>Medizinisches Fachpersonal</german>
+			<greek>Ομάδα Επαγγελματιών Υγείας</greek>
+			<italian>Team diabetologico</italian>
+			<norwegian>Helsepersonell</norwegian>
+			<polish>Zespół medyczny</polish>
+			<portugal>Profissionais de Saúde</portugal>
+			<slovenian>Zdravstveni tim</slovenian>
+			<spanish>Equipo de atención sanitaria</spanish>
+			<swedish>Vårdteam</swedish>
+		</trans-unit>
+		<trans-unit id="COMM_SendRepBtn">
+			<croatian>Pošalji izvještaj o šeć. u krvi</croatian>
+			<danish>Send en blodsukkerrapport</danish>
+			<dutch>Een bloedglucoserapport verzenden</dutch>
+			<english>Send a blood sugar report</english>
+			<finnish>Lähetä verensokeriraportti</finnish>
+			<french>Envoyer un compte rendu de glycémie</french>
+			<german>Einen Blutzuckerbericht senden</german>
+			<greek>Αποστολή Αναφοράς Σακχάρου</greek>
+			<italian>Invia report delle glicemie</italian>
+			<norwegian>Send en blodsukkerrapport</norwegian>
+			<polish>Wyślij raport glikemii</polish>
+			<portugal>Enviar Relatório glicemia</portugal>
+			<slovenian>Pošlji poročilo za glukozo</slovenian>
+			<spanish>Enviar un informe</spanish>
+			<swedish>Skicka en blodsockerrapport</swedish>
+		</trans-unit>
+<trans-unit id="healtcareteamprofileNewProfessionalHdr">
+			<croatian>Novi liječnik</croatian>
+			<danish>Ny Diabetesbehandler</danish>
+			<dutch>Nieuwe medische zorgverlener</dutch>
+			<english>New Healthcare Professional</english>
+			<finnish>Uusi hoitohenkilö</finnish>
+			<french>Nouveau professionnel de santé</french>
+			<german>Neuer Arzt</german>
+			<greek>Νέος Επαγγελματίας Υγείας</greek>
+			<italian>Nuovo operatore sanitario</italian>
+			<norwegian>Nytt helsepersonell</norwegian>
+			<polish>Nowy lekarz</polish>
+			<portugal>Novo Profissional de Saúde</portugal>
+			<slovenian>Nov zdravstveni delavec</slovenian>
+			<spanish>Nuevo profesional sanitario</spanish>
+			<swedish>Ny vårdgivare</swedish>
+		</trans-unit>
+    <trans-unit id="healtcareteamprofileAddFrmContctBtn">
+			<croatian>Dodajte iz kontakata</croatian>
+			<danish>Tilføj fra kontakter</danish>
+			<dutch>Toevoegen vanuit contacten</dutch>
+			<english>Add from contacts</english>
+			<finnish>Lisää yhteystiedoista</finnish>
+			<french>Ajouter à partir des Contacts</french>
+			<german>Aus den Kontakten hinzufügen</german>
+			<greek>Προσθήκη από επαφές</greek>
+			<italian>Aggiungi dai contatti</italian>
+			<norwegian>Hent fra kontakter</norwegian>
+			<polish>Dodaj z listy kontaktów</polish>
+			<portugal>Adicionar dos contactos</portugal>
+			<slovenian>Dodaj iz stikov</slovenian>
+			<spanish>Añadir desde contactos</spanish>
+			<swedish>Lägg till från kontakter</swedish>
+		</trans-unit>
+    <trans-unit id="COMM_Namebtn">
+			<croatian>Ime</croatian>
+			<danish>Navn</danish>
+			<dutch>Naam</dutch>
+			<english>Name</english>
+			<finnish>Nimi</finnish>
+			<french>Nom</french>
+			<german>Name</german>
+			<greek>Όνομα</greek>
+			<italian>Nome</italian>
+			<norwegian>Navn</norwegian>
+			<polish>Imię i nazwisko</polish>
+			<portugal>Nome</portugal>
+			<slovenian>Ime</slovenian>
+			<spanish>Nombre</spanish>
+			<swedish>Namn</swedish>
+	</trans-unit>
+    <trans-unit id="healtcareteamprofileTitleField">
+		<croatian>Specijalnost/zvanje</croatian>
+		<danish>Speciale / Titel</danish>
+		<dutch>Specialisme / functie</dutch>
+		<english>Specialty / Title</english>
+		<finnish>Ammattinimike</finnish>
+		<french>Spécialité/Titre</french>
+		<german>Fachgebiet / Titel</german>
+		<greek>Ειδικότητα / Τίτλος</greek>
+		<italian>Specializzazione / Titolo</italian>
+		<norwegian>Spesialitet / Tittel</norwegian>
+		<polish>Specjalność / Tytuł</polish>
+		<portugal>Especialidade/Cargo</portugal>
+		<slovenian>Specializacija/naziv</slovenian>
+		<spanish>Especialidad/Título</spanish>
+		<swedish>Specialitet/titel</swedish>
+		</trans-unit>
+    <trans-unit id="healtcareteamprofileOrganizationField">
+			<croatian>Ustanova</croatian>
+			<danish>Behandlersted</danish>
+			<dutch>Organisatie</dutch>
+			<english>Organization</english>
+			<finnish>Organisaatio</finnish>
+			<french>Organisation</french>
+			<german>Organisation</german>
+			<greek>Οργανισμός</greek>
+			<italian>Ente / Ospedale</italian>
+			<norwegian>Organisasjon</norwegian>
+			<polish>Organizacja</polish>
+			<portugal>Organização</portugal>
+			<slovenian>Organizacija</slovenian>
+			<spanish>Organización</spanish>
+			<swedish>Organisation</swedish>
+		</trans-unit>
+    	<trans-unit id="healtcareteamprofileAddressField">
+			<croatian>Adresa</croatian>
+			<danish>Adresse</danish>
+			<dutch>Adres</dutch>
+			<english>Address</english>
+			<finnish>Osoite</finnish>
+			<french>Adresse</french>
+			<german>Adresse</german>
+			<greek>Διεύθυνση</greek>
+			<italian>Indirizzo</italian>
+			<norwegian>Adresse</norwegian>
+			<polish>Adres</polish>
+			<portugal>Endereço</portugal>
+			<slovenian>Naslov</slovenian>
+			<spanish>Dirección</spanish>
+			<swedish>Adress</swedish>
+		</trans-unit>
+    <trans-unit id="healtcareteamprofilePhoneField">
+			<croatian>Telefon</croatian>
+			<danish>Telefon</danish>
+			<dutch>Telefoon</dutch>
+			<english>Phone</english>
+			<finnish>Puhelin</finnish>
+			<french>Téléphone</french>
+			<german>Telefon</german>
+			<greek>Αρ. τηλεφώνου</greek>
+			<italian>Telefono</italian>
+			<norwegian>Telefon</norwegian>
+			<polish>Telefon</polish>
+			<portugal>Telefone</portugal>
+			<slovenian>Telefon</slovenian>
+			<spanish>Teléfono</spanish>
+			<swedish>Telefon</swedish>
+		</trans-unit>
+    <trans-unit id="COMM_emailbtn">
+			<croatian>E-pošta</croatian>
+			<danish>e-mail</danish>
+			<dutch>E-mail</dutch>
+			<english>Email</english>
+			<finnish>Sähköposti</finnish>
+			<french>E-mail</french>
+			<german>E-Mail</german>
+			<greek>Email</greek>
+			<italian>E-mail</italian>
+			<norwegian>E-post</norwegian>
+			<polish>E-mail</polish>
+			<portugal>E-mail</portugal>
+			<slovenian>E-naslov</slovenian>
+			<spanish>Email</spanish>
+			<swedish>E-postadress</swedish>
+		</trans-unit>
+   <trans-unit id="COMM_savebtn">
+		<croatian>Spremi</croatian>
+		<danish>Gem</danish>
+		<dutch>Opslaan</dutch>
+		<english>Save</english>
+		<finnish>Tallenna</finnish>
+		<french>Sauvegarder</french>
+		<german>Speichern</german>
+		<greek>Αποθήκευση</greek>
+		<italian>Salva</italian>
+		<norwegian>Lagre</norwegian>
+		<polish>Zapisz</polish>
+		<portugal>Guardar</portugal>
+		<slovenian>Shrani</slovenian>
+		<spanish>Guardar</spanish>
+		<swedish>Spara</swedish>
+		</trans-unit>
+    	<trans-unit id="healtcareteamprofileProvideInfoBannr">
+			<croatian>Upišite sve potrebne informacije prije spremanja.</croatian>
+			<danish>
+			Tilføj venligst al nødvendig information, før du gemmer.
+			</danish>
+			<dutch>
+			Vul alle verplichte velden in voordat u Opslaan selecteert.
+			</dutch>
+			<english>
+			Please provide all required information before selecting save.
+			</english>
+			<finnish>Anna tarvittavat tiedot ennen tallentamista.</finnish>
+			<french>
+			Fournissez toutes les informations nécessaires avant de sauvegarder.
+			</french>
+			<german>
+			Bitte geben Sie alle erforderlichen Informationen ein, bevor Sie „Speichern“ auswählen.
+			</german>
+			<greek>
+			Δώστε όλες τις απαιτούμενες πληροφορίες πριν την αποθήκευση.
+			</greek>
+			<italian>
+			Inserisci tutte le informazioni necessarie prima di selezionare Salva.
+			</italian>
+			<norwegian>
+			Angi all nødvendig informasjon før du velger å lagre.
+			</norwegian>
+			<polish>
+			Proszę wprowadzić wszystkie wymagane informacje przed wybraniem opcji Zapisz.
+			</polish>
+			<portugal>
+			Forneça todas as informações necessárias antes de selecionar Guardar.
+			</portugal>
+			<slovenian>
+			Vnesite vse potrebne podatke, preden izberete Shrani.
+			</slovenian>
+			<spanish>
+			Proporcione toda la información requerida antes de seleccionar Guardar.
+			</spanish>
+			<swedish>Fyll i all information innan du väljer Spara.</swedish>
+		</trans-unit>
+    	<trans-unit id="COMM_PhoneContactTxt">
+			<croatian>Popis telefonskih kontakata</croatian>
+			<danish>Liste over telefonkontakter</danish>
+			<dutch>Lijst met telefoonnummers van contacten</dutch>
+			<english>Phone Contact List</english>
+			<finnish>Puhelimen yhteystiedot</finnish>
+			<french>Liste de contacts téléphoniques</french>
+			<german>Telefonkontaktliste</german>
+			<greek>Λίστα Τηλεφωνικών Επαφών</greek>
+			<italian>Rubrica telefonica</italian>
+			<norwegian>Telefonkontaktliste</norwegian>
+			<polish>Telefoniczna lista kontaktów</polish>
+			<portugal>Lista de contactos telefónicos</portugal>
+			<slovenian>Seznam telefonskih stikov</slovenian>
+			<spanish>Lista de contactos telefónicos</spanish>
+			<swedish>Kontaktlista i telefon</swedish>
+		</trans-unit>
+    <trans-unit id="COMM_SetProfessionalTxt">
+			<croatian>Postavite svog liječnika iz kontakata.</croatian>
+			<danish>Angiv din diabetesbehandler fra kontakter.</danish>
+			<dutch>Stel uw medische zorgverlener in via contacten.</dutch>
+			<english>Set your healthcare professional from contact.</english>
+			<finnish>Valitse hoitohenkilö yhteystiedoista.</finnish>
+			<french>Réglez le contact de votre professionnel de santé.</french>
+			<german>Arzt aus Kontaktliste einrichten.</german>
+			<greek>Ορίστε τον επαγγελματία υγείας σας από τις επαφές.</greek>
+			<italian>Imposta il tuo operatore sanitario dalla rubrica.</italian>
+			<norwegian>Angi helsepersonell via kontakt.</norwegian>
+			<polish>Ustaw lekarza z listy kontaktów.</polish>
+			<portugal>Configure o contacto do seu profissional de saúde.</portugal>
+			<slovenian>Nastavite zdravstvenega delavca s seznama stikov.</slovenian>
+			<spanish>Configure su profesional sanitario de contacto.</spanish>
+			<swedish>Hämta namn på din vårdgivare från dina kontakter.</swedish>
+		</trans-unit>
+    <trans-unit id="healtcareteamprofileNotSaveBannr">
+		<croatian>Vaš novi liječnik neće biti spremljen.</croatian>
+		<danish>Din Nye Diabetesbehandler vil ikke blive gemt.</danish>
+		<dutch>
+		Uw nieuwe medische zorgverlener wordt niet opgeslagen.
+		</dutch>
+		<english>
+		Your New Healthcare Professional will not be saved.
+		</english>
+		<finnish>Uutta hoitohenkilöä ei tallenneta.</finnish>
+		<french>
+		Votre nouveau professionnel de santé ne sera pas sauvegardé.
+		</french>
+		<german>Ihr neuer Arzt wird nicht gespeichert.</german>
+		<greek>
+		Ο Νέος Επαγγελματίας Υγείας σας δεν θα αποθηκευτεί.
+		</greek>
+		<italian>Il nuovo operatore sanitario non verrà salvato.</italian>
+		<norwegian>Det nye helsepersonellet blir ikke lagret.</norwegian>
+		<polish>Nowy lekarz nie zostanie zapisany.</polish>
+		<portugal>
+		O seu novo Profissional de Saúde não será guardado.
+		</portugal>
+		<slovenian>Novi zdravstveni delavec ne bo shranjen.</slovenian>
+		<spanish>El nuevo profesional sanitario no se guardará.</spanish>
+		</trans-unit>
+	<trans-unit id="COMM_cancelbtn">
+		<croatian>Otkaži</croatian>
+		<danish>Annullér</danish>
+		<dutch>Annuleer</dutch>
+		<english>Cancel</english>
+		<finnish>Peruuta</finnish>
+		<french>Annuler</french>
+		<german>Abbrechen</german>
+		<greek>Ακύρωση</greek>
+		<italian>Annulla</italian>
+		<norwegian>Avbryt</norwegian>
+		<polish>Anuluj</polish>
+		<portugal>Cancelar</portugal>
+		<slovenian>Prekliči</slovenian>
+		<spanish>Cancelar</spanish>
+		<swedish>Avbryt</swedish>
+	</trans-unit>
+		<trans-unit id="COMM_okbtn">
+			<croatian>U redu</croatian>
+			<danish>OK</danish>
+			<dutch>OK</dutch>
+			<english>OK</english>
+			<finnish>OK</finnish>
+			<french>OK</french>
+			<german>OK</german>
+			<greek>OK</greek>
+			<italian>OK</italian>
+			<norwegian>OK</norwegian>
+			<polish>OK</polish>
+			<portugal>OK</portugal>
+			<slovenian>V redu</slovenian>
+			<spanish>Aceptar</spanish>
+			<swedish>OK</swedish>
+		</trans-unit>
+    </HealthCare>
+	<Edit>
+		<trans-unit id="COMM_HealthcareprofessionalText">
+		<croatian>Liječnik</croatian>
+		<danish>Diabetesbehandler</danish>
+		<dutch>Medische zorgverlener</dutch>
+		<english>Healthcare Professional</english>
+		<finnish>Hoitohenkilö</finnish>
+		<french>Professionnel de santé</french>
+		<german>Arzt</german>
+		<greek>Επαγγελματίας Υγείας</greek>
+		<italian>Operatore sanitario</italian>
+		<norwegian>Helsepersonell</norwegian>
+		<polish>Lekarz</polish>
+		<portugal>Profissional de Saúde</portugal>
+		<slovenian>Zdravstveni delavec</slovenian>
+		<spanish>Profesional sanitario</spanish>
+		<swedish>Vårdgivare</swedish>
+		</trans-unit>
+		<trans-unit id="COMM_EDIT">
+			<croatian>Uredi</croatian>
+			<danish>Redigér</danish>
+			<dutch>Bewerken</dutch>
+			<english>Edit</english>
+			<finnish>Muokkaa</finnish>
+			<french>Modifier</french>
+			<german>Bearbeiten</german>
+			<greek>Επεξεργ.</greek>
+			<italian>Modifica</italian>
+			<norwegian>Rediger</norwegian>
+			<polish>Edytuj</polish>
+			<portugal>Editar</portugal>
+			<slovenian>Uredi</slovenian>
+			<spanish>Editar</spanish>
+			<swedish>Redigera</swedish>
+		</trans-unit>
+		<trans-unit id="COMM_HealthcareTxt">
+			<croatian>Uredi liječnika</croatian>
+			<danish>Rediger diabetesbehandler</danish>
+			<dutch>Medische zorgverlener bewerken</dutch>
+			<english>Edit Healthcare Professional</english>
+			<finnish>Muokkaa hoitohenkilöä</finnish>
+			<french>Modifier professionnel de santé</french>
+			<german>Arzt bearbeiten</german>
+			<greek>Επεξεργασία Επαγγελματία Υγείας</greek>
+			<italian>Modifica operatore sanitario</italian>
+			<norwegian>Rediger helsepersonell</norwegian>
+			<polish>Nowy lekarz</polish>
+			<portugal>Editar Profissional de Saúde</portugal>
+			<slovenian>Uredi zdravstvenega delavca</slovenian>
+			<spanish>Editar profesional sanitario</spanish>
+			<swedish>Redigera vårdgivare</swedish>
+		</trans-unit>
+		 <trans-unit id="healtcareteamprofileAddFrmContctBtn">
+			<croatian>Dodajte iz kontakata</croatian>
+			<danish>Tilføj fra kontakter</danish>
+			<dutch>Toevoegen vanuit contacten</dutch>
+			<english>Add from contacts</english>
+			<finnish>Lisää yhteystiedoista</finnish>
+			<french>Ajouter à partir des Contacts</french>
+			<german>Aus den Kontakten hinzufügen</german>
+			<greek>Προσθήκη από επαφές</greek>
+			<italian>Aggiungi dai contatti</italian>
+			<norwegian>Hent fra kontakter</norwegian>
+			<polish>Dodaj z listy kontaktów</polish>
+			<portugal>Adicionar dos contactos</portugal>
+			<slovenian>Dodaj iz stikov</slovenian>
+			<spanish>Añadir desde contactos</spanish>
+			<swedish>Lägg till från kontakter</swedish>
+		</trans-unit>
+    <trans-unit id="COMM_Namebtn">
+			<croatian>Ime</croatian>
+			<danish>Navn</danish>
+			<dutch>Naam</dutch>
+			<english>Name</english>
+			<finnish>Nimi</finnish>
+			<french>Nom</french>
+			<german>Name</german>
+			<greek>Όνομα</greek>
+			<italian>Nome</italian>
+			<norwegian>Navn</norwegian>
+			<polish>Imię i nazwisko</polish>
+			<portugal>Nome</portugal>
+			<slovenian>Ime</slovenian>
+			<spanish>Nombre</spanish>
+			<swedish>Namn</swedish>
+	</trans-unit>
+    <trans-unit id="healtcareteamprofileTitleField">
+		<croatian>Specijalnost/zvanje</croatian>
+		<danish>Speciale / Titel</danish>
+		<dutch>Specialisme / functie</dutch>
+		<english>Specialty / Title</english>
+		<finnish>Ammattinimike</finnish>
+		<french>Spécialité/Titre</french>
+		<german>Fachgebiet / Titel</german>
+		<greek>Ειδικότητα / Τίτλος</greek>
+		<italian>Specializzazione / Titolo</italian>
+		<norwegian>Spesialitet / Tittel</norwegian>
+		<polish>Specjalność / Tytuł</polish>
+		<portugal>Especialidade/Cargo</portugal>
+		<slovenian>Specializacija/naziv</slovenian>
+		<spanish>Especialidad/Título</spanish>
+		<swedish>Specialitet/titel</swedish>
+		</trans-unit>
+    <trans-unit id="healtcareteamprofileOrganizationField">
+			<croatian>Ustanova</croatian>
+			<danish>Behandlersted</danish>
+			<dutch>Organisatie</dutch>
+			<english>Organization</english>
+			<finnish>Organisaatio</finnish>
+			<french>Organisation</french>
+			<german>Organisation</german>
+			<greek>Οργανισμός</greek>
+			<italian>Ente / Ospedale</italian>
+			<norwegian>Organisasjon</norwegian>
+			<polish>Organizacja</polish>
+			<portugal>Organização</portugal>
+			<slovenian>Organizacija</slovenian>
+			<spanish>Organización</spanish>
+			<swedish>Organisation</swedish>
+		</trans-unit>
+    	<trans-unit id="healtcareteamprofileAddressField">
+			<croatian>Adresa</croatian>
+			<danish>Adresse</danish>
+			<dutch>Adres</dutch>
+			<english>Address</english>
+			<finnish>Osoite</finnish>
+			<french>Adresse</french>
+			<german>Adresse</german>
+			<greek>Διεύθυνση</greek>
+			<italian>Indirizzo</italian>
+			<norwegian>Adresse</norwegian>
+			<polish>Adres</polish>
+			<portugal>Endereço</portugal>
+			<slovenian>Naslov</slovenian>
+			<spanish>Dirección</spanish>
+			<swedish>Adress</swedish>
+		</trans-unit>
+    <trans-unit id="healtcareteamprofilePhoneField">
+			<croatian>Telefon</croatian>
+			<danish>Telefon</danish>
+			<dutch>Telefoon</dutch>
+			<english>Phone</english>
+			<finnish>Puhelin</finnish>
+			<french>Téléphone</french>
+			<german>Telefon</german>
+			<greek>Αρ. τηλεφώνου</greek>
+			<italian>Telefono</italian>
+			<norwegian>Telefon</norwegian>
+			<polish>Telefon</polish>
+			<portugal>Telefone</portugal>
+			<slovenian>Telefon</slovenian>
+			<spanish>Teléfono</spanish>
+			<swedish>Telefon</swedish>
+		</trans-unit>
+    <trans-unit id="COMM_emailbtn">
+			<croatian>E-pošta</croatian>
+			<danish>e-mail</danish>
+			<dutch>E-mail</dutch>
+			<english>Email</english>
+			<finnish>Sähköposti</finnish>
+			<french>E-mail</french>
+			<german>E-Mail</german>
+			<greek>Email</greek>
+			<italian>E-mail</italian>
+			<norwegian>E-post</norwegian>
+			<polish>E-mail</polish>
+			<portugal>E-mail</portugal>
+			<slovenian>E-naslov</slovenian>
+			<spanish>Email</spanish>
+			<swedish>E-postadress</swedish>
+		</trans-unit>
+   <trans-unit id="COMM_savebtn">
+		<croatian>Spremi</croatian>
+		<danish>Gem</danish>
+		<dutch>Opslaan</dutch>
+		<english>Save</english>
+		<finnish>Tallenna</finnish>
+		<french>Sauvegarder</french>
+		<german>Speichern</german>
+		<greek>Αποθήκευση</greek>
+		<italian>Salva</italian>
+		<norwegian>Lagre</norwegian>
+		<polish>Zapisz</polish>
+		<portugal>Guardar</portugal>
+		<slovenian>Shrani</slovenian>
+		<spanish>Guardar</spanish>
+		<swedish>Spara</swedish>
+		</trans-unit>
+          <trans-unit id="healtcareteamprofileProfssnlChangeBannr">
+			<tool_key>healtcareteamprofileProfssnlChangeBannr</tool_key>
+			<note>Onyx Profile - Healthcare Team System Map V7.0/PH 12.0</note>
+			<english>Changes to your Healthcare Professional will not be saved.</english>
+			<target>Changes to your Healthcare Professional will not be saved.</target>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+        <trans-unit id="COMM_cancelbtn">
+            <croatian>Otkaži</croatian>
+            <danish>Annullér</danish>
+            <dutch>Annuleer</dutch>
+            <english>Cancel</english>
+            <finnish>Peruuta</finnish>
+            <french>Annuler</french>
+            <german>Abbrechen</german>
+            <greek>Ακύρωση</greek>
+            <italian>Annulla</italian>
+            <norwegian>Avbryt</norwegian>
+            <polish>Anuluj</polish>
+            <portugal>Cancelar</portugal>
+            <slovenian>Prekliči</slovenian>
+            <spanish>Cancelar</spanish>
+            <swedish>Avbryt</swedish>
+        </trans-unit>
+        <trans-unit id="COMM_okbtn">
+			<croatian>U redu</croatian>
+			<danish>OK</danish>
+			<dutch>OK</dutch>
+			<english>OK</english>
+			<finnish>OK</finnish>
+			<french>OK</french>
+			<german>OK</german>
+			<greek>OK</greek>
+			<italian>OK</italian>
+			<norwegian>OK</norwegian>
+			<polish>OK</polish>
+			<portugal>OK</portugal>
+			<slovenian>V redu</slovenian>
+			<spanish>Aceptar</spanish>
+			<swedish>OK</swedish>
+		</trans-unit>
+		<!--	<trans-unit id="COMM_deletebtn">
+			<tool_key>COMM_deletebtn</tool_key>
+			<note>Delete</note>
+			<english>Delete</english>
+			<target>Delete</target>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+			<trans-unit id="COMM_cancelbtn">
+		<croatian>Otkaži</croatian>
+		<danish>Annullér</danish>
+		<dutch>Annuleer</dutch>
+		<english>Cancel</english>
+		<finnish>Peruuta</finnish>
+		<french>Annuler</french>
+		<german>Abbrechen</german>
+		<greek>Ακύρωση</greek>
+		<italian>Annulla</italian>
+		<norwegian>Avbryt</norwegian>
+		<polish>Anuluj</polish>
+		<portugal>Cancelar</portugal>
+		<slovenian>Prekliči</slovenian>
+		<spanish>Cancelar</spanish>
+		<swedish>Avbryt</swedish>
+  	</trans-unit>-->
+	</Edit>
+    <delete>
+      <trans-unit id="COMM_deletebtn">
+			<croatian>Izbriši</croatian>
+			<danish>Slet</danish>
+			<dutch>Wissen</dutch>
+			<english>Delete</english>
+			<finnish>Poista</finnish>
+			<french>Supprimer</french>
+			<german>Löschen</german>
+			<greek>Διαγραφή</greek>
+			<italian>Elimina</italian>
+			<norwegian>Slett</norwegian>
+			<polish>Usuń</polish>
+			<portugal>Apagar</portugal>
+			<slovenian>Izbriši</slovenian>
+			<spanish>Eliminar</spanish>
+			<swedish>Radera</swedish>
+					</trans-unit>
+    </delete>
+
+</root>

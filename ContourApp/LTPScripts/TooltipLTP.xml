@@ -1,0 +1,325 @@
+﻿<root>
+    <ReadingsTooltip>
+		<trans-unit id="COMM_tooltipreadingshdr">
+			<english>Manual Readings</english>
+			<german>Manuelle Messwerte</german>
+		</trans-unit>
+		<trans-unit id="tooltipManualEntryTxt1">
+			<english>Use the keyboard to enter your blood sugar result and tap Done when you
+				finish. The blood sugar value must be within the range of 10 mg/dL to 600 mg/dL.
+				The Meal Marker screen opens with a pre-selected Meal Marker and meal based on the time of the reading. To change or select a Meal Marker and meal, tap on the one that best matches when you took the blood sugar reading. Tap to select; tap again to de-select. When you finish, tap Save.</english>
+			<german>Mit Tastatur Messergebnis eingeben und auf „Fertig“ tippen. Messwert muss zwischen 10 mg/dL bis 600 mg/dL liegen. „Mahlzeit-Markierung“ öffnet sich mit einer ausgewählten Mahlzeit-Markierung und Art der Mahlzeit. Um eine Mahlzeit-Markierung und Art der Mahlzeit zu ändern bzw. festzulegen, tippen Sie auf diejenige, die am besten zur Uhrzeit Ihrer Messung passt. Durch Antippen auswählen, durch erneutes Antippen abwählen. Auf „Speichern“ tippen, wenn Sie fertig sind.</german>
+		</trans-unit>
+	</ReadingsTooltip>
+
+	<ReminderTooltip>
+		<trans-unit id="tooltipsmartremindershdr">
+			<english>Test Reminders</english>
+			<german>Messerinnerungen</german>
+		</trans-unit>
+		<trans-unit id="tooltipSmrtRemnderSeriesTxt1">
+			<english>A Test Reminder Plan is a series of reminders that help you manage a pattern in your blood sugar readings or prepare for a visit with your healthcare professional.</english>
+			<german>Ein Messerinnerungsplan ist eine Reihe von Erinnerungen, die Ihnen dabei helfen sollen, auf ein Muster in Ihren Blutzuckermesswerten zu reagieren oder sich auf einen Arztbesuch vorzubereiten.</german>
+		</trans-unit>
+		<trans-unit id="tooltipSmrtRemnderSeriesTxt2">
+			<english>Example: If you set the date of your visit to your healthcare professional and the usual times for your meals and bedtime, the CONTOUR™DIABETES app sends you reminders to test before or after each meal and at bedtime, every day during the week before your visit.</english>
+			<german>Beispiel: Sie geben das Datum Ihres Arzttermins sowie Ihre üblichen Essens- und Schlafenszeiten ein. Die CONTOUR™DIABETES App erinnert Sie dann in der Woche vor Ihrem Termin täglich vor oder nach jeder Mahlzeit sowie vor dem Zubettgehen daran, Ihren Blutzucker zu messen.</german>
+		</trans-unit>
+	</ReminderTooltip>
+
+	<TargetRangeTooltip>
+		<trans-unit id="COMM_targetbtn">
+			<english>Target Ranges</english>
+			<german>Zielbereiche</german>
+		</trans-unit>
+		<trans-unit id="COMM_targetrangespan">
+			<english>A Target Range is a span of blood sugar values with a lower and upper limit,
+				such as 70 mg/dL to 180 mg/dL. The meter compares your blood sugar results with a
+				target range to let you know if your test result is In, Above or Below your
+				target range.</english>
+			<german>Ein Zielbereich ist ein Bereich von Blutzuckermesswerten mit einem unteren und oberen Grenzwert, z. B. 70 mg/dL bis 180 mg/dL. Das Messgerät vergleicht Ihre Blutzuckermesswerte mit einem Zielbereich und teilt Ihnen mit, ob Ihr Messergebnis im, über dem oder unter Ihrem Zielbereich liegt.</german>
+		</trans-unit>
+		<trans-unit id="COMM_critihightxt">
+			<english>Your Critical High is the blood sugar value that is dangerously high. You
+				and your healthcare professional can change this value to fit your profile. Note:
+				Your Critical High value must be in the range of 200 mg/dL to 600 mg/dL.</english>
+			<german>Bei „Kritisch hoch“ handelt es sich um den Blutzuckerwert, der gefährlich
+				hoch ist. Sie und Ihr Arzt können diesen Wert entsprechend Ihrem persönlichen
+				Profil ändern. Hinweis: Ihr Wert „Kritisch hoch“ muss im Bereich von 200 mg/dL bis
+				600 mg/dL liegen.</german>
+		</trans-unit>
+		<trans-unit id="COMM_critihighnotetxt">
+			<english>Note: Your Critical High value must be in the range of 200 mg/dL to 600 mg/dL.</english>
+			<german>Hinweis: Ihr Wert „Kritisch hoch“ muss im Bereich von 200 mg/dL bis 600 mg/dL
+				liegen.</german>
+		</trans-unit>
+		<trans-unit id="COMM_critilowtxt">
+			<english>Your Critical Low is the blood sugar value that is dangerously low. You and
+				your healthcare professional can change this value to fit your profile. Note:
+				Your Critical Low value must be in the range of 20 mg/dL to 70 mg/dL.</english>
+			<german>Bei „Kritisch niedrig“ handelt es sich um den Blutzuckerwert, der gefährlich
+				niedrig ist. Sie und Ihr Arzt können diesen Wert entsprechend Ihrem persönlichen
+				Profil ändern. Hinweis: Ihr Wert „Kritisch niedrig“ muss im Bereich von 20 mg/dL
+				bis 70 mg/dL liegen.</german>
+		</trans-unit>
+		<trans-unit id="COMM_critilownotetxt">
+			<english>Note: Your Critical Low value must be in the range of 20 mg/dL to 70 mg/dL.</english>
+			<german>Note: Your Critical Low value must be in the range of 20 mg/dL to 70 mg/dL.</german>
+		</trans-unit>
+	</TargetRangeTooltip>
+
+	<TargetRangeTooltip1>
+		<trans-unit id="tooltiptargetranges">
+			<english>Note: There is one Low target value for both Before Meal (&lt;img/&gt;) and
+				After Meal (&lt;img/&gt;) target ranges.</english>
+			<german>Hinweis: Es gibt einen niedrigen Zielwert für die Zielbereiche „Vor dem Essen“ (&lt;img/&gt;) und „Nach dem Essen“ (&lt;img/&gt;).</german>
+		</trans-unit>
+	</TargetRangeTooltip1>
+
+	<CriticalHighInfo>
+		<trans-unit id="COMM_targetbtn">
+			<english>Target Ranges</english>
+			<german>Zielbereiche</german>
+		</trans-unit>
+		<trans-unit id="COMM_targetrangeselecttxt">
+			<english>When a Target Range is selected, you can tap the (+) to increase the number
+				by 1 mg/dL and tap the (-) to decrease the number by 1 mg/dL.</english>
+			<german>Wenn ein Zielbereich ausgewählt ist, können Sie den Zahlenwert durch Antippen
+				von „+“ um 1 mg/dL anheben und durch Antippen von „-“ um 1 mg/dL senken.</german>
+		</trans-unit>
+		<trans-unit id="tooltipcheckmarkbtn">
+			<english>Once you change a value, an \\\‘X\\\’ and checkmark button appear on the opposite side of the column. Tap the checkmark to save the target value; tap \\\‘X\\\’ to cancel.</english>
+			<german>Sobald Sie einen Wert ändern, erscheinen auf der gegenüberliegenden Seite der Spalte \\\„X\\\“ und ein „Häkchen“. Durch Antippen des Häkchens können Sie den Zielwert speichern; tippen Sie zum Abbrechen auf \\\„X\\\“.</german>
+		</trans-unit>
+	</CriticalHighInfo>
+
+	<SummarySpan>
+		<trans-unit id="COMM_targetbtn">
+			<english>Target Ranges</english>
+			<german>Zielbereiche</german>
+		</trans-unit>
+		<trans-unit id="COMM_targetrangespan">
+			<english>A Target Range is a span of blood sugar values with a lower and upper limit,
+				such as 70 mg/dL to 180 mg/dL. The meter compares your blood sugar results with a
+				target
+				range	to let you know if your test result is In, Above or Below your target range.</english>
+			<german>Ein Zielbereich ist ein Bereich von Blutzuckermesswerten mit einem unteren
+				und oberen Grenzwert, z. B. 70 mg/dL bis 180 mg/dL. Das Messgerät vergleicht Ihre
+				Blutzuckermesswerte mit einem Zielbereich und teilt Ihnen mit, ob Ihr Messergebnis im, über dem oder unter Ihrem Zielbereich liegt.</german>
+		</trans-unit>
+		<trans-unit id="COMM_critihightxt">
+			<english>Your Critical High is the blood sugar value that is dangerously high. You
+				and your healthcare professional can change this value to fit your profile. Note:
+				Your Critical High value must be in the range of 200 mg/dL to 600 mg/dL.</english>
+			<german>Bei „Kritisch hoch“ handelt es sich um den Blutzuckerwert, der gefährlich
+				hoch ist. Sie und Ihr Arzt können diesen Wert entsprechend Ihrem persönlichen
+				Profil ändern. Hinweis: Ihr Wert „Kritisch hoch“ muss im Bereich von 200 mg/dL bis
+				600 mg/dL liegen.</german>
+		</trans-unit>
+		<trans-unit id="COMM_critihighnotetxt">
+			<english>Note: Your Critical High value must be in the range of 200 mg/dL to 600 mg/dL.</english>
+			<german>Hinweis: Ihr Wert „Kritisch hoch“ muss im Bereich von 200 mg/dL bis 600 mg/dL
+				liegen.</german>
+		</trans-unit>
+		<trans-unit id="COMM_critilowtxt">
+			<english>Your Critical Low is the blood sugar value that is dangerously low. You and
+				your healthcare professional can change this value to fit your profile. Note:
+				Your Critical Low value must be in the range of 20 mg/dL to 70 mg/dL.</english>
+			<german>Bei „Kritisch niedrig“ handelt es sich um den Blutzuckerwert, der gefährlich
+				niedrig ist. Sie und Ihr Arzt können diesen Wert entsprechend Ihrem persönlichen
+				Profil ändern. Hinweis: Ihr Wert „Kritisch niedrig“ muss im Bereich von 20 mg/dL
+				bis 70 mg/dL liegen.</german>
+		</trans-unit>
+		<trans-unit id="COMM_critilownotetxt">
+			<english>Note: Your Critical Low value must be in the range of 20 mg/dL to 70 mg/dL.</english>
+			<german>Note: Your Critical Low value must be in the range of 20 mg/dL to 70 mg/dL.</german>
+		</trans-unit>
+	</SummarySpan>
+
+	<SummarySpan1>
+		<trans-unit id="tooltiptargetranges">
+			<english>Note: There is one Low target value for both Before Meal (&lt;img/&gt;) and
+				After Meal (&lt;img/&gt;) target ranges.</english>
+			<german>Hinweis: Es gibt einen niedrigen Zielwert für die Zielbereiche „Vor dem Essen“ (&lt;img/&gt;) und „Nach dem Essen“ (&lt;img/&gt;).</german>
+		</trans-unit>
+	</SummarySpan1>
+
+	<DayDividerInfo>
+		<trans-unit id="COMM_daydividerbtn">
+			<english>Day Dividers</english>
+			<german>Tagesaufteilung</german>
+		</trans-unit>
+		<trans-unit id="COMM_daydividerstxt">
+			<english>The CONTOUR™DIABETES app uses Day Dividers to divide your day into meal times
+				and
+				overnight. For example, if you usually eat lunch at 11:30AM and dinner at 6:00PM,
+				then a Lunch Day Divider could be from 11:00AM to 6:00PM. &lt;br&gt; &lt;br&gt;
+				Day Dividers help the app detect patterns and suggest if a reading is taken
+				before or after a meal. You can change Day Dividers from Settings in the app.</english>
+			<german>Die CONTOUR™DIABETES App verwendet eine Tagesaufteilung, die Ihren
+				Tagesablauf in Essenszeiten und Nacht unterteilt. Zum Beispiel, wenn Sie
+				normalerweise um 11.30 Uhr zu Mittag essen und um 18.00 Uhr zu Abend essen,
+				könnte ein Tagesabschnitt für Mittag von 11.00 Uhr bis 18.00 Uhr lauten.
+				&lt;br&gt; &lt;br&gt; Die Tagesaufteilung ermöglicht der App, Muster zu erkennen
+				und vorzuschlagen, ob die Messung vor oder nach einer Mahlzeit durchgeführt
+				wurde. Sie können die Tagesaufteilung über die Einstellungen in der App ändern.</german>
+		</trans-unit>
+		<trans-unit id="COMM_daydividersnotetxt">
+			<english>Note: There must be a span of at least 4 hours for any Day Divider such as Breakfast or Lunch.</english>
+			<german>Hinweis: Jeder Tagesabschnitt (z. B. Frühstück oder Mittagessen) muss mindestens 4 Stunden lang sein.</german>
+		</trans-unit>
+	</DayDividerInfo>
+
+	<SummaryReport>
+		<trans-unit id="COMM_tooltipsummaryhdr">
+			<english>Summary Report</english>
+			<german>Zusammenfassender Bericht</german>
+		</trans-unit>
+		<trans-unit id="tooltipDayDividersTxt3">
+			<english>The Blood Sugar Summary report is designed for you and your healthcare professional. This standard report charts your blood sugar readings, tests, and patterns over various time periods.</english>
+			<german>Der zusammenfassende Blutzuckerbericht ist für Sie und Ihren Arzt entwickelt. Dieser Standardbericht zeigt in einem Diagramm Ihre Blutzuckermesswerte, Messungen und Muster über verschiedene Zeiträume an.</german>
+		</trans-unit>
+		<trans-unit id="tooltipDayDividersTxt4">
+			<english>To preview the report before you send it to your healthcare professional, email it to yourself. You can add new recipients to the report at any time.</english>
+			<german>Wenn Sie sich diesen Bericht vor dem Absenden an Ihren Arzt ansehen möchten, senden Sie ihn per E-Mail an Ihre eigene Adresse. Sie können jederzeit neue Empfänger zum Bericht hinzufügen.</german>
+		</trans-unit>
+	</SummaryReport>
+
+	<PairInfo>
+		<trans-unit id="COMM_tooltipwhatPairinghdr">
+			<english>What is Pairing?</english>
+			<german>Was bedeutet „Koppeln“?</german>
+		</trans-unit>
+		<trans-unit id="COMM_meterpairtxt">
+			<english>Your CONTOUR™NEXT ONE or CONTOUR™PLUS ONE meter must pair to the CONTOUR™DIABETES app for meter blood sugar readings and settings to transfer to the app.</english>
+			<german>Ihr CONTOUR™NEXT ONE bzw. CONTOUR™PLUS ONE Messgerät muss mit der CONTOUR™DIABETES App gekoppelt werden, um Messwerte und Einstellungen vom Messgerät auf die App zu übertragen.</german>
+		</trans-unit>
+		<trans-unit id="COMM_syncingtxt">
+			<english>Whenever a paired meter is on and near the mobile device, it will try to send your blood sugar readings to the app. When the meter and the app \\\'sync\\\', the app also updates the meter with settings you have changed in the app, such as Target Ranges.</english>
+			<german>Wenn ein gekoppeltes Messgerät eingeschaltet ist und sich in der Nähe des mobilen Geräts befindet, versucht es, Messwerte an die App zu senden. Sobald Messgerät und App sich \\\„synchronisieren\\\“, aktualisiert die App das Messgerät auch mit den in der App geänderten Einstellungen, wie z. B. Zielbereiche.</german>
+		</trans-unit>
+		<trans-unit id="COMM_appcurrentdatetxt">
+			<english>The app also updates the meter’s current date and time if the Meter Time and Date Sync app preference is on.</english>
+			<german>Die App aktualisiert auch Datum und Uhrzeit des Messgeräts, sofern die Voreinstellung „Messgerät-Zeit und -Datum sync.“ in der App eingeschaltet ist.</german>
+		</trans-unit>
+		<trans-unit id="COMM_PairNote">
+			<english>Note: You can pair your CONTOUR™NEXT ONE or CONTOUR™PLUS ONE meter to more than one mobile device that has the CONTOUR™DIABETES app. Follow the pairing instructions in the app.</english>
+			<german>Hinweis: Sie können Ihr CONTOUR™NEXT ONE bzw. CONTOUR™PLUS ONE Messgerät mit mehr als einem mobilen Gerät koppeln, auf dem die CONTOUR™DIABETES App installiert ist. Folgen Sie den Anweisungen zum Koppeln in der App.</german>
+		</trans-unit>
+	</PairInfo>
+
+	<SelectMeterInfo>
+		<trans-unit id="COMM_tooltipPairinghdr">
+			<english>Pairing</english>
+			<german>Koppeln</german>
+		</trans-unit>
+		<trans-unit id="COMM_PrngTxt1">
+			<english>During pairing, several meters may be identified as \\\'ready to pair\\\' by the app. When this happens:</english>
+			<german>Es können beim Koppeln mehrere Messgeräte von der App als „bereit zur Kopplung“ identifiziert werden. Dann:</german>
+		</trans-unit>
+		<trans-unit id="COMM_PrngTxtAppScren1">
+			<english>1. On the app screen, select the meter that you want to pair with now. Match the model and serial number on the back of your meter with the number on the app screen.</english>
+			<german>1. Auf dem Bildschirm der App das Messgerät auswählen, das jetzt gekoppelt werden soll. Darauf achten, dass Modell und Seriennummer auf der Rückseite des Messgeräts mit der Nummer auf dem Bildschirm übereinstimmen.</german>
+		</trans-unit>
+		<trans-unit id="COMM_PrngSubTxt2">
+			<english>2. Tap Continue.</english>
+			<german>2. Tippen Sie auf „Weiter“.</german>
+		</trans-unit>
+		<trans-unit id="COMM_PrngNoteTxt">
+			<english>Note: All blood sugar readings from your paired meters are combined in your app account.</english>
+			<german>Hinweis: Alle Messwerte von Ihren gekoppelten Messgeräten werden in Ihrem App-Konto zusammengeführt.</german>
+		</trans-unit>
+	</SelectMeterInfo>
+
+	<NoPairInfo>
+		<trans-unit id="COMM_tooltipPairinghdr">
+			<english>Pairing</english>
+			<german>Koppeln</german>
+		</trans-unit>
+		<trans-unit id="COMM_successpairingtxt">
+			<english>For successful pairing of your CONTOUR™NEXT ONE or CONTOUR™PLUS ONE meter to your mobile device, make sure:</english>
+			<german>Für eine erfolgreiche Kopplung Ihres CONTOUR™NEXT ONE bzw. CONTOUR™PLUS ONE Messgeräts mit Ihrem mobilen Gerät, stellen Sie Folgendes sicher:</german>
+		</trans-unit>
+		<trans-unit id="COMM_bluetoothpairingtxt">
+			<english>The Bluetooth setting on the mobile device is on.</english>
+			<german>Bluetooth am mobilen Gerät ist eingeschaltet.</german>
+		</trans-unit>
+		<trans-unit id="COMM_meterclosetxt">
+			<english>Your meter is off and close to your mobile device.</english>
+			<german>Ihr Messgerät ist ausgeschaltet und befindet sich in der Nähe Ihres mobilen Geräts.</german>
+		</trans-unit>
+		<trans-unit id="COMM_metercloseadaptrtxt">
+			<english>Your meter is a CONTOUR™NEXT ONE or CONTOUR™PLUS ONE meter.</english>
+			<german>Ihr Messgerät ist ein CONTOUR™NEXT ONE bzw. CONTOUR™PLUS ONE Messgerät.</german>
+		</trans-unit>
+		<trans-unit id="COMM_metercloseconntxt">
+			<english>Your meter is not connected to another app.</english>
+			<german>Ihr Messgerät ist nicht mit einer anderen App verbunden.</german>
+		</trans-unit>
+		<trans-unit id="COMM_retrytxt">
+			<english>Follow the pairing instructions in the app. If you cannot pair your meter after a \'Retry\', call Customer Service.</english>
+			<german>Folgen Sie den Anweisungen zum Koppeln in der App. Wenn Sie Ihr Messgerät bei einem \erneuten Versuch\ nicht koppeln können, wenden Sie sich an den Diabetes Service.</german>
+		</trans-unit>
+	</NoPairInfo>
+
+	<UnpairingTooltip>
+		<trans-unit id="COMM_tooltipUnpairinghdr">
+			<english>Unpairing</english>
+			<german>Abkoppeln</german>
+		</trans-unit>
+		<trans-unit id="tooltipUnpairingTxt1">
+			<english>If you unpair a CONTOUR™NEXT ONE or CONTOUR™PLUS ONE meter from this
+				device:</english>
+			<german>Wenn Sie ein CONTOUR™NEXT ONE bzw. CONTOUR™PLUS ONE Messgerät von diesem Gerät
+				abkoppeln:</german>
+		</trans-unit>
+		<trans-unit id="tooltipUnpairingTxt2">
+			<english>Future readings from the meter will not be synced to the app.</english>
+			<german>Werden künftige Messungen des Messgeräts nicht mit der App synchronisiert
+				.</german>
+		</trans-unit>
+		<trans-unit id="tooltipUnpairingTxt3">
+			<english>The meter will no longer be listed in the app under Main Menu &gt; Settings
+				&gt; My Meters.</english>
+			<german>Wird das Messgerät nicht mehr in der App unter Hauptmenü &gt; Einstellungen
+				&gt; Meine Messgeräte aufgelistet.</german>
+		</trans-unit>
+		<trans-unit id="tooltipUnpairingTxt4">
+			<english>Existing readings from this meter remain in the app.</english>
+			<german>Bleiben bestehende Messwerte von diesem Messgerät in der App erhalten.</german>
+		</trans-unit>
+		<trans-unit id="tooltipUnpairingTxt5">
+			<english>To pair this meter again:</english>
+			<german>So koppeln Sie dieses Messgerät wieder an:</german>
+		</trans-unit>
+		<trans-unit id="tooltipUnpairingTxt60">
+			<english>Go to Main Menu &gt; Settings &gt; My Meters. Tap the (+) icon in the upper
+				right corner.</english>
+			<german>Zu Hauptmenü &gt; Einstellungen &gt; Meine Messgeräte gehen. Auf „+“ in der
+				oberen	rechten Ecke tippen.</german>
+		</trans-unit>
+		<trans-unit id="tooltipUnpairingTxt61">
+			<english>Follow the instructions to pair your meter.</english>
+			<german>Befolgen Sie die Anweisungen, um Ihr Messgerät zu koppeln.</german>
+		</trans-unit>
+	</UnpairingTooltip>
+
+	<MealMarkerGuide>
+		<trans-unit id="COMM_mealmarkerguidebtn">
+			<english>Meal Marker Guide</english>
+			<german>Anleitung für Mahlzeit-Markierungen</german>
+		</trans-unit>
+		<trans-unit id="COMM_fastingbtn">
+			<english>Fasting</english>
+			<german>Nüchtern</german>
+		</trans-unit>
+		<trans-unit id="COMM_15minsbeforemealbtn">
+			<english>Within the hour Before Meal</english>
+			<german>Innerhalb von einer Stunde vor einer Mahlzeit</german>
+		</trans-unit>
+		<trans-unit id="COMM_90minsaftrmealbtn">
+			<english>2 hours After Meal</english>
+			<german>2 Stunden nach einer Mahlzeit</german>
+		</trans-unit>
+	</MealMarkerGuide>
+</root>

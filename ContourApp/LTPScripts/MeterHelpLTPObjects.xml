@@ -1,0 +1,1379 @@
+<root>
+    <toMeterHelp>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='ic_menu']</xpath>
+            <index>0</index>
+            <comment>ic_menu</comment>
+    </Aobject>
+     <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@id='left_drawer']/*/*[@id='lblListHeaderSlideView'])[6]</xpath>
+            <index>0</index>
+         <comment>help</comment>
+    </Aobject>
+    <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='helpListview1']/*[@nodeName='LI' and @width>0])[3]</xpath>
+            <index>0</index>
+        <comment>meter help</comment>
+    </Aobject>
+       <!-- IOS-->
+
+       <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@accessibilityLabel='Menu icn 1x']</xpath>
+            <index>0</index>
+            <comment> My readings</comment>
+      </Iobject>
+     <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='YGLinedView']</xpath>
+        <index> 5</index>
+     <comment> Help</comment>
+     </Iobject>
+    <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='helpListview1']/*[@nodeName='LI' and @width>0])[3]</xpath>
+            <index>0</index>
+        <comment>meter help</comment>
+    </Iobject>
+    </toMeterHelp>
+     <mainScreen>
+        <!--main screen text test -->
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='meter_help_title']</xpath>
+            <index>0</index>
+        <comment> meter help title </comment>
+        </Aobject>
+
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='INPUT' and @onScreen='true' and @top='true']</xpath>
+            <index>0</index>
+         <comment> search meter ahelp </comment>
+        </Aobject>
+
+
+     <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[8]</xpath>
+            <index>0</index>
+         <comment> Meter settings</comment>
+    </Aobject>
+    <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[10]</xpath>
+            <index>0</index>
+        <comment>Meter App connections </comment>
+    </Aobject>
+    <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[12]</xpath>
+            <index>0</index>
+        <comment>Blood sugar and Meal marker</comment>
+    </Aobject>
+    <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[14]</xpath>
+            <index>0</index>
+        <comment> Meter Error Codes</comment>
+    </Aobject>
+      <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[16]</xpath>
+            <index>0</index>
+          <comment> meter icon glossary</comment>
+    </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='phb_Link']</xpath>
+            <index>0</index>
+         <comment>link</comment>
+         </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='U' and @width>0]</xpath>
+            <index>0</index>
+         <comment>link</comment>
+         </Aobject>
+
+         <!--IOS-->
+
+
+ <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='meter_help_title']</xpath>
+            <index>0</index>
+        <comment> meter help title </comment>
+        </Iobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='INPUT' and @onScreen='true' and @top='true']</xpath>
+            <index>0</index>
+         <comment> search meter ahelp </comment>
+        </Iobject>
+
+
+     <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[8]</xpath>
+            <index>0</index>
+         <comment> Meter settings</comment>
+    </Iobject>
+    <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[10]</xpath>
+            <index>0</index>
+        <comment>Meter App connections </comment>
+    </Iobject>
+    <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[12]</xpath>
+            <index>0</index>
+        <comment>Blood sugar and Meal marker</comment>
+    </Iobject>
+    <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[14]</xpath>
+            <index>0</index>
+        <comment> Meter Error Codes</comment>
+    </Iobject>
+      <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[16]</xpath>
+            <index>0</index>
+          <comment> meter icon glossary</comment>
+    </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='phb_Link']</xpath>
+            <index>0</index>
+         <comment>link</comment>
+         </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='U' and @width>0]</xpath>
+            <index>0</index>
+         <comment>link</comment>
+         </Iobject>
+
+    </mainScreen>
+    <meterSettings>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[8]</xpath>
+            <index>0</index>
+         <comment>  Meter settings  </comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='meter_help_title']</xpath>
+            <index>0</index>
+         <comment>  title</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='INPUT' and @width>0]</xpath>
+            <index> 0</index>
+         <comment>search meter </comment>
+         </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[10] </xpath>
+            <index> 0</index>
+         <comment>how do i..</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[4] </xpath>
+            <index> 0</index>
+         <comment>Back to meter Settings</comment>
+         </Aobject>
+
+
+        <!-- IOS-->
+          <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[8]</xpath>
+            <index>0</index>
+         <comment>  Meter settings  </comment>
+         </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='meter_help_title']</xpath>
+            <index>0</index>
+         <comment>  title</comment>
+         </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='INPUT' and @width>0]</xpath>
+            <index> 0</index>
+         <comment>search meter </comment>
+         </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[10]</xpath>
+            <index> 0</index>
+         <comment>how do i..</comment>
+         </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[4] </xpath>
+            <index> 0</index>
+         <comment>Back to meter Settings</comment>
+         </Iobject>
+
+    </meterSettings>
+
+
+    <meterSettingsQuestions>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@id='Renamecontent']] </xpath>
+            <index>0</index>
+         <comment>Q1 Rename a meter?</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='triangle3']]</xpath>
+            <index>0</index>
+         <comment>Q2 Turn off or on a CONTOUR NEXT/PLUS ONE  meter setting such as sound or target lights? </comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath> xpath=//*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV' and ./parent::*[@id='alwaysCobtnt']] and ./following-sibling::*[@id='triangle4']]</xpath>
+            <index>0</index>
+         <comment>Q3  Always sync my meter date and time with the app date and time?</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath> xpath=//*[@text and @nodeName='DIV' and ./following-sibling::*[@id='triangle4'] and ./parent::*[@nodeName='DIV' and ./parent::*[@id='DoCOntent']]]</xpath>
+            <index>0</index>
+         <comment>Q4  Do a one-time sync of my Contour Next/Plus ONE meter date and time with the app date and time?</comment>
+         </Aobject>
+
+        <!-- IOS-->
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@id='Renamecontent']] </xpath>
+            <index>0</index>
+         <comment>Q1 Rename a meter?</comment>
+         </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='triangle3']]</xpath>
+            <index>0</index>
+         <comment>Q2 Turn off or on a CONTOUR NEXT/PLUS ONE  meter setting such as sound or target lights? </comment>
+         </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath> xpath=//*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV' and ./parent::*[@id='alwaysCobtnt']] and ./following-sibling::*[@id='triangle4']]</xpath>
+            <index>0</index>
+         <comment>Q3  Always sync my meter date and time with the app date and time?</comment>
+         </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath> xpath=//*[@text and @nodeName='DIV' and ./following-sibling::*[@id='triangle4'] and ./parent::*[@nodeName='DIV' and ./parent::*[@id='DoCOntent']]]</xpath>
+            <index>0</index>
+         <comment>Q4  Do a one-time sync of my Contour Next/Plus ONE meter date and time with the app date and time?</comment>
+         </Iobject>
+
+    </meterSettingsQuestions>
+    <meterSettingsAnswer>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath> xpath=//*[@id='answer2']</xpath>
+            <index>0</index>
+         <comment>a1 </comment>
+         </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='answer3']/*[@nodeName='SPAN' and @width>0])[1] </xpath>
+            <index>0</index>
+         <comment>on app </comment>
+         </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[1]</xpath>
+            <index>0</index>
+         <comment> a1</comment>
+         </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[2]</xpath>
+            <index>0</index>
+         <comment>a2</comment>
+         </Aobject>
+     <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*[@id='answer3']/*[@nodeName='SPAN' and @width>0])[2] </xpath>
+        <index>0</index>
+     <comment> ans 2</comment>
+     </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[3]</xpath>
+            <index>0</index>
+         <comment> a3</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[4]</xpath>
+            <index>0</index>
+         <comment> a4</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[5]</xpath>
+            <index>0</index>
+         <comment> a5</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[6]</xpath>
+            <index>0</index>
+         <comment> a1</comment>
+         </Aobject>
+
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[7]</xpath>
+            <index>0</index>
+         <comment> a1</comment>
+         </Aobject>
+
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='answer4']/*[@nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+         <comment> 3a</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[1]</xpath>
+            <index>0</index>
+         <comment> 3b</comment>
+         </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[2] </xpath>
+            <index>0</index>
+         <comment> 3c</comment>
+         </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='answer4']/*[@nodeName='SPAN' and @width>0])[2] </xpath>
+            <index>0</index>
+         <comment> 3d</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[1]</xpath>
+            <index>0</index>
+         <comment> 4a</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[2]</xpath>
+            <index> 0</index>
+         <comment> 4b</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[3]</xpath>
+            <index>0</index>
+         <comment> 4c</comment>
+         </Aobject>
+
+        <!-- IOS -->
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath> xpath=//*[@id='answer2']</xpath>
+            <index>0</index>
+         <comment>a1 </comment>
+         </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='answer3']/*[@nodeName='SPAN' and @width>0])[1] </xpath>
+            <index>0</index>
+         <comment>on app </comment>
+         </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[1]</xpath>
+            <index>0</index>
+         <comment> a1</comment>
+         </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[2]</xpath>
+            <index>0</index>
+         <comment>a2</comment>
+         </Iobject>
+     <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*[@id='answer3']/*[@nodeName='SPAN' and @width>0])[2] </xpath>
+        <index>0</index>
+     <comment> ans 2</comment>
+     </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[3]</xpath>
+            <index>0</index>
+         <comment> a3</comment>
+         </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[4]</xpath>
+            <index>0</index>
+         <comment> a4</comment>
+         </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[5]</xpath>
+            <index>0</index>
+         <comment> a5</comment>
+         </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[6]</xpath>
+            <index>0</index>
+         <comment> a1</comment>
+         </Iobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[7]</xpath>
+            <index>0</index>
+         <comment> a1</comment>
+         </Iobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='answer4']/*[@nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+         <comment> 3a</comment>
+         </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[1]</xpath>
+            <index>0</index>
+         <comment> 3b</comment>
+         </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[2] </xpath>
+            <index>0</index>
+         <comment> 3c</comment>
+         </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='answer4']/*[@nodeName='SPAN' and @width>0])[2] </xpath>
+            <index>0</index>
+         <comment> 3d</comment>
+         </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[1]</xpath>
+            <index>0</index>
+         <comment> 4a</comment>
+         </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[2]</xpath>
+            <index> 0</index>
+         <comment> 4b</comment>
+         </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[3]</xpath>
+            <index>0</index>
+         <comment> 4c</comment>
+         </Iobject>
+
+    </meterSettingsAnswer>
+   <MeterAppConnection>
+        <Aobject>
+        <zone>WEB</zone>
+        <xpath>click</xpath>
+        <index> 12</index>
+        <comment>click on meter app connection </comment>
+     </Aobject>
+     <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[10]</xpath>
+        <index> 0</index>
+        <comment>click on meter app connection </comment>
+     </Aobject>
+       <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@id='meter_help_title']</xpath>
+        <index>0</index>
+        <comment>meter_help_title</comment>
+     </Aobject>
+      <Aobject>
+        <zone>WEB</zone>
+        <xpath>place</xpath>
+        <index> 0</index>
+        <comment>place holder text </comment>
+     </Aobject>
+
+        <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@nodeName='INPUT' and @width>0]</xpath>
+        <index> 0</index>
+        <comment> search meter help </comment>
+     </Aobject>
+
+      <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[10</xpath>
+        <index> 0</index>
+        <comment>how do i.. </comment>
+     </Aobject>
+     <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='triangle1']]</xpath>
+        <index>0</index>
+        <comment> Unpair a Contour Next/Plus ONE meter?</comment>
+     </Aobject>
+       <Aobject>
+        <zone>WEB</zone>
+        <xpath>click</xpath>
+        <index>62</index>
+        <comment>Unpair a Contour Next/Plus ONE meter?</comment>
+     </Aobject>
+       <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='triangle1']]</xpath>
+        <index>0</index>
+        <comment>Unpair a Contour Next/Plus ONE meter?</comment>
+     </Aobject>
+ <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*[@id='answer1']/*[@text and @nodeName='DIV' and @width>0])[1]</xpath>
+        <index>0</index>
+        <comment> On the app:</comment>
+     </Aobject>
+       <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[1]</xpath>
+        <index>0</index>
+        <comment>Go to Main Menu > Settings > My Meters. Tap the meter you want to unpair.</comment>
+     </Aobject>
+       <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[2]</xpath>
+        <index>0</index>
+        <comment>On the Meter Settings screen tap Unpair; confirm when you are prompted.</comment>
+     </Aobject>
+       <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[3]</xpath>
+        <index>0</index>
+        <comment>Tap the Back button (&lt;) to save and return to Settings.</comment>
+     </Aobject>
+        <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*[@id='answer1']/*[@text and @nodeName='DIV' and @width>0])[2]</xpath>
+        <index>0</index>
+        <comment>For a shortcut: Swipe left on the meter in the list then tap the red Unpair button and confirm.</comment>
+     </Aobject>
+        <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@nodeName='SPAN' and @width>0]</xpath>
+        <index>0</index>
+        <comment>Note: Previously synced blood sugar readings will remain on your account; future readings fro</comment>
+     </Aobject>
+        <Aobject>
+        <zone>WEB</zone>
+        <xpath>click</xpath>
+        <index>0</index>
+        <comment>click</comment>
+     </Aobject>
+       <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@value='1']]</xpath>
+        <index>0</index>
+        <comment> q1</comment>
+     </Aobject>
+<Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='triangle5']]</xpath>
+        <index>0</index>
+        <comment> Pair a second CONTOUR NEXT/PLUS ONE  meter to the app?</comment>
+     </Aobject>
+        <Aobject>
+        <zone>WEB</zone>
+        <xpath>click</xpath>
+        <index>0</index>
+        <comment>Pair a second CONTOUR NEXT/PLUS ONE  meter to the app?</comment>
+     </Aobject>
+       <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='triangle5']]</xpath>
+        <index>0</index>
+        <comment>Pair a second CONTOUR NEXT/PLUS ONE  meter to the app?</comment>
+     </Aobject>
+        <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*[@id='answer5']/*[@nodeName='SPAN' and @width>0])[1]</xpath>
+        <index>0</index>
+        <comment>In the app go to Settings &gt; My Meters. Tap the (+) and follow the instructions</comment>
+     </Aobject>
+      <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*[@id='answer5']/*[@nodeName='SPAN' and @width>0])[2]</xpath>
+        <index>0</index>
+        <comment>fter a CONTOUR NEXT/PLUS ONE  meter is paired, the Meter Settings screen displays. Change settings if</comment>
+     </Aobject>
+       <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*[@id='answer5']/*[@nodeName='SPAN' and @width>0])[3]</xpath>
+        <index>0</index>
+        <comment>Meter settings and app target ranges are applied to CONTOUR NEXT/PLUS ONE  meters through 'syncing'</comment>
+     </Aobject>
+
+     <Aobject>
+        <zone>WEB</zone>
+        <xpath>click</xpath>
+        <index>0</index>
+        <comment> q2</comment>
+     </Aobject>
+       <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@value='1']]</xpath>
+        <index>0</index>
+        <comment> q2</comment>
+     </Aobject>
+     <Aobject>
+        <zone>WEB</zone>
+        <xpath>click</xpath>
+        <index>0</index>
+        <comment> back btn</comment>
+     </Aobject>
+       <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[4]</xpath>
+        <index>0</index>
+        <comment>back btn</comment>
+     </Aobject>
+
+       <!-- IOS-->
+        <Iobject>
+        <zone>WEB</zone>
+        <xpath>click</xpath>
+        <index> 12</index>
+        <comment>click on meter app connection </comment>
+     </Iobject>
+     <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[10]</xpath>
+        <index> 0</index>
+        <comment>click on meter app connection </comment>
+     </Iobject>
+       <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@id='meter_help_title']</xpath>
+        <index>0</index>
+        <comment>meter_help_title</comment>
+     </Iobject>
+      <Iobject>
+        <zone>WEB</zone>
+        <xpath>place</xpath>
+        <index> 0</index>
+        <comment>place holder text </comment>
+     </Iobject>
+
+        <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@nodeName='INPUT' and @width>0]</xpath>
+        <index> 0</index>
+        <comment> search meter help </comment>
+     </Iobject>
+
+      <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[8]</xpath>
+        <index> 0</index>
+        <comment>how do i.. </comment>
+     </Iobject>
+     <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='triangle1']]</xpath>
+        <index>0</index>
+        <comment> Unpair a Contour Next/Plus ONE meter?</comment>
+     </Iobject>
+       <Iobject>
+        <zone>WEB</zone>
+        <xpath>click</xpath>
+        <index>62</index>
+        <comment>Unpair a Contour Next/Plus ONE meter?</comment>
+     </Iobject>
+       <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='triangle1']]</xpath>
+        <index>0</index>
+        <comment>Unpair a Contour Next/Plus ONE meter?</comment>
+     </Iobject>
+ <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*[@id='answer1']/*[@text and @nodeName='DIV' and @width>0])[1]</xpath>
+        <index>0</index>
+        <comment> On the app:</comment>
+     </Iobject>
+       <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[1]</xpath>
+        <index>0</index>
+        <comment>Go to Main Menu > Settings > My Meters. Tap the meter you want to unpair.</comment>
+     </Iobject>
+       <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[2]</xpath>
+        <index>0</index>
+        <comment>On the Meter Settings screen tap Unpair; confirm when you are prompted.</comment>
+     </Iobject>
+       <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[3]</xpath>
+        <index>0</index>
+        <comment>Tap the Back button (&lt;) to save and return to Settings.</comment>
+     </Iobject>
+        <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*[@id='answer1']/*[@text and @nodeName='DIV' and @width>0])[2]</xpath>
+        <index>0</index>
+        <comment>For a shortcut: Swipe left on the meter in the list then tap the red Unpair button and confirm.</comment>
+     </Iobject>
+        <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@nodeName='SPAN' and @width>0]</xpath>
+        <index>0</index>
+        <comment>Note: Previously synced blood sugar readings will remain on your account; future readings fro</comment>
+     </Iobject>
+        <Iobject>
+        <zone>WEB</zone>
+        <xpath>click</xpath>
+        <index>0</index>
+        <comment>click</comment>
+     </Iobject>
+       <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@value='1']]</xpath>
+        <index>0</index>
+        <comment> q1</comment>
+     </Iobject>
+<Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='triangle5']]</xpath>
+        <index>0</index>
+        <comment> Pair a second CONTOUR NEXT/PLUS ONE  meter to the app?</comment>
+     </Iobject>
+        <Iobject>
+        <zone>WEB</zone>
+        <xpath>click</xpath>
+        <index>0</index>
+        <comment>Pair a second CONTOUR NEXT/PLUS ONE  meter to the app?</comment>
+     </Iobject>
+       <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='triangle5']]</xpath>
+        <index>0</index>
+        <comment>Pair a second CONTOUR NEXT/PLUS ONE  meter to the app?</comment>
+     </Iobject>
+        <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*[@id='answer5']/*[@nodeName='SPAN' and @width>0])[1]</xpath>
+        <index>0</index>
+        <comment>In the app go to Settings &gt; My Meters. Tap the (+) and follow the instructions</comment>
+     </Iobject>
+      <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*[@id='answer5']/*[@nodeName='SPAN' and @width>0])[2]</xpath>
+        <index>0</index>
+        <comment>fter a CONTOUR NEXT/PLUS ONE  meter is paired, the Meter Settings screen displays. Change settings if</comment>
+     </Iobject>
+       <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*[@id='answer5']/*[@nodeName='SPAN' and @width>0])[3]</xpath>
+        <index>0</index>
+        <comment>Meter settings and app target ranges are applied to CONTOUR NEXT/PLUS ONE  meters through 'syncing'</comment>
+     </Iobject>
+
+     <Iobject>
+        <zone>WEB</zone>
+        <xpath>click</xpath>
+        <index>0</index>
+        <comment> q2</comment>
+     </Iobject>
+       <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@value='1']]</xpath>
+        <index>0</index>
+        <comment> q2</comment>
+     </Iobject>
+     <Iobject>
+        <zone>WEB</zone>
+        <xpath>click</xpath>
+        <index>0</index>
+        <comment> back btn</comment>
+     </Iobject>
+       <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[4]</xpath>
+        <index>0</index>
+        <comment>back btn</comment>
+     </Iobject>
+   </MeterAppConnection>
+
+    <BloodSugar>
+        <Aobject>
+        <zone>WEB</zone>
+        <xpath>click</xpath>
+        <index> 0</index>
+        <comment>click</comment>
+     </Aobject>
+     <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[3]</xpath>
+        <index> 0</index>
+        <comment>click</comment>
+     </Aobject>
+
+     <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@id='meter_help_title']</xpath>
+        <index> 0</index>
+        <comment>meter_help_title</comment>
+     </Aobject>
+        <Aobject>
+        <zone>WEB</zone>
+        <xpath>place</xpath>
+        <index> 0</index>
+        <comment>place holder text </comment>
+     </Aobject>
+      <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@nodeName='INPUT' and @width>0]</xpath>
+        <index> 0</index>
+        <comment> search meter help</comment>
+     </Aobject>
+        <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[10</xpath>
+        <index> 0</index>
+        <comment> How do I...</comment>
+     </Aobject>
+        <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='triangle0']]</xpath>
+        <index> 0</index>
+        <comment> Add or change the meal marker for a meter reading in the app?</comment>
+     </Aobject>
+         <Aobject>
+        <zone>WEB</zone>
+        <xpath>click</xpath>
+        <index> 0</index>
+        <comment> Add or change the meal marker for a meter reading in the app?</comment>
+     </Aobject>
+         <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='triangle0']]</xpath>
+        <index> 0</index>
+
+        <comment> Add or change the meal marker for a meter reading in the app?</comment>
+     </Aobject>
+
+         <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[1]</xpath>
+        <index> 0</index>
+        <comment> Open the app. Tap the blood sugar reading button listed in My Readings.</comment>
+     </Aobject>
+         <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@nodeName='LI' and @width>0 and ./*[@nodeName='IMG']]</xpath>
+        <index> 0</index>
+        <comment> When the Edit screen appears, tap the Meal icon </comment>
+     </Aobject>
+          <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@nodeName='SPAN' and @width>0]</xpath>
+        <index> 0</index>
+        <comment> Note </comment>
+     </Aobject>
+         <Aobject>
+        <zone>WEB</zone>
+        <xpath>click</xpath>
+        <index> 0</index>
+        <comment> click question</comment>
+     </Aobject>
+         <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@value='1']]</xpath>
+        <index>0</index>
+        <comment> click question</comment>
+     </Aobject>
+         <Aobject>
+        <zone>WEB</zone>
+        <xpath>click</xpath>
+        <index> 0</index>
+        <comment> click</comment>
+     </Aobject>
+         <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[4] </xpath>
+        <index> 0</index>
+        <comment> BAck button</comment>
+     </Aobject>
+
+        <!-- IOS-->
+
+     <Iobject>
+        <zone>WEB</zone>
+        <xpath>click</xpath>
+        <index> 0</index>
+        <comment>click</comment>
+     </Iobject>
+     <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[3]</xpath>
+        <index> 0</index>
+        <comment>click</comment>
+     </Iobject>
+
+     <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@id='meter_help_title']</xpath>
+        <index> 0</index>
+        <comment>meter_help_title</comment>
+     </Iobject>
+        <Iobject>
+        <zone>WEB</zone>
+        <xpath>place</xpath>
+        <index> 0</index>
+        <comment>place holder text </comment>
+     </Iobject>
+      <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@nodeName='INPUT' and @width>0]</xpath>
+        <index> 0</index>
+        <comment> search meter help</comment>
+     </Iobject>
+        <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[10]</xpath>
+        <index> 0</index>
+        <comment> How do I...</comment>
+     </Iobject>
+        <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='triangle0']]</xpath>
+        <index> 0</index>
+        <comment> Add or change the meal marker for a meter reading in the app?</comment>
+     </Iobject>
+         <Iobject>
+        <zone>WEB</zone>
+        <xpath>click</xpath>
+        <index> 0</index>
+        <comment> Add or change the meal marker for a meter reading in the app?</comment>
+     </Iobject>
+         <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='triangle0']]</xpath>
+        <index> 0</index>
+
+        <comment> Add or change the meal marker for a meter reading in the app?</comment>
+     </Iobject>
+
+         <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[1]</xpath>
+        <index> 0</index>
+        <comment> Open the app. Tap the blood sugar reading button listed in My Readings.</comment>
+     </Iobject>
+         <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@nodeName='LI' and @width>0 and ./*[@nodeName='IMG']]</xpath>
+        <index> 0</index>
+        <comment> When the Edit screen appears, tap the Meal icon </comment>
+     </Iobject>
+          <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@nodeName='SPAN' and @width>0]</xpath>
+        <index> 0</index>
+        <comment> Note </comment>
+     </Iobject>
+         <Iobject>
+        <zone>WEB</zone>
+        <xpath>click</xpath>
+        <index> 0</index>
+        <comment> click question</comment>
+     </Iobject>
+         <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@value='1']]</xpath>
+        <index>0</index>
+        <comment> click question</comment>
+     </Iobject>
+         <Iobject>
+        <zone>WEB</zone>
+        <xpath>click</xpath>
+        <index> 0</index>
+        <comment> click</comment>
+     </Iobject>
+         <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[4] </xpath>
+        <index> 0</index>
+        <comment> BAck button</comment>
+     </Iobject>
+    </BloodSugar>
+    <IconGlossary>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[16]</xpath>
+            <index>0</index>
+            <comment> click back to meter Icon Glossary</comment>
+        </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='meter_help_title']</xpath>
+            <index>0</index>
+            <comment> title </comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment> Blood sugar reading is in Target Range</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath> xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[2]</xpath>
+            <index>0</index>
+            <comment>Blood sugar reading is above 600 mg/dL</comment>
+        </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath> xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[3]</xpath>
+            <index>0</index>
+            <comment>Blood sugar reading is below 10 mg/dL</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath> xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[4]</xpath>
+            <index>0</index>
+            <comment> Blood sugar reading is above target range</comment>
+        </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[5]</xpath>
+            <index>0</index>
+            <comment> Blood sugar reading is below target range</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[6]</xpath>
+            <index>0</index>
+            <comment> Logbook entry</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[7]</xpath>
+            <index>0</index>
+            <comment> Meter Settings</comment>
+        </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[8]</xpath>
+            <index>0</index>
+            <comment>8 before meal marker</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath> xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[9]</xpath>
+            <index>0</index>
+            <comment>9 after meal marker</comment>
+        </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[10]</xpath>
+            <index>0</index>
+            <comment> Fasting marker</comment>
+        </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[11]</xpath>
+            <index>0</index>
+            <comment>No meal marker set </comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[12]</xpath>
+            <index>0</index>
+            <comment>A target range or target setting</comment>
+        </Aobject>
+
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[13]</xpath>
+            <index>0</index>
+            <comment>Target light setting</comment>
+        </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[14]</xpath>
+            <index>0</index>
+            <comment>Meter is ready to test</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[15]</xpath>
+            <index>0</index>
+            <comment>Add more blood to strip</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[16]</xpath>
+            <index>0</index>
+            <comment>Control solution resul</comment>
+        </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[17]</xpath>
+            <index>0</index>
+            <comment>Bluetooth setting is on; meter can communicate with a mobile device </comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[18]</xpath>
+            <index>0</index>
+            <comment>Low Battery</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[19]</xpath>
+            <index>0</index>
+            <comment>19</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[20]</xpath>
+            <index>0</index>
+            <comment>dead meters </comment>
+        </Aobject>
+      <!--  <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[21]</xpath>
+            <index>0</index>
+            <comment>Metere error </comment>
+        </Aobject>-->
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[4]</xpath>
+            <index>0</index>
+            <comment>Go back to meter settings </comment>
+        </Aobject>
+
+        <!-- IOS-->
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[16]</xpath>
+            <index>0</index>
+            <comment> click back to meter Icon Glossary</comment>
+        </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='meter_help_title']</xpath>
+            <index>0</index>
+            <comment> title </comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment> Blood sugar reading is in Target Range</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath> xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[2]</xpath>
+            <index>0</index>
+            <comment>Blood sugar reading is above 600 mg/dL</comment>
+        </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath> xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[3]</xpath>
+            <index>0</index>
+            <comment>Blood sugar reading is below 10 mg/dL</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath> xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[4]</xpath>
+            <index>0</index>
+            <comment> Blood sugar reading is above target range</comment>
+        </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[5]</xpath>
+            <index>0</index>
+            <comment> Blood sugar reading is below target range</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[6]</xpath>
+            <index>0</index>
+            <comment> Logbook entry</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[7]</xpath>
+            <index>0</index>
+            <comment> Meter Settings</comment>
+        </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[8]</xpath>
+            <index>0</index>
+            <comment>8 before meal marker</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath> xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[9]</xpath>
+            <index>0</index>
+            <comment>9 after meal marker</comment>
+        </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[10]</xpath>
+            <index>0</index>
+            <comment> Fasting marker</comment>
+        </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[11]</xpath>
+            <index>0</index>
+            <comment>No meal marker set </comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[12]</xpath>
+            <index>0</index>
+            <comment>A target range or target setting</comment>
+        </Iobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[13]</xpath>
+            <index>0</index>
+            <comment>Target light setting</comment>
+        </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[14]</xpath>
+            <index>0</index>
+            <comment>Meter is ready to test</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[15]</xpath>
+            <index>0</index>
+            <comment>Add more blood to strip</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[16]</xpath>
+            <index>0</index>
+            <comment>Control solution resul</comment>
+        </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[17]</xpath>
+            <index>0</index>
+            <comment>Bluetooth setting is on; meter can communicate with a mobile device </comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[18]</xpath>
+            <index>0</index>
+            <comment>Low Battery</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[19]</xpath>
+            <index>0</index>
+            <comment>19</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[20]</xpath>
+            <index>0</index>
+            <comment>dead meters </comment>
+        </Iobject>
+      <!--  <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[21]</xpath>
+            <index>0</index>
+            <comment>Metere error </comment>
+        </Iobject>-->
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[4]</xpath>
+            <index>0</index>
+            <comment>Go back to meter settings </comment>
+        </Iobject>
+
+
+    </IconGlossary>
+    <GoHome>
+
+    <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@class='custom_back_btn'] </xpath>
+        <index> 6</index>
+        <comment> custom_back_btn</comment>
+     </Aobject>
+
+    <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@class='custom_menu_btn']</xpath>
+                <index>0</index>
+                <comment> custom_menu_btn </comment>
+    </Aobject>
+     <Aobject>
+                <zone>NATIVE</zone>
+                <xpath>xpath=//*[@id='lblListHeaderSlideView']</xpath>
+                <index>0</index>
+                <comment> My readings </comment>
+    </Aobject>
+
+        <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@class='custom_back_btn'] </xpath>
+        <index> 6</index>
+        <comment> custom_back_btn</comment>
+     </Iobject>
+
+    <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@class='custom_menu_btn']</xpath>
+                <index>0</index>
+                <comment> custom_menu_btn </comment>
+    </Iobject>
+     <Iobject>
+                <zone>NATIVE</zone>
+                <xpath>xpath=//*[@id='lblListHeaderSlideView']</xpath>
+                <index>0</index>
+                <comment> My Readings </comment>
+    </Iobject>
+</GoHome>
+
+
+
+</root>
+

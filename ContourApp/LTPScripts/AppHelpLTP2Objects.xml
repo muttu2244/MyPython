@@ -1,0 +1,1389 @@
+<root>
+    <toAppHelp>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='ic_menu']</xpath>
+            <index>0</index>
+            <comment>ic_menu </comment>
+    </Aobject>
+     <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='lblListHeaderSlideView']</xpath>
+            <index>5</index>
+            <comment> click on Help menu</comment>
+    </Aobject>
+    <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='helpListview1']/*/*[@text and @nodeName='DIV' and ./*[@nodeName='SPAN']])[2]</xpath>
+            <index>0</index>
+        <comment> click on App Help</comment>
+    </Aobject>
+
+     <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@accessibilityLabel='Menu icn 1x']</xpath>
+            <index>0</index>
+            <comment>ic_menu </comment>
+      </Iobject>
+     <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='YGLinedView']</xpath>
+            <index>5</index>
+         <comment> click on Help menu</comment>
+    </Iobject>
+    <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='helpListview1']/*[@nodeName='LI'])[2]</xpath>
+            <index>0</index>
+        <comment> App Help</comment>
+    </Iobject>
+    </toAppHelp>
+     <mainScreen>
+        <!--main screen text test -->
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='app_help_title']</xpath>
+            <index>0</index>
+        <comment> app help title </comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='INPUT' and @width>0]</xpath>
+            <index>0</index>
+        <comment> search </comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath> xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[8]</xpath>
+            <index>0</index>
+         <comment> Account set_up </comment>
+        </Aobject>
+     <Aobject>
+            <zone>WEB</zone>
+            <xpath> xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[10]</xpath>
+            <index>0</index>
+         <comment> Navigation</comment>
+    </Aobject>
+    <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[12]</xpath>
+            <index>0</index>
+        <comment> Blod sugar Reading and Meal marker </comment>
+    </Aobject>
+    <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[14]</xpath>
+            <index>0</index>
+        <comment>Target range and Meal marker</comment>
+    </Aobject>
+    <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[16]</xpath>
+            <index>0</index>
+        <comment> Reminders and PAtterns</comment>
+    </Aobject>
+      <Aobject>
+            <zone>WEB</zone>
+            <xpath> xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[18]</xpath>
+            <index>0</index>
+          <comment> Reports and </comment>
+    </Aobject>
+   <!-- IOS -->
+
+
+
+      <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='app_help_title']</xpath>
+            <index>0</index>
+        <comment> app help title </comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='INPUT' and @width>0]</xpath>
+            <index>0</index>
+        <comment> search </comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath> xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[8]</xpath>
+            <index>0</index>
+         <comment> Account set_up </comment>
+        </Iobject>
+     <Iobject>
+            <zone>WEB</zone>
+            <xpath> xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[10]</xpath>
+            <index>0</index>
+         <comment> Navigation</comment>
+    </Iobject>
+    <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[12]</xpath>
+            <index>0</index>
+        <comment> Blod sugar Reading and Meal marker </comment>
+    </Iobject>
+    <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[14]</xpath>
+            <index>0</index>
+        <comment>Target range and Meal marker</comment>
+    </Iobject>
+    <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[16]</xpath>
+            <index>0</index>
+        <comment> Reminders and PAtterns</comment>
+    </Iobject>
+      <Iobject>
+            <zone>WEB</zone>
+            <xpath> xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[18]</xpath>
+            <index>0</index>
+          <comment> Reports and </comment>
+    </Iobject>
+  </mainScreen>
+    <AccountsetUp>
+     <!-- please find the clickable objects in Accountset_upClick Tag-->
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment> Account set_up click</comment>
+        </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='helpListview1']/*[@nodeName='LI' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment> Account set_up click</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='app_help_title']</xpath>
+            <index>0</index>
+            <comment>Account set_upo title string</comment>
+        </Aobject>
+   <Aobject>
+            <zone>WEB</zone>
+            <xpath>place</xpath>
+            <index>0</index>
+            <comment>Account set_up title string</comment>
+        </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='INPUT' and @width>0]</xpath>
+            <index>0</index>
+        <comment> search </comment>
+        </Aobject>
+
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[8] </xpath>
+            <index>0</index>
+            <comment> How do I</comment>
+        </Aobject>
+
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='app_triangle19']]</xpath>
+            <index>0</index>
+            <comment> Change the email address for my app account?</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment> Change the email address for my app account?</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='app_triangle19']]</xpath>
+            <index>0</index>
+            <comment> Change the email address for my app account?</comment>
+        </Aobject>
+
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath> xpath=(//*[@id='app_answer19']/*[@text and @nodeName='DIV' and @width>0])[1]  </xpath>
+            <index>0</index>
+            <comment> 1. Go to Main Menu > Settings > My Account.</comment>
+        </Aobject>
+
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='app_answer19']/*[@text and @nodeName='DIV' and @width>0])[2] </xpath>
+            <index>0</index>
+            <comment>2. Tap the email address to change it. </comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='DIV']] and ./following-sibling::*[@nodeName='DIV']])[4]</xpath>
+            <index>0</index>
+            <comment>Create an account from Guest Mode?</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment> </comment>
+        </Aobject>
+          <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='DIV']] and ./following-sibling::*[@nodeName='DIV']])[4]</xpath>
+            <index>0</index>
+            <comment>Create an account from Guest Mode?</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[18]</xpath>
+            <index>0</index>
+            <comment>To create an account from Guest mode, go to Menu > Settings > Create an account and follow the instructions.</comment>
+        </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment> Change the email address for my app account?</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='DIV' and @css='DIV.custom_back_btn' and @class='custom_back_btn' and @onScreen='true'] </xpath>
+            <index>0</index>
+            <comment>Create an account from Guest Mode?</comment>
+        </Aobject>
+
+
+        <!-- IOS     -->
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment> Account set_up click</comment>
+        </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='helpListview1']/*[@nodeName='LI' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment> Account set_up click</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='app_help_title']</xpath>
+            <index>0</index>
+            <comment>Account set_upo title string</comment>
+        </Iobject>
+   <Iobject>
+            <zone>WEB</zone>
+            <xpath>place</xpath>
+            <index>0</index>
+            <comment>Account set_up title string</comment>
+        </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='INPUT' and @width>0]</xpath>
+            <index>0</index>
+        <comment> search </comment>
+        </Iobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[8] </xpath>
+            <index>0</index>
+            <comment> How do I</comment>
+        </Iobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='app_triangle19']]</xpath>
+            <index>0</index>
+            <comment> Change the email address for my app account?</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment> Change the email address for my app account?</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='app_triangle19']]</xpath>
+            <index>0</index>
+            <comment> Change the email address for my app account?</comment>
+        </Iobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath> xpath=(//*[@id='app_answer19']/*[@text and @nodeName='DIV' and @width>0])[1]  </xpath>
+            <index>0</index>
+            <comment> 1. Go to Main Menu > Settings > My Account.</comment>
+        </Iobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='app_answer19']/*[@text and @nodeName='DIV' and @width>0])[2] </xpath>
+            <index>0</index>
+            <comment>2. Tap the email address to change it. </comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='DIV']] and ./following-sibling::*[@nodeName='DIV']])[4]</xpath>
+            <index>0</index>
+            <comment>Create an account from Guest Mode?</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment> </comment>
+        </Iobject>
+          <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='DIV']] and ./following-sibling::*[@nodeName='DIV']])[4]</xpath>
+            <index>0</index>
+            <comment>Create an account from Guest Mode?</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[18]</xpath>
+            <index>0</index>
+            <comment>To create an account from Guest mode, go to Menu > Settings > Create an account and follow the instructions.</comment>
+        </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment> Change the email address for my app account?</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='DIV' and @css='DIV.custom_back_btn' and @class='custom_back_btn' and @onScreen='true'] </xpath>
+            <index>0</index>
+            <comment>Create an account from Guest Mode?</comment>
+        </Iobject>
+
+
+    </AccountsetUp>
+    <Navigation>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>11</index>
+            <comment>click on navigation text </comment>
+        </Aobject>
+
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[10]</xpath>
+            <index>0</index>
+            <comment> click on navigation text</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='app_help_title'] </xpath>
+            <index>0</index>
+            <comment>app_help_title'  Navigation</comment>
+        </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>place</xpath>
+            <index>0</index>
+            <comment>place holder text  </comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='INPUT' and @width>0] </xpath>
+            <index>0</index>
+            <comment>place holder text </comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[8] </xpath>
+            <index>0</index>
+            <comment>How do i... </comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='app_triangle0']])[1]</xpath>
+            <index>0</index>
+            <comment>Get back to the previous screen when there is no Back button? </comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>click </xpath>
+            <index>60</index>
+            <comment> Get back to the previous screen when there is no Back button?</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='app_triangle0']])[1]</xpath>
+            <index>0</index>
+            <comment>Get back to the previous screen when there is no Back button? </comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='app_answer0']</xpath>
+            <index>0</index>
+            <comment> Tap the Menu, Done, or 'X' button to go back to the previous screen</comment>
+        </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment>Find a detailed graph of my blood sugar readings? </comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@value='1']] </xpath>
+            <index>0</index>
+            <comment> From My Readings in the app, tap the small graph to see the expanded view of the graph.</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='app_triangle9']]</xpath>
+            <index>0</index>
+            <comment>Find Pattern settings so I can change my feedback or test frequency goal? </comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment>click  </comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='app_triangle9']]</xpath>
+            <index>0</index>
+            <comment>Find Pattern settings so I can change my feedback or test frequency goal?</comment>
+        </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='app_answer9']</xpath>
+            <index>0</index>
+            <comment>1.Open the app and go to Main Menu > My Patterns. </comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment>How do I navigate through the app using the Main Menu? </comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@value='1']] </xpath>
+            <index>0</index>
+            <comment>The app Menu options are as follows: </comment>
+        </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='app_triangle0']])[2]</xpath>
+            <index>0</index>
+            <comment>qestion 3 </comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment>click on qestion 3 </comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='app_triangle0']])[2]</xpath>
+            <index>0</index>
+            <comment> Find Pattern settings so I can change my feedback or test frequency goal?</comment>
+        </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='app_answer0']</xpath>
+            <index>0</index>
+            <comment> app_answer0</comment>
+        </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment>click </comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='app_triangle0']])[2] </xpath>
+            <index>0</index>
+            <comment> </comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='app_triangle0']])[3] </xpath>
+            <index>0</index>
+            <comment>How do I navigate through the app using the Main Menu? </comment>
+        </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment> How do I navigate through the app using the Main Menu?</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='app_triangle0']])[3] </xpath>
+            <index>0</index>
+            <comment> How do I navigate through the app using the Main Menu?</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='app_answer0'] </xpath>
+            <index>0</index>
+            <comment> 4a</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>2</index>
+            <comment> How do I navigate through the app using the Main Menu?</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[4]</xpath>
+            <index>0</index>
+            <comment> back to app help</comment>
+        </Aobject>
+
+
+        <!--   IOS  -->
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>11</index>
+            <comment>click on navigation text </comment>
+        </Iobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[10]</xpath>
+            <index>0</index>
+            <comment> click on navigation text</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='app_help_title'] </xpath>
+            <index>0</index>
+            <comment>app_help_title'  Navigation</comment>
+        </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>place</xpath>
+            <index>0</index>
+            <comment>place holder text  </comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='INPUT' and @width>0] </xpath>
+            <index>0</index>
+            <comment>place holder text </comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[8] </xpath>
+            <index>0</index>
+            <comment>How do i... </comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='app_triangle0']])[1]</xpath>
+            <index>0</index>
+            <comment>Get back to the previous screen when there is no Back button? </comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>click </xpath>
+            <index>60</index>
+            <comment> Get back to the previous screen when there is no Back button?</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='app_triangle0']])[1]</xpath>
+            <index>0</index>
+            <comment>Get back to the previous screen when there is no Back button? </comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='app_answer0']</xpath>
+            <index>0</index>
+            <comment> Tap the Menu, Done, or 'X' button to go back to the previous screen</comment>
+        </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment>Find a detailed graph of my blood sugar readings? </comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@value='1']] </xpath>
+            <index>0</index>
+            <comment> From My Readings in the app, tap the small graph to see the expanded view of the graph.</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='app_triangle9']]</xpath>
+            <index>0</index>
+            <comment>Find Pattern settings so I can change my feedback or test frequency goal? </comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment>click  </comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='app_triangle9']]</xpath>
+            <index>0</index>
+            <comment>Find Pattern settings so I can change my feedback or test frequency goal?</comment>
+        </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='app_answer9']</xpath>
+            <index>0</index>
+            <comment>1.Open the app and go to Main Menu > My Patterns. </comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment>How do I navigate through the app using the Main Menu? </comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@value='1']] </xpath>
+            <index>0</index>
+            <comment>The app Menu options are as follows: </comment>
+        </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='app_triangle0']])[2]</xpath>
+            <index>0</index>
+            <comment>qestion 3 </comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment>click on qestion 3 </comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='app_triangle0']])[2]</xpath>
+            <index>0</index>
+            <comment> Find Pattern settings so I can change my feedback or test frequency goal?</comment>
+        </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='app_answer0']</xpath>
+            <index>0</index>
+            <comment> app_answer0</comment>
+        </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment>click </comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='app_triangle0']])[2] </xpath>
+            <index>0</index>
+            <comment> </comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='app_triangle0']])[3] </xpath>
+            <index>0</index>
+            <comment>How do I navigate through the app using the Main Menu? </comment>
+        </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment> How do I navigate through the app using the Main Menu?</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='app_triangle0']])[3] </xpath>
+            <index>0</index>
+            <comment> How do I navigate through the app using the Main Menu?</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='app_answer0'] </xpath>
+            <index>0</index>
+            <comment> 4a</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>2</index>
+            <comment> How do I navigate through the app using the Main Menu?</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[4]</xpath>
+            <index>0</index>
+            <comment> back to app help</comment>
+        </Iobject>
+    </Navigation>
+      <BloodSugar><!--click from app help to main screen-->\
+        <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=(//*[@id='helpListview1']/*[@nodeName='LI' and @width>0])[3] </xpath>
+                <index>0</index>
+                <comment> blood sugar and meeal marker click</comment>
+          </Aobject>
+               <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@nodeName='INPUT' and @width>0] </xpath>
+                <index>0</index>
+                <comment>Search app help</comment>
+          </Aobject>
+
+        <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[4]</xpath>
+                <index>0</index>
+                <comment> go back to app help ..click</comment>
+          </Aobject>
+
+          <!-- IOS-->
+             <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=(//*[@id='helpListview1']/*[@nodeName='LI' and @width>0])[3] </xpath>
+                <index>0</index>
+                <comment> blood sugar and meeal marker click</comment>
+          </Iobject>
+
+       <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@nodeName='INPUT' and @width>0] </xpath>
+                <index>0</index>
+                <comment>Search app help</comment>
+          </Iobject>
+
+        <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[4] </xpath>
+                <index>0</index>
+                <comment> go back to app help ..click</comment>
+          </Iobject>
+    </BloodSugar>
+    <BloodQuestions>
+        <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@nodeName='DIV' and @css='DIV.question_content' and @class='question_content']</xpath>
+                <index>0</index>
+                <comment> quesion 1</comment>
+          </Aobject>
+         //xpath=//*[@text and @nodeName='DIV' and ./parent::*[@value='0']]
+        <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@nodeName='DIV' and @css='DIV.question_content' and @class='question_content']</xpath>
+                <index>1</index>
+                <comment> quesion 2</comment>
+          </Aobject>
+        <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@nodeName='DIV' and @css='DIV.question_content' and @class='question_content']</xpath>
+                <index>2</index>
+                <comment> quesion 3</comment>
+          </Aobject>
+        <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@nodeName='DIV' and @css='DIV.question_content' and @class='question_content'] </xpath>
+                <index>3</index>
+                <comment> quesion 4</comment>
+          </Aobject>
+       <!-- <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@value='1']]</xpath>
+                <index>0</index>
+                <comment> quesion 4</comment>
+          </Aobject>-->
+         <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@nodeName='DIV' and @css='DIV.question_content' and @class='question_content']</xpath>
+                <index>4</index>
+                <comment> quesion 5</comment>
+          </Aobject>
+        <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@nodeName='DIV' and @css='DIV.question_content' and @class='question_content']</xpath>
+                <index>5</index>
+                <comment> quesion 6</comment>
+          </Aobject>
+
+        <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@nodeName='DIV' and @css='DIV.question_content' and @class='question_content']</xpath>
+                <index>6</index>
+                <comment> quesion 7</comment>
+          </Aobject>
+         <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@nodeName='DIV' and @css='DIV.question_content' and @class='question_content']</xpath>
+                <index>7</index>
+                <comment> quesion 8</comment>
+          </Aobject>
+        <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@nodeName='DIV' and @css='DIV.question_content' and @class='question_content']</xpath>
+                <index>8</index>
+                <comment> quesion 9</comment>
+          </Aobject>
+        <!-- IOS -->
+
+      <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@nodeName='DIV' and @css='DIV.question_content' and @class='question_content']</xpath>
+                <index>0</index>
+                <comment> quesion 1</comment>
+          </Iobject>
+         //xpath=//*[@text and @nodeName='DIV' and ./parent::*[@value='0']]
+        <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@nodeName='DIV' and @css='DIV.question_content' and @class='question_content']</xpath>
+                <index>1</index>
+                <comment> quesion 2</comment>
+          </Iobject>
+        <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@nodeName='DIV' and @css='DIV.question_content' and @class='question_content']</xpath>
+                <index>2</index>
+                <comment> quesion 3</comment>
+          </Iobject>
+        <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@nodeName='DIV' and @css='DIV.question_content' and @class='question_content'] </xpath>
+                <index>3</index>
+                <comment> quesion 4</comment>
+          </Iobject>
+       <!-- <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@value='1']]</xpath>
+                <index>0</index>
+                <comment> quesion 4</comment>
+          </Iobject>-->
+         <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@nodeName='DIV' and @css='DIV.question_content' and @class='question_content']</xpath>
+                <index>4</index>
+                <comment> quesion 5</comment>
+          </Iobject>
+        <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@nodeName='DIV' and @css='DIV.question_content' and @class='question_content']</xpath>
+                <index>5</index>
+                <comment> quesion 6</comment>
+          </Iobject>
+
+        <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@nodeName='DIV' and @css='DIV.question_content' and @class='question_content']</xpath>
+                <index>6</index>
+                <comment> quesion 7</comment>
+          </Iobject>
+         <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@nodeName='DIV' and @css='DIV.question_content' and @class='question_content']</xpath>
+                <index>7</index>
+                <comment> quesion 8</comment>
+          </Iobject>
+        <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@nodeName='DIV' and @css='DIV.question_content' and @class='question_content']</xpath>
+                <index>8</index>
+                <comment> quesion 9</comment>
+          </Iobject>
+
+    </BloodQuestions>
+    <Blood2><!---ansewr hidden text objects-->
+        <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=(//*/*[@nodeName='LI'])[17]</xpath>
+                <index>0</index>
+                <comment> stop meal marker </comment>
+        </Aobject>
+        <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@nodeName='DIV' and @css='DIV.question_box' and @class='question_box' ]</xpath>
+                <index>5</index>
+                <comment> stop meal marker </comment>
+        </Aobject>
+         <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@id='app_answer5']</xpath>
+                <index>0</index>
+                <comment> delete a manual  </comment>
+        </Iobject>
+        <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@nodeName='DIV' and @css='DIV.question_box' and @class='question_box' ]</xpath>
+                <index>2</index>
+                <comment> stop meal marker </comment>
+        </Iobject>
+
+
+    </Blood2>
+    <TargetRange>
+        <Aobject>
+                <zone>WEB</zone>
+                <xpath>click</xpath>
+                <index>2</index>
+                <comment> target</comment>
+        </Aobject>
+        <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[14]</xpath>
+                <index>0</index>
+            xpath=(//*[@id='helpListview1']/*[@nodeName='LI'])
+                <comment> target</comment>
+        </Aobject>
+        <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@id='app_help_title']</xpath>
+                <index>0</index>
+                <comment> app_help_title </comment>
+        </Aobject>
+        <Aobject>
+                <zone>WEB</zone>
+                <xpath>place</xpath>
+                <index>0</index>
+                <comment>Search app help  </comment>
+        </Aobject>
+        <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@nodeName='INPUT' and @width>0]</xpath>
+                <index>0</index>
+                <comment> Search app help </comment>
+        </Aobject>
+        <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[8]</xpath>
+                <index>0</index>
+                <comment> How do i... </comment>
+        </Aobject>
+         <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='app_triangle1']]</xpath>
+                <index>0</index>
+                <comment> Change my target ranges after I set them?</comment>
+        </Aobject>
+        <Aobject>
+                <zone>WEB</zone>
+                <xpath>click</xpath>
+                <index>62</index>
+                <comment> Change my target ranges after I set them? </comment>
+        </Aobject>
+        <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='app_triangle1']]</xpath>
+                <index>0</index>
+                <comment> Change my target ranges after I set them? </comment>
+        </Aobject>
+        <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@id='app_answer1']</xpath>
+                <index>0</index>
+                <comment> in the app, go to Main Menu  </comment>
+        </Aobject>
+         <Aobject>
+                <zone>WEB</zone>
+                <xpath>click</xpath>
+                <index>62</index>
+                <comment> Change my target ranges after I set them? </comment>
+        </Aobject>
+        <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='app_triangle1']]</xpath>
+                <index>0</index>
+                <comment>  Set up a reminder to test my blood sugar or log an activity?</comment>
+        </Aobject>
+        <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='app_triangle2']]</xpath>
+                <index>0</index>
+                <comment> Set up a reminder to test my blood sugar or log an activity? </comment>
+        </Aobject>
+         <Aobject>
+                <zone>WEB</zone>
+                <xpath>click</xpath>
+                <index>63</index>
+                <comment>  Set up a reminder to test my blood sugar or log an activity?</comment>
+        </Aobject>
+        <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='app_triangle2']]</xpath>
+                <index>0</index>
+                <comment> Set up a reminder to test my blood sugar or log an activity? </comment>
+        </Aobject>
+         <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=(//*[@id='app_answer2']/*[@nodeName='SPAN'])[1]</xpath>
+                <index>0</index>
+                <comment> app_answer2 </comment>
+        </Aobject>
+        <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@id='app_answer2a']</xpath>
+                <index>0</index>
+                <comment>  app_answer2</comment>
+        </Aobject>
+
+         <Aobject>
+                <zone>WEB</zone>
+                <xpath>click</xpath>
+                <index>63</index>
+                <comment> Set up a reminder to test my blood sugar or log an activity? </comment>
+        </Aobject>
+        <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[4]</xpath>
+                <index>0</index>
+                <comment>  click back btn</comment>
+        </Aobject>
+
+        <!-- IOS -->
+
+       <Iobject>
+                <zone>WEB</zone>
+                <xpath>click</xpath>
+                <index>2</index>
+                <comment> target</comment>
+        </Iobject>
+        <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[14]</xpath>
+                <index>0</index>
+                <comment> target</comment>
+        </Iobject>
+        <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@id='app_help_title']</xpath>
+                <index>0</index>
+                <comment> app_help_title </comment>
+        </Iobject>
+        <Iobject>
+                <zone>WEB</zone>
+                <xpath>place</xpath>
+                <index>0</index>
+                <comment>Search app help  </comment>
+        </Iobject>
+        <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@nodeName='INPUT' and @width>0]</xpath>
+                <index>0</index>
+                <comment> Search app help </comment>
+        </Iobject>
+        <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[8]</xpath>
+                <index>0</index>
+                <comment> How do i... </comment>
+        </Iobject>
+         <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='app_triangle1']]</xpath>
+                <index>0</index>
+                <comment> Change my target ranges after I set them?</comment>
+        </Iobject>
+        <Iobject>
+                <zone>WEB</zone>
+                <xpath>click</xpath>
+                <index>62</index>
+                <comment> Change my target ranges after I set them? </comment>
+        </Iobject>
+        <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='app_triangle1']]</xpath>
+                <index>0</index>
+                <comment> Change my target ranges after I set them? </comment>
+        </Iobject>
+        <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@id='app_answer1']</xpath>
+                <index>0</index>
+                <comment> in the app, go to Main Menu  </comment>
+        </Iobject>
+         <Iobject>
+                <zone>WEB</zone>
+                <xpath>click</xpath>
+                <index>62</index>
+                <comment> Change my target ranges after I set them? </comment>
+        </Iobject>
+        <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='app_triangle1']]</xpath>
+                <index>0</index>
+                <comment>  Set up a reminder to test my blood sugar or log an activity?</comment>
+        </Iobject>
+        <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='app_triangle2']]</xpath>
+                <index>0</index>
+                <comment> Set up a reminder to test my blood sugar or log an activity? </comment>
+        </Iobject>
+         <Iobject>
+                <zone>WEB</zone>
+                <xpath>click</xpath>
+                <index>63</index>
+                <comment>  Set up a reminder to test my blood sugar or log an activity?</comment>
+        </Iobject>
+        <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='app_triangle2']]</xpath>
+                <index>0</index>
+                <comment> Set up a reminder to test my blood sugar or log an activity? </comment>
+        </Iobject>
+         <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=(//*[@id='app_answer2']/*[@nodeName='SPAN'])[1]</xpath>
+                <index>0</index>
+                <comment> app_answer2 </comment>
+        </Iobject>
+        <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@id='app_answer2a']</xpath>
+                <index>0</index>
+                <comment>  app_answer2</comment>
+        </Iobject>
+
+         <Iobject>
+                <zone>WEB</zone>
+                <xpath>click</xpath>
+                <index>63</index>
+                <comment> Set up a reminder to test my blood sugar or log an activity? </comment>
+        </Iobject>
+        <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[4]</xpath>
+                <index>0</index>
+                <comment>  click back btn</comment>
+        </Iobject>
+
+    </TargetRange>
+    <Reminders>
+        <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[16]</xpath>
+                <index>0</index>
+                <comment> reminders </comment>
+        </Aobject>
+          <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@nodeName='INPUT']</xpath>
+                <index>0</index>
+                <comment> place holder </comment>
+        </Aobject>
+         <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[4]</xpath>
+                <index>0</index>
+                <comment> place holder </comment>
+        </Aobject>
+        <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@css='DIV.menuText' and @class='menuText']</xpath>
+                <index>4</index>
+                <comment> reminders </comment>
+        </Iobject>
+          <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@nodeName='INPUT']</xpath>
+                <index>0</index>
+                <comment> place holder </comment>
+        </Iobject>
+         <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[4]</xpath>
+                <index>0</index>
+                <comment> place holder </comment>
+        </Iobject>
+    </Reminders>
+
+    <RemQuestions>
+
+         <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@nodeName='DIV' and @css='DIV.question_content' and @class='question_content']</xpath>
+                <index>0</index>
+                <comment> Set up a reminder to test my blood sugar or log an activity?</comment>
+        </Aobject>
+        <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@nodeName='DIV' and @css='DIV.question_content' and @class='question_content']</xpath>
+                <index>1</index>
+                <comment> Set up a special set of reminders before a Healthcare visit or to help me improve a pattern?</comment>
+        </Aobject>
+         <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@nodeName='DIV' and @css='DIV.question_content' and @class='question_content']</xpath>
+                <index>2</index>
+                <comment> Stop a pattern message from displaying on my mobile device?</comment>
+        </Aobject>
+        <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@nodeName='DIV' and @css='DIV.question_content' and @class='question_content']</xpath>
+                <index>3</index>
+                <comment> Stop a reminder that I have set?</comment>
+        </Aobject>
+
+         <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@nodeName='DIV' and @css='DIV.question_content' and @class='question_content']</xpath>
+                <index>0</index>
+                <comment> Set up a reminder to test my blood sugar or log an activity?</comment>
+        </Iobject>
+        <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@nodeName='DIV' and @css='DIV.question_content' and @class='question_content']</xpath>
+                <index>1</index>
+                <comment> Set up a special set of reminders before a Healthcare visit or to help me improve a pattern?</comment>
+        </Iobject>
+         <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@nodeName='DIV' and @css='DIV.question_content' and @class='question_content']</xpath>
+                <index>2</index>
+                <comment> Stop a pattern message from displaying on my mobile device?</comment>
+        </Iobject>
+        <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@nodeName='DIV' and @css='DIV.question_content' and @class='question_content']</xpath>
+                <index>3</index>
+                <comment> Stop a reminder that I have set?</comment>
+        </Iobject>
+    </RemQuestions>
+    <Reports>
+       <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[18]</xpath>
+                <index>0</index>
+                <comment>Reports  </comment>
+       </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='INPUT']</xpath>
+            <index>0</index>
+            <comment>  search</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[4]</xpath>
+            <index>0</index>
+            <comment> back btn </comment>
+        </Aobject>
+        <!--IOS-->
+         <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[18]</xpath>
+                <index>0</index>
+                <comment>Reports  </comment>
+       </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='INPUT']</xpath>
+            <index>0</index>
+            <comment>  search</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[4]</xpath>
+            <index>0</index>
+            <comment> back btn </comment>
+        </Iobject>
+    </Reports>
+    <ReportsQues>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='DIV' and @css='DIV.question_content' and @class='question_content']</xpath>
+            <index>0</index>
+            <comment> Store information about my upcoming healthcare appointments and my healthcare professionals? </comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='DIV' and @css='DIV.question_content' and @class='question_content']</xpath>
+            <index>1</index>
+            <comment> Send a summary report of my blood sugar readings to my healthcare team? </comment>
+        </Aobject>
+ <!--IOS-->
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='DIV' and @css='DIV.question_content' and @class='question_content']</xpath>
+            <index>0</index>
+            <comment> Store information about my upcoming healthcare appointments and my healthcare professionals? </comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='DIV' and @css='DIV.question_content' and @class='question_content']</xpath>
+            <index>1</index>
+            <comment> Send a summary report of my blood sugar readings to my healthcare team? </comment>
+        </Iobject>
+
+    </ReportsQues>
+<GoHome>
+    <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@class='custom_back_btn']</xpath>
+                <index>6</index>
+                <comment>custom_back_btn'  </comment>
+    </Aobject>
+     <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@class='custom_back_btn']</xpath>
+                <index>6</index>
+                <comment> custom_back_btn' </comment>
+    </Aobject>
+    <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@class='custom_menu_btn']</xpath>
+                <index>0</index>
+                <comment> custom_menu_btn </comment>
+    </Aobject>
+     <Aobject>
+                <zone>NATIVE</zone>
+                <xpath>xpath=//*[@id='lblListHeaderSlideView']</xpath>
+                <index>0</index>
+                <comment> My Readings </comment>
+    </Aobject>
+
+    <!-- IOS-->
+
+    <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@class='custom_back_btn']</xpath>
+                <index>6</index>
+                <comment> custom_back_btn </comment>
+    </Iobject>
+     <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@class='custom_back_btn']</xpath>
+                <index>6</index>
+                <comment>  custom_back_btn</comment>
+    </Iobject>
+    <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[4]</xpath>
+                <index>0</index>
+                <comment>Custom menu btn  </comment>
+    </Iobject>
+     <Iobject>
+                <zone>NATIVE</zone>
+                <xpath>xpath=//*[@id='lblListHeaderSlideView']</xpath>
+                <index>0</index>
+                <comment>  My Readings</comment>
+    </Iobject>
+    <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='YGLinedView' and ./following-sibling::*[@accessibilityLabel='My Readings']]</xpath>
+            <index>0</index>
+            <comment> go home</comment>
+         </Iobject>
+
+</GoHome>
+
+
+
+ </root>

@@ -1,0 +1,1748 @@
+<root>
+<ToReminder>
+    <Aobject>
+        <zone>NATIVE</zone>
+        <xpath> xpath=//*[@id='ic_menu'] </xpath>
+        <index>0</index>
+        <comment>Menu</comment>
+    </Aobject>
+    <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=(//*[@id='left_drawer']/*/*[@id='lblListHeaderSlideView'])[3]</xpath>
+        <index>0</index>
+        <comment>My Reminders</comment>
+    </Aobject>
+
+    <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@accessibilityLabel='Menu icn 1x']</xpath>
+        <index>0</index>
+        <comment>Menu</comment>
+    </Iobject>
+    <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='YGLinedView']</xpath>
+        <index>2</index>
+        <comment>My Reminders</comment>
+    </Iobject>
+    </ToReminder>
+
+    <CheckTestReminder>
+        <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./*[@nodeName='IMG']]</xpath>
+        <index>0</index>
+        <comment>Check existing smart reminder</comment>
+    </Aobject>
+
+        <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./*[@nodeName='IMG']]</xpath>
+        <index>0</index>
+        <comment>Check existing smart reminder</comment>
+    </Iobject>
+    </CheckTestReminder>
+
+    <DelExistingReminder>
+    <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./*[@nodeName='IMG']]</xpath>
+        <index>0</index>
+        <comment>Click Existing smart reminder</comment>
+    </Aobject>
+        <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@nodeName='IMG' and @width>0 and ./following-sibling::*[@nodeName='DIV']]</xpath>
+        <index>0</index>
+        <comment>Expand existing smart reminder</comment>
+    </Aobject>
+        <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@id='smart-rem-save-btn' and @width>0]</xpath>
+        <index>0</index>
+        <comment>Delete Plan</comment>
+    </Aobject>
+        <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@id='rem-del-text-opt']</xpath>
+        <index>0</index>
+        <comment>Delete</comment>
+    </Aobject>
+        <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@nodeName='DIV' and @width>0])[5]</xpath>
+        <index>0</index>
+        <comment>Back</comment>
+    </Aobject>
+
+    <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./*[@nodeName='IMG']]</xpath>
+        <index>0</index>
+        <comment>Click Existing smart reminder</comment>
+    </Iobject>
+        <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@nodeName='IMG' and @width>0 and ./following-sibling::*[@nodeName='DIV']]</xpath>
+        <index>0</index>
+        <comment>Expand existing smart reminder</comment>
+    </Iobject>
+        <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@id='smart-rem-save-btn' and @width>0]</xpath>
+        <index>0</index>
+        <comment>Delete Plan</comment>
+    </Iobject>
+        <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@id='rem-del-text-opt']</xpath>
+        <index>0</index>
+        <comment>Delete</comment>
+    </Iobject>
+        <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@nodeName='DIV' and @width>0])[5]</xpath>
+        <index>0</index>
+        <comment>Back</comment>
+    </Iobject>
+    </DelExistingReminder>
+
+<TestReminder>
+    <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@nodeName='DIV' and @width>0])[8]</xpath>
+        <index>0</index>
+        <comment>Add</comment>
+    </Aobject>
+    <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*[@id='selectReminderType']/*/*/*[@nodeName='SPAN' and @width>0])[2]</xpath>
+        <index>0</index>
+        <comment>Smart Reminder Plan</comment>
+    </Aobject>
+
+    <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@nodeName='DIV' and @width>0])[8]</xpath>
+        <index>0</index>
+        <comment>Add</comment>
+    </Iobject>
+    <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*[@id='selectReminderType']/*/*/*[@nodeName='SPAN' and @width>0])[2]</xpath>
+        <index>0</index>
+        <comment>Smart Reminder Plan</comment>
+    </Iobject>
+</TestReminder>
+
+    <TestReminderPlanScreen>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='rem-3-2']/*/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@width>0] and ./preceding-sibling::*[@nodeName='DIV']])[1]</xpath>
+            <index>0</index>
+            <comment>Smart Reminder Plans</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV']]</xpath>
+            <index>0</index>
+            <comment>Smart Reminder readme</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='LI']])[1]</xpath>
+            <index>0</index>
+            <comment>Personal Plans</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='LI']])[2]</xpath>
+            <index>0</index>
+            <comment>Appointment Plans</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='LI']])[3]</xpath>
+            <index>0</index>
+            <comment>Treatment Plans</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[3]</xpath>
+            <index>0</index>
+            <comment>Dislike to test</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[5]</xpath>
+            <index>0</index>
+            <comment>Curious about how I'm doing</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[7]</xpath>
+            <index>0</index>
+            <comment>Stressful work/study week</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[9]</xpath>
+            <index>0</index>
+            <comment>Testing the effects of an event</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[11]</xpath>
+            <index>0</index>
+            <comment>Upcoming healthcare visit</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[12]</xpath>
+            <index>0</index>
+            <comment>Insulin user</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[13]</xpath>
+            <index>0</index>
+            <comment>Upcoming healthcare visit</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[14]</xpath>
+            <index>0</index>
+            <comment>Non-Insulin user</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[15]</xpath>
+            <index>0</index>
+            <comment>7-point plan</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[17]</xpath>
+            <index>0</index>
+            <comment>Long-acting insulin only</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[19]</xpath>
+            <index>0</index>
+            <comment>Overnight lows</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[21]</xpath>
+            <index>0</index>
+            <comment>Starting diet/exercise</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[23]</xpath>
+            <index>0</index>
+            <comment>Starting insulin</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='rem-3-2']/*/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@width>0] and ./preceding-sibling::*[@nodeName='DIV']])[1]</xpath>
+            <index>0</index>
+            <comment>Smart Reminder Plans</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV']]</xpath>
+            <index>0</index>
+            <comment>Smart Reminder readme</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='LI']])[1]</xpath>
+            <index>0</index>
+            <comment>Personal Plans</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='LI']])[2]</xpath>
+            <index>0</index>
+            <comment>Appointment Plans</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='LI']])[3]</xpath>
+            <index>0</index>
+            <comment>Treatment Plans</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[3]</xpath>
+            <index>0</index>
+            <comment>Dislike to test</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[5]</xpath>
+            <index>0</index>
+            <comment>Curious about how I'm doing</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[7]</xpath>
+            <index>0</index>
+            <comment>Stressful work/study week</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[9]</xpath>
+            <index>0</index>
+            <comment>Testing the effects of an event</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[11]</xpath>
+            <index>0</index>
+            <comment>Upcoming healthcare visit</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[12]</xpath>
+            <index>0</index>
+            <comment>Insulin user</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[13]</xpath>
+            <index>0</index>
+            <comment>Upcoming healthcare visit</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[14]</xpath>
+            <index>0</index>
+            <comment>Non-Insulin user</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[15]</xpath>
+            <index>0</index>
+            <comment>7-point plan</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[17]</xpath>
+            <index>0</index>
+            <comment>Long-acting insulin only</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[19]</xpath>
+            <index>0</index>
+            <comment>Overnight lows</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[21]</xpath>
+            <index>0</index>
+            <comment>Starting diet/exercise</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[23]</xpath>
+            <index>0</index>
+            <comment>Starting insulin</comment>
+        </Iobject>
+    </TestReminderPlanScreen>
+
+    <DislikeClick>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[3]</xpath>
+            <index>0</index>
+            <comment>Dislike to test</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[3]</xpath>
+            <index>0</index>
+            <comment>Dislike to test</comment>
+        </Iobject>
+    </DislikeClick>
+
+    <CuriousClick>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[5]</xpath>
+            <index>0</index>
+            <comment>Curious about how I'm doing</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[5]</xpath>
+            <index>0</index>
+            <comment>Curious about how I'm doing</comment>
+        </Iobject>
+    </CuriousClick>
+
+    <StressClick>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[7]</xpath>
+            <index>0</index>
+            <comment>Stressful work/study week</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[7]</xpath>
+            <index>0</index>
+            <comment>Stressful work/study week</comment>
+        </Iobject>
+    </StressClick>
+
+    <EventClick>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[9]</xpath>
+            <index>0</index>
+            <comment>Testing the effects of an event</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[9]</xpath>
+            <index>0</index>
+            <comment>Testing the effects of an event</comment>
+        </Iobject>
+    </EventClick>
+
+    <UpcomingVisitClick>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[11]</xpath>
+            <index>0</index>
+            <comment>Upcoming healthcare visit-Insulin user</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[11]</xpath>
+            <index>0</index>
+            <comment>Upcoming healthcare visit-Insulin user</comment>
+        </Iobject>
+    </UpcomingVisitClick>
+
+    <UpcomingNonInsulin>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[13]</xpath>
+            <index>0</index>
+            <comment>Upcoming healthcare visit-Non-Insulin user</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[13]</xpath>
+            <index>0</index>
+            <comment>Upcoming healthcare visit-Non-Insulin user</comment>
+        </Iobject>
+    </UpcomingNonInsulin>
+
+    <PointPlanClick>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[15]</xpath>
+            <index>0</index>
+            <comment>7-point plan</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[15]</xpath>
+            <index>0</index>
+            <comment>7-point plan</comment>
+        </Iobject>
+    </PointPlanClick>
+
+    <ActingInsulinClick>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[17]</xpath>
+            <index>0</index>
+            <comment>Long-acting insulin only</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[17]</xpath>
+            <index>0</index>
+            <comment>Long-acting insulin only</comment>
+        </Iobject>
+    </ActingInsulinClick>
+
+    <OvernightLowClick>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[19]</xpath>
+            <index>0</index>
+            <comment>Overnight lows</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[19]</xpath>
+            <index>0</index>
+            <comment>Overnight lows</comment>
+        </Iobject>
+    </OvernightLowClick>
+
+    <DietClick>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[21]</xpath>
+            <index>0</index>
+            <comment>Starting diet/exercise</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[21]</xpath>
+            <index>0</index>
+            <comment>Starting diet/exercise</comment>
+        </Iobject>
+    </DietClick>
+
+    <StartInsulinClick>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[23]</xpath>
+            <index>0</index>
+            <comment>Starting insulin</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[23]</xpath>
+            <index>0</index>
+            <comment>Starting insulin</comment>
+        </Iobject>
+    </StartInsulinClick>
+
+    <EventAppClick>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='appoinmentTime']</xpath>
+            <index>0</index>
+            <comment>Testing the effects of an event - Date and time of the event</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='appoinmentTime']</xpath>
+            <index>0</index>
+            <comment>Testing the effects of an event - Date and time of the event</comment>
+        </Iobject>
+    </EventAppClick>
+
+    <EventDone>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='Hcp_time_done']</xpath>
+            <index>0</index>
+            <comment>Date and time of the event - Done</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='Hcp_time_done']</xpath>
+            <index>0</index>
+            <comment>Date and time of the event - Done</comment>
+        </Iobject>
+    </EventDone>
+
+    <EventName>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='idEventName']</xpath>
+            <index>0</index>
+            <comment>Testing the effects of an event - Name of the event</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='idEventName']</xpath>
+            <index>0</index>
+            <comment>Testing the effects of an event - Name of the event</comment>
+        </Iobject>
+    </EventName>
+
+    <DislikeCompare>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV' and ./preceding-sibling::*[@nodeName='DIV']]]</xpath>
+            <index>0</index>
+            <comment>reminders over days</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[13]</xpath>
+            <index>0</index>
+            <comment>Reminder description</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='A' and @width>0 and ./parent::*[@text]]</xpath>
+            <index>0</index>
+            <comment>Continue</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV' and ./preceding-sibling::*[@nodeName='DIV']]]</xpath>
+            <index>0</index>
+            <comment>reminders over days</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[13]</xpath>
+            <index>0</index>
+            <comment>Reminder description</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='A' and @width>0 and ./parent::*[@text]]</xpath>
+            <index>0</index>
+            <comment>Continue</comment>
+        </Iobject>
+    </DislikeCompare>
+
+    <UpcomingVisitCompare>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV' and ./preceding-sibling::*[@nodeName='DIV']]]</xpath>
+            <index>0</index>
+            <comment>Upcoming healthcare visit - 37 reminders over 7 days</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[16]</xpath>
+            <index>0</index>
+            <comment>Upcoming healthcare visit - description</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='A' and @width>0 and ./parent::*[@text]]</xpath>
+            <index>0</index>
+            <comment>Upcoming healthcare visit - Continue</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV' and ./preceding-sibling::*[@nodeName='DIV']]]</xpath>
+            <index>0</index>
+            <comment>Upcoming healthcare visit - 37 reminders over 7 days</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[16]</xpath>
+            <index>0</index>
+            <comment>Upcoming healthcare visit - description</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='A' and @width>0 and ./parent::*[@text]]</xpath>
+            <index>0</index>
+            <comment>Upcoming healthcare visit - Continue</comment>
+        </Iobject>
+    </UpcomingVisitCompare>
+
+    <StressCompare>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='idSmartRem12']</xpath>
+            <index>0</index>
+            <comment>Stressful work/study week - 31 reminders over 7 days</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[13]</xpath>
+            <index>0</index>
+            <comment>Stressful work/study week - description</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='A' and ./parent::*[@text]]</xpath>
+            <index>0</index>
+            <comment>Stressful work/study week - Continue</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='idSmartRem12']</xpath>
+            <index>0</index>
+            <comment>Stressful work/study week - 31 reminders over 7 days</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[13]</xpath>
+            <index>0</index>
+            <comment>Stressful work/study week - description</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='A' and ./parent::*[@text]]</xpath>
+            <index>0</index>
+            <comment>Stressful work/study week - Continue</comment>
+        </Iobject>
+    </StressCompare>
+
+    <UpcomingNonInsulinCompare>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV' and ./preceding-sibling::*[@nodeName='DIV']]]</xpath>
+            <index>0</index>
+            <comment>Upcoming healthcare visit - Non insulin user - 17 reminders over 7
+                days</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[18]</xpath>
+            <index>0</index>
+            <comment>Upcoming healthcare visit - Non insulin user - description</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='A' and @width>0 and ./parent::*[@text]]</xpath>
+            <index>0</index>
+            <comment>Upcoming healthcare visit - Non insulin user - Continue</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV' and ./preceding-sibling::*[@nodeName='DIV']]]</xpath>
+            <index>0</index>
+            <comment>Upcoming healthcare visit - Non insulin user - 17 reminders over 7
+                days</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[18]</xpath>
+            <index>0</index>
+            <comment>Upcoming healthcare visit - Non insulin user - description</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='A' and @width>0 and ./parent::*[@text]]</xpath>
+            <index>0</index>
+            <comment>Upcoming healthcare visit - Non insulin user - Continue</comment>
+        </Iobject>
+    </UpcomingNonInsulinCompare>
+
+    <DietCompare>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV' and ./preceding-sibling::*[@nodeName='DIV']]]</xpath>
+            <index>0</index>
+            <comment>reminders over days</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[19]</xpath>
+            <index>0</index>
+            <comment>description</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='A' and @width>0 and ./parent::*[@text]]</xpath>
+            <index>0</index>
+            <comment>Continue</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV' and ./preceding-sibling::*[@nodeName='DIV']]]</xpath>
+            <index>0</index>
+            <comment>reminders over days</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[19]</xpath>
+            <index>0</index>
+            <comment>description</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='A' and @width>0 and ./parent::*[@text]]</xpath>
+            <index>0</index>
+            <comment>Continue</comment>
+        </Iobject>
+    </DietCompare>
+
+    <EventCompare>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='idSmartRem13']</xpath>
+            <index>0</index>
+            <comment>Testing the effects of an event - 5 reminders over 1 day</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[13]</xpath>
+            <index>0</index>
+            <comment>Testing the effects of an event - decription</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='A' and @width>0 and ./parent::*[@text]]</xpath>
+            <index>0</index>
+            <comment>Testing the effects of an event - Continue</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='idSmartRem13']</xpath>
+            <index>0</index>
+            <comment>Testing the effects of an event - 5 reminders over 1 day</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[13]</xpath>
+            <index>0</index>
+            <comment>Testing the effects of an event - decription</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='A' and @width>0 and ./parent::*[@text]]</xpath>
+            <index>0</index>
+            <comment>Testing the effects of an event - Continue</comment>
+        </Iobject>
+    </EventCompare>
+
+    <Continue>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='A' and @width>0 and ./parent::*[@text]]</xpath>
+            <index>0</index>
+            <comment>Continue</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='A' and @width>0 and ./parent::*[@text]]</xpath>
+            <index>0</index>
+            <comment>Continue</comment>
+        </Iobject>
+    </Continue>
+
+    <DislikeCompare2>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@css='SPAN.dynamicSmartReminderHrd' and @top='true']</xpath>
+            <index>0</index>
+            <comment>Dislike to test/Curious about how I'm doing/Stressful work/7-point
+                plan/Long-acting insulin/starting diet</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@text and @nodeName='DIV' and ./parent::*[@id='idMealTimeForSmartReminder']]]</xpath>
+            <index>0</index>
+            <comment>your meal time for upcoming week</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='Breakfast']/*/*[@text and @nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Breakfast</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='Lunch']/*/*[@text and @nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Lunch</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='Dinner']/*/*[@text and @nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Dinner</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='Bedtime']/*/*[@text and @nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Bedtime</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='SPAN' and @width>0 and ./parent::*[./parent::*[@id='smart_rem_flip']]]</xpath>
+            <index>0</index>
+            <comment>Add an overnight reminder</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='smart-rem-save-btn' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Save</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@css='SPAN.dynamicSmartReminderHrd' and @top='true']</xpath>
+            <index>0</index>
+            <comment>Dislike to test/Curious about how I'm doing/Stressful work/7-point
+                plan/Long-acting insulin/starting diet</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@text and @nodeName='DIV' and ./parent::*[@id='idMealTimeForSmartReminder']]]</xpath>
+            <index>0</index>
+            <comment>your meal time for upcoming week</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='Breakfast']/*/*[@text and @nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Breakfast</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='Lunch']/*/*[@text and @nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Lunch</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='Dinner']/*/*[@text and @nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Dinner</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='Bedtime']/*/*[@text and @nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Bedtime</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='SPAN' and @width>0 and ./parent::*[./parent::*[@id='smart_rem_flip']]]</xpath>
+            <index>0</index>
+            <comment>Add an overnight reminder</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='smart-rem-save-btn' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Save</comment>
+        </Iobject>
+    </DislikeCompare2>
+
+    <ClickInfo>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='DIV' and @width>0])[8]</xpath>
+            <index>0</index>
+            <comment>Info</comment>
+        </Aobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='DIV' and @width>0])[8]</xpath>
+            <index>0</index>
+            <comment>Info</comment>
+        </Iobject>
+    </ClickInfo>
+
+    <TestReminderPopup1>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@id='rem-module-popup-header']]</xpath>
+            <index>0</index>
+            <comment>Smart Reminders popup</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='rem-module-text']</xpath>
+            <index>0</index>
+            <comment>Smart reminder popup text</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@id='rem-module-popup-header']]</xpath>
+            <index>0</index>
+            <comment>Smart Reminders popup</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='rem-module-text']</xpath>
+            <index>0</index>
+            <comment>Smart reminder popup text</comment>
+        </Iobject>
+    </TestReminderPopup1>
+
+    <CloseInfoSave>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='IMG' and @width>0 and ./parent::*[@id='rem-module-popup-header']]</xpath>
+            <index>0</index>
+            <comment>Smart reminder Pop up close</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='smart-rem-save-btn' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Save</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='IMG' and @width>0 and ./parent::*[@id='rem-module-popup-header']]</xpath>
+            <index>0</index>
+            <comment>Smart reminder Pop up close</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='smart-rem-save-btn' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Save</comment>
+        </Iobject>
+    </CloseInfoSave>
+
+    <ReminderOpen>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='IMG' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Smart reminder open</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='IMG' and @width>0 and ./following-sibling::*[@nodeName='DIV']]</xpath>
+            <index>0</index>
+            <comment>Reminder expand</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='IMG' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Smart reminder open</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='IMG' and @width>0 and ./following-sibling::*[@nodeName='DIV']]</xpath>
+            <index>0</index>
+            <comment>Reminder expand</comment>
+        </Iobject>
+    </ReminderOpen>
+
+    <DislikeCompare3>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[6]</xpath>
+            <index>0</index>
+            <comment>Header</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='details-screen-desc']</xpath>
+            <index>0</index>
+            <comment>Smart reminder description</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV' and ./preceding-sibling::*[@nodeName='SPAN']]]</xpath>
+            <index>0</index>
+            <comment>View test days</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='smart-rem-save-btn' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Delete Plan</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[6]</xpath>
+            <index>0</index>
+            <comment>Header</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='details-screen-desc']</xpath>
+            <index>0</index>
+            <comment>Smart reminder description</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV' and ./preceding-sibling::*[@nodeName='SPAN']]]</xpath>
+            <index>0</index>
+            <comment>View test days</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='smart-rem-save-btn' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Delete Plan</comment>
+        </Iobject>
+    </DislikeCompare3>
+
+    <DeletePlan>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='smart-rem-save-btn' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Delete Plan</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='smart-rem-save-btn' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Delete Plan</comment>
+        </Iobject>
+    </DeletePlan>
+
+    <DelPopupCompare>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='rem-del-heading']</xpath>
+            <index>0</index>
+            <comment>Delete reminders popup</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='rem-del-text']</xpath>
+            <index>0</index>
+            <comment>Delete reminders popup text</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='rem-cacel-text-opt']</xpath>
+            <index>0</index>
+            <comment>Delete reminders - Cancel</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='rem-del-text-opt']</xpath>
+            <index>0</index>
+            <comment>Delete reminders - Delete</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='rem-del-heading']</xpath>
+            <index>0</index>
+            <comment>Delete reminders popup</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='rem-del-text']</xpath>
+            <index>0</index>
+            <comment>Delete reminders popup text</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='rem-cacel-text-opt']</xpath>
+            <index>0</index>
+            <comment>Delete reminders - Cancel</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='rem-del-text-opt']</xpath>
+            <index>0</index>
+            <comment>Delete reminders - Delete</comment>
+        </Iobject>
+    </DelPopupCompare>
+
+    <ClickDelete>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='rem-del-text-opt']</xpath>
+            <index>0</index>
+            <comment>Delete reminders - Delete</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='rem-del-text-opt']</xpath>
+            <index>0</index>
+            <comment>Delete reminders - Delete</comment>
+        </Iobject>
+    </ClickDelete>
+
+    <EventCompare2>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@css='SPAN.dynamicSmartReminderHrd' and @top='true']</xpath>
+            <index>0</index>
+            <comment>Testing the effects of an event</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='rem-33-sub-title-app' and ./parent::*[@id='hide1']]</xpath>
+            <index>0</index>
+            <comment>Date and time of the event</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='rem-33-sub-title-app' and ./parent::*[@id='hide3date']]</xpath>
+            <index>0</index>
+            <comment>Name of the event</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='smart-rem-save-btn' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Save</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@css='SPAN.dynamicSmartReminderHrd' and @top='true']</xpath>
+            <index>0</index>
+            <comment>Testing the effects of an event</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='rem-33-sub-title-app' and ./parent::*[@id='hide1']]</xpath>
+            <index>0</index>
+            <comment>Date and time of the event</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='rem-33-sub-title-app' and ./parent::*[@id='hide3date']]</xpath>
+            <index>0</index>
+            <comment>Name of the event</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='smart-rem-save-btn' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Save</comment>
+        </Iobject>
+    </EventCompare2>
+
+    <UpcomingVisitCompare2>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Upcoming healthcare visit-Insulin user</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='SPAN' and @width>0])[2]</xpath>
+            <index>0</index>
+            <comment>Insulin user</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='rem-33-sub-title-app' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Appointment time and date</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@text and @nodeName='DIV' and ./parent::*[@id='idMealTimeForSmartReminder']]]</xpath>
+            <index>0</index>
+            <comment>Your meal times for the upcoming week</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='Breakfast']/*/*[@text and @nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Breakfast</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='Lunch']/*/*[@text and @nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Lunch</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='Dinner']/*/*[@text and @nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Dinner</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='Bedtime']/*/*[@text and @nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Bedtime</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='SPAN' and @width>0 and ./parent::*[./parent::*[@id='smart_rem_flip']]]</xpath>
+            <index>0</index>
+            <comment>Add an overnight reminder</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='smart-rem-save-btn' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Save</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Upcoming healthcare visit-Insulin user</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='SPAN' and @width>0])[2]</xpath>
+            <index>0</index>
+            <comment>Insulin user</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='rem-33-sub-title-app' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Appointment time and date</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@text and @nodeName='DIV' and ./parent::*[@id='idMealTimeForSmartReminder']]]</xpath>
+            <index>0</index>
+            <comment>Your meal times for the upcoming week</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='Breakfast']/*/*[@text and @nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Breakfast</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='Lunch']/*/*[@text and @nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Lunch</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='Dinner']/*/*[@text and @nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Dinner</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='Bedtime']/*/*[@text and @nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Bedtime</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='SPAN' and @width>0 and ./parent::*[./parent::*[@id='smart_rem_flip']]]</xpath>
+            <index>0</index>
+            <comment>Add an overnight reminder</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='smart-rem-save-btn' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Save</comment>
+        </Iobject>
+    </UpcomingVisitCompare2>
+
+    <PointPlanCompare>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='idSmartRem20']</xpath>
+            <index>0</index>
+            <comment>7-point plan - 21 reminders over 3 days</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[19]</xpath>
+            <index>0</index>
+            <comment>7-point plan - Description</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='A' and @width>0 and ./parent::*[@text]]</xpath>
+            <index>0</index>
+            <comment>7-point plan - Continue</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='idSmartRem20']</xpath>
+            <index>0</index>
+            <comment>7-point plan - 21 reminders over 3 days</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[19]</xpath>
+            <index>0</index>
+            <comment>7-point plan - Description</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='A' and @width>0 and ./parent::*[@text]]</xpath>
+            <index>0</index>
+            <comment>7-point plan - Continue</comment>
+        </Iobject>
+    </PointPlanCompare>
+
+    <OvernightLowCompare>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='idSmartRem17']</xpath>
+            <index>0</index>
+            <comment>Overnight lows - 13 reminders over 4 days</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[19]</xpath>
+            <index>0</index>
+            <comment>Overnight lows - Description</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='A' and @width>0 and ./parent::*[@text]]</xpath>
+            <index>0</index>
+            <comment>Overnight lows - Continue</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='idSmartRem17']</xpath>
+            <index>0</index>
+            <comment>Overnight lows - 13 reminders over 4 days</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[19]</xpath>
+            <index>0</index>
+            <comment>Overnight lows - Description</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='A' and @width>0 and ./parent::*[@text]]</xpath>
+            <index>0</index>
+            <comment>Overnight lows - Continue</comment>
+        </Iobject>
+    </OvernightLowCompare>
+
+    <OvernightLowCompare2>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@css='SPAN.dynamicSmartReminderHrd' and @top='true']</xpath>
+            <index>0</index>
+            <comment>Overnight lows</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@text and @nodeName='DIV' and ./parent::*[@id='idMealTimeForSmartReminder']]]</xpath>
+            <index>0</index>
+            <comment>Your meal times for the upcoming week</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='Breakfast']/*/*[@text and @nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Breakfast</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='Lunch']/*/*[@text and @nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Lunch</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='Dinner']/*/*[@text and @nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Dinner</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='Bedtime']/*/*[@text and @nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Bedtime</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='smart-rem-save-btn' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Save</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@css='SPAN.dynamicSmartReminderHrd' and @top='true']</xpath>
+            <index>0</index>
+            <comment>Overnight lows</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@text and @nodeName='DIV' and ./parent::*[@id='idMealTimeForSmartReminder']]]</xpath>
+            <index>0</index>
+            <comment>Your meal times for the upcoming week</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='Breakfast']/*/*[@text and @nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Breakfast</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='Lunch']/*/*[@text and @nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Lunch</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='Dinner']/*/*[@text and @nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Dinner</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='Bedtime']/*/*[@text and @nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Bedtime</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='smart-rem-save-btn' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Save</comment>
+        </Iobject>
+    </OvernightLowCompare2>
+
+    <ReminderInfoClick>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='DIV' and @width>0])[7]</xpath>
+            <index>0</index>
+            <comment>Smart reminder plans - Info</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='DIV' and @width>0])[7]</xpath>
+            <index>0</index>
+            <comment>Smart reminder plans - Info</comment>
+        </Iobject>
+    </ReminderInfoClick>
+
+    <ReminderPopup>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@nodeName='IMG']]</xpath>
+            <index>0</index>
+            <comment>Smart reminders popup</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[21]</xpath>
+            <index>0</index>
+            <comment>Smart reminder popup text</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[22]</xpath>
+            <index>0</index>
+            <comment>Smart reminder popup text</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@nodeName='IMG']]</xpath>
+            <index>0</index>
+            <comment>Smart reminders popup</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[21]</xpath>
+            <index>0</index>
+            <comment>Smart reminder popup text</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[22]</xpath>
+            <index>0</index>
+            <comment>Smart reminder popup text</comment>
+        </Iobject>
+    </ReminderPopup>
+
+    <CloseReminderPopup>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='IMG' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Smart reminder popup - Close</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='IMG' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Smart reminder popup - Close</comment>
+        </Iobject>
+    </CloseReminderPopup>
+
+    <DislikeAdd>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[3]</xpath>
+            <index>0</index>
+            <comment>Dislike to test</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='A' and @width>0 and ./parent::*[@text]]</xpath>
+            <index>0</index>
+            <comment>Continue</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='smart-rem-save-btn' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Save</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[3]</xpath>
+            <index>0</index>
+            <comment>Dislike to test</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='A' and @width>0 and ./parent::*[@text]]</xpath>
+            <index>0</index>
+            <comment>Continue</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='smart-rem-save-btn' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Save</comment>
+        </Iobject>
+    </DislikeAdd>
+
+    <CheckReminder>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='smartremhide14']</xpath>
+            <index>0</index>
+            <comment>Check Reminder</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='smartremhide14']</xpath>
+            <index>0</index>
+            <comment>Check Reminder</comment>
+        </Iobject>
+    </CheckReminder>
+
+    <CuriousAdd>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[6]</xpath>
+            <index>0</index>
+            <comment>Curious about how I'm doing</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='A' and @width>0 and ./parent::*[@text]]</xpath>
+            <index>0</index>
+            <comment>Continue</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[6]</xpath>
+            <index>0</index>
+            <comment>Curious about how I'm doing</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='A' and @width>0 and ./parent::*[@text]]</xpath>
+            <index>0</index>
+            <comment>Continue</comment>
+        </Iobject>
+    </CuriousAdd>
+
+    <OneSmartReminderPopup>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='rem-del-text1']</xpath>
+            <index>0</index>
+            <comment>Contour app allows only one smart reminder plan - popup</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='rem-del-text1']</xpath>
+            <index>0</index>
+            <comment>Contour app allows only one smart reminder plan - popup</comment>
+        </Iobject>
+    </OneSmartReminderPopup>
+
+    <OKBtn>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@id='rem_pop_ok']]</xpath>
+            <index>0</index>
+            <comment>OK</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@id='rem_pop_ok']]</xpath>
+            <index>0</index>
+            <comment>OK</comment>
+        </Iobject>
+    </OKBtn>
+
+    <GoHome>
+        <!--Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='DIV' and @width>0])[5]</xpath>
+            <index>0</index>
+            <comment>Smart reminder plans - Back</comment>
+        </Aobject-->
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='DIV' and @width>0])[6]</xpath>
+            <index>0</index>
+            <comment>Menu</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@id='left_drawer']/*/*[@id='lblListHeaderSlideView'])[1]</xpath>
+            <index>0</index>
+            <comment>My Readings</comment>
+        </Aobject>
+
+        <!--Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='DIV' and @width>0])[5]</xpath>
+            <index>0</index>
+            <comment>Smart reminder plans - Back</comment>
+        </Iobject-->
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='DIV' and @width>0])[6]</xpath>
+            <index>0</index>
+            <comment>Menu</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='YGLinedView']</xpath>
+            <index>0</index>
+            <comment>My Readings</comment>
+        </Iobject>
+    </GoHome>
+</root>

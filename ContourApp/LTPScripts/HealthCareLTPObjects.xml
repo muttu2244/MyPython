@@ -1,0 +1,745 @@
+<root>
+    <ToHealthCare>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='ic_menu']</xpath>
+            <index>0</index>
+            <comment>ic_menu</comment>
+         </Aobject>
+
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='lblListHeaderSlideView']</xpath>
+            <index>3</index>
+            <comment>My Care </comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0 and ./*[@nodeName='DIV']])[4]</xpath>
+            <index>0</index>
+            <comment>Health Care Team </comment>
+         </Aobject>
+      <!--  <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='righticonbtn3']</xpath>
+            <index>0</index>
+         </Aobject>-->
+
+        <!--IOS-->
+         <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@accessibilityLabel='Menu icn 1x']</xpath>
+            <index>0</index>
+            <comment> My readungs </comment>
+      </Iobject>
+     <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='YGLinedView']</xpath>
+            <index>3</index>
+            <comment> My care</comment>
+      </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@css='LI.ui-grid-d' and @class='ui-grid-d' and @onScreen='true' and @top='false']</xpath>
+            <index>3</index>
+            <comment> my helthacare</comment>
+         </Iobject>
+
+
+    </ToHealthCare>
+    <HealthProfessional>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='hc_header_title']</xpath>
+            <index>0</index>
+            <comment>hc_header_title </comment>
+      </Aobject>
+      <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='DIV' and @width>0 and ./parent::*[@text] and ./*[@nodeName='SPAN']]</xpath>
+            <index>0</index>
+            <comment> send a blood sugar report</comment>
+      </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment> click plus btn</comment>
+      </Aobject>
+    <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@id='righticonbtn3'] </xpath>
+                <index>0</index>
+                <comment>click plus btn </comment>
+          </Aobject>
+        <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@id='hc_header_title1'] </xpath>
+                <index>0</index>
+                <comment> hc_header_title1</comment>
+          </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='addcontactstyle'] </xpath>
+            <index>0</index>
+             <comment>addcontactstyle</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='newhcp_label']</xpath>
+            <index>0</index>
+            <comment> name</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='newhcp_label']</xpath>
+            <index>2</index>
+            <comment>Speciality / title</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='newhcp_label']</xpath>
+            <index>4</index>
+            <comment> organization</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='newhcp_label']</xpath>
+            <index>6</index>
+            <comment> Address</comment>
+         </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='newhcp_label']</xpath>
+            <index>8</index>
+             <comment>Address</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='newhcp_label']</xpath>
+            <index>10</index>
+            <comment>Phone</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='onyxbtn preferredbtn hcsavestyle hcsavebtnfont ui-link ui-btn ui-shadow']</xpath>
+            <index>0</index>
+            <comment>save </comment>
+         </Aobject>
+
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment>click</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='onyxbtn preferredbtn hcsavestyle hcsavebtnfont ui-link ui-btn ui-shadow']</xpath>
+            <index>0</index>
+            <comment> save</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='dialog_hc_team_change2']/*[@text and @nodeName='DIV' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Please provide all required information before selecting save.</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment>click</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV' and ./parent::*[@id='dialog_hc_team_change2']]]]</xpath>
+            <index>0</index>
+            <comment>ok</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment>click</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='addcontactstyle']</xpath>
+            <index>0</index>
+            <comment>add from contact</comment>
+         </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>wait</xpath>
+            <index>0</index>
+            <comment> wait for some time </comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[5]</xpath>
+            <index>0</index>
+            <comment>Phone contact list  </comment>
+         </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[5]</xpath>
+            <index>0</index>
+            <comment> Phone contact list</comment>
+         </Aobject>
+
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0 and ./parent::*[@text]]</xpath>
+            <index>0</index>
+            <comment> set your health care pro....</comment>
+         </Aobject>
+      <!--  <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='settings-list-main-text']</xpath>
+            <index>0</index>
+            <comment> </comment>
+         </Aobject>-->
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment> click</comment>
+         </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='lefticonbtn']</xpath>
+            <index>0</index>
+            <comment> custom_menu_btn</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment> click</comment>
+         </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='rightwordbtn3_1']</xpath>
+            <index>0</index>
+            <comment>custom_close_btn </comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='popup_hc_edit1']/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@text and @nodeName='DIV']])[1]</xpath>
+            <index>0</index>
+            <comment>your new health care professional will not be saved </comment>
+         </Aobject>
+
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@css='DIV.popup_btn_align' and @class='popup_btn_align' and @onScreen='true']</xpath>
+            <index>0</index>
+            <comment> cancel</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@css='DIV.popup_btn_align' and @class='popup_btn_align' and @onScreen='true']</xpath>
+            <index>1</index>
+            <comment>ok </comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment> click</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@css='DIV.popup_btn_align' and @class='popup_btn_align' and @onScreen='true']</xpath>
+            <index>0</index>
+            <comment> click cancel btn</comment>
+         </Aobject>
+
+
+
+      <!--  <Aobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment> </comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='custom_menu_btn']</xpath>
+            <index>1</index>
+            <comment> go home</comment>
+         </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment> </comment>
+         </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='lblListHeaderSlideView']</xpath>
+            <index>0</index>
+            <comment> go home</comment>
+         </Aobject>-->
+
+        <!--IOS-->
+
+          <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='hc_header_title']</xpath>
+            <index>0</index>
+            <comment>hc_header_title </comment>
+      </Iobject>
+      <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='DIV' and @width>0 and ./parent::*[@text] and ./*[@nodeName='SPAN']]</xpath>
+            <index>0</index>
+            <comment> send a blood sugar report</comment>
+      </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment> click plus btn</comment>
+      </Iobject>
+    <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@id='righticonbtn3'] </xpath>
+                <index>0</index>
+                <comment>click plus btn </comment>
+          </Iobject>
+        <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@id='hc_header_title1'] </xpath>
+                <index>0</index>
+                <comment> hc_header_title1</comment>
+          </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='addcontactstyle'] </xpath>
+            <index>0</index>
+             <comment>addcontactstyle</comment>
+         </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='newhcp_label']</xpath>
+            <index>0</index>
+            <comment> name</comment>
+         </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='newhcp_label']</xpath>
+            <index>2</index>
+            <comment>Speciality / title</comment>
+         </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='newhcp_label']</xpath>
+            <index>4</index>
+            <comment> organization</comment>
+         </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='newhcp_label']</xpath>
+            <index>6</index>
+            <comment> Address</comment>
+         </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='newhcp_label']</xpath>
+            <index>8</index>
+             <comment>Address</comment>
+         </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='newhcp_label']</xpath>
+            <index>10</index>
+            <comment>Phone</comment>
+         </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='onyxbtn preferredbtn hcsavestyle hcsavebtnfont ui-link ui-btn ui-shadow']</xpath>
+            <index>0</index>
+            <comment>save </comment>
+         </Iobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment>click</comment>
+         </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='onyxbtn preferredbtn hcsavestyle hcsavebtnfont ui-link ui-btn ui-shadow']</xpath>
+            <index>0</index>
+            <comment> save</comment>
+         </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='dialog_hc_team_change2']/*[@text and @nodeName='DIV' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Please provide all required information before selecting save.</comment>
+         </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment>click</comment>
+         </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV' and ./parent::*[@id='dialog_hc_team_change2']]]]</xpath>
+            <index>0</index>
+            <comment>ok</comment>
+         </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment>click</comment>
+         </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='addcontactstyle']</xpath>
+            <index>0</index>
+            <comment>add from contact</comment>
+         </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>wait</xpath>
+            <index>0</index>
+            <comment> wait for some time </comment>
+         </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[5]</xpath>
+            <index>0</index>
+            <comment>Phone contact list  </comment>
+         </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[5]</xpath>
+            <index>0</index>
+            <comment> Phone contact list</comment>
+         </Iobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0 and ./parent::*[@text]]</xpath>
+            <index>0</index>
+            <comment> set your health care pro....</comment>
+         </Iobject>
+      <!--  <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='settings-list-main-text']</xpath>
+            <index>0</index>
+            <comment> </comment>
+         </Iobject>-->
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment> </comment>
+         </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='lefticonbtn' and @css='DIV.custom_menu_btn' and @class='custom_menu_btn']</xpath>
+            <index>0</index>
+            <comment> custom_menu_btn</comment>
+         </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment> click</comment>
+         </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='rightwordbtn3_1' and @css='DIV.custom_close_btn' and @class='custom_close_btn']</xpath>
+            <index>0</index>
+            <comment>custom_close_btn </comment>
+         </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='popup_hc_edit1']/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@text and @nodeName='DIV']])[1]</xpath>
+            <index>0</index>
+            <comment>your new health care professional will not be saved </comment>
+         </Iobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@css='DIV.popup_btn_align' and @class='popup_btn_align' and @onScreen='true']</xpath>
+            <index>0</index>
+            <comment> cancel</comment>
+         </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@css='DIV.popup_btn_align' and @class='popup_btn_align' and @onScreen='true']</xpath>
+            <index>1</index>
+            <comment>ok </comment>
+         </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment> click</comment>
+         </Iobject>
+
+       <!-- <Iobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment> </comment>
+         </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='leftwordbtn3']</xpath>
+            <index>0</index>
+            <comment> go home</comment>
+         </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment> </comment>
+         </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='custom_menu_btn']</xpath>
+            <index>1</index>
+            <comment> go home</comment>
+         </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment> </comment>
+         </Iobject>-->
+
+
+
+    </HealthProfessional>
+    <PopUpContacts>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV' and ./parent::*[@id='dialog_contacts_permission_denied']]]]</xpath>
+            <index>0</index>
+            <comment> go home</comment>
+         </Iobject>
+    </PopUpContacts>
+    <Edit>
+
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='hc_header_title']</xpath>
+            <index>0</index>
+            <comment> Health Care professional</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='rightwordbtn3']</xpath>
+            <index>0</index>
+            <comment> Edit</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment> Edit</comment>
+         </Aobject>
+
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='rightwordbtn3']</xpath>
+            <index>0</index>
+            <comment> Edit</comment>
+         </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='hc_header_title1']</xpath>
+            <index>0</index>
+            <comment> Edit health care professional</comment>
+         </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[15]</xpath>
+            <index>0</index>
+            <comment> add from contact</comment>
+         </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='newhcp_label']</xpath>
+            <index>0</index>
+            <comment> name</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='newhcp_label']</xpath>
+            <index>2</index>
+            <comment>Speciality / title</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='newhcp_label']</xpath>
+            <index>4</index>
+            <comment> organization</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='newhcp_label']</xpath>
+            <index>6</index>
+            <comment> Address</comment>
+         </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='newhcp_label']</xpath>
+            <index>8</index>
+             <comment>Address</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='newhcp_label']</xpath>
+            <index>10</index>
+            <comment>Phone</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='onyxbtn preferredbtn hcsavestyle hcsavebtnfont ui-link ui-btn ui-shadow']</xpath>
+            <index>0</index>
+            <comment>save </comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>text</xpath>
+            <index>0</index>
+            <comment>edit the name field </comment>
+         </Aobject>
+
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment>canncel btn </comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='rightwordbtn3_1' and @css='DIV.custom_close_btn' and @class='custom_close_btn']</xpath>
+            <index>0</index>
+            <comment>cancel btn </comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='popup_hc_edit']/*/*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV']])[1]</xpath>
+            <index>0</index>
+            <comment>Changes to Your Health Care professional.......... </comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV']])[41]</xpath>
+            <index>0</index>
+            <comment>Cancel </comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV']])[43]</xpath>
+            <index>0</index>
+            <comment>OK</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment>OK btn </comment>
+         </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV']])[43]</xpath>
+            <index>0</index>
+            <comment>OK</comment>
+         </Aobject>
+
+
+    </Edit>
+    <Delete>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='hcteam_row0']</xpath>
+            <index>0</index>
+            <comment>swipe to find delete  </comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='0_delete']</xpath>
+            <index>0</index>
+            <comment>click </comment>
+         </Aobject>
+
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[16]</xpath>
+            <index>0</index>
+            <comment>delete  </comment>
+         </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and ./parent::*[@text and @nodeName='DIV']])[14]</xpath>
+            <index>0</index>
+            <comment>cancel btn </comment>
+         </Aobject>
+          <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and ./parent::*[@text and @nodeName='DIV']])[16]</xpath>
+            <index>0</index>
+            <comment>delete</comment>
+         </Aobject>
+
+    </Delete>
+    <AddName>
+
+   <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='hcp_name_label2']</xpath>
+            <index>0</index>
+            <comment>send text</comment>
+         </Aobject>
+
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='onyxbtn preferredbtn hcsavestyle hcsavebtnfont ui-link ui-btn ui-shadow']</xpath>
+            <index>0</index>
+            <comment>save </comment>
+         </Aobject>
+
+    </AddName>
+
+    <ToHome>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath> xpath=//*[@class='custom_back_btn']</xpath>
+            <index>20</index>
+            <comment>custom back button </comment>
+         </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath> xpath=//*[@class='custom_back_btn']</xpath>
+            <index>20</index>
+            <comment> custom back button</comment>
+         </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@accessibilityLabel='Menu icn 1x']</xpath>
+            <index>0</index>
+            <comment> menu </comment>
+         </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='YGLinedView' and ./following-sibling::*[@accessibilityLabel='My Readings']]</xpath>
+            <index>0</index>
+            <comment> go home</comment>
+         </Iobject>
+
+    </ToHome>
+
+</root>

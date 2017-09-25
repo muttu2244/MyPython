@@ -1,0 +1,596 @@
+<root>
+    <unverified>
+        <trans-unit id="editviewCamrAccssHdr">
+            <croatian>Pristup fotoap. nije mogu&#263;</croatian>
+            <danish>Kunne ikke f&#229; adgang til kameraet</danish>
+            <dutch>Geen toegang tot Camera</dutch>
+            <english>Unable to Access Camera</english>
+            <finnish>Ei yhteytt&#228; kameraan</finnish>
+            <french>Appareil photo</french>
+            <german>Kein Zugriff auf Kamera</german>
+            <greek>&#913;&#948;&#965;&#957;&#945;&#956;&#943;&#945; &#928;&#961;&#972;&#963;&#946;&#945;&#963;&#951;&#962;</greek>
+            <italian>No accesso  fotocamera</italian>
+            <norwegian>Ingen tilgang til kamera</norwegian>
+            <polish>Brak dost&#281;pu do aparatu</polish>
+            <portugal>Sem acesso &#224; c&#226;mara</portugal>
+            <slovenian>Ni dostopa do fotoaparata</slovenian>
+            <spanish>Error acceso C&#225;mara</spanish>
+            <swedish>Kan inte komma &#229;t kameran</swedish>
+        </trans-unit>
+        <trans-unit id="editviewCamrAccssTxt">
+            <croatian>Aplikacija Contour nije mogla pristupiti va&#353;em fotoaparatu. Provjerite postavke kako biste bili sigurni da je pristup \"Fotoaparatu\" omogu&#263;en aplikaciji Contour.</croatian>
+            <danish>Contour-appen kunne ikke f&#229; adgang til dit kamera. Kontroll&#233;r dine indstillinger, og s&#248;rg for, at \"Kamera\" er aktiveret for Contour.</danish>
+            <dutch>De Contour App heeft geen toegang tot uw camera. Zorg ervoor dat in de instellingen \"Camera\" is ingeschakeld voor Contour.</dutch>
+            <english>The Contour app was not able to access your camera. Please check your settings to make sure \"Camera\" is enabled for Contour.</english>
+            <finnish>Contour-sovellus ei saanut yhteytt&#228; kameraasi. Tarkista asetukset varmistaaksesi, ett&#228; \"Kamera\" on otettu k&#228;ytt&#246;&#246;n Contourille.</finnish>
+            <french>L&#8217;application Contour n&#8217;a pas pu acc&#233;der &#224; votre appareil photo. V&#233;rifiez vos param&#232;tres et assurez-vous que \"Appareil photo\" est activ&#233; pour Contour.</french>
+            <german>Die App konnte nicht auf Ihre Kamera zugreifen. Bitte Einstellungen pr&#252;fen, um sicherzustellen, dass \&#8222;Kamera\&#8220; f&#252;r Contour aktiviert ist.</german>
+            <greek>&#919; &#949;&#966;&#945;&#961;&#956;&#959;&#947;&#942; Contour &#948;&#949;&#957; &#956;&#960;&#972;&#961;&#949;&#963;&#949; &#957;&#945; &#945;&#960;&#959;&#954;&#964;&#942;&#963;&#949;&#953; &#960;&#961;&#972;&#963;&#946;&#945;&#963;&#951; &#963;&#964;&#951;&#957; &#954;&#940;&#956;&#949;&#961;&#940; &#963;&#945;&#962;. &#914;&#949;&#946;&#945;&#953;&#969;&#952;&#949;&#943;&#964;&#949; &#945;&#960;&#972; &#964;&#953;&#962; &#961;&#965;&#952;&#956;&#943;&#963;&#949;&#953;&#962; &#964;&#951;&#962; &#949;&#966;&#945;&#961;&#956;&#959;&#947;&#942;&#962; &#945;&#957; &#951; \"&#922;&#940;&#956;&#949;&#961;&#945;\" &#949;&#943;&#957;&#945;&#953; &#945;&#957;&#959;&#953;&#967;&#964;&#942;.</greek>
+            <italian>L'App Contour non ha accesso alla fotocamera. Controlla le impostazioni per assicurarti che per Contour sia attiva l'opzione \"Fotocamera\".</italian>
+            <norwegian>Contour-appen fikk ikke tilgang til kameraet. Kontroller innstillingene for &#229; sikre at \"Kamera\" er aktivert for Contour.</norwegian>
+            <polish>Aplikacja Contour nie ma dost&#281;pu do aparatu. Sprawd&#378; w ustawieniach, czy opcja \"Aparat .\" dla Contour jest aktywna.</polish>
+            <portugal>A Contour Diabetes app n&#227;o conseguiu aceder &#224; sua C&#226;mara. Verifique as defini&#231;&#245;es para garantir que a \"C&#226;mara\" est&#225; ativa para a app.</portugal>
+            <slovenian>Aplikacija Contour ni uspela dostopiti do fotoaparata. Preverite nastavitve, da zagotovite, da je \"Fotoaparat\" za Contour omogo&#269;en.</slovenian>
+            <spanish>Contour app no ha podido acceder a la c&#225;mara. Compruebe la configuraci&#243;n para verificar que la \"C&#225;mara\" est&#233; habilitada para Contour.</spanish>
+            <swedish>Contour-appen kommer inte &#229;t kameran. Kontrollera dina inst&#228;llningar f&#246;r att s&#228;kerst&#228;lla att \"Kamera\" &#228;r aktiverad f&#246;r Contour.</swedish>
+        </trans-unit>
+        <trans-unit id="editviewChoosePhotoHdr">
+            <croatian>Odaberi fotografiju</croatian>
+            <danish>V&#230;lg billede</danish>
+            <dutch>Foto kiezen</dutch>
+            <english>Choose Photo</english>
+            <finnish>Valitse kuva</finnish>
+            <french>Choisir une photo</french>
+            <german>Foto ausw&#228;hlen</german>
+            <greek>&#917;&#960;&#953;&#955;&#941;&#958;&#964;&#949; &#934;&#969;&#964;&#972;</greek>
+            <italian>Scegli foto</italian>
+            <norwegian>Velg bilde</norwegian>
+            <polish>Wybierz zdj&#281;cie</polish>
+            <portugal>Escolher foto</portugal>
+            <slovenian>Izberi fotografijo</slovenian>
+            <spanish>Elegir foto</spanish>
+            <swedish>V&#228;lj bild</swedish>
+        </trans-unit>
+        <trans-unit id="editviewPhotoErrHdr1">
+            <croatian>Veli&#269;ina fotografije prema&#353;uje 250 KB. Poku&#353;ajte s drugom fotografijom.</croatian>
+            <danish>Billedet overstiger 250 KB. Pr&#248;v med et andet billede.</danish>
+            <dutch>De foto is groter dan 250 kB. Probeer een andere foto.</dutch>
+            <english>Photo size exceeds 250 KB. Please try another photo.</english>
+            <finnish>Kuvan koko ylitt&#228;&#228; 250 KB. Yrit&#228; toista kuvaa.</finnish>
+            <french>La taille de la photo d&#233;passe 250 Ko. Essayez avec une autre photo.</french>
+            <german>Das Foto ist gr&#246;&#223;er als 250 KB. Bitte versuchen Sie es mit einem anderen Foto.</german>
+            <greek>&#919; &#966;&#969;&#964;&#972; &#965;&#960;&#949;&#961;&#946;&#945;&#943;&#957;&#949;&#953; &#964;&#945; 250 KB. &#928;&#945;&#961;&#945;&#954;&#945;&#955;&#959;&#973;&#956;&#949; &#948;&#959;&#954;&#953;&#956;&#940;&#963;&#964;&#949; &#940;&#955;&#955;&#951;.</greek>
+            <italian>Le dimensioni della foto superano i 250 KB. Prova con un'altra foto.</italian>
+            <norwegian>Bildest&#248;rrelsen overskrider 250 kB. Pr&#248;v et annet bilde.</norwegian>
+            <polish>Wielko&#347;&#263; zdj&#281;cia przekracza 250 KB. Prosz&#281; wybra&#263; inne zdj&#281;cie.</polish>
+            <portugal>O tamanho da foto ultrapassa 250 KB. Experimente outra foto.</portugal>
+            <slovenian>Velikost presega 250&#160;KB. Izberite drugo fotografijo.</slovenian>
+            <spanish>El tama&#241;o de la foto es superior a 250 KB. Int&#233;ntelo con otra foto.</spanish>
+            <swedish>Bildstorleken &#246;verskrider 250 kb. F&#246;rs&#246;k igen med en annan bild.</swedish>
+        </trans-unit>
+        <trans-unit id="editviewPhotoErrHdr">
+            <croatian>Pogre&#353;ka s fotografijom</croatian>
+            <danish>Billedfejl</danish>
+            <dutch>Foto fout</dutch>
+            <english>Photo Error</english>
+            <finnish>Kuvavirhe</finnish>
+            <french>Erreur de photo</french>
+            <german>Foto-Fehler</german>
+            <greek>&#931;&#966;&#940;&#955;&#956;&#945; &#934;&#969;&#964;&#972;</greek>
+            <italian>Errore foto</italian>
+            <norwegian>Bildefeil</norwegian>
+            <polish>B&#322;&#261;d fotografii</polish>
+            <portugal>Erro de foto</portugal>
+            <slovenian>Napaka fotografije</slovenian>
+            <spanish>Error Foto</spanish>
+            <swedish>Bildfel</swedish>
+        </trans-unit>
+        <trans-unit id="editviewPhotoPermsn">
+            <croatian>Aplikacija Contour tra&#382;i dozvolu za pristup va&#353;im fotografijama.</croatian>
+            <danish>Contour appen anmoder om adgang til dine billeder.</danish>
+            <dutch>De Contour Diabetes App vraagt toestemming voor toegang tot uw foto's.</dutch>
+            <english>The Contour App would like permission to access your photos.</english>
+            <finnish>Contour-sovellus haluaisi luvan k&#228;ytt&#228;&#228; valokuviasi.</finnish>
+            <french>L&#8217;application Contour demande l&#8217;autorisation d&#8217;acc&#233;der &#224; vos photos.</french>
+            <german>Die Contour App bittet um Erlaubnis, auf Ihre Fotos zuzugreifen.</german>
+            <greek>&#919; &#917;&#966;&#945;&#961;&#956;&#959;&#947;&#942; Contour &#950;&#951;&#964;&#940; &#940;&#948;&#949;&#953;&#945; &#960;&#961;&#972;&#963;&#946;&#945;&#963;&#951;&#962; &#963;&#964;&#953;&#962; &#966;&#969;&#964;&#959;&#947;&#961;&#945;&#966;&#943;&#949;&#962; &#963;&#945;&#962;.</greek>
+            <italian>L'app Contour chiede l'autorizzazione per accedere alle tue foto.</italian>
+            <norwegian>Contour-appen &#248;nsker &#229; f&#229; tilgang til bildene dine.</norwegian>
+            <polish>Aplikacja Contour prosi o pozwolenie na dost&#281;p do Twoich zdj&#281;&#263;.</polish>
+            <portugal>A Contour Diabetes app solicita permiss&#227;o para aceder &#224;s suas fotos.</portugal>
+            <slovenian>Aplikacija Contour &#382;eli dovoljenje za dostop do va&#353;ih fotografij.</slovenian>
+            <spanish>Contour app solicita permiso para acceder a sus fotos.</spanish>
+            <swedish>Contour appen beg&#228;r &#229;tkomst till dina bilder.</swedish>
+        </trans-unit>
+        <trans-unit id="editviewSlctCarbHdr">
+            <croatian>Odabir jedinice ugljikoh.</croatian>
+            <danish>V&#230;lg kulhydratenheder</danish>
+            <dutch>Selecteer koolhydraten-eenheid</dutch>
+            <english>Select Carb Units</english>
+            <finnish>Valitse hiilih. yksikk&#246;</finnish>
+            <french>Unit&#233;s de glucides</french>
+            <german>KH-Einheiten w&#228;hlen</german>
+            <greek>&#917;&#960;&#953;&#955;&#941;&#958;&#964;&#949; &#924;&#959;&#957;&#940;&#948;&#949;&#962;</greek>
+            <italian>Seleziona unit&#224; carb.</italian>
+            <norwegian>Velg karbohydratenhet</norwegian>
+            <polish>Jednostki w&#281;glowodan&#243;w</polish>
+            <portugal>Selecionar Unidades HC</portugal>
+            <slovenian>Izberi enote OH</slovenian>
+            <spanish>Unidades HC</spanish>
+            <swedish>V&#228;lj kolhydratsenheter</swedish>
+        </trans-unit>
+        <trans-unit id="editviewSlctCarbTxt">
+            <croatian>Odaberite jedinicu u kojoj &#382;elite mjeriti ugljikohidrate.</croatian>
+            <danish>V&#230;lg de enheder, du vil m&#229;le kulhydrater i.</danish>
+            <dutch>Kies een eenheid om koolhydraten te meten.</dutch>
+            <english>Please select the units you would like to measure carbs in.</english>
+            <finnish>Valitse yksikk&#246;, jolla lasket hiilihydraatit.</finnish>
+            <french>S&#233;lectionnez les unit&#233;s &#224; utiliser pour la mesure des glucides.</french>
+            <german>Einheiten w&#228;hlen, in denen Sie die Kohlenhydrate eingeben.</german>
+            <greek>&#917;&#960;&#953;&#955;&#941;&#958;&#964;&#949; &#964;&#953;&#962; &#956;&#959;&#957;&#940;&#948;&#949;&#962; &#960;&#959;&#965; &#952;&#941;&#955;&#949;&#964;&#949; &#947;&#953;&#945; &#964;&#951; &#956;&#941;&#964;&#961;&#951;&#963;&#951; &#964;&#969;&#957; &#965;&#948;&#945;&#964;&#945;&#957;&#952;&#961;&#940;&#954;&#969;&#957;.</greek>
+            <italian>Seleziona le unit&#224; in cui desideri misurare i carboidrati.</italian>
+            <norwegian>Velg enheten du vil m&#229;le karbohydrater i.</norwegian>
+            <polish>Wybierz jednostki dla w&#281;glowodan&#243;w.</polish>
+            <portugal>Selecione as unidades que deseja para medir Hidratos de Carbono.</portugal>
+            <slovenian>Izberite enote, v katerih &#382;elite bele&#382;iti vnos OH.</slovenian>
+            <spanish>Seleccione las unidades con las que desee medir los HC.</spanish>
+            <swedish>V&#228;lj den enhet som du vill m&#228;ta kolhydrater i.</swedish>
+        </trans-unit>
+        <trans-unit id="editviewSlctCarbGrams">
+            <croatian>Grami (g)</croatian>
+            <danish>Gram (g)</danish>
+            <dutch>Gram (g)</dutch>
+            <english>Grams (g)</english>
+            <finnish>Grammat (g)</finnish>
+            <french>Grammes (g)</french>
+            <german>Gramm (g)</german>
+            <greek>&#915;&#961;&#945;&#956;&#956;&#940;&#961;&#953;&#945; (g)</greek>
+            <italian>Grammi (gr)</italian>
+            <norwegian>Gram (g)</norwegian>
+            <polish>Gramy (g)</polish>
+            <portugal>Gramas (g)</portugal>
+            <slovenian>Grami (g)</slovenian>
+            <spanish>Gramos (g)</spanish>
+            <swedish>Gram (g)</swedish>
+        </trans-unit>
+        <trans-unit id="editviewSlctCarbPoints">
+            <croatian>Bodovi (b)</croatian>
+            <danish>Point (pt)</danish>
+            <dutch>Punten (pt)</dutch>
+            <english>Points (pt)</english>
+            <finnish>Pisteet (pt)</finnish>
+            <french>Points (Pt)</french>
+            <german>KH-Einheiten (KE)</german>
+            <greek>&#914;&#945;&#952;&#956;&#959;&#943; (pt)</greek>
+            <italian>Unit&#224; (un)</italian>
+            <norwegian>Poeng (pt)</norwegian>
+            <polish>WW (WW)</polish>
+            <portugal>Por&#231;&#245;es (p)</portugal>
+            <slovenian>To&#269;ke (t&#269;.)</slovenian>
+            <spanish>Raciones</spanish>
+            <swedish>Po&#228;ng (pg)</swedish>
+        </trans-unit>
+        <trans-unit id="editviewSlctCarbChoice">
+            <croatian>Ostalo (os)</croatian>
+            <danish>Valgmuligheder</danish>
+            <dutch>Keuzes (ch)</dutch>
+            <english>Choices (ch)</english>
+            <finnish>Valinnat (ch)</finnish>
+            <french>Points (Pt)</french>
+            <german>Broteinh. (BE)</german>
+            <greek>&#917;&#960;&#953;&#955;&#959;&#947;&#941;&#962; (ch)</greek>
+            <italian>Equivalenti (eq)</italian>
+            <norwegian>Valg (ch)</norwegian>
+            <polish>Kalorie (kcal)</polish>
+            <portugal>Equivalentes (eq)</portugal>
+            <slovenian>Zamenjave (zamen.)</slovenian>
+            <spanish>Porciones</spanish>
+            <swedish>Val</swedish>
+        </trans-unit>
+        <trans-unit id="editviewCnfmCarbHdr">
+            <croatian>Potvrda jedinice ugljikoh.</croatian>
+            <danish>Bekr&#230;ft kulhydratenheder</danish>
+            <dutch>Bevestig koolhydraten-eenheid</dutch>
+            <english>Confirm Carb Units</english>
+            <finnish>Vahvista hiilih. yksikk&#246;</finnish>
+            <french>Unit&#233;s de glucides</french>
+            <german>KH-Einheiten best&#228;tigen</german>
+            <greek>&#917;&#960;&#953;&#946;&#949;&#946;&#945;&#943;&#969;&#963;&#951; &#924;&#959;&#957;&#940;&#948;&#969;&#957;</greek>
+            <italian>Conferma unit&#224; carb.</italian>
+            <norwegian>Bekreft karbohydratenhet</norwegian>
+            <polish>Potwierd&#378; jednostki</polish>
+            <portugal>Confirmar Unidades HC</portugal>
+            <slovenian>Potrdi enote OH</slovenian>
+            <spanish>Confirmar HC</spanish>
+            <swedish>Bekr&#228;fta kolhydratenhet</swedish>
+        </trans-unit>
+        <trans-unit id="editviewCnfmCarbTxt">
+            <croatian>Jeste li sigurni da &#382;elite koristiti %s kao jedinicu ugljikohidrata? Ne&#263;ete mo&#263;i izmijeniti ovu postavku.</croatian>
+            <danish>Er du sikker p&#229;, at du vil bruge %s som kulhydratenheder? Du kan ikke &#230;ndre denne indstilling.</danish>
+            <dutch>Weet u zeker dat u %s wilt gebruiken als eenheid voor koolhydraten? U kunt deze instelling later niet meer wijzigen.</dutch>
+            <english>Are you sure you want to use %s as your carb units? You will not be able to change this setting.</english>
+            <finnish>Oletko varma, ett&#228; haluat k&#228;ytt&#228;&#228; hiilihydraattiyksikk&#246;n&#228; %s? T&#228;t&#228; asetusta ei voi muuttaa.</finnish>
+            <french>Voulez-vous vraiment utiliser %s pour vos unit&#233;s de glucides&#160;? Vous ne pourrez pas changer ce param&#232;tre.</french>
+            <german>%s wirklich als Einheiten verwenden? Diese Einstellung kann sp&#228;ter nicht mehr ge&#228;ndert werden.</german>
+            <greek>&#917;&#943;&#963;&#964;&#949; &#963;&#943;&#947;&#959;&#965;&#961;&#959;&#953; &#972;&#964;&#953; &#952;&#941;&#955;&#949;&#964;&#949; %s &#969;&#962; &#956;&#959;&#957;&#940;&#948;&#949;&#962; &#965;&#948;&#945;&#964;&#945;&#957;&#952;&#961;&#940;&#954;&#969;&#957;; &#916;&#949;&#957; &#952;&#945; &#956;&#960;&#959;&#961;&#949;&#943;&#964;&#949; &#957;&#945; &#945;&#955;&#955;&#940;&#958;&#949;&#964;&#949; &#945;&#965;&#964;&#942;&#957; &#964;&#951; &#961;&#973;&#952;&#956;&#953;&#963;&#951;.</greek>
+            <italian>Vuoi usare %s come unit&#224; dei carboidrati? Questa impostazione non pu&#242; essere modificata.</italian>
+            <norwegian>Er du sikker p&#229; at du vil bruke %s som karbohydratenhet? Denne innstillingen kan ikke endres.</norwegian>
+            <polish>Czy na pewno chcesz stosowa&#263; %s jako jednostki w&#281;glow.? Ustawienia nie mo&#380;na zmieni&#263;.</polish>
+            <portugal>Deseja mesmo utilizar %s como as suas unidades de Hidratos de Carbono? N&#227;o conseguir&#225; alterar esta defini&#231;&#227;o.</portugal>
+            <slovenian>Res &#382;elite uporabljati %s za enote OH? Te nastavitve kasneje ne morete spremeniti.</slovenian>
+            <spanish>&#191;Est&#225; seguro de que desea utilizar %s como unidades de HC? No podr&#225; cambiar este par&#225;metro.</spanish>
+            <swedish>Vill du verkligen anv&#228;nda %s som din kolhydratenhet? Du kommer inte att kunna &#228;ndra denna inst&#228;llning.</swedish>
+        </trans-unit>
+    </unverified>
+    <main>
+        <trans-unit id="editviewSelectionTxt">
+            <croatian>Odabirom Bez oznake, oznake obroka ili obroci ne&#263;e biti spremljeni.</croatian>
+            <danish>V&#230;lger du ingen markering, gemmes ingen m&#229;ltidsmark&#248;rer eller m&#229;ltider.</danish>
+            <dutch>Bij Geen markering worden maaltijdmarkeringen of maaltijden niet opgeslagen.</dutch>
+            <english>By selecting No Mark, no Meal Markers or Meals will be saved.</english>
+            <finnish>Jos valitset Ei merkint&#228;&#228;, tulos tallentuu ilman merkint&#246;j&#228; tai aterioita.</finnish>
+            <french>Si vous s&#233;lectionnez Aucun marqueur, aucun marqueur ni repas n&#8217;est sauvegard&#233;.</french>
+            <german>Wenn Sie &#8222;Keine Markierung&#8220; ausw&#228;hlen, werden weder Mahlzeit-Markierungen noch Mahlzeiten gespeichert.</german>
+            <greek>&#917;&#960;&#953;&#955;&#941;&#947;&#959;&#957;&#964;&#945;&#962; &#922;&#945;&#956;&#943;&#945; &#931;&#942;&#956;&#945;&#957;&#963;&#951;, &#948;&#949;&#957; &#952;&#945; &#945;&#960;&#959;&#952;&#951;&#954;&#949;&#965;&#952;&#959;&#973;&#957; &#931;&#951;&#956;&#940;&#957;&#963;&#949;&#953;&#962; &#942; &#915;&#949;&#973;&#956;&#945;&#964;&#945;.</greek>
+            <italian>Selezionando Nessun marcatore, non verr&#224; salvato nessun pasto o marcatore pasto.</italian>
+            <norwegian>Hvis du velger Ingen markering, blir ingen m&#229;ltidsmarkeringer eller m&#229;ltider lagret</norwegian>
+            <polish>Po wybraniu opcji Bez Znacznika, &#380;adne Znaczniki posi&#322;k&#243;w nie zostan&#261; zapisane.</polish>
+            <portugal>Ao selecionar Sem Marca, n&#227;o s&#227;o guardados Marcadores de Refei&#231;&#227;o nem Refei&#231;&#245;es.</portugal>
+            <slovenian>&#268;e izberete Brez oznake, se ozna&#269;evalniki za obrok ali obroki ne bodo shranili.</slovenian>
+            <spanish>Si selecciona Sin marca, no se guardar&#225; el Marcador o Comida.</spanish>
+            <swedish>Om du v&#228;ljer Markera inte, sparas inga M&#229;ltidsmarkeringar eller M&#229;ltider.</swedish>
+        </trans-unit>
+    </main>
+    <automatic_meal_popup>
+        <trans-unit id="editviewPromptingMsg">
+            <croatian>&#381;elite li da se automatski upiti za oznake obroka nastave? \n \n Ako ih sada zaustavite, mo&#382;ete ih ponovno uklju&#269;iti u Postavkama.</croatian>
+            <danish>&#216;nsker du fortsat automatisk anmodning om m&#229;ltidsmarkering? \n \n Hvis du sl&#229;r automatisk anmodning om m&#229;ltidsmarkering fra, kan den sl&#229;s til igen i indstillinger.</danish>
+            <dutch>Wilt u automatische maaltijdmarkeringsopdrachten blijven ontvangen? \n \n Als u de opdracht nu uitzet, kunt u ze later weer aanzetten onder Instellingen.</dutch>
+            <english>Do you want automatic meal marker prompting to continue? \n \n If you stop prompting now it can be turned on again in Settings later.</english>
+            <finnish>Haluatko jatkaa automaattisen ateriamerkinn&#228;n k&#228;ytt&#246;&#228;? \n \n Jos lopetat k&#228;yt&#246;n nyt, voit k&#228;ynnist&#228;&#228; sen  my&#246;hemmin asetuksista.</finnish>
+            <french>Souhaitez-vous garder les propositions automatiques Marqueur de repas&#160;? Si vous les d&#233;sactivez, vous pouvez les r&#233;activer dans Param&#232;tres.</french>
+            <german>Weiterhin automatisch zu Mahlzeit-Markierungen aufgefordert werden? \n Die Funktion kann jederzeit wieder eingeschaltet werden.</german>
+            <greek>&#920;&#941;&#955;&#949;&#964;&#949; &#957;&#945; &#963;&#965;&#957;&#949;&#967;&#953;&#963;&#964;&#949;&#943; &#951; &#945;&#965;&#964;&#972;&#956;&#945;&#964;&#951; &#960;&#961;&#959;&#964;&#961;&#959;&#960;&#942; &#947;&#949;&#965;&#956;&#945;&#964;&#953;&#954;&#942;&#962; &#963;&#942;&#956;&#945;&#957;&#963;&#951;&#962;; \n \n &#913;&#957; &#964;&#951;&#957; &#948;&#953;&#945;&#954;&#972;&#968;&#949;&#964;&#949;, &#956;&#960;&#959;&#961;&#949;&#943;&#964;&#949; &#957;&#945; &#964;&#951;&#957; &#949;&#957;&#949;&#961;&#947;&#959;&#960;&#959;&#953;&#942;&#963;&#949;&#964;&#949; &#945;&#961;&#947;&#972;&#964;&#949;&#961;&#945; &#945;&#960;&#972; &#964;&#953;&#962; &#929;&#965;&#952;&#956;&#943;&#963;&#949;&#953;&#962;.</greek>
+            <italian>Vuoi far continuare l'avviso automatico del marcatore pasto? \n \n Se interrompi l'avviso adesso, potrai riattivarlo poi da Impostazioni.</italian>
+            <norwegian>&#216;nsker du &#229; fortsatt bli spurt om m&#229;ltidsmarkeringer automatisk? \n \n Hvis du velger Nei n&#229;, kan du sl&#229; det p&#229; igjen senere under Innstillinger.</norwegian>
+            <polish>Czy chcesz, aby nadal automatycznie wy&#347;wietla&#322; si&#281; monit znacznika posi&#322;ku? \n \n Je&#347;li teraz wy&#322;&#261;czysz monit, mo&#380;na go p&#243;&#378;niej w&#322;&#261;czy&#263; w Ustawieniach.</polish>
+            <portugal>Deseja manter a notifica&#231;&#227;o autom&#225;tica do Marcador de Refei&#231;&#227;o? \n \n Se suspender agora, poder&#225; voltar a ligar em Defini&#231;&#245;es.</portugal>
+            <slovenian>&#381;elite, da se samodejno pozivanje k ozna&#269;evanju obroka nadaljuje? \n \n &#268;e ga prekinete, ga lahko ponovno vklju&#269;ite v Nastavitvah.</slovenian>
+            <spanish>&#191;Desea continuar con los avisos autom&#225;ticos del marcador de comidas? \n \n Si suspende los avisos, puede volver a activarlos m&#225;s tarde en Configuraci&#243;n.</spanish>
+            <swedish>Vill du forts&#228;tta f&#229; automatiska f&#246;rfr&#229;gningar om m&#229;ltidsmarkeringar? \n \n Om du st&#228;nger av dem nu, kan de aktiveras igen senare i Inst&#228;llningar.</swedish>
+        </trans-unit>
+        <trans-unit id="editviewPromptingYesBtn">
+            <croatian>Da, nastavi</croatian>
+            <danish>Ja, forts&#230;t</danish>
+            <dutch>Ja, doorgaan</dutch>
+            <english>Yes, continue</english>
+            <finnish>Kyll&#228;, jatka</finnish>
+            <french>Oui, les garder</french>
+            <german>Ja, Aufforderungen beibehalten</german>
+            <greek>&#925;&#945;&#953;, &#963;&#965;&#957;&#941;&#967;&#949;&#953;&#945;</greek>
+            <italian>S&#236;, continua</italian>
+            <norwegian>Ja, fortsett</norwegian>
+            <polish>Tak, kontynuuj.</polish>
+            <portugal>Sim, manter</portugal>
+            <slovenian>Da, nadaljuj</slovenian>
+            <spanish>S&#237;, continuar</spanish>
+            <swedish>Ja, forts&#228;tt</swedish>
+        </trans-unit>
+        <trans-unit id="editviewPromptingNoBtn">
+            <croatian>Ne, zaustavi upite</croatian>
+            <danish>Nej, sl&#229; fra</danish>
+            <dutch>Nee, stop deze opdracht</dutch>
+            <english>No, stop prompting</english>
+            <finnish>Lopeta k&#228;ytt&#246;</finnish>
+            <french>Non, les d&#233;sactiver</french>
+            <german>Nein, Aufforderungen stoppen</german>
+            <greek>&#908;&#967;&#953;, &#948;&#953;&#945;&#954;&#959;&#960;&#942; &#960;&#961;&#959;&#964;&#961;&#959;&#960;&#942;&#962;</greek>
+            <italian>No, interrompi</italian>
+            <norwegian>Nei, stopp &#229; sp&#248;rre</norwegian>
+            <polish>Nie, wy&#322;&#261;cz monity</polish>
+            <portugal>N&#227;o, suspender</portugal>
+            <slovenian>Ne, prekini pozivanje</slovenian>
+            <spanish>No, suspender avisos</spanish>
+            <swedish>Nej, fr&#229;ga inte igen</swedish>
+        </trans-unit>
+    </automatic_meal_popup>
+    <photo>
+        <trans-unit id="editviewTakePhotoBtn">
+            <croatian>Snimi fotografiju</croatian>
+            <danish>Tag billede</danish>
+            <dutch>Foto nemen</dutch>
+            <english>Take a Photo</english>
+            <finnish>Ota kuva</finnish>
+            <french>Prendre une photo</french>
+            <german>Foto</german>
+            <greek>&#923;&#942;&#968;&#951; &#934;&#969;&#964;&#972;</greek>
+            <italian>Scatta una foto</italian>
+            <norwegian>Ta et bilde</norwegian>
+            <polish>Zr&#243;b zdj&#281;cie</polish>
+            <portugal>Tirar uma foto</portugal>
+            <slovenian>Fotografiraj</slovenian>
+            <spanish>Hacer una foto</spanish>
+            <swedish>Ta en bild</swedish>
+        </trans-unit>
+        <trans-unit id="editviewAddPhotoBtn">
+            <croatian>+ Dodaj iz fotogalerije</croatian>
+            <danish>+ Tilf&#248;j eksisterende billede</danish>
+            <dutch>+ foto uit bibliotheek toevoegen</dutch>
+            <english>+ Add Photo from Library</english>
+            <finnish>+ Lis&#228;&#228; kuva kuvakansiosta</finnish>
+            <french>+ T&#233;l&#233;charger une photo</french>
+            <german>+ Foto ausw&#228;hlen</german>
+            <greek>+ &#928;&#961;&#959;&#963;&#952;&#941;&#963;&#964;&#949; &#934;&#969;&#964;&#972; &#945;&#960;&#972; &#914;&#953;&#946;&#955;&#953;&#959;&#952;&#942;&#954;&#951;</greek>
+            <italian>+ Aggiungi foto</italian>
+            <norwegian>+ Legg til bilde fra bibliotek</norwegian>
+            <polish>+ Dodaj zdj&#281;cie z biblioteki</polish>
+            <portugal>+ Adic. foto da biblioteca</portugal>
+            <slovenian>+ Dodaj foto iz knji&#382;nice</slovenian>
+            <spanish>+ A&#241;adir foto de biblioteca</spanish>
+            <swedish>+ H&#228;mta bild fr&#229;n bibliotek</swedish>
+        </trans-unit>
+        <trans-unit id="editviewRetakeBtn">
+            <croatian>Ponovno snimi</croatian>
+            <danish>Tage om</danish>
+            <dutch>Opnieuw</dutch>
+            <english>Retake</english>
+            <finnish>Ota uudelleen</finnish>
+            <french>Reprendre</french>
+            <german>Nochmal aufnehmen</german>
+            <greek>&#917;&#960;&#945;&#957;&#940;&#955;&#951;&#968;&#951;</greek>
+            <italian>Scatta di nuovo</italian>
+            <norwegian>Ta nytt bilde</norwegian>
+            <polish>Nowe uj&#281;cie</polish>
+            <portugal>Repetir</portugal>
+            <slovenian>Ponovno slikaj</slovenian>
+            <spanish>Repetir</spanish>
+            <swedish>Ta om</swedish>
+        </trans-unit>
+        <trans-unit id="editviewDeletePhotoHdr">
+            <croatian>Izbri&#353;i fotografiju</croatian>
+            <danish>Slet billede</danish>
+            <dutch>Foto wissen</dutch>
+            <english>Delete Photo</english>
+            <finnish>Poista kuva</finnish>
+            <french>Supprimer la photo</french>
+            <german>Foto l&#246;schen</german>
+            <greek>&#916;&#953;&#945;&#947;&#961;&#945;&#966;&#942; &#934;&#969;&#964;&#972;</greek>
+            <italian>Elimina foto</italian>
+            <norwegian>Slett bilde</norwegian>
+            <polish>Usu&#324; zdj&#281;cie</polish>
+            <portugal>Apagar foto</portugal>
+            <slovenian>Izbri&#353;i fotografijo</slovenian>
+            <spanish>Eliminar foto</spanish>
+            <swedish>Ta bort bild</swedish>
+        </trans-unit>
+        <trans-unit id="editviewDeletePhotoTxt">
+            <croatian>Jeste li sigurni da &#382;elite izbrisati ovu fotografiju?</croatian>
+            <danish>Er du sikker p&#229;, at du vil slette billedet?</danish>
+            <dutch>Weet u zeker dat u deze foto wilt wissen?</dutch>
+            <english>Are you sure you want to delete this photo?</english>
+            <finnish>Oletko varma, ett&#228; haluat poistaa t&#228;m&#228;n kuvan?</finnish>
+            <french>Voulez-vous vraiment supprimer cette photo&#160;?</french>
+            <german>M&#246;chten Sie dieses Foto wirklich l&#246;schen?</german>
+            <greek>&#917;&#943;&#963;&#964;&#949; &#963;&#943;&#947;&#959;&#965;&#961;&#959;&#953; &#947;&#953;&#945; &#964;&#951; &#948;&#953;&#945;&#947;&#961;&#945;&#966;&#942; &#945;&#965;&#964;&#942;&#962; &#964;&#951;&#962; &#966;&#969;&#964;&#959;&#947;&#961;&#945;&#966;&#943;&#945;&#962;;</greek>
+            <italian>Vuoi eliminare questa foto?</italian>
+            <norwegian>Er du sikker p&#229; at du vil slette dette bildet?</norwegian>
+            <polish>Czy na pewno chcesz usun&#261;&#263; to zdj&#281;cie?</polish>
+            <portugal>Deseja mesmo apagar esta foto?</portugal>
+            <slovenian>Res &#382;elite izbrisati to fotografijo?</slovenian>
+            <spanish>&#191;Seguro que desea eliminar esta foto?</spanish>
+            <swedish>&#196;r du s&#228;ker p&#229; att du vill ta bort denna bild?</swedish>
+        </trans-unit>
+        <trans-unit id="editviewCropBtn">
+            <croatian>Obre&#382;i fotografiju</croatian>
+            <danish>Besk&#230;r billede</danish>
+            <dutch>Foto bijsnijden</dutch>
+            <english>Crop Photo</english>
+            <finnish>Rajaa kuva</finnish>
+            <french>Rogner la photo</french>
+            <german>Foto zuschneiden</german>
+            <greek>&#922;&#972;&#968;&#964;&#949; &#934;&#969;&#964;&#972;</greek>
+            <italian>Ritaglia foto</italian>
+            <norwegian>Beskj&#230;r bilde</norwegian>
+            <polish>Przytnij zdj&#281;cie</polish>
+            <portugal>Recortar foto</portugal>
+            <slovenian>Obre&#382;i fotografijo</slovenian>
+            <spanish>Recortar foto</spanish>
+            <swedish>Besk&#228;r bild</swedish>
+        </trans-unit>
+    </photo>
+    <reminder>
+        <trans-unit id="editviewDeleteReminderTxt">
+            <croatian>Izbrisati ovaj podsjetnik? Ako je ovaj unos stariji od 15 minuta, ne mo&#382;ete postaviti drugi podsjetnik.</croatian>
+            <danish>Slet p&#229;mindelse? Er indtastningen lavet for mere end 15 min. siden, kan du ikke indstille en ny p&#229;mindelse.</danish>
+            <dutch>Deze herinnering wissen? Als deze invoer ouder dan 15 minuten is, kunt u geen andere herinnering instellen.</dutch>
+            <english>Delete this reminder? If this entry is older than 15 minutes, you cannot set another reminder.</english>
+            <finnish>Poistetaanko t&#228;m&#228; muistutus? Jos t&#228;m&#228; merkint&#228; on vanhempi kuin 15 minuuttia, et voi asettaa uutta muistutusta.</finnish>
+            <french>Supprimer ce rappel&#160;? Si l&#8217;entr&#233;e date d&#8217;il y a plus de 15 minutes, vous ne pouvez pas d&#233;finir d&#8217;autre rappel.</french>
+            <german>Soll diese Erinnerung gel&#246;scht werden? Wenn diese Eintragung &#228;lter als 15 Minuten ist, k&#246;nnen Sie keine weitere Erinnerung einrichten.</german>
+            <greek>&#920;&#941;&#955;&#949;&#964;&#949; &#957;&#945; &#948;&#953;&#945;&#947;&#961;&#945;&#966;&#949;&#943;; &#913;&#957; &#960;&#941;&#961;&#945;&#963;&#945;&#957; &#960;&#940;&#957;&#969; &#945;&#960;&#972; 15 &#955;&#949;&#960;&#964;&#940;, &#948;&#949;&#957; &#956;&#960;&#959;&#961;&#949;&#943;&#964;&#949; &#957;&#945; &#952;&#941;&#963;&#949;&#964;&#949; &#940;&#955;&#955;&#951; &#965;&#960;&#949;&#957;&#952;&#973;&#956;&#953;&#963;&#951;.</greek>
+            <italian>Eliminare questo promemoria? Se questa voce risale a pi&#249; di 15 minuti, non potrai impostare un altro promemoria.</italian>
+            <norwegian>Vil du slette denne p&#229;minnelsen? Hvis denne oppf&#248;ringen er eldre enn 15 minutter, kan du ikke stille inn en ny p&#229;minnelse.</norwegian>
+            <polish>Usun&#261;&#263; to przypomnienie? Je&#347;li ta pozycja jest starsza ni&#380; 15 minut, nie mo&#380;na ustawi&#263; innego przypomnienia.</polish>
+            <portugal>Apagar lembrete? Se esta entrada foi criada h&#225; mais de 15 minutos, n&#227;o pode configurar outro lembrete.</portugal>
+            <slovenian>Izbri&#353;em ta opomnik? &#268;e je ta vnos starej&#353;i od 15 minut, ne morete nastaviti &#353;e enega opomnika.</slovenian>
+            <spanish>&#191;Eliminar recordatorio? Si realiz&#243; esta entrada hace m&#225;s de 15 min., no puede configurar otro recordatorio.</spanish>
+            <swedish>Ta bort denna p&#229;minnelse? Om denna post &#228;r &#228;ldre &#228;n 15 minuter kan du inte l&#228;gga till en ny p&#229;minnelse.</swedish>
+        </trans-unit>
+        <trans-unit id="editviewReminderSbTxt">
+            <croatian>Podsjeti me opet za 15 min.</croatian>
+            <danish>P&#229;mind igen om 15 min.</danish>
+            <dutch>Herinner me over 15 min</dutch>
+            <english>Remind me again in 15 min</english>
+            <finnish>Muistuta 15 min kuluttua</finnish>
+            <french>Me le rappeler dans 15 min.</french>
+            <german>Erinnere mich in 15 min wieder</german>
+            <greek>&#920;&#973;&#956;&#953;&#963;&#941; &#964;&#959; &#956;&#959;&#965; &#958;&#945;&#957;&#940; &#963;&#949; 15 &#955;&#949;&#960;</greek>
+            <italian>Ricordamelo tra 15 min.</italian>
+            <norwegian>P&#229;minn meg om 15 minutter</norwegian>
+            <polish>Przypomnij zn&#243;w za 15 min</polish>
+            <portugal>Relembrar em 15 min.</portugal>
+            <slovenian>Ponovno opomni &#269;ez 15&#160;min</slovenian>
+            <spanish>Recordar en 15 min</spanish>
+            <swedish>P&#229;minn mig igen om 15 min</swedish>
+        </trans-unit>
+    </reminder>
+    <activity>
+        <trans-unit id="editviewUseAddActivitySbTxt">
+            <croatian>Jo&#353; niste zabilje&#382;ili nikakve aktivnosti.</croatian>
+            <danish>Du har ikke registreret en aktivitet endnu.</danish>
+            <dutch>U heeft nog geen activiteiten geregistreerd.</dutch>
+            <english>You have not logged any activities yet.</english>
+            <finnish>Et ole merkinnyt viel&#228; mit&#228;&#228;n aktiviteetteja p&#228;iv&#228;kirjaan.</finnish>
+            <french>Vous n&#8217;avez pas encore enregistr&#233; d&#8217;activit&#233;s.</french>
+            <german>Sie haben noch keine Aktivit&#228;ten protokolliert.</german>
+            <greek>&#916;&#949;&#957; &#941;&#967;&#949;&#964;&#949; &#954;&#945;&#964;&#945;&#967;&#969;&#961;&#943;&#963;&#949;&#953; &#954;&#945;&#956;&#943;&#945; &#948;&#961;&#945;&#963;&#964;&#951;&#961;&#953;&#972;&#964;&#951;&#964;&#945; &#945;&#954;&#972;&#956;&#945;.</greek>
+            <italian>Non hai ancora registrato nessuna attivit&#224;.</italian>
+            <norwegian>Du har ikke loggf&#248;rt noen aktiviteter enn&#229;.</norwegian>
+            <polish>&#379;adne aktywno&#347;ci nie zosta&#322;y jeszcze wprowadzone.</polish>
+            <portugal>Ainda n&#227;o registou nenhuma atividade.</portugal>
+            <slovenian>Aktivnosti &#353;e niso zabele&#382;ene.</slovenian>
+            <spanish>No ha registrado ninguna actividad.</spanish>
+            <swedish>Du har inte lagt till n&#229;gra aktiviteter &#228;n.</swedish>
+        </trans-unit>
+    </activity>
+    <meal>
+        <trans-unit id="editviewUseFoodAmountBannr">
+            <croatian>Hrana/koli&#269;ina</croatian>
+            <danish>Mad/M&#230;ngde</danish>
+            <dutch>Voeding/hoeveelheid</dutch>
+            <english>Food/Amount</english>
+            <finnish>Ruoka/m&#228;&#228;r&#228;</finnish>
+            <french>Aliment/Quantit&#233;</french>
+            <german>Nahrung/Menge</german>
+            <greek>&#934;&#945;&#947;&#951;&#964;&#972;/&#928;&#959;&#963;&#972;&#964;&#951;&#964;&#945;</greek>
+            <italian>Pasto/Quantit&#224;</italian>
+            <norwegian>Mat/mengde</norwegian>
+            <polish>Po&#380;ywienie/ilo&#347;&#263;</polish>
+            <portugal>Alimentos/Quantidade</portugal>
+            <slovenian>Hrana/koli&#269;ina</slovenian>
+            <spanish>Alimentos/cantidad</spanish>
+            <swedish>M&#229;ltid/m&#228;ngd</swedish>
+        </trans-unit>
+        <trans-unit id="editviewUseFoodSelectChickenSandwichInfo">
+            <croatian>Unesite ugljikohidrate za ovaj obrok kako biste podesili aplikaciju da sama u budu&#263;nosti ispuni koli&#269;inu ugljikohidrata za ovaj obrok.</croatian>
+            <danish>Indtast kulhydrater for dette m&#229;ltid for at indstille appen til automatisk  udfyldning for samme m&#229;ltid i fremtiden.</danish>
+            <dutch>Voer de koolhydraten voor deze maaltijd in, zodat de app de hoeveelheid koolhydraten voor deze maaltijd in het vervolg automatisch kan invullen.</dutch>
+            <english>Enter the carbs for this meal to set the app to autopopulate the carb amount for this meal in the future.</english>
+            <finnish>Lis&#228;&#228; t&#228;m&#228;n ruoan hiilihydraattim&#228;&#228;r&#228;, jotta sovellus jatkossa antaa automaattisesti hiilihydraattim&#228;&#228;r&#228;n t&#228;lle ruoalle.</finnish>
+            <french>Saisissez les glucides pour ce repas pour que l&#8217;application remplisse automatiquement le quantit&#233; de glucides pour ce repas &#224; l&#8217;avenir.</french>
+            <german>Geben Sie die Kohlenhydrate f&#252;r diese Mahlzeit ein, um die App so einzustellen, dass sie k&#252;nftig die Kohlenhydratmenge f&#252;r diese Mahlzeit automatisch ausf&#252;llt.</german>
+            <greek>&#917;&#953;&#963;&#945;&#947;&#940;&#947;&#949;&#964;&#949; &#964;&#959;&#965;&#962; &#965;&#948;&#945;&#964;&#940;&#957;&#952;&#961;&#945;&#954;&#949;&#962; &#947;&#953;&#945; &#945;&#965;&#964;&#972; &#964;&#959; &#947;&#949;&#973;&#956;&#945; &#974;&#963;&#964;&#949; &#963;&#964;&#959; &#956;&#941;&#955;&#955;&#959;&#957; &#957;&#945; &#949;&#943;&#957;&#945;&#953; &#960;&#961;&#959;&#963;&#965;&#956;&#960;&#955;&#951;&#961;&#969;&#956;&#941;&#957;&#959;&#953; &#947;&#953;&#945; &#964;&#959; &#963;&#965;&#947;&#954;&#949;&#954;&#961;&#953;&#956;&#941;&#957;&#959; &#947;&#949;&#973;&#956;&#945;.</greek>
+            <italian>Inserisci i carboidrati relativi a questo pasto. In questo modo, l'App verr&#224; impostata per inserire automaticamente in futuro la quantit&#224; di carboidrati relativi a questo pasto.</italian>
+            <norwegian>Angi karbohydratene for dette m&#229;ltidet for &#229; konfigurere appen til automatisk &#229; fylle ut karbohydratmengden for  dette m&#229;ltidet i fremtiden</norwegian>
+            <polish>Wprowad&#378; w&#281;glowodany dla tego posi&#322;ku, po czym aplikacja automatycznie wype&#322;ni ilo&#347;&#263; w&#281;glowodan&#243;w dla tego posi&#322;ku w przysz&#322;o&#347;ci.</polish>
+            <portugal>Introduza os HC desta refei&#231;&#227;o para que no futuro a app preencha automaticamente a quantidade de HC desta refei&#231;&#227;o.</portugal>
+            <slovenian>Vnesite koli&#269;ino OH za ta obrok, da aplikacija samodejno dolo&#269;i koli&#269;ino OH za ta obrok v prihodnje.</slovenian>
+            <spanish>Introduzca los hidratos de carbono (HC) de esta comida para que la aplicaci&#243;n complete autom&#225;ticamente la cantidad de HC de esta comida en el futuro.</spanish>
+            <swedish>Ange m&#228;ngden kolhydrater (kh) f&#246;r denna m&#229;ltid s&#229; fyller appen i m&#228;ngden kh automatiskt f&#246;r m&#229;ltiden i forts&#228;ttningen.</swedish>
+        </trans-unit>
+        <trans-unit id="editviewUseFoodEditHamburgerSubTxt">
+            <croatian>Uredite koli&#269;inu ugljikohidrata za promjenu budu&#263;ih unosa; ova promjena ne&#263;e utjecati na va&#353;e prethodne unose.</croatian>
+            <danish>Redig&#233;r kulhydratm&#230;ngden fremadrettet, denne &#230;ndring p&#229;virker ikke tidligere indtastninger.</danish>
+            <dutch>Pas de hoeveelheid koolhydraten aan voor toekomstige invoer; deze wijziging heeft geen invloed op eerder ingevulde voeding.</dutch>
+            <english>Edit the carb amount to change future entries; this change does not affect your previous entries.</english>
+            <finnish>Muokkaa hiilihydraattim&#228;&#228;r&#228;&#228; jatkoa varten; t&#228;m&#228; muutos ei vaikuta aiempiin merkint&#246;ihisi.</finnish>
+            <french>Saisissez la quantit&#233; de glucides pour modifier les entr&#233;es &#224; venir, sans que cela n&#8217;affecte vos entr&#233;es pr&#233;c&#233;dentes.</french>
+            <german>Bearbeiten Sie die Kohlenhydratmenge. Diese &#196;nderung wirkt sich nur auf k&#252;nftige Eintr&#228;ge aus, nicht r&#252;ckwirkend.</german>
+            <greek>&#913;&#955;&#955;&#940;&#958;&#949;&#964;&#949; &#964;&#951;&#957; &#960;&#959;&#963;&#972;&#964;&#951;&#964;&#945; &#965;&#948;&#945;&#964;&#945;&#957;&#952;&#961;&#940;&#954;&#969;&#957; &#947;&#953;&#945; &#964;&#953;&#962; &#956;&#949;&#955;&#955;&#959;&#957;&#964;&#953;&#954;&#941;&#962; &#954;&#945;&#964;&#945;&#967;&#969;&#961;&#943;&#963;&#949;&#953;&#962;. &#913;&#965;&#964;&#942; &#951; &#945;&#955;&#955;&#945;&#947;&#942; &#948;&#949;&#957; &#949;&#960;&#951;&#961;&#949;&#940;&#950;&#949;&#953; &#964;&#953;&#962; &#960;&#961;&#959;&#951;&#947;&#959;&#973;&#956;&#949;&#957;&#949;&#962; &#954;&#945;&#964;&#945;&#967;&#969;&#961;&#943;&#963;&#949;&#953;&#962; &#963;&#945;&#962;.</greek>
+            <italian>Cambia la quantit&#224; di carboidrati per modificare i dati che verranno inseriti in futuro; questa modifica non influisce sui dati inseriti in precedenza.</italian>
+            <norwegian>Rediger karbohydratmengden for &#229; endre fremtidige oppf&#248;ringer. Denne endringen p&#229;virker ikke tidligere oppf&#248;ringer.</norwegian>
+            <polish>Wprowad&#378; ilo&#347;&#263; w&#281;glowodan&#243;w, aby zmieni&#263; przysz&#322;e wpisy. Zmiana ta nie wp&#322;ywa na poprzednie wpisy.</polish>
+            <portugal>Edite a quantidade de HC para alterar futuras entradas; esta altera&#231;&#227;o n&#227;o afeta as suas entradas anteriores.</portugal>
+            <slovenian>Uredite koli&#269;ino OH, da se spremenijo vnosi v prihodnje; ta sprememba ne vpliva na va&#353;e prej&#353;nje vnose.</slovenian>
+            <spanish>Podr&#225; modificar los HC en el futuro;  el cambio no afectar&#225; a las entradas anteriores.</spanish>
+            <swedish>Redigera m&#228;ngden kolhydrater f&#246;r att &#228;ndra framtida poster. &#196;ndringen p&#229;verkar inte dina tidigare poster.</swedish>
+        </trans-unit>
+        <trans-unit id="editviewLogFoodTxt">
+            <croatian>Jo&#353; ni&#353;te zabilje&#382;ili nikakvu hranu.</croatian>
+            <danish>Du har endnu ikke registreret nogen madvarer.</danish>
+            <dutch>U heeft nog geen voeding ingevoerd</dutch>
+            <english>You have not logged any foods yet.</english>
+            <finnish>Et ole merkinnyt viel&#228; mit&#228;&#228;n ruokia p&#228;iv&#228;kirjaan.</finnish>
+            <french>Vous n&#8217;avez pas encore enregistr&#233; d&#8217;aliments.</french>
+            <german>Sie haben noch keine Nahrungsmittel protokolliert.</german>
+            <greek>&#916;&#949;&#957; &#941;&#967;&#949;&#964;&#949; &#954;&#945;&#964;&#945;&#967;&#969;&#961;&#943;&#963;&#949;&#953; &#954;&#945;&#957;&#941;&#957;&#945; &#966;&#945;&#947;&#951;&#964;&#972; &#945;&#954;&#972;&#956;&#945;.</greek>
+            <italian>Non hai ancora registrato un pasto.</italian>
+            <norwegian>Du har ikke loggf&#248;rt noe mat enn&#229;.</norwegian>
+            <polish>&#379;adne elementy po&#380;ywienia nie zosta&#322;y jeszcze wprowadzone.</polish>
+            <portugal>Ainda n&#227;o registou nenhum alimento.</portugal>
+            <slovenian>Hrana &#353;e ni zabele&#382;ena.</slovenian>
+            <spanish>No hay registrado ning&#250;n alimento.</spanish>
+            <swedish>Du har inte lagt till n&#229;gra m&#229;ltider &#228;n.</swedish>
+        </trans-unit>
+    </meal>
+    <meds>
+        <trans-unit id="editviewLogMedctnTxt">
+            <croatian>Jo&#353; niste unijeli nikakve lijekove.</croatian>
+            <danish>Du har endnu ikke registreret medicin.</danish>
+            <dutch>U heeft nog geen medicatie ingevoerd.</dutch>
+            <english>You have not logged any medications yet.</english>
+            <finnish>Et ole viel&#228; kirjannut mit&#228;&#228;n l&#228;&#228;kkeit&#228;.</finnish>
+            <french>Vous n&#8217;avez pas encore saisi de m&#233;dicament.</french>
+            <german>Keine Medikation gespeichert</german>
+            <greek>&#916;&#949;&#957; &#941;&#967;&#949;&#964;&#949; &#954;&#945;&#964;&#945;&#967;&#969;&#961;&#943;&#963;&#949;&#953; &#954;&#945;&#957;&#941;&#957;&#945; &#966;&#940;&#961;&#956;&#945;&#954;&#959; &#945;&#954;&#972;&#956;&#945;.</greek>
+            <italian>Non hai ancora registrato un farmaco.</italian>
+            <norwegian>Du har ikke loggf&#248;rt noen medisiner enn&#229;.</norwegian>
+            <polish>Nie zarejestrowano jeszcze &#380;adnych lek&#243;w.</polish>
+            <portugal>Ainda n&#227;o registou nenhuma medica&#231;&#227;o.</portugal>
+            <slovenian>Zdravila &#353;e niso zabele&#382;ena.</slovenian>
+            <spanish>Todav&#237;a no ha registrado ning&#250;n medicamento.</spanish>
+            <swedish>Du har inte angivit n&#229;gon medicinering &#228;nnu.</swedish>
+        </trans-unit>
+        <trans-unit id="editviewByettaTxt">
+            <croatian>Byetta</croatian>
+            <danish>Byetta</danish>
+            <dutch>Byetta</dutch>
+            <english>Byetta</english>
+            <finnish>Byetta</finnish>
+            <french>Byetta</french>
+            <german>Byetta</german>
+            <greek>Byetta</greek>
+            <italian>Byetta</italian>
+            <norwegian>Byetta</norwegian>
+            <polish>Byetta</polish>
+            <portugal>Byetta</portugal>
+            <slovenian>Byetta</slovenian>
+            <spanish>Byetta</spanish>
+            <swedish>Byetta/Bydureon</swedish>
+        </trans-unit>
+        <trans-unit id="editviewDscrdChngesTxt">
+            <croatian>Jeste li sigurni da &#382;elite odbaciti svoje promjene?</croatian>
+            <danish>Er du sikker p&#229;, at du vil slette &#230;ndringerne?</danish>
+            <dutch>Weet u zeker dat u uw wijzigingen wilt annuleren?</dutch>
+            <english>Are you sure you want to discard your changes?</english>
+            <finnish>Oletko varma, ett&#228; haluat hyl&#228;t&#228; tekem&#228;si muutokset?</finnish>
+            <french>Voulez-vous vraiment ignorer vos modifications&#160;?</french>
+            <german>M&#246;chten Sie Ihre &#196;nderungen wirklich verwerfen?</german>
+            <greek>&#917;&#943;&#963;&#964;&#949; &#963;&#943;&#947;&#959;&#965;&#961;&#959;&#953; &#972;&#964;&#953; &#952;&#941;&#955;&#949;&#964;&#949; &#957;&#945; &#945;&#960;&#959;&#961;&#961;&#943;&#968;&#949;&#964;&#949; &#964;&#953;&#962; &#945;&#955;&#955;&#945;&#947;&#941;&#962; &#963;&#945;&#962;;</greek>
+            <italian>Vuoi ignorare le modifiche?</italian>
+            <norwegian>Er du sikker p&#229; at du vil forkaste endringene?</norwegian>
+            <polish>Czy na pewno chcesz odrzuci&#263; zmiany?</polish>
+            <portugal>Deseja mesmo eliminar as suas altera&#231;&#245;es?</portugal>
+            <slovenian>Res &#382;elite zavre&#269;i spremembe?</slovenian>
+            <spanish>&#191;Seguro que desea eliminar los cambios?</spanish>
+            <swedish>&#196;r du s&#228;ker p&#229; att du vill ta bort dina &#228;ndringar?</swedish>
+        </trans-unit>
+        <trans-unit id="editviewDscrdChngesHdr">
+            <croatian>Odbaci promjene</croatian>
+            <danish>Slet &#230;ndringer</danish>
+            <dutch>Wijzigingen annuleren</dutch>
+            <english>Discard Changes</english>
+            <finnish>Hylk&#228;&#228; muutokset</finnish>
+            <french>Ignorer les modifications</french>
+            <german>&#196;nderungen verwerfen</german>
+            <greek>&#913;&#960;&#972;&#961;&#961;&#953;&#968;&#951; &#913;&#955;&#955;&#945;&#947;&#974;&#957;</greek>
+            <italian>Ignora modifiche</italian>
+            <norwegian>Forkast endringer</norwegian>
+            <polish>Odrzu&#263; zmiany</polish>
+            <portugal>Eliminar altera&#231;&#245;es</portugal>
+            <slovenian>Zavrzi spremembe</slovenian>
+            <spanish>Eliminar cambios</spanish>
+            <swedish>Ta bort &#228;ndringar</swedish>
+        </trans-unit>
+    </meds>
+</root>

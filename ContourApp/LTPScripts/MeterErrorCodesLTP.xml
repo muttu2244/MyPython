@@ -1,0 +1,631 @@
+<root>
+    <TestingErrors>
+<trans-unit id="metererrorcodesSearchMeterErrCodeTxt">
+			<tool_key>metererrorcodesSearchMeterErrCodeTxt</tool_key>
+			<note>Onyx Help - Meter Error Codes System Map V5.0/MHE 3.0</note>
+			<english> Meter Error Codes</english>
+			<german>Fehlercodes Messgerät</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+        <trans-unit id="metererrorcodesSearchMeterErrCodeTxt">
+			<tool_key>metererrorcodesSearchMeterErrCodeTxt</tool_key>
+			<note>Onyx Help - Meter Error Codes System Map V5.0/MHE 3.0</note>
+			<english>Search Meter Error Codes</english>
+			<german>Search Meter Error Codes</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+
+    <trans-unit id="metererrorcodesTooLilBloodBtn">
+			<english>E1 Too Little Blood</english>
+			<german>E1 Zu wenig Blut</german>
+		</trans-unit>
+
+        <trans-unit id="metererrorLittleBloodHdr">
+			<english>E1: Too Little Blood</english>
+			<german>E1: Zu wenig Blut</german>
+		</trans-unit>
+        <trans-unit id="metererrorLittleBloodRemoveTxt">
+			<english>Remove used strip. Repeat blood sugar test with new strip.&lt;br&gt;The CONTOUR™NEXT ONE or CONTOUR™PLUS ONE meters provide Second-Chance™ Sampling, allowing you to reapply blood to the same test strip within 60 seconds if there is too little blood.&lt;br&lt;Your test strip is designed to easily \\\'sip\\\' the blood into the sample tip. Do not drop blood directly on the flat surface of the test strip.</english>
+			<german>Gebrauchten Sensor entfernen. Messung mit neuem Sensor wiederholen.&lt;br&gt;as CONTOUR™NEXT ONE bzw. CONTOUR™PLUS ONE Messgerät bietet eine intelligente Nachfülloption (Second-Chance® Sampling), welche es erlaubt, bis zu 60 Sek. Blut in den gleichen Teststreifen nachzufüllen.&lt;br&gt;Der Sensor ist so konzipiert, dass er das Blut leicht in die Sensoröffnung \\\'saugt\\\'. Blut nicht auf die Oberseite des Sensors geben.</german>
+		</trans-unit>
+    <trans-unit id="metererrorcodesUsedTestStripBtn">
+			<english>E2 Used Test Strip</english>
+			<german>E2 Gebrauchter Sensor</german>
+		</trans-unit>
+
+
+        <trans-unit id="metererrorUsedStripHdr">
+			<english>E2: Used Test Strip </english>
+			<german>E2: Gebrauchter Sensor </german>
+		</trans-unit>
+        <trans-unit id="metererrorDamageStripRemoveTxt">
+			<english>Remove used strip. Repeat blood sugar test with a new strip.&lt;br&gt;Double check the expiration date on your strip vial before inserting the strip into your meter. Apply blood to the strip when the blood drop icon is flashing.</english>
+			<german>Gebrauchten Sensor entfernen. Messung mit einem neuen Sensor wiederholen.&lt;br&gt;Überprüfen Sie das Verfallsdatum auf der Sensorendose, bevor Sie den Sensor in Ihr Messgerät stecken. Führen Sie den Sensor an den Bluttropfen, wenn das Bluttropfensymbol blinkt.</german>
+		</trans-unit>
+        <trans-unit id="metererrorcodesStripUpsideDownBtn">
+			<english>E3 Strip Upside Down</english>
+			<german>E3 Sensor verkehrt herum</german>
+		</trans-unit>
+
+        <trans-unit id="metererrorStripDownHdr">
+			<english>E3: Strip Upside Down</english>
+			<german>E3: Sensor verkehrt herum</german>
+		</trans-unit>
+        <trans-unit id="metererrorStripDownRemoveTxt">
+			<english>Remove strip and insert correctly. Insert the grey end of the strip facing up.</english>
+			<german>Entfernen Sie den Sensor und stecken Sie ihn richtig herum ein. Schieben sie den Sensor mit den grauen Ende nach oben ein.</german>
+		</trans-unit>
+        <trans-unit id="metererrorcodesWrongStripInsertBtn">
+			<english>E4 Wrong Strip Inserted</english>
+			<german>E4 Falscher Sensor eingesteckt</german>
+		</trans-unit>
+
+
+        <trans-unit id="metererrorWrongStripHdr">
+			<english>E4: Wrong Strip Inserted</english>
+			<german>E4: Falscher Sensor eingesteckt</german>
+		</trans-unit>
+       <trans-unit id="metererrorWrongStripRemoveTxt">
+			<english>Remove strip. Repeat blood sugar test with a CONTOUR™NEXT ONE or CONTOUR™PLUS ONE strip.&lt;br&gt;Be sure your vial of strips is labeled CONTOUR™NEXT ONE or CONTOUR™PLUS ONE.</english>
+			<german>Entfernen Sie den Sensor. Messung mit CONTOUR™NEXT ONE bzw. CONTOUR™PLUS ONE Sensor wiederholen.&lt;br&gt;Vergewissern Sie sich, dass die Sensorendose mit CONTOUR™NEXT bzw. CONTOUR™PLUS beschriftet ist.</german>
+		</trans-unit>
+		<trans-unit id="metererrorcodesMoistureStripBtn">
+			<english>E6 Moisture Damaged Strip</english>
+			<german>E6 Durch Feuchtigkeit beschädigter Sensor</german>
+		</trans-unit>
+
+
+    <trans-unit id="metererrorDamageStripHdr">
+			<english>E6: Moisture Damaged Strip</english>
+			<german>E6: Durch Feuchtigkeit beschädigter Sensor</german>
+		</trans-unit>
+<trans-unit id="metererrorDamageStripRemoveTxt1">
+			<english>Remove strip. Repeat blood sugar test with a new strip.&lt;br&gt;Make sure to store your strips in the original vial with the lid properly closed immediately after every use. Double check the expiration date on your strip vial and keep strips away from moisture and extreme temperature.</english>
+			<german>Entfernen Sie den Sensor. Wiederholen Sie die Messung mit einem neuen Sensor.&lt;br&gt;Bewahren Sie Ihre Sensoren unbedingt in der Originaldose auf und verschließen Sie sie nach jedem Gebrauch sofort wieder fest mit dem Deckel. Überprüfen Sie das Verfallsdatum auf der Sensorendose und bewahren Sie die Sensoren vor Feuchtigkeit und extremen Temperaturen geschützt auf.</german>
+		</trans-unit>
+
+        <trans-unit id="metererrorcodesTestErrsBtn">
+			<english>E8 Strip or Test Errors</english>
+			<german>E8 Sensor- oder Messfehler</german>
+		</trans-unit>
+
+
+		<trans-unit id="metererrorTestErrorsHdr">
+			<english>E8: Strip or Test Errors</english>
+			<german>E8: Sensor- oder Messfehler</german>
+		</trans-unit>
+        <trans-unit id="metererrorTestErrorsCallTxt">
+			<english>Call Customer Service. See the Help section of the app for contact information.</english>
+		<german>Verständigen Sie den Diabetes Service. Die Kontaktangaben finden Sie im Hilfebereich der App.</german>
+		</trans-unit>
+		<trans-unit id="metererrorcodesTestingErrBtn">
+			<english>E20 Testing Error</english>
+			<german>E20 Messfehler</german>
+		</trans-unit>
+		<trans-unit id="metererrorTestingErrorHdr">
+			<english>E20: Testing Error</english>
+			<german>E20: Messfehler</german>
+		</trans-unit>
+
+		<trans-unit id="metererrorDamageStripRemoveTxt1">
+		<english>Repeat blood sugar test with a new strip.  If running a control test, verify only CONTOUR™NEXT ONE or CONTOUR™PLUS ONE controls are being used. &lt;BR&gt; &lt;BR&gt;Make sure to store your strips in the original vial with the lid properly closed immediately after every use. Double check the expiration date on your strip vial and keep strips away from moisture and extreme temperature. &lt;BR&gt; &lt;BR&gt;Do not bump or shake the meter during the test countdown. If error persists call Customer Service.</english>
+			<german>Wiederholen Sie die Messung mit einem neuen Sensor.  Zur Kontrolle nur CONTOUR™NEXT ONE bzw. CONTOUR™PLUS ONE Kontrolllösungen verwenden. &lt;BR&gt; &lt;BR&gt;Bewahren Sie Ihre Sensoren unbedingt in der Originaldose auf und verschließen Sie sie nach jedem Gebrauch sofort wieder fest mit dem Deckel. Überprüfen Sie das Verfallsdatum auf der Sensorendose und bewahren Sie die Sensoren vor Feuchtigkeit und extremen Temperaturen geschützt auf. &lt;BR&gt; &lt;BR&gt;Schützen Sie das Messgerät während des Mess-Countdowns vor Stößen und schütteln Sie es nicht. Falls der Fehler weiterhin besteht, rufen Sie den Diabetes Service an.</german>
+		</trans-unit>
+
+		<trans-unit id="COMM_metererrorE242">
+			<english>E24 Under 15 degrees Celsius (Control Solution)</english>
+			<german>E24 Unter 15 Grad Celsius (Kontrolllösung)</german>
+		</trans-unit>
+
+
+		<trans-unit id="metererrorUnderDegreeHdr">
+			<english>E24: Under 15 degrees Celsius (Control Solution)</english>
+			<german>E24: Unter 15 Grad Celsius (Kontrolllösung)</german>
+		</trans-unit>
+		<trans-unit id="metererrorOverDegreeTxt">
+			<tool_key>metererrorOverDegreeTxt</tool_key>
+			<note>Onyx Meter Error Code Notifications System Map V5.0/ER 15.0</note>
+			<english>Allow meter, strip and control solution to reach room temperature (between 15C - 35C or 59F - 95F) before retesting.</english>
+			<german>Lassen Sie das Messgerät, den Sensor und die Kontrolllösung auf Raumtemperatur (zwischen 15 °C und 35 °C) kommen, bevor Sie erneut messen.</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+		<trans-unit id="COMM_metererrorE252">
+			<english>E25 Over 35 degrees Celsius (Control Solution)</english>
+			<german>E25 Über 35 Grad Celsius (Kontrolllösung)</german>
+		</trans-unit>
+
+
+
+		<trans-unit id="metererrorOverDegreeHdr">
+			<english>E25: Over 35 degrees Celsius (Control Solution)</english>
+			<german>E25: Über 35 Grad Celsius (Kontrolllösung)</german>
+		</trans-unit>
+		<trans-unit id="metererrorUnderDegreeTxt">
+			<english>Allow meter, strip and control solution to reach room temperature (between 15C - 35C or 59F - 95F) before retesting.</english>
+			<german>Lassen Sie das Messgerät, den Sensor und die Kontrolllösung auf Raumtemperatur (zwischen 15 °C und 35 °C) kommen, bevor Sie erneut messen.</german>
+		</trans-unit>
+		<trans-unit id="COMM_metererrorE272">
+			<english>E27 Too Cold to Test (Under 5 degrees Celsius)</english>
+			<german>E27 Zu kalt für eine Messung (unter 5 Grad Celsius)</german>
+		</trans-unit>
+
+
+		<trans-unit id="metererrorTooColdHdr">
+			<english>E27: Too Cold to Test (Under 5 degrees Celsius)</english>
+			<german>E27: Zu kalt für eine Messung (unter 5 Grad Celsius)</german>
+		</trans-unit>
+		<trans-unit id="metererrorTooHotTxt">
+			<tool_key>metererrorTooColdTxt</tool_key>
+			<note>Onyx Meter Error Code Notifications System Map V5.0/ER 16.0</note>
+			<english>Allow the meter and strips to reach room temperature (between 5C - 45C or 41F - 113F) for 20 minutes before retesting.</english>
+			<german>Lassen Sie das Messgerät und die Sensoren 20 Minuten lang auf Raumtemperatur (zwischen 5 °C und 45 °C) kommen, bevor Sie erneut messen.</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+        <trans-unit id="COMM_metererrorE282">
+			<english>E28 Too Hot to Test (Over 45 degrees Celsius)</english>
+		<german>E28 Zu heiß für eine Messung (über 45 Grad Celsius)</german>
+		</trans-unit>
+
+		<trans-unit id="metererrorTooHotHdr">
+			<english>E28: Too Hot to Test (Over 45 degrees Celsius)</english>
+			<german>E28: Zu heiß für eine Messung (über 45 Grad Celsius)</german>
+		</trans-unit>
+		<trans-unit id="metererrorTooHotTxt">
+			<tool_key>metererrorTooColdTxt</tool_key>
+			<note>Onyx Meter Error Code Notifications System Map V5.0/ER 16.0</note>
+			<english>Allow the meter and strips to reach room temperature (between 5C - 45C or 41F - 113F) for 20 minutes before retesting.</english>
+			<german>Lassen Sie das Messgerät und die Sensoren 20 Minuten lang auf Raumtemperatur (zwischen 5 °C und 45 °C) kommen, bevor Sie erneut messen.</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+
+
+		<trans-unit id="COMM_communicationerrorTxt">
+			<english>E30 Communication Error</english>
+			<german>E30 Kommunikationsfehler</german>
+		</trans-unit>
+
+		<trans-unit id="COMM_communicationerrorTxt">
+			<english>E30: Communication Error</english>
+			<german>E30: Kommunikationsfehler</german>
+		</trans-unit>
+		<trans-unit id="COMM_CustomerServiceTxt">
+			<english>Turn the meter off. Turn the meter back on. If error persists contact Customer Service.</english>
+			<german>Schalten Sie das Messgerät aus. Schalten Sie das Messgerät wieder ein. Wenn der Fehler weiterhin besteht, wenden Sie sich an den Diabetes Service.</german>
+		</trans-unit>
+		<trans-unit id="COMM_communicationerrorTxt">
+			<english>E31 Communication Error</english>
+			<german>E31 Kommunikationsfehler</german>
+		</trans-unit>
+
+		<trans-unit id="COMM_communicationerrorTxt">
+
+			<english>E31: Communication Error</english>
+			<german>E31: Kommunikationsfehler</german>
+
+		</trans-unit>
+		<trans-unit id="COMM_CustomerServiceTxt">
+			<english>Turn the meter off. Turn the meter back on. If error persists contact Customer Service.</english>
+			<german>Schalten Sie das Messgerät aus. Schalten Sie das Messgerät wieder ein. Wenn der Fehler weiterhin besteht, wenden Sie sich an den Diabetes Service.</german>
+		</trans-unit>
+		<trans-unit id="COMM_communicationerrorTxt">
+			<english>E32 Communication Error</english>
+			<german>E32 Kommunikationsfehler</german>
+		</trans-unit>
+
+		<trans-unit id="COMM_communicationerrorTxt">
+			<english>E32: Communication Error</english>
+			<german>E32: Kommunikationsfehler</german>
+		</trans-unit>
+		<trans-unit id="COMM_CustomerServiceTxt">
+			<english>Turn the meter off. Turn the meter back on. If error persists contact Customer Service.</english>
+			<german>Schalten Sie das Messgerät aus. Schalten Sie das Messgerät wieder ein. Wenn der Fehler weiterhin besteht, wenden Sie sich an den Diabetes Service.</german>
+		</trans-unit>
+		<trans-unit id="COMM_communicationerrorTxt">
+			<english>E33 Communication Error</english>
+			<german>E33 Kommunikationsfehler</german>
+		</trans-unit>
+
+		<trans-unit id="COMM_communicationerrorTxt">
+			<english>E33: Communication Error</english>
+			<german>E33: Kommunikationsfehler</german>
+		</trans-unit>
+		<trans-unit id="COMM_CustomerServiceTxt">
+			<english>Turn the meter off. Turn the meter back on. If error persists contact Customer Service.</english>
+			<german>Schalten Sie das Messgerät aus. Schalten Sie das Messgerät wieder ein. Wenn der Fehler weiterhin besteht, wenden Sie sich an den Diabetes Service.</german>
+		</trans-unit>
+		<trans-unit id="COMM_communicationerrorTxt">
+			<english>E34 Communication Error</english>
+			<german>E34 Kommunikationsfehler</german>
+		</trans-unit>
+
+		<trans-unit id="COMM_communicationerrorTxt">
+			<english>E34: Communication Error</english>
+		<german>E34: Kommunikationsfehler</german>
+		</trans-unit>
+		<trans-unit id="COMM_CustomerServiceTxt">
+			<english>Turn the meter off. Turn the meter back on. If error persists contact Customer Service.</english>
+			<german>Schalten Sie das Messgerät aus. Schalten Sie das Messgerät wieder ein. Wenn der Fehler weiterhin besteht, wenden Sie sich an den Diabetes Service.</german>
+		</trans-unit>
+		<trans-unit id="COMM_communicationerrorTxt">
+			<english>E35 Communication Error</english>
+				<german>E35 Kommunikationsfehler</german>
+		</trans-unit>
+
+		<trans-unit id="COMM_communicationerrorTxt">
+				<english>E35: Communication Error</english>
+				<german>E35: Kommunikationsfehler</german>
+		</trans-unit>
+		<trans-unit id="COMM_CustomerServiceTxt">
+			<english>Turn the meter off. Turn the meter back on. If error persists contact Customer Service.</english>
+			<german>Schalten Sie das Messgerät aus. Schalten Sie das Messgerät wieder ein. Wenn der Fehler weiterhin besteht, wenden Sie sich an den Diabetes Service.</german>
+		</trans-unit>
+		<trans-unit id="COMM_communicationerrorTxt">
+				<english>E36 Communication Error</english>
+				<german>E36 Kommunikationsfehler</german>
+		</trans-unit>
+
+		<trans-unit id="COMM_communicationerrorTxt">
+				<english>E36: Communication Error</english>
+				<german>E36: Kommunikationsfehler</german>
+		</trans-unit>
+		<trans-unit id="COMM_CustomerServiceTxt">
+			<english>Turn the meter off. Turn the meter back on. If error persists contact Customer Service.</english>
+			<german>Schalten Sie das Messgerät aus. Schalten Sie das Messgerät wieder ein. Wenn der Fehler weiterhin besteht, wenden Sie sich an den Diabetes Service.</german>
+		</trans-unit>
+		<trans-unit id="COMM_communicationerrorTxt">
+				<english>E37 Communication Error</english>
+				<german>E37 Kommunikationsfehler</german>
+		</trans-unit>
+
+		<trans-unit id="COMM_communicationerrorTxt">
+				<english>E37: Communication Error</english>
+				<german>E37: Kommunikationsfehler</german>
+		</trans-unit>
+		<trans-unit id="COMM_CustomerServiceTxt">
+			<english>Turn the meter off. Turn the meter back on. If error persists contact Customer Service.</english>
+			<german>Schalten Sie das Messgerät aus. Schalten Sie das Messgerät wieder ein. Wenn der Fehler weiterhin besteht, wenden Sie sich an den Diabetes Service.</german>
+		</trans-unit>
+		<trans-unit id="COMM_communicationerrorTxt">
+				<english>E38 Communication Error</english>
+				<german>E38 Kommunikationsfehler</german>
+		</trans-unit>
+
+		<trans-unit id="COMM_communicationerrorTxt">
+				<english>E38: Communication Error</english>
+				<german>E38: Kommunikationsfehler</german>
+		</trans-unit>
+		<trans-unit id="COMM_CustomerServiceTxt">
+			<english>Turn the meter off. Turn the meter back on. If error persists contact Customer Service.</english>
+			<german>Schalten Sie das Messgerät aus. Schalten Sie das Messgerät wieder ein. Wenn der Fehler weiterhin besteht, wenden Sie sich an den Diabetes Service.</german>
+		</trans-unit>
+		<trans-unit id="COMM_communicationerrorTxt">
+				<english>E39 Communication Error</english>
+				<german>E39 Kommunikationsfehler</german>>
+		</trans-unit>
+
+		<trans-unit id="COMM_communicationerrorTxt">
+				<english>E39: Communication Error</english>
+				<german>E39: Kommunikationsfehler</german>
+		</trans-unit>
+		<trans-unit id="COMM_CustomerServiceTxt">
+			<english>Turn the meter off. Turn the meter back on. If error persists contact Customer Service.</english>
+			<german>Schalten Sie das Messgerät aus. Schalten Sie das Messgerät wieder ein. Wenn der Fehler weiterhin besteht, wenden Sie sich an den Diabetes Service.</german>
+		</trans-unit>
+
+		<trans-unit id="COMM_deadbatteriesTxt">
+			<english>E42 Dead Batteries</english>
+			<german>E42 Batterien leer</german>
+		</trans-unit>
+
+		<trans-unit id="metererrorcodesMeterErr42SubHdr">
+			<english>E42: Dead Batteries</english>
+			<german>E42: Batterien leer</german>
+		</trans-unit>
+		<trans-unit id="metererrorcodesMeterErr42Txt1">
+			<english>Replace batteries as soon as possible. Two (2) batteries size CR2032 or DL2032 required.</english>
+		<german>Wechseln Sie die Batterien so bald wie möglich aus. Benötigt werden zwei (2) Batterien der Größe CR2032 oder DL2032.</german>
+		</trans-unit>
+
+		<trans-unit id="COMM_HardError">
+			<english>E62 Hardware Error</english>
+			<german>E62 Hardwarefehler</german>
+		</trans-unit>
+		<trans-unit id="COMM_HardError">
+			<english>E62: Hardware Error</english>
+			<german>E62:  Hardwarefehler</german>
+		</trans-unit>
+		<trans-unit id="COMM_CustomerServiceTxt">
+			<english>Turn the meter off. Turn the meter back on. If error persists contact Customer Service.</english>
+			<german>Schalten Sie das Messgerät aus. Schalten Sie das Messgerät wieder ein. Wenn der Fehler weiterhin besteht, wenden Sie sich an den Diabetes Service.</german>
+		</trans-unit>
+		<trans-unit id="COMM_hardwareerrorTxt">
+			<english>E64 Hardware Error</english>
+			<german>E64 Hardwarefehler</german>
+		</trans-unit>
+
+
+
+
+		<trans-unit id="COMM_HardError">
+			<english>E64: Hardware Error</english>
+			<german>E64: Hardwarefehler</german>
+		</trans-unit>
+		<trans-unit id="COMM_CustomerServiceTxt">
+			<english>Turn the meter off. Turn the meter back on. If error persists contact Customer Service.</english>
+			<german>Schalten Sie das Messgerät aus. Schalten Sie das Messgerät wieder ein. Wenn der Fehler weiterhin besteht, wenden Sie sich an den Diabetes Service.</german>
+		</trans-unit>
+		<trans-unit id="COMM_hardwareerrorTxt">
+			<english>E65 Hardware Error</english>
+			<german>E65 Hardwarefehler</german>
+		</trans-unit>
+		<trans-unit id="COMM_hardwareerrorTxt">
+			<english>E65: Hardware Error</english>
+			<german>E65: Hardwarefehler</german>
+		</trans-unit>
+		<trans-unit id="&lt;br&gt;">
+			<english>Turn the meter off. Turn the meter back on. If error persists contact Customer Service.</english>
+			<german>Schalten Sie das Messgerät aus. Schalten Sie das Messgerät wieder ein. Wenn der Fehler weiterhin besteht, wenden Sie sich an den Diabetes Service.</german>
+		</trans-unit>
+		<trans-unit id="COMM_hardwareerrorTxt">
+			<english>E66 Hardware Error</english>
+			<german>E66 Hardwarefehler</german>
+		</trans-unit>
+
+		<trans-unit id="COMM_HardError">
+			<english>E66: Hardware Error</english>
+			<german>E66: Hardwarefehler</german>
+		</trans-unit>
+		<trans-unit id="COMM_CustomerServiceTxt">
+			<english>Turn the meter off. Turn the meter back on. If error persists contact Customer Service.</english>
+			<german>Schalten Sie das Messgerät aus. Schalten Sie das Messgerät wieder ein. Wenn der Fehler weiterhin besteht, wenden Sie sich an den Diabetes Service.</german>
+		</trans-unit>
+		<trans-unit id="COMM_hardwareerrorTxt">
+			<english>E67 Hardware Error</english>
+			<german>E67 Hardwarefehler</german>
+		</trans-unit>
+
+		<trans-unit id="COMM_HardError">
+			<english>E67: Hardware Error</english>
+			<german>E67: Hardwarefehler</german>
+		</trans-unit>
+		<trans-unit id="COMM_CustomerServiceTxt">
+			<english>Turn the meter off. Turn the meter back on. If error persists contact Customer Service.</english>
+			<german>Schalten Sie das Messgerät aus. Schalten Sie das Messgerät wieder ein. Wenn der Fehler weiterhin besteht, wenden Sie sich an den Diabetes Service.</german>
+		</trans-unit>
+		<trans-unit id="COMM_hardwareerrorTxt">
+			<english>E68 Hardware Error</english>
+			<german>E68 Hardwarefehler</german>
+		</trans-unit>
+
+		<trans-unit id="COMM_HardError">
+			<english>E68: Hardware Error</english>
+			<german>E68: Hardwarefehler</german>
+		</trans-unit>
+		<trans-unit id="COMM_CustomerServiceTxt">
+			<english>Turn the meter off. Turn the meter back on. If error persists contact Customer Service.</english>
+			<german>Schalten Sie das Messgerät aus. Schalten Sie das Messgerät wieder ein. Wenn der Fehler weiterhin besteht, wenden Sie sich an den Diabetes Service.</german>
+		</trans-unit>
+		<trans-unit id="COMM_hardwareerrorTxt">
+			<english>E69 Hardware Error</english>
+			<german>E69 Hardwarefehler</german>
+		</trans-unit>
+
+
+		<trans-unit id="COMM_HardError">
+			<english>E69: Hardware Error</english>
+			<german>E69: Hardwarefehler</german>
+		</trans-unit>
+		<trans-unit id="COMM_CustomerServiceTxt">
+			<english>Turn the meter off. Turn the meter back on. If error persists contact Customer Service.</english>
+			<german>Schalten Sie das Messgerät aus. Schalten Sie das Messgerät wieder ein. Wenn der Fehler weiterhin besteht, wenden Sie sich an den Diabetes Service.</german>
+		</trans-unit>
+
+		<trans-unit id="COMM_hardwareerrorTxt">
+			<english>E71 Hardware Error</english>
+			<german>E71 Hardwarefehler</german>
+		</trans-unit>
+
+
+		<trans-unit id="COMM_HardError">
+			<english>E71: Hardware Error</english>
+			<german>E71: Hardwarefehler</german>
+		</trans-unit>
+		<trans-unit id="COMM_CustomerServiceTxt">
+			<english>Turn the meter off. Turn the meter back on. If error persists contact Customer Service.</english>
+			<german>Schalten Sie das Messgerät aus. Schalten Sie das Messgerät wieder ein. Wenn der Fehler weiterhin besteht, wenden Sie sich an den Diabetes Service.</german>
+		</trans-unit>
+		<trans-unit id="COMM_hardwareerrorTxt">
+			<english>E72 Hardware Error</english>
+			<german>E72 Hardwarefehler</german>
+		</trans-unit>
+
+		<trans-unit id="COMM_HardError">
+			<english>E72: Hardware Error</english>
+			<german>E72: Hardwarefehler</german>
+		</trans-unit>
+
+		<trans-unit id="COMM_CustomerServiceTxt">
+			<english>Turn the meter off. Turn the meter back on. If error persists contact Customer Service.</english>
+			<german>Schalten Sie das Messgerät aus. Schalten Sie das Messgerät wieder ein. Wenn der Fehler weiterhin besteht, wenden Sie sich an den Diabetes Service.</german>
+		</trans-unit>
+		<trans-unit id="COMM_hardwareerrorTxt">
+			<english>E73 Hardware Error</english>
+			<german>E73 Hardwarefehler</german>
+		</trans-unit>
+
+
+		<trans-unit id="COMM_HardError">
+			<english>E73: Hardware Error</english>
+			<german>E73: Hardwarefehler</german>
+		</trans-unit>
+		<trans-unit id="COMM_CustomerServiceTxt">
+			<english>Turn the meter off. Turn the meter back on. If error persists contact Customer Service.</english>
+			<german>Schalten Sie das Messgerät aus. Schalten Sie das Messgerät wieder ein. Wenn der Fehler weiterhin besteht, wenden Sie sich an den Diabetes Service.</german>
+		</trans-unit>
+		<trans-unit id="COMM_hardwareerrorTxt">
+			<english>E76 Hardware Error</english>
+			<german>E76 Hardwarefehler</german>
+		</trans-unit>
+
+		<trans-unit id="COMM_HardError">
+			<english>E76: Hardware Error</english>
+			<german>E76: Hardwarefehler</german>
+		</trans-unit>
+		<trans-unit id="COMM_CustomerServiceTxt">
+			<english>Turn the meter off. Turn the meter back on. If error persists contact Customer Service.</english>
+			<german>Schalten Sie das Messgerät aus. Schalten Sie das Messgerät wieder ein. Wenn der Fehler weiterhin besteht, wenden Sie sich an den Diabetes Service.</german>
+		</trans-unit>
+		<trans-unit id="COMM_hardwareerrorTxt">
+			<english>E78 Hardware Error</english>
+			<german>E78 Hardwarefehler</german>
+		</trans-unit>
+
+
+
+		<trans-unit id="COMM_HardError">
+			<english>E78: Hardware Error</english>
+			<german>E78: Hardwarefehler</german>
+		</trans-unit>
+		<trans-unit id="COMM_CustomerServiceTxt">
+			<english>Turn the meter off. Turn the meter back on. If error persists contact Customer Service.</english>
+			<german>Schalten Sie das Messgerät aus. Schalten Sie das Messgerät wieder ein. Wenn der Fehler weiterhin besteht, wenden Sie sich an den Diabetes Service.</german>
+		</trans-unit>
+
+		<trans-unit id="COMM_endoflifeerrorTxt">
+			<english>E81 End of Service Life</english>
+			<german>E81 Ende der Nutzungsdauer</german>
+		</trans-unit>
+
+		<trans-unit id="COMM_endoflifeerrorTxt">
+			<english>E81: End of Service Life</english>
+			<german>E81: Ende der Nutzungsdauer</german>
+		</trans-unit>
+		<trans-unit id="metererrorcodesMeterErr81Txt1">
+			<english>The meter has performed 65535 glucose measurements and has reached the end of its service life.</english>
+			<german>Das Messgerät hat 65.535 Blutzuckermessungen durchgeführt und damit das Ende seiner Nutzungsdauer erreicht.</german>
+		</trans-unit>
+		<trans-unit id="COMM_SoftError">
+			<english>E82 Software Error</english>
+			<german>E82 Softwarefehler</german>
+		</trans-unit>
+
+
+		<trans-unit id="COMM_SoftError">
+			<english>E82: Software Error</english>
+			<german>E82: Softwarefehler</german>
+		</trans-unit>
+		<trans-unit id="COMM_CustomerServiceTxt">
+			<english>Turn the meter off. Turn the meter back on. If error persists contact Customer Service.</english>
+			<german>Schalten Sie das Messgerät aus. Schalten Sie das Messgerät wieder ein. Wenn der Fehler weiterhin besteht, wenden Sie sich an den Diabetes Service.</german>
+		</trans-unit>
+
+		<trans-unit id="COMM_SoftError">
+			<english>E83 Software Error</english>
+			<german>E83 Softwarefehler</german>
+		</trans-unit>
+
+
+		<trans-unit id="COMM_SoftError">
+			<english>E83: Software Error</english>
+			<german>E83: Softwarefehler</german>
+		</trans-unit>
+		<trans-unit id="COMM_CustomerServiceTxt">
+			<english>Turn the meter off. Turn the meter back on. If error persists contact Customer Service.</english>
+			<german>Schalten Sie das Messgerät aus. Schalten Sie das Messgerät wieder ein. Wenn der Fehler weiterhin besteht, wenden Sie sich an den Diabetes Service.</german>
+		</trans-unit>
+		<trans-unit id="COMM_SoftError">
+			<english>E84 Software Error</english>
+			<german>E84 Softwarefehler</german>
+		</trans-unit>
+
+		<trans-unit id="COMM_SoftError">
+			<english>E84: Software Error</english>
+			<german>E84: Softwarefehler</german>
+		</trans-unit>
+		<trans-unit id="COMM_CustomerServiceTxt">
+			<english>Turn the meter off. Turn the meter back on. If error persists contact Customer Service.</english>
+			<german>Schalten Sie das Messgerät aus. Schalten Sie das Messgerät wieder ein. Wenn der Fehler weiterhin besteht, wenden Sie sich an den Diabetes Service.</german>
+		</trans-unit>
+		<trans-unit id="COMM_SoftError">
+			<english>E85 Software Error</english>
+			<german>E85 Softwarefehler</german>
+		</trans-unit>
+
+		<trans-unit id="COMM_SoftError">
+			<english>E85: Software Error</english>
+			<german>E85: Softwarefehler</german>
+		</trans-unit>
+		<trans-unit id="COMM_CustomerServiceTxt">
+			<english>Turn the meter off. Turn the meter back on. If error persists contact Customer Service.</english>
+			<german>Schalten Sie das Messgerät aus. Schalten Sie das Messgerät wieder ein. Wenn der Fehler weiterhin besteht, wenden Sie sich an den Diabetes Service.</german>
+		</trans-unit>
+		<trans-unit id="COMM_SoftError">
+			<english>E86 Software Error</english>
+			<german>E86 Softwarefehler</german>
+		</trans-unit>
+
+
+		<trans-unit id="COMM_SoftError">
+			<english>E86: Software Error</english>
+			<german>E86: Softwarefehler</german>
+		</trans-unit>
+		<trans-unit id="COMM_CustomerServiceTxt">
+			<english>Turn the meter off. Turn the meter back on. If error persists contact Customer Service.</english>
+			<german>Schalten Sie das Messgerät aus. Schalten Sie das Messgerät wieder ein. Wenn der Fehler weiterhin besteht, wenden Sie sich an den Diabetes Service.</german>
+		</trans-unit>
+		<trans-unit id="COMM_SoftError">
+			<english>E88 Software Error</english>
+			<german>E88 Softwarefehler</german>
+		</trans-unit>
+
+		<trans-unit id="COMM_SoftError">
+			<english>E88: Software Error</english>
+			<german>E88: Softwarefehler</german>
+		</trans-unit>
+		<trans-unit id="COMM_CustomerServiceTxt">
+			<english>Turn the meter off. Turn the meter back on. If error persists contact Customer Service.</english>
+			<german>Schalten Sie das Messgerät aus. Schalten Sie das Messgerät wieder ein. Wenn der Fehler weiterhin besteht, wenden Sie sich an den Diabetes Service.</german>
+		</trans-unit>
+	</TestingErrors>
+	<Headings>
+		<trans-unit id="metererrorcodesTestingErrorsHdr">
+			<english>Testing Errors</english>
+			<german>Messfehler</german>
+		</trans-unit>
+		<trans-unit id="metererrorcodesBloodSugarResultHdr">
+			<english>Blood Sugar Results Errors</english>
+			<german>Fehler der Blutzuckerergebnisse</german>
+		</trans-unit>
+			<trans-unit id="COMM_CommunicationErrorsHdr">
+			<english>Communication Errors</english>
+			<german>Kommunikationsfehler</german>
+		</trans-unit>
+		<trans-unit id="COMM_BatteryErrorsHdr">
+			<english>Battery Errors</english>
+			<german>Batteriefehler</german>
+		</trans-unit>
+		<trans-unit id="COMM_HardwareErrorsHdr">
+			<english>Hardware Errors</english>
+			<german>Hardwarefehler</german>
+		</trans-unit>
+		<trans-unit id="COMM_SoftwareErrorsHdr">
+			<english>Software Errors</english>
+			<german>Softwarefehler</german>
+		</trans-unit>
+	</Headings>
+   </root>

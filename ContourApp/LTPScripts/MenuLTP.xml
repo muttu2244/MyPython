@@ -1,0 +1,258 @@
+﻿<root>
+	<MainMenu>
+    	<trans-unit id="COMM_myreadingsbtn">
+			<english>My Readings</english>
+			<german>Meine Messwerte</german>
+		</trans-unit>
+		<trans-unit id="comm_mypatternstxt">
+			<english>My Patterns</english>
+			<german>Meine Muster</german>
+		</trans-unit>
+		<trans-unit id="COMM_myreminderbtn">
+			<english>My Reminders</english>
+			<german>Meine Erinnerungen</german>
+		</trans-unit>
+		<trans-unit id="comm_mycaretxt">
+			<english>My Care</english>
+			<german>Mein Profil</german>
+		</trans-unit>
+		<trans-unit id="COMM_settingbtn">
+			<english>Settings</english>
+			<german>Einstellungen</german>
+		</trans-unit>
+		<trans-unit id="COMM_helpbtn">
+			<english>Help</english>
+			<german>Hilfe</german>
+		</trans-unit>
+	</MainMenu>
+
+	<MyReadings>
+		<trans-unit id="COMM_myreadingsbtn">
+			<english>My Readings</english>
+			<german>Meine Messwerte</german>
+		</trans-unit>
+		<trans-unit id="COMM_myweekbtn">
+			<english>My Week</english>
+			<german>Meine Woche</german>
+		</trans-unit>
+		<trans-unit id="COMM_Past7Days">
+			<english>(Past 7 days)</english>
+			<german>(Letzten 7 Tage)</german>
+		</trans-unit>
+		<trans-unit id="COMM_myaverages">
+			<english>My Averages</english>
+			<german>Meine Durchschnittswerte</german>
+		</trans-unit>
+	</MyReadings>
+
+	<MyPatterns>
+		<trans-unit id="comm_mypatternstxt">
+			<english>My Patterns</english>
+			<german>Meine Muster</german>
+		</trans-unit>
+	<trans-unit id="COMM_Active">
+			<english>You are working on:</english>
+			<german>Meine Muster:</german>
+		</trans-unit>
+	<trans-unit id="patternmanagerAdditional">
+			<english>Other detected patterns</english>
+			<german>Sonstige erkannte Muster</german>
+		</trans-unit>
+	<trans-unit id="patternmanagerArchive">
+			<english>Pattern history</english>
+			<german>Musterhistorie</german>
+		</trans-unit>
+	</MyPatterns>
+
+	<AboutPatterns>
+		<trans-unit id="comm_abutpattrntxt">
+			<english>About My Patterns</english>
+			<german>Infos zu „Meine Muster“</german>
+		</trans-unit>
+		<trans-unit id="patternWhatArePatternsSubTxt">
+			<english>View helpful notifications of trends in your blood sugar.</english>
+			<german>Hilfreiche Informationen zu Trends bezüglich Ihres Blutzuckerverlaufs.</german>
+		</trans-unit>
+		<trans-unit id="COMM_CauseTxt">
+			<english>Learn about possible causes of your patterns.</english>
+			<german>Erfahren Sie mehr über mögliche Ursachen für Ihre Muster.</german>
+		</trans-unit>
+		<trans-unit id="patternWhatArePatternsSubTxt2">
+			<english>Use reminders or Test Reminder Plans to help improve the pattern.</english>
+			<german>Nutzen Sie Erinnerungen oder Messpläne zur Verbesserung des Musters.</german>
+		</trans-unit>
+		<trans-unit id="patternWhatArePatternsSubTxt3">
+			<english>Track your progress and see how you improve the pattern over time.</english>
+			<german>Beobachten Sie Ihre Fortschritte und sehen Sie wie sich mit der Zeit das Muster
+				verbessert.</german>
+		</trans-unit>
+		<trans-unit id="COMM_continuebtn">
+			<english>Continue</english>
+			<german>Weiter</german>
+		</trans-unit>
+	</AboutPatterns>
+
+	<MyCare>
+		<trans-unit id="comm_mycaretxt">
+			<english>My Care</english>
+			<german>Mein Profil</german>
+		</trans-unit>
+		<trans-unit id="comm_mytherapytxt">
+			<english>My Therapy</english>
+			<german>Therapie</german>
+		</trans-unit>
+		<trans-unit id="COMM_targetbtn">
+			<english>Target Ranges</english>
+			<german>Zielbereiche</german>
+		</trans-unit>
+		<trans-unit id="COMM_daydividerbtn">
+			<english>Day Dividers</english>
+			<german>Tagesaufteilung</german>
+		</trans-unit>
+		<trans-unit id="COMM_hbacbtn">
+			<english>HbA1c History</english>
+			<german>HbA1c-Historie</german>
+		</trans-unit>
+		<trans-unit id="comm_myteamtxt">
+			<english>My Team</english>
+			<german>Mein Team</german>
+		</trans-unit>
+		<trans-unit id="COMM_healthbtn">
+			<english>Healthcare Team</english>
+			<german>Medizinisches Fachpersonal</german>
+		</trans-unit>
+		<trans-unit id="COMM_appbtn">
+			<english>Appointments</english>
+			<german>Termine</german>
+		</trans-unit>
+		<trans-unit id="COMM_reportsbtn">
+			<english>Reports</english>
+			<german>Berichte</german>
+		</trans-unit>
+		<trans-unit id="COMM_emergencybtn">
+			<english>Emergency Contacts</english>
+			<german>Notfallkontakte</german>
+		</trans-unit>
+	</MyCare>
+
+	<MySettings>
+		<trans-unit id="COMM_settingbtn">
+			<english>Settings</english>
+			<german>Einstellungen</german>
+		</trans-unit>
+		<trans-unit id="COMM_mymetersbtn">
+			<english>My Meters</english>
+			<german>Meine Messgeräte</german>
+		</trans-unit>
+		<trans-unit id="COMM_myaccountbtn">
+			<english>My Account</english>
+			<german>Mein Konto</german>
+		</trans-unit>
+		<trans-unit id="COMM_appprefbtn">
+			<english>App Preferences</english>
+			<german>App-Voreinstellungen</german>
+		</trans-unit>
+		<trans-unit id="COMM_Countrylanguage">
+			<english>Country and Language</english>
+			<german>Land und Sprache</german>
+		</trans-unit>
+	</MySettings>
+
+	<Help>
+		<trans-unit id="COMM_helpbtn">
+			<english>Help</english>
+			<german>Hilfe</german>
+		</trans-unit>
+		<trans-unit id="COMM_faqbtn">
+			<english>FAQ</english>
+			<german>Häufig gestellte Fragen</german>
+		</trans-unit>
+		<trans-unit id="COMM_apphelpbtn">
+			<english>App Help</english>
+			<german>Hilfe zur App</german>
+		</trans-unit>
+		<trans-unit id="COMM_meterhelpbtn">
+			<english>Meter Help</english>
+			<german>Hilfe zum Messgerät</german>
+		</trans-unit>
+		<trans-unit id="helpinstructionvideotxt">
+			<english>Instructional Videos</english>
+			<german>Anleitungsvideos</german>
+		</trans-unit>
+		<trans-unit id="COMM_aboutbtn">
+			<english>About</english>
+			<german>Info</german>
+		</trans-unit>
+	</Help>
+
+	<Help1>
+		<trans-unit id="helpSearchHelpTxt2">
+			<english>For Customer Service please visit &lt;u onclick='openLink();'&gt;http://contact.ascensia.com&lt;/u&gt;</english>
+			<german>Den Diabetes Service finden Sie auf &lt;u onclick='openLink();'&gt;http://contact.ascensia.com&lt;/u&gt;</german>
+		</trans-unit>
+	</Help1>
+
+	<MyReminders1>
+		<trans-unit id="COMM_myreminderbtn">
+			<english>My Reminders</english>
+			<german>Meine Erinnerungen</german>
+		</trans-unit>
+		<trans-unit id="smartremindertaptocreateorchoose">
+			<english>Tap + to create a reminder or choose a Test Reminder Plan</english>
+			<german>Tippen Sie auf „+“, um eine Erinnerung einzurichten oder wählen Sie einen Messplan</german>
+		</trans-unit>
+	</MyReminders1>
+
+	<MyReminders2>
+		<trans-unit id="COMM_myreminderbtn">
+			<english>My Reminders</english>
+			<german>Meine Erinnerungen</german>
+		</trans-unit>
+		<trans-unit id="COMM_remindersbtn">
+			<english>Reminders</english>
+			<german>Erinnerungen</german>
+		</trans-unit>
+		<trans-unit id="COMM_smarttestingplanshdr">
+			<english>Test Reminder Plans</english>
+			<german>Messpläne</german>
+		</trans-unit>
+		<trans-unit id="smartReminderPlanCreateTxt">
+			<english>Tap + to select a Test Reminder Plan</english>
+			<german>Tippen Sie auf „+“, um einen Messplan auszuwählen</german>
+		</trans-unit>
+	</MyReminders2>
+
+	<MyReminders3>
+		<trans-unit id="COMM_myreminderbtn">
+			<english>My Reminders</english>
+			<german>Meine Erinnerungen</german>
+		</trans-unit>
+		<trans-unit id="COMM_remindersbtn">
+			<english>Reminders</english>
+			<german>Erinnerungen</german>
+		</trans-unit>
+		<trans-unit id="smartReminderCreateTxt">
+			<english>Tap + to create a custom Reminder</english>
+			<german>Tippen Sie auf „+“, um eine individuelle Erinnerung einzurichten</german>
+		</trans-unit>
+		<trans-unit id="COMM_smarttestingplanshdr">
+			<english>Test Reminder Plans</english>
+			<german>Messpläne</german>
+		</trans-unit>
+	</MyReminders3>
+
+	<MyReminders4>
+		<trans-unit id="COMM_myreminderbtn">
+			<english>My Reminders</english>
+			<german>Meine Erinnerungen</german>
+		</trans-unit>
+		<trans-unit id="COMM_remindersbtn">
+			<english>Reminders</english>
+			<german>Erinnerungen</german>
+		</trans-unit>
+		<trans-unit id="COMM_smarttestingplanshdr">
+			<english>Test Reminder Plans</english>
+			<german>Messpläne</german>
+		</trans-unit>
+	</MyReminders4>
+</root>

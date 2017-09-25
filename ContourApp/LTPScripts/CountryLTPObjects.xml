@@ -1,0 +1,240 @@
+﻿<root>
+    <MenutoSettings>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='ic_menu']</xpath>
+            <index>0</index>
+            <comment>Menu</comment>
+        </Aobject>
+        <!--Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@id='left_drawer']/*/*[@id='lblListHeaderSlideView'])[5]</xpath>
+            <index>0</index>
+            <comment>Settings</comment>
+        </Aobject-->
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@accessibilityLabel='Menu icn 1x']</xpath>
+            <index>0</index>
+            <comment>Menu</comment>
+        </Iobject>
+        <!--Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='YGLinedView']</xpath>
+            <index>4</index>
+            <comment>Settings</comment>
+        </Iobject-->
+    </MenutoSettings>
+
+    <ClickSettings>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@id='left_drawer']/*/*[@id='lblListHeaderSlideView'])[5]</xpath>
+            <index>0</index>
+            <comment>Settings</comment>
+        </Aobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='YGLinedView']</xpath>
+            <index>4</index>
+            <comment>Settings</comment>
+        </Iobject>
+    </ClickSettings>
+
+    <ClickCountryLang>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[4]</xpath>
+            <index>0</index>
+            <comment>Country and Language</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[4]</xpath>
+            <index>0</index>
+            <comment>Country and Language</comment>
+        </Iobject>
+    </ClickCountryLang>
+
+    <CountryMainScreen>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='languaregionHdr']</xpath>
+            <index>0</index>
+            <comment>Country and Language</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[8]</xpath>
+            <index>0</index>
+            <comment>Country or Region</comment>
+         </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[10]</xpath>
+            <index>0</index>
+            <comment>Language</comment>
+         </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='languaregionHdr']</xpath>
+            <index>0</index>
+            <comment>Country and Language</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[8]</xpath>
+            <index>0</index>
+            <comment>Country or Region</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[10]</xpath>
+            <index>0</index>
+            <comment>Language</comment>
+        </Iobject>
+    </CountryMainScreen>
+
+    <ClickCountry>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0 and ./preceding-sibling::*[@nodeName='IMG']]</xpath>
+            <index>0</index>
+            <comment>Country or Region</comment>
+         </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0 and ./preceding-sibling::*[@nodeName='IMG']]</xpath>
+            <index>0</index>
+            <comment>Country or Region</comment>
+         </Iobject>
+    </ClickCountry>
+
+    <CountryRegionScreen>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./preceding-sibling::*[@id='confimRegionBack'] and ./parent::*[@text and @nodeName='DIV']]</xpath>
+            <index>0</index>
+            <comment>Country or Region</comment>
+         </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./preceding-sibling::*[@id='confimRegionBack'] and ./parent::*[@text and @nodeName='DIV']]</xpath>
+            <index>0</index>
+            <comment>Country or Region</comment>
+         </Iobject>
+    </CountryRegionScreen>
+
+    <ClickRegBackBtn>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='confimRegionBack']</xpath>
+            <index>0</index>
+            <comment>Back</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='confimRegionBack']</xpath>
+            <index>0</index>
+            <comment>Back</comment>
+        </Iobject>
+    </ClickRegBackBtn>
+
+    <ClickLangBackBtn>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='DIV' and @width>0])[5]</xpath>
+            <index>0</index>
+            <comment>Back</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='DIV' and @width>0])[5]</xpath>
+            <index>0</index>
+            <comment>Back</comment>
+        </Iobject>
+    </ClickLangBackBtn>
+
+    <ClickLang>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[2]</xpath>
+            <index>0</index>
+            <comment>Language</comment>
+         </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[2]</xpath>
+            <index>0</index>
+            <comment>Language</comment>
+         </Iobject>
+    </ClickLang>
+
+    <LangScreen>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./preceding-sibling::*[@nodeName='DIV']] and ./preceding-sibling::*[@nodeName='DIV']]</xpath>
+            <index>0</index>
+            <comment>Language</comment>
+         </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./preceding-sibling::*[@nodeName='DIV']] and ./preceding-sibling::*[@nodeName='DIV']]</xpath>
+            <index>0</index>
+            <comment>Language</comment>
+         </Iobject>
+    </LangScreen>
+
+    <ClickBackBtn>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='confimLangBack']</xpath>
+            <index>0</index>
+            <comment>Back</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='confimLangBack']</xpath>
+            <index>0</index>
+            <comment>Back</comment>
+        </Iobject>
+    </ClickBackBtn>
+
+    <GotoHome>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[4]</xpath>
+            <index>0</index>
+            <comment>Menu</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@id='left_drawer']/*/*[@id='lblListHeaderSlideView'])[1]</xpath>
+            <index>0</index>
+            <comment>My Readings</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[4]</xpath>
+            <index>0</index>
+            <comment>Menu</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='YGLinedView']</xpath>
+            <index>0</index>
+            <comment>My Readings</comment>
+        </Iobject>
+    </GotoHome>
+    </root>

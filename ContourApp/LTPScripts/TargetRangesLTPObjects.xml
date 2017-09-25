@@ -1,0 +1,865 @@
+﻿<root>
+    <ClickMenu>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='ic_menu']</xpath>
+            <index>0</index>
+            <comment>Menu</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@accessibilityLabel='Menu icn 1x']</xpath>
+            <index>0</index>
+            <comment>Menu</comment>
+        </Iobject>
+    </ClickMenu>
+
+    <MyCare>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@id='left_drawer']/*/*[@id='lblListHeaderSlideView'])[4]</xpath>
+            <index>0</index>
+            <comment>My Care</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='YGLinedView']</xpath>
+            <index>3</index>
+            <comment>My Care</comment>
+        </Iobject>
+    </MyCare>
+
+    <TargetRange>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV' and ./parent::*[@id='menu_appt']]])[1]</xpath>
+            <index>0</index>
+            <comment>Target Ranges</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV' and ./parent::*[@id='menu_appt']]])[1]</xpath>
+            <index>0</index>
+            <comment>Target Ranges</comment>
+        </Iobject>
+    </TargetRange>
+
+    <TargetMainScreen>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='tr_header_text']</xpath>
+            <index>0</index>
+            <comment>Target Ranges - Header</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV']])[8]</xpath>
+            <index>0</index>
+            <comment>Critical High</comment>
+         </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV']])[14]</xpath>
+            <index>0</index>
+            <comment>After Meal or Overall High</comment>
+         </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV']])[20]</xpath>
+            <index>0</index>
+            <comment>Before Meal or Fasting High</comment>
+         </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV']])[26]</xpath>
+            <index>0</index>
+            <comment>Low</comment>
+         </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV']])[32]</xpath>
+            <index>0</index>
+            <comment>Critical Low</comment>
+         </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV']])[38]</xpath>
+            <index>0</index>
+            <comment>Summary View</comment>
+         </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='tr_header_text']</xpath>
+            <index>0</index>
+            <comment>Target Ranges - Header</comment>
+         </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV']])[8]</xpath>
+            <index>0</index>
+            <comment>Critical High</comment>
+         </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV']])[14]</xpath>
+            <index>0</index>
+            <comment>After Meal or Overall High</comment>
+         </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV']])[20]</xpath>
+            <index>0</index>
+            <comment>Before Meal or Fasting High</comment>
+         </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV']])[26]</xpath>
+            <index>0</index>
+            <comment>Low</comment>
+         </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV']])[32]</xpath>
+            <index>0</index>
+            <comment>Critical Low</comment>
+         </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV']])[38]</xpath>
+            <index>0</index>
+            <comment>Summary View</comment>
+         </Iobject>
+    </TargetMainScreen>
+
+    <ClickInfo>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='tr_header_info_right']</xpath>
+            <index>0</index>
+            <comment>Target Ranges - Info</comment>
+         </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='tr_header_info_right']</xpath>
+            <index>0</index>
+            <comment>Target Ranges - Info</comment>
+         </Iobject>
+    </ClickInfo>
+
+    <TargetRangeSpan>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./following-sibling::*[@nodeName='IMG'] and ./parent::*[@text and @nodeName='DIV' and ./parent::*[@id='targetranges-popup']]]</xpath>
+            <index>0</index>
+            <comment>Target Ranges - popup</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='targetranges-popup-content1']</xpath>
+            <index>0</index>
+            <comment>Target Ranges - popup content</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./following-sibling::*[@nodeName='IMG'] and ./parent::*[@text and @nodeName='DIV' and ./parent::*[@id='targetranges-popup']]]</xpath>
+            <index>0</index>
+            <comment>Target Ranges - popup</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='targetranges-popup-content1']</xpath>
+            <index>0</index>
+            <comment>Target Ranges - popup content</comment>
+        </Iobject>
+    </TargetRangeSpan>
+
+    <TargetRangeSpan1>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[45]</xpath>
+            <index>0</index>
+            <comment>Target Ranges - popup content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='targetranges-popup-content2']</xpath>
+            <index>0</index>
+            <comment>Target Ranges - popup content</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[45]</xpath>
+            <index>0</index>
+            <comment>Target Ranges - popup content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='targetranges-popup-content2']</xpath>
+            <index>0</index>
+            <comment>Target Ranges - popup content</comment>
+        </Iobject>
+    </TargetRangeSpan1>
+
+    <TargetRangeSpan2>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[47]</xpath>
+            <index>0</index>
+            <comment>Target Ranges - popup content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='targetranges-popup-content3']</xpath>
+            <index>0</index>
+            <comment>Target Ranges - popup content</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[47]</xpath>
+            <index>0</index>
+            <comment>Target Ranges - popup content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='targetranges-popup-content3']</xpath>
+            <index>0</index>
+            <comment>Target Ranges - popup content</comment>
+        </Iobject>
+    </TargetRangeSpan2>
+
+    <TargetRangeSpan3>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='SPAN' and @width>0])[6]</xpath>
+            <index>0</index>
+            <comment>Target Ranges - popup content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='SPAN' and @width>0])[7]</xpath>
+            <index>0</index>
+            <comment>Target Ranges - popup content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='SPAN' and @width>0])[8]</xpath>
+            <index>0</index>
+            <comment>Target Ranges - popup content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='SPAN' and @width>0])[9]</xpath>
+            <index>0</index>
+            <comment>Target Ranges - popup content</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='SPAN' and @width>0])[6]</xpath>
+            <index>0</index>
+            <comment>Target Ranges - popup content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='SPAN' and @width>0])[7]</xpath>
+            <index>0</index>
+            <comment>Target Ranges - popup content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='SPAN' and @width>0])[8]</xpath>
+            <index>0</index>
+            <comment>Target Ranges - popup content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='SPAN' and @width>0])[9]</xpath>
+            <index>0</index>
+            <comment>Target Ranges - popup content</comment>
+        </Iobject>
+    </TargetRangeSpan3>
+
+    <ClickCloseBtn>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='IMG' and @width>0 and ./preceding-sibling::*[@width>0] and ./parent::*[@text and @width>0 and ./parent::*[@id='targetranges-popup']]]</xpath>
+            <index>0</index>
+            <comment>Target Ranges - popup Close</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='IMG' and @width>0 and ./preceding-sibling::*[@width>0] and ./parent::*[@text and @width>0 and ./parent::*[@id='targetranges-popup']]]</xpath>
+            <index>0</index>
+            <comment>Target Ranges - popup Close</comment>
+        </Iobject>
+    </ClickCloseBtn>
+
+    <ClickCriticalHigh>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV']])[8]</xpath>
+            <index>0</index>
+            <comment>Critical High</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV']])[8]</xpath>
+            <index>0</index>
+            <comment>Critical High</comment>
+        </Iobject>
+    </ClickCriticalHigh>
+
+    <CriticalHigh>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='tr_header_text']</xpath>
+            <index>0</index>
+            <comment>Critical High - Header</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='tr_header_text']</xpath>
+            <index>0</index>
+            <comment>Critical High - Header</comment>
+        </Iobject>
+    </CriticalHigh>
+
+    <CriticalHighInfo>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./following-sibling::*[@nodeName='IMG'] and ./parent::*[@text and @nodeName='DIV']]</xpath>
+            <index>0</index>
+            <comment>Critical High - popup Header</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='tgtRangeKnobTxt']</xpath>
+            <index>0</index>
+            <comment>Critical High - popup content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='SPAN' and @width>0 and ./preceding-sibling::*[@nodeName='IMG']])[2]</xpath>
+            <index>0</index>
+            <comment>Critical High - popup content</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./following-sibling::*[@nodeName='IMG'] and ./parent::*[@text and @nodeName='DIV']]</xpath>
+            <index>0</index>
+            <comment>Critical High - popup Header</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='tgtRangeKnobTxt']</xpath>
+            <index>0</index>
+            <comment>Critical High - popup content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='SPAN' and @width>0 and ./preceding-sibling::*[@nodeName='IMG']])[2]</xpath>
+            <index>0</index>
+            <comment>Critical High - popup content</comment>
+        </Iobject>
+    </CriticalHighInfo>
+    
+    <CriticalHighInfoClose>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='IMG' and @width>0 and ./preceding-sibling::*[@text and @width>0] and ./parent::*[@text and @width>0]]</xpath>
+            <index>0</index>
+            <comment>Critical High - popup Close</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='IMG' and @width>0 and ./preceding-sibling::*[@text] and ./parent::*[@text and @width>0]]</xpath>
+            <index>0</index>
+            <comment>Critical High - popup Close</comment>
+        </Iobject>
+    </CriticalHighInfoClose>
+    
+    <SetCriticalHigh>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='criticalhighvalue']</xpath>
+            <index>0</index>
+            <comment>Critical High value</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='criticalhighvalue']</xpath>
+            <index>0</index>
+            <comment>Critical High value</comment>
+        </Iobject>
+    </SetCriticalHigh>
+
+    <SliderOK>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='sliderOkay']</xpath>
+            <index>0</index>
+            <comment>Critical High Slider</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='sliderOkay']</xpath>
+            <index>0</index>
+            <comment>Critical High Slider</comment>
+        </Iobject>
+    </SliderOK>
+
+    <SliderClose>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='sliderClose']</xpath>
+            <index>0</index>
+            <comment>Critical High - Slider Close</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='sliderClose']</xpath>
+            <index>0</index>
+            <comment>Critical High - Slider Close</comment>
+        </Iobject>
+    </SliderClose>
+
+    <ClickBackBtn>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='setting_tr_backbutton']</xpath>
+            <index>0</index>
+            <comment>Back</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='setting_tr_backbutton']</xpath>
+            <index>0</index>
+            <comment>Back</comment>
+        </Iobject>
+    </ClickBackBtn>
+
+    <ClickOverallHigh>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV']])[14]</xpath>
+            <index>0</index>
+            <comment>After Meal or Overall High</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV']])[14]</xpath>
+            <index>0</index>
+            <comment>After Meal or Overall High</comment>
+        </Iobject>
+    </ClickOverallHigh>
+
+    <OverallHigh>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='tr_header_text']</xpath>
+            <index>0</index>
+            <comment>After Meal or Overall High - Header</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='tr_header_text']</xpath>
+            <index>0</index>
+            <comment>After Meal or Overall High - Header</comment>
+        </Iobject>
+    </OverallHigh>
+
+    <HighValue>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='afthighvalue']</xpath>
+            <index>0</index>
+            <comment>After Meal or Overall High - Value</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='afthighvalue']</xpath>
+            <index>0</index>
+            <comment>After Meal or Overall High - Value</comment>
+        </Iobject>
+    </HighValue>
+
+    <AfterMealPopup>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='range_error_popup']</xpath>
+            <index>0</index>
+            <comment>After Meal and Critical High must be at least 10 mg/dL apart</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='range_error_popup']</xpath>
+            <index>0</index>
+            <comment>After Meal and Critical High must be at least 10 mg/dL apart</comment>
+        </Iobject>
+    </AfterMealPopup>
+
+    <ClickBeforeMeal>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV']])[20]</xpath>
+            <index>0</index>
+            <comment>Before Meal or Fasting High</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV']])[20]</xpath>
+            <index>0</index>
+            <comment>Before Meal or Fasting High</comment>
+        </Iobject>
+    </ClickBeforeMeal>
+
+    <ClickCriticalLow>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV']])[32]</xpath>
+            <index>0</index>
+            <comment>Critical Low</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV']])[32]</xpath>
+            <index>0</index>
+            <comment>Critical Low</comment>
+        </Iobject>
+    </ClickCriticalLow>
+
+    <SetCriticalLow>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='criticallowvalue']</xpath>
+            <index>0</index>
+            <comment>Critical Low value</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='criticallowvalue']</xpath>
+            <index>0</index>
+            <comment>Critical Low value</comment>
+        </Iobject>
+    </SetCriticalLow>
+
+    <BeforeMealPopup>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='range_error_popup']</xpath>
+            <index>0</index>
+            <comment>Your Before meal and After meal settings are same</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='range_error_popup']</xpath>
+            <index>0</index>
+            <comment>Your Before meal and After meal settings are same</comment>
+        </Iobject>
+    </BeforeMealPopup>
+
+    <BeforeHighValue>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='bfhighvalue']</xpath>
+            <index>0</index>
+            <comment>Before Meal value</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='bfhighvalue']</xpath>
+            <index>0</index>
+            <comment>Before Meal value</comment>
+        </Iobject>
+    </BeforeHighValue>
+
+    <BeforeMealHigh>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='tr_header_text']</xpath>
+            <index>0</index>
+            <comment>Before Meal or Fasting High - Header</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='tr_header_text']</xpath>
+            <index>0</index>
+            <comment>Before Meal or Fasting High - Header</comment>
+        </Iobject>
+    </BeforeMealHigh>
+
+    <ClickLow>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV']])[26]</xpath>
+            <index>0</index>
+            <comment>Low</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV']])[26]</xpath>
+            <index>0</index>
+            <comment>Low</comment>
+        </Iobject>
+    </ClickLow>
+
+    <Low>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='tr_header_text']</xpath>
+            <index>0</index>
+            <comment>Low - Header</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='tr_header_text']</xpath>
+            <index>0</index>
+            <comment>Low - Header</comment>
+        </Iobject>
+    </Low>
+
+    <LowValue>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='bflowvalue']</xpath>
+            <index>0</index>
+            <comment>Low - Value</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='bflowvalue']</xpath>
+            <index>0</index>
+            <comment>Low - Value</comment>
+        </Iobject>
+    </LowValue>
+
+    <LowPopup>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='range_error_popup']</xpath>
+            <index>0</index>
+            <comment>Your Low and Critical Low must be at least 10 mg/dL apart</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='range_error_popup']</xpath>
+            <index>0</index>
+            <comment>Your Low and Critical Low must be at least 10 mg/dL apart</comment>
+        </Iobject>
+    </LowPopup>
+
+    <CriticalLow>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='tr_header_text']</xpath>
+            <index>0</index>
+            <comment>Critical Low - Header</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='tr_header_text']</xpath>
+            <index>0</index>
+            <comment>Critical Low - Header</comment>
+        </Iobject>
+    </CriticalLow>
+
+    <ClickSummaryView>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV']])[38]</xpath>
+            <index>0</index>
+            <comment>Summary View</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV']])[38]</xpath>
+            <index>0</index>
+            <comment>Summary View</comment>
+        </Iobject>
+    </ClickSummaryView>
+
+    <SummaryView>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='tr_header_text']</xpath>
+            <index>0</index>
+            <comment>Summary View - Header</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='tr_header_text']</xpath>
+            <index>0</index>
+            <comment>Summary View - Header</comment>
+        </Iobject>
+    </SummaryView>
+
+    <SummarySpan>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./following-sibling::*[@nodeName='IMG'] and ./parent::*[@text and @nodeName='DIV' and ./parent::*[@id='targetranges-popup']]]</xpath>
+            <index>0</index>
+            <comment>Summary view - popup header</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='targetranges-popup-content1']</xpath>
+            <index>0</index>
+            <comment>Summary view - popup content</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./following-sibling::*[@nodeName='IMG'] and ./parent::*[@text and @nodeName='DIV' and ./parent::*[@id='targetranges-popup']]]</xpath>
+            <index>0</index>
+            <comment>Summary view - popup header</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='targetranges-popup-content1']</xpath>
+            <index>0</index>
+            <comment>Summary view - popup content</comment>
+        </Iobject>
+    </SummarySpan>
+
+    <SummarySpan1>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[49]</xpath>
+            <index>0</index>
+            <comment>Summary view - popup content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='targetranges-popup-content2']</xpath>
+            <index>0</index>
+            <comment>Summary view - popup content</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[49]</xpath>
+            <index>0</index>
+            <comment>Summary view - popup content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='targetranges-popup-content2']</xpath>
+            <index>0</index>
+            <comment>Summary view - popup content</comment>
+        </Iobject>
+    </SummarySpan1>
+
+    <SummarySpan2>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[51]</xpath>
+            <index>0</index>
+            <comment>Summary view - popup content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='targetranges-popup-content3']</xpath>
+            <index>0</index>
+            <comment>Summary view - popup content</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[51]</xpath>
+            <index>0</index>
+            <comment>Summary view - popup content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='targetranges-popup-content3']</xpath>
+            <index>0</index>
+            <comment>Summary view - popup content</comment>
+        </Iobject>
+    </SummarySpan2>
+
+    <SummarySpan3>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Summary view - popup content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='SPAN' and @width>0])[2]</xpath>
+            <index>0</index>
+            <comment>Summary view - popup content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='SPAN' and @width>0])[3]</xpath>
+            <index>0</index>
+            <comment>Summary view - popup content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='SPAN' and @width>0])[4]</xpath>
+            <index>0</index>
+            <comment>Summary view - popup content</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Summary view - popup content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='SPAN' and @width>0])[2]</xpath>
+            <index>0</index>
+            <comment>Summary view - popup content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='SPAN' and @width>0])[3]</xpath>
+            <index>0</index>
+            <comment>Summary view - popup content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='SPAN' and @width>0])[4]</xpath>
+            <index>0</index>
+            <comment>Summary view - popup content</comment>
+        </Iobject>
+    </SummarySpan3>
+    </root>

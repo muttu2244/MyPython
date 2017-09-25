@@ -1,0 +1,30 @@
+﻿<root>
+    <CountryMainScreen>
+        <trans-unit id="COMM_Countrylanguage">
+			<english>Country and Language</english>
+			<german>Land und Sprache</german>
+		</trans-unit>
+        <trans-unit id="COMM_CountryRegion">
+			<english>Country or Region</english>
+			<german>Land oder Region</german>
+		</trans-unit>
+        <trans-unit id="COMM_language">
+			<english>Language</english>
+			<german>Sprache</german>
+		</trans-unit>
+    </CountryMainScreen>
+
+	<CountryRegionScreen>
+		<trans-unit id="COMM_CountryRegion">
+			<english>Country or Region</english>
+			<german>Land oder Region</german>
+		</trans-unit>
+	</CountryRegionScreen>
+
+    <LangScreen>
+		<trans-unit id="COMM_language">
+			<english>Language</english>
+			<german>Sprache</german>
+		</trans-unit>
+	</LangScreen>
+</root>

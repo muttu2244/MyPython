@@ -1,0 +1,851 @@
+﻿<root>
+    <ClickMenu>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='ic_menu']</xpath>
+            <index>0</index>
+            <comment>Menu</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@accessibilityLabel='Menu icn 1x']</xpath>
+            <index>0</index>
+            <comment>Menu</comment>
+        </Iobject>
+    </ClickMenu>
+
+    <GotoMyCare>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@id='left_drawer']/*/*[@id='lblListHeaderSlideView'])[4]</xpath>
+            <index>0</index>
+            <comment>My Care</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='YGLinedView']</xpath>
+            <index>3</index>
+            <comment>My Care</comment>
+        </Iobject>
+    </GotoMyCare>
+
+    <DayDiv>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='LI']]])[2]</xpath>
+            <index>0</index>
+            <comment>Day Dividers</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='LI']]])[2]</xpath>
+            <index>0</index>
+            <comment>Day Dividers</comment>
+        </Iobject>
+    </DayDiv>
+
+    <DayDividerScreen>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='dayDividerHeadertext']</xpath>
+            <index>0</index>
+            <comment>Day Dividers</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[7]</xpath>
+            <index>0</index>
+            <comment>Breakfast</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[13]</xpath>
+            <index>0</index>
+            <comment>Lunch</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[19]</xpath>
+            <index>0</index>
+            <comment>Dinner</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[25]</xpath>
+            <index>0</index>
+            <comment>Overnight</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='daydivider_table_content']/*[@text and @nodeName='DIV' and @width>0])[2]</xpath>
+            <index>0</index>
+            <comment>Note: Changing day dividers may affect your patterns and pattern
+                detection</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='dayDividerHeadertext']</xpath>
+            <index>0</index>
+            <comment>Day Dividers</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[7]</xpath>
+            <index>0</index>
+            <comment>Breakfast</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[13]</xpath>
+            <index>0</index>
+            <comment>Lunch</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[19]</xpath>
+            <index>0</index>
+            <comment>Dinner</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[25]</xpath>
+            <index>0</index>
+            <comment>Overnight</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='daydivider_table_content']/*[@text and @nodeName='DIV' and @width>0])[2]</xpath>
+            <index>0</index>
+            <comment>Note: Changing day dividers may affect your patterns and pattern
+                detection</comment>
+        </Iobject>
+    </DayDividerScreen>
+
+    <DayDividerScreen1>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='meal1_a']</xpath>
+            <index>0</index>
+            <comment>5:00AM</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='meal1_b']</xpath>
+            <index>0</index>
+            <comment>11:00AM</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='meal2_a']</xpath>
+            <index>0</index>
+            <comment>11:00AM</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='meal2_b']</xpath>
+            <index>0</index>
+            <comment>4:00PM</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='meal3_a']</xpath>
+            <index>0</index>
+            <comment>4:00PM</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='meal3_b']</xpath>
+            <index>0</index>
+            <comment>9:00PM</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='meal4_a']</xpath>
+            <index>0</index>
+            <comment>9:00PM</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='meal4_b']</xpath>
+            <index>0</index>
+            <comment>5:00AM</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='meal1_a']</xpath>
+            <index>0</index>
+            <comment>5:00AM</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='meal1_b']</xpath>
+            <index>0</index>
+            <comment>11:00AM</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='meal2_a']</xpath>
+            <index>0</index>
+            <comment>11:00AM</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='meal2_b']</xpath>
+            <index>0</index>
+            <comment>4:00PM</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='meal3_a']</xpath>
+            <index>0</index>
+            <comment>4:00PM</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='meal3_b']</xpath>
+            <index>0</index>
+            <comment>9:00PM</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='meal4_a']</xpath>
+            <index>0</index>
+            <comment>9:00PM</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='meal4_b']</xpath>
+            <index>0</index>
+            <comment>5:00AM</comment>
+        </Iobject>
+    </DayDividerScreen1>
+
+    <ClickBreakfast>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[7]</xpath>
+            <index>0</index>
+            <comment>Breakfast</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[7]</xpath>
+            <index>0</index>
+            <comment>Breakfast</comment>
+        </Iobject>
+    </ClickBreakfast>
+
+    <BrkfastScreen1>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='dayDividerHeadertext']</xpath>
+            <index>0</index>
+            <comment>Breakfast Header</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='clocklistitem1']/*[@text and @nodeName='DIV' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Breakfast</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='dayDividerHeadertext']</xpath>
+            <index>0</index>
+            <comment>Breakfast Header</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='clocklistitem1']/*[@text and @nodeName='DIV' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Breakfast</comment>
+        </Iobject>
+
+    </BrkfastScreen1>
+
+    <BrkfastScreen2>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='breakfastTimeId1_a']</xpath>
+            <index>0</index>
+            <comment>5:00AM</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='breakfastTimeId1_b']</xpath>
+            <index>0</index>
+            <comment>11:00AM</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='breakfastTimeId1_a']</xpath>
+            <index>0</index>
+            <comment>5:00AM</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='breakfastTimeId1_b']</xpath>
+            <index>0</index>
+            <comment>11:00AM</comment>
+        </Iobject>
+    </BrkfastScreen2>
+
+    <BrkfastSwipeUpperLimit>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='knobEndTextId']</xpath>
+            <index>0</index>
+            <comment>Upper limit 11:00AM to 12:00PM</comment>
+        </Aobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='knobEndTextId']</xpath>
+            <index>0</index>
+            <comment>Upper limit 11:00AM to 12:00PM</comment>
+        </Iobject>
+    </BrkfastSwipeUpperLimit>
+
+    <BrkfastScreen3>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='clocklistitem1']/*[@text and @nodeName='DIV' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>After swipe - Breakfast</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='clocklistitem2']/*[@text and @nodeName='DIV' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>After swipe - Lunch</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='clocklistitem1']/*[@text and @nodeName='DIV' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>After swipe - Breakfast</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='clocklistitem2']/*[@text and @nodeName='DIV' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>After swipe - Lunch</comment>
+        </Iobject>
+    </BrkfastScreen3>
+
+    <BrkfastScreen4>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='breakfastTimeId1_a']</xpath>
+            <index>0</index>
+            <comment>5:00AM</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='breakfastTimeId1_b']</xpath>
+            <index>0</index>
+            <comment>12:00PM</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='lunchTimeId1_a']</xpath>
+            <index>0</index>
+            <comment>12:00PM</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='lunchTimeId1_b']</xpath>
+            <index>0</index>
+            <comment>4:00PM</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='breakfastTimeId1_a']</xpath>
+            <index>0</index>
+            <comment>5:00AM</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='breakfastTimeId1_b']</xpath>
+            <index>0</index>
+            <comment>12:00PM</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='lunchTimeId1_a']</xpath>
+            <index>0</index>
+            <comment>12:00PM</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='lunchTimeId1_b']</xpath>
+            <index>0</index>
+            <comment>4:00PM</comment>
+        </Iobject>
+    </BrkfastScreen4>
+
+    <BrkfastSwipeLowerLimit>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='knobStartTextId']</xpath>
+            <index>0</index>
+            <comment>Lower limit - 5:00AM to 4:00AM</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='knobStartTextId']</xpath>
+            <index>0</index>
+            <comment>Lower limit - 5:00AM to 4:00AM</comment>
+        </Iobject>
+    </BrkfastSwipeLowerLimit>
+
+    <BrkfastScreen5>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='clocklistitem0']/*[@text and @nodeName='DIV' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Overnight</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='clocklistitem1']/*[@text and @nodeName='DIV' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Breakfast</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='clocklistitem0']/*[@text and @nodeName='DIV' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Overnight</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='clocklistitem1']/*[@text and @nodeName='DIV' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Breakfast</comment>
+        </Iobject>
+    </BrkfastScreen5>
+
+    <BrkfastScreen6>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='overnighttimeId1_a']</xpath>
+            <index>0</index>
+            <comment>9:00PM</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='overnightTimeId1_b']</xpath>
+            <index>0</index>
+            <comment>4:00AM</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='breakfastTimeId1_a']</xpath>
+            <index>0</index>
+            <comment>4:00AM</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='breakfastTimeId1_b']</xpath>
+            <index>0</index>
+            <comment>11:00AM</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='overnighttimeId1_a']</xpath>
+            <index>0</index>
+            <comment>9:00PM</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='overnightTimeId1_b']</xpath>
+            <index>0</index>
+            <comment>4:00AM</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='breakfastTimeId1_a']</xpath>
+            <index>0</index>
+            <comment>4:00AM</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='breakfastTimeId1_b']</xpath>
+            <index>0</index>
+            <comment>11:00AM</comment>
+        </Iobject>
+    </BrkfastScreen6>
+
+    <BrkfastSpan>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='clocklistitem6']</xpath>
+            <index>0</index>
+            <comment>Each Day Divider must span at least 4 hours</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='clocklistitem6']</xpath>
+            <index>0</index>
+            <comment>Each Day Divider must span at least 4 hours</comment>
+        </Iobject>
+    </BrkfastSpan>
+
+    <ClickInfo>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='DIV' and @width>0])[10]</xpath>
+            <index>0</index>
+            <comment>Info button</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='DIV' and @width>0])[10]</xpath>
+            <index>0</index>
+            <comment>Info button</comment>
+        </Iobject>
+    </ClickInfo>
+
+    <DayDividerPopup>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./preceding-sibling::*[@nodeName='IMG'] and ./parent::*[@text and @nodeName='DIV']]</xpath>
+            <index>0</index>
+            <comment>Day Dividers - Popup header</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN'])[1]</xpath>
+            <index>0</index>
+            <comment>Day Dividers - Popup text</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[2]</xpath>
+            <index>0</index>
+            <comment>Day Dividers - Popup text</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./preceding-sibling::*[@nodeName='IMG'] and ./parent::*[@text and @nodeName='DIV']]</xpath>
+            <index>0</index>
+            <comment>Day Dividers - Popup header</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0 and ./*[@nodeName='BR']]</xpath>
+            <index>0</index>
+            <comment>Day Dividers - Popup text</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[2]</xpath>
+            <index>0</index>
+            <comment>Day Dividers - Popup text</comment>
+        </Iobject>
+    </DayDividerPopup>
+
+    <CloseInfoNBack>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='IMG']</xpath>
+            <index>0</index>
+            <comment>Close popup</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='setting_daydiv_done']</xpath>
+            <index>0</index>
+            <comment>Back</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='IMG' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Close popup</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='setting_daydiv_done']</xpath>
+            <index>0</index>
+            <comment>Back</comment>
+        </Iobject>
+    </CloseInfoNBack>
+
+    <ClickLunch>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[13]</xpath>
+            <index>0</index>
+            <comment>Lunch</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[13]</xpath>
+            <index>0</index>
+            <comment>Lunch</comment>
+        </Iobject>
+    </ClickLunch>
+
+    <LunchScreen1>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='dayDividerHeadertext']</xpath>
+            <index>0</index>
+            <comment>Lunch</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='clocklistitem2']/*[@text and @nodeName='DIV' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Lunch</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='dayDividerHeadertext']</xpath>
+            <index>0</index>
+            <comment>Lunch</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='clocklistitem2']/*[@text and @nodeName='DIV' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Lunch</comment>
+        </Iobject>
+    </LunchScreen1>
+
+    <LunchScreen2>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='lunchTimeId1_a']</xpath>
+            <index>0</index>
+            <comment>11:00AM</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='lunchTimeId1_b']</xpath>
+            <index>0</index>
+            <comment>4:00PM</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='lunchTimeId1_a']</xpath>
+            <index>0</index>
+            <comment>11:00AM</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='lunchTimeId1_b']</xpath>
+            <index>0</index>
+            <comment>4:00PM</comment>
+        </Iobject>
+    </LunchScreen2>
+
+    <ClickDinner>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[19]</xpath>
+            <index>0</index>
+            <comment>Dinner</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[19]</xpath>
+            <index>0</index>
+            <comment>Dinner</comment>
+        </Iobject>
+    </ClickDinner>
+
+    <DinnerScreen1>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='dayDividerHeadertext']</xpath>
+            <index>0</index>
+            <comment>Dinner</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='clocklistitem3']/*[@text and @nodeName='DIV' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Dinner</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='dayDividerHeadertext']</xpath>
+            <index>0</index>
+            <comment>Dinner</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='clocklistitem3']/*[@text and @nodeName='DIV' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Dinner</comment>
+        </Iobject>
+    </DinnerScreen1>
+
+    <DinnerScreen2>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='dinnerTimeId1_a']</xpath>
+            <index>0</index>
+            <comment>4:00PM</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='dinnerTimeId1_b']</xpath>
+            <index>0</index>
+            <comment>9:00PM</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='dinnerTimeId1_a']</xpath>
+            <index>0</index>
+            <comment>4:00PM</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='dinnerTimeId1_b']</xpath>
+            <index>0</index>
+            <comment>9:00PM</comment>
+        </Iobject>
+    </DinnerScreen2>
+
+    <ClickOvernight>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[25]</xpath>
+            <index>0</index>
+            <comment>Overnight</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[25]</xpath>
+            <index>0</index>
+            <comment>Overnight</comment>
+        </Iobject>
+    </ClickOvernight>
+
+    <OvernightScreen1>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='dayDividerHeadertext']</xpath>
+            <index>0</index>
+            <comment>Overnight</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='clocklistitem4']/*[@text and @nodeName='DIV' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Overnight</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='dayDividerHeadertext']</xpath>
+            <index>0</index>
+            <comment>Overnight</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='clocklistitem4']/*[@text and @nodeName='DIV' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Overnight</comment>
+        </Iobject>
+    </OvernightScreen1>
+
+    <OvernightScreen2>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='overnightTimeId2_a']</xpath>
+            <index>0</index>
+            <comment>9:00PM</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='overnightTimeId2_b']</xpath>
+            <index>0</index>
+            <comment>5:00AM</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='overnightTimeId2_a']</xpath>
+            <index>0</index>
+            <comment>9:00PM</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='overnightTimeId2_b']</xpath>
+            <index>0</index>
+            <comment>5:00AM</comment>
+        </Iobject>
+    </OvernightScreen2>
+
+    <GotoHome>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='setting_daydiv_backbutton']</xpath>
+            <index>0</index>
+            <comment>Day dividers - Back</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='lefticonbtn' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Menu</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@accessibilityLabel='Back']</xpath>
+            <index>0</index>
+            <comment>Day dividers - Back</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@accessibilityLabel='Menu icn 1x']</xpath>
+            <index>0</index>
+            <comment>Menu</comment>
+        </Iobject>
+    </GotoHome>
+
+    <Home>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@id='left_drawer']/*/*[@id='lblListHeaderSlideView'])[1]</xpath>
+            <index>0</index>
+            <comment>My Readings</comment>
+        </Aobject>
+
+         <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='YGLinedView']</xpath>
+            <index>0</index>
+            <comment>My Readings</comment>
+        </Iobject>
+    </Home>
+    </root>

@@ -1,0 +1,267 @@
+<root>
+
+    <ToFAQ>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='ic_menu']</xpath>
+            <index>0</index>
+         <comment> ic_menu</comment>
+         </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='lblListHeaderSlideView']</xpath>
+            <index>5</index>
+         <comment> Help</comment>
+         </Aobject>
+    <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*[@id='helpListview1']/*/*[@text and @nodeName='DIV' and ./*[@nodeName='SPAN']])[1]</xpath>
+        <index>0</index>
+       <comment>FAQ </comment>
+     </Aobject>
+        <!--IOS-->
+         <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@accessibilityLabel='Menu icn 1x']</xpath>
+        <index> 0</index>
+     <comment>ic_menu</comment>
+     </Iobject>
+    <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='YGLinedView']</xpath>
+        <index> 5</index>
+     <comment> Help</comment>
+     </Iobject>
+
+        <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*[@id='helpListview1']/*/*[@text and @nodeName='DIV' and ./*[@nodeName='SPAN']])[1]</xpath>
+        <index> 0</index>
+     <comment> FAQ </comment>
+     </Iobject>
+
+
+    </ToFAQ>
+  <FaqQuestions>
+      <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@nodeName='DIV' and @css='DIV.question_content' and @class='question_content']</xpath>
+                <index>0</index>
+               <comment> Question Index </comment>
+             </Aobject>
+      <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@nodeName='DIV' and @css='DIV.question_content' and @class='question_content']</xpath>
+                <index>0</index>
+               <comment> Question Index </comment>
+             </Iobject>
+  </FaqQuestions>
+    <SearchFaq>
+
+
+    </SearchFaq>
+    <FaqBack>
+        <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[4]</xpath>
+                <index>0</index>
+               <comment>back to Help menu</comment>
+             </Aobject>
+         <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[4]</xpath>
+                <index>0</index>
+               <comment>back to Help menu</comment>
+             </Iobject>
+    </FaqBack>
+<!--<Answers>
+
+
+
+</Answers>-->
+
+    <About>
+
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='helpListview1']/*/*[@text and @nodeName='DIV' and ./*[@nodeName='SPAN']])[5] </xpath>
+            <index>0</index>
+         <comment>About</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[5] </xpath>
+            <index>0</index>
+         <comment>About</comment>
+         </Aobject>
+
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[7]</xpath>
+            <index>0</index>
+         <comment>Curent app version</comment>
+         </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[11] </xpath>
+            <index>0</index>
+         <comment> Installed</comment>
+         </Aobject>
+          <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[13] </xpath>
+            <index>0</index>
+            <comment>latest updated </comment>
+        </Aobject>
+            <Aobject>
+                    <zone>WEB</zone>
+                    <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[15]</xpath>
+                    <index>0</index>
+                 <comment>last cloud sync</comment>
+                 </Aobject>
+                <Aobject>
+                    <zone>WEB</zone>
+                    <xpath>xpath=//*[@class='menuText about_left'] </xpath>
+                    <index>4</index>
+                 <comment> send error report </comment>
+                 </Aobject>
+         <!--<Aobject>
+                    <zone>WEB</zone>
+                    <xpath>xpath=//*[@nodeName='SPAN' and @width>0]</xpath>
+                    <index>0</index>
+                 <comment> for ...</comment>
+                 </Aobject>-->
+
+              <Aobject>
+                    <zone>WEB</zone>
+                    <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./*[@nodeName='IMG']]</xpath>
+                    <index>0</index>
+                 <comment> acesnecia</comment>
+                 </Aobject>
+     <!--     <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[4]</xpath>
+                <index>0</index>
+               <comment>back to Help menu</comment>
+             </Aobject>-->
+
+        <!-- IOS-->
+
+   <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='helpListview1']/*/*[@text and @nodeName='DIV' and ./*[@nodeName='SPAN']])[5] </xpath>
+            <index>0</index>
+         <comment>About</comment>
+         </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[5] </xpath>
+            <index>0</index>
+         <comment>About</comment>
+         </Iobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[7]</xpath>
+            <index>0</index>
+         <comment>Curent app version</comment>
+         </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[11] </xpath>
+            <index>0</index>
+         <comment> Installed</comment>
+         </Iobject>
+          <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[13] </xpath>
+            <index>0</index>
+            <comment>latest updated </comment>
+         </Iobject>
+            <Iobject>
+                    <zone>WEB</zone>
+                    <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[15]</xpath>
+                    <index>0</index>
+                 <comment>last cloud sync</comment>
+                 </Iobject>
+                <Iobject>
+                    <zone>WEB</zone>
+                    <xpath>xpath=//*[@class='menuText about_left'] </xpath>
+                    <index>4</index>
+                 <comment> send error report </comment>
+                 </Iobject>
+         <!--<Iobject>
+                    <zone>WEB</zone>
+                    <xpath>xpath=//*[@nodeName='SPAN' and @width>0]</xpath>
+                    <index>0</index>
+                 <comment> for ...</comment>
+                 </Iobject>-->
+
+              <Iobject>
+                    <zone>WEB</zone>
+                    <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./*[@nodeName='IMG']]</xpath>
+                    <index>0</index>
+                 <comment> acesnecia</comment>
+                 </Iobject>
+
+    </About>
+
+<GoHome>
+
+    <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@class='custom_menu_btn']</xpath>
+                <index>0</index>
+                <comment> custom_menu_btn </comment>
+    </Aobject>
+     <Aobject>
+                <zone>NATIVE</zone>
+                <xpath>xpath=//*[@id='lblListHeaderSlideView']</xpath>
+                <index>0</index>
+                <comment> help </comment>
+    </Aobject>
+
+      <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@class='custom_menu_btn']</xpath>
+                <index>0</index>
+                <comment>  custom_menu_btn</comment>
+    </Iobject>
+     <Iobject>
+                <zone>NATIVE</zone>
+                <xpath>xpath=//*[@id='lblListHeaderSlideView']</xpath>
+                <index>0</index>
+                <comment>help  </comment>
+    </Iobject>
+
+</GoHome>
+<Place>
+     <Iobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@nodeName='INPUT' and @width>0]</xpath>
+                <index>0</index>
+                <comment> pop up </comment>
+    </Iobject>
+     <Iobject>
+                <zone>NATIVE</zone>
+                <xpath>xpath=//*[@nodeName='DIV' and @css='DIV.cancel_btn' and @class='cancel_btn']</xpath>
+                <index>0</index>
+                <comment>Cancel btn  </comment>
+    </Iobject>
+     <Aobject>
+                <zone>WEB</zone>
+                <xpath>xpath=//*[@nodeName='INPUT' and @width>0]</xpath>
+                <index>0</index>
+                <comment> pop up </comment>
+    </Aobject>
+     <Aobject>
+                <zone>NATIVE</zone>
+                <xpath>xpath=//*[@nodeName='DIV' and @css='DIV.cancel_btn' and @class='cancel_btn']</xpath>
+                <index>0</index>
+                <comment>Cancel btn  </comment>
+    </Aobject>
+
+
+</Place>
+
+</root>

@@ -1,0 +1,207 @@
+﻿<root>
+    <GraphScreen1>
+		<trans-unit id="COMM_ModelStandard">
+			<english>Standard</english>
+			<german>Standard</german>
+		</trans-unit>
+		<trans-unit id="comm_insulindays">
+			<english>30 days</english>
+			<german>30 Tage</german>
+		</trans-unit>
+		<!-- 1.2.x -->
+		<trans-unit id="COMM_allBtntxt">
+			<english>All</english>
+			<german>All</german>
+		</trans-unit>
+		<!-- 1.2.x -->
+		<trans-unit id="COMM_modaldayTodayHdr">
+			<english>Today</english>
+			<german>Today</german>
+		</trans-unit>
+	</GraphScreen1>
+
+	<GraphScreenAvg>
+		<trans-unit id="COMM_ModelAverages">
+			<english>Averages</english>
+			<german>Durchschnittswerte</german>
+		</trans-unit>
+		<trans-unit id="comm_insulindays">
+			<english>30 days</english>
+			<german>30 Tage</german>
+		</trans-unit>
+		<!-- 1.2.x -->
+		<trans-unit id="COMM_allBtntxt">
+			<english>All</english>
+			<german>All</german>
+		</trans-unit>
+		<!-- 1.2.x -->
+		<trans-unit id="COMM_modaldayTodayHdr">
+			<english>Today</english>
+			<german>Today</german>
+		</trans-unit>
+	</GraphScreenAvg>
+
+	<ExpandedPopup>
+		<trans-unit id="tooltipModalDayHdr">
+			<english>Expanded Graph</english>
+			<german>Erweitertes Diagramm</german>
+		</trans-unit>
+		<trans-unit id="tooltipModalDayNewTxt">
+			<english>The Expanded Graph shows your blood sugar readings and averages over the past
+				3, 7, 14, or 30 days. Tap the white button &lt;img
+				src="../../toolTipIcon/Custom_View.png"; class="view" style= "width:50%" /&gt; to
+				customize your view using filters.</english>
+			<german>Das erweiterte Diagramm stellt Ihre Blutzuckermesswerte und Durchschnittswerte
+				der	letzten 3, 7, 14 bzw. 30 Tage dar. Tippen Sie auf die weiße Schaltfläche,
+				&lt;img src="../../toolTipIcon/Custom_View.png"; class="view" style= "width:50%"
+				/&gt;um Ihre Ansicht mithilfe von Filtern individuell anzupassen.</german>
+		</trans-unit>
+		<trans-unit id="tooltipModalDayTxt3">
+			<english>&lt;b&gt;Days:&lt;/b&gt; Select the number of days to view (3, 7, 14, 30
+				days).</english>
+			<german>&lt;b&gt;Tage:&lt;/b&gt; Wählen Sie die Anzahl der anzuzeigenden Tage (3, 7,
+				14, 30 Tage).</german>
+		</trans-unit>
+	</ExpandedPopup>
+
+	<GraphScreen2>
+		<trans-unit id="COMM_ModelCustomizeView">
+			<english>Customize Your Graph</english>
+			<german>Diagramm anpassen</german>
+		</trans-unit>
+		<trans-unit id="COMM_ModelMode">
+			<english>Mode</english>
+			<german>Modus</german>
+		</trans-unit>
+		<trans-unit id="modalday1day">
+			<english>Standard View</english>
+			<german>Standardansicht</german>
+		</trans-unit>
+		<trans-unit id="modaldayTapFiltersAveragedTxt">
+			<english>Averages (AVG)</english>
+			<german>Durchschnitte (DUR)</german>
+		</trans-unit>
+		<trans-unit id="COMM_ModelDays1">
+			<english>Days</english>
+			<german>Tage</german>
+		</trans-unit>
+		<trans-unit id="comm_insulindays">
+			<english>3 days</english>
+			<german>3 Tage</german>
+		</trans-unit>
+		<trans-unit id="comm_insulindays">
+			<english>7 days</english>
+			<german>7 Tage</german>
+		</trans-unit>
+		<trans-unit id="comm_insulindays">
+			<english>14 days</english>
+			<german>14 Tage</german>
+		</trans-unit>
+		<trans-unit id="comm_insulindays">
+			<english>30 days</english>
+			<german>30 Tage</german>
+		</trans-unit>
+		<trans-unit id="COMM_mealmarkerbtn">
+			<english>Meal Marker</english>
+			<german>Mahlzeit-Markierung</german>
+		</trans-unit>
+		<trans-unit id="COMM_fastingbtn">
+			<english>Fasting</english>
+			<german>Nüchtern</german>
+		</trans-unit>
+		<trans-unit id="COMM_beforemealbtn">
+			<english>Before Meal</english>
+			<german>Vor dem Essen</german>
+		</trans-unit>
+		<trans-unit id="COMM_aftermealbtn">
+			<english>After Meal</english>
+			<german>Nach dem Essen</german>
+		</trans-unit>
+		<trans-unit id="COMM_viewall">
+			<english>View All</english>
+			<german>Alle anzeigen</german>
+		</trans-unit>
+		<trans-unit id="COMM_Donebtn">
+			<english>Done</english>
+			<german>Fertig</german>
+		</trans-unit>
+	</GraphScreen2>
+
+	<ExpandedPopup2>
+		<trans-unit id="COMM_Toolmealmarkerbtn">
+			<english>Meal Marker:</english>
+			<german>Mahlzeit-Markierung:</german>
+		</trans-unit>
+		<trans-unit id="tooltipEditViewTapIos3">
+			<english>Select a meal marker from the list to view only readings marked Fasting, Before Meal, or After Meal. Select View All to view all blood sugar readings.</english>
+			<german>Mahlzeit-Markierung aus Liste wählen, um nur Messwerte mit „Nüchtern“, „Vor dem Essen“ bzw. „Nach dem Essen“ anzusehen. „Alle anzeigen“ wählen, um alle zu sehen.</german>
+		</trans-unit>
+		<trans-unit id="tooltipstandardviewnote">
+			<english>&lt;b&gt;Note:&lt;/b&gt; In Standard View, if Show Fast-Acting Insulin or Show
+				Carbs is selected, only View All will be available.</english>
+			<german>&lt;b&gt;Hinweis:&lt;/b&gt; Wenn „Schnellwirkendes Insulin anzeigen“ oder
+				„Kohlenhydrate anzeigen“ ausgewählt ist, ist in der Standardansicht nur „Alle
+				anzeigen“ verfügbar.</german>
+		</trans-unit>
+	</ExpandedPopup2>
+
+	<ExpandedPopup3>
+		<trans-unit id="tooltipModalDayTxt1">
+			<english>&lt;b&gt;Mode:&lt;/b&gt; Select Standard View or
+				Averages.&lt;br/&gt;&lt;br/&gt; &lt;p&gt;&lt;i&gt;Standard View&lt;/i&gt;
+				displays your blood sugar readings on the day you choose from the right hand
+				column; tap on a reading to see the
+				details.&lt;/p&gt;&lt;p&gt;&lt;i&gt;Averages&lt;/i&gt; displays the average of
+				your blood sugar readings, insulin doses, and carbs each time period of the day,
+				across the selected number of days (for example, between %s and %s for the last
+				14 days). Swipe right to go back in days; swipe left to go forward.&lt;
+				/p&gt;</english>
+			<german>&lt;b&gt;Modus:&lt;/b&gt; Standardansicht oder Durchschnittswerte
+				wählen:&lt;br/&gt;&lt;br/&gt; &lt;p&gt;&lt;i&gt;Standardansicht&lt;/i&gt; zeigt
+				die Messwerte für den in der rechten Spalte ausgewählten Tag an. Antippen eines
+				Messwerts zeigt die Einzelheiten an.&lt;/p&gt;&lt;p&gt;Bei
+				&lt;i&gt;Durchschnittswerte&lt;/i&gt; wird der Durchschnittswert der Messwerte,
+				Insulindosen und Kohlenhydrate für jede Zeitspanne des Tages über die ausgewählte
+				Anzahl von Tagen angezeigt (z. B. zwischen %s Uhr und %s Uhr für die vergangenen
+				14 Tage). Nach rechts streichen, um rückwärts durch die Tage zu gehen, und nach links, um vorwärts zu gehen.&lt;/p&gt;</german>
+		</trans-unit>
+		<trans-unit id="tooltipcheckfastactinginsulin">
+			<english>Show Fast-Acting Insulin: Check this box to display your fast-acting insulin doses for the selected day or date range.</english>
+			<german>Schnellwirkendes Insulin anzeigen: Kreuzen Sie dieses Feld an, um Ihre Dosen des schnellwirkenden Insulins für den ausgewählten Tages- oder Datumsbereich anzuzeigen.</german>
+		</trans-unit>
+		<trans-unit id="tooltipcheckcarbs">
+			<english>Show Carbs: Check this box to display the carb amounts you entered for the selected day or date range.</english>
+			<german>Kohlenhydrate anzeigen: Kreuzen Sie dieses Feld an, um die Kohlenhydratmengen anzuzeigen, die Sie für den ausgewählten Tages- oder Datumsbereich eingegeben haben.</german>
+		</trans-unit>
+	</ExpandedPopup3>
+
+	<RotatePopupCompare>
+		<trans-unit id="comm_expandedgraphroate">
+			<english>Expanded Graph Rotate</english>
+			<german>Rotation für erweitertes Diagramm</german>
+		</trans-unit>
+		<trans-unit id="comm_contaccessrotate">
+			<english>Would you like to continue to access the Expanded Graph by rotating your
+				device while on My Readings? You can always access the Expanded Graph by tapping
+				on the small graph at the top of My Readings. To enable the rotate setting, go to
+				Settings &gt; App Preferences &gt; Expanded Graph Rotate.</english>
+			<german>Möchten Sie weiterhin zum erweiterten Diagramm gelangen, indem Sie Ihr Gerät
+				in „Meine Messwerte“ drehen? Sie gelangen dorthin, indem Sie auf das kleine Diagramm oben in „Meine Messwerte“ tippen. Um die Rotationseinstellung zu aktivieren, gehen Sie zu Einstellungen &gt; App-Voreinstellungen &gt; Rotation für erweitertes Diagramm.</german>
+		</trans-unit>
+		<trans-unit id="modaldayPopupOFFKeepOn">
+			<english>Keep ON</english>
+			<german>Weiterhin eingeschaltet lassen</german>
+		</trans-unit>
+		<trans-unit id="modaldayPopupOFFTurnOff">
+			<english>Turn OFF</english>
+			<german>Ausschalten</german>
+		</trans-unit>
+	</RotatePopupCompare>
+
+	<NoReading>
+		<trans-unit id="modaldayNoReadingsTxt">
+			<english>No readings have been logged yet.</english>
+			<german>Es wurden noch keine Messungen protokolliert.</german>
+		</trans-unit>
+	</NoReading>
+</root>

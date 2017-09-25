@@ -1,0 +1,376 @@
+<root>
+	<StartingPopUps>
+		<trans-unit id="editviewmanualFutureTimeDateHdr">
+			<tool_key>editviewmanualFutureTimeDateHdr</tool_key>
+			<note>null</note>
+			<english>Future Time or Date</english>
+			<german>Future Time or Date</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+			<Css_ID>T11</Css_ID>
+			<Category>Release 1.0</Category>
+			<GroupID>Popup</GroupID>
+			<flow_name>Onyx Edit View - Manual Entry System Map v0.3</flow_name>
+			<Screen_id>EDM1.1,</Screen_id>
+		</trans-unit>
+		<trans-unit id="editviewmanualFutureTimeDateTxt">
+			<tool_key>editviewmanualFutureTimeDateTxt</tool_key>
+			<note>null</note>
+			<english>You cannot add a reading with a future time or date.</english>
+			<german>You cannot add a reading with a future time or date.</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+			<Css_ID>T12</Css_ID>
+			<Category>Release 1.0</Category>
+			<GroupID>Popup</GroupID>
+			<flow_name>Onyx Edit View - Manual Entry System Map v0.3</flow_name>
+			<Screen_id>EDM1.1,</Screen_id>
+		</trans-unit>
+		<trans-unit id="COMM_okbtn">
+			<english>OK</english>
+			<german>OK</german>
+		</trans-unit>
+		<trans-unit id="editviewmanualMealValueRangeHdr">
+			<tool_key>editviewmanualMealValueRangeHdr</tool_key>
+			<note>null</note>
+			<english>Value Out of Range</english>
+			<german>Value Out of Range</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+			<Css_ID>T11</Css_ID>
+			<Category>Release 1.0</Category>
+			<GroupID>Popup</GroupID>
+			<flow_name>Onyx Edit View - Manual Entry System Map v0.3</flow_name>
+			<Screen_id>EDM3.2,</Screen_id>
+		</trans-unit>
+			<trans-unit id="editviewmanualMealValueRangeTxt">
+			<tool_key>editviewmanualMealValueRangeTxt</tool_key>
+			<note>null</note>
+			<english>You may only enter a value between 10 and 600 mg/dL.</english>
+			<german>You may only enter a value between 10 and 600 mg/dL.</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+			<Css_ID>T12</Css_ID>
+			<Category>Release 1.0</Category>
+			<GroupID>Popup</GroupID>
+			<flow_name>Onyx Edit View - Manual Entry System Map v0.3</flow_name>
+			<Screen_id>EDM3.2,</Screen_id>
+		</trans-unit>
+		<trans-unit id="COMM_okbtn">
+			<english>OK</english>
+			<german>OK</german>
+		</trans-unit>
+	</StartingPopUps>
+    <MainScreen>
+        <trans-unit id="COMM_cancelbtn">
+			<english>Cancel</english>
+			<german>Abbrechen</german>
+		</trans-unit>
+        <trans-unit id="COMM_EditEntry">
+			<english>Edit Entry</english>
+		<german>Bearbeitung</german>
+		</trans-unit>
+        <trans-unit id="COMM_AddNote">
+			<tool_key>COMM_AddNote</tool_key>
+			<note>EDM 13.0</note>
+			<english>Tap a button to add a note.</english>
+			<german>Tap a button to add a note.</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<comments>null</comments>
+			<Css_ID>T07</Css_ID>
+			<Category>Release 1.0</Category>
+			<GroupID>None</GroupID>
+			<flow_name>Edit-View</flow_name>
+			<Screen_id>ED 2.1</Screen_id>
+		</trans-unit>
+       <trans-unit id="COMM_mealmarkerbtn">
+			<english>Meal Marker</english>
+			<german>Mahlzeit-Markierung</german>
+		</trans-unit>
+        <trans-unit id="COMM_fastingbtn">
+			<english>Fasting</english>
+			<german>Nüchtern</german>
+		</trans-unit>
+        <trans-unit id="COMM_beforemealbtn">
+			<english>Before Meal</english>
+			<german>Vor dem Essen</german>
+		</trans-unit>
+        <trans-unit id="COMM_aftermealbtn">
+			<english>After Meal</english>
+		`	`<german>Nach dem Essen</german>
+		</trans-unit>
+        <trans-unit id="COMM_breakfastreminder">
+			<english>Breakfast</english>
+			<german>Frühstück</german>
+		</trans-unit>
+        	<trans-unit id="COMM_lunchbtn">
+			<english>Lunch</english>
+			<german>Mittagessen</german>
+		</trans-unit>
+        <trans-unit id="COMM_dinnerbtn">
+			<english>Dinner</english>
+			<german>Abendessen</german>
+		</trans-unit>
+        <trans-unit id="COMM_snackbtn">
+			<english>Snack</english>
+			<german>Snack</german>
+		</trans-unit>
+        <trans-unit id="COMM_nomarkbtn">
+			<english>No Mark</english>
+			<german>Keine Markierung</german>
+		</trans-unit>
+        <trans-unit id="COMM_savebtn">
+			<english>Save</english>
+			<german>Speichern</german>
+		</trans-unit>
+        <trans-unit id="editviewSelectionTxt">
+			<english>By selecting No Mark, no Markers or Meals will be saved.</english>
+			<german>Bei Auswahl von „Keine Markierung“ werden keine Mahlzeit-Markierungen oder Mahlzeiten gespeichert.</german>
+		</trans-unit>
+      <trans-unit id="COMM_DoNotShowAgain">
+			<tool_key>COMM_DoNotShowAgain</tool_key>
+			<note>DoNotShowAgain</note>
+			<english>Do not show this again</english>
+			<german>Do not show this again</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+
+        <trans-unit id="COMM_cancelbtn">
+			<english>Cancel</english>
+			<german>Abbrechen</german>
+		</trans-unit>
+		<trans-unit id="COMM_okbtn">
+			<english>OK</english>
+			<german>OK</german>
+		</trans-unit>
+    </MainScreen>
+    <MenuItem>
+      	<trans-unit id="editviewTakePhotoBtn">
+			<english>Take a Photo</english>
+			<german>Foto</german>
+		</trans-unit>
+        <trans-unit id="editviewAddPhotoBtn">
+			<english>=+ Add photo from library</english>
+			<german>=+ Foto aus Galerie hinzufügen</german>
+		</trans-unit>
+        <trans-unit id="COMM_AddEditActivityTxt">
+			<english>Add/Edit Activity</english>
+			<german>Aktivität hinzufügen/bearbeiten</german>
+		</trans-unit>
+        <trans-unit id="COMM_totaldurationbtn1">
+			<english>Total duration</english>
+			<german>Gesamtdauer</german>
+		</trans-unit>
+        <trans-unit id="COMM_intensitybtn">
+			<english>Intensity</english>
+			<german>Intensität</german>
+		</trans-unit>
+		<trans-unit id="COMM_AddActivity">
+			<english>Add Activity</english>
+			<german>Bearbeitung</german>
+		</trans-unit>
+		<trans-unit id="COMM_cancelbtn">
+			<english>Cancel</english>
+			<german>Abbrechen</german>
+		</trans-unit>
+		<trans-unit id="COMM_AddEditFoodTxt">
+			<english>Add/Edit Food</english>
+			<german>Mahlzeit hinzufügen/bearbeiten</german>
+		</trans-unit>
+        	<trans-unit id="COMM_CarbEntry">
+			<english>Manual carb entry</english>
+			<german>Manuelle Eingabe der Kohlenhydrate</german>
+		</trans-unit>
+        <trans-unit id="COMM_addfoodbtn">
+			<english>Add Food</english>
+			<german>Bearbeitung</german>
+		</trans-unit>
+		<trans-unit id="COMM_cancelbtn">
+			<english>Cancel</english>
+			<german>Abbrechen</german>
+		</trans-unit>
+		<trans-unit id="COMM_foodbtn">
+			<english>Food</english>
+			<german>Essen</german>
+		</trans-unit>
+		<trans-unit id="COMM_carbsbtn">
+			<english>Carbs</english>
+			<german>Kohlenhydrate</german>
+		</trans-unit>
+    </MenuItem>
+	<Food>
+
+	</Food>
+
+      <Medication>
+		  <trans-unit id="COMM_AddEditMedicationTxt">
+			<english>Add/Edit Medication</english>
+			<german>Medikament hinzufügen/bearbeiten</german>
+		</trans-unit>
+
+        <trans-unit id="COMM_addmedicatnbtn1">
+			<english>Add Medication</english>
+				<german>Bearbeitung</german>
+		</trans-unit>
+		  <trans-unit id="COMM_cancelbtn">
+			<english>Cancel</english>
+			<german>Abbrechen</german>
+		</trans-unit>
+      <trans-unit id="COMM_addmedicatnbtn">
+			<english>+ Add medication</english>
+			<german>+ Medikament hinzufügen</german>
+		</trans-unit>
+        	<trans-unit id="comm_fastactinginsulin">
+			<english>Fast-acting Insulin</english>
+			<german>Schnellwirkendes Insulin</german>
+		</trans-unit>
+        <trans-unit id="comm_smarttestplan8">
+			<english>Long-acting insulin only</english>
+			<german>Nur langwirkendes Insulin</german>
+		</trans-unit>
+       <!-- <trans-unit id="COMM_units">
+			<tool_key>COMM_units</tool_key>
+			<note>MedUnits</note>
+			<english>unit(s)</english>
+			<german>unit(s)</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+        <trans-unit id="COMM_injections">
+			<tool_key>COMM_injections</tool_key>
+			<note>MedUnits</note>
+			<english>injection(s)</english>
+			<german>injection(s)</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+		<trans-unit id="COMM_pills">
+			<tool_key>COMM_pills</tool_key>
+			<note>MedUnits</note>
+			<english>pill(s)</english>
+			<german>pill(s)</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+        	<trans-unit id="COMM_mg">
+			<tool_key>COMM_mg</tool_key>
+			<note>MedTypeUnits</note>
+			<english>mg</english>
+			<german>mg</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+       <trans-unit id="COMM_cancelbtn">
+			<english>Cancel</english>
+			<german>Abbrechen</german>
+		</trans-unit>
+        <trans-unit id="COMM_Donebtn">
+			<tool_key>COMM_Donebtn</tool_key>
+			<note>AC 20.0,BC 27.0,BC 29.1,BC 30.0,BC 30.2,BC 31.0,BC 32.1,BC 32.2,BC 32.3,BC 33.0,BC 44.0,BC 46.0,BC 47.0,EDM 11.0,EDM 2.0,EDM 3.0,EDM 7.0,HI 6.2,HI 6.4,CL 7.2,CL 7.4,IS 11.1,IS 11.3,IS 15.0,IS 17.0,IS 18.0,LO 7.2,LO 7.4,MD 9.0,PD 4.0,PAH 5.0,HR 11.0,SBR 2.0,SBR 3.0,SBR 6.0,REM 10.1.1,REM 10.1.5,REM 11.1.1,REM 11.2.2,REM 11.3.1,REM 11.4.1,REM 11.4.5,REM 13.0,REM 15.0,REM 40.3,REM 41.0,REM 7.0,OS 10.0,OS 12.0,OS 4.0,SR 5.3,EG 1.0,PM3.0,ED2.1,ED8.1,ED8.2,ED8.3,ED8.3,ED8.4,ED8.5,RM 6.1,RM3.1.2</note>
+			<english>Done</english>
+			<german>Done</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<comments>null</comments>
+			<Css_ID>B02</Css_ID>
+			<Category>Duplicate</Category>
+			<flow_name>IMB Pattern Manager v1.3</flow_name>
+			<Screen_id>PM3.0</Screen_id>
+		</trans-unit>
+          <trans-unit id="COMM_units">
+			<tool_key>COMM_units</tool_key>
+			<note>MedUnits</note>
+			<english>unit(s)</english>
+			<german>unit(s)</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+        <trans-unit id="COMM_injections">
+			<tool_key>COMM_injections</tool_key>
+			<note>MedUnits</note>
+			<english>injection(s)</english>
+			<german>injection(s)</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+		<trans-unit id="COMM_pills">
+			<tool_key>COMM_pills</tool_key>
+			<note>MedUnits</note>
+			<english>pill(s)</english>
+			<german>pill(s)</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+        	<trans-unit id="COMM_mg">
+			<tool_key>COMM_mg</tool_key>
+			<note>MedTypeUnits</note>
+			<english>mg</english>
+			<german>mg</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+       <trans-unit id="COMM_cancelbtn">
+			<english>Cancel</english>
+			<german>Abbrechen</german>
+		</trans-unit>
+        <trans-unit id="COMM_Donebtn">
+			<tool_key>COMM_Donebtn</tool_key>
+			<note>AC 20.0,BC 27.0,BC 29.1,BC 30.0,BC 30.2,BC 31.0,BC 32.1,BC 32.2,BC 32.3,BC 33.0,BC 44.0,BC 46.0,BC 47.0,EDM 11.0,EDM 2.0,EDM 3.0,EDM 7.0,HI 6.2,HI 6.4,CL 7.2,CL 7.4,IS 11.1,IS 11.3,IS 15.0,IS 17.0,IS 18.0,LO 7.2,LO 7.4,MD 9.0,PD 4.0,PAH 5.0,HR 11.0,SBR 2.0,SBR 3.0,SBR 6.0,REM 10.1.1,REM 10.1.5,REM 11.1.1,REM 11.2.2,REM 11.3.1,REM 11.4.1,REM 11.4.5,REM 13.0,REM 15.0,REM 40.3,REM 41.0,REM 7.0,OS 10.0,OS 12.0,OS 4.0,SR 5.3,EG 1.0,PM3.0,ED2.1,ED8.1,ED8.2,ED8.3,ED8.3,ED8.4,ED8.5,RM 6.1,RM3.1.2</note>
+			<english>Done</english>
+			<german>Done</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<comments>null</comments>
+			<Css_ID>B02</Css_ID>
+			<Category>Duplicate</Category>
+			<flow_name>IMB Pattern Manager v1.3</flow_name>
+			<Screen_id>PM3.0</Screen_id>
+		</trans-unit>-->
+		  <trans-unit id="editviewDscrdChngesHdr">
+			<english>Discard Changes</english>
+			<german>Änderungen verwerfen</german>
+		</trans-unit>
+
+		<trans-unit id="editviewDscrdChngesTxt">
+			<english>Are you sure you want to discard your changes?</english>
+			<german>Möchten Sie Ihre Änderungen wirklich verwerfen?</german>
+		</trans-unit>
+        <trans-unit id="COMM_cancelbtn">
+			<english>Cancel</english>
+			<german>Abbrechen</german>
+		</trans-unit>
+        <trans-unit id="COMM_discardbtn">
+			<english>Discard</english>
+			<german>Verwerfen</german>
+		</trans-unit>
+    </Medication>
+
+</root>

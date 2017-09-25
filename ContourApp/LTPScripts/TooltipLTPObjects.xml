@@ -1,0 +1,2250 @@
+﻿<root>
+    <ClickMenu>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='ic_menu']</xpath>
+            <index>0</index>
+            <comment>Menu</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@accessibilityLabel='Menu icn 1x']</xpath>
+            <index>0</index>
+            <comment>Menu</comment>
+        </Iobject>
+    </ClickMenu>
+    <MenuToReadings>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@id='left_drawer']/*/*[@id='lblListHeaderSlideView'])[1]</xpath>
+            <index>0</index>
+            <comment>My Readings</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='ic_add']</xpath>
+            <index>0</index>
+            <comment>Add button</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='YGLinedView']</xpath>
+            <index>0</index>
+            <comment>My Readings</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@accessibilityLabel='Add']</xpath>
+            <index>0</index>
+            <comment>Add button</comment>
+        </Iobject>
+    </MenuToReadings>
+
+    <ManualPopup>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='btn_yes']</xpath>
+            <index>0</index>
+            <comment>Manual entry popup</comment>
+        </Aobject>
+
+        <!-- TODO for iphone-->
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='btn_yes']</xpath>
+            <index>0</index>
+            <comment>Manual entry popup</comment>
+        </Iobject>
+    </ManualPopup>
+
+    <Readings>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='android.widget.TextView' and @width>0 and ./preceding-sibling::*[@text] and ./parent::*[@class='android.widget.RelativeLayout']]</xpath>
+            <index>0</index>
+            <comment>Done</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='readingValue']</xpath>
+            <index>0</index>
+            <comment>Meal marker input</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='mminfobtn']</xpath>
+            <index>0</index>
+            <comment>Meal Marker - Info</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIButtonLabel' and @textColor='0x38414A']</xpath>
+            <index>0</index>
+            <comment>Done</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIButton' and ./parent::*[@class='YGPillView']]</xpath>
+            <index>0</index>
+            <comment>Meal marker input</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIImageView' and @height>0 and ./parent::*[@accessibilityLabel='Info icon']]</xpath>
+            <index>0</index>
+            <comment>Meal Marker - Info</comment>
+        </Iobject>
+    </Readings>
+
+    <ReadingsTooltip>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='modaldayttl']</xpath>
+            <index>0</index>
+            <comment>Manual Readings popup</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='instruction_info_One']</xpath>
+            <index>0</index>
+            <comment>Manual Readings popup - Instructions</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UILabel' and @backgroundColor='0xA6A6A6']</xpath>
+            <index>0</index>
+            <comment>Manual Readings popup</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UITextView']</xpath>
+            <index>0</index>
+            <comment>Manual Readings popup - Instructions</comment>
+        </Iobject>
+    </ReadingsTooltip>
+
+    <CloseReadingTooltip>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='mmcloseicon']</xpath>
+            <index>0</index>
+            <comment>Manual Readings popup - Close</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='mmclosebtn']</xpath>
+            <index>0</index>
+            <comment>Meal Marker - Close</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIImageView' and @height>0 and ./parent::*[@accessibilityLabel='cross']]</xpath>
+            <index>0</index>
+            <comment>Manual Readings popup - Close</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIImageView' and @height>0 and ./parent::*[@accessibilityLabel='closeBtn']]</xpath>
+            <index>0</index>
+            <comment>Meal Marker - Close</comment>
+        </Iobject>
+    </CloseReadingTooltip>
+
+    <ManualEntryPopup>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='txt_title']</xpath>
+            <index>0</index>
+            <comment>Manual entry popup</comment>
+        </Aobject>
+
+        <!-- TODO for iphone-->
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='txt_title']</xpath>
+            <index>0</index>
+            <comment>Manual entry popup</comment>
+        </Iobject>
+    </ManualEntryPopup>
+
+    <ClickOK>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='btn_yes']</xpath>
+            <index>0</index>
+            <comment>OK</comment>
+        </Aobject>
+
+        <!-- TODO for iphone-->
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='btn_yes']</xpath>
+            <index>0</index>
+            <comment>OK</comment>
+        </Iobject>
+    </ClickOK>
+
+    <CancelButton>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='cancelTextView']</xpath>
+            <index>0</index>
+            <comment>Edit Entry - Cancel</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UINavigationButton']</xpath>
+            <index>0</index>
+            <comment>Edit Entry - Cancel</comment>
+        </Iobject>
+    </CancelButton>
+
+    <DiscardPopup>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='cancelTitleTV']</xpath>
+            <index>0</index>
+            <comment>Discard Changes popup</comment>
+        </Aobject>
+
+        <!-- TODO for iphone-->
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='cancelTitleTV']</xpath>
+            <index>0</index>
+            <comment>Discard Changes popup</comment>
+        </Iobject>
+    </DiscardPopup>
+
+    <DiscardButton>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='discardButton']</xpath>
+            <index>0</index>
+            <comment>Discard Changes popup - Discard</comment>
+        </Aobject>
+
+        <!-- TODO for iphone-->
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='discardButton']</xpath>
+            <index>0</index>
+            <comment>Discard Changes popup - Discard</comment>
+        </Iobject>
+    </DiscardButton>
+
+    <ToMyReminders>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@id='left_drawer']/*/*[@id='lblListHeaderSlideView'])[3]</xpath>
+            <index>0</index>
+            <comment>My Reminders</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='YGLinedView']</xpath>
+            <index>2</index>
+            <comment>My Reminders</comment>
+        </Iobject>
+    </ToMyReminders>
+
+    <AddReminder>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='DIV' and @width>0])[8]</xpath>
+            <index>0</index>
+            <comment>Create Reminder button</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='selectReminderType']/*/*/*[@nodeName='SPAN' and @width>0])[2]</xpath>
+            <index>0</index>
+            <comment>Smart Reminder Plan</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='DIV' and @width>0])[7]</xpath>
+            <index>0</index>
+            <comment>Smart Reminder Plans - Info</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='DIV' and @width>0])[8]</xpath>
+            <index>0</index>
+            <comment>Create Reminder button</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='selectReminderType']/*/*/*[@text and @nodeName='SPAN' and @width>0 and ./parent::*[@text and @nodeName='DIV']])[2]</xpath>
+            <index>0</index>
+            <comment>Smart Reminder Plan</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='DIV' and @width>0])[7]</xpath>
+            <index>0</index>
+            <comment>Smart Reminder Plans - Info</comment>
+        </Iobject>
+    </AddReminder>
+
+    <ReminderTooltip>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./following-sibling::*[@nodeName='IMG'] and ./parent::*[@text and @nodeName='DIV']]</xpath>
+            <index>0</index>
+            <comment>Smart Reminders</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[21]</xpath>
+            <index>0</index>
+            <comment>Smart Reminders tooltip</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[22]</xpath>
+            <index>0</index>
+            <comment>Smart Reminders tooltip</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@nodeName='IMG']]</xpath>
+            <index>0</index>
+            <comment>Smart Reminders</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[21]</xpath>
+            <index>0</index>
+            <comment>Smart Reminders tooltip</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[22]</xpath>
+            <index>0</index>
+            <comment>Smart Reminders tooltip</comment>
+        </Iobject>
+    </ReminderTooltip>
+
+    <Closetooltip>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='IMG' and @width>0 and ./preceding-sibling::*[@text]]</xpath>
+            <index>0</index>
+            <comment>Smart Reminders tooltip - Close</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='DIV' and @width>0])[5]</xpath>
+            <index>0</index>
+            <comment>Smart Reminder Plans - Back</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='DIV' and @width>0])[6]</xpath>
+            <index>0</index>
+            <comment>Menu</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='IMG' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Smart Reminders tooltip - Close</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='DIV' and @width>0])[5]</xpath>
+            <index>0</index>
+            <comment>Smart Reminder Plans - Back</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@accessibilityLabel='Menu icn 1x']</xpath>
+            <index>0</index>
+            <comment>Menu</comment>
+        </Iobject>
+    </Closetooltip>
+
+    <GotoMyReadings>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@id='left_drawer']/*/*[@id='lblListHeaderSlideView'])[1]</xpath>
+            <index>0</index>
+            <comment>My Readings</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='YGLinedView']</xpath>
+            <index>0</index>
+            <comment>My Readings</comment>
+        </Iobject>
+    </GotoMyReadings>
+
+    <MyCare>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@id='left_drawer']/*/*[@id='lblListHeaderSlideView'])[4]</xpath>
+            <index>0</index>
+            <comment>My Care</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='YGLinedView']</xpath>
+            <index>3</index>
+            <comment>My Care</comment>
+        </Iobject>
+    </MyCare>
+
+    <TargetRange>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV' and ./parent::*[@id='menu_appt']]])[1]</xpath>
+            <index>0</index>
+            <comment>Target Ranges</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV' and ./parent::*[@id='menu_appt']]])[1]</xpath>
+            <index>0</index>
+            <comment>Target Ranges</comment>
+        </Iobject>
+    </TargetRange>
+
+    <TargetRangeInfo>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='tr_header_info_right']</xpath>
+            <index>0</index>
+            <comment>Target Ranges - Info</comment>
+         </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='tr_header_info_right']</xpath>
+            <index>0</index>
+            <comment>Target Ranges - Info</comment>
+         </Iobject>
+    </TargetRangeInfo>
+
+    <TargetRangeTooltip>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./following-sibling::*[@nodeName='IMG'] and ./parent::*[@text and @nodeName='DIV' and ./parent::*[@id='targetranges-popup']]]</xpath>
+            <index>0</index>
+            <comment>Target Ranges</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='targetranges-popup-content1']</xpath>
+            <index>0</index>
+            <comment>Target Ranges popup content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[45]</xpath>
+            <index>0</index>
+            <comment>Target Ranges popup content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='targetranges-popup-content2']</xpath>
+            <index>0</index>
+            <comment>Target Ranges popup content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[47]</xpath>
+            <index>0</index>
+            <comment>Target Ranges popup content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='targetranges-popup-content3']</xpath>
+            <index>0</index>
+            <comment>Target Ranges popup content</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./following-sibling::*[@nodeName='IMG'] and ./parent::*[@text and @nodeName='DIV' and ./parent::*[@id='targetranges-popup']]]</xpath>
+            <index>0</index>
+            <comment>Target Ranges</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='targetranges-popup-content1']</xpath>
+            <index>0</index>
+            <comment>Target Ranges popup content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[45]</xpath>
+            <index>0</index>
+            <comment>Target Ranges popup content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='targetranges-popup-content2']</xpath>
+            <index>0</index>
+            <comment>Target Ranges popup content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[47]</xpath>
+            <index>0</index>
+            <comment>Target Ranges popup content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='targetranges-popup-content3']</xpath>
+            <index>0</index>
+            <comment>Target Ranges popup content</comment>
+        </Iobject>
+    </TargetRangeTooltip>
+
+    <TargetRangeTooltip1>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='SPAN' and @width>0])[6]</xpath>
+            <index>0</index>
+            <comment>Target Ranges popup content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='SPAN' and @width>0])[7]</xpath>
+            <index>0</index>
+            <comment>Target Ranges popup content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='SPAN' and @width>0])[8]</xpath>
+            <index>0</index>
+            <comment>Target Ranges popup content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='SPAN' and @width>0])[9]</xpath>
+            <index>0</index>
+            <comment>Target Ranges popup content</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='SPAN' and @width>0])[6]</xpath>
+            <index>0</index>
+            <comment>Target Ranges popup content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='SPAN' and @width>0])[7]</xpath>
+            <index>0</index>
+            <comment>Target Ranges popup content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='SPAN' and @width>0])[8]</xpath>
+            <index>0</index>
+            <comment>Target Ranges popup content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='SPAN' and @width>0])[9]</xpath>
+            <index>0</index>
+            <comment>Target Ranges popup content</comment>
+        </Iobject>
+    </TargetRangeTooltip1>
+
+    <ClickInfo>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='tr_header_info_right']</xpath>
+            <index>0</index>
+            <comment>Target Ranges - Info</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='tr_header_info_right']</xpath>
+            <index>0</index>
+            <comment>Target Ranges - Info</comment>
+        </Iobject>
+    </ClickInfo>
+
+    <ClickCloseBtn>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='IMG' and @width>0 and ./preceding-sibling::*[@width>0] and ./parent::*[@text and @width>0 and ./parent::*[@id='targetranges-popup']]]</xpath>
+            <index>0</index>
+            <comment>Target Ranges info - Close</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='IMG' and @width>0 and ./preceding-sibling::*[@width>0] and ./parent::*[@text and @width>0 and ./parent::*[@id='targetranges-popup']]]</xpath>
+            <index>0</index>
+            <comment>Target Ranges info - Close</comment>
+        </Iobject>
+    </ClickCloseBtn>
+
+    <ClickCriticalHigh>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV']])[8]</xpath>
+            <index>0</index>
+            <comment>Critical High</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV']])[8]</xpath>
+            <index>0</index>
+            <comment>Critical High</comment>
+        </Iobject>
+    </ClickCriticalHigh>
+
+    <CriticalHighInfo>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./following-sibling::*[@nodeName='IMG'] and ./parent::*[@text and @nodeName='DIV']]</xpath>
+            <index>0</index>
+            <comment>Target Ranges Header</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='tgtRangeKnobTxt']</xpath>
+            <index>0</index>
+            <comment>Critical High popup content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='SPAN' and @width>0 and ./preceding-sibling::*[@nodeName='IMG']])[2]</xpath>
+            <index>0</index>
+            <comment>Critical High popup content</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./following-sibling::*[@nodeName='IMG'] and ./parent::*[@text and @nodeName='DIV']]</xpath>
+            <index>0</index>
+            <comment>Target Ranges Header</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='tgtRangeKnobTxt']</xpath>
+            <index>0</index>
+            <comment>Critical High popup content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='SPAN' and @width>0 and ./preceding-sibling::*[@nodeName='IMG']])[2]</xpath>
+            <index>0</index>
+            <comment>Critical High popup content</comment>
+        </Iobject>
+    </CriticalHighInfo>
+
+    <CriticalHighInfoClose>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='IMG' and @width>0 and ./preceding-sibling::*[@text and @width>0] and ./parent::*[@text and @width>0]]</xpath>
+            <index>0</index>
+            <comment>Critical High popup - Close</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='IMG' and @width>0 and ./preceding-sibling::*[@text and @width>0] and ./parent::*[@text and @width>0]]</xpath>
+            <index>0</index>
+            <comment>Critical High popup - Close</comment>
+        </Iobject>
+    </CriticalHighInfoClose>
+
+    <ClickBackBtn>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='setting_tr_backbutton']</xpath>
+            <index>0</index>
+            <comment>Back</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='setting_tr_backbutton']</xpath>
+            <index>0</index>
+            <comment>Back</comment>
+        </Iobject>
+    </ClickBackBtn>
+
+    <ClickOverallHigh>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV']])[14]</xpath>
+            <index>0</index>
+            <comment>After Meal or Overall High</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV']])[14]</xpath>
+            <index>0</index>
+            <comment>After Meal or Overall High</comment>
+        </Iobject>
+    </ClickOverallHigh>
+
+    <ClickBeforeMeal>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV']])[20]</xpath>
+            <index>0</index>
+            <comment>Before Meal or Fasting High</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV']])[20]</xpath>
+            <index>0</index>
+            <comment>Before Meal or Fasting High</comment>
+        </Iobject>
+    </ClickBeforeMeal>
+
+    <ClickCriticalLow>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV']])[32]</xpath>
+            <index>0</index>
+            <comment>Critical Low</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV']])[32]</xpath>
+            <index>0</index>
+            <comment>Critical Low</comment>
+        </Iobject>
+    </ClickCriticalLow>
+
+    <ClickLow>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV']])[26]</xpath>
+            <index>0</index>
+            <comment>Low</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV']])[26]</xpath>
+            <index>0</index>
+            <comment>Low</comment>
+        </Iobject>
+    </ClickLow>
+
+    <ClickSummaryView>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV']])[38]</xpath>
+            <index>0</index>
+            <comment>Summary View</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV']])[38]</xpath>
+            <index>0</index>
+            <comment>Summary View</comment>
+        </Iobject>
+    </ClickSummaryView>
+
+    <SummarySpan>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./following-sibling::*[@nodeName='IMG'] and ./parent::*[@text and @nodeName='DIV' and ./parent::*[@id='targetranges-popup']]]</xpath>
+            <index>0</index>
+            <comment>Target Ranges</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='targetranges-popup-content1']</xpath>
+            <index>0</index>
+            <comment>Target Ranges popup content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[49]</xpath>
+            <index>0</index>
+            <comment>Target Ranges popup content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='targetranges-popup-content2']</xpath>
+            <index>0</index>
+            <comment>Target Ranges popup content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[51]</xpath>
+            <index>0</index>
+            <comment>Target Ranges popup content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='targetranges-popup-content3']</xpath>
+            <index>0</index>
+            <comment>Target Ranges popup content</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./following-sibling::*[@nodeName='IMG'] and ./parent::*[@text and @nodeName='DIV' and ./parent::*[@id='targetranges-popup']]]</xpath>
+            <index>0</index>
+            <comment>Target Ranges</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='targetranges-popup-content1']</xpath>
+            <index>0</index>
+            <comment>Target Ranges popup content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[49]</xpath>
+            <index>0</index>
+            <comment>Target Ranges popup content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='targetranges-popup-content2']</xpath>
+            <index>0</index>
+            <comment>Target Ranges popup content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[51]</xpath>
+            <index>0</index>
+            <comment>Target Ranges popup content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='targetranges-popup-content3']</xpath>
+            <index>0</index>
+            <comment>Target Ranges popup content</comment>
+        </Iobject>
+    </SummarySpan>
+
+    <SummarySpan1>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Target Ranges popup content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='SPAN' and @width>0])[2]</xpath>
+            <index>0</index>
+            <comment>Target Ranges popup content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='SPAN' and @width>0])[3]</xpath>
+            <index>0</index>
+            <comment>Target Ranges popup content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='SPAN' and @width>0])[4]</xpath>
+            <index>0</index>
+            <comment>Target Ranges popup content</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Target Ranges popup content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='SPAN' and @width>0])[2]</xpath>
+            <index>0</index>
+            <comment>Target Ranges popup content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='SPAN' and @width>0])[3]</xpath>
+            <index>0</index>
+            <comment>Target Ranges popup content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='SPAN' and @width>0])[4]</xpath>
+            <index>0</index>
+            <comment>Target Ranges popup content</comment>
+        </Iobject>
+    </SummarySpan1>
+
+    <DayDividers>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='LI']]])[2]</xpath>
+            <index>0</index>
+            <comment>Day Dividers</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='LI']]])[2]</xpath>
+            <index>0</index>
+            <comment>Day Dividers</comment>
+        </Iobject>
+    </DayDividers>
+
+    <Breakfast>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[7]</xpath>
+            <index>0</index>
+            <comment>Breakfast</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[7]</xpath>
+            <index>0</index>
+            <comment>Breakfast</comment>
+        </Iobject>
+    </Breakfast>
+
+    <ClickInfoDayDivider>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='DIV' and @width>0])[10]</xpath>
+            <index>0</index>
+            <comment>Day Divider - Info</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='DIV' and @width>0])[10]</xpath>
+            <index>0</index>
+            <comment>Day Divider - Info</comment>
+        </Iobject>
+    </ClickInfoDayDivider>
+
+    <Lunch>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[13]</xpath>
+            <index>0</index>
+            <comment>Lunch</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[13]</xpath>
+            <index>0</index>
+            <comment>Lunch</comment>
+        </Iobject>
+    </Lunch>
+
+    <Dinner>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[19]</xpath>
+            <index>0</index>
+            <comment>Dinner</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[19]</xpath>
+            <index>0</index>
+            <comment>Dinner</comment>
+        </Iobject>
+    </Dinner>
+
+    <Overnight>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[25]</xpath>
+            <index>0</index>
+            <comment>Overnight</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[25]</xpath>
+            <index>0</index>
+            <comment>Overnight</comment>
+        </Iobject>
+    </Overnight>
+
+    <DayDividerInfo>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./preceding-sibling::*[@nodeName='IMG'] and ./parent::*[@text and @nodeName='DIV']]</xpath>
+            <index>0</index>
+            <comment>Day Dividers</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN'])[1]</xpath>
+            <index>0</index>
+            <comment>Day Dividers popup content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[2]</xpath>
+            <index>0</index>
+            <comment>Day Dividers popup content</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./preceding-sibling::*[@nodeName='IMG'] and ./parent::*[@text and @nodeName='DIV']]</xpath>
+            <index>0</index>
+            <comment>Day Dividers</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN'])[1]</xpath>
+            <index>0</index>
+            <comment>Day Dividers popup content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN' and @width>0])[2]</xpath>
+            <index>0</index>
+            <comment>Day Dividers popup content</comment>
+        </Iobject>
+    </DayDividerInfo>
+
+    <DayDividerClose>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='IMG' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Day Dividers popup - Close</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='IMG' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Day Dividers popup - Close</comment>
+        </Iobject>
+    </DayDividerClose>
+
+    <DayDividerBack>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='setting_daydiv_done']</xpath>
+            <index>0</index>
+            <comment>Back</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='setting_daydiv_done']</xpath>
+            <index>0</index>
+            <comment>Back</comment>
+        </Iobject>
+    </DayDividerBack>
+
+    <DayDividerClose1>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='setting_daydiv_backbutton']</xpath>
+            <index>0</index>
+            <comment>Day Dividers - Back</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='setting_daydiv_backbutton']</xpath>
+            <index>0</index>
+            <comment>Day Dividers - Back</comment>
+        </Iobject>
+    </DayDividerClose1>
+
+    <Healthcare>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='LI']]])[4]</xpath>
+            <index>0</index>
+            <comment>Healthcare Team</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='LI']]])[4]</xpath>
+            <index>0</index>
+            <comment>Healthcare Team</comment>
+        </Iobject>
+    </Healthcare>
+
+    <AddHealthcareTeam>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='righticonbtn3']</xpath>
+            <index>0</index>
+            <comment>Add Healthcare team</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='righticonbtn3']</xpath>
+            <index>0</index>
+            <comment>Add Healthcare team</comment>
+        </Iobject>
+    </AddHealthcareTeam>
+
+    <SendData>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='hcp_name_label2']</xpath>
+            <index>0</index>
+            <comment>Healthcare team - Name</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='hcp_title_label2']</xpath>
+            <index>0</index>
+            <comment>Healthcare team - Title</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='hcp_org_label2']</xpath>
+            <index>0</index>
+            <comment>Healthcare team - Organization</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='hcp_addr_label2']</xpath>
+            <index>0</index>
+            <comment>Healthcare team - Address</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='hcp_email_label2']</xpath>
+            <index>0</index>
+            <comment>Healthcare team - Email</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='hcp_name_label2']</xpath>
+            <index>0</index>
+            <comment>Healthcare team - Name</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='hcp_title_label2']</xpath>
+            <index>0</index>
+            <comment>Healthcare team - Title</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='hcp_org_label2']</xpath>
+            <index>0</index>
+            <comment>Healthcare team - Organization</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='hcp_addr_label2']</xpath>
+            <index>0</index>
+            <comment>Healthcare team - Address</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='hcp_email_label2']</xpath>
+            <index>0</index>
+            <comment>Healthcare team - Email</comment>
+        </Iobject>
+    </SendData>
+
+    <SendPhone>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='hcp_phone_label2']</xpath>
+            <index>0</index>
+            <comment>Healthcare team - Phone</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='hcp_phone_label2']</xpath>
+            <index>0</index>
+            <comment>Healthcare team - Phone</comment>
+        </Iobject>
+    </SendPhone>
+
+    <SaveData>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@css=concat('A.onyxbtn.preferredbtn.hcsavestyle.hcsavebtnfont.ui-link.ui-btn.ui-shadow[href=', "'", '#', "'", ']')]</xpath>
+            <index>0</index>
+            <comment>Healthcare team - Save</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@css=concat('A.onyxbtn.preferredbtn.hcsavestyle.hcsavebtnfont.ui-link.ui-btn.ui-shadow[href=', "'", '#', "'", ']')]</xpath>
+            <index>0</index>
+            <comment>Healthcare team - Save</comment>
+        </Iobject>
+    </SaveData>
+
+    <HealthcareBack>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='leftwordbtn3']</xpath>
+            <index>0</index>
+            <comment>Healthcare team - Back</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='leftwordbtn3']</xpath>
+            <index>0</index>
+            <comment>Healthcare team - Back</comment>
+        </Iobject>
+    </HealthcareBack>
+
+    <SendSugarReport>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0 and ./parent::*[./parent::*[@text]]]</xpath>
+            <index>0</index>
+            <comment>Send a blood sugar report</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='dp_info_icon_hcp']</xpath>
+            <index>0</index>
+            <comment>Blood Sugar Report - Info</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0 and ./parent::*[./parent::*[@text]]]</xpath>
+            <index>0</index>
+            <comment>Send a blood sugar report</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='dp_info_icon_hcp']</xpath>
+            <index>0</index>
+            <comment>Blood Sugar Report - Info</comment>
+        </Iobject>
+    </SendSugarReport>
+
+    <SummaryReport>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='summary_Report']</xpath>
+            <index>0</index>
+            <comment>Summary Report</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='summary_Report_Content']</xpath>
+            <index>0</index>
+            <comment>Blood Sugar Report popup content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='summary_Report_Content1']</xpath>
+            <index>0</index>
+            <comment>Blood Sugar Report popup content</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='summary_Report']</xpath>
+            <index>0</index>
+            <comment>Summary Report</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='summary_Report_Content']</xpath>
+            <index>0</index>
+            <comment>Blood Sugar Report popup content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='summary_Report_Content1']</xpath>
+            <index>0</index>
+            <comment>Blood Sugar Report popup content</comment>
+        </Iobject>
+    </SummaryReport>
+
+    <PopupClose>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='hcp_popup_close']</xpath>
+            <index>0</index>
+            <comment>Blood Sugar Report popup - Close</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='bloodSugar_back_icon']</xpath>
+            <index>0</index>
+            <comment>Blood Sugar Report popup - Back</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='hcp_popup_close']</xpath>
+            <index>0</index>
+            <comment>Blood Sugar Report popup - Close</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='bloodSugar_back_icon']</xpath>
+            <index>0</index>
+            <comment>Blood Sugar Report popup - Back</comment>
+        </Iobject>
+    </PopupClose>
+
+    <ClickMenuForMeters>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='lefticonbtn' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Menu</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@accessibilityLabel='Menu icn 1x']</xpath>
+            <index>0</index>
+            <comment>Menu</comment>
+        </Iobject>
+    </ClickMenuForMeters>
+
+    <MyMeters>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@id='left_drawer']/*/*[@id='lblListHeaderSlideView'])[5]</xpath>
+            <index>0</index>
+            <comment>Settings</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='YGLinedView']</xpath>
+            <index>4</index>
+            <comment>Settings</comment>
+        </Iobject>
+    </MyMeters>
+
+    <ClickMyMeters>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>My Meters</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>My Meters</comment>
+        </Iobject>
+    </ClickMyMeters>
+
+    <ClickMeter>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='devicename_0']</xpath>
+            <index>0</index>
+            <comment>My Meters - Click Meter</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='devicename_0']</xpath>
+            <index>0</index>
+            <comment>My Meters - Click Meter</comment>
+        </Iobject>
+    </ClickMeter>
+
+
+    <UnpairMeter>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='unpairbtn_0']</xpath>
+            <index>0</index>
+            <comment>My Meters - Unpair Meter</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[5]</xpath>
+            <index>0</index>
+            <comment>My Meters - Unpair Meter info</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='unpairbtn_0']</xpath>
+            <index>0</index>
+            <comment>My Meters - Unpair Meter</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[5]</xpath>
+            <index>0</index>
+            <comment>My Meters - Unpair Meter info</comment>
+        </Iobject>
+    </UnpairMeter>
+
+    <UnpairingTooltip>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./following-sibling::*[@nodeName='IMG'] and ./parent::*[@text and @nodeName='DIV']]</xpath>
+            <index>0</index>
+            <comment>Unpairing</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN'])[1]</xpath>
+            <index>0</index>
+            <comment>Unpairing tooltip - content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Unpairing tooltip - content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[2]</xpath>
+            <index>0</index>
+            <comment>Unpairing tooltip - content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[3]</xpath>
+            <index>0</index>
+            <comment>Unpairing tooltip - content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN'])[2]</xpath>
+            <index>0</index>
+            <comment>Unpairing tooltip - content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[4]</xpath>
+            <index>0</index>
+            <comment>Unpairing tooltip - content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[5]</xpath>
+            <index>0</index>
+            <comment>Unpairing tooltip - content</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./following-sibling::*[@nodeName='IMG'] and ./parent::*[@text and @nodeName='DIV']]</xpath>
+            <index>0</index>
+            <comment>Unpairing</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN'])[1]</xpath>
+            <index>0</index>
+            <comment>Unpairing tooltip - content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Unpairing tooltip - content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[2]</xpath>
+            <index>0</index>
+            <comment>Unpairing tooltip - content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[3]</xpath>
+            <index>0</index>
+            <comment>Unpairing tooltip - content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='SPAN'])[2]</xpath>
+            <index>0</index>
+            <comment>Unpairing tooltip - content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[4]</xpath>
+            <index>0</index>
+            <comment>Unpairing tooltip - content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[5]</xpath>
+            <index>0</index>
+            <comment>Unpairing tooltip - content</comment>
+        </Iobject>
+    </UnpairingTooltip>
+
+    <CloseUnpairTooltip>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='IMG' and ./preceding-sibling::*[@text] and ./parent::*[@width>0]]</xpath>
+            <index>0</index>
+            <comment>Unpairing tooltip - close</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[4]</xpath>
+            <index>0</index>
+            <comment>Unpairing tooltip - back</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='IMG' and ./preceding-sibling::*[@text] and ./parent::*[@width>0]]</xpath>
+            <index>0</index>
+            <comment>Unpairing tooltip - close</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[4]</xpath>
+            <index>0</index>
+            <comment>Unpairing tooltip - back</comment>
+        </Iobject>
+    </CloseUnpairTooltip>
+
+    <AddMeterIcon>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='hiderighticon']</xpath>
+            <index>0</index>
+            <comment>My Meters - Add</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='pminfobutton']</xpath>
+            <index>0</index>
+            <comment>Pair a Meter - Info</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='hiderighticon']</xpath>
+            <index>0</index>
+            <comment>My Meters - Add</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='pminfobutton']</xpath>
+            <index>0</index>
+            <comment>Pair a Meter - Info</comment>
+        </Iobject>
+    </AddMeterIcon>
+
+    <PairInfo>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./following-sibling::*[@nodeName='IMG'] and ./parent::*[@text and @nodeName='DIV' and @width>0]]</xpath>
+            <index>0</index>
+            <comment>What is pairing?</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[14]</xpath>
+            <index>0</index>
+            <comment>Pair a meter popup content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[15]</xpath>
+            <index>0</index>
+            <comment>Pair a meter popup content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[16]</xpath>
+            <index>0</index>
+            <comment>Pair a meter popup content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[17]</xpath>
+            <index>0</index>
+            <comment>Pair a meter popup content</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./following-sibling::*[@nodeName='IMG'] and ./parent::*[@text and @nodeName='DIV' and @width>0]]</xpath>
+            <index>0</index>
+            <comment>What is pairing?</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[14]</xpath>
+            <index>0</index>
+            <comment>Pair a meter popup content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[15]</xpath>
+            <index>0</index>
+            <comment>Pair a meter popup content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[16]</xpath>
+            <index>0</index>
+            <comment>Pair a meter popup content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[17]</xpath>
+            <index>0</index>
+            <comment>Pair a meter popup content</comment>
+        </Iobject>
+    </PairInfo>
+
+    <PairClose>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='IMG' and @width>0 and ./preceding-sibling::*[@width>0] and ./parent::*[@width>0]]</xpath>
+            <index>0</index>
+            <comment>Pair a meter popup - Close</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='pairmeterbtn']</xpath>
+            <index>0</index>
+            <comment>Pair a Meter - Continue</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='pairmeterbtn']</xpath>
+            <index>0</index>
+            <comment>Pair a Meter - Continue</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='IMG' and @width>0 and ./preceding-sibling::*[@width>0] and ./parent::*[@width>0]]</xpath>
+            <index>0</index>
+            <comment>Pair a meter popup - Close</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='pairmeterbtn']</xpath>
+            <index>0</index>
+            <comment>Pair a Meter - Continue</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='pairmeterbtn']</xpath>
+            <index>0</index>
+            <comment>Pair a Meter - Continue</comment>
+        </Iobject>
+    </PairClose>
+
+    <WaitForVanish>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='underloading']</xpath>
+            <index>0</index>
+            <comment>Connecting to meter</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='underloading']</xpath>
+            <index>0</index>
+            <comment>Connecting to meter</comment>
+        </Iobject>
+    </WaitForVanish>
+
+    <SelectMeter>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./preceding-sibling::*[@nodeName='IMG'] and ./parent::*[@nodeName='DIV' and @width>0]]</xpath>
+            <index>0</index>
+            <comment>Select your meter</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./preceding-sibling::*[@nodeName='IMG'] and ./parent::*[@nodeName='DIV' and @width>0]]</xpath>
+            <index>0</index>
+            <comment>Select your meter</comment>
+        </Iobject>
+    </SelectMeter>
+
+    <ClickMeterInfo>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='DIV' and @width>0])[11]</xpath>
+            <index>0</index>
+            <comment>Select your meter - Info</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='DIV' and @width>0])[11]</xpath>
+            <index>0</index>
+            <comment>Select your meter - Info</comment>
+        </Iobject>
+    </ClickMeterInfo>
+
+    <SelectMeterInfo>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./following-sibling::*[@nodeName='IMG'] and ./parent::*[@text and @nodeName='DIV' and @width>0]]</xpath>
+            <index>0</index>
+            <comment>Select your meter popup - Header</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[25]</xpath>
+            <index>0</index>
+            <comment>Select your meter popup content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Select your meter popup content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@nodeName='SPAN' and @width>0])[2]</xpath>
+            <index>0</index>
+            <comment>Select your meter popup content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[28]</xpath>
+            <index>0</index>
+            <comment>Select your meter popup content</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./following-sibling::*[@nodeName='IMG'] and ./parent::*[@text and @nodeName='DIV' and @width>0]]</xpath>
+            <index>0</index>
+            <comment>Select your meter popup - Header</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[25]</xpath>
+            <index>0</index>
+            <comment>Select your meter popup content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Select your meter popup content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@nodeName='SPAN' and @width>0])[2]</xpath>
+            <index>0</index>
+            <comment>Select your meter popup content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[28]</xpath>
+            <index>0</index>
+            <comment>Select your meter popup content</comment>
+        </Iobject>
+    </SelectMeterInfo>
+
+    <CloseNContinue>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='IMG' and @width>0 and ./preceding-sibling::*[@width>0] and ./parent::*[@text and @width>0]]</xpath>
+            <index>0</index>
+            <comment>Select your meter popup - Close</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='A' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Select your meter popup - Continue</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='IMG' and @width>0 and ./preceding-sibling::*[@width>0] and ./parent::*[@text and @width>0]]</xpath>
+            <index>0</index>
+            <comment>Select your meter popup - Close</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='A' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Select your meter popup - Continue</comment>
+        </Iobject>
+    </CloseNContinue>
+
+    <NoPair>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='pminfobutton2']</xpath>
+            <index>0</index>
+            <comment>Pairing unsuccessful - Info</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='pminfobutton2']</xpath>
+            <index>0</index>
+            <comment>Pairing unsuccessful - Info</comment>
+        </Iobject>
+    </NoPair>
+
+    <NoPairInfo>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./following-sibling::*[@nodeName='IMG'] and ./parent::*[@text and @nodeName='DIV' and @width>0]]</xpath>
+            <index>0</index>
+            <comment>Pairing unsuccessful popup - Header</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[20]</xpath>
+            <index>0</index>
+            <comment>Pairing unsuccessful popup content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Pairing unsuccessful popup content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[2]</xpath>
+            <index>0</index>
+            <comment>Pairing unsuccessful popup content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[3]</xpath>
+            <index>0</index>
+            <comment>Pairing unsuccessful popup content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[4]</xpath>
+            <index>0</index>
+            <comment>Pairing unsuccessful popup content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[22]</xpath>
+            <index>0</index>
+            <comment>Pairing unsuccessful popup content</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./following-sibling::*[@nodeName='IMG'] and ./parent::*[@text and @nodeName='DIV' and @width>0]]</xpath>
+            <index>0</index>
+            <comment>Pairing unsuccessful popup - Header</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[20]</xpath>
+            <index>0</index>
+            <comment>Pairing unsuccessful popup content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Pairing unsuccessful popup content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[2]</xpath>
+            <index>0</index>
+            <comment>Pairing unsuccessful popup content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[3]</xpath>
+            <index>0</index>
+            <comment>Pairing unsuccessful popup content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[4]</xpath>
+            <index>0</index>
+            <comment>Pairing unsuccessful popup content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[22]</xpath>
+            <index>0</index>
+            <comment>Pairing unsuccessful popup content</comment>
+        </Iobject>
+    </NoPairInfo>
+
+    <PairpopupClose>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='IMG' and @width>0 and ./preceding-sibling::*[@text] and ./parent::*[@width>0]]</xpath>
+            <index>0</index>
+            <comment>Pairing unsuccessful popup - Close</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='A' and @width>0])[2]</xpath>
+            <index>0</index>
+            <comment>Pairing unsuccessful popup - Cancel</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[4]</xpath>
+            <index>0</index>
+            <comment>My Meters - Back</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[4]</xpath>
+            <index>0</index>
+            <comment>Menu</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@id='left_drawer']/*/*[@id='lblListHeaderSlideView'])[1]</xpath>
+            <index>0</index>
+            <comment>My Readings</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='IMG' and @width>0 and ./preceding-sibling::*[@text] and ./parent::*[@width>0]]</xpath>
+            <index>0</index>
+            <comment>Pairing unsuccessful popup - Close</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='A' and @width>0])[2]</xpath>
+            <index>0</index>
+            <comment>Pairing unsuccessful popup - Cancel</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[4]</xpath>
+            <index>0</index>
+            <comment>My Meters - Back</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[4]</xpath>
+            <index>0</index>
+            <comment>Menu</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='YGLinedView']</xpath>
+            <index>0</index>
+            <comment>My Readings</comment>
+        </Iobject>
+    </PairpopupClose>
+
+    <Appointments>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and ./parent::*[@nodeName='DIV' and ./parent::*[@id='menu_appt']]])[2]</xpath>
+            <index>0</index>
+            <comment>Appointments</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[6]</xpath>
+            <index>0</index>
+            <comment>Appointments - Add</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='textbox1']</xpath>
+            <index>0</index>
+            <comment>New Appointment - title</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and ./parent::*[@nodeName='DIV' and ./parent::*[@id='menu_appt']]])[2]</xpath>
+            <index>0</index>
+            <comment>Appointments</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='righticonbtn2']</xpath>
+            <index>0</index>
+            <comment>Appointments - Add</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='textbox1']</xpath>
+            <index>0</index>
+            <comment>New Appointment - title</comment>
+        </Iobject>
+    </Appointments>
+
+    <ClickDate>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='dateofBirth']</xpath>
+            <index>0</index>
+            <comment>New Appointment - Date</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='dateofBirth']</xpath>
+            <index>0</index>
+            <comment>New Appointment - Date</comment>
+        </Iobject>
+    </ClickDate>
+
+    <SelectDate>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(((//*[@nodeName='DIV' and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='DIV' and ./parent::*[@id='demo_dateandtime']]]]]]]/*/*[@nodeName='DIV' and ./parent::*[@nodeName='DIV']])[1]/*/*/*/*/*/*[@nodeName='DIV' and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='DIV' and ./following-sibling::*[@nodeName='DIV'] and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='DIV']] and ./following-sibling::*[@nodeName='DIV']]]]])[5]/*/*/*[@nodeName='SPAN' and ./parent::*[@width>0 and ./parent::*[@width>0]]])[4]</xpath>
+            <index>0</index>
+            <comment>New Appointment - Date</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@css='DIV.dw-i' and @class='dw-i' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+            <index>1</index>
+            <comment>New Appointment - Date</comment>
+        </Iobject>
+    </SelectDate>
+
+    <DoneNSave>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='dateandtime_done']</xpath>
+            <index>0</index>
+            <comment>New Appointment - Done</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and ./parent::*[@id='save_footer']]</xpath>
+            <index>0</index>
+            <comment>New Appointment - Save</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and ./parent::*[@width>0 and ./parent::*[@id='preVisit']]]</xpath>
+            <index>0</index>
+            <comment>New Appointment - Pre-visit</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='diabeticType1']/*[@nodeName='SPAN'])[1]</xpath>
+            <index>0</index>
+            <comment>New Appointment - Insulin user</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='dateandtime_done']</xpath>
+            <index>0</index>
+            <comment>New Appointment - Done</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and ./parent::*[@id='save_footer']]</xpath>
+            <index>0</index>
+            <comment>New Appointment - Save</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and ./parent::*[@width>0 and ./parent::*[@id='preVisit']]]</xpath>
+            <index>0</index>
+            <comment>New Appointment - Pre-visit</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='diabeticType1']/*[@nodeName='SPAN'])[1]</xpath>
+            <index>0</index>
+            <comment>New Appointment - Insulin user</comment>
+        </Iobject>
+    </DoneNSave>
+
+    <AppInfo>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='IMG' and ./parent::*[@nodeName='SPAN']]</xpath>
+            <index>0</index>
+            <comment>New Appointment - Info</comment>
+        </Aobject>
+
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='IMG' and ./parent::*[@nodeName='SPAN']]</xpath>
+            <index>0</index>
+            <comment>New Appointment - Info</comment>
+        </Iobject>
+    </AppInfo>
+
+    <MealMarkerGuide>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@text and @nodeName='DIV' and ./parent::*[@id='smartTestingApp_pop']] and ./following-sibling::*[@nodeName='DIV']]</xpath>
+            <index>0</index>
+            <comment>Meal Marker Guide</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='smartTestingApp_pop']/*/*[@text and @nodeName='SPAN' and ./preceding-sibling::*[@nodeName='IMG']])[1]</xpath>
+            <index>0</index>
+            <comment>Meal Marker Guide - content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='smartTestingApp_pop']/*/*[@text and @nodeName='SPAN' and ./preceding-sibling::*[@nodeName='IMG']])[2]</xpath>
+            <index>0</index>
+            <comment>Meal Marker Guide - content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='smartTestingApp_pop']/*/*[@text and @nodeName='SPAN' and
+                ./preceding-sibling::*[@nodeName='IMG']])[3]</xpath>
+            <index>0</index>
+            <comment>Meal Marker Guide - content</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@text and @nodeName='DIV' and ./parent::*[@id='smartTestingApp_pop']] and ./following-sibling::*[@nodeName='DIV']]</xpath>
+            <index>0</index>
+            <comment>Meal Marker Guide</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='smartTestingApp_pop']/*/*[@text and @nodeName='SPAN' and ./preceding-sibling::*[@nodeName='IMG']])[1]</xpath>
+            <index>0</index>
+            <comment>Meal Marker Guide - content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='smartTestingApp_pop']/*/*[@text and @nodeName='SPAN' and ./preceding-sibling::*[@nodeName='IMG']])[2]</xpath>
+            <index>0</index>
+            <comment>Meal Marker Guide - content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='smartTestingApp_pop']/*/*[@text and @nodeName='SPAN' and
+                ./preceding-sibling::*[@nodeName='IMG']])[3]</xpath>
+            <index>0</index>
+            <comment>Meal Marker Guide - content</comment>
+        </Iobject>
+    </MealMarkerGuide>
+
+    <AppointmentClose>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='DIV' and @width>0])[28]</xpath>
+            <index>0</index>
+            <comment>Meal Marker Guide - close</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='DIV' and @width>0])[6]</xpath>
+            <index>0</index>
+            <comment>Appointment - close</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[4]</xpath>
+            <index>0</index>
+            <comment>Appointment - Back</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='appoint_detail_header']]]</xpath>
+            <index>0</index>
+            <comment>Appointment - Back</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[4]</xpath>
+            <index>0</index>
+            <comment>Appointment - Back</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='DIV' and @width>0])[28]</xpath>
+            <index>0</index>
+            <comment>Meal Marker Guide - close</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='DIV' and @width>0])[6]</xpath>
+            <index>0</index>
+            <comment>Appointment - close</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[4]</xpath>
+            <index>0</index>
+            <comment>Appointment - Back</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./following-sibling::*[@id='appoint_detail_header']]]</xpath>
+            <index>0</index>
+            <comment>Appointment - Back</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[4]</xpath>
+            <index>0</index>
+            <comment>Appointment - Back</comment>
+        </Iobject>
+    </AppointmentClose>
+
+    <DoneBtn>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIButtonLabel' and @knownSuperClass='UILabel' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+            <index>0</index>
+            <comment>New Appointment - Title done</comment>
+        </Iobject>
+    </DoneBtn>
+</root>

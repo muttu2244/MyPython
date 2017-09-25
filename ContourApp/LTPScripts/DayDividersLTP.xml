@@ -1,0 +1,185 @@
+﻿<root>
+    <DayDividerScreen>
+		<trans-unit id="COMM_daydividerbtn">
+			<english>Day Dividers</english>
+			<german>Tagesaufteilung</german>
+		</trans-unit>
+		<trans-unit id="COMM_breakfastreminder">
+			<english>Breakfast</english>
+			<german>Frühstück</german>
+		</trans-unit>
+		<trans-unit id="COMM_lunchbtn">
+			<english>Lunch</english>
+			<german>Mittagessen</german>
+		</trans-unit>
+		<trans-unit id="COMM_dinnerbtn">
+			<english>Dinner</english>
+			<german>Abendessen</german>
+		</trans-unit>
+		<trans-unit id="COMM_overNightbtn">
+			<english>Overnight</english>
+			<german>Nacht</german>
+		</trans-unit>
+		<trans-unit id="DayDividersDayDivChangeNote">
+			<english>Note: Changing your Day Dividers may affect your patterns and pattern detection.</english>
+			<german>Hinweis: Änderungen an der Tagesaufteilung können sich auf Ihre Muster und die Erkennung von Mustern auswirken.</german>
+		</trans-unit>
+	</DayDividerScreen>
+
+	<DayDividerScreen1>
+		<trans-unit id="comm_daterange">
+			<english>5:00AM - 11:00AM</english>
+            <german>5:00AM - 11:00AM</german>
+		</trans-unit>
+		<trans-unit id="comm_daterange">
+			<english>11:00AM - 4:00PM</english>
+            <german>11:00AM - 4:00PM</german>
+		</trans-unit>
+		<trans-unit id="comm_daterange">
+			<english>4:00PM - 9:00PM</english>
+            <german>4:00PM - 9:00PM</german>
+		</trans-unit>
+		<trans-unit id="comm_daterange">
+			<english>9:00PM - 5:00AM</english>
+            <german>9:00PM - 5:00AM</german>
+		</trans-unit>
+	</DayDividerScreen1>
+
+    <BrkfastScreen1>
+        <trans-unit id="COMM_breakfastreminder">
+			<english>Breakfast</english>
+			<german>Frühstück</german>
+		</trans-unit>
+        <trans-unit id="COMM_breakfastreminder">
+			<english>Breakfast</english>
+			<german>Frühstück</german>
+		</trans-unit>
+    </BrkfastScreen1>
+
+    <BrkfastScreen2>
+        <trans-unit id="comm_daterange">
+			<english>5:00AM - 11:00AM</english>
+            <german>5:00AM - 11:00AM</german>
+		</trans-unit>
+    </BrkfastScreen2>
+
+    <BrkfastScreen3>
+        <trans-unit id="COMM_breakfastreminder">
+			<english>Breakfast</english>
+			<german>Frühstück</german>
+		</trans-unit>
+        <trans-unit id="COMM_lunchbtn">
+			<english>Lunch</english>
+			<german>Mittagessen</german>
+		</trans-unit>
+    </BrkfastScreen3>
+
+    <BrkfastScreen4>
+        <trans-unit id="comm_daterange">
+			<english>5:00AM - 12:00PM</english>
+            <german>5:00AM - 12:00PM</german>
+		</trans-unit>
+		<trans-unit id="comm_daterange">
+			<english>12:00PM - 4:00PM</english>
+            <german>12:00PM - 4:00PM</german>
+		</trans-unit>
+    </BrkfastScreen4>
+
+    <BrkfastScreen5>
+        <trans-unit id="COMM_overNightbtn">
+			<english>Overnight</english>
+			<german>Nacht</german>
+		</trans-unit>
+        <trans-unit id="COMM_breakfastreminder">
+			<english>Breakfast</english>
+			<german>Frühstück</german>
+		</trans-unit>
+    </BrkfastScreen5>
+
+    <BrkfastScreen6>
+        <trans-unit id="comm_daterange">
+			<english>9:00PM - 4:00AM</english>
+            <german>9:00PM - 4:00AM</german>
+		</trans-unit>
+		<trans-unit id="comm_daterange">
+			<english>4:00AM - 11:00AM</english>
+            <german>4:00AM - 11:00AM</german>
+		</trans-unit>
+    </BrkfastScreen6>
+
+    <BrkfastSpan>
+        <trans-unit id="initialsetupBrkfsttext11">
+			<english>Each Day Divider must span at least 4 hours.</english>
+			<german>Jeder Tageszeitraum muss mind. 4 Stunden lang sein.</german>
+		</trans-unit>
+    </BrkfastSpan>
+
+    <DayDividerPopup>
+        <trans-unit id="COMM_daydividerbtn">
+			<english>Day Dividers</english>
+			<german>Tagesaufteilung</german>
+		</trans-unit>
+        <trans-unit id="COMM_daydividerstxt">
+			<english>The CONTOUR™DIABETES app uses Day Dividers to divide your day into meal times and overnight. For example, if you usually eat lunch at 11:30AM and dinner at 6:00PM, then a Lunch Day Divider could be from 11:00AM to 6:00PM. &lt;br&gt;&lt;br&gt; Day Dividers help the app detect patterns and suggest if a reading is taken before or after a meal. You can change Day Dividers from Settings in the app.</english>
+<german>Die CONTOUR™DIABETES App verwendet eine Tagesaufteilung, die Ihren Tagesablauf in Essenszeiten und Nacht unterteilt. Zum Beispiel, wenn Sie normalerweise um 11.30 Uhr zu Mittag essen und um 18.00 Uhr zu Abend essen, könnte ein Tagesabschnitt für Mittag von 11.00 Uhr bis 18.00 Uhr lauten. &lt;br&gt;&lt;br&gt; Die Tagesaufteilung ermöglicht der App, Muster zu erkennen und vorzuschlagen, ob die Messung vor oder nach einer Mahlzeit durchgeführt wurde. Sie können die Tagesaufteilung über die Einstellungen in der App ändern.</german>
+		</trans-unit>
+        <trans-unit id="COMM_daydividersnotetxt">
+			<english>Note: There must be a span of at least 4 hours for any Day Divider such as Breakfast or Lunch.</english>
+			<german>Hinweis: Jeder Tagesabschnitt (z. B. Frühstück oder Mittagessen) muss mindestens 4 Stunden lang sein.</german>
+		</trans-unit>
+    </DayDividerPopup>
+
+    <LunchScreen1>
+        <trans-unit id="COMM_lunchbtn">
+			<english>Lunch</english>
+			<german>Mittagessen</german>
+		</trans-unit>
+        <trans-unit id="COMM_lunchbtn">
+			<english>Lunch</english>
+			<german>Mittagessen</german>
+		</trans-unit>
+    </LunchScreen1>
+
+    <LunchScreen2>
+        <trans-unit id="comm_daterange">
+			<english>11:00AM - 4:00PM</english>
+            <german>11:00AM - 4:00PM</german>
+		</trans-unit>
+    </LunchScreen2>
+
+    <DinnerScreen1>
+        <trans-unit id="COMM_dinnerbtn">
+			<english>Dinner</english>
+			<german>Abendessen</german>
+		</trans-unit>
+        <trans-unit id="COMM_dinnerbtn">
+			<english>Dinner</english>
+			<german>Abendessen</german>
+		</trans-unit>
+    </DinnerScreen1>
+
+    <DinnerScreen2>
+        <trans-unit id="comm_daterange">
+			<english>4:00PM - 9:00PM</english>
+            <german>4:00PM - 9:00PM</german>
+		</trans-unit>
+    </DinnerScreen2>
+
+    <OvernightScreen1>
+        <trans-unit id="COMM_overNightbtn">
+			<english>Overnight</english>
+			<german>Nacht</german>
+		</trans-unit>
+        <trans-unit id="COMM_overNightbtn">
+			<english>Overnight</english>
+			<german>Nacht</german>
+		</trans-unit>
+    </OvernightScreen1>
+
+    <OvernightScreen2>
+        <trans-unit id="comm_daterange">
+			<english>9:00PM - 5:00AM</english>
+            <german>9:00PM - 5:00AM</german>
+		</trans-unit>
+    </OvernightScreen2>
+</root>

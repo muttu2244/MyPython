@@ -1,0 +1,80 @@
+<root>
+    <Script>
+            <name>CountryLTP.py</name>
+            <status>fail</status>
+        </Script>
+     <Script>
+            <name>EmgcyContactsLTP.py</name>
+            <status>fail</status>
+        </Script>
+     <Script>
+            <name>SmartReminderLTP.py</name>
+            <status>fail</status>
+        </Script>
+    <Script>
+            <name>DayDividersLTP.py</name>
+            <status>fail</status>
+        </Script>
+     <Script>
+            <name>MenuLTP.py</name>
+            <status>fail</status>
+        </Script>
+    <Script>
+            <name>ExpandedGraphLTP.py</name>
+            <status>fail</status>
+        </Script>
+    <Script>
+            <name>TooltipLTP.py</name>
+            <status>fail</status>
+        </Script>
+    <Script>
+            <name>TargetRangesLTP.py</name>
+            <status>fail</status>
+        </Script>
+    <Script>
+            <name>HealthCareLTP.py</name>
+            <status>fail</status>
+        </Script>
+        <Script>
+            <name>ReminderLTP.py</name>
+            <status>fail</status>
+        </Script>
+
+     <Script>
+            <name>HCPReportLTP.py</name>
+            <status>fail</status>
+        </Script>
+     <Script>
+            <name>UnpairingLTP.py</name>
+            <status>fail</status>
+        </Script>
+     <Script>
+            <name>EditEntryLTP.py</name>
+            <status>fail</status>
+        </Script>
+
+     <Script>
+            <name>MeterSettings2LTP.py</name>
+            <status>fail</status>
+        </Script>
+         <Script>
+            <name>MeterHelpLTP.py </name>
+            <status>fail</status>
+        </Script>
+        <Script>
+            <name>meterErrorCodesLTP.py </name>
+            <status>fail</status>
+        </Script>
+   <!--   <Script>
+            <name>FaqLTP.py </name>
+            <status>fail</status>
+        </Script>
+        -->
+    <!-- <Script>
+            <name> AppHelpLTP.py </name>
+            <status>fail</status>
+        </Script>-->
+
+
+
+</root>

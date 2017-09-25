@@ -1,0 +1,382 @@
+﻿<root>
+     <mainScreen>
+         <trans-unit id="COMM_meterhelpbtn">
+			<english>Meter Help</english>
+			<german>Hilfe zum Messgerät</german>
+		</trans-unit>
+	<trans-unit id="COMM_searchhelp">
+		<english>search meter help</english>
+			<german>search meter help</german>
+	</trans-unit>
+         <trans-unit id="COMM_metersetbtn">
+    		<english>Meter Settings</english>
+			<german>Einstellungen Messgerät</german>
+		</trans-unit>
+         <trans-unit id="COMM_meterappconnbtn">
+			<english>Meter-App Connection</english>
+			<german>Verbindung Messgerät-App</german>
+		</trans-unit>
+         <trans-unit id="COMM_bloodsugarbtn">
+			 <english>Blood Sugar Readings and Meal Markers</english>
+			<german>Messwerte und Mahlzeit-Markierungen</german>
+		</trans-unit>
+         	<trans-unit id="COMM_MeterErrorCode">
+
+			<english>Meter Error Codes</english>
+			<german>Fehlercodes Messgerät</german>
+
+		 </trans-unit>
+		<trans-unit id="COMM_metericonbtn">
+			<english>CONTOUR™ONE Meter Icons Glossary</english>
+			<german>Symbolverzeichnis für das CONTOUR™ONE Messgerät</german>
+		</trans-unit>
+         <trans-unit id="COMM_meteruserguidebtn">
+			<tool_key>COMM_meteruserguidebtn</tool_key>
+			<note>For all meter user guides please visit</note>
+			<english>For all meter user guides please visit</english>
+			<german>For all meter user guides please visit</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+		  <trans-unit id="COMM_meteruserguidebtn">
+			<tool_key>COMM_meteruserguidebtn</tool_key>
+			<note>For all meter user guides please visit &lt;&gt;http://contact.ascensia.com</note>
+			<english> http://contact.ascensia.com</english>
+			<german>http://contact.ascensia.com</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+ </mainScreen>
+<meterSettings>
+			<trans-unit id="COMM_metersetbtn">
+			<english>Meter Settings</english>
+			<german>Einstellungen Messgerät</german>
+		</trans-unit>
+			<trans-unit id="COMM_searchhelp">
+			<tool_key>COMM_searchhelp</tool_key>
+			<note>Search Meter Help</note>
+			<english>Search Meter Help</english>
+			<german>Search Meter Help</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+			<trans-unit id="COMM_howdobtn">
+			<english>How do I...</english>
+			<german>Wie kann ich...</german>
+		</trans-unit>
+         <trans-unit id="helpMeaterSettingsMH3">
+			<english>Rename a meter?</english>
+			<german>Ein Messgerät umbenennen?</german>
+		</trans-unit>
+	<trans-unit id="helpMeaterSettingsMH3a">
+			<english>In the app: &lt;br&gt;1. Go to Main Menu > Settings > My Meters. &lt;br&gt;2. Tap the meter you want to rename. Type over the meter name.</english>
+<german>In der App: &lt;br&gt; 1. Gehen Sie zu Hauptmenü > Einstellungen > Meine Messgeräte. &lt;br&gt;2. Tippen Sie auf das Messgerät, das Sie umbenennen möchten. Überschreiben Sie den alten Namen.</german>
+		</trans-unit>
+	<!--<trans-unit id="helpmeterAppConnMH2a4">
+			<tool_key>helpmeterAppConnMH2a4</tool_key>
+			<note>Onyx Help System Map V1.1/H 9.0</note>
+			<english>3. Tap the Back button (&lt;) to save and return to Settings.</english>
+			<german>3. Tap the Back button (&lt;) to save and return to Settings.</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<comments>null</comments>
+			<Css_ID>MH-3</Css_ID>
+			<Category>Release 2.0</Category>
+			<GroupID>Meter Settings</GroupID>
+			<flow_name>Onyx Help V1.0</flow_name>
+			<Screen_id>H6.0.1</Screen_id>
+		</trans-unit>-->
+		<trans-unit id="helpMeterHelpMH4">
+			<english>Turn off or on a CONTOUR™NEXT ONE or CONTOUR PLUS ONE meter setting such as sound or target lights?</english>
+			<german>Eine CONTOUR™NEXT ONE bzw. CONTOUR PLUS ONE Messgeräteeinstellung wie z. B. „Ton“ oder das farbige Licht an der Sensorenöffnung aus- bzw. einschalten?</german>
+		</trans-unit>
+			<trans-unit id="COMM_onappbtn">
+			<english>On the app:</english>
+			<german>In der App:</german>
+		</trans-unit>
+
+		<trans-unit id="helpMeaterSettingsMH4a2">
+			<english>1. Go to Main Menu &gt; Settings &gt; My Meters.  Tap the paired CONTOUR NEXT ONE or CONTOUR PLUS ONE meter you want to update.</english>
+				<german>1. Gehen Sie zu Hauptmenü > Einstellungen > Meine Messgeräte. Tippen Sie auf das gekoppelte CONTOUR NEXT ONE bzw. CONTOUR PLUS ONE Messgerät, das Sie aktualisieren möchten.</german>
+		</trans-unit>
+			<trans-unit id="helpMeaterSettingsMH4a3">
+			<english>2. On the Meter Settings screen, tap or swipe the toggle button to turn settings on or off.</english>
+			<german>2. Schalten Sie Einstellungen auf dem Bildschirm „Messgeräteeinstellungen“ durch Antippen oder Streichen der Umschaltfläche ein bzw. aus.</german>
+		</trans-unit>
+
+			<trans-unit id="helpMeaterSettingsMH4a4">
+			<english>On the meter:</english>
+				<german>Am Messgerät:</german>
+		</trans-unit>
+			<trans-unit id="helpMeaterSettingsMH4a5">
+			<english>1.Turn off the meter and move away from your mobile device.</english>
+			<german>1. Schalten Sie das Messgerät aus und bringen Sie es ein Stück von Ihrem mobilen Gerät weg.</german>
+		</trans-unit>
+			<trans-unit id="helpMeaterSettingsMH4a6">
+			<english>1. Turn your meter on.</english>
+				<german>1. Schalten Sie Ihr Messgerät ein.</german>
+		</trans-unit>
+				<trans-unit id="helpMeaterSettingsMH4a7">
+			<english>2. Scroll to Settings.</english>
+			<german>3. Scrollen Sie zu „Einstellungen“.</german>
+		</trans-unit>
+				<trans-unit id="helpMeaterSettingsMH4a8">
+			<english>3. Press the OK button on each screen until you find the setting to change.</english>
+	`	<german>4. Drücken Sie in jedem Bildschirm auf OK, bis Sie die gewünschte Einstellung gefunden haben.</german>
+		</trans-unit>
+			<trans-unit id="helpMeaterSettingsMH4a9">
+			<english>4. Use the up and down arrows on the outer ring to change the setting. Press OK.</english>
+		<german>5. Ändern Sie die Einstellung mit dem Auf- und Abwärtspfeil am äußeren Ring. Drücken Sie auf „OK“.</german>
+		</trans-unit>
+			<trans-unit id="helpMeaterSettingsMH5">
+			<english>Always sync my meter date and time with the app date and time?</english>
+			<german>Datum und Uhrzeit meines Messgeräts stets mit Datum und Uhrzeit der App synchronisieren?</german>
+		</trans-unit>
+
+			<trans-unit id="COMM_onappbtn">
+			<english>On the app:</english>
+			<german>In der App:</german>
+		</trans-unit>
+			<trans-unit id="helpMeaterSettingsMH5a2">
+			<tool_key>helpMeaterSettingsMH5a2</tool_key>
+			<note>Onyx Help System Map V8.0/H 9.0</note>
+			<english>Go to Main Menu > Settings > App Preferences.</english>
+			<german>Go to Main Menu &gt; Settings &gt; App Preferences.</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+			<trans-unit id="helpMeaterSettingsMH5a3">
+			<english>2. Tap the Meter Time and Date Sync toggle to turn it on.</english>
+			<german>2. Tippen sie auf die Umschaltfläche „Messgerät-Zeit und -Datum sync.“, um sie einzuschalten.</german>
+		</trans-unit>
+			<trans-unit id="helpMeaterSettingsMH5a4">
+			<english>Whenever your meter connects with the app, the time and date on the meter will automatically sync with the app.</english>
+				<german>Jedes Mal, wenn Ihr Messgerät Verbindung zur App aufnimmt, synchronisieren sich Uhrzeit und Datum auf dem Messgerät automatisch mit der App.</german>
+		</trans-unit>
+	<trans-unit id="helpMeterHelpMH8">
+			<english>Do a one-time sync of my CONTOUR™NEXT ONE or CONTOUR™PLUS ONE meter date and time with the app date and time?</english>
+			<german>Datum und Uhrzeit meines CONTOUR™NEXT ONE bzw. CONTOUR™PLUS ONE Messgeräts einmalig mit Datum und Uhrzeit der App synchronisieren?</german>
+		</trans-unit>
+		<trans-unit id="helpMeaterSettingsMH4a6">
+			<english>1. Turn your meter on.</english>
+			<german>1. Schalten Sie Ihr Messgerät ein.</german>
+		</trans-unit>
+		<trans-unit id="helpMeaterSettingsMH8a2">
+			<english>2. In the app go to Main Menu > Settings > My Meters and select the meter to sync.</english>
+			<german>2. Gehen Sie in der App zu Hauptmenü > Einstellungen > Meine Messgeräte und wählen Sie das Messgerät zum Synchronisieren.</german>
+		</trans-unit>
+		<trans-unit id="helpMeaterSettingsMH8a3">
+			<english>Tap Sync Time and Date.</english>
+			<german>Tippen Sie auf „Zeit / Datum sync.“.</german>
+		</trans-unit>
+	</meterSettings>
+	<MeterAppConnection>
+		<trans-unit id="COMM_meterappconnbtn">
+			<english>Meter-App Connection</english>
+			<german>Verbindung Messgerät-App</german>
+		</trans-unit>
+		<trans-unit id="COMM_searchhelp">
+			<tool_key>COMM_searchhelp</tool_key>
+			<note>Search Meter Help</note>
+			<english>Search Meter Help</english>
+			<german>Search Meter Help</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+
+		</trans-unit>
+			<trans-unit id="COMM_howdobtn">
+			<english>How do I...</english>
+			<german>Wie kann ich...</german>
+		</trans-unit>
+		<trans-unit id="helpmeterAppConnMH2">
+			<english>Unpair a CONTOUR™NEXT ONE or CONTOUR™PLUS ONE meter?</english>
+			<german>Ein CONTOUR™NEXT ONE bzw. CONTOUR™PLUS ONE Messgerät abkoppeln?</german>
+		</trans-unit>
+		<trans-unit id="COMM_onappbtn">
+			<english>On the app:</english>
+<german>In der App:</german>
+		</trans-unit>
+			<trans-unit id="helpmeterAppConnMH2a2">
+			<english>1. Go to Main Menu > Settings > My Meters. Tap the meter you want to unpair.</english>
+				<german>1. Gehen Sie zu Hauptmenü > Einstellungen > Meine Messgeräte. Tippen Sie auf das Messgerät, das Sie abkoppeln möchten.</german>
+		</trans-unit>
+		<trans-unit id="helpmeterAppConnMH2a3">
+			<english>2. On the Meter Settings screen tap Unpair; confirm when you are prompted.</english>
+<german>2. Tippen Sie auf dem Bildschirm „Messgeräteeinstellungen“ auf „Dieses Messgerät abkoppeln“ und bestätigen Sie dies, wenn Sie dazu aufgefordert werden.</german>
+		</trans-unit>
+	<trans-unit id="helpmeterAppConnMH2a4">
+			<english>3. Tap the Back button (&lt;) to save and return to Settings.</english>
+<german>3. Tippen Sie auf „Zurück“ (&lt;) um zu speichern und wieder zu „Einstellungen“ zurückzukehren.</german>
+		</trans-unit>
+		<trans-unit id="helpmeterAppConnMH2a5">
+			<english>For a shortcut: Swipe left on the meter in the list then tap the red Unpair button and confirm.</english>
+			<german>Eine kürzere Methode: Streichen Sie auf dem Messgerät in der Liste nach links, tippen Sie auf die rote Schaltfläche „Abkoppeln“ und bestätigen Sie.</german>
+		</trans-unit>
+		<trans-unit id="helpmeterAppConnMH2a52">
+			<english>Note: Previously synced blood sugar readings will remain on your account; future readings from this meter will not be synced to the account.</english>
+			<german>Hinweis: Zuvor synchronisierte Messwerte bleiben in Ihrem Konto gespeichert; zukünftige Messwerte von diesem Messgerät werden nicht synchronisiert.</german>
+		</trans-unit>
+		<trans-unit id="helpmeterAppConnMH7">
+			<english>Pair a second CONTOUR™NEXT ONE or CONTOUR™PLUS ONE meter to the app?</english>
+			<german>Ein zweites CONTOUR™NEXT ONE bzw. CONTOUR™PLUS ONE Messgerät mit der App koppeln?</german>
+		</trans-unit>
+		<trans-unit id="helpmeterAppConnMH7a1">
+			<english>In the app go to Settings > My Meters. Tap the (+) and follow the instructions.</english>
+			<german>Gehen Sie in der App zu Einstellungen &gt; Meine Messgeräte. Tippen Sie auf „+“ und befolgen Sie die Anweisungen.</german>
+		</trans-unit>
+		<trans-unit id="helpmeterAppConnMH7a2">
+			<english>After a CONTOUR™NEXT ONE or CONTOUR™PLUS ONE meter is paired, the Meter Settings screen displays. Change settings if needed, then tap Continue to save meter settings.</english>
+<german>Nach Ankoppeln eines CONTOUR™NEXT ONE bzw. CONTOUR™PLUS ONE Messgeräts wird der Bildschirm „Messgeräteeinstellungen“ angezeigt. Ändern Sie bei Bedarf Einstellungen und tippen Sie dann auf „Weiter“, um die Messgeräteeinstellungen zu speichern.</german>
+		</trans-unit>
+			<trans-unit id="helpmeterAppConnMH7a3">
+			<english>Meter settings and app target ranges are applied to CONTOUR™NEXT ONE or CONTOUR™PLUS ONE meters through \\\'syncing\\\'.</english>
+		<german>Messgeräteeinstellungen und App-Zielbereiche werden mittels \\\„Synchronisation\\\“ auf CONTOUR™NEXT ONE bzw. CONTOUR™PLUS ONE Messgeräte übertragen.</german>
+		</trans-unit>
+	</MeterAppConnection>
+	<BloodSugar>
+		<trans-unit id="COMM_bloodsugarbtn">
+			<english>Blood Sugar Readings and Meal Markers</english>
+			<german>Messwerte und Mahlzeit-Markierungen</german>
+		</trans-unit>
+		<trans-unit id="COMM_searchhelp">
+			<tool_key>COMM_searchhelp</tool_key>
+			<note>Search Meter Help</note>
+			<english>Search Meter Help</english>
+			<german>Search Meter Help</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+
+		</trans-unit>
+			<trans-unit id="COMM_howdobtn">
+			<english>How do I...</english>
+			<german>Wie kann ich...</german>
+		</trans-unit>
+
+		<trans-unit id="helpMeterHelpMH1">
+			<english>Add or change the meal marker for a meter reading in the app?</english>
+			<german>Die für einen Messwert in der App ausgewählte Mahlzeit-Markierung hinzufügen oder ändern?</german>
+		</trans-unit>
+
+		<trans-unit id="helpMeaterBloodnSugarMH1a4">
+			<english>1. Open the app. Tap the blood sugar reading button listed in My Readings.</english>
+			<german>1. Öffnen Sie die App. Tippen Sie auf die Schaltfläche für den Blutzuckermesswert in der Liste unter „Meine Messwerte“.</german>
+		</trans-unit>
+		<trans-unit id="helpMeaterBloodnSugarMH1a5">
+			<english>When the Edit screen appears, tap the Meal icon &lt;img src=\\\"../images/meter_help_meal.png\\\" class=\\\"mh-img-class\\\"/> and then tap \“Meal Marker\”. You can change or add a meal marker and a meal type from this screen.</english>
+			<german>Wenn der Bildschirm „Ändern“ erscheint, tippen Sie auf das Mahlzeitsymbol &lt;img src=\\\"../images/meter_help_meal.png\\\" class=\\\"mh-img-class\\\"/> und dann auf \„Mahlzeit-Markierung\“. Auf dieser Anzeige können Sie die Mahlzeit-Markierung und die Art der Mahlzeit ändern bzw. hinzufügen.</german>
+		</trans-unit>
+		<trans-unit id="helpMeaterBloodnSugarMH1a3">
+
+			<english>Note: If you change the meal marker on a blood sugar reading, it will be compared against a different target range and may change color based on this new target.</english>
+			<german>Hinweis: Wenn Sie die Mahlzeit-Markierung für einen Blutzuckermesswert ändern, wird er mit einem anderen Zielbereich verglichen und ändert daher eventuell die Farbe entsprechend dem neuen Zielbereich.</german>
+
+		</trans-unit>
+	</BloodSugar>
+	<IconGlossary>
+		<trans-unit id="COMM_metericonbtn">
+			<english>CONTOUR™ONE Meter Icons Glossary</english>
+			<german>Symbolverzeichnis für das CONTOUR™ONE Messgerät</german>
+		</trans-unit>
+		<trans-unit id="helpReadingTargetRangeTxt">
+
+			<english>Blood sugar reading is in Target Range.</english>
+			<german>Blutzuckerwert liegt im Zielbereich</german>
+
+		</trans-unit>
+		<trans-unit id="helpReadingAbove600Txt">
+			<english>Blood sugar reading is above 600 mg/dL</english>
+			<german>Blutzuckermesswert liegt über 600 mg/dL</german>
+		</trans-unit>
+		<trans-unit id="helpReadingBelow20Txt">
+			<english>Blood sugar reading is below 10 mg/dL</english>
+		<german>Blutzuckermesswert liegt unter 10 mg/dL</german>
+		</trans-unit>
+
+		<trans-unit id="helpReadingAboveTargetTxt">
+			<english>Blood sugar reading is above target range</english>
+			<german>Blutzuckermesswert liegt über dem Zielbereich.</german>
+		</trans-unit>
+		<trans-unit id="helpReadingBelowTargetTxt">
+			<english>Blood sugar reading is below target range</english>
+			<german>Blutzuckermesswert liegt unter dem Zielbereich.</german>
+		</trans-unit>
+		<trans-unit id="helpLogbookTxt">
+			<english>Logbook entry</english>
+			<german>Speichereintrag</german>
+		</trans-unit>
+		<trans-unit id="COMM_metersetbtn">
+			<english>Meter Settings</english>
+			<german>Einstellungen Messgerät</german>
+		</trans-unit>
+		<trans-unit id="helpbeforemealmarkertxt">
+
+			<english>Before Meal marker</english>
+			<german>Markierung „Vor dem Essen“</german>
+
+		</trans-unit>
+		<trans-unit id="helpaftermealmarkertxt">
+
+			<english>After Meal marker</english>
+			<german>Markierung „Nach dem Essen“</german>
+
+		</trans-unit>
+		<trans-unit id="helpFastingMarkerTxt">
+			<english>Fasting marker</english>
+			<german>Markierung für „Nüchtern“</german>
+		</trans-unit>
+		<trans-unit id="helpNoMealMarkerTxt">
+			<english>No meal marker set</english>
+			<german>Keine Mahlzeit-Markierung eingestellt</german>
+		</trans-unit>
+		<trans-unit id="helpTargetSettngTxt">
+			<english>A target range or target setting</english>
+			<german>Einstellung für einen Zielbereich oder Zielwert</german>
+		</trans-unit>
+			<trans-unit id="helpTargetLightSettngTxt">
+			<english>Target light setting</english>
+			<german>Einstellung für Ziellämpchen</german>
+		</trans-unit>
+		<trans-unit id="helpMeterReadyTestTxt">
+			<english>Meter is ready to test</english>
+			<german>Messgerät ist bereit zur Messung</german>
+		</trans-unit>
+		<trans-unit id="helpAddBloodTxt">
+			<english>Add more blood to the strip</english>
+			<german>Mehr Blut auf den Sensor aufbringen</german>
+		</trans-unit>
+		<trans-unit id="helpControlSolTxt">
+			<english>Control solution result</english>
+			<german>Ergebnis mit Kontrolllösung</german>
+		</trans-unit>
+		<trans-unit id="helpBluetoothTxt">
+			<english>Bluetooth setting is on; meter can communicate with a mobile device</english>
+		<german>Bluetooth-Einstellung ist eingeschaltet; das Messgerät kann mit einem mobilen Gerät kommunizieren</german>
+		</trans-unit>
+		<trans-unit id="lowbatterynotificationLowBtryHdr">
+			<english>Low Battery</english>
+			<german>Batterie schwach</german>
+		</trans-unit>
+		<trans-unit id="COMM_deadbatteriesTxt">
+			<english>E42 Dead Batteries</english>
+			<german>E42 Batterien leer</german>
+		</trans-unit>
+ <trans-unit id="helpMeterErrorTxt">
+			<english>Meter error</english>
+			<german>Messgerätfehler</german>
+		</trans-unit>
+	</IconGlossary>
+
+    </root>
+

@@ -1,0 +1,1167 @@
+﻿<root>
+    <ClickMenu>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='ic_menu']</xpath>
+            <index>0</index>
+            <comment>Menu</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@accessibilityLabel='Menu icn 1x']</xpath>
+            <index>0</index>
+            <comment>Menu</comment>
+        </Iobject>
+    </ClickMenu>
+
+    <Settings>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@id='left_drawer']/*/*[@id='lblListHeaderSlideView'])[5]</xpath>
+            <index>0</index>
+            <comment>Settings</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='YGLinedView']</xpath>
+            <index>4</index>
+            <comment>Settings</comment>
+        </Iobject>
+    </Settings>
+
+    <AppPref>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[3]</xpath>
+            <index>0</index>
+            <comment>App Preferences</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[3]</xpath>
+            <index>0</index>
+            <comment>App Preferences</comment>
+        </Iobject>
+    </AppPref>
+
+    <TurnOnRotate>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='A' and @width>0 and ./following-sibling::*[@nodeName='SPAN'] and ./following-sibling::*[@id='app_pref_modal']]</xpath>
+            <index>0</index>
+            <comment>App Preferences - Expanded Graph Rotate</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='A' and @width>0 and ./following-sibling::*[@nodeName='SPAN'] and ./following-sibling::*[@id='app_pref_modal']]</xpath>
+            <index>0</index>
+            <comment>App Preferences - Expanded Graph Rotate</comment>
+        </Iobject>
+    </TurnOnRotate>
+
+    <AppPrefBack>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[4]</xpath>
+            <index>0</index>
+            <comment>App Preferences - Back</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[4]</xpath>
+            <index>0</index>
+            <comment>App Preferences - Back</comment>
+        </Iobject>
+    </AppPrefBack>
+
+    <AppPrefScreen>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='reset_popup_dialog']</xpath>
+            <index>0</index>
+            <comment>App Preferences screen</comment>
+        </Iobject>
+    </AppPrefScreen>
+
+    <SettingsToMenu>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[4]</xpath>
+            <index>0</index>
+            <comment>Menu</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[4]</xpath>
+            <index>0</index>
+            <comment>Menu</comment>
+        </Iobject>
+    </SettingsToMenu>
+
+    <MyReadings>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@id='left_drawer']/*/*[@id='lblListHeaderSlideView'])[1]</xpath>
+            <index>0</index>
+            <comment>My Readings</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='YGLinedView']</xpath>
+            <index>0</index>
+            <comment>My Readings</comment>
+        </Iobject>
+    </MyReadings>
+
+    <NewReading1>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='ic_add']</xpath>
+            <index>0</index>
+            <comment>Add button</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@accessibilityLabel='Add']</xpath>
+            <index>0</index>
+            <comment>Add button</comment>
+        </Iobject>
+    </NewReading1>
+
+    <MainPopup>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='btn_yes']</xpath>
+            <index>0</index>
+            <comment>Manual reading popup</comment>
+        </Aobject>
+        <!-- TODO for iphone-->
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='btn_yes']</xpath>
+            <index>0</index>
+            <comment>Manual reading popup</comment>
+        </Iobject>
+    </MainPopup>
+
+    <NewReading2>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='android.widget.TextView' and @width>0 and ./preceding-sibling::*[@text] and ./parent::*[@class='android.widget.RelativeLayout']]</xpath>
+            <index>0</index>
+            <comment>Done</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='readingValue']</xpath>
+            <index>0</index>
+            <comment>Meal marker input</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIButtonLabel' and @textColor='0x38414A']</xpath>
+            <index>0</index>
+            <comment>Done</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIButton' and ./parent::*[@class='YGPillView']]</xpath>
+            <index>0</index>
+            <comment>Meal marker input</comment>
+        </Iobject>
+    </NewReading2>
+
+    <MealMarkerPrompt>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='btn_yes']</xpath>
+            <index>0</index>
+            <comment>Meal marker prompt</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UILabel' and @textColor='0x000000' and @backgroundColor='0x000000' and @enabled='false' and @hidden='false' and @onScreen='true' and @top='true']</xpath>
+            <index>1</index>
+            <comment>Meal marker prompt</comment>
+        </Iobject>
+    </MealMarkerPrompt>
+
+    <ReadingSave>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='mmcontinuebtn']</xpath>
+            <index>0</index>
+            <comment>Save</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIButtonLabel' and @enabled='true' and @hidden='false' and @onScreen='true']</xpath>
+            <index>10</index>
+            <comment>Save</comment>
+        </Iobject>
+    </ReadingSave>
+
+    <AddNotes>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='notesImageView']</xpath>
+            <index>0</index>
+            <comment>Add Notes</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@class='YGEditSelector']/*[@class='YGVectorButton'])[2]</xpath>
+            <index>0</index>
+            <comment>Add Notes</comment>
+        </Iobject>
+    </AddNotes>
+
+    <ClickMeal>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='foodImageView']</xpath>
+            <index>0</index>
+            <comment>Meal</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=((//*[@class='android.widget.LinearLayout' and ./parent::*[@class='com.ascensia.contour.editview.cu']]/*[@class='android.widget.LinearLayout'])[1]/*[@class='android.widget.TextView' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Add/edit food</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@class='YGEditSelector']/*[@class='YGVectorButton'])[4]</xpath>
+            <index>0</index>
+            <comment>Meal</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIButtonLabel' and @textColor='0x000000' and @enabled='true' and @hidden='false' and @onScreen='true']</xpath>
+            <index>0</index>
+            <comment>Add/edit food</comment>
+        </Iobject>
+    </ClickMeal>
+
+    <SelectCarbPopup>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='continueButton']</xpath>
+            <index>0</index>
+            <comment>Carbs popup - Continue</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='confirmButton']</xpath>
+            <index>0</index>
+            <comment>Carbs popup - Confirm</comment>
+        </Aobject>
+
+        <!--TODO for iphone-->
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='continueButton']</xpath>
+            <index>0</index>
+            <comment>Carbs popup - Continue</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='confirmButton']</xpath>
+            <index>0</index>
+            <comment>Carbs popup - Confirm</comment>
+        </Iobject>
+    </SelectCarbPopup>
+
+    <AddFood>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='searchWord']</xpath>
+            <index>0</index>
+            <comment>Add food</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UISearchBarTextFieldLabel']</xpath>
+            <index>0</index>
+            <comment>Add food</comment>
+        </Iobject>
+    </AddFood>
+
+    <CheckMealSelected>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='YGCheckView']</xpath>
+            <index>0</index>
+            <comment>Meal Selected?</comment>
+        </Iobject>
+    </CheckMealSelected>
+    <Meal1>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='addnew_group_list_title']</xpath>
+            <index>0</index>
+            <comment>Select food</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UILabel' and @textColor='0x000000' and @backgroundColor='0x000000' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+            <index>2</index>
+            <comment>Select food</comment>
+        </Iobject>
+    </Meal1>
+
+    <ClickContinue>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='continueTextView']</xpath>
+            <index>0</index>
+            <comment>Add Food - Continue</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIButtonLabel' and @enabled='true' and @hidden='false' and @onScreen='true']</xpath>
+            <index>2</index>
+            <comment>Add Food - Continue</comment>
+        </Iobject>
+    </ClickContinue>
+
+    <Meal2>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='doneTextView' and @class='com.ascensia.contour.OnyxTextView']</xpath>
+            <index>0</index>
+            <comment>Add Food - Done</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='doneTextView']</xpath>
+            <index>0</index>
+            <comment>Add Food - Done</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIButtonLabel' and @knownSuperClass='UILabel' and @textColor='0x383A38' and @hidden='false' and @onScreen='true']</xpath>
+            <index>1</index>
+            <comment>Add Food - Done</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIButtonLabel' and @knownSuperClass='UILabel' and @textColor='0xFFFFFF' and @onScreen='true']</xpath>
+            <index>1</index>
+            <comment>Add Food - Done</comment>
+        </Iobject>
+    </Meal2>
+
+    <ManualEntryConfirm>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='okBtn']</xpath>
+            <index>0</index>
+            <comment>Confirm your Manual Entry</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIButtonLabel' and @textColor='0x0078FF' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+            <index>1</index>
+            <comment>Confirm your Manual Entry</comment>
+        </Iobject>
+    </ManualEntryConfirm>
+
+    <CriticalValue>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='btn_no']</xpath>
+            <index>0</index>
+            <comment>Critical value popup - No</comment>
+        </Aobject>
+
+        <!-- TODO for iphone-->
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='btn_no']</xpath>
+            <index>0</index>
+            <comment>Critical value popup - No</comment>
+        </Iobject>
+    </CriticalValue>
+
+    <DoneBtn>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='doneTextView']</xpath>
+            <index>0</index>
+            <comment>Done</comment>
+        </Aobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIButtonLabel' and @knownSuperClass='UILabel' and @textColor='0xFFFFFF' and @onScreen='true']</xpath>
+            <index>1</index>
+            <comment>Done</comment>
+        </Iobject>
+    </DoneBtn>
+
+    <ReminderPopup>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='IMG' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Reminder popup</comment>
+        </Aobject>
+
+        <!-- TODO for iphone-->
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='IMG' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Reminder popup</comment>
+        </Iobject>
+    </ReminderPopup>
+
+    <CloseConfirm>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@text and @nodeName='DIV']])[16]</xpath>
+            <index>0</index>
+            <comment>Close</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='UIButtonLabel' and @knownSuperClass='UILabel' and @textColor='0x0078FF' and @onScreen='true']</xpath>
+            <index>1</index>
+            <comment>Close</comment>
+        </Iobject>
+    </CloseConfirm>
+
+    <RunningHighLow>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='A' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Running high/low reminder card</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='A' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>Running high/low reminder card</comment>
+        </Iobject>
+    </RunningHighLow>
+
+    <RunningHighLow1>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='A' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Running high/low reminder card - Close</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='A' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Running high/low reminder card - Close</comment>
+        </Iobject>
+    </RunningHighLow1>
+
+    <GotoExpandedGraph>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='a.a.c']</xpath>
+            <index>0</index>
+            <comment>Expanded graph button</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='YGProgressiveDayView' and @hidden='false' and @onScreen='true']</xpath>
+            <index>2</index>
+            <comment>Expanded graph button</comment>
+        </Iobject>
+    </GotoExpandedGraph>
+
+    <RotatePopup>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='onButton']</xpath>
+            <index>0</index>
+            <comment>Expanded graph - Popup</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIButtonLabel' and @textColor='0x037AFF' and @enabled='true' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+            <index>0</index>
+            <comment>Expanded graph - Popup</comment>
+        </Iobject>
+    </RotatePopup>
+
+    <RotatePopupCompare>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='title']</xpath>
+            <index>0</index>
+            <comment>Expanded graph Rotate Setting</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='msg']</xpath>
+            <index>0</index>
+            <comment>Expanded graph Rotate Setting - popup content</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='onButton']</xpath>
+            <index>0</index>
+            <comment>Expanded graph Rotate setting - Keep ON</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='offButton']</xpath>
+            <index>0</index>
+            <comment>Expanded graph Rotate setting - Turn OFF</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='title']</xpath>
+            <index>0</index>
+            <comment>Expanded graph Rotate Setting</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='msg']</xpath>
+            <index>0</index>
+            <comment>Expanded graph Rotate Setting - popup content</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIButtonLabel' and @textColor='0x037AFF' and @enabled='true' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+            <index>0</index>
+            <comment>Expanded graph Rotate setting - Keep ON</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='offButton']</xpath>
+            <index>0</index>
+            <comment>Expanded graph Rotate setting - Turn OFF</comment>
+        </Iobject>
+    </RotatePopupCompare>
+
+    <GetDate>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='selectedDate']</xpath>
+            <index>0</index>
+            <comment>Get the date</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UILabel' and @alpha='1' and @textColor='0xFFFFFF' and @backgroundColor='0x000000' and @hidden='false' and @onScreen='true']</xpath>
+            <index>0</index>
+            <comment>Get the date</comment>
+        </Iobject>
+    </GetDate>
+
+    <NoReading>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='one_day_no_readings' and @onScreen='true']</xpath>
+            <index>0</index>
+            <comment>No readong logged</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UILabel' and @knownSuperClass='UILabel' and @textColor='0x000000' and @backgroundColor='0xE5E5E5' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+            <index>0</index>
+            <comment>No readong logged</comment>
+        </Iobject>
+    </NoReading>
+
+    <DaySwipe>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='dayPickmask']</xpath>
+            <index>0</index>
+            <comment>Day</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@class='YGVerticalSelector']/*[@class='UIView'])[1]</xpath>
+            <index>0</index>
+            <comment>Day</comment>
+        </Iobject>
+    </DaySwipe>
+
+    <SetView>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='option_day_avg']</xpath>
+            <index>0</index>
+            <comment>Standard</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@class='android.widget.ListView' and ./parent::*[@id='l_mode']]/*/*/*[@id='option_text'])[1]</xpath>
+            <index>0</index>
+            <comment>Standard View</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@class='android.widget.ListView' and ./parent::*[@id='l_days']]/*/*/*[@id='option_text'])[4]</xpath>
+            <index>0</index>
+            <comment>30 days</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@class='android.widget.ListView' and ./parent::*[@id='l_meal_marker']]/*/*/*[@id='option_text'])[4]</xpath>
+            <index>0</index>
+            <comment>View All</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='btn_done']</xpath>
+            <index>0</index>
+            <comment>Done</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIButton' and @enabled='false' and @hidden='false' and @onScreen='true']</xpath>
+            <index>0</index>
+            <comment>Standard</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UITableViewLabel' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+            <index>3</index>
+            <comment>Standard View</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UITableViewLabel' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+            <index>8</index>
+            <comment>30 days</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UITableViewCellContentView' and @hidden='false' and @onScreen='true']//*[@class='UILabel' and @hidden='false' and @onScreen='true' and @top='true']</xpath>
+            <index>3</index>
+            <comment>View All</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIButtonLabel' and @textColor='0xFFFFFF' and @hidden='false' and @onScreen='true']</xpath>
+            <index>0</index>
+            <comment>Done</comment>
+        </Iobject>
+    </SetView>
+
+    <SetViewAvg>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='option_day_avg']</xpath>
+            <index>0</index>
+            <comment>Standard</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@class='android.widget.ListView' and
+                ./parent::*[@id='l_mode']]/*/*/*[@id='option_text'])[2]</xpath>
+            <index>0</index>
+            <comment>Averages(AVG)</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@class='android.widget.ListView' and ./parent::*[@id='l_days']]/*/*/*[@id='option_text'])[4]</xpath>
+            <index>0</index>
+            <comment>30 days</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@class='android.widget.ListView' and ./parent::*[@id='l_meal_marker']]/*/*/*[@id='option_text'])[4]</xpath>
+            <index>0</index>
+            <comment>View All</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='btn_done']</xpath>
+            <index>0</index>
+            <comment>Done</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIImageView' and @height>0 and ./parent::*[@class='UIView']]</xpath>
+            <index>0</index>
+            <comment>Standard</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UITableViewLabel' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+            <index>5</index>
+            <comment>Averages(AVG)</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UITableViewLabel' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+            <index>8</index>
+            <comment>30 days</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UITableViewCellContentView' and @hidden='false' and @onScreen='true']//*[@class='UILabel' and @hidden='false' and @onScreen='true' and @top='true']</xpath>
+            <index>3</index>
+            <comment>View All</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIButtonLabel' and @textColor='0xFFFFFF' and @hidden='false' and @onScreen='true']</xpath>
+            <index>0</index>
+            <comment>Done</comment>
+        </Iobject>
+    </SetViewAvg>
+
+    <GraphScreen1>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='option_day_avg']</xpath>
+            <index>0</index>
+            <comment>Standard</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='option_day']</xpath>
+            <index>0</index>
+            <comment>30 days</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='option_meal_text']</xpath>
+            <index>0</index>
+            <comment>All</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='selectedDate']</xpath>
+            <index>0</index>
+            <comment>Today</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIButtonLabel' and @enabled='true' and @hidden='false' and @onScreen='true']</xpath>
+            <index>0</index>
+            <comment>Standard</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIButtonLabel' and @enabled='true' and @hidden='false' and @onScreen='true']</xpath>
+            <index>1</index>
+            <comment>30 days</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIButtonLabel' and @enabled='true' and @hidden='false' and @onScreen='true']</xpath>
+            <index>2</index>
+            <comment>All</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UILabel' and @textColor='0xFFFFFF' and @backgroundColor='0x000000' and @enabled='false' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+            <index>0</index>
+            <comment>Today</comment>
+        </Iobject>
+    </GraphScreen1>
+
+    <GraphScreenAvg>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='option_day_avg']</xpath>
+            <index>0</index>
+            <comment>Standard</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='option_day']</xpath>
+            <index>0</index>
+            <comment>30 days</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='option_meal_text']</xpath>
+            <index>0</index>
+            <comment>All</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='selectedDate']</xpath>
+            <index>0</index>
+            <comment>Today</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIButtonLabel' and @enabled='true' and @hidden='false' and @onScreen='true']</xpath>
+            <index>0</index>
+            <comment>Standard</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIButtonLabel' and @enabled='true' and @hidden='false' and @onScreen='true']</xpath>
+            <index>1</index>
+            <comment>30 days</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIButtonLabel' and @enabled='true' and @hidden='false' and @onScreen='true']</xpath>
+            <index>2</index>
+            <comment>All</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UILabel' and @textColor='0xFFFFFF' and @backgroundColor='0x000000' and @enabled='false' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+            <index>0</index>
+            <comment>Today</comment>
+        </Iobject>
+    </GraphScreenAvg>
+
+    <ClickInfo>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='mdinfobtn']</xpath>
+            <index>0</index>
+            <comment>Info</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIImageView' and @height>0 and ./parent::*[@accessibilityLabel='Info icon']]</xpath>
+            <index>0</index>
+            <comment>Info</comment>
+        </Iobject>
+    </ClickInfo>
+
+    <ClickInfo1>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='mdinfobtn' and ./parent::*[@id='l_title']]</xpath>
+            <index>0</index>
+            <comment>Customize your view - Info</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIImageView' and @height>0 and ./parent::*[@accessibilityLabel='Info icon' and ./parent::*[@class='UIVisualEffectView']]]</xpath>
+            <index>0</index>
+            <comment>Customize your view - Info</comment>
+        </Iobject>
+    </ClickInfo1>
+
+    <ExpandedPopup>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='modaldayttl']</xpath>
+            <index>0</index>
+            <comment>Expanded Graph - popup</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='modalday_img']</xpath>
+            <index>0</index>
+            <comment>Expanded Graph - popup text</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='days_text']</xpath>
+            <index>0</index>
+            <comment>Expanded Graph - Days</comment>
+        </Aobject>
+    </ExpandedPopup>
+
+    <ExpandedPopup2>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='mealmarker_text']</xpath>
+            <index>0</index>
+            <comment>Expanded Graph - Meal Marker</comment>
+        </Aobject>
+    </ExpandedPopup2>
+
+    <CloseInfo>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='mcloseicon']</xpath>
+            <index>0</index>
+            <comment>Expanded Graph popup - Close</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIImageView' and @height>0 and ./parent::*[@accessibilityLabel='cross']]</xpath>
+            <index>0</index>
+        </Iobject>
+        <comment>Expanded Graph popup - Close</comment>
+    </CloseInfo>
+
+    <ClickStd>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='option_day_avg']</xpath>
+            <index>0</index>
+            <comment>Standard</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIButtonLabel']</xpath>
+            <index>0</index>
+            <comment>Standard</comment>
+        </Iobject>
+    </ClickStd>
+
+    <GraphScreen2>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='title']</xpath>
+            <index>0</index>
+            <comment>Customize your View</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='h_mode']</xpath>
+            <index>0</index>
+            <comment>Mode</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@class='android.widget.ListView' and ./parent::*[@id='l_mode']]/*/*/*[@id='option_text'])[1]</xpath>
+            <index>0</index>
+            <comment>Standard View</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@class='android.widget.ListView' and ./parent::*[@id='l_mode']]/*/*/*[@id='option_text'])[2]</xpath>
+            <index>0</index>
+            <comment>Averages (AVG)</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='h_days']</xpath>
+            <index>0</index>
+            <comment>Days</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@class='android.widget.ListView' and ./parent::*[@id='l_days']]/*/*/*[@id='option_text'])[1]</xpath>
+            <index>0</index>
+            <comment>3 days</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@class='android.widget.ListView' and ./parent::*[@id='l_days']]/*/*/*[@id='option_text'])[2]</xpath>
+            <index>0</index>
+            <comment>7 days</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@class='android.widget.ListView' and ./parent::*[@id='l_days']]/*/*/*[@id='option_text'])[3]</xpath>
+            <index>0</index>
+            <comment>14 days</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@class='android.widget.ListView' and ./parent::*[@id='l_days']]/*/*/*[@id='option_text'])[4]</xpath>
+            <index>0</index>
+            <comment>30 days</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='h_meal_marker']</xpath>
+            <index>0</index>
+            <comment>Meal Marker</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@class='android.widget.ListView' and ./parent::*[@id='l_meal_marker']]/*/*/*[@id='option_text' and ./preceding-sibling::*[@width>0]])[1]</xpath>
+            <index>0</index>
+            <comment>Fasting</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@class='android.widget.ListView' and ./parent::*[@id='l_meal_marker']]/*/*/*[@id='option_text' and ./preceding-sibling::*[@width>0]])[2]</xpath>
+            <index>0</index>
+            <comment>Before Meal</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@class='android.widget.ListView' and ./parent::*[@id='l_meal_marker']]/*/*/*[@id='option_text' and ./preceding-sibling::*[@width>0]])[3]</xpath>
+            <index>0</index>
+            <comment>After Meal</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@class='android.widget.ListView' and ./parent::*[@id='l_meal_marker']]/*/*/*[@id='option_text'])[4]</xpath>
+            <index>0</index>
+            <comment>View All</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='btn_done']</xpath>
+            <index>0</index>
+            <comment>Done</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UILabel' and @alpha='1' and @textColor='0xFFFFFF' and @enabled='false' and @hidden='false' and @onScreen='true']</xpath>
+            <index>0</index>
+            <comment>Customize your view</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UITableViewLabel']</xpath>
+            <index>0</index>
+            <comment>Mode</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UITableViewLabel']</xpath>
+            <index>3</index>
+            <comment>Standard View</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UITableViewLabel']</xpath>
+            <index>5</index>
+            <comment>Averages (AVG)</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UITableViewLabel']</xpath>
+            <index>1</index>
+            <comment>Days</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UITableViewLabel']</xpath>
+            <index>4</index>
+            <comment>3 days</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UITableViewLabel']</xpath>
+            <index>6</index>
+            <comment>7 days</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UITableViewLabel']</xpath>
+            <index>7</index>
+            <comment>14 days</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UITableViewLabel']</xpath>
+            <index>8</index>
+            <comment>30 days</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UITableViewLabel']</xpath>
+            <index>2</index>
+            <comment>Meal Marker</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UILabel' and @alpha='1' and @textColor='0xFFFFFF' and @backgroundColor='0x000000' and @enabled='false' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+            <index>4</index>
+            <comment>Fasting</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UILabel' and @alpha='1' and @textColor='0xFFFFFF' and @backgroundColor='0x000000' and @enabled='false' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+            <index>7</index>
+            <comment>Before Meal</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UILabel' and @alpha='1' and @textColor='0xFFFFFF' and @backgroundColor='0x000000' and @enabled='false' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+            <index>9</index>
+            <comment>After Meal</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UILabel' and @alpha='1' and @textColor='0xFFFFFF' and @backgroundColor='0x000000' and @enabled='false' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+            <index>12</index>
+            <comment>View All</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIButtonLabel' and @knownSuperClass='UILabel' and @textColor='0xFFFFFF']</xpath>
+            <index>0</index>
+        </Iobject>
+        <comment>Done</comment>
+    </GraphScreen2>
+
+    <ClickDone>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='btn_done']</xpath>
+            <index>0</index>
+            <comment>Done</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIButtonLabel' and @knownSuperClass='UILabel' and @textColor='0xFFFFFF']</xpath>
+            <index>0</index>
+            <comment>Done</comment>
+        </Iobject>
+    </ClickDone>
+    <ExpandedPopup3>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='mode_text']</xpath>
+            <index>0</index>
+            <comment>Expanded Graph popup - Mode</comment>
+        </Aobject>
+    </ExpandedPopup3>
+
+    <CloseGraph>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='btnClose']</xpath>
+            <index>0</index>
+            <comment>Close Graph</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='YGPolygonView']</xpath>
+            <index>0</index>
+            <comment>Close Graph</comment>
+        </Iobject>
+    </CloseGraph>
+    </root>

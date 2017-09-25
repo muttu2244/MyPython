@@ -1,0 +1,1223 @@
+<root>
+    <TestReminderPlanScreen>
+		<trans-unit id="COMM_smarttestingplanshdr">
+			<english>Test Reminder Plans</english>
+			<german>Messpläne</german>
+		</trans-unit>
+		<trans-unit id="imbsmarttestingplantxt">
+			<english>A Test Reminder Plan uses pre-set test reminders to help you remember to test your blood sugar in different situations.</english>
+			<german>Ein Messplan nutzt verschiedene, voreingestellte Erinnerungen, um Sie in unterschiedlichen Situationen an Ihre Blutzuckermessung zu erinnern.</german>
+		</trans-unit>
+		<trans-unit id="smarttest_personalplan">
+			<english>Personal Test Plans</english>
+			<german>Individuelle Messpläne</german>
+		</trans-unit>
+		<trans-unit id="smarttest_appointmentplan">
+			<english>Appointment Test Plans</english>
+			<german>Messpläne vor Arztbesuch</german>
+		</trans-unit>
+		<trans-unit id="smarttest_treatmentplan">
+			<english>Treatment Test Plans</english>
+			<german>Messpläne für Ihre Behandlung</german>
+		</trans-unit>
+		<trans-unit id="COMM_disliketest">
+			<english>Dislike to test</english>
+			<german>Messe nicht gern</german>
+		</trans-unit>
+		<trans-unit id="comm_smarttestingcuriousabtdoing">
+			<english>Curious about how I'm doing</english>
+			<german>Neugierig, wie es bei mir läuft</german>
+		</trans-unit>
+		<trans-unit id="comm_smarttestplan5">
+			<english>Stressful work/study week</english>
+			<german>Stressige Arbeits-/Lernwoche</german>
+		</trans-unit>
+		<trans-unit id="comm_smarttestplan6">
+			<english>Testing the effects of an event</english>
+			<german>Auswirkungen eines Ereignisses</german>
+		</trans-unit>
+		<trans-unit id="COMM_upcomingHealthcareVisit">
+			<english>Upcoming healthcare visit</english>
+			<german>Bevorstehender Arzttermin</german>
+		</trans-unit>
+		<trans-unit id="COMM_type1btn">
+			<english>Insulin User</english>
+			<german>Patient verwendet Insulin</german>
+		</trans-unit>
+		<trans-unit id="COMM_upcomingHealthcareVisit">
+			<english>Upcoming healthcare visit</english>
+			<german>Bevorstehender Arzttermin</german>
+		</trans-unit>
+		<trans-unit id="COMM_type2btn">
+			<english>Non-Insulin User</english>
+			<german>Patient verwendet kein Insulin</german>
+		</trans-unit>
+		<trans-unit id="comm_pointplan">
+			<english>7-point plan</english>
+			<german>7-Punkte-Plan</german>
+		</trans-unit>
+		<trans-unit id="comm_smarttestplan8">
+			<english>Long-acting insulin only</english>
+			<german>Nur langwirkendes Insulin</german>
+		</trans-unit>
+		<trans-unit id="comm_smarttestplan9">
+			<english>Overnight lows</english>
+			<german>Nächtliche Unterzuckerungen</german>
+		</trans-unit>
+		<trans-unit id="comm_smarttestplan10">
+			<english>Starting diet/exercise</english>
+			<german>Beginn Ernährung/Sport</german>
+		</trans-unit>
+		<trans-unit id="comm_smarttestplan11">
+			<english>Starting insulin</english>
+			<german>Beginn der Insulintherapie</german>
+		</trans-unit>
+	</TestReminderPlanScreen>
+
+	<DislikeCompare>
+		<trans-unit id="comm_remindersovrdays">
+			<english>10 reminders over 10 days</english>
+			<german>10 Erinnerungen über 10 Tage</german>
+		</trans-unit>
+		<trans-unit id="smarttestingmanagediabetes">
+			<english>We know that managing diabetes can be very challenging. This Test Reminder Plan tries to minimize the amount of testing you need to do, but still provides your healthcare professional with the information needed to help adjust your medications.&lt;&gt;&lt;br&gt;Do you want to set up a Test Reminder Plan?</english>
+			<german>Wir wissen, dass es sehr schwierig sein kann, Ihren Blutzuckerverlauf in den Griff zu bekommen. Der Messplan versucht, die Anzahl der für Sie notwendigen Messungen auf ein Minimum zu beschränken und dennoch Ihrem Arzt die erforderliche Informationen für Therapieanpassungen zur Verfügung zu stellen.&lt;&gt;&lt;br&gt;Möchten Sie einen Messplan einrichten?</german>
+		</trans-unit>
+		<trans-unit id="COMM_continuebtn">
+			<english>Continue</english>
+			<german>Weiter</german>
+		</trans-unit>
+	</DislikeCompare>
+
+	<DislikeCompare2>
+		<trans-unit id="comm_disliketotesthdr">
+			<english>Dislike to Test</english>
+			<german>Messe nicht gern</german>
+		</trans-unit>
+		<trans-unit id="COMM_mealtimes">
+			<english>Your meal times for the upcoming week:</english>
+			<german>Ihre Essenszeiten für die kommende Woche:</german>
+		</trans-unit>
+		<trans-unit id="COMM_breakfastreminder">
+			<english>Breakfast</english>
+			<german>Frühstück</german>
+		</trans-unit>
+		<trans-unit id="COMM_lunchbtn">
+			<english>Lunch</english>
+			<german>Mittagessen</german>
+		</trans-unit>
+		<trans-unit id="COMM_dinnerbtn">
+			<english>Dinner</english>
+			<german>Abendessen</german>
+		</trans-unit>
+		<trans-unit id="COMM_bedtimereminder">
+			<english>Bedtime</english>
+			<german>Schlafenszeit</german>
+		</trans-unit>
+		<trans-unit id="profileappointmentsAddRemndrBtn">
+			<english>Add an overnight reminder</english>
+			<german>Nächtliche Erinnerung hinzufügen</german>
+		</trans-unit>
+		<trans-unit id="COMM_savebtn">
+			<english>Save</english>
+			<german>Speichern</german>
+		</trans-unit>
+	</DislikeCompare2>
+
+	<TestReminderPopup1>
+		<trans-unit id="tooltipsmartremindershdr">
+			<english>Test Reminders</english>
+			<german>Messerinnerungen</german>
+		</trans-unit>
+		<trans-unit id="smarttest_plan3reminderstext">
+			<english>This Test Reminder Plan looks at your blood sugar once a day for 10 days, at various times of the day and evening.</english>
+			<german>Dieser Messplan betrachtet Ihren Blutzuckerverlauf 10 Tage lang einmal pro Tag zu verschiedenen Tages- und Abendszeiten an.</german>
+		</trans-unit>
+	</TestReminderPopup1>
+
+	<DislikeCompare3>
+		<trans-unit id="COMM_disliketest">
+			<english>Dislike to test</english>
+			<german>Messe nicht gern</german>
+		</trans-unit>
+		<trans-unit id="smarttest_plan3reminderstext">
+			<english>This Test Reminder Plan looks at your blood sugar once a day for 10 days, at various times of the day and evening.</english>
+			<german>Dieser Messplan betrachtet Ihren Blutzuckerverlauf 10 Tage lang einmal pro Tag zu verschiedenen Tages- und Abendszeiten an.</german>
+		</trans-unit>
+		<trans-unit id="COMM_smarttestingviewtestdys">
+			<english>View test days</english>
+			<german>Messtage anschauen</german>
+		</trans-unit>
+		<trans-unit id="smarttestingdeleteplan">
+			<english>Delete Plan</english>
+			<german>Plan löschen</german>
+		</trans-unit>
+	</DislikeCompare3>
+
+	<DelPopupCompare>
+		<trans-unit id="COMM_deletereminder">
+			<english>Delete Reminders</english>
+			<german>Erinnerungen löschen</german>
+		</trans-unit>
+		<!-- in 1.2.x-->
+		<trans-unit id="smartremindersDislikeTestTxt">
+			<english>Do you want to delete 10 reminders for &lt;i&gt;Dislike to test?&lt;/i&gt;</english>
+			<german>Do you want to delete 10 reminders for &lt;i&gt;Dislike to test?&lt;/i&gt;</german>
+		</trans-unit>
+		<trans-unit id="COMM_cancelbtn">
+			<english>Cancel</english>
+			<german>Abbrechen</german>
+		</trans-unit>
+		<trans-unit id="COMM_deletebtn">
+			<english>Delete</english>
+			<german>Löschen</german>
+		</trans-unit>
+	</DelPopupCompare>
+
+	<CuriousCompare>
+		<trans-unit id="COMM_reminders37over">
+			<english>37 reminders over 7 days</english>
+			<german>37 Erinnerungen über 7 Tage</german>
+		</trans-unit>
+		<trans-unit id="smarttetingsetupsmarttestingplan">
+			<english>Sometimes it is helpful to test more frequently just to see how things are going.&lt;&gt;&lt;br&gt;Do you want to set up a Test Reminder Plan to see if your readings are in your target range?</english>
+			<german>Manchmal ist es hilfreich, häufiger zu messen, einfach um zu sehen, wie die Dinge stehen.&lt;&gt;&lt;br&gt;Möchten Sie einen Messplan einrichten, um zu überprüfen, ob Ihre Messwerte in Ihrem Zielbereich liegen?</german>
+		</trans-unit>
+		<trans-unit id="COMM_continuebtn">
+			<english>Continue</english>
+			<german>Weiter</german>
+		</trans-unit>
+	</CuriousCompare>
+
+	<CuriousCompare2>
+		<trans-unit id="smarttestingcuriouhowdoing">
+			<english>Curious About How I'm Doing</english>
+			<german>Neugierig, wie es bei mir läuft</german>
+		</trans-unit>
+		<trans-unit id="COMM_mealtimes">
+			<english>Your meal times for the upcoming week:</english>
+			<german>Ihre Essenszeiten für die kommende Woche:</german>
+		</trans-unit>
+		<trans-unit id="COMM_breakfastreminder">
+			<english>Breakfast</english>
+			<german>Frühstück</german>
+		</trans-unit>
+		<trans-unit id="COMM_lunchbtn">
+			<english>Lunch</english>
+			<german>Mittagessen</german>
+		</trans-unit>
+		<trans-unit id="COMM_dinnerbtn">
+			<english>Dinner</english>
+			<german>Abendessen</german>
+		</trans-unit>
+		<trans-unit id="COMM_bedtimereminder">
+			<english>Bedtime</english>
+			<german>Schlafenszeit</german>
+		</trans-unit>
+		<trans-unit id="profileappointmentsAddRemndrBtn">
+			<english>Add an overnight reminder</english>
+			<german>Nächtliche Erinnerung hinzufügen</german>
+		</trans-unit>
+		<trans-unit id="COMM_savebtn">
+			<english>Save</english>
+			<german>Speichern</german>
+		</trans-unit>
+	</CuriousCompare2>
+
+	<CuriousPopup>
+		<trans-unit id="tooltipsmartremindershdr">
+			<english>Test Reminders</english>
+			<german>Messerinnerungen</german>
+		</trans-unit>
+		<trans-unit id="smarttestingplanlooksbloodsugarseventimes">
+			<english>This Test Reminder Plan looks at your blood sugar seven times a day (before and after meals and at bedtime) for three days, and four times a day for four days.</english>
+			<german>Dieser Messplan betrachtet Ihren Blutzuckerverlauf drei Tage lang siebenmal pro Tag (vor und nach den Mahlzeiten und zur Schlafenszeit) und vier Tage lang viermal pro Tag.</german>
+		</trans-unit>
+	</CuriousPopup>
+
+	<CuriousCompare3>
+		<trans-unit id="comm_smarttestingcuriousabtdoing">
+			<english>Curious about how I'm doing</english>
+			<german>Neugierig, wie es bei mir läuft</german>
+		</trans-unit>
+		<trans-unit id="smarttestingplanlooksbloodsugarseventimes">
+			<english>This Test Reminder Plan looks at your blood sugar seven times a day (before and after meals and at bedtime) for three days, and four times a day for four days.</english>
+			<german>Dieser Messplan betrachtet Ihren Blutzuckerverlauf drei Tage lang siebenmal pro Tag (vor und nach den Mahlzeiten und zur Schlafenszeit) und vier Tage lang viermal pro Tag.</german>
+		</trans-unit>
+		<trans-unit id="COMM_smarttestingviewtestdys">
+			<english>View test days</english>
+			<german>Messtage anschauen</german>
+		</trans-unit>
+		<trans-unit id="smarttestingdeleteplan">
+			<english>Delete Plan</english>
+			<german>Plan löschen</german>
+		</trans-unit>
+	</CuriousCompare3>
+
+	<DelPopupCompare2>
+		<trans-unit id="COMM_deletereminder">
+			<english>Delete Reminders</english>
+			<german>Erinnerungen löschen</german>
+		</trans-unit>
+		<trans-unit id="smarttestingdeletecuriousabtdoing">
+			<english>Do you want to delete 37 reminders for Curious About How I'm Doing?</english>
+			<german>Möchten Sie 37 Erinnerungen für „Neugierig, wie meine Blutzuckermesswerte sich entwickeln“ löschen?</german>
+		</trans-unit>
+		<trans-unit id="COMM_cancelbtn">
+			<english>Cancel</english>
+			<german>Abbrechen</german>
+		</trans-unit>
+		<trans-unit id="COMM_deletebtn">
+			<english>Delete</english>
+			<german>Löschen</german>
+		</trans-unit>
+	</DelPopupCompare2>
+
+	<StressCompare>
+		<trans-unit id="smarttestingreminderovr1day">
+			<english>31 reminders over 7 day</english>
+			<german>31 Erinnerungen über 7 Tage</german>
+		</trans-unit>
+		<trans-unit id="smarttestinganticipatedstressfulwrk">
+			<english>You may notice your blood sugar runs high during particularly stressful weeks. Your body produces stress hormones that can raise your blood sugar.&lt;br&gt;&lt;br&gt;Do you want to set up a Test Reminder Plan for an anticipated stressful week?</english>
+			<german>Vielleicht haben Sie bemerkt, dass sich Ihr Blutzucker in besonders stressigen Wochen erhöht. Ihr Körper produziert Stresshormone, die Ihren Blutzucker erhöhen können.&lt;br&gt;&lt;br&gt;Möchten Sie einen Messplan für eine voraussichtlich stressige Woche einrichten?</german>
+		</trans-unit>
+		<trans-unit id="COMM_continuebtn">
+			<english>Continue</english>
+			<german>Weiter</german>
+		</trans-unit>
+	</StressCompare>
+
+	<StressCompare2>
+		<trans-unit id="comm_stressfulworkhdr">
+			<english>Stressful Work/Study Week</english>
+			<german>Stressige Arbeits-/Lernwoche</german>
+		</trans-unit>
+		<trans-unit id="COMM_mealtimes">
+			<english>Your meal times for the upcoming week:</english>
+			<german>Ihre Essenszeiten für die kommende Woche:</german>
+		</trans-unit>
+		<trans-unit id="COMM_breakfastreminder">
+			<english>Breakfast</english>
+			<german>Frühstück</german>
+		</trans-unit>
+		<trans-unit id="COMM_lunchbtn">
+			<english>Lunch</english>
+			<german>Mittagessen</german>
+		</trans-unit>
+		<trans-unit id="COMM_dinnerbtn">
+			<english>Dinner</english>
+			<german>Abendessen</german>
+		</trans-unit>
+		<trans-unit id="COMM_bedtimereminder">
+			<english>Bedtime</english>
+			<german>Schlafenszeit</german>
+		</trans-unit>
+		<trans-unit id="profileappointmentsAddRemndrBtn">
+			<english>Add an overnight reminder</english>
+			<german>Nächtliche Erinnerung hinzufügen</german>
+		</trans-unit>
+		<trans-unit id="COMM_savebtn">
+			<english>Save</english>
+			<german>Speichern</german>
+		</trans-unit>
+	</StressCompare2>
+
+	<StressPopup>
+		<trans-unit id="tooltipsmartremindershdr">
+			<english>Test Reminders</english>
+			<german>Messerinnerungen</german>
+		</trans-unit>
+		<trans-unit id="smarttestingaddingaftermealpairing">
+			<english>This Test Reminder Plan looks at your blood sugar four times a day (before meals and at bedtime) for one week, adding one after meal test on three separate days.</english>
+			<german>Dieser Messplan betrachtet Ihren Blutzuckerverlauf eine Woche lang viermal pro Tag (vor den Mahlzeiten und zur Schlafenszeit) und fügt an drei verschiedenen Tagen eine Messung nach dem Essen hinzu.</german>
+		</trans-unit>
+	</StressPopup>
+
+	<StressCompare3>
+		<trans-unit id="comm_smarttestplan5">
+			<english>Stressful work/study week</english>
+			<german>Stressige Arbeits-/Lernwoche</german>
+		</trans-unit>
+		<trans-unit id="smarttestingaddingaftermealpairing">
+			<english>This Test Reminder Plan looks at your blood sugar four times a day (before meals and at bedtime) for one week, adding one after meal test on three separate days.</english>
+			<german>Dieser Messplan betrachtet Ihren Blutzuckerverlauf eine Woche lang viermal pro Tag (vor den Mahlzeiten und zur Schlafenszeit) und fügt an drei verschiedenen Tagen eine Messung nach dem Essen hinzu.</german>
+		</trans-unit>
+		<trans-unit id="COMM_smarttestingviewtestdys">
+			<english>View test days</english>
+			<german>Messtage anschauen</german>
+		</trans-unit>
+		<trans-unit id="smarttestingdeleteplan">
+			<english>Delete Plan</english>
+			<german>Plan löschen</german>
+		</trans-unit>
+	</StressCompare3>
+
+	<DelPopupCompare3>
+		<trans-unit id="COMM_deletereminder">
+			<english>Delete Reminders</english>
+			<german>Erinnerungen löschen</german>
+		</trans-unit>
+		<trans-unit id="smarttestingdeletestresswork">
+			<english>Do you want to delete 31 reminders for Stressful Work/Study Week?</english>
+			<german>Möchten Sie 31 Erinnerungen für „Stressige Arbeits-/Lernwoche“ löschen?</german>
+		</trans-unit>
+		<trans-unit id="COMM_cancelbtn">
+			<english>Cancel</english>
+			<german>Abbrechen</german>
+		</trans-unit>
+		<trans-unit id="COMM_deletebtn">
+			<english>Delete</english>
+			<german>Löschen</german>
+		</trans-unit>
+	</DelPopupCompare3>
+
+	<EventCompare>
+		<trans-unit id="smarttestingreminderovr1day">
+			<english>5 reminders over 1 day</english>
+			<german>5 Erinnerungen über 1 Tage</german>
+		</trans-unit>
+		<trans-unit id="smarttestingevaluateaffectsofevent">
+			<english>It is important to understand how different actions and events affect your blood sugar, such as a type of food, a certain exercise, or an event.&lt;br&gt;&lt;br&gt;Do you want to set up a Test Reminder Plan to evaluate the effects of a particular event?</english>
+			<german>Es ist wichtig zu verstehen, wie verschiedene Tätigkeiten und Ereignisse, z. B. eine bestimmte Nahrungsmittelart, eine bestimmte sportliche Aktivität oder ein sonstiges Ereignis, Ihren Blutzucker beeinflussen.&lt;br&gt;&lt;br&gt;Möchten Sie einen Messplan zur Beurteilung der Auswirkungen eines bestimmten Ereignisses einrichten?</german>
+		</trans-unit>
+		<trans-unit id="COMM_continuebtn">
+			<english>Continue</english>
+			<german>Weiter</german>
+		</trans-unit>
+	</EventCompare>
+
+	<EventCompare2>
+		<trans-unit id="smarttestingtestingeffects">
+			<english>Testing Effects of an Event</english>
+			<german>Auswirkungen eines Ereignisses</german>
+		</trans-unit>
+		<trans-unit id="smarttestingtimeofevent">
+			<english>Date and time of the event:</english>
+			<german>Datum und Uhrzeit des Ereignisses:</german>
+		</trans-unit>
+        <trans-unit id="smarttestingnameofevent">
+			<english>Name of the event:</english>
+			<german>Name des Ereignisses:</german>
+		</trans-unit>
+		<trans-unit id="COMM_savebtn">
+			<english>Save</english>
+			<german>Speichern</german>
+		</trans-unit>
+	</EventCompare2>
+
+	<EventDone>
+		<trans-unit id="COMM_Donebtn">
+			<english>Done</english>
+			<german>Fertig</german>
+		</trans-unit>
+	</EventDone>
+
+	<EventPopup>
+		<trans-unit id="tooltipsmartremindershdr">
+			<english>Test Reminders</english>
+			<german>Messerinnerungen</german>
+		</trans-unit>
+		<trans-unit id="smarttestingbgevent">
+			<english>This Test Reminder Plan looks at your blood sugar before the event and 30, 60, 90 and 120 minutes after the event.</english>
+			<german>Dieser Messplan betrachtet Ihren Blutzuckerverlauf vor dem Ereignis sowie 30, 60, 90 und 120 Minuten nach dem Ereignis.</german>
+		</trans-unit>
+	</EventPopup>
+
+	<EventCompare3>
+		<trans-unit id="comm_smarttestplan6">
+			<english>Testing the effects of an event</english>
+			<german>Auswirkungen eines Ereignisses</german>
+		</trans-unit>
+		<trans-unit id="smarttestingbgevent">
+			<english>This Test Reminder Plan looks at your blood sugar before the event and 30, 60, 90 and 120 minutes after the event.</english>
+			<german>Dieser Messplan betrachtet Ihren Blutzuckerverlauf vor dem Ereignis sowie 30, 60, 90 und 120 Minuten nach dem Ereignis.</german>
+		</trans-unit>
+		<trans-unit id="COMM_smarttestingviewtestdys">
+			<english>View test days</english>
+			<german>Messtage anschauen</german>
+		</trans-unit>
+		<trans-unit id="smarttestingdeleteplan">
+			<english>Delete Plan</english>
+			<german>Plan löschen</german>
+		</trans-unit>
+	</EventCompare3>
+
+	<DelPopupCompare4>
+		<trans-unit id="COMM_deletereminder">
+			<english>Delete Reminders</english>
+			<german>Erinnerungen löschen</german>
+		</trans-unit>
+		<trans-unit id="smarttestingdeletetestingeffects">
+			<english>Do you want to delete 5 reminders for Testing Effects of an Event?</english>
+			<german>Möchten Sie 5 Erinnerungen für „Auswirkungen eines Ereignisses“ löschen?</german>
+		</trans-unit>
+		<trans-unit id="COMM_cancelbtn">
+			<english>Cancel</english>
+			<german>Abbrechen</german>
+		</trans-unit>
+		<trans-unit id="COMM_deletebtn">
+			<english>Delete</english>
+			<german>Löschen</german>
+		</trans-unit>
+	</DelPopupCompare4>
+
+	<UpcomingVisitCompare>
+		<trans-unit id="COMM_reminders37over">
+			<english>37 reminders over 7 days</english>
+			<german>37 Erinnerungen über 7 Tage</german>
+		</trans-unit>
+		<trans-unit id="smarttestingaccurateinforegularly">
+			<english>Your healthcare professional needs accurate information to adjust your medication correctly. You can provide that information if you test your blood sugar regularly during the week before your visit.&lt;br&gt;Do you want to set up a Test Reminder Plan for the week before your visit?</english>
+			<german>Ihr Arzt benötigt verlässliche Informationen, um Ihre Medikamente korrekt einstellen zu können. Sie können diese Informationen bereitstellen, indem Sie in der Woche vor Ihrem Arzttermin Ihren Blutzucker regelmäßig messen.&lt;br&gt;Möchten Sie einen Messplan für die Woche vor Ihrem Arzttermin einrichten?</german>
+		</trans-unit>
+		<trans-unit id="COMM_continuebtn">
+			<english>Continue</english>
+			<german>Weiter</german>
+		</trans-unit>
+	</UpcomingVisitCompare>
+
+	<UpcomingVisitCompare2>
+		<trans-unit id="COMM_UpcomVisitSubHdr">
+			<english>Upcoming Healthcare Visit</english>
+			<german>Bevorstehender Arzttermin</german>
+		</trans-unit>
+		<trans-unit id="COMM_type1btn">
+			<english>Insulin User</english>
+			<german>Patient verwendet Insulin</german>
+		</trans-unit>
+		<trans-unit id="smarttestingappointmenttime">
+			<english>Enter the appointment time and date:</english>
+			<german>Uhrzeit und Datum des Termins:</german>
+		</trans-unit>
+		<trans-unit id="COMM_mealtimes">
+			<english>Your meal times for the upcoming week:</english>
+			<german>Ihre Essenszeiten für die kommende Woche:</german>
+		</trans-unit>
+		<trans-unit id="COMM_breakfastreminder">
+			<english>Breakfast</english>
+			<german>Frühstück</german>
+		</trans-unit>
+		<trans-unit id="COMM_lunchbtn">
+			<english>Lunch</english>
+			<german>Mittagessen</german>
+		</trans-unit>
+		<trans-unit id="COMM_dinnerbtn">
+			<english>Dinner</english>
+			<german>Abendessen</german>
+		</trans-unit>
+		<trans-unit id="COMM_bedtimereminder">
+			<english>Bedtime</english>
+			<german>Schlafenszeit</german>
+		</trans-unit>
+		<trans-unit id="profileappointmentsAddRemndrBtn">
+			<english>Add an overnight reminder</english>
+			<german>Nächtliche Erinnerung hinzufügen</german>
+		</trans-unit>
+		<trans-unit id="COMM_savebtn">
+			<english>Save</english>
+			<german>Speichern</german>
+		</trans-unit>
+	</UpcomingVisitCompare2>
+
+	<UpcomingVisitPopup>
+		<trans-unit id="tooltipsmartremindershdr">
+			<english>Test Reminders</english>
+			<german>Messerinnerungen</german>
+		</trans-unit>
+		<!-- in 1.2.x xml-->
+		<trans-unit id="tooltipSmartRemindrType1Txt1">
+			<english>For the first 4 days, you test your blood sugar 4 times a day: before each
+				meal and at bedtime. For the last 3 days, you test your blood sugar before and
+				after each meal and at bedtime. If you have overnight lows, add an overnight
+				reminder.</english>
+			<german>For the first 4 days, you test your blood sugar 4 times a day: before each
+				meal and at bedtime. For the last 3 days, you test your blood sugar before and
+				after each meal and at bedtime. If you have overnight lows, add an overnight
+				reminder.</german>
+		</trans-unit>
+	</UpcomingVisitPopup>
+
+	<UpcomingVisitCompare3>
+		<trans-unit id="COMM_upcomingHealthcareVisit">
+			<english>Upcoming healthcare visit</english>
+			<german>Bevorstehender Arzttermin</german>
+		</trans-unit>
+		<trans-unit id="smarttest_plan1reminderstext">
+			<english>This Test Reminder Plan looks at your blood sugar four times a day (before meals and at bedtime) for four days, and seven times a day (before and after meals and at bedtime) for three days prior to your visit.</english>
+			<german>Dieser Messplan schaut sich Ihren Blutzucker vier Tage lang viermal pro Tag (vor den Mahlzeiten und zur Schlafenszeit) und drei Tage lang siebenmal pro Tag (vor und nach den Mahlzeiten und zur Schlafenszeit) vor Ihrem Arzttermin.</german>
+		</trans-unit>
+		<trans-unit id="COMM_smarttestingviewtestdys">
+			<english>View test days</english>
+			<german>Messtage anschauen</german>
+		</trans-unit>
+		<trans-unit id="smarttestingdeleteplan">
+			<english>Delete Plan</english>
+			<german>Plan löschen</german>
+		</trans-unit>
+	</UpcomingVisitCompare3>
+
+	<DelPopupCompare5>
+		<trans-unit id="COMM_deletereminder">
+			<english>Delete Reminders</english>
+			<german>Erinnerungen löschen</german>
+		</trans-unit>
+		<!-- in 1.2.x xml-->
+		<trans-unit id="smartremindersTestingDeleteUpcomingTxt1">
+			<english>Do you want to delete 37 reminders for Upcoming healthcare visit, Insulin
+				User?</english>
+			<german>Do you want to delete 37 reminders for Upcoming healthcare visit, Insulin
+				User?</german>
+		</trans-unit>
+		<trans-unit id="COMM_cancelbtn">
+			<english>Cancel</english>
+			<german>Abbrechen</german>
+		</trans-unit>
+		<trans-unit id="COMM_deletebtn">
+			<english>Delete</english>
+			<german>Löschen</german>
+		</trans-unit>
+	</DelPopupCompare5>
+
+	<UpcomingNonInsulinCompare>
+		<trans-unit id="COMM_remindersover">
+			<english>17 reminders over 7 days</english>
+			<german>17 Erinnerungen über 7 Tage</german>
+		</trans-unit>
+		<trans-unit id="smarttestingaccurateinforegularly">
+			<english>Your healthcare professional needs accurate information to adjust your medication correctly. You can provide that information if you test your blood sugar regularly during the week before your visit.&lt;br&gt;Do you want to set up a Test Reminder Plan for the week before your visit?</english>
+			<german>Ihr Arzt benötigt verlässliche Informationen, um Ihre Medikamente korrekt einstellen zu können. Sie können diese Informationen bereitstellen, indem Sie in der Woche vor Ihrem Arzttermin Ihren Blutzucker regelmäßig messen.&lt;br&gt;Möchten Sie einen Messplan für die Woche vor Ihrem Arzttermin einrichten?</german>
+		</trans-unit>
+		<trans-unit id="COMM_continuebtn">
+			<english>Continue</english>
+			<german>Weiter</german>
+		</trans-unit>
+	</UpcomingNonInsulinCompare>
+
+	<UpcomingNonInsulinCompare2>
+		<trans-unit id="COMM_upcomingHealthcareVisit">
+			<english>Upcoming healthcare visit</english>
+			<german>Bevorstehender Arzttermin</german>
+		</trans-unit>
+		<trans-unit id="COMM_type2btn">
+			<english>Non-Insulin User</english>
+			<german>Patient verwendet kein Insulin</german>
+		</trans-unit>
+		<trans-unit id="smarttestingappointmenttime">
+			<english>Enter the appointment time and date:</english>
+			<german>Uhrzeit und Datum des Termins:</german>
+		</trans-unit>
+		<trans-unit id="COMM_mealtimes">
+			<english>Your meal times for the upcoming week:</english>
+			<german>Ihre Essenszeiten für die kommende Woche:</german>
+		</trans-unit>
+		<trans-unit id="COMM_breakfastreminder">
+			<english>Breakfast</english>
+			<german>Frühstück</german>
+		</trans-unit>
+		<trans-unit id="COMM_lunchbtn">
+			<english>Lunch</english>
+			<german>Mittagessen</german>
+		</trans-unit>
+		<trans-unit id="COMM_dinnerbtn">
+			<english>Dinner</english>
+			<german>Abendessen</german>
+		</trans-unit>
+		<trans-unit id="COMM_bedtimereminder">
+			<english>Bedtime</english>
+			<german>Schlafenszeit</german>
+		</trans-unit>
+		<trans-unit id="profileappointmentsAddRemndrBtn">
+			<english>Add an overnight reminder</english>
+			<german>Nächtliche Erinnerung hinzufügen</german>
+		</trans-unit>
+		<trans-unit id="COMM_savebtn">
+			<english>Save</english>
+			<german>Speichern</german>
+		</trans-unit>
+	</UpcomingNonInsulinCompare2>
+
+	<UpcomingNonInsulinPopup>
+		<trans-unit id="tooltipsmartremindershdr">
+			<english>Test Reminders</english>
+			<german>Messerinnerungen</german>
+		</trans-unit>
+		<!-- in 1.2.x xml-->
+		<trans-unit id="tooltipSmartRemindrType2Txt3">
+			<english>For the first 4 days, you test your blood sugar 2 times a day: before meals
+				or	at bedtime. For the last 3 days, you test 3 times a day: two times before a
+				meal, and one time after a meal. If you have overnight lows, add an overnight
+				reminder.</english>
+			<german>For the first 4 days, you test your blood sugar 2 times a day: before meals
+				or at bedtime. For the last 3 days, you test 3 times a day: two times before a
+				meal, and one time after a meal. If you have overnight lows, add an overnight
+				reminder.</german>
+		</trans-unit>
+	</UpcomingNonInsulinPopup>
+
+	<UpcomingNonInsulinCompare3>
+		<trans-unit id="COMM_upcomingHealthcareVisit">
+			<english>Upcoming healthcare visit</english>
+			<german>Bevorstehender Arzttermin</german>
+		</trans-unit>
+		<trans-unit id="smarttest_plan2reminderstext">
+			<english>This Test Reminder Plan looks at your blood sugar two times a day, before one of your meals and at bedtime, for four days. The three days prior to your visit includes both before meal and after meal testing.</english>
+			<german>Dieser Messplan betrachtet Ihren Blutzuckerverlauf vier Tage lang zweimal pro Tag, und zwar vor einer Ihrer Mahlzeiten und zur Schlafenszeit. An den 3 Tagen vor Ihrem Termin werden Messungen vor dem Essen und nach dem Essen mit einbezogen.</german>
+		</trans-unit>
+		<trans-unit id="COMM_smarttestingviewtestdys">
+			<english>View test days</english>
+			<german>Messtage anschauen</german>
+		</trans-unit>
+		<trans-unit id="smarttestingdeleteplan">
+			<english>Delete Plan</english>
+			<german>Plan löschen</german>
+		</trans-unit>
+	</UpcomingNonInsulinCompare3>
+
+	<DelPopupCompare6>
+		<trans-unit id="COMM_deletereminder">
+			<english>Delete Reminders</english>
+			<german>Erinnerungen löschen</german>
+		</trans-unit>
+		<!-- in 1.2.x xml-->
+		<trans-unit id="smartremindersTestingDeleteUpcomingTxt">
+			<english>Do you want to delete 17 reminders for Upcoming healthcare visit, Non-Insulin User?</english>
+			<german>Do you want to delete 17 reminders for Upcoming healthcare visit, Non-Insulin User?</german>
+		</trans-unit>
+		<trans-unit id="COMM_cancelbtn">
+			<english>Cancel</english>
+			<german>Abbrechen</german>
+		</trans-unit>
+		<trans-unit id="COMM_deletebtn">
+			<english>Delete</english>
+			<german>Löschen</german>
+		</trans-unit>
+	</DelPopupCompare6>
+
+	<PointPlanCompare>
+		<trans-unit id="comm_remindersovrdays">
+			<english>21 reminders over 3 days</english>
+			<german>21 Erinnerungen über 3 Tage</german>
+		</trans-unit>
+		<trans-unit id="smarttestingsevenpointtest">
+			<english>It can be helpful to look very closely at blood sugar over a short time period. A typical way to do this is called the 'Seven-point' test. This involves seven tests per day, three days in a row.&lt;br&gt;&lt;br&gt;Do you want to set up a Test Reminder Plan to see if your readings are in your target range?</english>
+			<german>Es kann hilfreich sein, den Blutzuckerverlauf über einen bestimmten Zeitraum genau zu beobachten. Hierzu erstellt man üblicherweise ein sogenanntes 7-Punkte-Profil. Es umfasst sieben Messungen pro Tag an drei aufeinanderfolgenden Tagen.&lt;br&gt;&lt;br&gt;Möchten Sie einen Messplan einrichten, um zu überprüfen, ob Ihre Messwerte in Ihrem Zielbereich liegen?</german>
+		</trans-unit>
+		<trans-unit id="COMM_continuebtn">
+			<english>Continue</english>
+			<german>Weiter</german>
+		</trans-unit>
+	</PointPlanCompare>
+
+	<PointPlanCompare2>
+		<trans-unit id="comm_smarttestplan7">
+			<english>7-Point Plan</english>
+			<german>7-Punkte-Plan</german>
+		</trans-unit>
+		<trans-unit id="COMM_mealtimes">
+			<english>Your meal times for the upcoming week:</english>
+			<german>Ihre Essenszeiten für die kommende Woche:</german>
+		</trans-unit>
+		<trans-unit id="COMM_breakfastreminder">
+			<english>Breakfast</english>
+			<german>Frühstück</german>
+		</trans-unit>
+		<trans-unit id="COMM_lunchbtn">
+			<english>Lunch</english>
+			<german>Mittagessen</german>
+		</trans-unit>
+		<trans-unit id="COMM_dinnerbtn">
+			<english>Dinner</english>
+			<german>Abendessen</german>
+		</trans-unit>
+		<trans-unit id="COMM_bedtimereminder">
+			<english>Bedtime</english>
+			<german>Schlafenszeit</german>
+		</trans-unit>
+		<trans-unit id="profileappointmentsAddRemndrBtn">
+			<english>Add an overnight reminder</english>
+			<german>Nächtliche Erinnerung hinzufügen</german>
+		</trans-unit>
+		<trans-unit id="COMM_savebtn">
+			<english>Save</english>
+			<german>Speichern</german>
+		</trans-unit>
+	</PointPlanCompare2>
+
+	<PointPlanPopup>
+		<trans-unit id="tooltipsmartremindershdr">
+			<english>Test Reminders</english>
+			<german>Messerinnerungen</german>
+		</trans-unit>
+		<trans-unit id="smarttestingplanatvarioustimesforthreedays">
+			<english>This Test Reminder Plan looks at your blood sugar for three days, with seven tests per day at various times of the day and evening.</english>
+			<german>Dieser Messplan betrachtet Ihren Blutzuckerverlauf mit sieben Messungen pro Tag (zu verschiedenen Tageszeiten) an drei aufeinanderfolgenden Tagen.</german>
+		</trans-unit>
+	</PointPlanPopup>
+
+	<PointPlanCompare3>
+		<trans-unit id="comm_pointplan">
+			<english>7-point plan</english>
+			<german>7-Punkte-Plan</german>
+		</trans-unit>
+		<trans-unit id="smarttestingplanatvarioustimesforthreedays">
+			<english>This Test Reminder Plan looks at your blood sugar for three days, with seven tests per day at various times of the day and evening.</english>
+			<german>Dieser Messplan betrachtet Ihren Blutzuckerverlauf mit sieben Messungen pro Tag (zu verschiedenen Tageszeiten) an drei aufeinanderfolgenden Tagen.</german>
+		</trans-unit>
+		<trans-unit id="COMM_smarttestingviewtestdys">
+			<english>View test days</english>
+			<german>Messtage anschauen</german>
+		</trans-unit>
+		<trans-unit id="smarttestingdeleteplan">
+			<english>Delete Plan</english>
+			<german>Plan löschen</german>
+		</trans-unit>
+	</PointPlanCompare3>
+
+	<DelPopupCompare7>
+		<trans-unit id="COMM_deletereminder">
+			<english>Delete Reminders</english>
+			<german>Erinnerungen löschen</german>
+		</trans-unit>
+		<trans-unit id="smarttestingdeletepointplan">
+			<english>Do you want to delete 21 reminders for 7-Point Plan?</english>
+			<german>Möchten Sie 21 Erinnerungen für „7-Punkte-Plan“ löschen?</german>
+		</trans-unit>
+		<trans-unit id="COMM_cancelbtn">
+			<english>Cancel</english>
+			<german>Abbrechen</german>
+		</trans-unit>
+		<trans-unit id="COMM_deletebtn">
+			<english>Delete</english>
+			<german>Löschen</german>
+		</trans-unit>
+	</DelPopupCompare7>
+
+	<ActingInsulinCompare>
+		<trans-unit id="COMM_remindersover">
+			<english>17 reminders over 7 days</english>
+			<german>17 Erinnerungen über 7 Tage</german>
+		</trans-unit>
+		<trans-unit id="smarttestingbasalinsulinmeetneeds">
+			<english>Some people take only long-acting insulin. This is usually given once or twice a day. Basal insulin is often adjusted by matching bedtime and morning-fasting blood sugar.&lt;br&gt;&lt;br&gt;Do you want to set up a Test Reminder Plan to see if your basal insulin meets your needs?</english>
+			<german>Manche Diabetiker nehmen nur langwirkendes Insulin. Dies wird in der Regel ein- oder zweimal am Tag verabreicht. Das Basalinsulin wird oft so eingestellt, dass die Dosen vor dem Schlafengehen und zum Frühstück aufeinander abgestimmt werden. &lt;br&gt;&lt;br&gt;Möchten Sie einen Messplan einrichten, um zu überprüfen, ob Ihr Basalinsulin Ihren Bedarf deckt?</german>
+		</trans-unit>
+		<trans-unit id="COMM_continuebtn">
+			<english>Continue</english>
+			<german>Weiter</german>
+		</trans-unit>
+	</ActingInsulinCompare>
+
+	<ActingInsulinCompare2>
+		<trans-unit id="smarttestinglongactivitytxt">
+			<english>Long-Acting Insulin Only</english>
+			<german>Nur langwirkendes Insulin</german>
+		</trans-unit>
+		<trans-unit id="COMM_mealtimes">
+			<english>Your meal times for the upcoming week:</english>
+			<german>Ihre Essenszeiten für die kommende Woche:</german>
+		</trans-unit>
+		<trans-unit id="COMM_breakfastreminder">
+			<english>Breakfast</english>
+			<german>Frühstück</german>
+		</trans-unit>
+		<trans-unit id="COMM_lunchbtn">
+			<english>Lunch</english>
+			<german>Mittagessen</german>
+		</trans-unit>
+		<trans-unit id="COMM_dinnerbtn">
+			<english>Dinner</english>
+			<german>Abendessen</german>
+		</trans-unit>
+		<trans-unit id="COMM_bedtimereminder">
+			<english>Bedtime</english>
+			<german>Schlafenszeit</german>
+		</trans-unit>
+		<trans-unit id="profileappointmentsAddRemndrBtn">
+			<english>Add an overnight reminder</english>
+			<german>Nächtliche Erinnerung hinzufügen</german>
+		</trans-unit>
+		<trans-unit id="COMM_savebtn">
+			<english>Save</english>
+			<german>Speichern</german>
+		</trans-unit>
+	</ActingInsulinCompare2>
+
+	<ActingInsulinPopup>
+		<trans-unit id="tooltipsmartremindershdr">
+			<english>Test Reminders</english>
+			<german>Messerinnerungen</german>
+		</trans-unit>
+		<trans-unit id="smarttestingplanat3occassions">
+			<english>This Test Reminder Plan looks at fasting and bedtime blood sugar for seven days, with daytime testing on three separate occasions.</english>
+			<german>Dieser Messplan betrachtet Ihren Nüchternblutzucker und Ihren Blutzucker zur Schlafenszeit sieben Tage lang mit Messungen tagsüber zu drei verschiedenen Zeiten an.</german>
+		</trans-unit>
+	</ActingInsulinPopup>
+
+	<ActingInsulinCompare3>
+		<trans-unit id="comm_smarttestplan8">
+			<english>Long-acting insulin only</english>
+			<german>Nur langwirkendes Insulin</german>
+		</trans-unit>
+		<trans-unit id="smarttestingplanat3occassions">
+			<english>This Test Reminder Plan looks at fasting and bedtime blood sugar for seven days, with daytime testing on three separate occasions.</english>
+			<german>Dieser Messplan betrachtet Ihren Nüchternblutzucker und Ihren Blutzucker zur Schlafenszeit sieben Tage lang mit Messungen tagsüber zu drei verschiedenen Zeiten an.</german>
+		</trans-unit>
+		<trans-unit id="COMM_smarttestingviewtestdys">
+			<english>View test days</english>
+			<german>Messtage anschauen</german>
+		</trans-unit>
+		<trans-unit id="smarttestingdeleteplan">
+			<english>Delete Plan</english>
+			<german>Plan löschen</german>
+		</trans-unit>
+	</ActingInsulinCompare3>
+
+	<DelPopupCompare8>
+		<trans-unit id="COMM_deletereminder">
+			<english>Delete Reminders</english>
+			<german>Erinnerungen löschen</german>
+		</trans-unit>
+		<trans-unit id="smarttestingdeleteactinginsulin">
+			<english>Do you want to delete 17 reminders for Long-Acting Insulin Only?</english>
+			<german>Möchten Sie 17 Erinnerungen für „Lang wirkendes Insulin“ löschen?</german>
+		</trans-unit>
+		<trans-unit id="COMM_cancelbtn">
+			<english>Cancel</english>
+			<german>Abbrechen</german>
+		</trans-unit>
+		<trans-unit id="COMM_deletebtn">
+			<english>Delete</english>
+			<german>Löschen</german>
+		</trans-unit>
+	</DelPopupCompare8>
+
+	<OvernightLowCompare>
+		<trans-unit id="comm_remindersovrdays">
+			<english>13 reminders over 4 days</english>
+			<german>13 Erinnerungen über 4 Tage</german>
+		</trans-unit>
+		<trans-unit id="smarttestingsymptoms">
+			<english>Some people have blood sugar that drops overnight, but returns to normal or
+				even high by morning. Symptoms of this may include night sweats or nightmares;
+				however, low blood sugar at night can occur when you are not
+				aware.&lt;br&gt;&lt;br&gt;Do you want to set up a Test Reminder Plan to see if your
+				readings are in your target range? You will get a reminder for an overnight test
+				on two occasions.</english>
+            <german>Bei manchen Menschen fällt der Blutzuckerspiegel in der Nacht unterhalb des
+				Normbereiches ab, worauf am folgenden Morgen hohe Messwerte auftreten können.
+				Dies kann sich in Symptomen wie Nachtschweiß oder Alpträumen äußern; allerdings
+				kann Ihr Blutzucker in der Nacht auch niedrig sein, ohne dass Sie es
+				merken.&lt;br&gt;&lt;br&gt;Möchten Sie einen Messplan einrichten, um zu
+				überprüfen, ob Ihre Messwerte in Ihrem Zielbereich liegen? Sie werden zweimal
+				daran erinnert, eine Nachtmessung durchzuführen.</german>
+		</trans-unit>
+		<trans-unit id="COMM_continuebtn">
+			<english>Continue</english>
+			<german>Weiter</german>
+		</trans-unit>
+	</OvernightLowCompare>
+
+	<OvernightLowCompare2>
+		<trans-unit id="comm_overnightlows">
+			<english>Overnight Lows</english>
+			<german>Nächtliche Unterzuckerungen</german>
+		</trans-unit>
+		<trans-unit id="COMM_mealtimes">
+			<english>Your meal times for the upcoming week:</english>
+			<german>Ihre Essenszeiten für die kommende Woche:</german>
+		</trans-unit>
+		<trans-unit id="COMM_breakfastreminder">
+			<english>Breakfast</english>
+			<german>Frühstück</german>
+		</trans-unit>
+		<trans-unit id="COMM_lunchbtn">
+			<english>Lunch</english>
+			<german>Mittagessen</german>
+		</trans-unit>
+		<trans-unit id="COMM_dinnerbtn">
+			<english>Dinner</english>
+			<german>Abendessen</german>
+		</trans-unit>
+		<trans-unit id="COMM_bedtimereminder">
+			<english>Bedtime</english>
+			<german>Schlafenszeit</german>
+		</trans-unit>
+		<trans-unit id="COMM_savebtn">
+			<english>Save</english>
+			<german>Speichern</german>
+		</trans-unit>
+	</OvernightLowCompare2>
+
+	<OvernightLowPopup>
+		<trans-unit id="tooltipsmartremindershdr">
+			<english>Test Reminders</english>
+			<german>Messerinnerungen</german>
+		</trans-unit>
+		<trans-unit id="smarttestingplanontwoccasions">
+			<english>This Test Reminder Plan looks at your blood sugar for four days at various times, including overnight on two occasions.</english>
+			<german>Dieser Messplan betrachtet Ihren Blutzuckerverlauf vier Tage lang zu verschiedenen Zeiten, einschließlich zweimal in der Nacht.</german>
+		</trans-unit>
+	</OvernightLowPopup>
+
+	<OvernightLowCompare3>
+		<trans-unit id="comm_smarttestplan9">
+			<english>Overnight lows</english>
+			<german>Nächtliche Unterzuckerungen</german>
+		</trans-unit>
+		<trans-unit id="smarttestingplanontwoccasions">
+			<english>This Test Reminder Plan looks at your blood sugar for four days at various times, including overnight on two occasions.</english>
+			<german>Dieser Messplan betrachtet Ihren Blutzuckerverlauf vier Tage lang zu verschiedenen Zeiten, einschließlich zweimal in der Nacht.</german>
+		</trans-unit>
+		<trans-unit id="COMM_smarttestingviewtestdys">
+			<english>View test days</english>
+			<german>Messtage anschauen</german>
+		</trans-unit>
+		<trans-unit id="smarttestingdeleteplan">
+			<english>Delete Plan</english>
+			<german>Plan löschen</german>
+		</trans-unit>
+	</OvernightLowCompare3>
+
+	<DelPopupCompare9>
+		<trans-unit id="COMM_deletereminder">
+			<english>Delete Reminders</english>
+			<german>Erinnerungen löschen</german>
+		</trans-unit>
+		<trans-unit id="smarttestingdeleteovernightlows">
+			<english>Do you want to delete 13 reminders for Overnight Lows?</english>
+			<german>Möchten Sie 13 Erinnerungen für „Nächtliche Unterzuckerung“ löschen?</german>
+		</trans-unit>
+		<trans-unit id="COMM_cancelbtn">
+			<english>Cancel</english>
+			<german>Abbrechen</german>
+		</trans-unit>
+		<trans-unit id="COMM_deletebtn">
+			<english>Delete</english>
+			<german>Löschen</german>
+		</trans-unit>
+	</DelPopupCompare9>
+
+	<DietCompare>
+		<trans-unit id="comm_remindersovrdays">
+			<english>25 reminders over 7 days</english>
+			<german>25 Erinnerungen über 7 Tage</german>
+		</trans-unit>
+		<trans-unit id="smarttestingtargetrange">
+			<english>When a person begins a new diet or exercise plan, a healthcare professional often asks for more frequent blood sugar testing to adjust the dose accurately.&lt;br&gt;&lt;br&gt;Do you want to set up a Test Reminder Plan to see if your readings are in your target range as you start your new plan?</english>
+			<german>Wenn Diabetiker ihre Ernährung umstellen oder mit einem neuen Sport beginnen, werden sie oft von ihrem Arzt gebeten, ihren Blutzucker häufiger zu messen, damit er ihre Medikation genau anpassen kann.&lt;br&gt;&lt;br&gt;Möchten Sie einen Messplan einrichten, um zu überprüfen, ob Ihre Messwerte mit Beginn Ihres neuen Plans in Ihrem Zielbereich liegen?</german>
+		</trans-unit>
+		<trans-unit id="COMM_continuebtn">
+			<english>Continue</english>
+			<german>Weiter</german>
+		</trans-unit>
+	</DietCompare>
+
+	<DietCompare2>
+		<trans-unit id="smarttestingexerciseplan">
+			<english>Starting Diet/Exercise Plan</english>
+			<german>Beginn Ernährung/Sport</german>
+		</trans-unit>
+		<trans-unit id="COMM_mealtimes">
+			<english>Your meal times for the upcoming week:</english>
+			<german>Ihre Essenszeiten für die kommende Woche:</german>
+		</trans-unit>
+		<trans-unit id="COMM_breakfastreminder">
+			<english>Breakfast</english>
+			<german>Frühstück</german>
+		</trans-unit>
+		<trans-unit id="COMM_lunchbtn">
+			<english>Lunch</english>
+			<german>Mittagessen</german>
+		</trans-unit>
+		<trans-unit id="COMM_dinnerbtn">
+			<english>Dinner</english>
+			<german>Abendessen</german>
+		</trans-unit>
+		<trans-unit id="COMM_bedtimereminder">
+			<english>Bedtime</english>
+			<german>Schlafenszeit</german>
+		</trans-unit>
+		<trans-unit id="profileappointmentsAddRemndrBtn">
+			<english>Add an overnight reminder</english>
+			<german>Nächtliche Erinnerung hinzufügen</german>
+		</trans-unit>
+		<trans-unit id="COMM_savebtn">
+			<english>Save</english>
+			<german>Speichern</german>
+		</trans-unit>
+	</DietCompare2>
+
+	<DietPopup>
+		<trans-unit id="tooltipsmartremindershdr">
+			<english>Test Reminders</english>
+			<german>Messerinnerungen</german>
+		</trans-unit>
+		<trans-unit id="smarttestingplanatvarioustimesforsevendays">
+			<english>This Test Reminder Plan looks at your blood sugar for seven days, at various times of the day and evening.</english>
+			<german>Dieser Messplan betrachtet Ihren Blutzuckerverlauf sieben Tage lang zu verschiedenen Tages- und Abendszeiten.</german>
+		</trans-unit>
+	</DietPopup>
+
+	<DietCompare3>
+		<trans-unit id="COMM_smarttestingeder">
+			<english>Starting diet/exercise plan</english>
+			<german>Beginn von Ernährungs-/Sportplan</german>
+		</trans-unit>
+		<trans-unit id="smarttestingplanatvarioustimesforsevendays">
+			<english>This Test Reminder Plan looks at your blood sugar for seven days, at various times of the day and evening.</english>
+			<german>Dieser Messplan betrachtet Ihren Blutzuckerverlauf sieben Tage lang zu verschiedenen Tages- und Abendszeiten.</german>
+		</trans-unit>
+		<trans-unit id="COMM_smarttestingviewtestdys">
+			<english>View test days</english>
+			<german>Messtage anschauen</german>
+		</trans-unit>
+		<trans-unit id="smarttestingdeleteplan">
+			<english>Delete Plan</english>
+			<german>Plan löschen</german>
+		</trans-unit>
+	</DietCompare3>
+
+	<DelPopupCompare10>
+		<trans-unit id="COMM_deletereminder">
+			<english>Delete Reminders</english>
+			<german>Erinnerungen löschen</german>
+		</trans-unit>
+		<trans-unit id="smarttestingdeleteexerciseplan">
+			<english>Do you want to delete 25 reminders for Starting Diet/Exercise?</english>
+			<german>Möchten Sie 25 Erinnerungen für „Beginn von Ernährung/Sport“ löschen?</german>
+		</trans-unit>
+		<trans-unit id="COMM_cancelbtn">
+			<english>Cancel</english>
+			<german>Abbrechen</german>
+		</trans-unit>
+		<trans-unit id="COMM_deletebtn">
+			<english>Delete</english>
+			<german>Löschen</german>
+		</trans-unit>
+	</DelPopupCompare10>
+
+	<StartInsulinCompare>
+		<trans-unit id="comm_remindersovrdays">
+			<english>34 reminders over 7 days</english>
+			<german>34 Erinnerungen über 7 Tage</german>
+		</trans-unit>
+		<trans-unit id="smarttestingadjustdoseaccurate">
+			<english>When a person starts insulin, a healthcare professional often asks for more frequent blood sugar testing to adjust the dose accurately.&lt;br&gt;&lt;br&gt;Do you want to set up a Test Reminder Plan to see if your readings are in your target range as you start your insulin?</english>
+			<german>Wenn Diabetiker mit ihrer Insulinbehandlung beginnen, werden sie oft von ihrem Arzt gebeten, ihren Blutzucker häufiger zu messen, damit er ihre Dosis genau anpassen kann.&lt;br&gt;&lt;br&gt;Möchten Sie einen Messplan einrichten, um zu überprüfen, ob Ihre Messwerte mit Beginn Ihrer Insulinbehandlung in Ihrem Zielbereich liegen?</german>
+		</trans-unit>
+		<trans-unit id="COMM_continuebtn">
+			<english>Continue</english>
+			<german>Weiter</german>
+		</trans-unit>
+	</StartInsulinCompare>
+
+	<StartInsulinCompare2>
+		<trans-unit id="comm_startinginsulin">
+			<english>Starting Insulin</english>
+			<german>Beginn der Insulintherapie</german>
+		</trans-unit>
+		<trans-unit id="COMM_mealtimes">
+			<english>Your meal times for the upcoming week:</english>
+			<german>Ihre Essenszeiten für die kommende Woche:</german>
+		</trans-unit>
+		<trans-unit id="COMM_breakfastreminder">
+			<english>Breakfast</english>
+			<german>Frühstück</german>
+		</trans-unit>
+		<trans-unit id="COMM_lunchbtn">
+			<english>Lunch</english>
+			<german>Mittagessen</german>
+		</trans-unit>
+		<trans-unit id="COMM_dinnerbtn">
+			<english>Dinner</english>
+			<german>Abendessen</german>
+		</trans-unit>
+		<trans-unit id="COMM_bedtimereminder">
+			<english>Bedtime</english>
+			<german>Schlafenszeit</german>
+		</trans-unit>
+		<trans-unit id="COMM_savebtn">
+			<english>Save</english>
+			<german>Speichern</german>
+		</trans-unit>
+	</StartInsulinCompare2>
+
+	<StartInsulinPopup>
+		<trans-unit id="tooltipsmartremindershdr">
+			<english>Test Reminders</english>
+			<german>Messerinnerungen</german>
+		</trans-unit>
+		<trans-unit id="smarttestingpalnforbloodsugar">
+			<english>This Test Reminder Plan looks at your blood sugar for seven days, at various times of the day and evening and overnight on one occasion.</english>
+			<german>Dieser Messplan betrachtet Ihren Blutzucker sieben Tage lang zu verschiedenen Tages- und Abendszeiten sowie einmal in der Nacht.</german>
+		</trans-unit>
+	</StartInsulinPopup>
+
+	<StartInsulinCompare3>
+		<trans-unit id="comm_smarttestplan11">
+			<english>Starting insulin</english>
+			<german>Beginn der Insulintherapie</german>
+		</trans-unit>
+		<trans-unit id="smarttestingpalnforbloodsugar">
+			<english>This Test Reminder Plan looks at your blood sugar for seven days, at various times of the day and evening and overnight on one occasion.</english>
+			<german>Dieser Messplan betrachtet Ihren Blutzucker sieben Tage lang zu verschiedenen Tages- und Abendszeiten sowie einmal in der Nacht.</german>
+		</trans-unit>
+		<trans-unit id="COMM_smarttestingviewtestdys">
+			<english>View test days</english>
+			<german>Messtage anschauen</german>
+		</trans-unit>
+		<trans-unit id="smarttestingdeleteplan">
+			<english>Delete Plan</english>
+			<german>Plan löschen</german>
+		</trans-unit>
+	</StartInsulinCompare3>
+
+	<DelPopupCompare11>
+		<trans-unit id="COMM_deletereminder">
+			<english>Delete Reminders</english>
+			<german>Erinnerungen löschen</german>
+		</trans-unit>
+		<trans-unit id="smarttestingdeletestartinginsulin">
+			<english>Do you want to delete 34 reminders for Starting insulin?</english>
+			<german>Möchten Sie 34 Erinnerungen für „Beginn der Insulintherapie“ löschen?</german>
+		</trans-unit>
+		<trans-unit id="COMM_cancelbtn">
+			<english>Cancel</english>
+			<german>Abbrechen</german>
+		</trans-unit>
+		<trans-unit id="COMM_deletebtn">
+			<english>Delete</english>
+			<german>Löschen</german>
+		</trans-unit>
+	</DelPopupCompare11>
+
+	<ReminderPopup>
+		<trans-unit id="tooltipsmartremindershdr">
+			<english>Test Reminders</english>
+			<german>Messerinnerungen</german>
+		</trans-unit>
+		<trans-unit id="tooltipSmrtRemnderSeriesTxt1">
+			<english>A Test Reminder Plan is a series of reminders that help you manage a pattern in your blood sugar readings or prepare for a visit with your healthcare professional.</english>
+			<german>Ein Messerinnerungsplan ist eine Reihe von Erinnerungen, die Ihnen dabei helfen sollen, auf ein Muster in Ihren Blutzuckermesswerten zu reagieren oder sich auf einen Arztbesuch vorzubereiten.</german>
+		</trans-unit>
+		<trans-unit id="tooltipSmrtRemnderSeriesTxt2">
+			<english>Example: If you set the date of your visit to your healthcare professional and the usual times for your meals and bedtime, the CONTOUR™DIABETES app sends you reminders to test before or after each meal and at bedtime, every day during the week before your visit.</english>
+			<german>Beispiel: Sie geben das Datum Ihres Arzttermins sowie Ihre üblichen Essens- und Schlafenszeiten ein. Die CONTOUR™DIABETES App erinnert Sie dann in der Woche vor Ihrem Termin täglich vor oder nach jeder Mahlzeit sowie vor dem Zubettgehen daran, Ihren Blutzucker zu messen.</german>
+		</trans-unit>
+	</ReminderPopup>
+
+	<OneSmartReminderPopup>
+		<trans-unit id="smarttestingdeletecurrenttestplan">
+			<english>The Contour app only allows one Test Reminder Plan at a time. To edit or create a new Test Reminder Plan, delete your current reminder plan.</english>
+			<german>Die Contour App lässt jeweils nur einen Messplan zu. Um einen Messplan zu bearbeiten oder einen neuen zu erstellen, löschen Sie Ihren aktuellen Plan.</german>
+		</trans-unit>
+	</OneSmartReminderPopup>
+
+	<OKBtn>
+		<trans-unit id="COMM_okbtn">
+			<english>OK</english>
+			<german>OK</german>
+		</trans-unit>
+	</OKBtn>
+</root>

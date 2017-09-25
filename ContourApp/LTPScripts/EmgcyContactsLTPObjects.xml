@@ -1,0 +1,474 @@
+﻿<root>
+    <MenutoMyCare>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='ic_menu']</xpath>
+            <index>0</index>
+            <comment>Menu</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@accessibilityLabel='Menu icn 1x']</xpath>
+            <index>0</index>
+            <comment>Menu</comment>
+        </Iobject>
+    </MenutoMyCare>
+
+    <ClickMyCare>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@id='left_drawer']/*/*[@id='lblListHeaderSlideView'])[4]</xpath>
+            <index>0</index>
+            <comment>My Care</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='YGLinedView']</xpath>
+            <index>3</index>
+            <comment>My Care</comment>
+        </Iobject>
+    </ClickMyCare>
+
+    <CheckEmgcy>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='LI']]])[7]</xpath>
+            <index>0</index>
+            <comment>Check Emergency Contacts</comment>
+        </Aobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='LI']]])[7]</xpath>
+            <index>0</index>
+            <comment>Check Emergency Contacts</comment>
+        </Iobject>
+    </CheckEmgcy>
+    <ClickEmgcyContact>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='LI']]])[7]</xpath>
+            <index>0</index>
+            <comment>Emergency Contacts</comment>
+        </Aobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[9]</xpath>
+            <index>0</index>
+            <comment>Emergency Contacts</comment>
+        </Iobject>
+    </ClickEmgcyContact>
+
+    <EmgcyMainScreen>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./preceding-sibling::*[@nodeName='DIV'] and ./parent::*[@nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV'] and ./preceding-sibling::*[@nodeName='DIV']]]</xpath>
+            <index>0</index>
+            <comment>Emergency Contacts</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='LI']]</xpath>
+            <index>0</index>
+            <comment>Emergency contacts are displayed for fast access</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='filled_local_contact_li']/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@text]])[1]</xpath>
+            <index>0</index>
+            <comment>Local Emergency Number</comment>
+        </Aobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./preceding-sibling::*[@nodeName='DIV'] and ./parent::*[@nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV'] and ./preceding-sibling::*[@nodeName='DIV']]]</xpath>
+            <index>0</index>
+            <comment>Emergency Contacts</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='LI']]</xpath>
+            <index>0</index>
+            <comment>Emergency contacts are displayed for fast access</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='filled_local_contact_li']/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV']])[1]</xpath>
+            <index>0</index>
+            <comment>Local Emergency Number</comment>
+        </Iobject>
+    </EmgcyMainScreen>
+    
+    <ClickLocalEmgcyNum>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='filled_entered_local_number']</xpath>
+            <index>0</index>
+            <comment>Local Emergency Number</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='filled_entered_local_number']</xpath>
+            <index>0</index>
+            <comment>Local Emergency Number</comment>
+        </Iobject>
+    </ClickLocalEmgcyNum>
+
+    <EmgcyScreen1>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./preceding-sibling::*[@nodeName='DIV'] and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./preceding-sibling::*[@nodeName='DIV']]]</xpath>
+            <index>0</index>
+            <comment>Emergency Contacts</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Enter a local emergency number</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./preceding-sibling::*[@nodeName='DIV'] and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./preceding-sibling::*[@nodeName='DIV']]]</xpath>
+            <index>0</index>
+            <comment>Emergency Contacts</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Enter a local emergency number</comment>
+        </Iobject>
+    </EmgcyScreen1>
+
+    <ClickNum>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='LI']]</xpath>
+            <index>0</index>
+            <comment>Mobile number</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='LI']]</xpath>
+            <index>0</index>
+            <comment>Mobile number</comment>
+        </Iobject>
+    </ClickNum>
+
+    <ClickBackBtn>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='DIV' and @width>0])[5]</xpath>
+            <index>0</index>
+            <comment>Back</comment>
+        </Aobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='DIV' and @width>0])[5]</xpath>
+            <index>0</index>
+            <comment>Back</comment>
+        </Iobject>
+    </ClickBackBtn>
+
+        <ClickBackBtn1>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='DIV' and @width>0])[6]</xpath>
+            <index>0</index>
+            <comment>Back</comment>
+        </Aobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='DIV' and @width>0])[6]</xpath>
+            <index>0</index>
+            <comment>Back</comment>
+        </Iobject>
+    </ClickBackBtn1>
+
+    <ClickCustEmgcyNum>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='IMG' and @width>0 and ./parent::*[./parent::*[@id='filled_selected_local_contact_li']]]</xpath>
+            <index>0</index>
+            <comment>Custom emergency number</comment>
+        </Aobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='IMG' and @width>0 and ./parent::*[./parent::*[@id='filled_selected_local_contact_li']]]</xpath>
+            <index>0</index>
+            <comment>Custom emergency number</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@text and @accessibilityLabel='Done']</xpath>
+            <index>0</index>
+            <comment>Done</comment>
+        </Iobject>
+    </ClickCustEmgcyNum>
+
+    <EmgcyScreen2>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@text and @nodeName='DIV' and ./preceding-sibling::*[@nodeName='DIV'] and ./parent::*[@text and @nodeName='DIV' and ./parent::*[@id='manualEntryContact']] and ./following-sibling::*[@nodeName='DIV']] and ./following-sibling::*[@nodeName='DIV']]</xpath>
+            <index>0</index>
+            <comment>Emergency Contacts</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='LI']]</xpath>
+            <index>0</index>
+            <comment>Enter your emergency contact</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./following-sibling::*[@nodeName='DIV' and ./*[@id='manual_nameinput']] and ./parent::*[@text and @nodeName='DIV']]</xpath>
+            <index>0</index>
+            <comment>Name</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@text and @nodeName='DIV'] and ./following-sibling::*[@nodeName='DIV' and ./*[@id='manual_numberinput']]]</xpath>
+            <index>0</index>
+            <comment>Number</comment>
+        </Aobject>
+
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@text and @nodeName='DIV' and ./preceding-sibling::*[@nodeName='DIV'] and ./parent::*[@text and @nodeName='DIV' and ./parent::*[@id='manualEntryContact']] and ./following-sibling::*[@nodeName='DIV']] and ./following-sibling::*[@nodeName='DIV']]</xpath>
+            <index>0</index>
+            <comment>Emergency Contacts</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='LI']]</xpath>
+            <index>0</index>
+            <comment>Enter your emergency contact</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./following-sibling::*[@nodeName='DIV' and ./*[@id='manual_nameinput']] and ./parent::*[@text and @nodeName='DIV']]</xpath>
+            <index>0</index>
+            <comment>Name</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@text and @nodeName='DIV'] and ./following-sibling::*[@nodeName='DIV' and ./*[@id='manual_numberinput']]]</xpath>
+            <index>0</index>
+            <comment>Number</comment>
+        </Iobject>
+    </EmgcyScreen2>
+
+    <EmgcyScreen3>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./preceding-sibling::*[@nodeName='DIV'] and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./preceding-sibling::*[@nodeName='DIV']]]</xpath>
+            <index>0</index>
+            <comment>Emergency Contacts</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='LI']]</xpath>
+            <index>0</index>
+            <comment>Enter your emergency contact</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV']])[1]</xpath>
+            <index>0</index>
+            <comment>Choose from an existing contact</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV']])[2]</xpath>
+            <index>0</index>
+            <comment>Manually enter a contact</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./preceding-sibling::*[@nodeName='DIV'] and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./preceding-sibling::*[@nodeName='DIV']]]</xpath>
+            <index>0</index>
+            <comment>Emergency Contacts</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='LI']]</xpath>
+            <index>0</index>
+            <comment>Enter your emergency contact</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV']])[1]</xpath>
+            <index>0</index>
+            <comment>Choose from an existing contact</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV']])[2]</xpath>
+            <index>0</index>
+            <comment>Manually enter a contact</comment>
+        </Iobject>
+    </EmgcyScreen3>
+
+    <ClickExistingContact>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV']])[1]</xpath>
+            <index>0</index>
+            <comment>Choose from an existing contact</comment>
+        </Aobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@text and @nodeName='DIV' and @width>0 and ./*[@nodeName='SPAN']])[1]</xpath>
+            <index>0</index>
+            <comment>Choose from an existing contact</comment>
+        </Iobject>
+    </ClickExistingContact>
+
+    <WaitForContactScreen>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@css='SPAN.settings-list-main-text' and @class='settings-list-main-text' and @onScreen='true']</xpath>
+            <index>0</index>
+            <comment>Waiting for existing contacts screen</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@css='SPAN.settings-list-main-text' and @class='settings-list-main-text' and @onScreen='true']</xpath>
+            <index>0</index>
+            <comment>Waiting for existing contacts screen</comment>
+        </Iobject>
+    </WaitForContactScreen>
+
+    <EmgcyScreen4>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./preceding-sibling::*[@nodeName='DIV'] and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./preceding-sibling::*[@nodeName='DIV'] and ./following-sibling::*[@nodeName='DIV']]]</xpath>
+            <index>0</index>
+            <comment>Emergency Contacts</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0 and ./parent::*[@text]]</xpath>
+            <index>0</index>
+            <comment>Choose your emergency contact</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./preceding-sibling::*[@nodeName='DIV'] and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./preceding-sibling::*[@nodeName='DIV'] and ./following-sibling::*[@nodeName='DIV']]]</xpath>
+            <index>0</index>
+            <comment>Emergency Contacts</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Choose your emergency contact</comment>
+        </Iobject>
+    </EmgcyScreen4>
+
+    <ClickAContact>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='ui-block-a settings-list-main-text']</xpath>
+            <index>0</index>
+            <comment>Existing contact</comment>
+        </Aobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='ui-block-a settings-list-main-text']</xpath>
+            <index>0</index>
+            <comment>Existing contact</comment>
+        </Iobject>
+    </ClickAContact>
+
+    <EmgcyScreen5>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./preceding-sibling::*[@nodeName='DIV'] and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./preceding-sibling::*[@nodeName='DIV']]]</xpath>
+            <index>0</index>
+            <comment>Emergency Contacts</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@text]])[1]</xpath>
+            <index>0</index>
+            <comment>Choose your emergency contact</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0 and ./following-sibling::*[@text]]</xpath>
+            <index>0</index>
+            <comment>Home</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./preceding-sibling::*[@nodeName='DIV'] and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='DIV'] and ./preceding-sibling::*[@nodeName='DIV']]]</xpath>
+            <index>0</index>
+            <comment>Emergency Contacts</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@text]])[1]</xpath>
+            <index>0</index>
+            <comment>Choose your emergency contact</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0 and ./following-sibling::*[@text]]</xpath>
+            <index>0</index>
+            <comment>Home</comment>
+        </Iobject>
+    </EmgcyScreen5>
+
+    <ClickManualContact>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV']])[2]</xpath>
+            <index>0</index>
+            <comment>Manually enter a contact</comment>
+        </Aobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='LI']]</xpath>
+            <index>0</index>
+            <comment>Manually enter a contact</comment>
+        </Iobject>
+    </ClickManualContact>
+
+    <GotoHome>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[4]</xpath>
+            <index>0</index>
+            <comment>Menu</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@id='left_drawer']/*/*[@id='lblListHeaderSlideView'])[1]</xpath>
+            <index>0</index>
+            <comment>My Readings</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='lefticonbtn' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Menu</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='YGLinedView']</xpath>
+            <index>0</index>
+            <comment>My Readings</comment>
+        </Iobject>
+    </GotoHome>
+    </root>

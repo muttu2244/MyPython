@@ -1,0 +1,269 @@
+<root>
+    <HCPReport>
+    <trans-unit id="bloodsugarreportformat">
+			<english>Would you like to email a blood sugar report (PDF) or your raw data (CSV)?</english>
+		    <german>Möchten Sie einen Blutzuckerbericht (PDF) oder Ihre Rohdaten (CSV) per E-Mail verschicken?</german>
+		</trans-unit>
+    <trans-unit id="COMM_SendRepBtn">
+			<croatian>Pošalji izvještaj o šeć. u krvi</croatian>
+			<danish>Send en blodsukkerrapport</danish>
+			<dutch>Een bloedglucoserapport verzenden</dutch>
+			<english>Send a blood sugar report</english>
+			<finnish>Lähetä verensokeriraportti</finnish>
+			<french>Envoyer un compte rendu de glycémie</french>
+			<german>Einen Blutzuckerbericht senden</german>
+			<greek>Αποστολή Αναφοράς Σακχάρου</greek>
+			<italian>Invia report delle glicemie</italian>
+			<norwegian>Send en blodsukkerrapport</norwegian>
+			<polish>Wyślij raport glikemii</polish>
+			<portugal>Enviar Relatório glicemia</portugal>
+			<slovenian>Pošlji poročilo za glukozo</slovenian>
+			<spanish>Enviar un informe</spanish>
+			<swedish>Skicka en blodsockerrapport</swedish>
+		</trans-unit>
+    <trans-unit id="bloodsugarreportcsvfile">
+			<english>Send a CSV File</english>
+			<german>Eine CSV-Datei senden</german>
+		</trans-unit>
+    <trans-unit id="COMM_cancelbtn">
+			<croatian>Otkaži</croatian>
+			<danish>Annullér</danish>
+			<dutch>Annuleer</dutch>
+			<english>Cancel</english>
+			<finnish>Peruuta</finnish>
+			<french>Annuler</french>
+			<german>Abbrechen</german>
+			<greek>Ακύρωση</greek>
+			<italian>Annulla</italian>
+			<norwegian>Avbryt</norwegian>
+			<polish>Anuluj</polish>
+			<portugal>Cancelar</portugal>
+			<slovenian>Prekliči</slovenian>
+			<spanish>Cancelar</spanish>
+			<swedish>Avbryt</swedish>
+		</trans-unit>
+    <trans-unit id="COMM_BloodReport">
+			<croatian>Izvještaj o šećeru u krvi</croatian>
+			<danish>Blodsukkerrapport</danish>
+			<dutch>Bloedglucoserapport</dutch>
+			<english>Blood Sugar Report</english>
+			<finnish>Verensokeriraportti</finnish>
+			<french>Compte rendu de glycémie</french>
+			<german>Blutzuckerbericht</german>
+			<greek>Αναφορά Σακχάρου Αίματος</greek>
+			<italian>Report delle glicemie</italian>
+			<norwegian>Blodsukkerrapport</norwegian>
+			<polish>Raport stężenia cukru we krwi</polish>
+			<portugal>Relatório de Glicemia</portugal>
+			<slovenian>Poročilo za glukozo v krvi</slovenian>
+			<spanish>Informe de glucosa en sangre</spanish>
+			<swedish>Blodsockerrapport</swedish>
+		</trans-unit>
+    <trans-unit id="COMM_SendSummary">
+			<croatian>
+			Pošaljite izvještaj svojih očitanja šećera u krvi za posljednjih 90 dana.
+			</croatian>
+			<danish>
+			Send en oversigt over dine blodsukkermålinger fra de sidste 90 dage.
+			</danish>
+			<dutch>
+			Verzend een overzicht van uw bloedglucosewaarden van de afgelopen 90 dagen.
+			</dutch>
+			<english>
+			Send a summary of your blood sugar readings from the last 90 days.
+			</english>
+			<finnish>
+			Lähetä verensokeritulosten yhteenveto viimeisiltä 90 päivältä.
+			</finnish>
+			<french>
+			Envoyer le résumé de vos résultats glycémiques des 90 derniers jours.
+			</french>
+			<german>
+			Senden Sie eine Zusammenfassung Ihrer Messwerte der letzten 90 Tage.
+			</german>
+			<greek>
+			Στείλτε μια σύνοψη των αποτελεσμάτων σας από τις τελευταίες 90 ημέρες.
+			</greek>
+			<italian>
+			Invia un riepilogo delle misurazioni della glicemia degli ultimi 90 giorni.
+			</italian>
+			<norwegian>
+			Send en oppsummering av blodsukkermålinger fra de siste 90 dager.
+			</norwegian>
+			<polish>Wyślij raport glikemii z ostatnich 90 dni.</polish>
+			<portugal>
+			Enviar resumo das suas leituras de glicemia dos últimos 90 dias.
+			</portugal>
+			<slovenian>
+			Pošlji povzetek vrednosti glukoze v krvi za zadnjih 90 dni.
+			</slovenian>
+			<spanish>
+			Envíe un resumen de sus lecturas durante los últimos 90 días.
+			</spanish>
+			<swedish>
+			Skicka en sammanfattning av dina blodsockervärden för de senaste 90 dagarna.
+			</swedish>
+		</trans-unit>
+    <trans-unit id="COMM_ProfilePatient">
+			<croatian>Puno ime i prezime pacijenta</croatian>
+			<danish>Patientens fulde navn</danish>
+			<dutch>Volledige naam patiënt</dutch>
+			<english>Full Name of Patient</english>
+			<finnish>Potilaan koko nimi</finnish>
+			<french>Nom complet du patient</french>
+			<german>Vollständiger Name des Patienten</german>
+			<greek>Ονοματεπώνυμο Ασθενούς</greek>
+			<italian>Nome e cognome del paziente</italian>
+			<norwegian>Pasientens fulle navn</norwegian>
+			<polish>Imię i nazwisko pacjenta</polish>
+			<portugal>Nome completo do doente</portugal>
+			<slovenian>Polno ime bolnika</slovenian>
+			<spanish>Nombre completo del paciente</spanish>
+			<swedish>Patientens fullständiga namn</swedish>
+		</trans-unit>
+    <trans-unit id="comm_recipientstxt">
+			<english>Recipients (1)</english>
+			<german>Empfänger (1)</german>
+		</trans-unit>
+        <trans-unit id="COMM_profileAddRecipientsGeric">
+			<croatian>Dodavanje primatelja</croatian>
+			<danish>Tilføj en Modtager</danish>
+			<dutch>Ontvanger toevoegen</dutch>
+			<english>Add a Recipient</english>
+			<finnish>Lisää vastaanottaja</finnish>
+			<french>Ajouter un destinataire</french>
+			<german>Einen Empfänger hinzufügen</german>
+			<greek>Προσθέστε έναν Παραλήπτη</greek>
+			<italian>Aggiungi un destinatario</italian>
+			<norwegian>Legg til en mottaker</norwegian>
+			<polish>Dodaj adresata</polish>
+			<portugal>Adicionar um destinatário</portugal>
+			<slovenian>Dodaj prejemnika</slovenian>
+			<spanish>Añadir un destinatario</spanish>
+			<swedish>Lägg till en mottagare</swedish>
+		</trans-unit>
+    <trans-unit id="profileSendBtn">
+			<croatian>Pošalji</croatian>
+			<danish>Send</danish>
+			<dutch>Verzenden</dutch>
+			<english>Send</english>
+			<finnish>Lähetä</finnish>
+			<french>Envoyer</french>
+			<german>Senden</german>
+			<greek>Αποστολή</greek>
+			<italian>Invia</italian>
+			<norwegian>Send</norwegian>
+			<polish>Wyślij</polish>
+			<portugal>Enviar</portugal>
+			<slovenian>Pošlji</slovenian>
+			<spanish>Enviar</spanish>
+			<swedish>Skicka</swedish>
+		</trans-unit>
+    <trans-unit id="profilehcpreportTypeTxt">
+			<croatian>Unesite puno ime i prezime pacijenta.</croatian>
+			<danish>Indtast patientens fulde navn.</danish>
+			<dutch>Typ de volledige naam van de patiënt.</dutch>
+			<english>Type the full name of the patient.</english>
+			<finnish>Kirjoita potilaan koko nimi.</finnish>
+			<french>Saisissez le nom complet du patient.</french>
+			<german>
+			Geben Sie den vollständigen Namen des Patienten ein.
+			</german>
+			<greek>Πληκτρολογήστε το ονοματεπώνυμο του ασθενούς.</greek>
+			<italian>Digita il tuo nome completo (Mittente)</italian>
+			<norwegian>Skriv inn pasientens fulle navn.</norwegian>
+			<polish>Wpisz imię i nazwisko pacjenta.</polish>
+			<portugal>Digite o nome completo do doente.</portugal>
+			<slovenian>Vtipkajte polno ime bolnika.</slovenian>
+			<spanish>Escriba el nombre completo del paciente.</spanish>
+			<swedish>Skriv in patientens fullständiga namn.</swedish>
+		</trans-unit>
+	  <trans-unit id="COMM_profileAddRecipientsGeric">
+			<croatian>Dodavanje primatelja</croatian>
+			<danish>Tilføj en Modtager</danish>
+			<dutch>Ontvanger toevoegen</dutch>
+			<english>Add a Recipient</english>
+			<finnish>Lisää vastaanottaja</finnish>
+			<french>Ajouter un destinataire</french>
+			<german>Einen Empfänger hinzufügen</german>
+			<greek>Προσθέστε έναν Παραλήπτη</greek>
+			<italian>Aggiungi un destinatario</italian>
+			<norwegian>Legg til en mottaker</norwegian>
+			<polish>Dodaj adresata</polish>
+			<portugal>Adicionar um destinatário</portugal>
+			<slovenian>Dodaj prejemnika</slovenian>
+			<spanish>Añadir un destinatario</spanish>
+			<swedish>Lägg till en mottagare</swedish>
+		</trans-unit>
+
+    	<!--<trans-unit id="profileSendBtn1">
+			<english>Send again</english>
+			<german>Send again</german>
+		</trans-unit>-->
+    	<trans-unit id="COMM_Donebtn">
+			<croatian>Gotovo</croatian>
+			<danish>Fuldført</danish>
+			<dutch>Klaar</dutch>
+			<english>Done</english>
+			<finnish>Terminer</finnish>
+			<french>terminé</french>
+			<german>Fertig</german>
+			<greek>Τέλος</greek>
+			<italian>Fatto</italian>
+			<norwegian>Ferdig</norwegian>
+			<polish>Gotowe</polish>
+			<portugal>Concluído</portugal>
+			<slovenian>V redu</slovenian>
+			<spanish>OK</spanish>
+			<swedish>Klart</swedish>
+		</trans-unit>
+        <trans-unit id="tooltipDayDividersTxt3">
+			<croatian>
+Sažet izvještaj šećera u krvi dizajniran je za vašeg liječnika. Ovaj standardni izvještaj prikazuje grafikone s vašim šećerom u krvi i obrasce tijekom razdoblja od 14 dana.
+</croatian>
+<danish>
+Rapporten med dine blodsukkermålinger er beregnet til din diabetesbehandler. Denne standardrapport viser blodsukkerdiagrammer og mønstre over en 14-dages periode.
+</danish>
+<dutch>
+Het Samenvattingsrapport bloedglucose is bestemd voor uw medische zorgverlener. Dit standaardrapport toont uw bloedglucosegrafieken en -patronen over een periode van 14 dagen.
+</dutch>
+<english>
+The Blood Sugar Summary report is designed for your healthcare professional. This standard report shows your blood sugar graphs and patterns over a 14 day period.
+</english>
+<finnish>
+Verensokerin yhteenvetoraportti on suunniteltu hoitotiimiä varten. Tässä vakioraportissa esitetään verensokerikaaviosi ja trendit viimeisten 14 päivän ajalta.
+</finnish>
+<french>
+Le compte rendu Résumé de glycémie est conçu pour votre professionnel de santé. Ce compte rendu standard montre vos graphiques et tendances de glycémie sur 14 jours.
+</french>
+<german>
+Der zusammenfassende Blutzuckerbericht ist für Sie und Ihren Arzt entwickelt. Dieser Standardbericht zeigt in einem Diagramm Ihre Blutzuckermesswerte, Messungen und Muster über verschiedene Zeiträume an.
+</german>
+<greek>
+Η Συνοπτική Αναφορά Σακχάρου Αίματος έχει σχεδιαστεί για τον επαγγελματία υγείας σας. Αυτή η τυπική αναφορά εμφανίζει τα γραφήματα σακχάρου σας και τα μοτίβα σε μια περίοδο 14 ημερών.
+</greek>
+<italian>
+La statistica riepilogativa della glicemia è studiata per una facile consultazione da parte del tuo operatore sanitario. Questa statistica standard mostra i tuoi grafici e i tuoi andamenti glicemici relativi ad un periodo di 14 giorni.
+</italian>
+<norwegian>
+Oppsummeringsrapporten for blodsukker er laget for helsepersonellet ditt. Denne standardrapporten viser blodsukkergrafene og mønstrene dine over en 14-dagersperiode.
+</norwegian>
+<polish>
+Raport zbiorczy stężenia cukru we krwi jest przeznaczony dla lekarza. Ten standardowy raport przedstawia wykresy i schematy stężenia cukru we krwi w okresie 14-dniowym.
+</polish>
+<portugal>
+O Relatório de resumo de glicemia foi concebido para o seu profissional de saúde. Este relatório padrão mostra-lhe os seus gráficos e padrões de glicemia durante um período de 14 dias.
+</portugal>
+<slovenian>
+Poročilo povzetka za glukozo v krvi je zasnovano za zdravstvenega delavca. Standardno poročilo prikaže grafe in vzorce za glukozo v krvi za 14-dnevno obdobje.
+</slovenian>
+<spanish>
+El informe Resumen de glucosa en sangre está diseñado para su profesional sanitario. Este informe estándar muestra sus gráficos y patrones de glucosa en sangre durante un periodo de 14 días.
+</spanish>
+<swedish>
+Översiktsrapporten för ditt blodsocker är avsedd för din vårdgivare. Denna standardrapport visar dina blodsockerdiagram och mönster under en 14 dagarsperiod.
+</swedish>
+		</trans-unit>
+    </HCPReport>
+
+</root>

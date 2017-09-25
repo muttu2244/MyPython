@@ -1,0 +1,124 @@
+<root>
+    <Unpair>
+
+        <trans-unit id="COMM_UnpairMeterHdr">
+			<croatian>Prekinuti vezu s ovim glukometrom?</croatian>
+			<danish>Slet forbindelse til apparatet?</danish>
+			<dutch>Meter ontkoppelen?</dutch>
+			<english>Unpair Meter?</english>
+			<finnish>Poistetaanko yhteys mittariin?</finnish>
+			<french>Déjumeler le lecteur ?</french>
+			<german>Messgerät abkoppeln?</german>
+			<greek>Αποσύζευξη Μετρητή;</greek>
+			<italian>Dissociare lo strumento?</italian>
+			<norwegian>Oppheve paring av måler?</norwegian>
+			<polish>Anulować synchronizację glukometru?</polish>
+			<portugal>Desemparelhar o medidor?</portugal>
+			<slovenian>Preklic povezave z merilnikom?</slovenian>
+			<spanish>¿Desvincular medidor?</spanish>
+			<swedish>Ta bort parkoppling för mätare?</swedish>
+		</trans-unit>
+        <trans-unit id="COMM_unpairingInfo">
+			<croatian>
+			Jeste li sigurni da želite prekinuti vezu ovog glukometra sa svojim računom? Prethodno sinkronizirana očitanja šećera u krvi ostat će na vašem računu. Buduća očitanja neće biti sinkronizirana s računom.
+			</croatian>
+			<danish>
+			Er du sikker på at du vil afbryde forbindelsen til apparatet fra din konto? Tidligere synkroniserede målinger forbliver på kontoen. Fremtidige målinger synkroniseres ikke til kontoen.
+			</danish>
+			<dutch>
+			Weet u zeker dat u deze meter wilt ontkoppelen van uw account? Eerder gesynchroniseerde resultaten blijven op uw account staan. Toekomstige resultaten worden niet naar het account gesynchroniseerd.
+			</dutch>
+			<english>
+			Are you sure you want to unpair this meter from your account? Previously synced readings will remain on your account. Future readings will not be synced to the account.
+			</english>
+			<finnish>
+			Haluatko varmasti poistaa yhteyden tähän mittariin tilistäsi? Aiemmin synkronoidut tulokset pysyvät tililläsi. Tulevia tuloksia ei synkronoida tilille.
+			</finnish>
+			<french>
+			Voulez-vous vraiment déjumeler ce lecteur de votre compte ? Les résultats précédemment synchronisés resteront sur votre compte. Les résultats à venir ne seront pas synchronisés avec le compte.
+			</french>
+			<german>
+			Möchten Sie dieses Messgerät wirklich von Ihrem Konto abkoppeln? Zuvor synchronisierte Messwerte bleiben in Ihrem Konto. Künftige Messwerte werden nicht mit dem Konto synchronisiert.
+			</german>
+			<greek>
+			Είστε σίγουροι ότι θέλετε να διακόψετε τη σύζευξη αυτού του μετρητή από τον λογαριασμό σας; Οι προηγούμενες μετρήσεις θα παραμείνουν στον λογαριασμό σας αλλά οι μελλοντικές δεν θα συγχρονιστούν.
+			</greek>
+			<italian>
+			Vuoi dissociare questo strumento dal tuo account? I risultati sincronizzati in precedenza resteranno sul tuo account. I prossimi risultati non verranno sincronizzati con l\\\'account.
+			</italian>
+			<norwegian>
+			Er du sikker på at du vil oppheve paringen av denne måleren med kontoen din? Tidligere synkroniserte målinger blir værende på kontoen. Fremtidige målinger blir ikke synkronisert med kontoen.
+			</norwegian>
+			<polish>
+			Czy na pewno chcesz anulować synchronizację tego glukometru z konta? Poprzednio uzgodnione wyniki pozostaną na Twoim koncie. Dalsze wyniki nie będą uzgadniane z kontem.
+			</polish>
+			<portugal>
+			Deseja mesmo desemparelhar este medidor da sua conta? As leituras previamente sincronizadas permanecerão na sua conta. Futuras leituras não serão sincronizadas com a conta.
+			</portugal>
+			<slovenian>
+			Res želite preklicati povezavo tega merilnika s svojim računom? Predhodno sinhronizirane izmerjene vrednosti bodo ostale na vašem računu. Prihodnje izmerjene vrednosti ne bodo sinhronizirane z računom.
+			</slovenian>
+			<spanish>
+			¿Seguro que desea desvincular este medidor de su cuenta? Las lecturas sincronizadas anteriormente permanecerán en su cuenta. Las lecturas futuras no se sincronizarán con la cuenta.
+			</spanish>
+			<swedish>
+			Är du säker på att du vill ta bort parkopplingen för denna mätare från ditt konto? Tidigare synkroniserade värden är kvar på ditt konto. Framtida värden kommer inte att synkroniseras med kontot.
+			</swedish>
+		</trans-unit>
+        <trans-unit id="COMM_UnpairBtn">
+			<croatian>Prekini vezu</croatian>
+			<danish>Afbryd forbindelse.</danish>
+			<dutch>Ontkoppelen</dutch>
+			<english>Unpair</english>
+			<finnish>Poista yhteys</finnish>
+			<french>Déjumeler</french>
+			<german>Abkoppeln</german>
+			<greek>Αποσύζευξη</greek>
+			<italian>Dissociare</italian>
+			<norwegian>Opphev paring</norwegian>
+			<polish>Rozłącz</polish>
+			<portugal>Desemparelhar</portugal>
+			<slovenian>Prekliči povezavo</slovenian>
+			<spanish>Eliminar</spanish>
+			<swedish>Ta bort parkoppling</swedish>
+		</trans-unit>
+        <trans-unit id="COMM_cancelbtn">
+			<croatian>Otkaži</croatian>
+			<danish>Annullér</danish>
+			<dutch>Annuleer</dutch>
+			<english>Cancel</english>
+			<finnish>Peruuta</finnish>
+			<french>Annuler</french>
+			<german>Abbrechen</german>
+			<greek>Ακύρωση</greek>
+			<italian>Annulla</italian>
+			<norwegian>Avbryt</norwegian>
+			<polish>Anuluj</polish>
+			<portugal>Cancelar</portugal>
+			<slovenian>Prekliči</slovenian>
+			<spanish>Cancelar</spanish>
+			<swedish>Avbryt</swedish>
+		</trans-unit>
+    </Unpair>
+	<Delete>
+		   <trans-unit id="COMM_UnpairBtn">
+			<croatian>Prekini vezu</croatian>
+			<danish>Afbryd forbindelse.</danish>
+			<dutch>Ontkoppelen</dutch>
+			<english>Unpair</english>
+			<finnish>Poista yhteys</finnish>
+			<french>Déjumeler</french>
+			<german>Abkoppeln</german>
+			<greek>Αποσύζευξη</greek>
+			<italian>Dissociare</italian>
+			<norwegian>Opphev paring</norwegian>
+			<polish>Rozłącz</polish>
+			<portugal>Desemparelhar</portugal>
+			<slovenian>Prekliči povezavo</slovenian>
+			<spanish>Eliminar</spanish>
+			<swedish>Ta bort parkoppling</swedish>
+
+		</trans-unit>
+	</Delete>
+
+</root>

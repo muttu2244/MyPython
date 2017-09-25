@@ -1,0 +1,563 @@
+<root>
+    <mainScreen>
+        <trans-unit id="helpSearchHelpTxt">
+            <note>Onyx Help System Map V6.0/H 2.0</note>
+            <english>App Help</english>
+            <german>Hilfe zur App</german>
+            <reviewer>null</reviewer>
+            <reviewercomments>null</reviewercomments>
+            <mousehoverMap>null</mousehoverMap>
+            <comments>Country Review 1</comments>
+        </trans-unit>
+       <trans-unit id="helpSearchHelpTxt">
+            <note>Onyx Help System Map V6.0/H 2.0</note>
+            <english>Search App Help</english>
+            <german>Search App Help</german>
+            <reviewer>null</reviewer>
+            <reviewercomments>null</reviewercomments>
+            <mousehoverMap>null</mousehoverMap>
+            <comments>Country Review 1</comments>
+        </trans-unit>
+        <trans-unit id="COMM_accountsetupbtn">
+			<english>Account Setup</english>
+			<german>Kontoeinrichtung</german>
+		</trans-unit>
+        <trans-unit id="COMM_navigationbtn">
+			<english>Navigation</english>
+			<german>Navigation</german>
+		</trans-unit>
+        <trans-unit id="COMM_bloodsugarbtn">
+			<english>Blood Sugar Readings and Meal Markers</english>
+			<german>Messwerte und Mahlzeit-Markierungen</german>
+		</trans-unit>
+        <trans-unit id="helptargetrange">
+			<note>Target Ranges and Critical Values</note>
+			<english>Target Ranges and Critical Values</english>
+			<german>Zielbereiche und kritische Werte</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>Country Review 1</comments>
+		</trans-unit>
+
+		<trans-unit id="COMM_reminderspattersnbtn">
+			<english>Reminders and Patterns</english>
+			<german>Erinnerungen und Muster</german>
+		</trans-unit>
+
+		<trans-unit id="helpreportsandappointment1">
+			<english>Reports and Appointments</english>
+			<german>Berichte und Termine</german>
+		</trans-unit>
+    </mainScreen>
+	<AccountsetUp>
+
+
+		<!--Search App Help id wont availble in German.Xml please add your own-->
+		<trans-unit id="COMM_accountsetupbtn">
+			<english>Account Setup</english>
+			<german>Kontoeinrichtung</german>
+		</trans-unit>
+	<trans-unit id="helpAccountsetupAH20a4">
+			<note>Onyx Help System Map V6.0/H 6.2</note>
+			<english>Search App Help</english>
+			<german>Search App Help</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>Country Review 1</comments>
+		</trans-unit>
+
+		<trans-unit id="COMM_howdobtn">
+			<english>How do I...</english>
+			<german>Wie kann ich...</german>
+		</trans-unit>
+
+    	<trans-unit id="helpAccountSetupAH20">
+
+			<english>Change the email address for my app account?</english>
+			<german>Die E-Mail-Adresse für mein App-Konto ändern?</german>
+
+		</trans-unit>
+		<trans-unit id="helpAccountSetupAH20a1">
+
+			<english>Go to Main Menu &gt; Settings &gt; My Account.</english>
+			<german>Gehen Sie zu Hauptmenü &gt; Einstellungen &gt; Kontoeinstellungen.</german>
+
+		</trans-unit>
+		<trans-unit id="helpAccountSetupAH20a2">
+
+			<english>Tap the email address to change it.</english>
+			<german>Zum Ändern tippen Sie auf die E-Mail-Adresse.</german>
+
+		</trans-unit>
+		<trans-unit id="helpAccountSetupAH22">
+			<tool_key>helpAccountset_upAH22</tool_key>
+			<note>Onyx Help System Map V8.0/H 6.2</note>
+			<english>Create an account from Guest Mode?</english>
+			<german>Möchten Sie ein Konto im Gastmodus erstellen?</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+		<trans-unit id="helpAccountSetupAH22a">
+			<tool_key>helpAccountset_upAH22a</tool_key>
+			<note>Onyx Help System Map V8.0/H 6.2</note>
+			<english>To create an account from Guest mode, go to Menu > Settings > Create an account and follow the instructions.</english>
+			<german>Um ein Konto im Gastmodus zu erstellen, gehen Sie zu Menü &gt; Einstellungen &gt; Konto erstellen und befolgen Sie die Anweisungen.</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+	</AccountsetUp>
+	<Navigation>
+
+		<trans-unit id="COMM_navigationbtn">
+			<english>Navigation</english>
+			<german>Navigation</german>
+		</trans-unit>
+		<trans-unit id="helpSearchHelpTxt">
+            <note>Onyx Help System Map V6.0/H 2.0</note>
+            <english>Search App Help</english>
+            <german>Search App Help</german>
+            <reviewer>null</reviewer>
+            <reviewercomments>null</reviewercomments>
+            <mousehoverMap>null</mousehoverMap>
+            <comments>Country Review 1</comments>
+        </trans-unit>
+         <trans-unit id="COMM_howdobtn">
+			<english>How do I...</english>
+			<german>Wie kann ich...</german>
+	</trans-unit>
+    <trans-unit id="helpNavigationAH1">
+			<english>Get back to the previous screen when there is no Back button?</english>
+			<german>Zur vorherigen Anzeige gelangen, wenn keine Zurück-Schaltfläche vorhanden ist?</german>
+		</trans-unit>
+		<trans-unit id="helpNavigationAH1a">
+			<english>Tap the Menu, Done, or ‘X’ button to go back to the previous screen.</english>
+			<german>Tippen Sie auf die Schaltfläche „Menü“, „Fertig“ oder „X“, um wieder zur vorherigen Anzeige zu gelangen.</german>
+		</trans-unit>
+		<trans-unit id="helpBloodSugarAH22">
+			<english>Find a detailed graph of my blood sugar readings?</english>
+			<german>Wie kann ich ein Detaildiagramm meiner Blutzuckermesswerte aufrufen?</german>
+		</trans-unit>
+		<trans-unit id="helpbloodsugarah10txt">
+			<english>From My Readings in the app, turn your mobile device sideways or tap the small graph to see the expanded graph.</english>
+			<german>Drehen Sie in „Meine Messwerte“ in der App das mobile Gerät ins Querformat oder tippen Sie auf das kleine Diagramm, um das erweiterte Diagramm zu sehen.</german>
+		</trans-unit>
+		<trans-unit id="helpnavigationAH24a1">
+			<english>Find Pattern settings so I can change my feedback level?</english>
+			<german>Wie kann ich die Mustereinstellungen aufrufen, um meine Rückmeldungen zu ändern?</german>
+		</trans-unit>
+		<trans-unit id="helpnavigationAH24b1">
+			<english>1. Open the app and go to Main Menu > My Patterns.</english>
+			<german>1. Öffnen Sie die App und gehen Sie zu Hauptmenü > Meine Muster.</german>
+		</trans-unit>
+
+		<trans-unit id="helpnavigationAH26a1">
+			<english>How do I navigate through the app using the Main Menu?</english>
+			<german>Wie kann ich über das Hauptmenü durch die App navigieren?</german>
+		</trans-unit>
+		<trans-unit id="helpnavigationAH26b1">
+			<english>The app Menu options are as follows:</english>
+			<german>Die Menüoptionen der App lauten wie folgt:</german>
+		</trans-unit>
+
+	</Navigation>
+    <BloodSugarReadingAndMealMarkers>
+
+	<trans-unit id="helpSearchHelpTxt">
+            <note>Onyx Help System Map V6.0/H 2.0</note>
+            <english>Search App Help</english>
+            <german>Search App Help</german>
+            <reviewer>null</reviewer>
+            <reviewercomments>null</reviewercomments>
+            <mousehoverMap>null</mousehoverMap>
+            <comments>Country Review 1</comments>
+        </trans-unit>
+		<trans-unit id="COMM_bloodsugarbtn">
+			<english>Blood Sugar Readings and Meal Markers</english>
+			<german>Messwerte und Mahlzeit-Markierungen</german>
+		</trans-unit>
+		<trans-unit id="COMM_howdobtn">
+			<english>How do I...</english>
+			<german>Wie kann ich...</german>
+		</trans-unit>
+		<trans-unit id="helpBloodSugarAH4a1">
+			<english>Add a manual blood sugar reading?</english>
+			<german>Einen manuellen Blutzuckerwert hinzufügen?</german>
+		</trans-unit>
+		<trans-unit id="helpBloodSugarAH4a12">
+			<english>In the app:</english>
+			<german>In der App:</german>
+		</trans-unit>
+		<trans-unit id="helpBloodSugarAH4a2">
+		<english>1. Go to Main Menu > My Readings. Tap the (+) button in the upper right corner of the screen.</english>
+		<german>1. Gehen Sie zu Hauptmenü > Meine Messwerte. Tippen Sie auf die Schaltfläche „+“ in der oberen rechten Bildschirmecke.</german>
+		</trans-unit>
+		<trans-unit id="helpBloodSugarAH4a21">
+			<english>2. You will be prompted to set the date and time. The app pre-selects the current date and time in your mobile device for the new reading.</english>
+		  	<german>2. Sie werden aufgefordert, das Datum und die Uhrzeit einzustellen. Die App verwendet die aktuellen Werte für Datum und Uhrzeit aus Ihrem mobilen Gerät für die neue Messung.</german>
+		</trans-unit>
+		<trans-unit id="helpBloodSugarAH4a3">
+			<english>3. To change the date or time, use the scroll wheel to set the desired date or time. Tap Done to save your selection.</english>
+			<german>3. Um das Datum oder die Uhrzeit zu ändern, scrollen Sie zum gewünschten Datum bzw. zur gewünschten Uhrzeit. Tippen Sie auf „Fertig“, um Ihre Auswahl zu speichern.</german>
+		</trans-unit>
+		<trans-unit id="helpBloodSugarAH4a4">
+			<english>To enter a blood sugar value, tap the empty blood sugar reading button and type the number. Tap Done to save the value. The Meal Marker screen is now available.</english>
+		<german>Um einen Blutzuckermesswert einzugeben, tippen Sie auf die leere Schaltfläche für den Blutzuckermesswert geben Sie den Zahlenwert ein. Tippen Sie auf „Fertig“, um den Blutzuckermesswert zu speichern. Der Bildschirm „Mahlzeit-Markierung“ erscheint.</german>
+		</trans-unit>
+<trans-unit id="helpBloodSugarAH4a5">
+			<english>5. The app pre-selects a meal marker and meal type based on the time of the reading. Tap Save to confirm or tap another marker and/or meal type.</english>
+			<german>5. Die App wählt anhand des Messzeitpunkts eine Mahlzeit-Markierung und eine Art der Mahlzeit vor. Tippen Sie auf „Speichern“, um dies zu bestätigen, oder tippen Sie auf eine andere Mahlzeit-Markierung und/oder Art der Mahlzeit.</german>
+
+		</trans-unit>
+		<trans-unit id="helpBloodSugarAH4a6">
+			<english>Note: You can tap again on a meal marker or meal type to de-select it. You can tap No Mark if you do not want a meal marker and meal attached to this reading.</english>
+			<german>Hinweis: Durch erneutes Antippen der Mahlzeit-Markierung bzw. Art der Mahlzeit können Sie sie abwählen. Sie können auf „Keine Markierung“ tippen, wenn keine Mahlzeit-Markierung und Mahlzeit mit dieser Messung verbunden werden soll.</german>
+		</trans-unit>
+		<trans-unit id="helpBloodSugarAH4a7">
+			<english>6. Tap Save when you are finished with meal markers.</english>
+			<german>6. Auf „Speichern“ zum Beenden der Mahlzeit-Markierungen tippen.</german>
+		</trans-unit>
+		<trans-unit id="helpBloodSugarAH4a8">
+			<english>7. The Edit screen displays so you can add details to your reading such as a meal, photo, note, activity, or medication.</english>
+				<german>7. Der Bildschirm „Bearbeiten“ wird angezeigt, um Details z. B. Mahlzeit, Foto, Notiz, Aktivität oder Medikation zu der Messung hinzuzufügen.</german>
+		</trans-unit>
+		<trans-unit id="helpBloodSugarAH4a9">
+			<english>8. Tap Done to save the manual reading. When you are prompted, tap OK to confirm this reading.</english>
+			<german>8. Tippen Sie auf „Fertig“, um den manuellen Messwert zu speichern. Wenn Sie dazu aufgefordert werden, tippen Sie auf „OK“, um diesen Messwert zu bestätigen.</german>
+		</trans-unit>
+
+		<trans-unit id="helpBloodSugarAH5">
+			<english>Change a manual blood sugar reading?</english>
+			<german>Einen manuellen Blutzuckermesswert ändern?</german>
+		</trans-unit>
+		<trans-unit id="helpBloodSugarAH5a">
+			<english>Tap the blood sugar reading in My Readings to change date and time or add detail to a manual blood sugar reading. Tap the blood sugar reading again to change the value or add a meal marker to the blood sugar reading.</english>
+			<german>Um Datum und Uhrzeit zu ändern oder einem manuellen Blutzuckermesswert Details hinzuzufügen, tippen Sie in „Meine Messwerte“ auf den Blutzuckermesswert. Tippen Sie erneut auf den Blutzuckermesswert, um den Wert zu ändern oder ihm eine Mahlzeit-Markierung anzufügen.</german>
+		</trans-unit>
+		<trans-unit id="helpBloodSugarAH6">
+			<english>Delete a manual reading or any item from a list, such as meals or medications?</english>
+			<german>Einen manuellen Blutzuckermesswert oder ein beliebiges Element aus einer Liste (z. B. Mahlzeit oder Medikation) löschen?</german>
+		</trans-unit>
+		<trans-unit id="helpBloodSugarAH6a">
+			<english>Find the manual blood sugar reading or the listed item in My Readings and swipe LEFT; tap the red Delete button.</english>
+			<german>Suchen Sie den manuellen Blutzuckermesswert bzw. das Listenelement in „Meine Messwerte“ auf und streichen Sie nach LINKS. Tippen Sie dann auf die rote Schaltfläche „Löschen“.</german>
+		</trans-unit>
+		<trans-unit id="helpBloodSugarAH7">
+			<english>Change the meal marker on a reading that was previously or never marked?</english>
+			<german>Die Mahlzeit-Markierung für einen Messwert ändern, der zuvor oder noch nie markiert wurde?</german>
+		</trans-unit>
+		<trans-unit id="helpBloodSugarAH7a1">
+			<english>1. Find the blood sugar reading in My Readings and tap it.</english>
+			<german>1. Suchen Sie den Blutzuckermesswert in „Meine Messwerte“ auf und tippen Sie ihn an.</german>
+
+		</trans-unit>
+		<trans-unit id="helpMeaterBloodnSugarMH1a5">
+			<english>When the Edit screen appears, tap the Meal icon &lt;img src=\\\"../images/meter_help_meal.png\\\" class=\\\"mh-img-class\\\"/> and then tap \“Meal Marker\”. You can change or add a meal marker and a meal type from this screen.</english>
+			<german>Wenn der Bildschirm „Ändern“ erscheint, tippen Sie auf das Mahlzeitsymbol &lt;img src=\\\"../images/meter_help_meal.png\\\" class=\\\"mh-img-class\\\"/> und dann auf \„Mahlzeit-Markierung\“. Auf dieser Anzeige können Sie die Mahlzeit-Markierung und die Art der Mahlzeit ändern bzw. hinzufügen.</german>
+		</trans-unit>
+		<trans-unit id="helpBloodSugarAH7a3">
+			<tool_key>helpBloodSugarAH7a3</tool_key>
+			<note>Onyx Help System Map V8.0/H 6.3</note>
+			<english>Note: You can tap again on a meal marker or meal type to de-select it. You can tap No Mark if you do not want a meal marker and meal attached to this reading.</english>
+			<german>Note: You can tap again on a meal marker or meal type to de-select it. You can tap No Mark if you do not want a meal marker and meal attached to this reading.</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+		<trans-unit id="helpBloodSugarAH7a4">
+			<tool_key>helpBloodSugarAH7a4</tool_key>
+			<note>Onyx Help System Map V8.0/H 6.3</note>
+			<english>Tap Save when you are finished with meal markers.</english>
+			<german>Tap Save when you are finished with meal markers.</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+
+		<trans-unit id="COMM_TapView">
+			<english>4. The Edit screen displays so you can add details to your reading such as a photo, note, activity, meal or medication.</english>
+			<german>4. Daraufhin wird der Bildschirm „Ändern“ angezeigt, damit Sie Details wie z. B. ein Foto, eine Notiz, eine Aktivität, eine Mahlzeit oder eine Medikation zu der Messung hinzufügen können.</german>
+		</trans-unit>
+
+		<trans-unit id="helpBloodSugarAH7a6">
+			<english>5. Tap Done to save the blood sugar reading.</english>
+			<german>5. Tippen Sie auf „Fertig“, um den Blutzuckermesswert zu speichern.</german>
+		</trans-unit>
+
+
+		<trans-unit id="helpBloodSugarAH8">
+			<english>Add a photo, activity or meal to a blood sugar reading?</english>
+			<german>Ein Foto, eine Aktivität oder eine Mahlzeit zu einem Blutzuckermesswert hinzufügen?</german>
+		</trans-unit>
+		<trans-unit id="helpBloodSugarAH7a1">
+			<english>1. Find the blood sugar reading in My Readings and tap it.</english>
+			<german>1. Suchen Sie den Blutzuckermesswert in „Meine Messwerte“ auf und tippen Sie ihn an.</german>
+
+		</trans-unit>
+
+		<trans-unit id="helpBloodSugarAH8a1">
+			<english>When the Edit screen opens, tap the Photo, Activity, Meal, etc. button.</english>
+			<german>Wenn sich der Bildschirm „Ändern“ öffnet, tippen Sie auf „Foto“, „Aktivität“, „Mahlzeit“ usw.</german>
+		</trans-unit>
+		<trans-unit id="helpBloodSugarAH8a2">
+			<english>3. Tap Done when you are finished.</english>
+			<german>3. Tippen Sie auf „Fertig“, wenn Sie fertig sind.</german>
+		</trans-unit>
+
+		<trans-unit id="helpBloodSugarAH9">
+				<english>Stop the Meal Marker screen from displaying automatically in the app?</english>
+				<german>Verhindern, dass die Anzeige „Mahlzeit-Markierung“ in der App automatisch angezeigt wird?</german>>
+		</trans-unit>
+		<trans-unit id="helpBloodSugarAH9a1">
+			<tool_key>helpBloodSugarAH9a1</tool_key>
+			<note>Onyx Help System Map V8.0/H 6.3</note>
+			<english>Go to Main Menu > Settings > App Preferences.</english>
+
+			<german>Go to Main Menu &gt; Settings &gt; App Preferences.</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+
+		<trans-unit id="helpBloodSugarAH9a2">
+			<english>2. Change the Meal Marker Prompt screen setting to off.</english>
+			<german>2. Ändern Sie die Einstellung für die Eingabe zum Markieren von Mahlzeiten auf „Aus“.</german>
+		</trans-unit>
+
+		<trans-unit id="helpBloodSugarAH23">
+			<english>Change the time period on the expanded graph?</english>
+			<german>Die Zeitspanne im erweiterten Diagramm ändern?</german>
+		</trans-unit>
+
+		<trans-unit id="helpBloodSugarAH23a">
+			<english>Tap the white button at the top of the screen ( Standard│30 days ). Select a 3-day, 7-day, 14-day or 30-day time period from the Days list.</english>
+			<german>Tippen Sie auf die weiße Schaltfläche oben im Bildschirm ( Standard│30 Tage). Wählen Sie einen Zeitraum von 3, 7, 14 oder 30 Tagen aus der Liste aus.</german>
+		</trans-unit>
+		<trans-unit id="helpmeterAppConnAH21">
+			<english>Tell the difference between my meter blood sugar readings and manual blood sugar readings in a graph?</english>
+			<german>Wie kann ich in einem Diagramm zwischen meinen Messwerten vom Messgerät und manuell ermittelten Blutzuckerwerten unterscheiden?</german>
+		</trans-unit>
+		<trans-unit id="helpBloodSugarAH21a">
+			<english>Manual blood sugar readings are displayed as diamonds instead of circles in the app graphs.</english>
+			<german>Manuelle Blutzuckermesswerte werden in den Diagrammen der App mit einem Rautensymbol dargestellt, nicht mit einem Kreis.</german>
+		</trans-unit>
+		<trans-unit id="helpBGreadingsAH25a">
+			<english>View my insulin and carb entries on the expanded graph of my blood sugar readings?</english>
+			<german>Wie kann ich meine Einträge zu Insulin und Kohlenhydrate in einem erweiterten Diagramm meiner Blutzuckermesswerte aufrufen?</german>
+		</trans-unit>
+		<trans-unit id="helpBGreadingsAH25b1">
+			<english>1. From My Readings in the app, tap the small graph.</english>
+			<german>1. Tippen Sie in „Meine Messwerte“ in der App auf das kleine Diagramm.</german>
+		</trans-unit>
+		<trans-unit id="helpBGreadingsAH25b2">
+			<english>2. Tap the white button in upper left corner of the expanded graph&lt;br&gt;&lt;img&gt; </english>
+			<german>2. Tippen Sie auf die weiße Schaltfläche in der oberen linken Ecke des erweiterten Diagramms&lt;br&gt;&lt;img&gt;</german>
+		</trans-unit>
+		<trans-unit id="helpBGreadingsAH25b3">
+			<english>3. When the Customize Your Graph window opens, tap View Both in the Insulin / Carbs column.</english>
+			<german>3. Sobald sich das Fenster „Diagramm anpassen“ geöffnet hat, tippen Sie auf „Beide anzeigen“ in der Spalte „Insulin/Kohlenhydrate“.</german>
+	    </trans-unit>
+		</BloodSugarReadingAndMealMarkers>
+
+
+	<TargetRangeandCriticalValues>
+		<trans-unit id="COMM_targethdr">
+			<tool_key>COMM_targethdr</tool_key>
+			<note>Target Ranges/Critical Values</note>
+			<english>Target Ranges/Critical Values</english>
+			<german>Target Ranges/Critical Values</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+
+	<trans-unit id="helpSearchHelpTxt">
+            <note>Onyx Help System Map V6.0/H 2.0</note>
+            <english>Search App Help</english>
+            <german>Search App Help</german>
+            <reviewer>null</reviewer>
+            <reviewercomments>null</reviewercomments>
+            <mousehoverMap>null</mousehoverMap>
+            <comments>Country Review 1</comments>
+        </trans-unit>
+		<trans-unit id="COMM_howdobtn">
+			<english>How do I...</english>
+			<german>Wie kann ich...</german>
+		</trans-unit>
+		<trans-unit id="helpTargetAH2">
+			<english>Change my target ranges after I set them?</english>
+			<german>Meine Zielbereiche nach der Festlegung ändern?</german>
+		</trans-unit>
+		<trans-unit id="helpTargetAH2a">
+			<english>In the app, go to Main Menu > My Care > Target Ranges. You can change the high and low limits of your Before Meal (same as Fasting) and After Meal (same as Overall) target ranges when you slide the handles up or down. You can also use the (+) or (-) buttons to move a value up or down by 1 mg/dL.</english>
+			<german>Gehen Sie in der App zu Hauptmenü > Mein Profil > Zielbereiche. Verschieben der Ziehpunkte nach oben oder unten ändert die oberen und unteren Grenzwerte der Zielbereiche „Vor dem Essen“ (identisch mit „Nüchtern“) und „Nach dem Essen“ (identisch mit „Gesamt“) ändern. Mit (+) bzw. (-) kann der Wert um jeweils 1 mg/dL. nach oben bzw. unten verschoben werden.</german>
+		</trans-unit>
+		<trans-unit id="helpTargetAH3">
+			<english>Change my Critical High or Critical Low setting?</english>
+			<german>Die Einstellungen für „Kritisch hoch“ und „Kritisch niedrig“ ändern?</german>
+		</trans-unit>
+
+
+		<trans-unit id="helpTargetAH3a">
+			<english>Go to Main Menu > My Care > Target Ranges. The Critical High handle has a yellow outline. This is the highest blood sugar value you can set. The Critical Low handle has a red outline. This is the lowest value you can set.</english>
+			<german>Gehen Sie zu Hauptmenü > Mein Profil > Zielbereiche. Der Ziehpunkt für „Kritisch hoch“ ist gelb umrandet. Dies ist der höchste Wert, den Sie einstellen können. Der Ziehpunkt für „Kritisch niedrig“ ist rot umrandet. Dies ist der niedrigste Wert, den Sie einstellen können.</german>
+		</trans-unit>
+		<trans-unit id="helpTargetAH3a2">
+		<english>Slide the handles up or down to change the Critical Values. You can also use the (+) or (-) buttons to move a value up or down by 1 mg/dL.</english>
+			<german>Verschieben Sie die Ziehpunkte nach oben oder unten, um die kritischen Werte zu ändern. Mit (+) bzw. (-) kann der Wert um jeweils 1 mg/dL. nach oben bzw. unten verschoben werden.</german>
+		</trans-unit>
+	</TargetRangeandCriticalValues>
+	<Reminders>
+		<trans-unit id="helpSearchHelpTxt">
+            <note>Onyx Help System Map V6.0/H 2.0</note>
+            <german>Search App Help</german>
+            <english>Search App Help</english>
+            <reviewer>null</reviewer>
+            <reviewercomments>null</reviewercomments>
+            <mousehoverMap>null</mousehoverMap>
+            <comments>Country Review 1</comments>
+        </trans-unit>
+		<trans-unit id="COMM_reminderspattersnbtn">
+			<english>Reminders and Patterns</english>
+			<german>Erinnerungen und Muster</german>
+		</trans-unit>
+
+		<trans-unit id="COMM_howdobtn">
+			<english>How do I...</english>
+			<german>Wie kann ich...</german>
+		</trans-unit>
+		<trans-unit id="helpRemindersAH12">
+			<english>Set up a reminder to test my blood sugar or log an activity?</english>
+			<german>Eine Erinnerung daran einrichten, meinen Blutzucker zu messen oder eine Aktivität zu protokollieren?</german>
+		</trans-unit>
+		<trans-unit id="helpRemindersAH12a">
+			<english>1. Open the app and go to Main Menu > My Reminders. You can set up a recurring reminder based on time, a blood sugar result or to take medication based on your blood sugar. You can also set up a reminder to test as soon as a Before Meal reading comes into the app. &lt;br&gt;2. Tap the (+) in the upper right corner of the screen. &lt;br&gt; 3. When you are prompted, select Reminder.</english>
+			<german>1. Öffnen Sie die App und gehen Sie zu Hauptmenü > Meine Erinnerungen. Sie können eine neue Erinnerung anhand der Zeit, eines Messwerts oder zum Einnehmen von Medikamenten anhand des Blutzuckermesswerts einrichten. Auch kann eine Erinnerung an die Messung eingerichtet werden, sobald ein mit „Vor dem Essen“ markierte Messwert eingeht. &lt;br&gt; 2. Auf die Schaltfläche „+“ in der oberen rechten Ecke des Bildschirms tippen. &lt;br&gt; 3. Wählen Sie nach der Aufforderung „Erinnerung“.</german>
+		</trans-unit>
+
+		<trans-unit id="helpRemindersAH13">
+			<english>Set up a special set of reminders before a Healthcare visit or to help me improve a pattern?</english>
+		<german>Eine besondere Gruppe von Erinnerungen einrichten, z. B. vor einem Arzttermin oder zur Verbesserung eines Musters?</german>
+		</trans-unit>
+<trans-unit id="helpRemindersAH13a">
+			<english>1. Open the app and go to Main Menu > My Reminders. &lt;br&gt; 2. Tap the (+) in the upper right corner of the screen. </english>
+			<german>1. Öffnen Sie die App und gehen Sie zu Hauptmenü > Meine Erinnerungen. &lt;br&gt;2. Tippen Sie auf die Schaltfläche „+“ in der oberen rechten Bildschirmecke. &lt;br&gt;</german>
+		</trans-unit>
+		<trans-unit id="helpRemindersAH13a3">
+			<english>When you are prompted, select Test Reminder Plan. The Test Reminder Plans screen opens so you can select a plan that fits your schedule.</english>
+			<german>Wenn Sie dazu aufgefordert werden, wählen Sie „Messerinnerungspläne“. Der Bildschirm „Messerinnerungspläne“ öffnet sich, so dass Sie einen Plan auswählen können, der Ihrem Zeitplan entspricht.</german>
+		</trans-unit>
+		<trans-unit id="helpRemindersAH18">
+			<english>Stop a pattern message from displaying on my mobile device?</english>
+			<german>Verhindern, dass eine Meldung über ein Muster auf meinem mobilen Gerät angezeigt wird?</german>
+		</trans-unit>
+		<trans-unit id="helpRemindersAH18a">
+			<english>You can always exit a pattern and move it to history. Tap No when you are prompted to set a reminder, and tap Yes when the 'Move to History' option displays on a pattern screen,&lt;br&gt;or&lt;br&gt;1. Go to Main Menu >My Patterns.&lt;br&gt;2. Tap on the pattern, then tap Move to History</english>
+			<german>Sie können ein Muster immer beenden und in die Historie verschieben. Wenn die Aufforderung zur Einrichtung einer Erinnerung erscheint, tippen Sie auf „Nein“, und tippen Sie auf „Ja“, wenn auf einem Musterbildschirm die Option „In Historie verschieben“ erscheint,&lt;br&gt;oder&lt;br&gt;1. Gehen Sie zu Hauptmenü > Meine Muster.&lt;br&gt;2. Tippen Sie zuerst auf das Muster und anschließend auf „In Historie verschieben“.</german>
+		</trans-unit>
+
+
+		<trans-unit id="helpRemindersAH19">
+			<english>Stop a reminder that I have set?</english>
+			<german>Eine Erinnerung stoppen, die ich selbst eingerichtet habe?</german>
+		</trans-unit>
+		<trans-unit id="helpRemindersAH19a1">
+			<english>To delete a one-time countdown reminder:</english>
+		<german>So löschen Sie eine einmalige Countdown-Erinnerung:</german>
+		</trans-unit>
+		<trans-unit id="helpRemindersAH19a2">
+			<tool_key>helpRemindersAH19a2</tool_key>
+			<note>Onyx Help System Map V8.0/H 6.5</note>
+			<english>Go to Main Menu > My Readings and tap on the Before meal reading that has the reminder.</english>
+			<german>Gehen Sie zu Hauptmenü &gt; Meine Messwerte und tippen Sie auf den Blutzuckermesswert „Vor dem Essen“, der die Erinnerung aufweist.</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+		<trans-unit id="helpRemindersAH19a3">
+			<english>Tap the \'X\' on the bottom of the screen that shows the countdown time.</english>
+			<german>Tippen Sie auf \„X\“ am unteren Rand des Bildschirms mit der Countdown-Zeit.</german>
+		</trans-unit>
+		<trans-unit id="helpRemindersAH19a4">
+			<english>To temporarily disable a reminder:</english>
+			<german>So deaktivieren Sie eine Erinnerung vorübergehend:</german>
+		</trans-unit>
+		<trans-unit id="helpRemindersAH19a5">
+			<english>Go to Main Menu > My Readings and tap on the Before Meal reading that has the reminder.</english>
+			<german>Gehen Sie zu Hauptmenü > Meine Messwerte und tippen Sie auf den Blutzuckermesswert „Vor dem Essen“, der die Erinnerung aufweist.</german>
+		</trans-unit>
+		<trans-unit id="helpRemindersAH19a6">
+			<english>Tap the toggle switch on the reminder to turn it off. It will turn white.</english>
+			<german>Tippen Sie auf die Umschaltfläche der Erinnerung, um sie auszuschalten. Sie wird daraufhin weiß.</german>
+		</trans-unit>
+		<trans-unit id="helpRemindersAH19a7">
+			<english>To delete a recurring reminder:</english>
+			<german>So löschen Sie eine wiederkehrende Erinnerung:</german>
+		</trans-unit>
+		<trans-unit id="helpRemindersAH19a8">
+			<english>1. Go to Main Menu > My Reminders.</english>
+			<german>1. Gehen Sie zu Hauptmenü > Meine Erinnerungen.</german>
+		</trans-unit>
+		<trans-unit id="helpRemindersAH19a9">
+			<english>Swipe left on the reminder and tap the red Delete button.</english>
+			<german>Streichen Sie auf der Erinnerung nach links und tippen Sie auf die rote Schaltfläche „Löschen“.</german>
+		</trans-unit>
+	</Reminders>
+	<Reports>
+		<trans-unit id="helpSearchHelpTxt">
+            <note>Onyx Help System Map V6.0/H 2.0</note>
+            <english>Search App Help</english>
+            <german>Hilfe durchsuchen</german>
+            <reviewer>null</reviewer>
+            <reviewercomments>null</reviewercomments>
+            <mousehoverMap>null</mousehoverMap>
+            <comments>Country Review 1</comments>
+        </trans-unit>
+		<trans-unit id="helpRemindersAH19a9">
+			<tool_key>helpRemindersAH19a9</tool_key>
+			<note>Onyx Help System Map V8.0/H 6.5</note>
+			<english>Reports and Appointments</english>
+			<german>Reports and Appointments</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+
+		<trans-unit id="COMM_howdobtn">
+			<english>How do I...</english>
+			<german>Wie kann ich...</german>
+		</trans-unit>
+		<trans-unit id="helpBloodSugarAH28">
+			<english>Store information about my upcoming healthcare appointments and my healthcare professionals?</english>
+			<german>Angaben zu meinen bevorstehenden Arztterminen und Ärzten speichern?</german>
+		</trans-unit>
+		<trans-unit id="helpBloodSugarAH14a">
+			<english>The My Team section in the app lets you store contact information about your healthcare team and appointments. Go to Main Menu > My Care > My Team to use these features.</english>
+			<german>In der App können Sie unter „Mein Team“ die Kontaktangaben für Ihr Arztteam sowie Ihre Termine speichern. Um diese Funktionen zu nutzen, gehen Sie zu Hauptmenü > Mein Profil > Mein Team.</german>
+		</trans-unit>
+		<trans-unit id="helpReportAH17">
+			<english>Send a summary report of my blood sugar readings to my healthcare team?</english>
+			<german>Meinem medizinischen Fachpersonal einen zusammenfassenden Bericht über meine Blutzuckermesswerte senden?</german>
+		</trans-unit>
+		<trans-unit id="helpReportAH17a1">
+
+			<english>To send a formatted PDF summary report from the app: &lt;br&gt;1. Go to Main Menu &gt; My Care &gt; Appointments or Healthcare Team. &lt;br&gt;2. Tap an upcoming appointment. &lt;br&gt;3. Tap Send a Blood Sugar Report.&lt;br&gt;OR&lt;br&gt;1. Go to Main Menu &gt; My Care &gt; Reports.&lt;br&gt; 2. Tap Send a Blood Sugar Report. (Tap Send CSV file to export your blood sugar data. This report is unformatted and just contains raw data.) &lt;br&gt; You will be able to add a new recipient or choose a healthcare team member.</english>
+			<german>Um einen formatierten zusammenfassenden PDF-Bericht von der App zu senden: &lt;br&gt;&lt;br&gt;1. Gehen Sie zu Hauptmenü &gt; Mein Profil &gt; Termine oder Medizinisches Fachpersonal. &lt;br&gt;2. Tippen Sie auf einen bevorstehenden Termin. &lt;br&gt;3. Tippen Sie auf „Einen Blutzuckerbericht senden“.&lt;br&gt;ODER&lt;br&gt;1. Gehen Sie zu Hauptmenü &gt; Mein Profil &gt; Berichte.&lt;br&gt;2. Tippen Sie auf „Einen Blutzuckerbericht senden“. (Tippen Sie auf „CSV-Datei senden“, um Ihre Blutzuckerdaten zu exportieren. Dieser Bericht ist nicht formatiert und enthält nur Rohdaten.) &lt;br&gt;Sie können einen neuen Empfänger hinzufügen oder ein Mitglied des Medizinisches Fachpersonals auswählen.</german>
+
+		</trans-unit>
+
+
+	</Reports>
+
+</root>

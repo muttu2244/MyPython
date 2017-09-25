@@ -1,0 +1,95 @@
+<root>
+    <MeterSettings>
+        <trans-unit id="COMM_mymetersbtn">
+			<english>My Meters</english>
+			<german>Meine Messgeräte</german>
+		</trans-unit>
+		<trans-unit id="COMM_pairbtn">
+			<english>Pair a Meter</english>
+			<german>Messgerät koppeln</german>
+		</trans-unit>
+		<trans-unit id="COMM_and">
+			<english>Make sure your meter is off and keep it near your mobile device.</english>
+			<german>Stellen Sie sicher, dass Ihr Messgerät ausgeschaltet ist, und legen Sie es in die Nähe Ihres mobilen Geräts.</german>
+		</trans-unit>
+		<trans-unit id="COMM_continuebtn">
+			<english>Continue</english>
+			<german>Weiter</german>
+		</trans-unit>
+		<trans-unit id="COMM_pairbtn">
+			<english>Pair a Meter</english>
+			<german>Messgerät koppeln</german>
+		</trans-unit>
+		<trans-unit id="initialpairingPairingText">
+			<english>Press and HOLD the center button (A) until you see the flashing BLUE light from the strip port (B).</english>
+			<german>HALTEN Sie die mittlere Taste (A) gedrückt, bis das BLAUE Licht an der Sensoröffnung (B) blinkt.</german>
+		</trans-unit>
+		<trans-unit id="COMM_continuebtn">
+			<english>Continue</english>
+			<german>Weiter</german>
+		</trans-unit>
+
+		<trans-unit id="COMM_connectingbtn">
+			<english>Connecting to meter...</english>
+			<german>Verbindung zum Messgerät wird hergestellt ...</german>
+
+		</trans-unit>
+		<trans-unit id="COMM_unsuccessbtn">
+			<english>Pairing unsuccessful</english>
+			<german>Kopplung fehlgeschlagen</german>
+		</trans-unit>
+		<trans-unit id="pairingUnsucsfulPairInfo">
+			<english>Your meter did not pair to this device. Place the meter near this device and tap <b> Retry pairing. </b></english>
+			<german>Messgerät wurde nicht mit Gerät gekoppelt. Messgerät in die Nähe des mobilen Geräts bringen und auf <b>Kopplung wiederholen</b> tippen.</german>
+		</trans-unit>
+		<trans-unit id="COMM_pairRetryPairing">
+			<tool_key>COMM_pairRetryPairing</tool_key>
+			<note>pairRetryPairing</note>
+			<english>Retry Pairing</english>
+			<german>Retry Pairing</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+		<trans-unit id="COMM_cancelbtn">
+			<english>Cancel</english>
+			<german>Abbrechen</german>
+
+		</trans-unit>
+		<trans-unit id="COMM_gethelpbtn">
+			<tool_key>COMM_gethelpbtn</tool_key>
+			<note>Get Help</note>
+			<english>Get help</english>
+			<german>Get help</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+		<trans-unit id="pairingsetUpHelpBannr">
+			<tool_key>pairingsetUpHelpBannr</tool_key>
+			<note>Onyx Pairing System Map V7.0/P 10.1</note>
+			<english>Meter setup Help</english>
+			<german>Meter setup Help</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+		<trans-unit id="initialpairingsetUpHelpInfo">
+			<tool_key>initialpairingsetUpHelpInfo</tool_key>
+			<note>Onyx Initial Pairing System Map V7.0/IP 8.2</note>
+			<english>For help, call the phone number on the back of your meter. Or go to &lt;a href='#' style=' text-decoration: underline; color: #037AFF; font-weight:normal;'/a&gt; .http://contact.ascensia.com</english>
+			<german>For help, call the phone number on the back of your meter. Or go to &lt;a href='#' style=' text-decoration: underline; color: #037AFF; font-weight:normal;'/a&gt; .http://contact.ascensia.com</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+    </MeterSettings>
+	<PopUp>
+
+	</PopUp>
+
+</root>

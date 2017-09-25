@@ -1,0 +1,293 @@
+<root>
+    <ToUnpair>
+        <Aobject>
+        <zone>NATIVE</zone>
+        <xpath> xpath=//*[@id='ic_menu'] </xpath>
+        <index>0</index>
+       <comment>my readings </comment>
+    </Aobject>
+          <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=(//*[@id='left_drawer']/*/*[@id='lblListHeaderSlideView'])[5]</xpath>
+        <index>0</index>
+       <comment>settings </comment>
+    </Aobject>
+     <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@class='ui-grid-d settings-list-item']</xpath>
+        <index>0</index>
+       <comment>my meter </comment>
+    </Aobject>
+    <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@id='homemeterliList_0']</xpath>
+        <index>0</index>
+       <comment>un pair</comment>
+    </Aobject>
+        <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@id='unpairbtn_0']</xpath>
+        <index>0</index>
+       <comment> unpair </comment>
+     </Aobject>
+
+
+
+
+        <!--IOS -->
+    <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@accessibilityLabel='Menu icn 1x']</xpath>
+        <index>0</index>
+       <comment>my readings </comment>
+    </Iobject>
+    <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='UITableViewLabel']</xpath>
+        <index>4</index>
+       <comment> settings</comment>
+    </Iobject>
+    <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[1]</xpath>
+        <index>0</index>
+       <comment>settings</comment>
+    </Iobject>
+
+    <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@id='homemeterliList_0']</xpath>
+        <index>0</index>
+       <comment> Un pair from account</comment>
+    </Iobject>
+<Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*[@id='onyxpairstatus']/*/*[@text and @nodeName='A'])[2]</xpath>
+        <index>0</index>
+       <comment> unpair from account</comment>
+     </Iobject>
+
+    </ToUnpair>
+
+    <xpath2>
+ <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*[@id='hideBtn2']/*[@text and @nodeName='DIV' and ./*[@text and @nodeName='DIV' and @width>0]])[2]</xpath>
+        <index>0</index>
+       <comment> un pair</comment>
+    </Aobject>
+     <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*[@id='hideBtn2']/*[@text and @nodeName='DIV' and ./*[@text and @nodeName='DIV' and @width>0]])[2]</xpath>
+        <index>0</index>
+       <comment> un pair</comment>
+    </Iobject>
+    </xpath2>
+    <Unpair>
+
+   <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[8]</xpath>
+        <index>0</index>
+       <comment> Unpair mater?</comment>
+    </Aobject>
+
+       <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@class='contentstyle_white80 onyxelement']</xpath>
+        <index>0</index>
+       <comment> are you sure you want unpair </comment>
+    </Aobject>
+     <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@nodeName='A' and @width>0])[1]</xpath>
+        <index>0</index>
+       <comment> unpair </comment>
+    </Aobject>
+         <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@nodeName='A' and @width>0])[2]</xpath>
+        <index>0</index>
+       <comment> cancel</comment>
+    </Aobject>
+
+     <Aobject>
+        <zone>WEB</zone>
+        <xpath>click</xpath>
+        <index>0</index>
+       <comment>click Unpairing</comment>
+    </Aobject>
+     <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[4]</xpath>
+        <index>0</index>
+       <comment>click  back btn</comment>
+</Aobject>
+        <!--IOS -->
+
+     <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[8]</xpath>
+        <index>0</index>
+       <comment> Unpair mater?</comment>
+    </Iobject>
+
+       <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@class='contentstyle_white80 onyxelement']</xpath>
+        <index>0</index>
+       <comment> are you sure you want unpair </comment>
+    </Iobject>
+     <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@nodeName='A' and @width>0])[1]</xpath>
+        <index>0</index>
+       <comment> unpair </comment>
+    </Iobject>
+         <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@nodeName='A' and @width>0])[2]</xpath>
+        <index>0</index>
+       <comment> cancel</comment>
+    </Iobject>
+
+
+    </Unpair>
+    <Unpair2>
+      <Aobject>
+        <zone>WEB</zone>
+        <xpath>click</xpath>
+        <index>0</index>
+       <comment> LAst 10 Erors</comment>
+    </Aobject>
+        <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*[@id='hideBtn2']/*[@text and @nodeName='DIV' and ./*[@text and @nodeName='DIV' and @width>0]])[2]</xpath>
+        <index>0</index>
+       <comment> unpair</comment>
+    </Aobject>
+        <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*[@id='hideBtn2']/*[@text and @nodeName='DIV' and ./*[@text and @nodeName='DIV' and @width>0]])[2]</xpath>
+        <index>0</index>
+       <comment> unpair</comment>
+    </Iobject>
+    </Unpair2>
+    <AboutMeter>
+    <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*[@id='hideBtn2']/*[@text and @nodeName='DIV' and ./*[@text and @nodeName='DIV' and @width>0]])[1]</xpath>
+        <index>0</index>
+       <comment> about Meter</comment>
+    </Aobject>
+        <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@class='topbtnstyle']</xpath>
+        <index>0</index>
+       <comment> about this Meter</comment>
+    </Aobject>
+     <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@class='topbtnstyle']</xpath>
+        <index>0</index>
+       <comment> about this Meter</comment>
+    </Aobject>
+        <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[7]</xpath>
+        <index>0</index>
+       <comment> Serial number</comment>
+    </Aobject>
+      <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[9]</xpath>
+        <index>0</index>
+       <comment> Model</comment>
+    </Aobject>
+         <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[11]</xpath>
+        <index>0</index>
+       <comment> PAired</comment>
+    </Aobject>
+         <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[13]</xpath>
+        <index>0</index>
+       <comment> software version</comment>
+    </Aobject>
+         <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[15]</xpath>
+        <index>0</index>
+       <comment> Firma Ware version</comment>
+    </Aobject>
+         <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[17]</xpath>
+        <index>0</index>
+       <comment> LAst 10 Erors</comment>
+    </Aobject>
+   <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[19]</xpath>
+        <index>0</index>
+       <comment> LAst 10 control solution Erors</comment>
+    </Aobject>
+      <Aobject>
+        <zone>WEB</zone>
+        <xpath>click</xpath>
+        <index>0</index>
+       <comment> LAst 10 Erors</comment>
+    </Aobject>
+<Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[6]</xpath>
+        <index>0</index>
+       <comment> LAst 10 Erors</comment>
+    </Aobject>
+        <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@class='topbtnstyle']</xpath>
+        <index>0</index>
+       <comment> LAst 10 Erors</comment>
+    </Aobject>
+         <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*[@id='withdata']/*[@text and @nodeName='DIV' and @width>0])[1]</xpath>
+        <index>0</index>
+       <comment> serial number</comment>
+    </Aobject>
+         <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[4]</xpath>
+        <index>0</index>
+       <comment> back button</comment>
+    </Aobject>
+     <Aobject>
+        <zone>WEB</zone>
+        <xpath>click</xpath>
+        <index>0</index>
+       <comment> LAst 10 Erors</comment>
+    </Aobject>
+        <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[7]</xpath>
+        <index>0</index>
+       <comment> LAst 10 cobtrol solution</comment>
+    </Aobject>
+
+ <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@text and @nodeName='DIV' and ./preceding-sibling::*[@text] and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='DIV']]]]</xpath>
+        <index>0</index>
+       <comment> LAst 10 cobtrol solution</comment>
+    </Aobject>
+        <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*[@id='soldata']/*[@text and @nodeName='DIV' and @width>0])[1]</xpath>
+        <index>0</index>
+       <comment> Serial number</comment>
+    </Aobject>
+    </AboutMeter>
+</root>

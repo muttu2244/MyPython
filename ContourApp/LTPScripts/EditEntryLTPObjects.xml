@@ -1,0 +1,1297 @@
+<root>
+    <StartingPopUps>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+			<comment>click</comment>
+       </Aobject>
+         <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='ic_add']</xpath>
+            <index>0</index>
+			<comment>plus btn</comment>
+       </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>swipeup</xpath>
+            <index>0</index>
+			<comment>click</comment>
+       </Aobject>
+         <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='numberpicker_input']</xpath>
+            <index>1</index>
+			<comment>swipe</comment>
+       </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+			<comment>swipe</comment>
+       </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='android.widget.TextView' and @width>0 and ./preceding-sibling::*[@text] and ./parent::*[@class='android.widget.RelativeLayout']]</xpath>
+            <index>0</index>
+            <comment>done</comment>
+        </Aobject>
+         <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='txt_title']</xpath>
+            <index>0</index>
+            <comment>future time or date </comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='txt_msg']</xpath>
+            <index>0</index>
+            <comment>ou cannot add a readings</comment>
+         </Aobject>
+
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='btn_yes']</xpath>
+            <index>0</index>
+            <comment>OK </comment>
+         </Aobject>
+           <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment>OK </comment>
+         </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='btn_yes']</xpath>
+            <index>0</index>
+            <comment>OK </comment>
+        </Aobject>
+         <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>swipedown</xpath>
+            <index>0</index>
+			<comment>click</comment>
+       </Aobject>
+         <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='numberpicker_input']</xpath>
+            <index>1</index>
+			<comment>swipe up</comment>
+       </Aobject>
+         <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+			<comment>swipe</comment>
+       </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='android.widget.TextView' and @width>0 and ./preceding-sibling::*[@text] and ./parent::*[@class='android.widget.RelativeLayout']]</xpath>
+            <index>0</index>
+            <comment>done</comment>
+        </Aobject>
+         <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+			<comment>swipe</comment>
+       </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='readingValue']</xpath>
+            <index>0</index>
+            <comment>reading value</comment>
+        </Aobject>
+     <Aobject>
+                <zone>NATIVE</zone>
+                <xpath>text</xpath>
+                <index>0</index>
+                <comment>send text</comment>
+           </Aobject>
+            <Aobject>
+                <zone>NATIVE</zone>
+                <xpath>xpath=//*[@id='txt_title']</xpath>
+                <index>0</index>
+                <comment> value out of range</comment>
+            </Aobject>
+        <Aobject>
+                <zone>NATIVE</zone>
+                <xpath>xpath=//*[@id='txt_msg']</xpath>
+                <index>0</index>
+                <comment> you may only enter the value between </comment>
+            </Aobject>
+        <Aobject>
+                <zone>NATIVE</zone>
+                <xpath>xpath=//*[@id='btn_yes']</xpath>
+                <index>0</index>
+                <comment> ok </comment>
+            </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment> ok </comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='btn_yes']</xpath>
+            <index>0</index>
+            <comment> close </comment>
+        </Aobject>
+<Aobject>
+            <zone>NATIVE</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment> ok </comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='mmclosebtn']</xpath>
+            <index>0</index>
+            <comment> close btn </comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment> ok </comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='cancelTextView']</xpath>
+            <index>0</index>
+            <comment> cancel btn </comment>
+        </Aobject>
+ <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment> ok </comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='discardButton']</xpath>
+            <index>0</index>
+            <comment> cancel btn </comment>
+        </Aobject>
+    </StartingPopUps>
+<MainScreen>
+    <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+			<comment>click</comment>
+    </Aobject>
+    <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='ic_add' and @class='android.widget.ImageView' and @knownSuperClass='android.widget.ImageView' and @enabled='true' and @onScreen='true']</xpath>
+            <index>0</index>
+			<comment>plus btn to edit entry</comment>
+    </Aobject>
+     <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+			<comment>click</comment>
+    </Aobject>
+    <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='android.widget.TextView' and @width>0 and ./preceding-sibling::*[@text] and ./parent::*[@class='android.widget.RelativeLayout']]</xpath>
+            <index>0</index>
+            <comment>click on done btn</comment>
+        </Aobject>
+    <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='cancelTextView']</xpath>
+            <index>0</index>
+			<comment>cancel</comment>
+    </Aobject>
+    <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='titleTextView']</xpath>
+            <index>0</index>
+			<comment>Edit entry</comment>
+    </Aobject>
+    <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='centralNoteView']</xpath>
+            <index>0</index>
+			<comment>tap button to add note </comment>
+    </Aobject>
+    <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+			<comment>click</comment>
+    </Aobject>
+    <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='readingValue']</xpath>
+            <index>0</index>
+			<comment>click on reading value</comment>
+    </Aobject>
+    <Aobject>
+            <zone>WEB</zone>
+            <xpath>text</xpath>
+            <index>0</index>
+			<comment>Judgenmt to send Readings </comment>
+    </Aobject>
+     <Aobject>
+            <zone>WEB</zone>
+            <xpath>popup</xpath>
+            <index>0</index>
+			<comment>pop Up</comment>
+    </Aobject>
+    <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='mealmarkingheader']</xpath>
+            <index>0</index>
+			<comment>Meal Marker</comment>
+    </Aobject>
+     <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='com.ascensia.contour.OnyxTextView' and ./parent::*[@class='android.widget.LinearLayout' and ./parent::*[@id='mmfastingbtn']]]</xpath>
+            <index>0</index>
+			<comment>fasting</comment>
+    </Aobject>
+    <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='com.ascensia.contour.OnyxTextView' and ./parent::*[@class='android.widget.LinearLayout' and ./parent::*[@id='mmbeforemeal']]]</xpath>
+            <index>0</index>
+        <comment>before meal  </comment>
+    </Aobject>
+    <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='com.ascensia.contour.OnyxTextView' and ./parent::*[@class='android.widget.LinearLayout' and ./parent::*[@id='mmaftermeal']]]</xpath>
+            <index>0</index>
+        <comment>after  meal  </comment>
+    </Aobject>
+
+    <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='mmbreakfast']</xpath>
+            <index>0</index>
+        <comment>break fast </comment>
+    </Aobject>
+
+    <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='mmlunch']</xpath>
+            <index>0</index>
+        <comment>lunch </comment>
+    </Aobject>
+    <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='mmdinner']</xpath>
+            <index>0</index>
+        <comment>dinner </comment>
+    </Aobject>
+      <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='mmsnack']</xpath>
+            <index>0</index>
+        <comment>snack </comment>
+    </Aobject>
+    <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='mmnomarkbtn']</xpath>
+            <index>0</index>
+        <comment>No mark </comment>
+    </Aobject>
+    <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='mmcontinuebtn']</xpath>
+            <index>0</index>
+        <comment>save  </comment>
+    </Aobject>
+    <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>click</xpath>
+        <index>0</index>
+        <comment>click </comment>
+    </Aobject>
+    <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@id='mmnomarkbtn'] </xpath>
+        <index>0</index>
+        <comment>No mark </comment>
+    </Aobject>
+    <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@id='question1'] </xpath>
+        <index>0</index>
+        <comment>B selecting.... </comment>
+    </Aobject>
+     <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@id='question2'] </xpath>
+        <index>0</index>
+        <comment>do not show this again </comment>
+    </Aobject>
+     <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@id='btn_cancel']</xpath>
+        <index>0</index>
+        <comment>btn_cancel </comment>
+    </Aobject>
+    <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@id='btn_ok']</xpath>
+        <index>0</index>
+        <comment>btn_ok</comment>
+    </Aobject>
+    <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>click</xpath>
+        <index>0</index>
+        <comment>click on ok </comment>
+    </Aobject>
+    <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@id='btn_ok']</xpath>
+        <index>0</index>
+        <comment>btn_ok </comment>
+    </Aobject>
+
+    <!-- IOS-->
+    <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+			<comment>click</comment>
+    </Iobject>
+    <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@accessibilityLabel='Add']</xpath>
+            <index>0</index>
+			<comment>plus btn to edit entry</comment>
+    </Iobject>
+     <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+			<comment>click</comment>
+    </Iobject>
+    <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@class='UIVisualEffectView' and ./parent::*[./following-sibling::*[@accessibilityLabel='Done']]]/*[@class='_UIVisualEffectFilterView'])[2]</xpath>
+            <index>0</index>
+            <comment>click on done btn</comment>
+        </Iobject>
+    <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIButtonLabel' and @knownSuperClass='UILabel' and @textColor='0xFFFFFF' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+            <index>0</index>
+			<comment>cancel</comment>
+    </Iobject>
+    <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UILabel' and @knownSuperClass='UILabel' and @textColor='0xFFFFFF' and @backgroundColor='0x000000' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+            <index>0</index>
+			<comment>Edit entry</comment>
+    </Iobject>
+    <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UILabel' and @knownSuperClass='UILabel' and @textColor='0xFFFFFF' and @backgroundColor='0x000000' and @onScreen='true' and @top='false']</xpath>
+            <index>1</index>
+			<comment>tap button to add note </comment>
+    </Iobject>
+    <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+			<comment>click</comment>
+    </Iobject>
+    <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIButton' and ./parent::*[@class='YGPillView']]</xpath>
+            <index>0</index>
+			<comment>click on reading value</comment>
+    </Iobject>
+    <Iobject>
+            <zone>WEB</zone>
+            <xpath>text</xpath>
+            <index>0</index>
+			<comment>Judgenmt to send Readings </comment>
+    </Iobject>
+     <Iobject>
+            <zone>WEB</zone>
+            <xpath>popup</xpath>
+            <index>0</index>
+			<comment>pop Up</comment>
+    </Iobject>
+    <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@textColor='0xFFFFFF' and @backgroundColor='0x000000' and @onScreen='true' and @top='false']</xpath>
+            <index>0</index>
+			<comment>Meal Marker</comment>
+    </Iobject>
+     <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIButtonLabel' and @enabled='true' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+            <index>0</index>
+			<comment>fasting</comment>
+    </Iobject>
+    <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIButtonLabel' and @enabled='true' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+            <index>1</index>
+        <comment>before meal  </comment>
+    </Iobject>
+  <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIButtonLabel' and @enabled='true' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+            <index>3</index>
+        <comment>after  meal  </comment>
+    </Iobject>
+
+    <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIButtonLabel' and @enabled='true' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+            <index>5</index>
+        <comment>break fast </comment>
+    </Iobject>
+
+    <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIButtonLabel' and @enabled='true' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+            <index>6</index>
+        <comment>lunch </comment>
+    </Iobject>
+    <Iobject>
+            <zone>NATIVE</zone>
+             <xpath> xpath=//*[@class='UIButtonLabel' and @enabled='true' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+            <index>7</index>
+        <comment>dinner </comment>
+    </Iobject>
+      <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIButtonLabel' and @enabled='true' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+            <index>8</index>
+        <comment>snack </comment>
+    </Iobject>
+    <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIButtonLabel' and @enabled='true' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+            <index>9</index>
+        <comment>No mark </comment>
+    </Iobject>
+    <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIButtonLabel' and @enabled='true' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+            <index>10</index>
+        <comment>save  </comment>
+    </Iobject>
+    <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>click</xpath>
+        <index>0</index>
+        <comment>click </comment>
+    </Iobject>
+       <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UIButtonLabel' and @enabled='true' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+            <index>9</index>
+        <comment>No mark </comment>
+    </Iobject>
+    <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='UILabel' and @alpha='1' and @backgroundColor='0x000000' and @onScreen='true' and @top='false'] </xpath>
+        <index>2</index>
+        <comment>B selecting.... </comment>
+    </Iobject>
+     <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='UIButtonLabel' and @textColor='0x000000' and @enabled='true' and @onScreen='true' and @top='false']</xpath>
+        <index>1</index>
+        <comment>do not show this again </comment>
+    </Iobject>
+     <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@id='btn_cancel']</xpath>
+        <index>0</index>
+        <comment>btn_cancel </comment>
+    </Iobject>
+    <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='UIButtonLabel' and @knownSuperClass='UILabel' and @textColor='0x0078FF' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+        <index>0</index>
+        <comment>btn_ok</comment>
+    </Iobject>
+    <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>click</xpath>
+        <index>0</index>
+        <comment>click on ok </comment>
+    </Iobject>
+    <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='UIButtonLabel' and @textColor='0x0078FF' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+        <index>0</index>
+        <comment>btn_ok </comment>
+    </Iobject>
+
+
+</MainScreen>
+<MenuItem>
+    <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>click</xpath>
+        <index>0</index>
+        <comment> click ok </comment>
+    </Aobject>
+    <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@id='photoImageView']</xpath>
+        <index>0</index>
+        <comment>photoImageView </comment>
+    </Aobject>
+     <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='com.ascensia.contour.OnyxTextView' and @width>0 and ./parent::*[@class='android.widget.LinearLayout' and @height>0 and ./parent::*[@class='android.widget.LinearLayout']] and ./preceding-sibling::*[@class='android.widget.ImageView']]</xpath>
+        <index>0</index>
+        <comment>take a photo</comment>
+    </Aobject>
+    <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='com.ascensia.contour.OnyxTextView' and @width>0 and ./parent::*[@class='android.widget.LinearLayout' and @height>0] and ./preceding-sibling::*[@class='android.widget.LinearLayout']]</xpath>
+        <index>0</index>
+        <comment>add photo from librauary  </comment>
+    </Aobject>
+    <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>click</xpath>
+        <index>0</index>
+        <comment> click activityImageView </comment>
+    </Aobject>
+
+    <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@id='activityImageView']</xpath>
+        <index>0</index>
+        <comment>activityImageView </comment>
+    </Aobject>
+    <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='android.widget.TextView']</xpath>
+        <index>9</index>
+        <comment>add edit activity </comment>
+    </Aobject>
+     <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=(//*[@class='android.widget.LinearLayout' and ./parent::*[@class='com.ascensia.contour.editview.a']]/*/*/*/*[@class='android.widget.TextView' and @width>0 and ./parent::*[@class='android.widget.LinearLayout' and ./parent::*[@class='com.ascensia.contour.editview.dn']]])[1]</xpath>
+        <index>0</index>
+        <comment>Total Duration </comment>
+    </Aobject>
+    <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=(//*[@class='android.widget.LinearLayout' and ./parent::*[@class='com.ascensia.contour.editview.a']]/*/*/*/*[@class='android.widget.TextView' and @width>0 and ./parent::*[@class='android.widget.LinearLayout' and ./parent::*[@class='com.ascensia.contour.editview.dn']]])[2]</xpath>
+        <index>0</index>
+        <comment>intensity </comment>
+    </Aobject>
+     <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>click</xpath>
+        <index>0</index>
+        <comment> click ok </comment>
+    </Aobject>
+     <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='android.widget.TextView']</xpath>
+        <index>09</index>
+        <comment>add/edit activity</comment>
+    </Aobject>
+    <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@id='titleTextView']</xpath>
+        <index>0</index>
+        <comment>add activity</comment>
+    </Aobject>
+    <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@id='cancelTextView']</xpath>
+        <index>0</index>
+        <comment>Cancel</comment>
+    </Aobject>
+    <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>click</xpath>
+        <index>0</index>
+        <comment> click </comment>
+    </Aobject>
+    <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@id='cancelTextView']</xpath>
+        <index>0</index>
+        <comment> cancel</comment>
+    </Aobject>
+    <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>click</xpath>
+        <index>0</index>
+        <comment>click </comment>
+    </Aobject>
+    <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@id='foodImageView']</xpath>
+        <index>0</index>
+        <comment>foodImageView</comment>
+    </Aobject>
+    <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='android.widget.TextView' and @width>0 and ./following-sibling::*[@text] and ./parent::*[@class='android.widget.LinearLayout' and ./following-sibling::*[@class='android.widget.ScrollView']]]</xpath>
+        <index>0</index>
+        <comment>add/edit food</comment>
+    </Aobject>
+    <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='android.widget.TextView' and @width>0 and ./parent::*[@class='android.widget.LinearLayout' and ./parent::*[@class='com.ascensia.contour.editview.dn']]]</xpath>
+        <index>0</index>
+        <comment>Manual carbs entry</comment>
+    </Aobject>
+    <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>click</xpath>
+        <index>10</index>
+        <comment> click </comment>
+    </Aobject>
+     <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='android.widget.TextView' and @width>0 and ./following-sibling::*[@text] and ./parent::*[@class='android.widget.LinearLayout' and ./following-sibling::*[@class='android.widget.ScrollView']]]</xpath>
+        <index>0</index>
+        <comment>MAnual carbs entry</comment>
+    </Aobject>
+    <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>popupcarbs</xpath>
+        <index>0</index>
+        <comment>popup carbs</comment>
+    </Aobject>
+     <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@id='titleTextView']</xpath>
+        <index>0</index>
+        <comment>titleTextView</comment>
+    </Aobject>
+    <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@id='cancelTextView']</xpath>
+        <index>0</index>
+        <comment>cancelTextView</comment>
+    </Aobject>
+    <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@id='cancelTextView1']</xpath>
+        <index>0</index>
+        <comment>food</comment>
+    </Aobject>
+     <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@id='doneTextView1']</xpath>
+        <index>0</index>
+        <comment>carbs</comment>
+    </Aobject>
+
+     <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>click</xpath>
+        <index>0</index>
+        <comment>click cancel</comment>
+    </Aobject>
+     <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@id='cancelTextView']</xpath>
+        <index>0</index>
+        <comment>cancelTextView </comment>
+    </Aobject>
+
+
+    <!-- IOS-->
+      <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>click</xpath>
+        <index>0</index>
+        <comment>ok </comment>
+    </Iobject>
+    <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='YGVectorButton']</xpath>
+        <index>0</index>
+        <comment>ok </comment>
+    </Iobject>
+     <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='UIButtonLabel' and @knownSuperClass='UILabel' and @textColor='0x000000' and @hidden='false' and @onScreen='true']</xpath>
+        <index>2</index>
+        <comment>take  photo  </comment>
+    </Iobject>
+    <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='UIButtonLabel' and @knownSuperClass='UILabel' and @textColor='0x000000' and @hidden='false' and @onScreen='true'] </xpath>
+        <index>3</index>
+        <comment>add  from lib </comment>
+    </Iobject>
+    <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>click</xpath>
+        <index>0</index>
+        <comment> click</comment>
+    </Iobject>
+
+    <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='YGVectorButton']</xpath>
+        <index>2</index>
+        <comment> activity</comment>
+    </Iobject>
+    <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='UIButtonLabel' and @knownSuperClass='UILabel' and @alpha='1' and @textColor='0x000000' and @enabled='true' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+        <index>1</index>
+        <comment>add edit activity </comment>
+    </Iobject>
+     <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='UILabel' and @knownSuperClass='UILabel' and @textColor='0x202020' and @backgroundColor='0x000000' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+        <index>0</index>
+        <comment> total duration </comment>
+    </Iobject>
+    <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='UILabel' and @knownSuperClass='UILabel' and @textColor='0x202020' and @backgroundColor='0x000000' and @hidden='false' and @onScreen='true']</xpath>
+        <index>1</index>
+        <comment>intensity </comment>
+    </Iobject>
+     <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>click</xpath>
+        <index>0</index>
+        <comment>ok </comment>
+    </Iobject>
+      <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='UIButton' and @knownSuperClass='UIButton' and @alpha='1' and @backgroundColor='0xFFFFFF' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+        <index>3</index>
+        <comment>add edit activity </comment>
+    </Iobject>
+    <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='UILabel' and @knownSuperClass='UILabel' and @textColor='0xFFFFFF' and @backgroundColor='0x000000' and @enabled='false' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+        <index>0</index>
+        <comment>add activity</comment>
+    </Iobject>
+    <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='UIButtonLabel' and @knownSuperClass='UILabel' and @alpha='1' and @textColor='0xFFFFFF' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+        <index>0</index>
+        <comment>Cancel</comment>
+    </Iobject>
+    <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>click</xpath>
+        <index>0</index>
+        <comment>ok </comment>
+    </Iobject>
+    <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='UIButtonLabel' and @knownSuperClass='UILabel' and @onScreen='true' and @top='false']</xpath>
+        <index>0</index>
+        <comment>Cancel</comment>
+    </Iobject>
+    <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>click</xpath>
+        <index>0</index>
+        <comment>ok </comment>
+    </Iobject>
+    <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='YGVectorButton' and @knownSuperClass='UIButton' and @backgroundColor='0x000000' and @onScreen='true' and @top='false']</xpath>
+        <index>2</index>
+        <comment> meal </comment>
+    </Iobject>
+    <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='UIButtonLabel' and @textColor='0x000000' and @enabled='true' and @hidden='false' and @onScreen='true' and @top='false'] </xpath>
+        <index>8</index>
+        <comment>add/edit food</comment>
+    </Iobject>
+    <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='UILabel' and @knownSuperClass='UILabel' and @textColor='0x000000' and @backgroundColor='0x000000' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+        <index>1</index>
+        <comment>Manual carbs entry</comment>
+    </Iobject>
+    <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>click</xpath>
+        <index>10</index>
+        <comment> click</comment>
+    </Iobject>
+     <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='UIButton' and @knownSuperClass='UIButton' and @alpha='1' and @backgroundColor='0xFFFFFF' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+        <index>0</index>
+        <comment>add/edit food</comment>
+    </Iobject>
+     <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='UILabel' and @knownSuperClass='UILabel' and @alpha='1' and @textColor='0xFFFFFF' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+        <index>0</index>
+        <comment>add food </comment>
+    </Iobject>
+    <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='UIButtonLabel' and @knownSuperClass='UILabel' and @alpha='1' and @textColor='0xFFFFFF' and @enabled='true' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+        <index>0</index>
+        <comment> cancel</comment>
+    </Iobject>
+    <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='UILabel' and @knownSuperClass='UILabel' and @alpha='1' and @textColor='0x000000' and @backgroundColor='0x000000' and @enabled='false' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+        <index>0</index>
+        <comment>food</comment>
+    </Iobject>
+     <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='UILabel' and @knownSuperClass='UILabel' and @alpha='1' and @textColor='0x000000' and @backgroundColor='0x000000' and @enabled='false' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+        <index>2</index>
+        <comment>carbs</comment>
+    </Iobject>
+  <!-- <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>text</xpath>
+        <index>0</index>
+        <comment> text</comment>
+    </Iobject>
+    <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>click</xpath>
+        <index>0</index>
+        <comment> click</comment>
+    </Iobject>
+     <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='_UISearchBarSearchFieldBackgroundView']</xpath>
+        <index>0</index>
+        <comment>+ add food </comment>
+    </Iobject>
+
+  <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='UIButton' and @knownSuperClass='UIButton' and @backgroundColor='0xFFFFFF' and @hidden='false' and @onScreen='true']</xpath>
+        <index>0</index>
+        <comment>cancel </comment>
+    </Iobject>
+     <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='UIButton' and @knownSuperClass='UIButton' and @backgroundColor='0xFFFFFF' and @hidden='false' and @onScreen='true']</xpath>
+        <index>1</index>
+        <comment>cancel </comment>
+    </Iobject>-->
+
+     <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>click</xpath>
+        <index>0</index>
+        <comment>click</comment>
+    </Iobject>
+     <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='UIButtonLabel' and @knownSuperClass='UILabel' and @alpha='1' and @textColor='0xFFFFFF' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+        <index>0</index>
+        <comment> cancel</comment>
+    </Iobject>
+
+</MenuItem>
+
+    <Medication>
+    <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>click</xpath>
+        <index>0</index>
+        <comment>click</comment>
+    </Aobject>
+    <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@id='medsImageView']</xpath>
+        <index>0</index>
+        <comment>medication</comment>
+    </Aobject>
+      <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='android.widget.TextView' and @width>0 and ./parent::*[@class='android.widget.LinearLayout' and ./parent::*[@class='android.widget.LinearLayout'] and ./following-sibling::*[@class='android.widget.ScrollView']]]</xpath>
+        <index>0</index>
+        <comment>Add/edit medication</comment>
+    </Aobject>
+        <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>click</xpath>
+        <index>0</index>
+        <comment>click</comment>
+    </Aobject>
+        <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='android.widget.TextView' and @width>0 and ./parent::*[@class='android.widget.LinearLayout' and ./parent::*[@class='android.widget.LinearLayout'] and ./following-sibling::*[@class='android.widget.ScrollView']]]</xpath>
+        <index>0</index>
+        <comment>Add/edit medication</comment>
+    </Aobject>
+         <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@id='titleTextView']</xpath>
+        <index>0</index>
+        <comment>Add medication</comment>
+    </Aobject>
+    <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@id='cancelTextView']</xpath>
+        <index>0</index>
+        <comment>cancel</comment>
+    </Aobject>
+        <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='android.widget.TextView']</xpath>
+        <index>3</index>
+        <comment>+ add med...</comment>
+    </Aobject>
+        <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='android.widget.TextView']</xpath>
+        <index>8</index>
+        <comment>fast insulin ...</comment>
+    </Aobject>
+         <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='android.widget.TextView']</xpath>
+        <index>12</index>
+        <comment>fast insulin...</comment>
+    </Aobject>
+
+        <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>click</xpath>
+        <index>7</index>
+        <comment>click.</comment>
+    </Aobject>
+         <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@id='cancelTextView']</xpath>
+        <index>0</index>
+        <comment>cancel</comment>
+    </Aobject>
+ <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>click</xpath>
+        <index>7</index>
+        <comment>click.</comment>
+    </Aobject>
+         <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@id='cancelTextView']</xpath>
+        <index>0</index>
+        <comment>cancel</comment>
+    </Aobject>
+          <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@id='cancelTitleTV']</xpath>
+        <index>0</index>
+        <comment>discard changes</comment>
+    </Aobject>
+          <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@id='cancelMessageTV']</xpath>
+        <index>0</index>
+        <comment>are you? pop up</comment>
+    </Aobject>
+         <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@id='CancelButton']</xpath>
+        <index>0</index>
+        <comment>CancelButton</comment>
+    </Aobject>
+         <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@id='discardButton']</xpath>
+        <index>0</index>
+        <comment>discard discardButton</comment>
+    </Aobject>
+
+        <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>click</xpath>
+        <index>0</index>
+        <comment>pop up</comment>
+    </Aobject>
+        <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@id='discardButton']</xpath>
+        <index>0</index>
+        <comment>pop up</comment>
+    </Aobject>
+        <!--IOS-->
+
+      <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>click</xpath>
+        <index>0</index>
+        <comment>click</comment>
+    </Iobject>
+    <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='YGVectorButton' and @knownSuperClass='UIButton' and @alpha='1' and @backgroundColor='0xFFFFFF' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+        <index>0</index>
+        <comment>medication</comment>
+    </Iobject>
+      <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='UIButtonLabel' and @knownSuperClass='UILabel' and @textColor='0x000000' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+        <index>0</index>
+        <comment>Add/edit medication</comment>
+    </Iobject>
+        <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>click</xpath>
+        <index>0</index>
+        <comment>click</comment>
+    </Iobject>
+        <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='UIButtonLabel' and @knownSuperClass='UILabel' and @textColor='0x000000' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+        <index>0</index>
+        <comment>Add/edit medication</comment>
+    </Iobject>
+         <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='UILabel' and @knownSuperClass='UILabel' and @alpha='1' and @textColor='0xFFFFFF' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+        <index>0</index>
+        <comment>Add Medication</comment>
+    </Iobject>
+    <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='UIButtonLabel' and @knownSuperClass='UILabel' and @alpha='1' and @textColor='0xFFFFFF' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+        <index>0</index>
+        <comment>cancel</comment>
+    </Iobject>
+        <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='UISearchBarTextFieldLabel' and @knownSuperClass='UILabel' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+        <index>0</index>
+        <comment>+ add med...</comment>
+    </Iobject>
+        <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='UILabel' and @knownSuperClass='UILabel' and @textColor='0x303030' and @backgroundColor='0x000000' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+        <index>10</index>
+        <comment>fast insulin ...</comment>
+    </Iobject>
+         <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@text='Long-acting Insulin' and @textColor='0x84878E' and @backgroundColor='0x000000' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+        <index>0</index>
+        <comment>fast insulin...</comment>
+    </Iobject>
+
+        <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>click</xpath>
+        <index>7</index>
+        <comment>click.</comment>
+    </Iobject>
+         <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@id='cancelTextView']</xpath>
+        <index>0</index>
+        <comment>cancel</comment>
+    </Iobject>
+ <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>click</xpath>
+        <index>7</index>
+        <comment>click.</comment>
+    </Iobject>
+         <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='UIButtonLabel' and @knownSuperClass='UILabel' and @textColor='0xFFFFFF' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+        <index>0</index>
+        <comment>cancel</comment>
+  </Iobject>
+      <!--      <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@id='cancelTitleTV']</xpath>
+        <index>0</index>
+        <comment>discard changes</comment>
+    </Iobject>
+          <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@id='cancelMessageTV']</xpath>
+        <index>0</index>
+        <comment>are you? pop up</comment>
+    </Iobject>
+         <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@id='CancelButton']</xpath>
+        <index>0</index>
+        <comment>CancelButton</comment>
+    </Iobject>
+         <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@id='discardButton']</xpath>
+        <index>0</index>
+        <comment>discard discardButton</comment>
+    </Iobject>
+
+        <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>click</xpath>
+        <index>0</index>
+        <comment>pop up</comment>
+    </Iobject>
+        <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@id='discardButton']</xpath>
+        <index>0</index>
+        <comment>pop up</comment>
+    </Iobject> -->
+
+    </Medication>
+    <PopUp>
+             <Aobject>
+                <zone>NATIVE</zone>
+                <xpath>xpath=//*[@id='question1']</xpath>
+                <index>0</index>
+                <comment>pop up</comment>
+            </Aobject>
+             <Aobject>
+                <zone>NATIVE</zone>
+                <xpath>xpath=//*[@id='btn_yes']</xpath>
+                <index>0</index>
+                <comment>btn_yes</comment>
+            </Aobject>
+         <Aobject>
+                <zone>NATIVE</zone>
+                <xpath>xpath=//*[@id='btn_no']</xpath>
+                <index>0</index>
+                <comment>btn_no</comment>
+            </Aobject>
+
+         <Iobject>
+                <zone>NATIVE</zone>
+                <xpath>xpath=//*[@id='question1']</xpath>
+                <index>0</index>
+                <comment>pop up</comment>
+            </Iobject>
+             <Iobject>
+                <zone>NATIVE</zone>
+                <xpath>xpath=//*[@id='btn_yes']</xpath>
+                <index>0</index>
+                <comment>btn_yes</comment>
+            </Iobject>
+         <Iobject>
+                <zone>NATIVE</zone>
+                <xpath>xpath=//*[@id='btn_no']</xpath>
+                <index>0</index>
+                <comment>btn_no</comment>
+            </Iobject>
+    </PopUp>
+    <PopUpCarbs>
+         <Aobject>
+                <zone>NATIVE</zone>
+                <xpath>xpath=//*[@id='title']</xpath>
+                <index>0</index>
+                <comment>pop up title text</comment>
+            </Aobject>
+             <Aobject>
+                <zone>NATIVE</zone>
+                <xpath>xpath=//*[@id='content']</xpath>
+                <index>0</index>
+                <comment>pop up content</comment>
+            </Aobject>
+         <Aobject>
+                <zone>NATIVE</zone>
+                <xpath>xpath=//*[@id='radio_g']</xpath>
+                <index>0</index>
+                <comment>pop up radio_g</comment>
+            </Aobject>
+        <Aobject>
+                <zone>NATIVE</zone>
+                <xpath>xpath=//*[@id='radio_pt']</xpath>
+                <index>0</index>
+                <comment>pop up radio_pt</comment>
+            </Aobject>
+        <Aobject>
+                <zone>NATIVE</zone>
+                <xpath>xpath=//*[@id='radio_ch']</xpath>
+                <index>0</index>
+                <comment>pop up radio_ch</comment>
+            </Aobject>
+        <Aobject>
+                <zone>NATIVE</zone>
+                <xpath>xpath=//*[@id='cancelButton']</xpath>
+                <index>0</index>
+                <comment>cancelButton</comment>
+            </Aobject>
+        <Aobject>
+                <zone>NATIVE</zone>
+                <xpath>xpath=//*[@id='continueButton']</xpath>
+                <index>0</index>
+                <comment>continueButton</comment>
+            </Aobject>
+        <Aobject>
+                <zone>NATIVE</zone>
+                <xpath>xpath=//*[@id='confirmButton']</xpath>
+                <index>0</index>
+                <comment>pop up confirmButton</comment>
+            </Aobject>
+        <!--IOS-->
+        <Iobject>
+                <zone>NATIVE</zone>
+                <xpath>xpath=//*[@id='title']</xpath>
+                <index>0</index>
+                <comment>pop up title text</comment>
+            </Iobject>
+             <Iobject>
+                <zone>NATIVE</zone>
+                <xpath>xpath=//*[@id='content']</xpath>
+                <index>0</index>
+                <comment>pop up content</comment>
+            </Iobject>
+         <Iobject>
+                <zone>NATIVE</zone>
+                <xpath>xpath=//*[@id='radio_g']</xpath>
+                <index>0</index>
+                <comment>pop up radio_g</comment>
+            </Iobject>
+        <Iobject>
+                <zone>NATIVE</zone>
+                <xpath>xpath=//*[@id='radio_pt']</xpath>
+                <index>0</index>
+                <comment>pop up radio_pt</comment>
+            </Iobject>
+        <Iobject>
+                <zone>NATIVE</zone>
+                <xpath>xpath=//*[@id='radio_ch']</xpath>
+                <index>0</index>
+                <comment>pop up radio_ch</comment>
+            </Iobject>
+        <Iobject>
+                <zone>NATIVE</zone>
+                <xpath>xpath=//*[@id='cancelButton']</xpath>
+                <index>0</index>
+                <comment>cancelButton</comment>
+            </Iobject>
+        <Iobject>
+                <zone>NATIVE</zone>
+                <xpath>xpath=//*[@id='continueButton']</xpath>
+                <index>0</index>
+                <comment>continueButton</comment>
+            </Iobject>
+        <Iobject>
+                <zone>NATIVE</zone>
+                <xpath>xpath=//*[@id='confirmButton']</xpath>
+                <index>0</index>
+                <comment>pop up confirmButton</comment>
+            </Iobject>
+
+    </PopUpCarbs>
+</root>

@@ -1,0 +1,240 @@
+<root>
+
+<FAQ>
+	<!--<trans-unit id="COMM_SearchFaqs">
+			<tool_key>COMM_SearchFaqs</tool_key>
+			<note>SearchFaq</note>
+			<english>Search FAQ's</english>
+			<german>Search FAQ's</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>-->
+
+	<trans-unit id="COMM_faqbtn">
+			<english>FAQ</english>
+			<german>Häufig gestellte Fragen</german>
+		</trans-unit>
+
+    <trans-unit id="helpFaq1">
+			<english>Why are there four Target Range settings in my CONTOUR NEXT ONE or CONTOUR PLUS ONE meter Settings? There was only an Overall Target at first.</english>
+<german>Warum sind in meinen CONTOUR NEXT ONE bzw. CONTOUR PLUS ONE Messgeräteeinstellungen vier Zielbereiche vorhanden? Anfangs gab es nur einen allgemeinen Zielwert.</german>
+		</trans-unit>
+
+		<trans-unit id="helpFaq3">
+			<english>Are meter displays of HI and LO the same as app displays of Critical High and Critical Low?</english>
+			<german>Bedeutet die Anzeige „HI“ bzw. „LO“ auf dem Messgerät das gleiche wie die Anzeige „Kritisch hoch“ bzw. „Kritisch niedrig“ in der App?</german>
+		</trans-unit>
+
+		<!--<trans-unit id="helpFaq3a">
+				<english>Not usually. A \'HI\' result on your meter means your blood sugar reading is over %s %s; a \‘LO\’ result means your blood sugar reading is critically low.&lt;br&gt;Critical High and Critical Low displays on the app are the result of blood sugar readings that are dangerously high or low. Adjust the Critical High and Low settings in Main Menu > My Care >Target Ranges.</english>
+			<german>Normalerweise nicht. Ein \„HI\“-Ergebnis auf Ihrem Messgerät bedeutet, dass Ihr Messwert über %s %s liegt; ein \„LO\“-Ergebnis bedeutet, dass Ihr Messwert kritisch niedrig ist.&lt;br&gt;Die Anzeige „Kritisch hoch“ bzw. „Kritisch niedrig“ in der App wird durch Messwerte ausgelöst, die gefährlich hoch bzw. niedrig sind. Sie können die Einstellungen für „Kritisch hoch“ und „Kritisch niedrig“ unter Hauptmenü > Meine Versorgung > Zielbereiche ändern.</german>
+		</trans-unit>-->
+
+		<trans-unit id="helpFaq4">
+			<english>If I have more than one meter can they have different target ranges?</english>
+			<german>Wenn ich mehr als ein Messgerät habe, können diese dann verschiedene Zielbereiche aufweisen?</german>
+		</trans-unit>
+
+    <trans-unit id="helpFaq7">
+			<english>I selected something and there was no Save button, only Done or Back…will my selection be saved?</english>
+			<german>Ich habe eine Auswahl getroffen, es gab jedoch keine Schaltfläche zum Speichern, sondern nur „Fertig“ und „Zurück“. Wird meine Auswahl gespeichert?</german>
+		</trans-unit>
+
+    <trans-unit id="helpFaq8">
+			<english>Can I change my target ranges after I have set up the meter and app?</english>
+			<german>Kann ich meine Zielbereiche ändern, nachdem ich das Messgerät und die App eingerichtet habe?</german>
+		</trans-unit>
+
+    	<trans-unit id="helpFaq10">
+			<english>Is my app data backed up somewhere?</english>
+			<german>Erfolgt ein Backup meiner App-Daten?</german>
+		</trans-unit>
+	<!--	<trans-unit id="helpFaq10a">
+			<english>Yes. By creating a CONTOUR CLOUD account, your data is synced to the cloud whenever you add or change your data. If you sign in to the app as a Guest, your data is not saved or synced to the CONTOUR CLOUD.</english>
+			<german>Ja. Mit der Einrichtung eines CONTOUR CLOUD Kontos werden Ihre Daten mit der Cloud synchronisiert, sobald Sie Ihre Daten hinzufügen oder ändern. Wenn Sie sich als Gast bei der App anmelden, werden Ihre Daten nicht in der CONTOUR CLOUD gespeichert und auch nicht mit ihr synchronisiert.</german>
+		</trans-unit>-->
+		<trans-unit id="helpFaq11">
+			<english>Is my app data shared with anyone?</english>
+			<german>Werden meine App-Daten an andere weitergegeben?</german>
+		</trans-unit>
+
+    	<trans-unit id="helpFaq12">
+			<english>Why are the targets in my meter different than in the app?</english>
+			<german>Warum weichen die Zielwerte im Messgerät und in der App voneinander ab?</german>
+		</trans-unit>
+
+    <trans-unit id="helpFaq14">
+			<english>What are the differences between reminders and Test Reminder Plans?</english>
+			<german>Was ist der Unterschied zwischen meinen Erinnerungen und Messerinnerungspläne?</german>
+		</trans-unit>
+
+    	<trans-unit id="helpFaq16">
+			<english>I cannot change a meter setting from the app – why?</english>
+			<german>Ich kann eine bestimmte Einstellung nicht aus der App heraus ändern. Warum nicht?</german>
+		</trans-unit>
+
+		<trans-unit id="helpFaq17">
+			<english>My meter and app were suddenly disconnected - why?</english>
+			<german>Mein Messgerät und die App wurden plötzlich getrennt. Warum?</german>
+		</trans-unit>
+
+    <trans-unit id="helpFaq18">
+			<english>When I access Settings on my meter I lose my connection to the app. Why?</english>
+			<german>Sobald ich auf meinem Messgerät „Einstellungen“ aufrufe, geht die Verbindung zur App verloren. Warum?</german>
+		</trans-unit>
+
+    <trans-unit id="helpFaq19">
+			<english>Why does the app show a meal marker screen when I turned off the meal marker setting on my meter?</english>
+			<german>Warum wird ein Mahlzeit-Markierungsdisplay in der App angezeigt, obwohl die Mahlzeit-Markierung in meinem Messgerät ausgeschaltet ist?</german>
+		</trans-unit>
+
+		<trans-unit id="helpFaq20">
+			<english>I cannot delete a blood sugar reading in the app. Why not?</english>
+			<german>Ich kann einen Blutzuckermesswert in der App nicht löschen. Warum nicht?</german>
+		</trans-unit>
+
+		<trans-unit id="helpFaq21">
+			<english>I added activity, a meal and a photo to a reading in the app but I do not see this information in My Readings.</english>
+			<german>Ich habe in der App Angaben zu Aktivität und Mahlzeit und ein Foto zu einem Messwert hinzugefügt, aber diese Angaben sind in „Meine Messwerte“ nicht zu sehen.</german>
+		</trans-unit>
+
+		<trans-unit id="helpFaq22">
+			<english>Why does the app select a meal (for example, Lunch) on the Meal Marker screen?</english>
+			<german>Warum wählt die App eine Mahlzeit (z.B. Mittagessen) auf dem Display „Mahlzeit-Markierung“ aus?</german>
+		</trans-unit>
+
+		<trans-unit id="helpFaq23">
+			<english>On the expanded graph, what is the difference between the Standard and the Averages Mode?</english>
+			<german>Was ist der Unterschied zwischen den Einstellungen „Standardmodus“ und „Durchschnittsmodus“ im erweiterten Diagramm?</german>
+		</trans-unit>
+
+
+    	<trans-unit id="helpFaq25">
+			<english>I see that there are some Other detected patterns on the My Patterns screen. What does this mean?</english>
+			<german>Auf dem Bildschirm „Meine Muster“ werden einige „Sonstige erkannte Muster“ angezeigt. Was bedeutet das?</german>
+		</trans-unit>
+	<trans-unit id="helpFaq26">
+		<english>What does 'Improved' mean when it shows up on a pattern?</english>
+			<german>Was bedeutet „verbessert“ in Zusammenhang mit einem angezeigten Muster?</german>
+			</trans-unit>
+		<trans-unit id="helpFaq27">
+			<english>In my meter settings I see a Fasting Target Range but there is no Fasting Target in the app. Why?</english>
+			<german>In meinen Messgeräteeinstellungen ist ein Zielbereich für „Nüchtern“ vorhanden, nicht aber in der App. Warum?</german>
+		</trans-unit>
+
+
+	<trans-unit id="helpFaq28">
+			<english>I own several meters. Can I use all of them with the app?</english>
+<german>Ich besitze mehrere Messgeräte. Kann ich sie alle mit der App verwenden?</german>
+		</trans-unit>
+
+	<trans-unit id="helpFaq29">
+			<english>I am not seeing any Patterns when I use the app. Why?</english>
+			<german>Es werden keine Muster angezeigt, wenn ich die App verwende. Warum?</german>
+		</trans-unit>
+
+	<trans-unit id="helpRemindersFAQ43a1">
+			<english>The app is sending me messages about Patterns. What are patterns?</english>
+			<german>Die App sendet mir Nachrichten zu Mustern. Was sind Muster?</german>
+		</trans-unit>
+
+
+
+		<trans-unit id="helpRemindersFAQ43b1">
+			<english>Should I sign out of my account each time I finish using the app?</english>
+			<german>Sollte ich mich jedes Mal von meinem Konto abmelden, wenn ich fertig bin?</german>
+		</trans-unit>
+	<trans-unit id="helpRemindersFAQ43b1">
+			<english>What do colors mean in the app? My blood sugar readings are sometimes green, yellow or red and so are the lights from the strip port light on my CONTOUR™NEXT ONE or CONTOUR™PLUS ONE meter.</english>
+			<german>Was bedeuten die Farben in der App? Meine Blutzuckermesswerte sind manchmal grün, gelb oder rot, ebenso die Beleuchtung an der Sensoröffnung meines CONTOUR™NEXT ONE bzw. CONTOUR™PLUS ONE Messgeräts.</german>
+		</trans-unit>
+
+	<trans-unit id="helpFaq33">
+			<english>My meter does not seem to be connecting to the app. Why?</english>
+			<german>Mein Messgerät nimmt anscheinend keine Verbindung zur App auf. Warum?</german>
+		</trans-unit>
+
+
+
+		<trans-unit id="helpFaq34">
+			<english>What happens when I unpair a CONTOUR NEXT ONE or CONTOUR PLUS ONE meter?</english>
+			<german>Was geschieht beim Abkoppeln eines CONTOUR NEXT ONE bzw. CONTOUR PLUS ONE Messgeräts?</german>
+		</trans-unit>
+
+	<trans-unit id="helpFaq35">
+			<english>I have received an “Unable to connect” error message. What should I do?</english>
+			<german>Die Fehlermeldung „Es konnte keine Verbindung aufgebaut werden“ wurde angezeigt. Was soll ich tun?</german>
+		</trans-unit>
+
+	<trans-unit id="helpFaq39">
+		<english>One of my blood sugar readings has an airplane symbol next to it. What does this mean?</english>
+		<german>Neben einem meiner Blutzuckermesswerte wird ein Flugzeugsymbol angezeigt. Was bedeutet das?</german>
+		</trans-unit>
+		<trans-unit id="helpFaq40">
+		<english>I was traveling and changed time zones. My mobile device time updated to match the time zone but my meter did not. Why is that?</english>
+		<german>Ich bin in einer anderen Zeitzone. Mein mobiles Gerät hat sich auf die neue Zeitzone umgestellt, aber mein Messgerät nicht. Warum?</german>
+		</trans-unit>
+	<trans-unit id="helpFaq41">
+			<english>Some of my blood sugar readings are not connected to the graph line in the expanded graph. Why?</english>
+			<german>Manche Blutzuckermesswerte sind nicht mit der Kurve im erweiterten Diagramm verbunden. Warum?</german>
+		</trans-unit>
+
+	<trans-unit id="helpfaq42ques">
+			<english>I do not see my manual insulin doses in the expanded graph. Why?</english>
+			<german>Ich sehe meine manuelle Insulindosis nicht im erweiterten Diagramm. Warum?</german>
+		</trans-unit>
+
+</FAQ>
+	<About>
+        <trans-unit id="COMM_aboutbtn">
+			<english>About</english>
+			<german>Info</german>
+		</trans-unit>
+        <trans-unit id="helpmeterAppConnMH16a1">
+			<english>Current app version</english>
+			<german>Aktuelle App-Version</german>
+		</trans-unit>
+        <trans-unit id="helpmeterAppConnMH16a2">
+			<english>Installed</english>
+			<german>Installiert</german>
+		</trans-unit>
+        <trans-unit id="helpmeterAppConnMH16a3">
+			<english>Last updated</english>
+			<german>Zuletzt aktualisiert</german>
+		</trans-unit>
+
+        <trans-unit id="helpmeterAppConnMH16a4">
+			<english>Last cloud sync</english>
+			<german>Zuletzt mit der Cloud sync.</german>
+		</trans-unit>
+<!--<trans-unit id="helpMeaterSettingsMH8a4">
+			<tool_key>helpMeaterSettingsMH8a4</tool_key>
+			<note>Onyx Help System Map V8.0/H 9.0</note>
+			<english>Tap Sync now.</english>
+			<german>Tap Sync now.</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>-->
+
+        <trans-unit id="COMM_helpsenderrortxt">
+			<english>Send error report</english>
+			<german>Fehlerbericht senden</german>
+		</trans-unit>
+      <!--  <trans-unit id="helpmeterAppConnMH16a5">
+			<english>For <u onclick="openPPPage();">Privacy Policy</u>, <u onclick="openEULAPage();">Terms &amp; Conditions</u>, and further information, please visit <u onclick="phbLink();">http://contourone.com</u>. For meter questions and support please reference the back of your meter.</english>
+			<german>Die <u onclick="openPPPage();">Datenschutzerklärung</u>, <u onclick="openEULAPage();">Allgemeinen Geschäftsbedingungen</u> und weitere Informationen finden Sie auf <u onclick="phbLink();">http://contourone.com</u>. Bei Fragen zum Messgerät oder wenn Sie Unterstützung benötigen, rufen Sie bitte die Nummer auf der Rückseite Ihres Messgeräts an.</german>
+		</trans-unit>-->
+
+       <trans-unit id="helpmeterAppConnMH16a8">
+			<english>Ascensia Diabetes Care Holdings AG &lt;br&gt; Peter-Merian-Strasse 90 &lt;br&gt; 4052 Basel, Switzerland &lt;img src="../images/onyx_icon/cemark.png" style="width:25px;margin-left:10px;margin-top:-25px;"/></english>
+			<german>Ascensia Diabetes Care Holdings AG &lt;br&gt; Peter-Merian-Strasse 90 &lt;br&gt; 4052 Basel, Schweiz &lt;img src="../images/onyx_icon/cemark.png" style="width:25px;margin-left:10px;margin-top:-25px;"/></german>
+		</trans-unit>
+
+    </About>
+
+
+</root>

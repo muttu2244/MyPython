@@ -1,0 +1,105 @@
+************* Module AppHelpLTP2
+E: 15, 0: Unable to import 'BaseAPI' (import-error)
+C: 15, 0: Import "from BaseAPI import Utility, Misc, Application, Objects, Common, Device, Navigate, Logger, Config, Configuration" should be placed at the top of the module (wrong-import-position)
+R: 28, 0: Too many instance attributes (16/7) (too-many-instance-attributes)
+C:103, 8: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+W:157, 8: No exception type(s) specified (bare-except)
+W:173, 8: No exception type(s) specified (bare-except)
+R:301, 4: Method could be a function (no-self-use)
+W:407,12: No exception type(s) specified (bare-except)
+W:460,12: No exception type(s) specified (bare-except)
+
+
+Report
+======
+270 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |1          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |1      |1          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |16     |16         |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |0      |0          |=          |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |355    |72.60 |355      |=          |
++----------+-------+------+---------+-----------+
+|docstring |63     |12.88 |63       |=          |
++----------+-------+------+---------+-----------+
+|comment   |36     |7.36  |36       |=          |
++----------+-------+------+---------+-----------+
+|empty     |35     |7.16  |35       |=          |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |2      |2        |=          |
++-----------+-------+---------+-----------+
+|refactor   |2      |2        |=          |
++-----------+-------+---------+-----------+
+|warning    |4      |4        |=          |
++-----------+-------+---------+-----------+
+|error      |1      |1        |=          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------------------------+------------+
+|message id                   |occurrences |
++=============================+============+
+|bare-except                  |4           |
++-----------------------------+------------+
+|wrong-import-position        |1           |
++-----------------------------+------------+
+|too-many-instance-attributes |1           |
++-----------------------------+------------+
+|no-self-use                  |1           |
++-----------------------------+------------+
+|import-error                 |1           |
++-----------------------------+------------+
+|consider-using-enumerate     |1           |
++-----------------------------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at 9.52/10 (previous run: 9.52/10, +0.00)
+

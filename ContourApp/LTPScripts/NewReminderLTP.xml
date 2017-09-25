@@ -1,0 +1,1104 @@
+<root>
+    <MainScreen>
+        	<trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+ 			<german>Neue Erinnerung</german>
+		</trans-unit>
+
+        <trans-unit id="COMM_RemindTo">
+			<english>Remind me to...</english>
+			<german>Erinnere mich daran,...</german>
+		</trans-unit>
+        <trans-unit id="COMM_TakeMedicationBtn">
+			<english>Take my medication</english>
+			<german>Meine Medikamente einzunehmen</german>
+		</trans-unit>
+        <trans-unit id="COMM_LogBtn">
+			<english>Log</english>
+            <german>Details zu speichern</german>
+		</trans-unit>
+      <trans-unit id="COMM_TestBloodBtn">
+			<english>Test my blood sugar</english>
+			<german>Meinen Blutzucker zu messen</german>
+		</trans-unit>
+        <trans-unit id="COMM_OtherBtn">
+			<english>Other</english>
+			<german>Andere</german>
+		</trans-unit>
+    </MainScreen>
+    <TakeMyMedication>
+        <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+
+        <trans-unit id="COMM_RemindTo">
+			<english>Remind me to...</english>
+			<german>Erinnere mich daran,...</german>
+		</trans-unit>
+        <trans-unit id="COMM_addmedicatnbtn1">
+			<english>Add Medication</english>
+			<german>Bearbeitung</german>
+		</trans-unit>
+
+        <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+        	<trans-unit id="COMM_addmedicatnbtn1">
+			<english>Add Medication</english>
+			<german>Bearbeitung</german>
+		</trans-unit>
+        <!-- <trans-unit id="COMM_addmedicatnbtn">
+			<tool_key>COMM_addmedicatnbtn</tool_key>
+			<note>Add medication</note>
+			<english>+  Add medication</english>
+			<german>+  Add medication</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>-->
+       <!-- <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>-->
+        	<trans-unit id="COMM_units">
+			<tool_key>COMM_units</tool_key>
+			<note>MedUnits</note>
+			<english>unit(s)</english>
+			<german>unit(s)</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+        <trans-unit id="COMM_injections">
+			<tool_key>COMM_injections</tool_key>
+			<note>MedUnits</note>
+			<english>injection(s)</english>
+			<german>injection(s)</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+		<trans-unit id="COMM_pills">
+			<tool_key>COMM_pills</tool_key>
+			<note>MedUnits</note>
+			<english>pill(s)</english>
+			<german>pill(s)</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+		<trans-unit id="COMM_mg">
+			<english>mg</english>
+			<german>mg</german>
+		</trans-unit>
+        <trans-unit id="COMM_cancelbtn">
+			<english>Cancel</english>
+			<german>Abbrechen</german>
+		</trans-unit>
+        <trans-unit id="COMM_Donebtn">
+			<english>Done</english>
+			<german>Fertig</german>
+		</trans-unit>
+    </TakeMyMedication>
+    <Log>
+		 <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+
+        <trans-unit id="COMM_RemindToLog">
+			<english>Remind me to log...</english>
+			<german>Erinnere mich an das Speichern...</german>
+
+		</trans-unit>
+        <trans-unit id="comm_photo">
+			<tool_key>COMM_TakePhotoBtn</tool_key>
+			<note>Take Photo</note>
+			<english>A Photo</english>
+			<german>Eines Fotos</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+        <trans-unit id="comm_note">
+			<tool_key>COMM_TakeNoteBtn</tool_key>
+			<note>Take Note</note>
+			<english>A Note</english>
+			<german>Einer Notiz</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+        <trans-unit id="COMM_ActivityBtn">
+			<english>Activity</english>
+				<german>Aktivität</german>
+		</trans-unit>
+        <trans-unit id="COMM_foodbtn">
+			<english>Food</english>
+			<german>Essen</german>
+		</trans-unit>
+	</Log>
+	<Specific>
+        <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+    <!-- <trans-unit id="COMM_RemindLogPhoto">
+			<english>At a specific time</english>
+			<german>Zu einer bestimmten Zeit</german>
+		</trans-unit>-->
+        <trans-unit id="COMM_SpecificTimeBtn">
+			<english>At a specific time</english>
+			<german>Zu einer bestimmten Zeit</german>
+		</trans-unit>
+        <trans-unit id="COMM_SugarLevelBase">
+			<english>Based on my blood sugar level</english>
+			<german>Je nach Blutzuckerspiegel</german>
+		</trans-unit>
+         <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+
+<!--	<trans-unit id="remindersEditRemindAtTxt">
+			<tool_key>remindersEditRemindAtTxt</tool_key>
+			<note>Onyx Reminders System Map V7.0/REM 41.0</note>
+			<english>Remind me to log a photo at...</english>
+			<german>Remind me to log a photo at...</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>-->
+		<trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+
+        <trans-unit id="COMM_TestMonday">
+			<english>Mondays</english>
+			<german>Montag</german>
+		</trans-unit>
+        <trans-unit id="COMM_TestTuesday">
+			<english>Tuesdays</english>
+			<german>Dienstag</german>
+		</trans-unit>
+        <trans-unit id="COMM_TestWednesday">
+			<english>Wednesdays</english>
+			<german>Mittwoch</german>
+		</trans-unit>
+        <trans-unit id="COMM_TestThursday">
+			<english>Thursdays</english>
+			<german>Donnerstag</german>
+		</trans-unit>
+        	<trans-unit id="COMM_TestFriday">
+			<english>Fridays</english>
+             <german>Freitag</german>
+		</trans-unit>
+        <trans-unit id="COMM_TestSaturday">
+			<english>Saturdays</english>
+			<german>Samstag</german>
+		</trans-unit>
+		<trans-unit id="COMM_TestSunday">
+			<english>Sundays</english>
+			<german>Sonntag</german>
+		</trans-unit>
+        <trans-unit id="COMM_TestEveryday">
+			<english>Every Day</english>
+			<german>Jeden Tag</german>
+		</trans-unit>
+			<trans-unit id="COMM_continuebtn">
+			<english>Continue</english>
+			<german>Weiter</german>
+		</trans-unit>
+		<trans-unit id="COMM_newreminderbtn">
+			<tool_key>COMM_newreminderbtn</tool_key>
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+		<trans-unit id="COMM_SaveRemndrBtn">
+			<english>Save Reminder</english>
+			<german>Erinnerung speichern</german>
+		</trans-unit>
+          <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+	</Specific>
+	<BasedOn>
+		 <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+
+   <!--  <trans-unit id="COMM_RemindMeTxt20">
+			<tool_key>COMM_RemindMeTxt20</tool_key>
+			<note>RemindMeTxt20</note>
+			<english>Remind me to log a photo when my blood sugar level...</english>
+			<german>Remind me to log a photo when my blood sugar level...</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>-->
+        <trans-unit id="COMM_Isbelow">
+			<english>Is below...</english>
+			<german>Unter ... liegt</german>
+		</trans-unit>
+        <trans-unit id="COMM_Isabove">
+			<english>Is above...</english>
+			<german>Über ... liegt</german>
+		</trans-unit>
+
+         <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+	<!--	<trans-unit id="COMM_RemindPhotosLevels">
+			<tool_key>COMM_RemindPhotosLevels</tool_key>
+			<note>RemindPhotosLevels</note>
+			<english>Remind me to log a photo when my blood sugar level is below...</english>
+			<german>Remind me to log a photo when my blood sugar level is below...</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>-->
+		 <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+		 <trans-unit id="COMM_SaveRemndrBtn">
+			<english>Save Reminder</english>
+			<german>Erinnerung speichern</german>
+		</trans-unit>
+
+	<!--	<trans-unit id="COMM_RemindMeTxt22">
+			<tool_key>COMM_RemindMeTxt22</tool_key>
+			<note>RemindPhotosLevels</note>
+			<english>Remind me to log a photo when my blood sugar level is above...</english>
+			<german>Remind me to log a photo when my blood sugar level is above...</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>-->
+		 <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+		<trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+		 <trans-unit id="COMM_SaveRemndrBtn">
+			<english>Save Reminder</english>
+			<german>Erinnerung speichern</german>
+		</trans-unit>
+    </BasedOn>
+	<PhotoSpecific>
+		  <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+    <trans-unit id="COMM_RemindLogPhoto">
+			<english>Remind me to log a photo...</english>
+			<german>Erinnere mich daran, ein Foto zu speichern...</german>
+		</trans-unit>
+        <trans-unit id="COMM_SpecificTimeBtn">
+			<english>At a specific time</english>
+			<german>Zu einer bestimmten Zeit</german>
+		</trans-unit>
+        <trans-unit id="COMM_SugarLevelBase">
+			<english>Based on my blood sugar level</english>
+             <german>Je nach Blutzuckerspiegel</german>
+		</trans-unit>
+         <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+
+	<trans-unit id="remindersEditRemindAtTxt">
+			<english>Remind me to log a photo at...</english>
+		<german>Erinnere mich daran, ein Foto zu speichern, und zwar um...</german>
+		</trans-unit>
+		<trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+
+        <trans-unit id="COMM_TestMonday">
+			<english>Mondays</english>
+			<german>Montag</german>
+		</trans-unit>
+        <trans-unit id="COMM_TestTuesday">
+			<english>Tuesdays</english>
+			<german>Dienstag</german>
+		</trans-unit>
+        <trans-unit id="COMM_TestWednesday">
+			<english>Wednesdays</english>
+			<german>Mittwoch</german>
+		</trans-unit>
+        <trans-unit id="COMM_TestThursday">
+			<english>Thursdays</english>
+			<german>Donnerstag</german>
+		</trans-unit>
+        	<trans-unit id="COMM_TestFriday">
+			<english>Fridays</english>
+             <german>Freitag</german>
+		</trans-unit>
+        <trans-unit id="COMM_TestSaturday">
+			<english>Saturdays</english>
+			<german>Samstag</german>
+		</trans-unit>
+		<trans-unit id="COMM_TestSunday">
+			<english>Sundays</english>
+			<german>Sonntag</german>
+		</trans-unit>
+        <trans-unit id="COMM_TestEveryday">
+			<english>Every Day</english>
+			<german>Jeden Tag</german>
+		</trans-unit>
+			<trans-unit id="COMM_continuebtn">
+			<english>Continue</english>
+			<german>Weiter</german>
+		</trans-unit>
+		<trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+		<trans-unit id="COMM_SaveRemndrBtn">
+			<english>Save Reminder</english>
+			<german>Erinnerung speichern</german>
+		</trans-unit>
+         <!-- <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>-->
+	</PhotoSpecific>
+    <PhotoBased>
+		<trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+
+   <trans-unit id="COMM_RemindMeTxt20">
+			<english>Remind me to log a photo when my blood sugar level...</english>
+		<german>Erinnere mich daran, ein Foto zu speichern, wenn mein Blutzucker...</german>
+		</trans-unit>
+        <trans-unit id="COMM_Isbelow">
+			<english>Is below...</english>
+			<german>Unter ... liegt</german>
+		</trans-unit>
+        <trans-unit id="COMM_Isabove">
+			<english>Is above...</english>
+			<german>Über ... liegt</german>
+		</trans-unit>
+
+         <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+	<trans-unit id="COMM_RemindPhotosLevels">
+			<english>Remind me to log a photo when my blood sugar level is below...</english>
+			<german>Erinnere mich daran, ein Foto zu speichern, wenn mein Blutzucker unter folgendem Wert liegt:</german>
+		</trans-unit>
+		 <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+		 <trans-unit id="COMM_SaveRemndrBtn">
+			<english>Save Reminder</english>
+			<german>Erinnerung speichern</german>
+		</trans-unit>
+		 <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+
+	<trans-unit id="COMM_RemindMeTxt22">
+			<english>Remind me to log a photo when my blood sugar level is above...</english>
+			<german>Erinnere mich daran, ein Foto zu speichern, wenn mein Blutzucker über folgendem Wert liegt:</german>
+		</trans-unit>-->
+		 <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+
+		 <trans-unit id="COMM_SaveRemndrBtn">
+			<english>Save Reminder</english>
+			<german>Erinnerung speichern</german>
+		</trans-unit>
+	</PhotoBased>
+	<NoteSpecific>
+		  <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+    <trans-unit id="remindersNewRemindNoteTxt">
+			<english>Remind me to log a note...</english>
+		<german>Erinnere mich daran, eine Notiz zu speichern, und zwar...</german>
+		</trans-unit>
+        <trans-unit id="COMM_SpecificTimeBtn">
+			<english>At a specific time</english>
+			<german>Zu einer bestimmten Zeit</german>
+		</trans-unit>
+        <trans-unit id="COMM_SugarLevelBase">
+			<tool_key>COMM_SugarLevelBase</tool_key>
+			<note>Based on Blood Sugar Level</note>
+			<english>Based on my blood sugar level</english>
+			<german>Je nach Blutzuckerspiegel</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+         <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+
+	<trans-unit id="COMM_RemindMeTxt25">
+			<english>Remind me to log a note at...</english>
+		<german>Erinnere mich daran, eine Notiz zu speichern, und zwar um...</german>
+		</trans-unit>
+		<trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+
+        <trans-unit id="COMM_TestMonday">
+			<english>Mondays</english>
+			<german>Montag</german>
+		</trans-unit>
+        <trans-unit id="COMM_TestTuesday">
+			<english>Tuesdays</english>
+			<german>Dienstag</german>
+		</trans-unit>
+        <trans-unit id="COMM_TestWednesday">
+			<english>Wednesdays</english>
+			<german>Mittwoch</german>
+		</trans-unit>
+        <trans-unit id="COMM_TestThursday">
+			<english>Thursdays</english>
+			<german>Donnerstag</german>
+		</trans-unit>
+        	<trans-unit id="COMM_TestFriday">
+			<english>Fridays</english>
+             <german>Freitag</german>
+		</trans-unit>
+        <trans-unit id="COMM_TestSaturday">
+			<english>Saturdays</english>
+			<german>Samstag</german>
+		</trans-unit>
+		<trans-unit id="COMM_TestSunday">
+			<english>Sundays</english>
+			<german>Sonntag</german>
+		</trans-unit>
+        <trans-unit id="COMM_TestEveryday">
+			<english>Every Day</english>
+			<german>Jeden Tag</german>
+		</trans-unit>
+			<trans-unit id="COMM_continuebtn">
+			<english>Continue</english>
+			<german>Weiter</german>
+		</trans-unit>
+		<trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+		<trans-unit id="COMM_SaveRemndrBtn">
+			<english>Save Reminder</english>
+			<german>Erinnerung speichern</german>
+		</trans-unit>
+         <!-- <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>-->
+	</NoteSpecific>
+    <NoteBased>
+		<trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+
+   <trans-unit id="COMM_RemindMeTxt30">
+			<english>Remind me to log a note when my blood sugar level...</english>
+			<german>Erinnere mich daran, eine Notiz zu speichern, wenn mein Blutzucker...</german>
+		</trans-unit>
+        <trans-unit id="COMM_Isbelow">
+			<english>Is below...</english>
+			<german>Unter ... liegt</german>
+		</trans-unit>
+        <trans-unit id="COMM_Isabove">
+			<english>Is above...</english>
+			<german>Über ... liegt</german>
+		</trans-unit>
+
+         <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+	<trans-unit id="COMM_RemindNoteLevels">
+			<english>Remind me to log a note when my blood sugar level is below...</english>
+			<german>Erinnere mich daran, eine Notiz zu speichern, wenn mein Blutzucker unter folgendem Wert liegt:</german>
+		</trans-unit>
+		 <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+		 <trans-unit id="COMM_SaveRemndrBtn">
+			<english>Save Reminder</english>
+			<german>Erinnerung speichern</german>
+		</trans-unit>
+		 <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+
+	<trans-unit id="COMM_RemindMeTxt32">
+			<english>Remind me to log a note when my blood sugar level is above...</english>
+			<german>Erinnere mich daran, eine Notiz zu speichern, wenn mein Blutzucker über folgendem Wert liegt:</german>
+		</trans-unit>
+		 <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+
+		 <trans-unit id="COMM_SaveRemndrBtn">
+			<english>Save Reminder</english>
+			<german>Erinnerung speichern</german>
+		</trans-unit>
+	</NoteBased>
+
+    <ActivitySpecific>
+		  <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+    <trans-unit id="remindersNewRemindLogActivityTxt">
+			<english>Remind me to log activity...</english>
+			<german>Erinnere mich daran, eine Aktivität zu speichern, und zwar...</german>
+		</trans-unit>
+        <trans-unit id="COMM_SpecificTimeBtn">
+			<english>At a specific time</english>
+			<german>Zu einer bestimmten Zeit</german>
+		</trans-unit>
+        <trans-unit id="COMM_SugarLevelBase">
+			<english>Based on my blood sugar level</english>
+			<german>Je nach Blutzuckerspiegel</german>
+		</trans-unit>
+         <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+
+	<trans-unit id="COMM_RemindMeTxt35">
+			<english>Remind me to log activity at...</english>
+			<german>Erinnere mich daran, eine Aktivität zu speichern, und zwar um...</german>
+		</trans-unit>
+		<trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+
+        <trans-unit id="COMM_TestMonday">
+			<english>Mondays</english>
+			<german>Montag</german>
+		</trans-unit>
+        <trans-unit id="COMM_TestTuesday">
+			<english>Tuesdays</english>
+			<german>Dienstag</german>
+		</trans-unit>
+        <trans-unit id="COMM_TestWednesday">
+			<english>Wednesdays</english>
+			<german>Mittwoch</german>
+		</trans-unit>
+        <trans-unit id="COMM_TestThursday">
+			<english>Thursdays</english>
+			<german>Donnerstag</german>
+		</trans-unit>
+        	<trans-unit id="COMM_TestFriday">
+			<english>Fridays</english>
+             <german>Freitag</german>
+		</trans-unit>
+        <trans-unit id="COMM_TestSaturday">
+			<english>Saturdays</english>
+			<german>Samstag</german>
+		</trans-unit>
+		<trans-unit id="COMM_TestSunday">
+			<english>Sundays</english>
+			<german>Sonntag</german>
+		</trans-unit>
+        <trans-unit id="COMM_TestEveryday">
+			<english>Every Day</english>
+			<german>Jeden Tag</german>
+		</trans-unit>
+			<trans-unit id="COMM_continuebtn">
+			<english>Continue</english>
+			<german>Weiter</german>
+		</trans-unit>
+		<trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+		<trans-unit id="COMM_SaveRemndrBtn">
+			<english>Save Reminder</english>
+			<german>Erinnerung speichern</german>
+		</trans-unit>
+         <!-- <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>-->
+	</ActivitySpecific>
+    <ActivityBased>
+		<trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+
+   <trans-unit id="COMM_RemindMeTxt40">
+			<english>Remind me to log activity when my blood sugar level...</english>
+			<german>Erinnere mich daran, eine Aktivität zu speichern, wenn mein Blutzucker...</german>
+		</trans-unit>
+        <trans-unit id="COMM_Isbelow">
+			<english>Is below...</english>
+			<german>Unter ... liegt</german>
+		</trans-unit>
+        <trans-unit id="COMM_Isabove">
+			<english>Is above...</english>
+			<german>Über ... liegt</german>
+		</trans-unit>
+
+         <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+	<trans-unit id="COMM_RemindActivityLevels">
+			<english>Remind me to log activity when my blood sugar level is below...</english>
+			<german>Erinnere mich daran, eine Aktivität zu speichern, wenn mein Blutzucker unter folgendem Wert liegt:</german>
+		</trans-unit>
+		 <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+		 <trans-unit id="COMM_SaveRemndrBtn">
+			<english>Save Reminder</english>
+			<german>Erinnerung speichern</german>
+		</trans-unit>
+  <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+	<trans-unit id="COMM_RemindMeTxt42">
+			<english>Remind me to log activity when my blood sugar level is above...</english>
+			<german>Erinnere mich daran, eine Aktivität zu speichern, wenn mein Blutzucker über folgendem Wert liegt:</german>
+		</trans-unit>
+		 <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+
+		 <trans-unit id="COMM_SaveRemndrBtn">
+			<english>Save Reminder</english>
+			<german>Erinnerung speichern</german>
+		</trans-unit>
+	</ActivityBased>
+
+	 <FoodSpecific>
+		  <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+    <trans-unit id="remindersNewRemindfoodTxt">
+			<english>Remind me to log food...</english>
+			<german>Erinnere mich daran, Mahlzeit zu speichern, und zwar...</german>
+		</trans-unit>
+        <trans-unit id="COMM_SpecificTimeBtn">
+			<english>At a specific time</english>
+			<german>Zu einer bestimmten Zeit</german>
+		</trans-unit>
+        <trans-unit id="COMM_SugarLevelBase">
+			<english>Based on my blood sugar level</english>
+			<german>Je nach Blutzuckerspiegel</german>
+		</trans-unit>
+         <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+
+	<trans-unit id="COMM_RemindMeTxt45">
+			<english>Remind me to log food at...</english>
+			<german>Erinnere mich daran, Mahlzeit zu speichern, und zwar um...</german>
+		</trans-unit>
+		<trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+
+         <trans-unit id="COMM_TestMonday">
+			<english>Mondays</english>
+			<german>Montag</german>
+		</trans-unit>
+        <trans-unit id="COMM_TestTuesday">
+			<english>Tuesdays</english>
+			<german>Dienstag</german>
+		</trans-unit>
+        <trans-unit id="COMM_TestWednesday">
+			<english>Wednesdays</english>
+			<german>Mittwoch</german>
+		</trans-unit>
+        <trans-unit id="COMM_TestThursday">
+			<english>Thursdays</english>
+			<german>Donnerstag</german>
+		</trans-unit>
+        	<trans-unit id="COMM_TestFriday">
+			<english>Fridays</english>
+             <german>Freitag</german>
+		</trans-unit>
+        <trans-unit id="COMM_TestSaturday">
+			<english>Saturdays</english>
+			<german>Samstag</german>
+		</trans-unit>
+		<trans-unit id="COMM_TestSunday">
+			<english>Sundays</english>
+			<german>Sonntag</german>
+		</trans-unit>
+        <trans-unit id="COMM_TestEveryday">
+			<english>Every Day</english>
+			<german>Jeden Tag</german>
+		</trans-unit>
+			<trans-unit id="COMM_continuebtn">
+			<english>Continue</english>
+			<german>Weiter</german>
+		</trans-unit>
+		<trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+		<trans-unit id="COMM_SaveRemndrBtn">
+			<english>Save Reminder</english>
+			<german>Erinnerung speichern</german>
+		</trans-unit>
+         <!-- <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>-->
+	</FoodSpecific>
+    <FoodBased>
+		<trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+
+   <trans-unit id="remindersNewRemindfoodLevelTxt">
+			<english>Remind me to log food when my blood sugar level...</english>
+		<german>Erinnere mich daran, Mahlzeit zu speichern, wenn mein Blutzucker...</german>
+		</trans-unit>
+        <trans-unit id="COMM_Isbelow">
+			<english>Is below...</english>
+			<german>Unter ... liegt</german>
+		</trans-unit>
+        <trans-unit id="COMM_Isabove">
+			<english>Is above...</english>
+			<german>Über ... liegt</german>
+		</trans-unit>
+
+         <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+	<trans-unit id="COMM_RemindFoodLevels">
+			<english>Remind me to log food when my blood sugar level is below...</english>
+			<german>Erinnere mich daran, Mahlzeit zu speichern, wenn mein Blutzucker unter folgendem Wert liegt:</german>
+		</trans-unit>
+		 <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+		 <trans-unit id="COMM_SaveRemndrBtn">
+			<english>Save Reminder</english>
+			 <german>Erinnerung speichern</german>
+		</trans-unit>
+		 <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+
+	<trans-unit id="COMM_RemindMeTxt51">
+			<english>Remind me to log food when my blood sugar level is above...</english>
+		<german>Erinnere mich daran, Mahlzeit zu speichern, wenn mein Blutzucker über folgendem Wert liegt:</german>
+		</trans-unit>
+		 <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+		>
+		 <trans-unit id="COMM_SaveRemndrBtn">
+			<english>Save Reminder</english>
+			<german>Erinnerung speichern</german>
+		</trans-unit>
+	</FoodBased>
+    <TestMyBlood>
+         <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+        <trans-unit id="remindersNewRemindTestBloodSugarTxt">
+			<english>Remind me to test my blood sugar...</english>
+			<german>Erinnere mich daran, meinen Blutzucker zu messen, und zwar...</german>
+		</trans-unit>
+        <trans-unit id="COMM_SpecificTimeBtn">
+			<english>At a specific time</english>
+			<german>Zu einer bestimmten Zeit</german>
+		</trans-unit>
+
+      <trans-unit id="remindersNewRemindBeforeMealBtn">
+			<english>After a Before Meal reading</english>
+			<german>Nach „Vor dem Essen“-Messen</german>
+		</trans-unit>
+         <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+			<trans-unit id="remindersNewRemindTestBloodTxt">
+			<english>Remind me to test my blood sugar at...</english>
+			<german>Erinnere mich daran, meinen Blutzucker zu messen, und zwar am...</german>
+		</trans-unit>
+		 <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+
+
+         <trans-unit id="COMM_TestMonday">
+			<english>Mondays</english>
+			<german>Montag</german>
+		</trans-unit>
+        <trans-unit id="COMM_TestTuesday">
+			<english>Tuesdays</english>
+			<german>Dienstag</german>
+		</trans-unit>
+        <trans-unit id="COMM_TestWednesday">
+			<english>Wednesdays</english>
+			<german>Mittwoch</german>
+		</trans-unit>
+        <trans-unit id="COMM_TestThursday">
+			<english>Thursdays</english>
+			<german>Donnerstag</german>
+		</trans-unit>
+        	<trans-unit id="COMM_TestFriday">
+			<english>Fridays</english>
+             <german>Freitag</german>
+		</trans-unit>
+        <trans-unit id="COMM_TestSaturday">
+			<english>Saturdays</english>
+			<german>Samstag</german>
+		</trans-unit>
+		<trans-unit id="COMM_TestSunday">
+			<english>Sundays</english>
+			<german>Sonntag</german>
+		</trans-unit>
+        <trans-unit id="COMM_TestEveryday">
+			<english>Every Day</english>
+			<german>Jeden Tag</german>
+		</trans-unit>
+			<trans-unit id="COMM_continuebtn">
+			<english>Continue</english>
+			<german>Weiter</german>
+		</trans-unit>
+		<trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+		<trans-unit id="COMM_SaveRemndrBtn">
+			<english>Save Reminder</english>
+			<german>Erinnerung speichern</german>
+		</trans-unit>
+
+          <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+        <trans-unit id="remindersNewRemindNotTestBloodTxt">
+			<english>After a Before Meal reading remind me to test my blood sugar if I have not tested…</english>
+			<german>Erinnere mich daran, meinen Blutzucker zu messen, wenn ich im folgenden Zeitraum nach einer „Vor dem Essen“-Messung nicht gemessen habe:...</german>
+		</trans-unit>
+        <trans-unit id="remindersNewRemindNotTestBloodTxt1">
+			<english>Within 30 minutes</english>
+			<german>Innerhalb von 30 Minuten</german>
+		</trans-unit>
+        <trans-unit id="remindersNewRemindNotTestBloodTxt2">
+			<english>Within 1 hour</english>
+			<german>Innerhalb von 1 Stunde</german>
+		</trans-unit>
+        <trans-unit id="remindersnewremindnottestbloodtxt4">
+			<english>Within 90 minutes</english>
+			<german>Innerhalb von 90 Minuten</german>
+		</trans-unit>
+        	<trans-unit id="remindersNewRemindNotTestBloodTxt3">
+			<english>Within 2 hours</english>
+			<german>Innerhalb von 2 Stunden</german>
+		</trans-unit>
+        	<trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+        <trans-unit id="remindertestsugar30minuts">
+			<english>Remind me to After a Before Meal reading remind me to test my blood sugar if I have not tested Within 30 minutes.</english>
+			<german>Erinnere mich daran, meinen Blutzucker zu messen, wenn ich innerhalb von 30 Minuten nach einer „Vor dem Essen“-Messung nicht gemessen habe.</german>
+		</trans-unit>
+
+        <trans-unit id="COMM_SaveRemndrBtn">
+			<english>Save Reminder</english>
+			<german>Erinnerung speichern</german>
+		</trans-unit>
+
+
+        	<trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+      <trans-unit id="remindertestsugar1hour">
+			<english>Remind me to After a Before Meal reading remind me to test my blood sugar if I have not tested Within 1 hour.</english>
+			<german>Erinnere mich daran, meinen Blutzucker zu messen, wenn ich innerhalb von 1 Stunde nach einer „Vor dem Essen“-Messung nicht gemessen habe.</german>
+		</trans-unit>
+        <trans-unit id="COMM_SaveRemndrBtn">
+			<english>Save Reminder</english>
+			<german>Erinnerung speichern</german>
+		</trans-unit>
+
+        <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+      <trans-unit id="remindersnewremindtestbloodtuesdaytxt2">
+			<tool_key>remindersnewremindtestbloodtuesdaytxt2</tool_key>
+			<note>null</note>
+			<english>Remind me to test my blood sugar if I have not tested within 90 minutes after a Before Meal reading.</english>
+			<german>Erinnern, meinen Blutzucker zu messen, wenn innerhalb von 90 Minuten nach einer Messung vor dem Essen nicht gemessen wurde.</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+        <trans-unit id="COMM_SaveRemndrBtn">
+			<english>Save Reminder</english>
+			<german>Erinnerung speichern</german>
+		</trans-unit>
+        <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+     <trans-unit id="remindersNewRemindTestBloodTuesdayTxt1">
+			<tool_key>remindersNewRemindTestBloodTuesdayTxt1</tool_key>
+			<note>Onyx Reminders System Map V7.0/REM 19.0</note>
+			<english>Remind me to test my blood sugar if I have not tested within 2 hours after a Before Meal reading.</english>
+			<german>Erinnere mich daran, meinen Blutzucker zu messen, wenn ich innerhalb von 2 Stunden nach einer Messung vor dem Essen nicht gemessen habe.</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+        <trans-unit id="COMM_SaveRemndrBtn">
+			<english>Save Reminder</english>
+			<german>Erinnerung speichern</german>
+		</trans-unit>
+    </TestMyBlood>
+
+    <Others>
+         <trans-unit id="COMM_newreminderbtn">
+			<english>New Reminder</english>
+             <german>Neue Erinnerung</german>
+		</trans-unit>
+         <trans-unit id="COMM_RemindTo">
+			<tool_key>COMM_RemindTo</tool_key>
+			<note>Remind me to</note>
+			<english>Remind me to...</english>
+			<german>Erinnere mich daran,...</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+        <trans-unit id="remindersNewRemindTypeCustomTxt">
+			<tool_key>remindersNewRemindTypeCustomTxt</tool_key>
+			<note>Onyx Reminders System Map V7.0/REM 4.3</note>
+			<english>Type custom reminder text</english>
+			<german>Type custom reminder text</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+
+    </Others>
+	<DeleteReminder>
+		   <trans-unit id="COMM_deletebtn">
+			<tool_key>COMM_deletebtn</tool_key>
+			<note>Delete</note>
+			<english>Delete</english>
+			<german>Löschen</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+		<trans-unit id="COMM_deletreminder">
+			<tool_key>COMM_deletreminder</tool_key>
+			<note>Delete Reminder</note>
+			<english>Delete Reminder</english>
+			<german>Erinnerung löschen</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+		<trans-unit id="remindersDelReminderTxt">
+			<tool_key>remindersDelReminderTxt</tool_key>
+			<note>Onyx Reminders System Map V7.0/REM 4.4</note>
+			<english>Are you sure you want to delete this reminder?</english>
+			<target>Möchten Sie diese Erinnerung wirklich löschen?</target>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+        <trans-unit id="COMM_cancelbtn">
+		<croatian>Otkaži</croatian>
+		<danish>Annullér</danish>
+		<dutch>Annuleer</dutch>
+		<english>Cancel</english>
+		<finnish>Peruuta</finnish>
+		<french>Annuler</french>
+		<german>Abbrechen</german>
+		<greek>Ακύρωση</greek>
+		<italian>Annulla</italian>
+		<norwegian>Avbryt</norwegian>
+		<polish>Anuluj</polish>
+		<portugal>Cancelar</portugal>
+		<slovenian>Prekliči</slovenian>
+		<spanish>Cancelar</spanish>
+		<swedish>Avbryt</swedish>
+  	</trans-unit>
+		 <trans-unit id="COMM_deletebtn">
+
+			<tool_key>COMM_deletebtn</tool_key>
+			<note>Delete</note>
+			<english>Delete</english>
+			<german>Löschen</german>
+			<reviewer>null</reviewer>
+			<reviewercomments>null</reviewercomments>
+			<mousehoverMap>null</mousehoverMap>
+			<comments>null</comments>
+		</trans-unit>
+	</DeleteReminder>
+</root>

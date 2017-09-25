@@ -1,0 +1,522 @@
+<root>
+    <ToMeter>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='ic_menu']</xpath>
+            <index>0</index>
+            <comment>My Readings</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='lblListHeaderSlideView']</xpath>
+            <index>4</index>
+              <comment> Settings</comment>
+        </Aobject>
+
+    <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and @width>0])[1]</xpath>
+            <index>0</index>
+         <comment> My meters</comment>
+     </Aobject>
+
+           <!--IOS -->
+    <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@accessibilityLabel='Menu icn 1x']</xpath>
+        <index>0</index>
+       <comment>My Readings</comment>
+    </Iobject>
+    <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='UITableViewLabel']</xpath>
+        <index>4</index>
+       <comment>Settings</comment>
+    </Iobject>
+    <Iobject>
+        <zone>WEB</zone>
+        <xpath>xpath=//*[@css='DIV.menuText' and @class='menuText' and @hidden='false' and @onScreen='true' and @top='true']</xpath>
+        <index>0</index>
+       <comment>My meters</comment>
+    </Iobject>
+    </ToMeter>
+<MeterSettings>
+    <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[5]</xpath>
+            <index>0</index>
+         <comment> My meters</comment>
+        </Aobject>
+    <Aobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+        <comment> click on plus btn</comment>
+        </Aobject>
+     <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='hiderighticon']</xpath>
+            <index>0</index>
+          <comment> Pair a meter </comment>
+        </Aobject>
+    <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='imagecontainer']/*[@text and @nodeName='DIV' and @width>0])[1]</xpath>
+            <index>0</index>
+         <comment> MAke sure your meter is off and keep it </comment>
+        </Aobject>
+     <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='phoneword']</xpath>
+            <index>0</index>
+         <comment>phoneword</comment>
+        </Aobject>
+
+     <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='pairmeterbtn']</xpath>
+            <index>0</index>
+         <comment> pairmeterbtn</comment>
+        </Aobject>
+    <Aobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+        <comment> click</comment>
+        <comment> click</comment>
+        </Aobject>
+    <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='pairmeterbtn']</xpath>
+            <index>0</index>
+        <comment> continue</comment>
+        </Aobject>
+
+       <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='imagecontainer']/*[@text and @nodeName='DIV' and @width>0])[1]</xpath>
+            <index>0</index>
+        <comment> imagecontainer </comment>
+        </Aobject>
+    <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='explanation']</xpath>
+            <index>0</index>
+        <comment> explanation </comment>
+        </Aobject>
+     <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='pairmeterbtn']</xpath>
+            <index>0</index>
+        <comment>  continue </comment>
+        </Aobject>
+    <Aobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+        <comment> click </comment>
+        </Aobject>
+    <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='pairmeterbtn']</xpath>
+            <index>0</index>
+        <comment>click on continue </comment>
+        </Aobject>
+      <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='underloading']</xpath>
+            <index>0</index>
+        <comment> connecting to meter </comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>popup</xpath>
+            <index>0</index>
+        <comment> popup </comment>
+        </Aobject>
+    <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[6]</xpath>
+            <index>0</index>
+        <comment>pairing Unsuccesfull </comment>
+        </Aobject>
+    <Aobject>
+            <zone>WEB</zone>
+            <xpath>concat</xpath>
+            <index>0</index>
+        <comment>pairing Unsuccesfull </comment>
+        </Aobject>
+
+    <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./*[@nodeName='B']]</xpath>
+            <index>0</index>
+        <comment>  Press and hold</comment>
+        </Aobject>
+     <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='A' and @width>0])[1]</xpath>
+            <index>0</index>
+        <comment> Retyping Pairing </comment>
+        </Aobject>
+     <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='A' and @width>0])[2]</xpath>
+            <index>0</index>
+        <comment> Cancel </comment>
+        </Aobject>
+      <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./preceding-sibling::*[@nodeName='A'] and ./parent::*[@text and @nodeName='DIV' and @width>0]]</xpath>
+            <index>0</index>
+        <comment>get help</comment>
+        </Aobject>
+
+     <Aobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+        <comment>get help</comment>
+        </Aobject>
+    <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./preceding-sibling::*[@nodeName='A'] and ./parent::*[@text and @nodeName='DIV' and @width>0]]</xpath>
+            <index>0</index>
+        <comment>get help</comment>
+        </Aobject>
+     <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[29]</xpath>
+            <index>0</index>
+        <comment>pop up</comment>
+        </Aobject>
+    <Aobject>
+            <zone>WEB</zone>
+            <xpath>concat</xpath>
+            <index>0</index>
+        <comment>pairing Unsuccesfull </comment>
+        </Aobject>
+     <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./*[@nodeName='U']]</xpath>
+            <index>0</index>
+        <comment>pop up</comment>
+        </Aobject>
+    <Aobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+        <comment>pop up</comment>
+     </Aobject>
+     <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@text and @nodeName='DIV' and ./parent::*[@id='dialog_gethelp']]]]</xpath>
+            <index>0</index>
+        <comment>OK</comment>
+     </Aobject>
+    <Aobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+        <comment>click cross button</comment>
+     </Aobject>
+     <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='crossbutton']</xpath>
+            <index>0</index>
+        <comment>cancel crossbutton</comment>
+     </Aobject>
+
+    <!-- IOS -->
+    <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[5]</xpath>
+            <index>0</index>
+         <comment> My meters</comment>
+        </Iobject>
+    <Iobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+        <comment> click on plus btn</comment>
+        </Iobject>
+     <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='hiderighticon']</xpath>
+            <index>0</index>
+          <comment> Pair a meter </comment>
+        </Iobject>
+    <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='imagecontainer']/*[@text and @nodeName='DIV' and @width>0])[1]</xpath>
+            <index>0</index>
+         <comment> MAke sure your meter is off and keep it </comment>
+        </Iobject>
+     <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='phoneword']</xpath>
+            <index>0</index>
+         <comment>phoneword</comment>
+        </Iobject>
+
+     <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='pairmeterbtn']</xpath>
+            <index>0</index>
+         <comment> pairmeterbtn</comment>
+        </Iobject>
+    <Iobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+        <comment> click</comment>
+        <comment> click</comment>
+        </Iobject>
+    <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='pairmeterbtn']</xpath>
+            <index>0</index>
+        <comment> continue</comment>
+        </Iobject>
+
+       <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='imagecontainer']/*[@text and @nodeName='DIV' and @width>0])[1]</xpath>
+            <index>0</index>
+        <comment> imagecontainer </comment>
+        </Iobject>
+    <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='explanation']</xpath>
+            <index>0</index>
+        <comment> explanation </comment>
+        </Iobject>
+     <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='pairmeterbtn']</xpath>
+            <index>0</index>
+        <comment>  continue </comment>
+        </Iobject>
+    <Iobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+        <comment> click </comment>
+        </Iobject>
+    <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='pairmeterbtn']</xpath>
+            <index>0</index>
+        <comment>click on continue </comment>
+        </Iobject>
+      <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='underloading']</xpath>
+            <index>0</index>
+        <comment> connecting to meter </comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>popup</xpath>
+            <index>0</index>
+        <comment> popup </comment>
+        </Iobject>
+    <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[6]</xpath>
+            <index>0</index>
+        <comment>pairing Unsuccesfull </comment>
+        </Iobject>
+    <Iobject>
+            <zone>WEB</zone>
+            <xpath>concat</xpath>
+            <index>0</index>
+        <comment>pairing Unsuccesfull </comment>
+        </Iobject>
+
+    <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./*[@nodeName='B']]</xpath>
+            <index>0</index>
+        <comment>  Press and hold</comment>
+        </Iobject>
+     <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='A' and @width>0])[1]</xpath>
+            <index>0</index>
+        <comment> Retyping Pairing </comment>
+        </Iobject>
+     <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='A' and @width>0])[2]</xpath>
+            <index>0</index>
+        <comment> Cancel </comment>
+        </Iobject>
+      <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./preceding-sibling::*[@nodeName='A'] and ./parent::*[@text and @nodeName='DIV' and @width>0]]</xpath>
+            <index>0</index>
+        <comment>get help</comment>
+        </Iobject>
+
+     <Iobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+        <comment>get help</comment>
+        </Iobject>
+    <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./preceding-sibling::*[@nodeName='A'] and ./parent::*[@text and @nodeName='DIV' and @width>0]]</xpath>
+            <index>0</index>
+        <comment>get help</comment>
+        </Iobject>
+     <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[29]</xpath>
+            <index>0</index>
+        <comment>pop up</comment>
+        </Iobject>
+    <Iobject>
+            <zone>WEB</zone>
+            <xpath>concat</xpath>
+            <index>0</index>
+        <comment>pairing Unsuccesfull </comment>
+        </Iobject>
+     <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./*[@nodeName='U']]</xpath>
+            <index>0</index>
+        <comment>pop up</comment>
+        </Iobject>
+    <Iobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+        <comment>pop up</comment>
+     </Iobject>
+     <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@text and @nodeName='DIV' and ./parent::*[@id='dialog_gethelp']]]]</xpath>
+            <index>0</index>
+        <comment>OK</comment>
+     </Iobject>
+    <Iobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+        <comment>click cross button</comment>
+     </Iobject>
+     <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='crossbutton']</xpath>
+            <index>0</index>
+        <comment>cancel crossbutton</comment>
+     </Iobject>
+
+</MeterSettings>
+<Concat>
+    <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='B' and @width>0]</xpath>
+            <index>0</index>
+        <comment>cancel</comment>
+     </Aobject>
+     <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='U' and @width>0]</xpath>
+            <index>0</index>
+        <comment>URL</comment>
+     </Aobject>
+    <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='B' and @width>0]</xpath>
+            <index>0</index>
+        <comment>cancel</comment>
+     </Iobject>
+     <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='U' and @width>0]</xpath>
+            <index>0</index>
+        <comment>URL</comment>
+     </Iobject>
+
+</Concat>
+    <PopUp>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[6]</xpath>
+            <index>0</index>
+        <comment>URL</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='multimeterslabel']</xpath>
+            <index>0</index>
+        <comment>multimeterslabel</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='A' and @width>0]</xpath>
+            <index>0</index>
+        <comment>content text</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='underloading']</xpath>
+            <index>0</index>
+        <comment> connecting to meter </comment>
+        </Aobject>
+
+        <!-- IOS-->
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[6]</xpath>
+            <index>0</index>
+        <comment>URL</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='multimeterslabel']</xpath>
+            <index>0</index>
+        <comment>multimeterslabel</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='A' and @width>0]</xpath>
+            <index>0</index>
+        <comment>content text</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='underloading']</xpath>
+            <index>0</index>
+        <comment> connecting to meter </comment>
+        </Iobject>
+
+    </PopUp>
+
+    <GoHome>
+
+<Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='custom_back_btn']</xpath>
+            <index>27</index>
+        <comment>custom_back_btn</comment>
+     </Iobject>
+ <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='custom_menu_btn']</xpath>
+            <index>0</index>
+        <comment>custom_menu_btn</comment>
+     </Iobject>
+
+     <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='YGLinedView']</xpath>
+            <index>0</index>
+        <comment>My Readings</comment>
+     </Iobject>
+ </GoHome>
+
+</root>

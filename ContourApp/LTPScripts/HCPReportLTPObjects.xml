@@ -1,0 +1,303 @@
+<root>
+ <ToHCPReport>
+      <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='ic_menu']</xpath>
+            <index>0</index>
+            <comment>ic_menu </comment>
+      </Aobject>
+     <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='lblListHeaderSlideView']</xpath>
+            <index>3</index>
+            <comment>My care </comment>
+      </Aobject>
+      <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and ./*[@nodeName='DIV']])[6]</xpath>
+            <index>0</index>
+            <comment>Reports </comment>
+      </Aobject>
+     <!--IOS-->
+      <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@accessibilityLabel='Menu icn 1x']</xpath>
+            <index>0</index>
+            <comment> Custom Menu button </comment>
+      </Iobject>
+     <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='YGLinedView' and @backgroundColor='0x000000' and @onScreen='true']</xpath>
+            <index>3</index>
+            <comment> My care </comment>
+      </Iobject>
+      <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='LI' and ./*[@nodeName='DIV']])[6]</xpath>
+            <index>0</index>
+            <comment>Reports </comment>
+      </Iobject>
+
+
+  </ToHCPReport>
+    <MainScreen>
+       <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='report-popup-text']</xpath>
+            <index>0</index>
+            <comment> report-popup-text</comment>
+      </Aobject>
+     <!--   <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='report-popup-text']</xpath>
+            <index>0</index>
+            <comment> </comment>
+      </Aobject>-->
+      <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='selectReportType']/*/*/*[@nodeName='SPAN' and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='DIV']]])[1]</xpath>
+            <index>0</index>
+            <comment>send a blood sugar </comment>
+      </Aobject>
+      <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='selectReportType']/*/*/*[@nodeName='SPAN' and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='DIV']]])[2]</xpath>
+            <index>0</index>
+            <comment>  send csv</comment>
+      </Aobject>
+       <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='selectReportType']/*/*/*[@nodeName='SPAN' and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='DIV']]])[3]</xpath>
+            <index>0</index>
+            <comment>Cancel </comment>
+      </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>7</index>
+            <comment> click</comment>
+      </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='selectReportType']/*/*/*[@nodeName='SPAN' and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='DIV']]])[1]</xpath>
+            <index>0</index>
+            <comment>send a blood sugar </comment>
+      </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='BloodsugarReportHdr']</xpath>
+            <index>0</index>
+            <comment>blood sugar report </comment>
+      </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[8]</xpath>
+            <index>0</index>
+            <comment>send a summary of your  </comment>
+      </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[10]</xpath>
+            <index>0</index>
+            <comment>Full name of patient</comment>
+      </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='recipientCount']</xpath>
+            <index>0</index>
+            <comment>recipientCount</comment>
+      </Aobject>
+       <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./following-sibling::*[./*[@nodeName='DIV']] and ./parent::*[@nodeName='DIV' and @width>0 and ./parent::*[@id='addRecipient']]]</xpath>
+            <index>0</index>
+            <comment>add recipient</comment>
+      </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='send-btn']</xpath>
+            <index>0</index>
+            <comment>send btn</comment>
+      </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment> click send btn</comment>
+      </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='send-btn']</xpath>
+            <index>0</index>
+            <comment>send btn</comment>
+      </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='inline_error_msg']</xpath>
+            <index>0</index>
+            <comment>Type the full name of the patient.</comment>
+      </Aobject>
+       <Aobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment>click</comment>
+      </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='addRecipient']</xpath>
+            <index>0</index>
+            <comment>add recipeint</comment>
+      </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@text and @nodeName='DIV'] and ./preceding-sibling::*[@id='addRec_back_icon']]</xpath>
+            <index>0</index>
+            <comment>add recipeint</comment>
+      </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment>click</comment>
+      </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='addRec_back_icon']</xpath>
+            <index>0</index>
+            <comment>back btn</comment>
+      </Aobject>
+
+
+        <!--IOS-->
+
+   <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='report-popup-text']</xpath>
+            <index>0</index>
+            <comment> report-popup-text</comment>
+      </Iobject>
+     <!--   <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='report-popup-text']</xpath>
+            <index>0</index>
+            <comment> </comment>
+      </Iobject>-->
+      <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='selectReportType']/*/*/*[@nodeName='SPAN' and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='DIV']]])[1]</xpath>
+            <index>0</index>
+            <comment>send a blood sugar </comment>
+      </Iobject>
+      <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='selectReportType']/*/*/*[@nodeName='SPAN' and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='DIV']]])[2]</xpath>
+            <index>0</index>
+            <comment>  send csv</comment>
+      </Iobject>
+       <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='selectReportType']/*/*/*[@nodeName='SPAN' and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='DIV']]])[3]</xpath>
+            <index>0</index>
+            <comment>Cancel </comment>
+      </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>7</index>
+            <comment> click</comment>
+      </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='selectReportType']/*/*/*[@nodeName='SPAN' and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='DIV']]])[1]</xpath>
+            <index>0</index>
+            <comment>send a blood sugar </comment>
+      </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='BloodsugarReportHdr']</xpath>
+            <index>0</index>
+            <comment>blood sugar report </comment>
+      </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[8]</xpath>
+            <index>0</index>
+            <comment>send a summary of your  </comment>
+      </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[10]</xpath>
+            <index>0</index>
+            <comment>Full name of patient</comment>
+      </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='recipientCount']</xpath>
+            <index>0</index>
+            <comment>recipientCount</comment>
+      </Iobject>
+       <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./following-sibling::*[./*[@nodeName='DIV']] and ./parent::*[@nodeName='DIV' and @width>0 and ./parent::*[@id='addRecipient']]]</xpath>
+            <index>0</index>
+            <comment>add recipient</comment>
+      </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='send-btn']</xpath>
+            <index>0</index>
+            <comment>send btn</comment>
+      </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment> click send btn</comment>
+      </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='send-btn']</xpath>
+            <index>0</index>
+            <comment>send btn</comment>
+      </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='inline_error_msg']</xpath>
+            <index>0</index>
+            <comment>Type the full name of the patient.</comment>
+      </Iobject>
+       <Iobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment>click</comment>
+      </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='addRecipient']</xpath>
+            <index>0</index>
+            <comment>add recipeint</comment>
+      </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and ./parent::*[@text and @nodeName='DIV'] and ./preceding-sibling::*[@id='addRec_back_icon']]</xpath>
+            <index>0</index>
+            <comment>add recipeint</comment>
+      </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>click</xpath>
+            <index>0</index>
+            <comment>click</comment>
+      </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='addRec_back_icon']</xpath>
+            <index>0</index>
+            <comment>back btn</comment>
+      </Iobject>
+
+
+    </MainScreen>
+</root>

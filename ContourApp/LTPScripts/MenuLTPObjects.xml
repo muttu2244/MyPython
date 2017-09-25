@@ -1,0 +1,997 @@
+﻿<root>
+    <MainMenuClick>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='ic_menu']</xpath>
+            <index>0</index>
+            <comment>Menu</comment>
+        </Aobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@accessibilityLabel='Menu icn 1x']</xpath>
+            <index>0</index>
+            <comment>Menu</comment>
+        </Iobject>
+    </MainMenuClick>
+
+    <MainMenu>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@id='left_drawer']/*/*[@id='lblListHeaderSlideView'])[1]</xpath>
+            <index>0</index>
+            <comment>My Readings</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@id='left_drawer']/*/*[@id='lblListHeaderSlideView'])[2]</xpath>
+            <index>0</index>
+            <comment>My Patterns</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@id='left_drawer']/*/*[@id='lblListHeaderSlideView'])[3]</xpath>
+            <index>0</index>
+            <comment>My Reminders</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@id='left_drawer']/*/*[@id='lblListHeaderSlideView'])[4]</xpath>
+            <index>0</index>
+            <comment>My Care</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@id='left_drawer']/*/*[@id='lblListHeaderSlideView'])[5]</xpath>
+            <index>0</index>
+            <comment>Settings</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@id='left_drawer']/*/*[@id='lblListHeaderSlideView'])[6]</xpath>
+            <index>0</index>
+            <comment>Help</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UITableViewLabel']</xpath>
+            <index>0</index>
+            <comment>My Readings</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UITableViewLabel']</xpath>
+            <index>1</index>
+            <comment>My Patterns</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UITableViewLabel']</xpath>
+            <index>2</index>
+            <comment>My Reminders</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UITableViewLabel']</xpath>
+            <index>3</index>
+            <comment>My Care</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UITableViewLabel']</xpath>
+            <index>4</index>
+            <comment>Settings</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UITableViewLabel']</xpath>
+            <index>5</index>
+            <comment>Help</comment>
+        </Iobject>
+    </MainMenu>
+
+    <ClickMyReadings>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@id='left_drawer']/*/*[@id='lblListHeaderSlideView'])[1]</xpath>
+            <index>0</index>
+            <comment>My Readings</comment>
+        </Aobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='YGLinedView']</xpath>
+            <index>0</index>
+            <comment>My Readings</comment>
+        </Iobject>
+    </ClickMyReadings>
+
+    <MyReadings>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='header']</xpath>
+            <index>0</index>
+            <comment>My Readings</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='title']</xpath>
+            <index>0</index>
+            <comment>My Week</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='description']</xpath>
+            <index>0</index>
+            <comment>My Week - Past 7 days</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@id='subtitle']</xpath>
+            <index>0</index>
+            <comment>My Averages</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UILabel' and @textColor='0xFFFFFF' and @backgroundColor='0x000000' and @hidden='false' and @onScreen='true' and @top='false']</xpath>
+            <index>1</index>
+            <comment>My Readings</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UILabel' and @textColor='0x84878E']</xpath>
+            <index>7</index>
+            <comment>My Week</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UILabel' and @textColor='0x84878E']</xpath>
+            <index>8</index>
+            <comment>My Week - Past 7 days</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='UILabel' and @textColor='0x84878E']</xpath>
+            <index>9</index>
+            <comment>My Averages</comment>
+        </Iobject>
+    </MyReadings>
+
+    <ClickMyPatterns>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@id='left_drawer']/*/*[@id='lblListHeaderSlideView'])[2]</xpath>
+            <index>0</index>
+            <comment>My Patterns</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='YGLinedView']</xpath>
+            <index>1</index>
+            <comment>My Patterns</comment>
+        </Iobject>
+    </ClickMyPatterns>
+
+    <MyPatterns>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='patternsHeader']</xpath>
+            <index>0</index>
+            <comment>My Patterns</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='active_count']</xpath>
+            <index>0</index>
+            <comment>Active count</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='additionalCount']</xpath>
+            <index>0</index>
+            <comment>Additional count</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='archiveCount']</xpath>
+            <index>0</index>
+            <comment>Archive count</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='patternsHeader']</xpath>
+            <index>0</index>
+            <comment>My Patterns</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='active_count']</xpath>
+            <index>0</index>
+            <comment>Active count</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='additionalCount']</xpath>
+            <index>0</index>
+            <comment>Additional count</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='archiveCount']</xpath>
+            <index>0</index>
+            <comment>Archive count</comment>
+        </Iobject>
+    </MyPatterns>
+
+    <CheckAboutPatterns>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@css='DIV.menu_icon1.pattern_notify.pattern-1']</xpath>
+            <index>0</index>
+            <comment>Check About My Patterns</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@css='DIV.menu_icon1.pattern_notify.pattern-1']</xpath>
+            <index>0</index>
+            <comment>Check About My Patterns</comment>
+        </Iobject>
+    </CheckAboutPatterns>
+
+    <AboutPatterns>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[6]</xpath>
+            <index>0</index>
+            <comment>About My Patterns</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN'])[1]</xpath>
+            <index>0</index>
+            <comment>View helpful notifications</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN'])[2]</xpath>
+            <index>0</index>
+            <comment>Learn about possible causes</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN'])[3]</xpath>
+            <index>0</index>
+            <comment>Use reminders or smart reminder plans</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN'])[4]</xpath>
+            <index>0</index>
+            <comment>Track your progress</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='patternButtonSummary']</xpath>
+            <index>0</index>
+            <comment>Continue</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[6]</xpath>
+            <index>0</index>
+            <comment>About My Patterns</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN'])[1]</xpath>
+            <index>0</index>
+            <comment>View helpful notifications</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN'])[2]</xpath>
+            <index>0</index>
+            <comment>Learn about possible causes</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN'])[3]</xpath>
+            <index>0</index>
+            <comment>Use reminders or smart reminder plans</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN'])[4]</xpath>
+            <index>0</index>
+            <comment>Track your progress</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='patternButtonSummary']</xpath>
+            <index>0</index>
+            <comment>Continue</comment>
+        </Iobject>
+    </AboutPatterns>
+
+    <NoDetectedPatterns>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='patternsHeader']</xpath>
+            <index>0</index>
+            <comment>My Patterns</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0]</xpath>
+            <index>0</index>
+            <comment>No detected patterns</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='patternsHeader']</xpath>
+            <index>0</index>
+            <comment>My Patterns</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0]</xpath>
+            <index>0</index>
+            <comment>No detected patterns</comment>
+        </Iobject>
+    </NoDetectedPatterns>
+
+    <BackButton>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[5]</xpath>
+            <index>0</index>
+            <comment>Back</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[5]</xpath>
+            <index>0</index>
+            <comment>Back</comment>
+        </Iobject>
+    </BackButton>
+
+    <ClickMenu>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[5]</xpath>
+            <index>0</index>
+            <comment>Menu</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@accessibilityLabel='Menu icn 1x']</xpath>
+            <index>0</index>
+            <comment>Menu</comment>
+        </Iobject>
+    </ClickMenu>
+
+    <ClickMyCare>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@id='left_drawer']/*/*[@id='lblListHeaderSlideView'])[4]</xpath>
+            <index>0</index>
+            <comment>My Care</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='YGLinedView']</xpath>
+            <index>3</index>
+            <comment>My Care</comment>
+        </Iobject>
+    </ClickMyCare>
+
+    <MyCare>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[5]</xpath>
+            <index>0</index>
+            <comment>My Care</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0 and ./parent::*[@id='my_therapy']]</xpath>
+            <index>0</index>
+            <comment>My Therapy</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV' and ./parent::*[@id='menu_appt']]])[1]</xpath>
+            <index>0</index>
+            <comment>Target Ranges</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='LI']]])[2]</xpath>
+            <index>0</index>
+            <comment>Day Dividers</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='LI']]])[3]</xpath>
+            <index>0</index>
+            <comment>HbA1c History</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0 and ./parent::*[@id='my_team']]</xpath>
+            <index>0</index>
+            <comment>My Team</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='LI']]])[4]</xpath>
+            <index>0</index>
+            <comment>Healthcare Team</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV' and ./parent::*[@id='menu_appt']]])[2]</xpath>
+            <index>0</index>
+            <comment>Appointments</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='LI']]])[6]</xpath>
+            <index>0</index>
+            <comment>Reports</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='LI']]])[7]</xpath>
+            <index>0</index>
+            <comment>Emergency Contacts</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[5]</xpath>
+            <index>0</index>
+            <comment>My Care</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0 and ./parent::*[@id='my_therapy']]</xpath>
+            <index>0</index>
+            <comment>My Therapy</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV' and ./parent::*[@id='menu_appt']]])[1]</xpath>
+            <index>0</index>
+            <comment>Target Ranges</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='LI']]])[2]</xpath>
+            <index>0</index>
+            <comment>Day Dividers</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='LI']]])[3]</xpath>
+            <index>0</index>
+            <comment>HbA1c History</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0 and ./parent::*[@id='my_team']]</xpath>
+            <index>0</index>
+            <comment>My Team</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='LI']]])[4]</xpath>
+            <index>0</index>
+            <comment>Healthcare Team</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV' and ./parent::*[@id='menu_appt']]])[2]</xpath>
+            <index>0</index>
+            <comment>Appointments</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='LI']]])[6]</xpath>
+            <index>0</index>
+            <comment>Reports</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='DIV' and ./parent::*[@nodeName='LI']]])[7]</xpath>
+            <index>0</index>
+            <comment>Emergency Contacts</comment>
+        </Iobject>
+
+    </MyCare>
+
+    <ClickMenuForSettings>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='lefticonbtn' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Menu</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@accessibilityLabel='Menu icn 1x']</xpath>
+            <index>0</index>
+            <comment>Menu</comment>
+        </Iobject>
+    </ClickMenuForSettings>
+
+    <ClickMySettings>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@id='left_drawer']/*/*[@id='lblListHeaderSlideView'])[5]</xpath>
+            <index>0</index>
+            <comment>Settings</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='YGLinedView']</xpath>
+            <index>4</index>
+            <comment>Settings</comment>
+        </Iobject>
+    </ClickMySettings>
+
+    <MySettings>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[5]</xpath>
+            <index>0</index>
+            <comment>Settings</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>My Meters</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='userAcountMode']</xpath>
+            <index>0</index>
+            <comment>My Account</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[3]</xpath>
+            <index>0</index>
+            <comment>App Preferences</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[4]</xpath>
+            <index>0</index>
+            <comment>Country and Language</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[5]</xpath>
+            <index>0</index>
+            <comment>Settings</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>My Meters</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='userAcountMode']</xpath>
+            <index>0</index>
+            <comment>My Account</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[3]</xpath>
+            <index>0</index>
+            <comment>App Preferences</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*/*/*[@nodeName='SPAN' and @width>0])[4]</xpath>
+            <index>0</index>
+            <comment>Country and Language</comment>
+        </Iobject>
+
+    </MySettings>
+
+    <ClickMenuForHelp>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[4]</xpath>
+            <index>0</index>
+            <comment>Menu</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[4]</xpath>
+            <index>0</index>
+            <comment>Menu</comment>
+        </Iobject>
+    </ClickMenuForHelp>
+
+    <ClickHelp>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@id='left_drawer']/*/*[@id='lblListHeaderSlideView'])[6]</xpath>
+            <index>0</index>
+            <comment>Help</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='YGLinedView']</xpath>
+            <index>5</index>
+            <comment>Help</comment>
+        </Iobject>
+    </ClickHelp>
+
+    <Help>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[5]</xpath>
+            <index>0</index>
+            <comment>Help</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='helpListview1']/*/*/*[@nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>FAQ</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='helpListview1']/*/*/*[@nodeName='SPAN' and @width>0])[2]</xpath>
+            <index>0</index>
+            <comment>App Help</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='helpListview1']/*/*/*[@nodeName='SPAN' and @width>0])[3]</xpath>
+            <index>0</index>
+            <comment>Meter Help</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='helpListview1']/*/*/*[@nodeName='SPAN' and @width>0])[4]</xpath>
+            <index>0</index>
+            <comment>Instructional Videos</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='helpListview1']/*/*/*[@nodeName='SPAN' and @width>0])[5]</xpath>
+            <index>0</index>
+            <comment>About</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[5]</xpath>
+            <index>0</index>
+            <comment>Help</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='helpListview1']/*/*/*[@nodeName='SPAN' and @width>0])[1]</xpath>
+            <index>0</index>
+            <comment>FAQ</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='helpListview1']/*/*/*[@nodeName='SPAN' and @width>0])[2]</xpath>
+            <index>0</index>
+            <comment>App Help</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='helpListview1']/*/*/*[@nodeName='SPAN' and @width>0])[3]</xpath>
+            <index>0</index>
+            <comment>Meter Help</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='helpListview1']/*/*/*[@nodeName='SPAN' and @width>0])[4]</xpath>
+            <index>0</index>
+            <comment>Instructional Videos</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='helpListview1']/*/*/*[@nodeName='SPAN' and @width>0])[5]</xpath>
+            <index>0</index>
+            <comment>About</comment>
+        </Iobject>
+    </Help>
+
+    <Help1>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='helpHome-link']</xpath>
+            <index>0</index>
+            <comment>Customer service - Ascensia URL</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='U' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Customer service - Ascensia URL</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='helpHome-link']</xpath>
+            <index>0</index>
+            <comment>Customer service - Ascensia URL</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='U' and @width>0]</xpath>
+            <index>0</index>
+            <comment>Customer service - Ascensia URL</comment>
+        </Iobject>
+    </Help1>
+
+    <ClickMyReminders>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@id='left_drawer']/*/*[@id='lblListHeaderSlideView'])[3]</xpath>
+            <index>0</index>
+            <comment>My Reminders</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='YGLinedView']</xpath>
+            <index>2</index>
+            <comment>My Reminders</comment>
+        </Iobject>
+    </ClickMyReminders>
+
+    <MyReminders1>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV'] and ./preceding-sibling::*[@nodeName='DIV'] and ./following-sibling::*[@nodeName='DIV']]</xpath>
+            <index>0</index>
+            <comment>My Reminders</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='empty_reminder']/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV']])[2]</xpath>
+            <index>0</index>
+            <comment>Tap + to create a custom reminder</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV'] and ./preceding-sibling::*[@nodeName='DIV'] and ./following-sibling::*[@nodeName='DIV']]</xpath>
+            <index>0</index>
+            <comment>My Reminders</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='empty_reminder']/*/*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@nodeName='DIV']])[2]</xpath>
+            <index>0</index>
+            <comment>Tap + to create a custom reminder</comment>
+        </Iobject>
+    </MyReminders1>
+
+    <MyReminders2>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[6]</xpath>
+            <index>0</index>
+            <comment>My Reminders</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='SPAN' and @width>0 and ./parent::*[@text and ./parent::*[./parent::*[./following-sibling::*[./*[@id='reminderContent']]]]]]</xpath>
+            <index>0</index>
+            <comment>Reminders</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='SPAN' and @width>0 and ./parent::*[@text and ./parent::*[./parent::*[./parent::*[@id='smartReminderBlock']]]]]</xpath>
+            <index>0</index>
+            <comment>Smart reminder plans</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@id='idSmartRemCreateTxt']]</xpath>
+            <index>0</index>
+            <comment>Tap + to select a smart reminder plan</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[6]</xpath>
+            <index>0</index>
+            <comment>My Reminders</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='SPAN' and @width>0 and ./parent::*[@text and ./parent::*[./parent::*[./following-sibling::*[./*[@id='reminderContent']]]]]]</xpath>
+            <index>0</index>
+            <comment>Reminders</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='SPAN' and @width>0 and ./parent::*[@text and ./parent::*[./parent::*[./parent::*[@id='smartReminderBlock']]]]]</xpath>
+            <index>0</index>
+            <comment>Smart reminder plans</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@id='idSmartRemCreateTxt']]</xpath>
+            <index>0</index>
+            <comment>Tap + to select a smart reminder plan</comment>
+        </Iobject>
+    </MyReminders2>
+
+    <MyReminders3>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[6]</xpath>
+            <index>0</index>
+            <comment>My Reminders</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='LI' and ./parent::*[./parent::*[./following-sibling::*[./*[@id='reminderContent']]]]]]</xpath>
+            <index>0</index>
+            <comment>Reminders</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@id='idRemCreateTxt']]</xpath>
+            <index>0</index>
+            <comment>Tap + to create a custom reminder</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='LI' and ./parent::*[./parent::*[./parent::*[@id='smartReminderBlock']]]]]</xpath>
+            <index>0</index>
+            <comment>Smart reminder plans</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[6]</xpath>
+            <index>0</index>
+            <comment>My Reminders</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='LI' and ./parent::*[./parent::*[./following-sibling::*[./*[@id='reminderContent']]]]]]</xpath>
+            <index>0</index>
+            <comment>Reminders</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./parent::*[@id='idRemCreateTxt']]</xpath>
+            <index>0</index>
+            <comment>Tap + to create a custom reminder</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='LI' and ./parent::*[./parent::*[./parent::*[@id='smartReminderBlock']]]]]</xpath>
+            <index>0</index>
+            <comment>Smart reminder plans</comment>
+        </Iobject>
+    </MyReminders3>
+
+    <ReminderElements>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='DIV' and @width>0 and ./*[@nodeName='DIV'] and ./*[@nodeName='SPAN']]</xpath>
+            <index>0</index>
+            <comment>Existing reminder</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./*[@nodeName='IMG']]</xpath>
+            <index>0</index>
+            <comment>Existing smart reminder plan</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='DIV' and @width>0 and ./*[@nodeName='DIV'] and ./*[@nodeName='SPAN']]</xpath>
+            <index>0</index>
+            <comment>Existing reminder</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='DIV' and @width>0 and ./*[@nodeName='IMG']]</xpath>
+            <index>0</index>
+            <comment>Existing smart reminder plan</comment>
+        </Iobject>
+    </ReminderElements>
+
+    <MyReminders4>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[6]</xpath>
+            <index>0</index>
+            <comment>My Reminders</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='LI' and ./parent::*[./parent::*[./following-sibling::*[./*[@id='reminderContent']]]]]]</xpath>
+            <index>0</index>
+            <comment>Reminders</comment>
+        </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='LI' and ./parent::*[./parent::*[./parent::*[@id='smartReminderBlock']]]]]</xpath>
+            <index>0</index>
+            <comment>Smart reminder plans</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[6]</xpath>
+            <index>0</index>
+            <comment>My Reminders</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='LI' and ./parent::*[./parent::*[./following-sibling::*[./*[@id='reminderContent']]]]]]</xpath>
+            <index>0</index>
+            <comment>Reminders</comment>
+        </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@text and @nodeName='SPAN' and @width>0 and ./parent::*[@nodeName='LI' and ./parent::*[./parent::*[./parent::*[@id='smartReminderBlock']]]]]</xpath>
+            <index>0</index>
+            <comment>Smart reminder plans</comment>
+        </Iobject>
+    </MyReminders4>
+
+    <GotoHome>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='DIV' and @width>0])[6]</xpath>
+            <index>0</index>
+            <comment>Menu</comment>
+        </Aobject>
+        <Aobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=(//*[@id='left_drawer']/*/*[@id='lblListHeaderSlideView'])[1]</xpath>
+            <index>0</index>
+            <comment>My Readings</comment>
+        </Aobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@nodeName='DIV' and @width>0])[6]</xpath>
+            <index>0</index>
+            <comment>Menu</comment>
+        </Iobject>
+        <Iobject>
+            <zone>NATIVE</zone>
+            <xpath>xpath=//*[@class='YGLinedView']</xpath>
+            <index>0</index>
+            <comment>My Readings</comment>
+        </Iobject>
+    </GotoHome>
+    </root>

@@ -1,0 +1,91 @@
+﻿<root>
+    <EmgcyMainScreen>
+        <trans-unit id="COMM_emergencybtn">
+			<english>Emergency Contacts</english>
+			<german>Notfallkontakte</german>
+		</trans-unit>
+        <trans-unit id="emergencycontactsCntctsDisplayTxt1">
+			<english>Emergency contacts are displayed for fast access when your blood sugar reaches Critical High or Critical Low levels.</english>
+			<german>Wenn Ihr Blutzuckerspiegel den Wert „Kritisch niedrig“ oder „Kritisch hoch“ erreicht, werden die Notfallkontakte angezeigt, damit Sie schnell darauf zugreifen können.</german>
+		</trans-unit>
+        <trans-unit id="emergencycontactsLocalEmgncyNoBtn1">
+			<english>Local Emergency Number</english>
+			<german>Örtliche Notrufnummer</german>
+		</trans-unit>
+    </EmgcyMainScreen>
+
+    <EmgcyScreen1>
+       <trans-unit id="COMM_emergencybtn">
+			<english>Emergency Contacts</english>
+			<german>Notfallkontakte</german>
+		</trans-unit>
+        <trans-unit id="emergencycontactsEnterLocalNoTxt">
+			<english>Enter a local emergency number.</english>
+			<german>Geben Sie die örtliche Notrufnummer ein.</german>
+		</trans-unit>
+    </EmgcyScreen1>
+
+    <EmgcyScreen2>
+       <trans-unit id="COMM_emergencybtn">
+			<english>Emergency Contacts</english>
+			<german>Notfallkontakte</german>
+		</trans-unit>
+        <trans-unit id="COMM_youremergencycontact">
+			<english>Enter your emergency contact:</english>
+			<german>Geben Sie Ihren Notfallkontakt ein:</german>
+		</trans-unit>
+        <trans-unit id="COMM_Namebtn">
+			<english>Name</english>
+			<german>Name</german>
+		</trans-unit>
+        <trans-unit id="COMM_Numberbtn">
+			<english>Number</english>
+			<german>Nummer</german>
+		</trans-unit>
+    </EmgcyScreen2>
+
+    <EmgcyScreen3>
+       <trans-unit id="COMM_emergencybtn">
+			<english>Emergency Contacts</english>
+			<german>Notfallkontakte</german>
+		</trans-unit>
+        <trans-unit id="COMM_youremergencycontact">
+			<english>Enter your emergency contact:</english>
+			<german>Geben Sie Ihren Notfallkontakt ein:</german>
+		</trans-unit>
+        <trans-unit id="emergencycontactsExistingCntctBtn">
+			<english>Choose from an existing contact</english>
+			<german>Aus bestehenden Kontakten auswählen</german>
+		</trans-unit>
+        <trans-unit id="emergencycontactsManualEntrytBtn">
+			<english>Manually enter a contact</english>
+			<german>Kontakt manuell eingeben</german>
+		</trans-unit>
+    </EmgcyScreen3>
+
+    <EmgcyScreen4>
+       <trans-unit id="COMM_emergencybtn">
+			<english>Emergency Contacts</english>
+			<german>Notfallkontakte</german>
+		</trans-unit>
+        <trans-unit id="COMM_chooseyouremergencycontact">
+			<english>Choose your emergency contact.</english>
+			<german>Wählen Sie Ihren Notfallkontakt aus.</german>
+		</trans-unit>
+    </EmgcyScreen4>
+
+    <EmgcyScreen5>
+       <trans-unit id="COMM_emergencybtn">
+			<english>Emergency Contacts</english>
+			<german>Notfallkontakte</german>
+		</trans-unit>
+        <trans-unit id="COMM_chooseyouremergencycontact">
+			<english>Choose your emergency contact.</english>
+			<german>Wählen Sie Ihren Notfallkontakt aus.</german>
+		</trans-unit>
+        <trans-unit id="emergencycontactsHomeNumberBtn">
+			<english>Home</english>
+			<german>Festnetz</german>
+		</trans-unit>
+    </EmgcyScreen5>
+</root>

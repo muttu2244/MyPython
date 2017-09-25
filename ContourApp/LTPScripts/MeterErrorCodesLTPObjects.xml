@@ -1,0 +1,273 @@
+<root>
+    <toMeterError>
+         <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@id='ic_menu']</xpath>
+        <index> 0</index>
+     <comment>ic_menu </comment>
+     </Aobject>
+    <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@id='lblListHeaderSlideView'] </xpath>
+        <index> 5</index>
+     <comment> Help</comment>
+     </Aobject>
+        <Aobject>
+        <zone>WEB</zone>
+        <xpath> xpath=(//*[@id='helpListview1']/*/*[@text and @nodeName='DIV' and ./*[@nodeName='SPAN']])[3]</xpath>
+        <index> 0</index>
+     <comment> meter help</comment>
+     </Aobject>
+ <Aobject>
+        <zone>WEB</zone>
+        <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[14]</xpath>
+        <index> 0</index>
+     <comment>meter error codes</comment>
+     </Aobject>
+
+    <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@accessibilityLabel='Menu icn 1x']</xpath>
+        <index> 0</index>
+     <comment>ic_menu </comment>
+     </Iobject>
+    <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='YGLinedView']</xpath>
+        <index> 5</index>
+     <comment> Help</comment>
+     </Iobject>
+    <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*[@id='helpListview1']/*[@nodeName='LI' and @width>0])[3]</xpath>
+            <index>0</index>
+        <comment>meter help</comment>
+    </Iobject>
+ <Iobject>
+        <zone>WEB</zone>
+        <xpath> xpath=//*[@css='LI.ui-grid-d' and @class='ui-grid-d' and @onScreen='true'] </xpath>
+        <index> 3</index>
+     <comment>meter error codes</comment>
+     </Iobject>
+
+    </toMeterError>
+<MainScreen>
+    <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='meter_help_title']</xpath>
+            <index> 0</index>
+         <comment>meter_help_title</comment>
+         </Aobject>
+    <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='INPUT' and @width>0]</xpath>
+            <index> 0</index>
+         <comment> Search meter </comment>
+         </Aobject>
+<!-- IOS -->
+
+      <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='meter_help_title']</xpath>
+            <index> 0</index>
+         <comment>meter_help_title</comment>
+         </Iobject>
+    <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='INPUT' and @width>0]</xpath>
+            <index> 0</index>
+         <comment> Search meter </comment>
+         </Iobject>
+
+
+
+
+</MainScreen>
+<Screen2>
+    <!-- <Aobject>
+            <zone>WEB</zone>
+            <xpath> xpath=//*[@id='meter_help_title']</xpath>
+            <index> 0</index>
+         <comment></comment>
+         </Aobject>-->
+    <Aobject>
+            <zone>WEB</zone>
+            <xpath> xpath=//*[@id='error_detail_title']</xpath>
+            <index> 0</index>
+         <comment> title</comment>
+         </Aobject>
+     <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='error_detail_content']</xpath>
+            <index> 0</index>
+          <comment> error_detail_content</comment>
+    </Aobject>
+    <Aobject>
+            <zone>WEB</zone>
+           <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[4]</xpath>
+            <index> 0</index>
+          <comment>Back button</comment>
+    </Aobject>
+    <Iobject>
+            <zone>WEB</zone>
+            <xpath> xpath=//*[@id='error_detail_title']</xpath>
+            <index> 0</index>
+         <comment> title</comment>
+         </Iobject>
+     <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@id='error_detail_content']</xpath>
+            <index> 0</index>
+          <comment> error details</comment>
+    </Iobject>
+    <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV'])[4]</xpath>
+            <index> 0</index>
+          <comment> Back button</comment>
+    </Iobject>
+</Screen2>
+    <Headings>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='menuText meterSubHeading']</xpath>
+            <index> 0</index>
+         <comment> testing error</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='menuText meterSubHeading']</xpath>
+            <index> 1</index>
+         <comment>Blood Sugar Result Error</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='menuText meterSubHeading']</xpath>
+            <index> 2</index>
+         <comment> communication error</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='menuText meterSubHeading']</xpath>
+            <index> 3</index>
+         <comment> Battery error</comment>
+         </Aobject>
+         <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='menuText meterSubHeading']</xpath>
+            <index> 4</index>
+         <comment> Hardware error</comment>
+         </Aobject>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='menuText meterSubHeading']</xpath>
+            <index> 5</index>
+         <comment> software error</comment>
+         </Aobject>
+        <!--          -->
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='menuText meterSubHeading']</xpath>
+            <index> 0</index>
+         <comment> testing error</comment>
+         </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='menuText meterSubHeading']</xpath>
+            <index> 1</index>
+         <comment> testing error</comment>
+         </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='menuText meterSubHeading']</xpath>
+            <index>2</index>
+         <comment> testing error</comment>
+         </Iobject>
+
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='menuText meterSubHeading']</xpath>
+            <index> 3</index>
+         <comment> testing error</comment>
+         </Iobject>
+         <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='menuText meterSubHeading']</xpath>
+            <index> 4</index>
+         <comment> testing error</comment>
+         </Iobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='menuText meterSubHeading']</xpath>
+            <index> 5</index>
+         <comment> testing error</comment>
+         </Iobject>
+
+    </Headings>
+    <ErrorCodeSingle>
+        <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='DIV' and @css='DIV.menuText' and @class='menuText']</xpath>
+            <index> 0</index>
+          <comment>  Error Headings </comment>
+    </Aobject>
+        <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@nodeName='DIV' and @css='DIV.menuText' and @class='menuText']</xpath>
+            <index> 0</index>
+          <comment>  Error Headings </comment>
+    </Iobject>
+    </ErrorCodeSingle>
+<GoHome>
+    <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[4]</xpath>
+            <index> 0</index>
+          <comment> Back btn</comment>
+    </Aobject>
+    <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[4]</xpath>
+            <index> 0</index>
+          <comment> Back btn </comment>
+    </Aobject>
+     <Aobject>
+            <zone>WEB</zone>
+            <xpath>xpath=(//*/*[@text and @nodeName='DIV' and @width>0])[4]</xpath>
+            <index>0</index>
+          <comment> Back btn </comment>
+    </Aobject>
+    <Aobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@id='lblListHeaderSlideView']</xpath>
+        <index> 0</index>
+      <comment> my Readings</comment>
+    </Aobject>
+   <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='custom_back_btn']</xpath>
+            <index> 6</index>
+          <comment> </comment>
+    </Iobject>
+    <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='custom_back_btn']</xpath>
+            <index> 6</index>
+          <comment> </comment>
+    </Iobject>
+     <Iobject>
+            <zone>WEB</zone>
+            <xpath>xpath=//*[@class='custom_menu_btn']</xpath>
+            <index> 0</index>
+          <comment> </comment>
+    </Iobject>
+    <Iobject>
+        <zone>NATIVE</zone>
+        <xpath>xpath=//*[@class='YGLinedView']</xpath>
+        <index> 0</index>
+      <comment> </comment>
+    </Iobject>
+
+</GoHome>
+
+</root>
