@@ -1,0 +1,10 @@
+
+Deleted SAVE tests
+
+1) SaveRecipeWithInvalidFormat	
+2) saveRecipewithNameandVersion
+3) SaveRecipeWithInvalidInput
+4) SaveRecipeWithEmptyInput (move to DST)
+5) SaveRecipeWithBinaryInput
+6) SaveRecipeWithCorruptInput
+7) 
