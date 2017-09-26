@@ -1,0 +1,11 @@
+https://www.youtube.com/watch?v=qO7OHoH59VQ (Selenium with Robot Framework: Basic Test Example)
+https://www.youtube.com/watch?v=r3Mg60r1Jjk (How To Configure PyCharm for Robot Framework, intellibot plugin for pycharm etc)
+
+https://www.youtube.com/watch?v=C_0PGpz5M90 (Robot Framework Tutorial 3- Running Scripts)
+
+
+
+installing robotoFw
+
+pip install robotframework
+pip install robotoframework-selenium2library
